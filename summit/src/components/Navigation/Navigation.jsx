@@ -78,7 +78,7 @@ const Navigation = () => {
 
                                 <li className="nav-item">
                                     <Link 
-                                        to="/speakers" 
+                                        to="#speakers"
                                         className="nav-link"
                                         onClick={toggleOpen}
                                     >
@@ -88,7 +88,7 @@ const Navigation = () => {
 
                                 <li className="nav-item">
                                     <Link 
-                                        to="/sponsors"
+                                        to="#sponsors"
                                         className="nav-link" 
                                         onClick={toggleNavbar}
                                     >
@@ -98,7 +98,7 @@ const Navigation = () => {
 
                                 <li className="nav-item">
                                     <Link 
-                                        to="/schedule" 
+                                        to="#schedule" 
                                         className="nav-link"
                                         onClick={toggleOpen}
                                     >

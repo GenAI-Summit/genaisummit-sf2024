@@ -20,12 +20,19 @@ import SchedulePage from "./components/pages/SchedulePage";
 
 const Home = () => (
   <>
+    <Navigation />
     <MainBanner />
     <About />
     <FunFact />
-    <Speakers />
-    <Partner />
-    <EventSchedules />
+    <div id="speakers">
+      <Speakers />
+    </div>
+    <div id="sponsors">
+      <Partner />
+    </div>
+    <div id="schedule">
+      <EventSchedules />
+    </div>
     <Footer />
   </>
 );
@@ -33,13 +40,7 @@ const Home = () => (
 function App() {
   return (
     <Router>
-      <Navigation />
-      <Routes>
-        <Route path="/" element={Home()} />
-        <Route path="/speakers" element={<SpeakersPage />} />
-        <Route path="/sponsors" element={<SponsorsPage />} />
-        <Route path="/schedule" element={<SchedulePage />} />
-      </Routes>
+      {Home()}
     </Router>
   );
 }

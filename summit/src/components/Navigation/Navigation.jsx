@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import logo from '../../assets/images/logo.png';
- 
+import { Link as ScrollLink } from 'react-scroll';
+
 const Navigation = () => {
     const [collapsed, setCollapsed] = useState(true);
     const [isOpen, setIsOpen] = useState(false);
@@ -69,7 +70,10 @@ const Navigation = () => {
                                     <Link 
                                         exact="true" 
                                         to="/" 
-                                        onClick={toggleOpen} 
+                                        onClick={(e) => {
+                                            toggleOpen();
+                                            window.scrollTo({ top: 0, behavior: 'smooth' });
+                                        }}
                                         className="nav-link"
                                     >
                                         Home
@@ -77,33 +81,45 @@ const Navigation = () => {
                                 </li>
 
                                 <li className="nav-item">
-                                    <Link 
-                                        to="#speakers"
-                                        className="nav-link"
-                                        onClick={toggleOpen}
+                                    <ScrollLink
+                                        activeClass="active"
+                                        to="speakers"
+                                        spy={true}
+                                        smooth={true}
+                                        offset={-70}
+                                        duration={500}
+                                        className="scroll-link"
                                     >
                                         Speakers
-                                    </Link>
+                                    </ScrollLink>
                                 </li>
 
                                 <li className="nav-item">
-                                    <Link 
-                                        to="#sponsors"
-                                        className="nav-link" 
-                                        onClick={toggleNavbar}
+                                    <ScrollLink 
+                                        activeClass="active"
+                                        to="sponsors"
+                                        spy={true}
+                                        smooth={true}
+                                        offset={-70}
+                                        duration={500}
+                                        className="scroll-link"
                                     >
                                         Sponsor
-                                    </Link>
+                                    </ScrollLink>
                                 </li>
 
                                 <li className="nav-item">
-                                    <Link 
-                                        to="#schedule" 
-                                        className="nav-link"
-                                        onClick={toggleOpen}
+                                    <ScrollLink 
+                                        activeClass="active"
+                                        to="schedule"
+                                        spy={true}
+                                        smooth={true}
+                                        offset={-70}
+                                        duration={500}
+                                        className="scroll-link"
                                     >
                                         Schedule
-                                    </Link>
+                                    </ScrollLink>
                                 </li>
 
                                 <li className="nav-item">

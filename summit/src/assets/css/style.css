@@ -487,6 +487,10 @@ Preloader CSS
 /*================================================
 Navbar CSS
 =================================================*/
+.scroll-link {
+  cursor: pointer;
+}
+
 .elkevent-mobile-nav {
   display: none;
 }

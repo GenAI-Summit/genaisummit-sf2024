@@ -23,7 +23,7 @@ const Speakers = () => {
                             </div>
 
                             <div className="speakers-content">
-                                <h3><Link to="#">Jerry Liu</Link></h3>
+                                <h3>Jerry Liu</h3>
                                 <span>Co-founder & CEO @Llama Index </span>
 
                                 <ul className="social">
@@ -57,7 +57,7 @@ const Speakers = () => {
                             </div>
 
                             <div className="speakers-content">
-                                <h3><Link to="#">CC Gong</Link></h3>
+                                <h3>CC Gong</h3>
                                 <span>Founder @Montage</span>
 
                                 <ul className="social">
@@ -86,7 +86,7 @@ const Speakers = () => {
                             </div>
 
                             <div className="speakers-content">
-                                <h3><Link to="#">Yangqing Jia</Link></h3>
+                                <h3>Yangqing Jia</h3>
                                 <span> VP @AlibabaGroup </span>
 
                                 <ul className="social">
@@ -110,39 +110,39 @@ const Speakers = () => {
                         </div>
                     </div>
 
-                    {/* <div className="col-lg-3 col-sm-6">
+                    <div className="col-lg-3 col-sm-6">
                         <div className="single-speakers-box">
                             <div className="speakers-image">
                                 <img 
-                                    src={require("../../assets/images/speakers2.jpg")} 
+                                    src={require("../../assets/images/owyang.jpeg")} 
                                     alt="speaker" 
                                 />
                             </div>
 
                             <div className="speakers-content">
-                                <h3><Link to="#">Jeremiah Ouyang</Link></h3>
-                                <span> KOL with 300K followers </span>
+                                <h3>Jeremiah Owyang</h3>
+                                <span> Founder @Catalyst Companies </span>
 
                                 <ul className="social">
                                     <li>
-                                        <a target="_blank" rel="noopener noreferrer" href="">
+                                        <a target="_blank" rel="noopener noreferrer" href="https://web-strategist.com/blog/">
                                             <i className="icofont-web"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a target="_blank" rel="noopener noreferrer" href="">
+                                        <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/jowyang">
                                             <i className="icofont-twitter"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a target="_blank" rel="noopener noreferrer" href="">
+                                        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jowyang/">
                                             <i className="icofont-linkedin"></i>
                                         </a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
-                    </div> */}
+                    </div>
 
                     {/* <div className="col-lg-3 col-sm-6">
                         <div className="single-speakers-box">
@@ -154,7 +154,7 @@ const Speakers = () => {
                             </div>
 
                             <div className="speakers-content">
-                                <h3><Link to="#">Lima</Link></h3>
+                                <h3>Lima</h3>
                                 <span>xxx</span>
 
                                 <ul className="social">

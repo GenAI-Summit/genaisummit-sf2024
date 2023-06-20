@@ -19,7 +19,7 @@ const Partner = () => {
                 
                 <div className="row">
                     <div className="partner-title platinum-sponsor">
-                        <PlatinumSponsors />
+                        <DiamondSponsors />
                     </div>
                     <div className="col-lg-3 col-md-3">
                         <div className="partner-item">
@@ -62,7 +62,7 @@ const Partner = () => {
                     </div>
 
                     <div className="partner-title gold-sponsor">
-                        <DiamondSponsors />
+                        <PlatinumSponsors />
                     </div>
 
                     <div className="col-lg-3 col-md-3">

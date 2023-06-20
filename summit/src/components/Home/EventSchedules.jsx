@@ -1,27 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-// import lax from 'lax.js';
 import LaxDiv from '../Shared/LaxDiv';
 import Events from '../schedule/Events';
 
 const EventSchedules = () => {
-    // useEffect(() => {
-    //     lax.setup()
-    
-    //     const laxUpdate = () => {
-    //         lax.update(window.scrollY)
-    //     }
-
-    //     document.addEventListener('scroll', laxUpdate, false)
-    
-    //     lax.update(window.scrollY)
-
-    //     // Cleanup
-    //     return () => {
-    //         document.removeEventListener('scroll', laxUpdate, false)
-    //     }
-    // }, [])
-
     const openTabSection = (evt, tabNmae) => {
         let i, tabcontent, tablinks;
         tabcontent = document.getElementsByClassName("tabs_item");

@@ -1,26 +1,6 @@
 import React, { useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import lax from 'lax.js';
-import LaxDiv from '../Shared/LaxDiv';
 
-const Pricing = () => {
-	// useEffect(() => {
-    //     lax.setup()
-    
-    //     const laxUpdate = () => {
-    //         lax.update(window.scrollY)
-    //     }
-
-    //     document.addEventListener('scroll', laxUpdate, false)
-    
-    //     lax.update(window.scrollY)
-
-    //     // Cleanup
-    //     return () => {
-    //         document.removeEventListener('scroll', laxUpdate, false)
-    //     }
-    // }, [])
-
+const SponsorPackage = () => {
     return (
         <section className="pricing-area ptb-120">
             <div className="container">
@@ -71,4 +51,4 @@ const Pricing = () => {
     );
 }
  
-export default Pricing;
+export default SponsorPackage;

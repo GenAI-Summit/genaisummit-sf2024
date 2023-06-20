@@ -1,26 +1,8 @@
 import React, { useEffect } from 'react';
-// import lax from 'lax.js';
 import { Link } from 'react-router-dom';
 import LaxDiv from '../Shared/LaxDiv';
 
 const Speakers = () => {
-	// useEffect(() => {
-    //     lax.setup()
-    
-    //     const laxUpdate = () => {
-    //         lax.update(window.scrollY)
-    //     }
-
-    //     document.addEventListener('scroll', laxUpdate, false)
-    
-    //     lax.update(window.scrollY)
-
-    //     // Cleanup
-    //     return () => {
-    //         document.removeEventListener('scroll', laxUpdate, false)
-    //     }
-    // }, [])
-
     return (
         <section className="speakers-area-two ptb-120">
             <div className="container">

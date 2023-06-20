@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-// import lax from 'lax.js';
 import PlatinumSponsors from '../LaxButton/PlatinumSponsors';
 import GoldSponsors from '../LaxButton/GoldSponsors';
 import DiamondSponsors from '../LaxButton/DiamondSponsors';
@@ -8,15 +7,6 @@ import SilverSponsors from '../LaxButton/SilverSponsors';
 import LaxDiv from '../Shared/LaxDiv';
 
 const Partner = () => {
-
-    // useEffect(() => {
-    //     lax.setup();
-    //     document.addEventListener('scroll', function(x) {
-    //         lax.update(window.scrollY);
-    //     }, false);
-    //     lax.update(window.scrollY);
-    // }, []);
-
     return (
         <section className="partner-area ptb-120">
             <div className="container">

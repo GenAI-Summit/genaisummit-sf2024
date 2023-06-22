@@ -2951,33 +2951,6 @@ Partner CSS
   text-align: center;
 }
 
-.partner-area .partner-item a {
-  position: relative;
-}
-
-.partner-area .partner-item a img {
-  width: unset !important;
-  display: inline-block !important;
-}
-
-.partner-area .partner-item a img:last-child {
-  position: absolute;
-  left: 0;
-  top: 30px;
-  right: 0;
-  margin: 0 auto;
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.partner-area .partner-item:hover a img:last-child {
-  opacity: 1;
-  visibility: visible;
-  top: 0;
-}
-
 .partner-area .border {
   border: .3px solid #eeeeee !important;
   margin-top: 40px;

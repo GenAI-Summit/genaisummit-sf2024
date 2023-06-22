@@ -18,42 +18,12 @@ const Partner = () => {
                 </div>
                 
                 <div className="row">
-                    <div className="partner-title platinum-sponsor">
+                    <div className="partner-title">
                         <DiamondSponsors />
                     </div>
                     <div className="col-lg-3 col-md-3">
                         <div className="partner-item">
-                            <Link to="/sponsors" target="_blank">
-                                <img src={require("../../assets/images/platinum-partner1.png")} alt="Partner Logo" />
-                                <img src={require("../../assets/images/platinum-partner1.png")} alt="Partner Logo" />
-                            </Link>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-3 col-md-3">
-                        <div className="partner-item">
-                            <Link to="/sponsors" target="_blank">
-                                <img src={require("../../assets/images/platinum-partner2.png")} alt="Partner Logo" />
-                                <img src={require("../../assets/images/platinum-partner2.png")} alt="Partner Logo" />
-                            </Link>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-3 col-md-3">
-                        <div className="partner-item">
-                            <Link to="/sponsors" target="_blank">
-                                <img src={require("../../assets/images/platinum-partner3.png")} alt="Partner Logo" />
-                                <img src={require("../../assets/images/platinum-partner3.png")} alt="Partner Logo" />
-                            </Link>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-3 col-md-3">
-                        <div className="partner-item">
-                            <Link to="/sponsors" target="_blank">
-                                <img src={require("../../assets/images/platinum-partner4.png")} alt="Partner Logo" />
-                                <img src={require("../../assets/images/platinum-partner4.png")} alt="Partner Logo" />
-                            </Link>
+                            <img src={require("../../assets/images/awslogo.png")} alt="Partner Logo" />
                         </div>
                     </div>
 
@@ -61,43 +31,13 @@ const Partner = () => {
                         <div className="border"></div>
                     </div>
 
-                    <div className="partner-title gold-sponsor">
+                    <div className="partner-title">
                         <PlatinumSponsors />
                     </div>
 
                     <div className="col-lg-3 col-md-3">
                         <div className="partner-item">
-                            <Link to="/sponsors" target="_blank">
-                                <img src={require("../../assets/images/gold-partner1.png")} alt="Partner Logo" />
-                                <img src={require("../../assets/images/gold-partner1.png")} alt="Partner Logo" />
-                            </Link>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-3 col-md-3">
-                        <div className="partner-item">
-                            <Link to="/sponsors" target="_blank">
-                                <img src={require("../../assets/images/gold-partner2.png")} alt="Partner Logo" />
-                                <img src={require("../../assets/images/gold-partner2.png")} alt="Partner Logo" />
-                            </Link>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-3 col-md-3">
-                        <div className="partner-item">
-                            <Link to="/sponsors" target="_blank">
-                                <img src={require("../../assets/images/gold-partner3.png")} alt="Partner Logo" />
-                                <img src={require("../../assets/images/gold-partner3.png")} alt="Partner Logo" />
-                            </Link>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-3 col-md-3">
-                        <div className="partner-item">
-                            <Link to="/sponsors" target="_blank">
-                                <img src={require("../../assets/images/gold-partner4.png")} alt="Partner Logo" />
-                                <img src={require("../../assets/images/gold-partner4.png")} alt="Partner Logo" />
-                            </Link>
+                            <img src={require("../../assets/images/googlecloudlogo.png")} alt="Partner Logo" />
                         </div>
                     </div>
 
@@ -105,42 +45,13 @@ const Partner = () => {
                         <div className="border"></div>
                     </div>
 
-                    <div className="partner-title platinum-sponsor">
+                    <div className="partner-title">
                         <GoldSponsors />
                     </div>
-                    <div className="col-lg-3 col-md-3">
-                        <div className="partner-item">
-                            <Link to="/sponsors" target="_blank">
-                                <img src={require("../../assets/images/platinum-partner1.png")} alt="Partner Logo" />
-                                <img src={require("../../assets/images/platinum-partner1.png")} alt="Partner Logo" />
-                            </Link>
-                        </div>
-                    </div>
 
                     <div className="col-lg-3 col-md-3">
                         <div className="partner-item">
-                            <Link to="/sponsors" target="_blank">
-                                <img src={require("../../assets/images/platinum-partner2.png")} alt="Partner Logo" />
-                                <img src={require("../../assets/images/platinum-partner2.png")} alt="Partner Logo" />
-                            </Link>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-3 col-md-3">
-                        <div className="partner-item">
-                            <Link to="/sponsors" target="_blank">
-                                <img src={require("../../assets/images/platinum-partner3.png")} alt="Partner Logo" />
-                                <img src={require("../../assets/images/platinum-partner3.png")} alt="Partner Logo" />
-                            </Link>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-3 col-md-3">
-                        <div className="partner-item">
-                            <Link to="/sponsors" target="_blank">
-                                <img src={require("../../assets/images/platinum-partner4.png")} alt="Partner Logo" />
-                                <img src={require("../../assets/images/platinum-partner4.png")} alt="Partner Logo" />
-                            </Link>
+                            <img src={require("../../assets/images/wagmi33logo.webp")} alt="Partner Logo" />
                         </div>
                     </div>
 
@@ -148,43 +59,13 @@ const Partner = () => {
                         <div className="border"></div>
                     </div>
 
-                    <div className="partner-title gold-sponsor">
+                    <div className="partner-title">
                         <SilverSponsors />
                     </div>
 
                     <div className="col-lg-3 col-md-3">
                         <div className="partner-item">
-                            <Link to="/sponsors" target="_blank">
-                                <img src={require("../../assets/images/gold-partner1.png")} alt="Partner Logo" />
-                                <img src={require("../../assets/images/gold-partner1.png")} alt="Partner Logo" />
-                            </Link>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-3 col-md-3">
-                        <div className="partner-item">
-                            <Link to="/sponsors" target="_blank">
-                                <img src={require("../../assets/images/gold-partner2.png")} alt="Partner Logo" />
-                                <img src={require("../../assets/images/gold-partner2.png")} alt="Partner Logo" />
-                            </Link>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-3 col-md-3">
-                        <div className="partner-item">
-                            <Link to="/sponsors" target="_blank">
-                                <img src={require("../../assets/images/gold-partner3.png")} alt="Partner Logo" />
-                                <img src={require("../../assets/images/gold-partner3.png")} alt="Partner Logo" />
-                            </Link>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-3 col-md-3">
-                        <div className="partner-item">
-                            <Link to="/sponsors" target="_blank">
-                                <img src={require("../../assets/images/gold-partner4.png")} alt="Partner Logo" />
-                                <img src={require("../../assets/images/gold-partner4.png")} alt="Partner Logo" />
-                            </Link>
+                            <img src={require("../../assets/images/espeedcapitallogo.jpeg")} alt="Partner Logo" />
                         </div>
                     </div>
                 </div>

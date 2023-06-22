@@ -2666,37 +2666,6 @@ Partner CSS
     }
     .partner-item {
         text-align: center;
-
-        a {
-            position: relative;
-
-            img {
-                width: unset !important;
-                display: inline-block !important;
-
-                &:last-child {
-                    position: absolute;
-                    left: 0;
-                    top: 30px;
-                    right: 0;
-                    margin: 0 auto;
-                    opacity: 0;
-                    visibility: hidden;
-                    transition: $transition;
-                }
-            }
-        }
-        &:hover {
-            a {
-                img {
-                    &:last-child {
-                        opacity: 1;
-                        visibility: visible;
-                        top: 0;
-                    }
-                }
-            }
-        }
     }
     .border {
         border: .3px solid #eeeeee !important;

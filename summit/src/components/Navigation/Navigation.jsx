@@ -123,7 +123,7 @@ const Navigation = () => {
                                 </li>
 
                                 <li className="nav-item">
-                                    <a href="https://www.gptdao.ai/get-started" target="_blank" rel="noopener noreferrer" className="nav-link">Contact</a>
+                                    <a href="https://linktr.ee/gptdao" target="_blank" rel="noopener noreferrer" className="nav-link">Contact</a>
                                 </li>
                             </ul>
 

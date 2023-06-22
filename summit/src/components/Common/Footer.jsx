@@ -18,7 +18,7 @@ const Footer = () => {
                             </p>
                             
                             
-                            <a href="https://www.gptdao.ai/get-started" target="_blank" rel="noopener noreferrer" className="contact-authority">
+                            <a href="https://linktr.ee/gptdao" target="_blank" rel="noopener noreferrer" className="contact-authority">
                                 <i className="icofont-phone"></i> Contact Us
                             </a>
                         </div>

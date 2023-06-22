@@ -570,7 +570,7 @@
   }
   .partner-area .partner-title h3 {
     font-size: 18px;
-    font-weight: 600;
+    /* font-weight: 600; */
   }
   .single-blog-post .blog-post-content {
     padding: 20px;

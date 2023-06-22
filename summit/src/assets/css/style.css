@@ -2935,9 +2935,9 @@ Partner CSS
 
 .partner-area .partner-title h3 {
   font-size: 24px;
-  font-weight: 900;
+  /* font-weight: 900; */
   margin-bottom: 0;
-  color: #FF2D55;
+  color: #c8c8c8;
   text-transform: uppercase;
   -webkit-transform: translateX(0) !important;
           transform: translateX(0) !important;
@@ -2945,10 +2945,6 @@ Partner CSS
 
 .partner-area .partner-title.gold-sponsor h3 {
   color: #FF2D55;
-}
-
-.partner-area .partner-item {
-  text-align: center;
 }
 
 .partner-area .border {

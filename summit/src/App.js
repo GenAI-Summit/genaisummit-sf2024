@@ -14,9 +14,6 @@ import FunFact from './components/Home/FunFact';
 import Partner from './components/Home/Partner';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navigation from "./components/Navigation/Navigation";
-import SpeakersPage from "./components/pages/SpeakersPage";
-import SponsorsPage from "./components/pages/SponsorsPage";
-import SchedulePage from "./components/pages/SchedulePage";
 
 const Home = () => (
   <>

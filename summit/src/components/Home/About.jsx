@@ -10,6 +10,7 @@ const About = () => {
                             <span>Join The Event</span>
                             <h2><b>Build</b> the Future</h2>
                             <p>Join us in exploring future possibilities at the Generative AI Silicon Valley Summit 2023. This first large-scale generative AI conference in Silicon Valley will be held on September 23, 2023, at the Mission City Ballroom of the Santa Clara Convention Center. The event is hosted by GPT DAO, a community spontaneously formed by developers, entrepreneurs, and enthusiasts passionate about generative AI.</p>
+                            <p>We are at the dawn of a new technological wave, with generative AI revealing a future of infinite possibilities. With over 1000 attendees, 50+ startups, and more than 500 developers, the summit brings together the world's most cutting-edge entrepreneurial teams and investment institutions to jointly explore the future of this field.</p>
                         </div>
                     </div>
 

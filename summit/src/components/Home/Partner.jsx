@@ -18,55 +18,32 @@ const Partner = () => {
                 </div>
                 
                 <div className="row">
-                    <div className="partner-title">
-                        <DiamondSponsors />
-                    </div>
                     <div className="col-lg-3 col-md-3">
-                        <div className="partner-item">
-                            <img src={require("../../assets/images/awslogo.png")} alt="Partner Logo" />
+                        <div className="partner-title">
+                            <DiamondSponsors />
                         </div>
-                    </div>
-
-                    <div className="col-lg-12">
-                        <div className="border"></div>
-                    </div>
-
-                    <div className="partner-title">
-                        <PlatinumSponsors />
+                        <img src={require("../../assets/images/awslogo.jpeg")} alt="Partner Logo" />
                     </div>
 
                     <div className="col-lg-3 col-md-3">
-                        <div className="partner-item">
-                            <img src={require("../../assets/images/googlecloudlogo.png")} alt="Partner Logo" />
+                        <div className="partner-title">
+                            <PlatinumSponsors />
                         </div>
-                    </div>
-
-                    <div className="col-lg-12">
-                        <div className="border"></div>
-                    </div>
-
-                    <div className="partner-title">
-                        <GoldSponsors />
+                        <img src={require("../../assets/images/googlecloudlogo.png")} alt="Partner Logo" />
                     </div>
 
                     <div className="col-lg-3 col-md-3">
-                        <div className="partner-item">
-                            <img src={require("../../assets/images/wagmi33logo.webp")} alt="Partner Logo" />
+                        <div className="partner-title">
+                            <GoldSponsors />
                         </div>
-                    </div>
-
-                    <div className="col-lg-12">
-                        <div className="border"></div>
-                    </div>
-
-                    <div className="partner-title">
-                        <SilverSponsors />
+                        <img src={require("../../assets/images/wagmi33.webp")} alt="Partner Logo" />
                     </div>
 
                     <div className="col-lg-3 col-md-3">
-                        <div className="partner-item">
-                            <img src={require("../../assets/images/espeedcapitallogo.jpeg")} alt="Partner Logo" />
+                        <div className="partner-title">
+                            <SilverSponsors />
                         </div>
+                        <img src={require("../../assets/images/espeedcapitallogo.jpeg")} alt="Partner Logo" />
                     </div>
                 </div>
             </div>

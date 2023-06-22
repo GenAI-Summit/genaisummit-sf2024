@@ -2651,7 +2651,7 @@ Partner CSS
         h3 {
             font: {
                 size: 24px;
-                weight: 900;
+                // weight: 900;
             }
             margin-bottom: 0;
             color: $main-color;
@@ -2663,9 +2663,6 @@ Partner CSS
                 color: $green-light-color;
             }
         }
-    }
-    .partner-item {
-        text-align: center;
     }
     .border {
         border: .3px solid #eeeeee !important;

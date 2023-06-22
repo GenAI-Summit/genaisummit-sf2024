@@ -15,7 +15,7 @@ const GoldSponsors = () => {
     }, []);
 
     return (
-        <h3 className="lax" data-lax-preset="driftLeft" ref={elRef}>Diamond Sponsors</h3>
+        <h3 className="lax" data-lax-preset="driftLeft" ref={elRef}>Diamond</h3>
     );
 }
 

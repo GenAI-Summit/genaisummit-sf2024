@@ -2953,6 +2953,24 @@ Partner CSS
   margin-bottom: 40px;
 }
 
+.sponsor-div {
+  margin-bottom: 20px;
+}
+
+.sponsor-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sponsor-logo img {
+  height: 50px;
+  width: 80%;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
 /*================================================
 Blog CSS
 =================================================*/

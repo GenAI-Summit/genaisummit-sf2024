@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { SiLinktree } from 'react-icons/si';
 
 const Footer = () => {
     return (
@@ -31,18 +32,23 @@ const Footer = () => {
                             
                             <ul className="social-links">
                                 <li>
-                                    <Link to="https://www.gptdao.ai/" className="facebook" target="_blank">
-                                        <i className="icofont-web"></i>
+                                    <Link to="https://linktr.ee/gptdao" className="twitter" target="_blank">
+                                       <SiLinktree />
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="https://twitter.com/GPTDAOCN" className="twitter" target="_blank">
+                                    <Link to="https://twitter.com/GPTDAOGLOBAL" className="twitter" target="_blank">
                                         <i className="icofont-twitter"></i>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link to="https://www.linkedin.com/company/gptdao" className="linkedin" target="_blank">
                                         <i className="icofont-linkedin"></i>
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="https://www.gptdao.ai/" className="facebook" target="_blank">
+                                        <i className="icofont-web"></i>
                                     </Link>
                                 </li>
                             </ul>

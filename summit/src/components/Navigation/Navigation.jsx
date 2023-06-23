@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
-import logo from '../../assets/images/logo.png';
+import logo from '../../assets/images/gptdao.png';
 import { Link as ScrollLink } from 'react-scroll';
 
 const Navigation = () => {
@@ -46,23 +46,10 @@ const Navigation = () => {
             <div id="navbar" className="elkevent-nav">
                 <nav className="navbar navbar-expand-md navbar-light">
                     <div className="container">
-                        {/* <Link className="navbar-brand" to="/">
-                            <img src={logo} alt="logo" />
-                        </Link> */}
+                        {/* <div className="navbar-brand" to="/"> */}
+                            <img  className="navbar-brand" src={logo} alt="logo" style={{ height: '50px' }} /> 
+                        {/* </div> */}
                         <h2 className='text-white'>GPTDAO</h2>
-
-                        {/* <button 
-                            onClick={toggleNavbar} 
-                            className={classTwo}
-                            type="button" 
-                            data-toggle="collapse" 
-                            data-target="#navbarSupportedContent" 
-                            aria-controls="navbarSupportedContent" 
-                            aria-expanded="false" 
-                            aria-label="Toggle navigation"
-                        >
-                            <span className="navbar-toggler-icon"></span>
-                        </button> */}
 
                         <div className={classOne} id="navbarSupportedContent">
                             <ul className="navbar-nav ms-auto">

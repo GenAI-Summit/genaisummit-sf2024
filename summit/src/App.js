@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './assets/css/bootstrap.min.css';
 import './assets/css/icofont.min.css';
 import './assets/css/animate.min.css';
@@ -12,8 +13,8 @@ import EventSchedules from './components/Home/EventSchedules';
 import Footer from './components/Common/Footer';
 import FunFact from './components/Home/FunFact';
 import Partner from './components/Home/Partner';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navigation from "./components/Navigation/Navigation";
+import TwitterFeed from './components/Media/TwitterFeed';
 
 const Home = () => (
   <>
@@ -30,6 +31,7 @@ const Home = () => (
     <div id="schedule">
       <EventSchedules />
     </div>
+    <TwitterFeed />
     <Footer />
   </>
 );

@@ -18,32 +18,42 @@ const Partner = () => {
                 </div>
                 
                 <div className="row">
-                    <div className="col-lg-3 col-md-3">
+                    <div className="col-lg-3 col-md-3 sponsor-div">
                         <div className="partner-title">
                             <DiamondSponsors />
                         </div>
-                        <img src={require("../../assets/images/awslogo.jpeg")} alt="Partner Logo" />
+                        <div className="sponsor-logo">
+                            <img src={require("../../assets/images/awslogo.jpeg")} alt="Partner Logo" />
+                        </div>
                     </div>
 
-                    <div className="col-lg-3 col-md-3">
+                    <div className="col-lg-3 col-md-3 sponsor-div">
                         <div className="partner-title">
                             <PlatinumSponsors />
                         </div>
-                        <img src={require("../../assets/images/googlecloudlogo.png")} alt="Partner Logo" />
+                        <div className="sponsor-logo">
+                            <img src={require("../../assets/images/googlecloudlogo.png")} alt="Partner Logo"/>
+                        </div>
                     </div>
 
-                    <div className="col-lg-3 col-md-3">
+                    <div className="col-lg-3 col-md-3 sponsor-div">
                         <div className="partner-title">
                             <GoldSponsors />
                         </div>
-                        <img src={require("../../assets/images/wagmi33.webp")} alt="Partner Logo" />
+                        <div className="sponsor-logo">
+                            <img src={require("../../assets/images/wagmi.png")} alt="Partner Logo" />
+                            <img src={require("../../assets/images/swft.png")} alt="Partner Logo" />
+                        </div>
                     </div>
 
-                    <div className="col-lg-3 col-md-3">
+                    <div className="col-lg-3 col-md-3 sponsor-div">
                         <div className="partner-title">
                             <SilverSponsors />
                         </div>
-                        <img src={require("../../assets/images/espeedcapitallogo.jpeg")} alt="Partner Logo" />
+                        <div className="sponsor-logo">
+                            <img src={require("../../assets/images/espeedlogo.jpg")} alt="Partner Logo" />
+                            <img src={require("../../assets/images/nftpath.png")} alt="Partner Logo" />
+                        </div>
                     </div>
                 </div>
             </div>

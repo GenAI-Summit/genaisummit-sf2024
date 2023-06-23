@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8c8879f0.css",
-    "main.js": "/static/js/main.05355c0b.js",
+    "main.css": "/static/css/main.06edeecd.css",
+    "main.js": "/static/js/main.e3b44625.js",
     "static/js/787.16e64372.chunk.js": "/static/js/787.16e64372.chunk.js",
     "static/media/main-bg1.mp4": "/static/media/main-bg1.a2703484bb9eee7d0c2e.mp4",
     "static/media/main-bg1.jpg": "/static/media/main-bg1.feafeadc13b9c985725e.jpg",
@@ -11,28 +11,30 @@
     "static/media/icofont.woff": "/static/media/icofont.dad3accba068281878f1.woff",
     "static/media/icofont.woff2": "/static/media/icofont.9c33516aab48c61e3081.woff2",
     "static/media/main-bg3.jpg": "/static/media/main-bg3.c2b9283388d541b857dd.jpg",
+    "static/media/wagmi.png": "/static/media/wagmi.5e796329ac86e293ab54.png",
     "static/media/color-bg.jpg": "/static/media/color-bg.80f00b958e117b2698ca.jpg",
     "static/media/buy-tickets-bg.jpg": "/static/media/buy-tickets-bg.a32b0a9875cdf51ce583.jpg",
     "static/media/main-bg2.jpg": "/static/media/main-bg2.2820e22adfd4caefd309.jpg",
+    "static/media/swft.png": "/static/media/swft.b124a12392ca0f849934.png",
     "static/media/ccgong.jpeg": "/static/media/ccgong.6d65cbf53321cbfed858.jpeg",
     "static/media/yangqingjia.jpeg": "/static/media/yangqingjia.d6e5abc0cd3a130c492d.jpeg",
     "static/media/funfacts-bg.avif": "/static/media/funfacts-bg.f482d9a677db6c4935bc.avif",
+    "static/media/gptdao.png": "/static/media/gptdao.3da91a5a8a9c62561990.png",
     "static/media/googlecloudlogo.png": "/static/media/googlecloudlogo.698f427286a2945d25c2.png",
     "static/media/jerryliu.jpeg": "/static/media/jerryliu.846e2c9919eedcd1143a.jpeg",
     "static/media/awslogo.jpeg": "/static/media/awslogo.99a872fcbe01e880da5c.jpeg",
     "static/media/lianminzheng.jpeg": "/static/media/lianminzheng.608b68e32c61b769cc3a.jpeg",
-    "static/media/espeedcapitallogo.jpeg": "/static/media/espeedcapitallogo.1eb23fb3d5a2342ce89a.jpeg",
-    "static/media/wagmi33.webp": "/static/media/wagmi33.5de85dd64180e0317c17.webp",
+    "static/media/espeedlogo.jpg": "/static/media/espeedlogo.9d31cfffa8fb6d27d957.jpg",
+    "static/media/nftpath.png": "/static/media/nftpath.192ec775085e2155c15d.png",
     "static/media/bg.jpg": "/static/media/bg.021d5f4d635a6b647a8b.jpg",
     "static/media/owyang.jpeg": "/static/media/owyang.8673946e2c919e973e01.jpeg",
-    "static/media/logo.png": "/static/media/logo.7802ee0642243eccbf01.png",
     "index.html": "/index.html",
-    "main.8c8879f0.css.map": "/static/css/main.8c8879f0.css.map",
-    "main.05355c0b.js.map": "/static/js/main.05355c0b.js.map",
+    "main.06edeecd.css.map": "/static/css/main.06edeecd.css.map",
+    "main.e3b44625.js.map": "/static/js/main.e3b44625.js.map",
     "787.16e64372.chunk.js.map": "/static/js/787.16e64372.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c8879f0.css",
-    "static/js/main.05355c0b.js"
+    "static/css/main.06edeecd.css",
+    "static/js/main.e3b44625.js"
   ]
 }

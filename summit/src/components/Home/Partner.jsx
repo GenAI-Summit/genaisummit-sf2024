@@ -41,8 +41,8 @@ const Partner = () => {
                             <GoldSponsors />
                         </div>
                         <div className="sponsor-logo">
-                            <img src={require("../../assets/images/wagmi.png")} alt="Partner Logo" />
                             <img src={require("../../assets/images/swft.png")} alt="Partner Logo" />
+                            <img src={require("../../assets/images/wagmi.png")} alt="Partner Logo" />
                         </div>
                     </div>
 
@@ -51,8 +51,8 @@ const Partner = () => {
                             <SilverSponsors />
                         </div>
                         <div className="sponsor-logo">
-                            <img src={require("../../assets/images/espeedlogo.jpg")} alt="Partner Logo" />
                             <img src={require("../../assets/images/nftpath.png")} alt="Partner Logo" />
+                            <img src={require("../../assets/images/espeedlogo.jpg")} alt="Partner Logo" />
                         </div>
                     </div>
                 </div>

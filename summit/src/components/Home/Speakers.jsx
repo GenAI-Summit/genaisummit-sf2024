@@ -15,33 +15,57 @@ const Speakers = () => {
                 <div className="row">
 
                 <div className="col-lg-3 col-sm-6">
-                        <div className="single-speakers-box">
-                            <div className="speakers-image">
-                                <img 
-                                    src={require("../../assets/images/ccgong.jpeg")}
-                                    alt="speaker" 
-                                />
-                            </div>
+                    <div className="single-speakers-box">
+                        <div className="speakers-image">
+                            <img 
+                                src={require("../../assets/images/ccgong.jpeg")}
+                                alt="speaker" 
+                            />
+                        </div>
 
-                            <div className="speakers-content">
-                                <h3>CC Gong</h3>
-                                <span>Co-Founder of Cerebral AI</span>
+                        <div className="speakers-content">
+                            <h3>CC Gong</h3>
+                            <span>Co-Founder of Cerebral AI</span>
 
-                                <ul className="social">
-                                    <li>
-                                        <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/CCgong">
-                                            <i className="icofont-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ccxgong/">
-                                            <i className="icofont-linkedin"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
+                            <ul className="social">
+                                <li>
+                                    <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/CCgong">
+                                        <i className="icofont-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ccxgong/">
+                                        <i className="icofont-linkedin"></i>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
+                </div>
+
+                <div className="col-lg-3 col-sm-6">
+                    <div className="single-speakers-box">
+                        <div className="speakers-image">
+                            <img 
+                                src={require("../../assets/images/barthelet.jpeg")}
+                                alt="speaker" 
+                            />
+                        </div>
+
+                        <div className="speakers-content">
+                            <h3>Luc Barthelet</h3>
+                            <span>CTO of Unity</span>
+
+                            <ul className="social">
+                                <li>
+                                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/lucbarthelet/">
+                                        <i className="icofont-linkedin"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
                 <div className="col-lg-3 col-sm-6">
                         <div className="single-speakers-box">

@@ -139,6 +139,30 @@ const Speakers = () => {
                         <div className="single-speakers-box">
                             <div className="speakers-image">
                                 <img 
+                                    src={require("../../assets/images/jung.jpeg")}
+                                    alt="speaker" 
+                                />
+                            </div>
+
+                            <div className="speakers-content">
+                                <h3>Michael Jung</h3>
+                                <span>CFO of DeepBrain AI </span>
+
+                                <ul className="social">
+                                    <li>
+                                        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/msjung/">
+                                            <i className="icofont-linkedin"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3 col-sm-6">
+                        <div className="single-speakers-box">
+                            <div className="speakers-image">
+                                <img 
                                     src={require("../../assets/images/jerryliu.jpeg")}
                                     alt="speaker" 
                                 />
@@ -277,7 +301,7 @@ const Speakers = () => {
                         <div className="single-speakers-box">
                             <div className="speakers-content">
                                 <h3><Link to="#">More to Come</Link></h3>
-                                <span>Accounce Weekly</span>
+                                <span>Announce Weekly</span>
                             </div>
                         </div>
                     </div>

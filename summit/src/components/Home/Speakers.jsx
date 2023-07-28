@@ -71,6 +71,40 @@ const Speakers = () => {
                         <div className="single-speakers-box">
                             <div className="speakers-image">
                                 <img 
+                                    src={require("../../assets/images/jim_fan.jpeg")}
+                                    alt="speaker" 
+                                />
+                            </div>
+
+                            <div className="speakers-content">
+                                <h3>Jim Fan</h3>
+                                <span>Senior AI Scientist of NVIDIA</span>
+
+                                <ul className="social">
+                                    <li>
+                                        <a target="_blank" rel="noopener noreferrer" href="https://jimfan.me/">
+                                            <i className="icofont-web"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/DrJimFan">
+                                            <i className="icofont-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/drjimfan/">
+                                            <i className="icofont-linkedin"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3 col-sm-6">
+                        <div className="single-speakers-box">
+                            <div className="speakers-image">
+                                <img 
                                     src={require("../../assets/images/stevehoffman.jpeg")}
                                     alt="speaker" 
                                 />

@@ -238,7 +238,7 @@ const Speakers = () => {
 
                             <div className="speakers-content">
                                 <h3>Jeremiah Owyang</h3>
-                                <span> Twitter Tech KOL </span>
+                                <span> VC & Founder </span>
 
                                 <ul className="social">
                                     <li>

@@ -139,6 +139,40 @@ const Speakers = () => {
                         <div className="single-speakers-box">
                             <div className="speakers-image">
                                 <img 
+                                    src={require("../../assets/images/arvind_jain.jpeg")}
+                                    alt="speaker" 
+                                />
+                            </div>
+
+                            <div className="speakers-content">
+                                <h3>Arvind Jain</h3>
+                                <span> CEO at Glean </span>
+
+                                <ul className="social">
+                                    <li>
+                                        <a target="_blank" rel="noopener noreferrer" href="https://www.glean.com/">
+                                            <i className="icofont-web"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/jainarvind">
+                                            <i className="icofont-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/arvind-jain-5935161/">
+                                            <i className="icofont-linkedin"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3 col-sm-6">
+                        <div className="single-speakers-box">
+                            <div className="speakers-image">
+                                <img 
                                     src={require("../../assets/images/yangqingjia.jpeg")}
                                     alt="speaker" 
                                 />

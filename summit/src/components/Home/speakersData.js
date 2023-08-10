@@ -76,13 +76,12 @@ export const speakers = [
         ]
     },
     {
-        image: require("../../assets/images/stevehoffman.jpeg"),
-        name: "Steve Hoffman",
-        title: "Founder & CEO of Founders Space",
+        name: "CC Gong",
+        title: "Co-Founder of Cerebral AI",
+        image: require("../../assets/images/ccgong.jpeg"),
         socialLinks: [
-            { href: "https://twitter.com/FoundersSpace", icon: "icofont-twitter" },
-            { href: "https://www.linkedin.com/in/foundersspace/", icon: "icofont-linkedin" },
-            { href: "https://www.foundersspace.com/hoffman/", icon: "icofont-web" }
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/ccxgong/" },
+            { icon: "icofont-twitter", href: "https://twitter.com/CCgong" },
         ]
     },
     {
@@ -93,6 +92,16 @@ export const speakers = [
             { icon: "icofont-web", href: "https://lmzheng.net/" },
             { icon: "icofont-twitter", href: "https://twitter.com/lm_zheng" },
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/lianmin-zheng-6266a8114" }
+        ]
+    },
+    {
+        image: require("../../assets/images/stevehoffman.jpeg"),
+        name: "Steve Hoffman",
+        title: "Founder & CEO of Founders Space",
+        socialLinks: [
+            { href: "https://twitter.com/FoundersSpace", icon: "icofont-twitter" },
+            { href: "https://www.linkedin.com/in/foundersspace/", icon: "icofont-linkedin" },
+            { href: "https://www.foundersspace.com/hoffman/", icon: "icofont-web" }
         ]
     },
     {

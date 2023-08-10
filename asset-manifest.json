@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.06edeecd.css",
-    "main.js": "/static/js/main.3e3488e5.js",
+    "main.js": "/static/js/main.ceacab4c.js",
     "static/js/787.16e64372.chunk.js": "/static/js/787.16e64372.chunk.js",
     "static/media/main-bg1.mp4": "/static/media/main-bg1.a2703484bb9eee7d0c2e.mp4",
     "static/media/main-bg1.jpg": "/static/media/main-bg1.feafeadc13b9c985725e.jpg",
@@ -16,6 +16,7 @@
     "static/media/buy-tickets-bg.jpg": "/static/media/buy-tickets-bg.a32b0a9875cdf51ce583.jpg",
     "static/media/main-bg2.jpg": "/static/media/main-bg2.2820e22adfd4caefd309.jpg",
     "static/media/swft.png": "/static/media/swft.b124a12392ca0f849934.png",
+    "static/media/ccgong.jpeg": "/static/media/ccgong.6d65cbf53321cbfed858.jpeg",
     "static/media/yangqingjia.jpeg": "/static/media/yangqingjia.d6e5abc0cd3a130c492d.jpeg",
     "static/media/funfacts-bg.avif": "/static/media/funfacts-bg.f482d9a677db6c4935bc.avif",
     "static/media/gptdao.png": "/static/media/gptdao.3da91a5a8a9c62561990.png",
@@ -34,11 +35,11 @@
     "static/media/owyang.jpeg": "/static/media/owyang.8673946e2c919e973e01.jpeg",
     "index.html": "/index.html",
     "main.06edeecd.css.map": "/static/css/main.06edeecd.css.map",
-    "main.3e3488e5.js.map": "/static/js/main.3e3488e5.js.map",
+    "main.ceacab4c.js.map": "/static/js/main.ceacab4c.js.map",
     "787.16e64372.chunk.js.map": "/static/js/787.16e64372.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.06edeecd.css",
-    "static/js/main.3e3488e5.js"
+    "static/js/main.ceacab4c.js"
   ]
 }

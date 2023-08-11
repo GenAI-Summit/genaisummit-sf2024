@@ -1,8 +1,18 @@
 export const speakers = [
     {
+        image: require("../../assets/images/jason_wei.jpeg"),
+        name: "Jason Wei",
+        title: "AI Researcher at OpenAI",
+        socialLinks: [
+            { href: "https://twitter.com/_jasonwei", icon: "icofont-twitter" },
+            { href: "https://www.linkedin.com/in/jason-wei-5a7323b0/", icon: "icofont-linkedin" },
+            { href: "https://www.jasonwei.net/", icon: "icofont-web" }
+        ]
+    },
+    {
         image: require("../../assets/images/jim_fan.jpeg"),
         name: "Jim Fan",
-        title: "Senior AI Scientist of NVIDIA",
+        title: "Senior AI Scientist at NVIDIA",
         socialLinks: [
             { href: "https://twitter.com/DrJimFan", icon: "icofont-twitter" },
             { href: "https://www.linkedin.com/in/drjimfan/", icon: "icofont-linkedin" },
@@ -10,7 +20,7 @@ export const speakers = [
         ]
     },
     {
-        image: require("../../assets/images/arvind_jain.jpeg"),
+        image: require("../../assets/images/arvind_jain.jpg"),
         name: "Arvind Jain",
         title: "CEO at Glean",
         socialLinks: [

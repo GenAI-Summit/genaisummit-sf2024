@@ -68,9 +68,17 @@ export const speakers = [
         ]
     },
     {
+        name: "Hanyu Xue",
+        title: "Principle ML Engineering Manager at Microsoft",
+        image: require("../../assets/images/hanyu.jpeg"),
+        socialLinks: [
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/hanyu-xue-34325590/" }
+        ]
+    },
+    {
         image: require("../../assets/images/yangqingjia.jpeg"),
         name: "Yangqing Jia",
-        title: "VP of AlibabaGroup, ex Meta AI Lead",
+        title: "Founder of Lepton AI",
         socialLinks: [
             { href: "https://twitter.com/jiayq", icon: "icofont-twitter" },
             { href: "https://www.linkedin.com/in/yangqing-jia/", icon: "icofont-linkedin" },
@@ -122,6 +130,23 @@ export const speakers = [
             { icon: "icofont-web", href: "https://violet-zct.github.io" },
             { icon: "icofont-twitter", href: "https://twitter.com/violet_zct" },
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/chunting-zhou-14525985" }
+        ]
+    },
+    {
+        name: "Shaun Wei",
+        title: "CEO of RealChar",
+        image: require("../../assets/images/shaun.jpeg"),
+        socialLinks: [
+            { icon: "icofont-twitter", href: "https://twitter.com/agishaun" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/shaunwei/" }
+        ]
+    },
+    {
+        name: "Jay Dang",
+        title: "Co-founder & CEO of FlowGPT",
+        image: require("../../assets/images/jay.jpeg"),
+        socialLinks: [
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/jay-dang-2142931b1/" }
         ]
     }
 ];

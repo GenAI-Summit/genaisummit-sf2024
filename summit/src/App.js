@@ -15,6 +15,7 @@ import FunFact from './components/Home/FunFact';
 import Partner from './components/Home/Partner';
 import Navigation from "./components/Navigation/Navigation";
 import TwitterFeed from './components/Media/TwitterFeed';
+import LatestNews from './components/Home/LatestNews';
 
 const Home = () => (
   <>
@@ -31,6 +32,7 @@ const Home = () => (
     <div id="schedule">
       <EventSchedules />
     </div>
+    {/* <LatestNews /> */}
     <TwitterFeed />
     <Footer />
   </>

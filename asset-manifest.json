@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.b18a18fd.css",
-    "main.js": "/static/js/main.4c4f89de.js",
+    "main.js": "/static/js/main.cb86f1a1.js",
     "static/js/787.16e64372.chunk.js": "/static/js/787.16e64372.chunk.js",
     "static/media/main-bg1.mp4": "/static/media/main-bg1.a2703484bb9eee7d0c2e.mp4",
     "static/media/main-bg1.jpg": "/static/media/main-bg1.feafeadc13b9c985725e.jpg",
     "static/media/shaun.JPG": "/static/media/shaun.b608195ac9ae3b5002f4.JPG",
     "static/media/stevehoffman.jpeg": "/static/media/stevehoffman.b1f83300ba6bee5c7d49.jpeg",
     "static/media/chuntingzhou.jpeg": "/static/media/chuntingzhou.85f80f530ddd5e1efb72.jpeg",
+    "static/media/xinyun.jpeg": "/static/media/xinyun.e6608d761b63ccf12341.jpeg",
     "static/media/icofont.woff": "/static/media/icofont.dad3accba068281878f1.woff",
     "static/media/icofont.woff2": "/static/media/icofont.9c33516aab48c61e3081.woff2",
     "static/media/main-bg3.jpg": "/static/media/main-bg3.c2b9283388d541b857dd.jpg",
@@ -32,26 +33,26 @@
     "static/media/blog2.jpg": "/static/media/blog2.60e150c543ffcc93d334.jpg",
     "static/media/barthelet.jpeg": "/static/media/barthelet.f0ba9e528387ce8d894e.jpeg",
     "static/media/blog3.jpg": "/static/media/blog3.c6b9942ebc3299fdf7ed.jpg",
+    "static/media/arvind.jpeg": "/static/media/arvind.d6ca9cc70071044de9f0.jpeg",
     "static/media/blog1.jpg": "/static/media/blog1.ead6e4f7ca7a665f822b.jpg",
     "static/media/awslogo.jpeg": "/static/media/awslogo.99a872fcbe01e880da5c.jpeg",
     "static/media/harrison.jpeg": "/static/media/harrison.5d7f7e99e0a59f6a0224.jpeg",
     "static/media/lianminzheng.jpeg": "/static/media/lianminzheng.608b68e32c61b769cc3a.jpeg",
     "static/media/espeedlogo.jpg": "/static/media/espeedlogo.9d31cfffa8fb6d27d957.jpg",
     "static/media/nftpath.png": "/static/media/nftpath.192ec775085e2155c15d.png",
-    "static/media/jay.jpeg": "/static/media/jay.9eccac87436bfc0decc5.jpeg",
     "static/media/jung.jpeg": "/static/media/jung.e22f3a7e1ece535b0442.jpeg",
+    "static/media/hugo.jpeg": "/static/media/hugo.b6fcbd65812333f88743.jpeg",
     "static/media/bg.jpg": "/static/media/bg.021d5f4d635a6b647a8b.jpg",
     "static/media/worldcoin.png": "/static/media/worldcoin.184c8105ced6c35263a8.png",
     "static/media/owyang.jpeg": "/static/media/owyang.8673946e2c919e973e01.jpeg",
     "static/media/hanyu.jpeg": "/static/media/hanyu.ea849a86d34735d31d2a.jpeg",
-    "static/media/microsoft.png": "/static/media/microsoft.21e3a52cfa973d382495.png",
     "index.html": "/index.html",
     "main.b18a18fd.css.map": "/static/css/main.b18a18fd.css.map",
-    "main.4c4f89de.js.map": "/static/js/main.4c4f89de.js.map",
+    "main.cb86f1a1.js.map": "/static/js/main.cb86f1a1.js.map",
     "787.16e64372.chunk.js.map": "/static/js/787.16e64372.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b18a18fd.css",
-    "static/js/main.4c4f89de.js"
+    "static/js/main.cb86f1a1.js"
   ]
 }

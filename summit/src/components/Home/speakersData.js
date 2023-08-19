@@ -2,7 +2,7 @@ export const speakers = [
     {
         image: require("../../assets/images/jason_wei.jpeg"),
         name: "Jason Wei",
-        title: "AI Researcher at OpenAI",
+        title: "Scientist at OpenAI",
         socialLinks: [
             { href: "https://twitter.com/_jasonwei", icon: "icofont-twitter" },
             { href: "https://www.linkedin.com/in/jason-wei-5a7323b0/", icon: "icofont-linkedin" },
@@ -12,7 +12,7 @@ export const speakers = [
     {
         image: require("../../assets/images/jim_fan.jpeg"),
         name: "Jim Fan",
-        title: "Senior AI Scientist at NVIDIA",
+        title: "Senior Scientist at Nvidia",
         socialLinks: [
             { href: "https://twitter.com/DrJimFan", icon: "icofont-twitter" },
             { href: "https://www.linkedin.com/in/drjimfan/", icon: "icofont-linkedin" },
@@ -40,7 +40,7 @@ export const speakers = [
     {
         image: require("../../assets/images/harrison.jpeg"),
         name: "Harrison Chase",
-        title: "Founder and CEO of Langchain",
+        title: "CEO of LangChain",
         socialLinks: [
             { icon: "icofont-twitter", href: "https://twitter.com/hwchase17" },
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/harrison-chase-961287118/" }
@@ -49,7 +49,7 @@ export const speakers = [
     {
         image: require("../../assets/images/jason_l.webp"),
         name: "Jason Lopatecki",
-        title: "Founder and CEO of Arize",
+        title: "CEO of Arize AI",
         socialLinks: [
             { icon: "icofont-twitter", href: "https://twitter.com/jason_lopatecki" },
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/jason-lopatecki-9509941/" }
@@ -58,23 +58,15 @@ export const speakers = [
     {
         image: require("../../assets/images/hugo.jpeg"),
         name: "Hugo Touvron",
-        title: "Creator of Llama2",
+        title: "Lead Author of Llama2",
         socialLinks: [
             { icon: "icofont-twitter", href: "https://twitter.com/hugotouvron" },
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/hugo-touvron/" }
         ]
     },
     {
-        name: "Microsoft",
-        title: "",
-        image: require("../../assets/images/microsoft.png"),
-        socialLinks: [
-            { icon: "icofont-web", href: "https://www.microsoft.com/en-us/" }
-        ]
-    },
-    {
         name: "Jerry Liu",
-        title: "Co-founder & CEO of Llama Index",
+        title: "Founder of LlamaIndex",
         image: require("../../assets/images/jerryliu.jpeg"),
         socialLinks: [
             { icon: "icofont-web", href: "https://jerryjliu.github.io/" },
@@ -84,7 +76,7 @@ export const speakers = [
     },
     {
         name: "Aravind Srinivas",
-        title: "Co-founder and CEO of Perplexity AI",
+        title: "Cofounder & CEO of Perplexity AI",
         image: require("../../assets/images/arvind.jpeg"),
         socialLinks: [
             { icon: "icofont-twitter", href: "https://twitter.com/AravSrinivas" },
@@ -93,7 +85,7 @@ export const speakers = [
     },
     {
         name: "Xinyun Chen",
-        title: "Senior Research scientist at Google Brain",
+        title: "Sr Scientist at Google Deepmind",
         image: require("../../assets/images/xunyun.jpeg"),
         socialLinks: [
             { icon: "icofont-web", href: "https://jungyhuk.github.io/" },
@@ -103,7 +95,7 @@ export const speakers = [
     },
     {
         name: "Hanyu Xue",
-        title: "Principle ML Engineering Manager at Microsoft",
+        title: "Principle ML Eng Mgr at Microsoft",
         image: require("../../assets/images/hanyu.jpeg"),
         socialLinks: [
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/hanyu-xue-34325590/" }
@@ -111,7 +103,7 @@ export const speakers = [
     },
     {
         name: "Jesse Vig",
-        title: "Lead Research Scientist at Salesforce AI Research",
+        title: "Lead AI Researcher at Salesforce",
         image: require("../../assets/images/jesse.jpeg"),
         socialLinks: [
             { icon: "icofont-web", href: "https://jessevig.com/" },
@@ -122,7 +114,7 @@ export const speakers = [
     {
         image: require("../../assets/images/yangqingjia.jpeg"),
         name: "Yangqing Jia",
-        title: "Founder of Lepton AI",
+        title: "Founder of Lepton",
         socialLinks: [
             { href: "https://twitter.com/jiayq", icon: "icofont-twitter" },
             { href: "https://www.linkedin.com/in/yangqing-jia/", icon: "icofont-linkedin" },
@@ -131,7 +123,7 @@ export const speakers = [
     },
     {
         name: "Lianmin Zheng",
-        title: "Author of Vicuna, UCB LMSYS AI Lab",
+        title: "Author of Vicuna",
         image: require("../../assets/images/lianminzheng.jpeg"),
         socialLinks: [
             { icon: "icofont-web", href: "https://lmzheng.net/" },
@@ -141,7 +133,7 @@ export const speakers = [
     },
     {
         name: "Chunting Zhou",
-        title: "Creator of LIMA, CMU LTI",
+        title: "Author of Lima",
         image: require("../../assets/images/chuntingzhou.jpeg"),
         socialLinks: [
             { icon: "icofont-web", href: "https://violet-zct.github.io" },
@@ -161,7 +153,7 @@ export const speakers = [
     },
     {
         name: "Michael Jung",
-        title: "CFO of DeepBrain AI",
+        title: "Founder of DeepBrain AI",
         image: require("../../assets/images/jung.jpeg"),
         socialLinks: [
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/msjung/" }
@@ -169,7 +161,7 @@ export const speakers = [
     },
     {
         name: "Shaun Wei",
-        title: "CEO of RealChar",
+        title: "Founder of RealChar",
         image: require("../../assets/images/shaun.JPG"),
         socialLinks: [
             { icon: "icofont-twitter", href: "https://twitter.com/agishaun" },
@@ -178,7 +170,7 @@ export const speakers = [
     },
     {
         name: "CC Gong",
-        title: "Co-Founder of Cerebral AI",
+        title: "Founder of Cerebral AI",
         image: require("../../assets/images/ccgong.jpeg"),
         socialLinks: [
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/ccxgong/" },
@@ -198,19 +190,11 @@ export const speakers = [
     {
         image: require("../../assets/images/stevehoffman.jpeg"),
         name: "Steve Hoffman",
-        title: "Founder & CEO of Founders Space",
+        title: "CEO of Founders Space",
         socialLinks: [
             { href: "https://twitter.com/FoundersSpace", icon: "icofont-twitter" },
             { href: "https://www.linkedin.com/in/foundersspace/", icon: "icofont-linkedin" },
             { href: "https://www.foundersspace.com/hoffman/", icon: "icofont-web" }
-        ]
-    },
-    {
-        name: "Jay Dang",
-        title: "Co-founder & CEO of FlowGPT",
-        image: require("../../assets/images/jay.jpeg"),
-        socialLinks: [
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/jay-dang-2142931b1/" }
         ]
     }
 ];

@@ -86,7 +86,7 @@ export const speakers = [
     {
         name: "Xinyun Chen",
         title: "Sr Scientist at Google Deepmind",
-        image: require("../../assets/images/xunyun.jpeg"),
+        image: require("../../assets/images/xinyun.jpeg"),
         socialLinks: [
             { icon: "icofont-web", href: "https://jungyhuk.github.io/" },
             { icon: "icofont-twitter", href: "https://twitter.com/xinyun_chen_" },

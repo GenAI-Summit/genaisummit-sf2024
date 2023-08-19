@@ -22,7 +22,7 @@ export const speakers = [
     {
         image: require("../../assets/images/arvind_jain.jpg"),
         name: "Arvind Jain",
-        title: "CEO at Glean",
+        title: "CEO of Glean",
         socialLinks: [
             { href: "https://twitter.com/jainarvind", icon: "icofont-twitter" },
             { href: "https://www.linkedin.com/in/arvind-jain-5935161/", icon: "icofont-linkedin" },
@@ -38,23 +38,38 @@ export const speakers = [
         ]
     },
     {
-        name: "Jeremiah Owyang",
-        title: "VC & Founder",
-        image: require("../../assets/images/owyang.jpeg"),
+        image: require("../../assets/images/harrison.jpeg"),
+        name: "Harrison Chase",
+        title: "Founder and CEO of Langchain",
         socialLinks: [
-            { icon: "icofont-web", href: "https://web-strategist.com/blog/" },
-            { icon: "icofont-twitter", href: "https://twitter.com/jowyang" },
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/jowyang/" }
+            { icon: "icofont-twitter", href: "https://twitter.com/hwchase17" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/harrison-chase-961287118/" }
         ]
     },
     {
-        name: "Worldcoin",
-        title: "",
-        image: require("../../assets/images/worldcoin.png"),
+        image: require("../../assets/images/jason_l.webp"),
+        name: "Jason Lopatecki",
+        title: "Founder and CEO of Arize",
         socialLinks: [
-            { icon: "icofont-web", href: "https://worldcoin.org/world-id" },
-            { icon: "icofont-twitter", href: "https://twitter.com/worldcoin" },
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/company/worldcoinfoundation/" }
+            { icon: "icofont-twitter", href: "https://twitter.com/jason_lopatecki" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/jason-lopatecki-9509941/" }
+        ]
+    },
+    {
+        image: require("../../assets/images/hugo.jpeg"),
+        name: "Hugo Touvron",
+        title: "Creator of Llama2",
+        socialLinks: [
+            { icon: "icofont-twitter", href: "https://twitter.com/hugotouvron" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/hugo-touvron/" }
+        ]
+    },
+    {
+        name: "Microsoft",
+        title: "",
+        image: require("../../assets/images/microsoft.png"),
+        socialLinks: [
+            { icon: "icofont-web", href: "https://www.microsoft.com/en-us/" }
         ]
     },
     {
@@ -68,11 +83,40 @@ export const speakers = [
         ]
     },
     {
+        name: "Aravind Srinivas",
+        title: "Co-founder and CEO of Perplexity AI",
+        image: require("../../assets/images/arvind.jpeg"),
+        socialLinks: [
+            { icon: "icofont-twitter", href: "https://twitter.com/AravSrinivas" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/aravind-srinivas-16051987/" }
+        ]
+    },
+    {
+        name: "Xinyun Chen",
+        title: "Senior Research scientist at Google Brain",
+        image: require("../../assets/images/xunyun.jpeg"),
+        socialLinks: [
+            { icon: "icofont-web", href: "https://jungyhuk.github.io/" },
+            { icon: "icofont-twitter", href: "https://twitter.com/xinyun_chen_" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/xinyun-chen-b4ab79172/" }
+        ]
+    },
+    {
         name: "Hanyu Xue",
         title: "Principle ML Engineering Manager at Microsoft",
         image: require("../../assets/images/hanyu.jpeg"),
         socialLinks: [
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/hanyu-xue-34325590/" }
+        ]
+    },
+    {
+        name: "Jesse Vig",
+        title: "Lead Research Scientist at Salesforce AI Research",
+        image: require("../../assets/images/jesse.jpeg"),
+        socialLinks: [
+            { icon: "icofont-web", href: "https://jessevig.com/" },
+            { icon: "icofont-twitter", href: "https://twitter.com/jesse_vig" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/jesse-vig/" }
         ]
     },
     {
@@ -86,23 +130,6 @@ export const speakers = [
         ]
     },
     {
-        name: "Michael Jung",
-        title: "CFO of DeepBrain AI",
-        image: require("../../assets/images/jung.jpeg"),
-        socialLinks: [
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/msjung/" }
-        ]
-    },
-    {
-        name: "CC Gong",
-        title: "Co-Founder of Cerebral AI",
-        image: require("../../assets/images/ccgong.jpeg"),
-        socialLinks: [
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/ccxgong/" },
-            { icon: "icofont-twitter", href: "https://twitter.com/CCgong" },
-        ]
-    },
-    {
         name: "Lianmin Zheng",
         title: "Author of Vicuna, UCB LMSYS AI Lab",
         image: require("../../assets/images/lianminzheng.jpeg"),
@@ -110,16 +137,6 @@ export const speakers = [
             { icon: "icofont-web", href: "https://lmzheng.net/" },
             { icon: "icofont-twitter", href: "https://twitter.com/lm_zheng" },
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/lianmin-zheng-6266a8114" }
-        ]
-    },
-    {
-        image: require("../../assets/images/stevehoffman.jpeg"),
-        name: "Steve Hoffman",
-        title: "Founder & CEO of Founders Space",
-        socialLinks: [
-            { href: "https://twitter.com/FoundersSpace", icon: "icofont-twitter" },
-            { href: "https://www.linkedin.com/in/foundersspace/", icon: "icofont-linkedin" },
-            { href: "https://www.foundersspace.com/hoffman/", icon: "icofont-web" }
         ]
     },
     {
@@ -133,12 +150,59 @@ export const speakers = [
         ]
     },
     {
+        name: "Worldcoin",
+        title: "",
+        image: require("../../assets/images/worldcoin.png"),
+        socialLinks: [
+            { icon: "icofont-web", href: "https://worldcoin.org/world-id" },
+            { icon: "icofont-twitter", href: "https://twitter.com/worldcoin" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/company/worldcoinfoundation/" }
+        ]
+    },
+    {
+        name: "Michael Jung",
+        title: "CFO of DeepBrain AI",
+        image: require("../../assets/images/jung.jpeg"),
+        socialLinks: [
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/msjung/" }
+        ]
+    },
+    {
         name: "Shaun Wei",
         title: "CEO of RealChar",
-        image: require("../../assets/images/shaun.jpeg"),
+        image: require("../../assets/images/shaun.JPG"),
         socialLinks: [
             { icon: "icofont-twitter", href: "https://twitter.com/agishaun" },
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/shaunwei/" }
+        ]
+    },
+    {
+        name: "CC Gong",
+        title: "Co-Founder of Cerebral AI",
+        image: require("../../assets/images/ccgong.jpeg"),
+        socialLinks: [
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/ccxgong/" },
+            { icon: "icofont-twitter", href: "https://twitter.com/CCgong" },
+        ]
+    },
+    {
+        name: "Jeremiah Owyang",
+        title: "VC & Founder",
+        image: require("../../assets/images/owyang.jpeg"),
+        socialLinks: [
+            { icon: "icofont-web", href: "https://web-strategist.com/blog/" },
+            { icon: "icofont-twitter", href: "https://twitter.com/jowyang" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/jowyang/" }
+        ]
+    },
+    {
+        image: require("../../assets/images/stevehoffman.jpeg"),
+        name: "Steve Hoffman",
+        title: "Founder & CEO of Founders Space",
+        socialLinks: [
+            { href: "https://twitter.com/FoundersSpace", icon: "icofont-twitter" },
+            { href: "https://www.linkedin.com/in/foundersspace/", icon: "icofont-linkedin" },
+            { href: "https://www.foundersspace.com/hoffman/", icon: "icofont-web" }
         ]
     },
     {

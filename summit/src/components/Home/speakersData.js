@@ -102,16 +102,6 @@ export const speakers = [
         ]
     },
     {
-        name: "Jesse Vig",
-        title: "Lead AI Researcher at Salesforce",
-        image: require("../../assets/images/jesse.jpeg"),
-        socialLinks: [
-            { icon: "icofont-web", href: "https://jessevig.com/" },
-            { icon: "icofont-twitter", href: "https://twitter.com/jesse_vig" },
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/jesse-vig/" }
-        ]
-    },
-    {
         image: require("../../assets/images/yangqingjia.jpeg"),
         name: "Yangqing Jia",
         title: "Founder of Lepton",
@@ -133,7 +123,7 @@ export const speakers = [
     },
     {
         name: "Chunting Zhou",
-        title: "Author of Lima",
+        title: "Research Scientist at Meta AI",
         image: require("../../assets/images/chuntingzhou.jpeg"),
         socialLinks: [
             { icon: "icofont-web", href: "https://violet-zct.github.io" },

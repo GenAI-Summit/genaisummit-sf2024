@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import logo from '../../assets/images/gptdao.png';
 import { Link as ScrollLink } from 'react-scroll';
+import PromoBar from '../../components/Home/PromoBar';
 
 const Navigation = () => {
     const [collapsed, setCollapsed] = useState(true);
@@ -44,11 +45,10 @@ const Navigation = () => {
     return (
         <header id="header" className="header-area">
             <div id="navbar" className="elkevent-nav">
+                <PromoBar />
                 <nav className="navbar navbar-expand-md navbar-light">
                     <div className="container">
-                        {/* <div className="navbar-brand" to="/"> */}
-                            <img  className="navbar-brand" src={logo} alt="logo" style={{ height: '50px' }} /> 
-                        {/* </div> */}
+                        <img  className="navbar-brand" src={logo} alt="logo" style={{ height: '50px' }} /> 
                         <h2 className='text-white'>GPTDAO</h2>
 
                         <div className={classOne} id="navbarSupportedContent">

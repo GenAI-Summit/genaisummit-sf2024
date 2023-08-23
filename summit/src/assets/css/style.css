@@ -273,6 +273,12 @@ label {
   margin-bottom: 10px;
 }
 
+.section-title p {
+  font-size: 17px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .section-title h2 b {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, rgba(0, 0, 0, 0)), color-stop(80%, #FF2D55));
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, #FF2D55 80%);
@@ -504,7 +510,7 @@ Navbar CSS
   position: absolute;
   top: 0;
   left: 0;
-  padding-top: 20px;
+  /* padding-top: 20px; */
   width: 100%;
   z-index: 999;
   height: auto;
@@ -623,7 +629,7 @@ Navbar CSS
   top: 0;
   left: 0;
   width: 100%;
-  padding: 5px 0;
+  /* padding: 5px 0; */
   z-index: 999;
   -webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
           box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
@@ -1184,6 +1190,10 @@ About CSS
 
 .about-content .btn-primary {
   margin-right: 20px;
+}
+
+.about-content p {
+  font-size: 17px;
 }
 
 .about-image {
@@ -4717,3 +4727,7 @@ Back To Top CSS
   position: absolute !important;
 }
 /*# sourceMappingURL=style.css.map */
+
+/* .about-img1 {
+  transition: opacity 1s ease-in-out;
+} */

@@ -45,7 +45,7 @@ const Navigation = () => {
     return (
         <header id="header" className="header-area">
             <div id="navbar" className="elkevent-nav">
-                <PromoBar />
+{/*                 <PromoBar /> */}
                 <nav className="navbar navbar-expand-md navbar-light">
                     <div className="container">
                         <img  className="navbar-brand" src={logo} alt="logo" style={{ height: '50px' }} /> 

@@ -4,7 +4,9 @@ import PlatinumSponsors from '../LaxButton/PlatinumSponsors';
 import GoldSponsors from '../LaxButton/GoldSponsors';
 import DiamondSponsors from '../LaxButton/DiamondSponsors';
 import SilverSponsors from '../LaxButton/SilverSponsors';
+import BoothSponsors from '../LaxButton/BoothSponsors';
 import LaxDiv from '../Shared/LaxDiv';
+import { booths } from './boothsData';
 
 const Partner = () => {
     return (
@@ -24,7 +26,7 @@ const Partner = () => {
                             <DiamondSponsors />
                         </div>
                         <div className="sponsor-logo">
-                            <img src={require("../../assets/images/microsoft.png")} alt="Partner Logo" />
+                            <img src={require("../../assets/images/sponsors/microsoft.png")} alt="Partner Logo" />
                         </div>
                     </div>
 
@@ -33,10 +35,8 @@ const Partner = () => {
                             <PlatinumSponsors />
                         </div>
                         <div className="sponsor-logo">
-                            <img src={require("../../assets/images/aws.png")} alt="Partner Logo" />
-                        </div>
-                        <div className="sponsor-logo">
-                            <img src={require("../../assets/images/googlecloud.png")} alt="Partner Logo"/>
+                            <img src={require("../../assets/images/sponsors/aws.png")} alt="Partner Logo" />
+                            <img src={require("../../assets/images/sponsors/googlecloud.png")} alt="Partner Logo"/>
                         </div>
                     </div>
 
@@ -45,9 +45,10 @@ const Partner = () => {
                             <GoldSponsors />
                         </div>
                         <div className="sponsor-logo">
-                            {/* <img src={require("../../assets/images/tencent.png")} alt="Partner Logo" /> */}
-                            <img src={require("../../assets/images/swft.png")} alt="Partner Logo" id="big"/>
-                            <img src={require("../../assets/images/wagmi.png")} alt="Partner Logo" />
+                            <img src={require("../../assets/images/sponsors/iobc.jpeg")} alt="Partner Logo" />
+                            <img src={require("../../assets/images/sponsors/tencent.png")} alt="Partner Logo" />
+                            <img src={require("../../assets/images/sponsors/swft.png")} alt="Partner Logo" id="big"/>
+                            <img src={require("../../assets/images/sponsors/wagmi.png")} alt="Partner Logo" />
                         </div>
                     </div>
 
@@ -56,10 +57,23 @@ const Partner = () => {
                             <SilverSponsors />
                         </div>
                         <div className="sponsor-logo">
-                            <img src={require("../../assets/images/nftpath.png")} alt="Partner Logo" />
-                            <img src={require("../../assets/images/espeedlogo.jpg")} alt="Partner Logo" />
+                            <img src={require("../../assets/images/sponsors/nftpath.png")} alt="Partner Logo" />
+                            <img src={require("../../assets/images/sponsors/espeedlogo.jpg")} alt="Partner Logo" />
                         </div>
                     </div>
+                </div>
+
+                <div className='row'> 
+                    <div className="partner-title">
+                        <BoothSponsors />
+                    </div>
+                    {booths.map((booth, index) => (
+                        <div className="col-lg-2 col-md-2 sponsor-div">
+                            <div className="sponsor-logo" key={index}>
+                                    <img src={booth.image} alt={booth.name} className="img-fluid" />
+                            </div>
+                        </div>
+                    ))}
                 </div>
             </div>
         </section>

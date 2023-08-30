@@ -1810,7 +1810,7 @@ Speakers CSS
 
 .single-speakers-box .speakers-content {
   background: #ffffff;
-  padding: 30px 0;
+  padding: 20px 0;
   position: relative;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -1830,7 +1830,7 @@ Speakers CSS
 }
 
 .single-speakers-box .speakers-content h3 {
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 10px;
 }
 

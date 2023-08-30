@@ -1,8 +1,16 @@
 export const speakers = [
     {
-        image: require("../../assets/images/jason_wei.jpeg"),
+        image: require("../../assets/images/speakers/microsoft.png"),
+        name: "Microsoft",
+        title: "",
+        company: "",
+        socialLinks: []
+    },
+    {
+        image: require("../../assets/images/speakers/jason_wei.jpeg"),
         name: "Jason Wei",
-        title: "Scientist at OpenAI",
+        title: "AI Researcher",
+        company: "OpenAI",
         socialLinks: [
             { href: "https://twitter.com/_jasonwei", icon: "icofont-twitter" },
             { href: "https://www.linkedin.com/in/jason-wei-5a7323b0/", icon: "icofont-linkedin" },
@@ -10,9 +18,10 @@ export const speakers = [
         ]
     },
     {
-        image: require("../../assets/images/jim_fan.jpeg"),
+        image: require("../../assets/images/speakers/jim_fan.jpeg"),
         name: "Jim Fan",
-        title: "Senior Scientist at Nvidia",
+        title: "Senior AI Scientist",
+        company: "Nvidia",
         socialLinks: [
             { href: "https://twitter.com/DrJimFan", icon: "icofont-twitter" },
             { href: "https://www.linkedin.com/in/drjimfan/", icon: "icofont-linkedin" },
@@ -20,9 +29,10 @@ export const speakers = [
         ]
     },
     {
-        image: require("../../assets/images/arvind_jain.jpg"),
+        image: require("../../assets/images/speakers/arvind_jain.jpg"),
         name: "Arvind Jain",
-        title: "CEO of Glean",
+        title: "CEO",
+        company: "Glean",
         socialLinks: [
             { href: "https://twitter.com/jainarvind", icon: "icofont-twitter" },
             { href: "https://www.linkedin.com/in/arvind-jain-5935161/", icon: "icofont-linkedin" },
@@ -30,44 +40,70 @@ export const speakers = [
         ]
     },
     {
-        image: require("../../assets/images/barthelet.jpeg"),
+        image: require("../../assets/images/speakers/barthelet.jpeg"),
         name: "Luc Barthelet",
-        title: "CTO of Unity",
+        title: "CTO",
+        company: "Unity",
         socialLinks: [
             { href: "https://www.linkedin.com/in/lucbarthelet/", icon: "icofont-linkedin" }
         ]
     },
     {
-        image: require("../../assets/images/harrison.jpeg"),
+        image: require("../../assets/images/speakers/harrison.jpeg"),
         name: "Harrison Chase",
-        title: "CEO of LangChain",
+        title: "CEO",
+        company: "LangChain",
         socialLinks: [
             { icon: "icofont-twitter", href: "https://twitter.com/hwchase17" },
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/harrison-chase-961287118/" }
         ]
     },
     {
-        image: require("../../assets/images/jason_l.webp"),
+        image: require("../../assets/images/speakers/jason_l.webp"),
         name: "Jason Lopatecki",
-        title: "CEO of Arize AI",
+        title: "CEO",
+        company: "Arize AI",
         socialLinks: [
             { icon: "icofont-twitter", href: "https://twitter.com/jason_lopatecki" },
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/jason-lopatecki-9509941/" }
         ]
     },
     {
-        image: require("../../assets/images/hugo.jpeg"),
+        image: require("../../assets/images/speakers/hugo.jpeg"),
         name: "Hugo Touvron",
-        title: "Lead Author of Llama2",
+        title: "Lead Author",
+        company: "Llama2",
         socialLinks: [
             { icon: "icofont-twitter", href: "https://twitter.com/hugotouvron" },
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/hugo-touvron/" }
         ]
     },
     {
+        name: "Worldcoin",
+        title: "",
+        company: "",
+        image: require("../../assets/images/speakers/worldcoin.png"),
+        socialLinks: [
+            { icon: "icofont-web", href: "https://worldcoin.org/world-id" },
+            { icon: "icofont-twitter", href: "https://twitter.com/worldcoin" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/company/worldcoinfoundation/" }
+        ]
+    },
+    {
+        name: "Aravind Srinivas",
+        title: "Cofounder & CEO",
+        company: "Perplexity AI",
+        image: require("../../assets/images/speakers/arvind.jpeg"),
+        socialLinks: [
+            { icon: "icofont-twitter", href: "https://twitter.com/AravSrinivas" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/aravind-srinivas-16051987/" }
+        ]
+    },
+    {
         name: "Jerry Liu",
-        title: "Founder of LlamaIndex",
-        image: require("../../assets/images/jerryliu.jpeg"),
+        title: "Cofounder & CEO",
+        company: "LlamaIndex",
+        image: require("../../assets/images/speakers/jerryliu.jpeg"),
         socialLinks: [
             { icon: "icofont-web", href: "https://jerryjliu.github.io/" },
             { icon: "icofont-twitter", href: "https://twitter.com/jerryjliu0" },
@@ -75,18 +111,21 @@ export const speakers = [
         ]
     },
     {
-        name: "Aravind Srinivas",
-        title: "Cofounder & CEO of Perplexity AI",
-        image: require("../../assets/images/arvind.jpeg"),
+        image: require("../../assets/images/speakers/stevehoffman.jpeg"),
+        name: "Steve Hoffman",
+        title: "Founder & CEO",
+        company: "Founders Space",
         socialLinks: [
-            { icon: "icofont-twitter", href: "https://twitter.com/AravSrinivas" },
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/aravind-srinivas-16051987/" }
+            { href: "https://twitter.com/FoundersSpace", icon: "icofont-twitter" },
+            { href: "https://www.linkedin.com/in/foundersspace/", icon: "icofont-linkedin" },
+            { href: "https://www.foundersspace.com/hoffman/", icon: "icofont-web" }
         ]
     },
     {
         name: "Xinyun Chen",
-        title: "Sr Scientist at Google Deepmind",
-        image: require("../../assets/images/xinyun.jpeg"),
+        title: "Senior Scientist",
+        company: "Google Deepmind",
+        image: require("../../assets/images/speakers/xinyun.jpeg"),
         socialLinks: [
             { icon: "icofont-web", href: "https://jungyhuk.github.io/" },
             { icon: "icofont-twitter", href: "https://twitter.com/xinyun_chen_" },
@@ -95,16 +134,29 @@ export const speakers = [
     },
     {
         name: "Hanyu Xue",
-        title: "Principle ML Eng Mgr at Microsoft",
-        image: require("../../assets/images/hanyu.jpeg"),
+        title: "Principle ML Eng Mgr",
+        company: "Microsoft",
+        image: require("../../assets/images/speakers/hanyu.jpeg"),
         socialLinks: [
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/hanyu-xue-34325590/" }
         ]
     },
     {
-        image: require("../../assets/images/yangqingjia.jpeg"),
+        name: "Chunting Zhou",
+        title: "Research Scientist",
+        company: "Meta AI",
+        image: require("../../assets/images/speakers/chuntingzhou.jpeg"),
+        socialLinks: [
+            { icon: "icofont-web", href: "https://violet-zct.github.io" },
+            { icon: "icofont-twitter", href: "https://twitter.com/violet_zct" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/chunting-zhou-14525985" }
+        ]
+    },
+    {
+        image: require("../../assets/images/speakers/yangqingjia.jpeg"),
         name: "Yangqing Jia",
-        title: "Founder of Lepton",
+        title: "Founder",
+        company: "Lepton",
         socialLinks: [
             { href: "https://twitter.com/jiayq", icon: "icofont-twitter" },
             { href: "https://www.linkedin.com/in/yangqing-jia/", icon: "icofont-linkedin" },
@@ -114,7 +166,8 @@ export const speakers = [
     {
         name: "Lianmin Zheng",
         title: "Author of Vicuna",
-        image: require("../../assets/images/lianminzheng.jpeg"),
+        company: "UCB LMSYS AI Lab",
+        image: require("../../assets/images/speakers/lianminzheng.jpeg"),
         socialLinks: [
             { icon: "icofont-web", href: "https://lmzheng.net/" },
             { icon: "icofont-twitter", href: "https://twitter.com/lm_zheng" },
@@ -122,37 +175,30 @@ export const speakers = [
         ]
     },
     {
-        name: "Chunting Zhou",
-        title: "Research Scientist at Meta AI",
-        image: require("../../assets/images/chuntingzhou.jpeg"),
+        name: "Shishir Patil",
+        title: "Creator",
+        company: "Gorilla LLM",
+        image: require("../../assets/images/speakers/patil.jpg"),
         socialLinks: [
-            { icon: "icofont-web", href: "https://violet-zct.github.io" },
-            { icon: "icofont-twitter", href: "https://twitter.com/violet_zct" },
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/chunting-zhou-14525985" }
-        ]
-    },
-    {
-        name: "Worldcoin",
-        title: "",
-        image: require("../../assets/images/worldcoin.png"),
-        socialLinks: [
-            { icon: "icofont-web", href: "https://worldcoin.org/world-id" },
-            { icon: "icofont-twitter", href: "https://twitter.com/worldcoin" },
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/company/worldcoinfoundation/" }
+            { icon: "icofont-web", href: "https://shishirpatil.github.io/" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/shishir-patil/" },
+            { icon: "icofont-twitter", href: "https://twitter.com/shishirpatil_" }
         ]
     },
     {
         name: "Michael Jung",
-        title: "Founder of DeepBrain AI",
-        image: require("../../assets/images/jung.jpeg"),
+        title: "Founder",
+        company: "DeepBrain AI",
+        image: require("../../assets/images/speakers/jung.jpeg"),
         socialLinks: [
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/msjung/" }
         ]
     },
     {
         name: "Shaun Wei",
-        title: "Founder of RealChar",
-        image: require("../../assets/images/shaun.JPG"),
+        title: "Founder & CEO",
+        company: "RealChar",
+        image: require("../../assets/images/speakers/shaun.JPG"),
         socialLinks: [
             { icon: "icofont-twitter", href: "https://twitter.com/agishaun" },
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/shaunwei/" }
@@ -160,31 +206,23 @@ export const speakers = [
     },
     {
         name: "CC Gong",
-        title: "Founder of Cerebral AI",
-        image: require("../../assets/images/ccgong.jpeg"),
+        title: "Cofounder",
+        company: "Cerebral AI",
+        image: require("../../assets/images/speakers/ccgong.jpeg"),
         socialLinks: [
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/ccxgong/" },
             { icon: "icofont-twitter", href: "https://twitter.com/CCgong" },
         ]
     },
     {
-        name: "Jeremiah Owyang",
-        title: "VC & Founder",
-        image: require("../../assets/images/owyang.jpeg"),
+        name: "Murray Newlands",
+        title: "Artist & Influencer",
+        company: "",
+        image: require("../../assets/images/speakers/newlands.jpg"),
         socialLinks: [
-            { icon: "icofont-web", href: "https://web-strategist.com/blog/" },
-            { icon: "icofont-twitter", href: "https://twitter.com/jowyang" },
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/jowyang/" }
-        ]
-    },
-    {
-        image: require("../../assets/images/stevehoffman.jpeg"),
-        name: "Steve Hoffman",
-        title: "CEO of Founders Space",
-        socialLinks: [
-            { href: "https://twitter.com/FoundersSpace", icon: "icofont-twitter" },
-            { href: "https://www.linkedin.com/in/foundersspace/", icon: "icofont-linkedin" },
-            { href: "https://www.foundersspace.com/hoffman/", icon: "icofont-web" }
+            { icon: "icofont-web", href: "https://www.murraynewlands.com/" },
+            { icon: "icofont-twitter", href: "https://twitter.com/MurrayNewlands" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/murraynewlands/" }
         ]
     }
 ];

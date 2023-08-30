@@ -15,7 +15,7 @@ const Speakers = () => {
 
                 <div className="row">
                     {speakers.map(speaker => (
-                        <div className="col-lg-3 col-sm-6" key={speaker.name}>
+                        <div className="col-lg-2 col-md-3 col-sm-4 col-4" key={speaker.name}>
                             <div className="single-speakers-box">
                                 <div className="speakers-image">
                                     <img src={speaker.image} alt={speaker.name} />
@@ -24,6 +24,7 @@ const Speakers = () => {
                                 <div className="speakers-content">
                                     <h3>{speaker.name}</h3>
                                     <span>{speaker.title}</span>
+                                    <span>{speaker.company}</span>
 
                                     <ul className="social">
                                         {speaker.socialLinks.map(link => (
@@ -43,7 +44,7 @@ const Speakers = () => {
                         <div className="single-speakers-box">
                             <div className="speakers-content">
                                 <h3><Link to="#">More to Come</Link></h3>
-                                <span>Announce Weekly</span>
+                                <span>Announced Weekly</span>
                             </div>
                         </div>
                     </div>

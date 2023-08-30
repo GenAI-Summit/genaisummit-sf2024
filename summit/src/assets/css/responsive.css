@@ -305,10 +305,13 @@
     padding-bottom: 30px;
   }
   .single-speakers-box .speakers-content h3 {
-    font-size: 20px;
+    font-size: 12px;
   }
   .single-speakers-box .speakers-content span {
-    font-size: 13px;
+    font-size: 10px;
+  }
+  .single-speakers-box .speakers-content {
+    padding: 10px 0;
   }
   .tabs {
     display: block;
@@ -1106,7 +1109,7 @@
     padding-bottom: 50px;
   }
   .single-speakers-box .speakers-content h3 {
-    font-size: 20px;
+    font-size: 17px;
   }
   .shape1, .shape2, .shape3, .shape4 {
     display: none;
@@ -1479,7 +1482,7 @@
     font-size: 14px;
   }
   .single-speakers-box .speakers-content h3 {
-    font-size: 20px;
+    font-size: 18px;
   }
   .section-title span {
     font-size: 15px;

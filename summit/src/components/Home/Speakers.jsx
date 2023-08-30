@@ -15,7 +15,7 @@ const Speakers = () => {
 
                 <div className="row">
                     {speakers.map(speaker => (
-                        <div className="col-lg-2 col-md-3 col-sm-4 col-4" key={speaker.name}>
+                        <div className="mb-5 col-lg-2 col-md-3 col-sm-4 col-4" key={speaker.name}>
                             <div className="single-speakers-box">
                                 <div className="speakers-image">
                                     <img src={speaker.image} alt={speaker.name} />
@@ -40,14 +40,14 @@ const Speakers = () => {
                         </div>
                     ))}
 
-                    <div className="col-lg-3 col-sm-6">
+                    {/* <div className="col-lg-3 col-sm-6">
                         <div className="single-speakers-box">
                             <div className="speakers-content">
                                 <h3><Link to="#">More to Come</Link></h3>
                                 <span>Announced Weekly</span>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>

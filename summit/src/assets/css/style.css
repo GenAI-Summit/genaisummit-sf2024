@@ -1800,7 +1800,7 @@ Speakers CSS
 }
 
 .single-speakers-box {
-  margin-bottom: 30px;
+  height: 100%;
   text-align: center;
   -webkit-transition: 0.5s;
   transition: 0.5s;

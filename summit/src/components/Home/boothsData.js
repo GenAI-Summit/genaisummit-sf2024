@@ -1,11 +1,5 @@
 export const booths = [
     {
-        name: "Microsoft",
-        link: "https://www.microsoft.com/en-us/?ql=4",
-        description: "Microsoft Corporation is an American multinational technology corporation headquartered in Redmond, Washington.  Microsoft's best-known software products are the Windows line of operating systems, the Microsoft 365 suite of productivity applications, and the Internet Explorer and Edge web browsers.  Its flagship hardware products are the Xbox video game consoles and the Microsoft Surface lineup of touchscreen personal computers.",
-        image: require("../../assets/images/sponsors/microsoft.png")
-    },
-    {
         name: "LangChain",
         link: "https://www.langchain.com/",
         description: "LangChain is an open-source software development framework centered around composability, designed to make it easier to create applications that leverage large language models (LLMs). LangChain was launched back in October 2022 as an open-source project by Harrison Chase.",
@@ -24,16 +18,22 @@ export const booths = [
         image: require("../../assets/images/sponsors/arize.svg").default
     },
     {
+        name: "Microsoft",
+        link: "https://www.microsoft.com/en-us/?ql=4",
+        description: "Microsoft Corporation is an American multinational technology corporation headquartered in Redmond, Washington.  Microsoft's best-known software products are the Windows line of operating systems, the Microsoft 365 suite of productivity applications, and the Internet Explorer and Edge web browsers.  Its flagship hardware products are the Xbox video game consoles and the Microsoft Surface lineup of touchscreen personal computers.",
+        image: require("../../assets/images/sponsors/microsoft.png")
+    },
+    {
         name: "Vicuna",
         link: "https://lmsys.org/blog/2023-03-30-vicuna/",
         description: "Vicuna-13B is an open-source chatbot trained by fine-tuning LLaMA on user-shared conversations collected from ShareGPT. Preliminary evaluation using GPT-4 as a judge shows Vicuna-13B achieves more than 90% quality of OpenAI ChatGPT and Google Bard while outperforming other models like LLaMA and Stanford Alpaca in more than 90% of cases.  The code and weights, along with an online demo, are publicly available for non-commercial use.",
-        image: require("../../assets/images/sponsors/vicuna.jpeg")
+        image: require("../../assets/images/sponsors/vicuna.png")
     },
     {
         name: "LIamaIndex",
         link: "https://huggingface.co/llamaindex",
         description: "LlamaIndex provides a complete toolkit to build language-based applications. On top of that, users can use various data loaders and agent tools from Llama Hub to develop complex applications with multiple functionalities. Users can also connect custom data sources to their LLM with one or more plugins Data Loaders.",
-        image: require("../../assets/images/sponsors/llamaindex.webp")
+        image: require("../../assets/images/sponsors/llamaindex.png")
     },
     {
         name: "WorldCoin",
@@ -42,22 +42,22 @@ export const booths = [
         image: require("../../assets/images/sponsors/worldcoin.png")
     },
     {
-        name: "DeepBrain AI",
-        link: "https://www.deepbrain.io/",
-        description: "DeepBrain AI uses virtual humans and generative AI to automate job interviews. DeepBrain AI Ltd., a South Korean video synthesis startup that creates artificial intelligence-based virtual humans, they announced a new capability called AI Interview that can automate job applicant interviews for recruiters.",
-        image: require("../../assets/images/sponsors/deepbrain.svg").default
+        name: "Tencent",
+        link: "https://www.tencent.com/",
+        description: "",
+        image: require("../../assets/images/sponsors/tencent.png")
     },
     {
         name: "Llama 2",
         link: "",
         description: "",
-        image: require("../../assets/images/sponsors/llama2.avif")
+        image: require("../../assets/images/sponsors/llama2.png")
     },
     {
-        name: "RealChar",
-        link: "https://realchar.ai/",
-        description: "With RealChar, users can create, customize and talk to their AI Character/Companion in Realtime (All in One Codebase). Have a natural seamless conversation with AI everywhere through mobile, web and terminal using LLM OpenAI GPT3.5/4, Anthropic Claude2, Chroma Vector DB, Whisper Speech2Text, ElevenLabs Text2Speech.",
-        image: require("../../assets/images/sponsors/realchar.png")
+        name: "DeepBrain AI",
+        link: "https://www.deepbrain.io/",
+        description: "DeepBrain AI uses virtual humans and generative AI to automate job interviews. DeepBrain AI Ltd., a South Korean video synthesis startup that creates artificial intelligence-based virtual humans, they announced a new capability called AI Interview that can automate job applicant interviews for recruiters.",
+        image: require("../../assets/images/sponsors/deepbrain.svg").default
     },
     {
         name: "Lepton AI",
@@ -66,16 +66,16 @@ export const booths = [
         image: require("../../assets/images/sponsors/lepton.png")
     },
     {
-        name: "FlowGPT",
-        link: "https://flowgpt.com/",
-        description: "FlowGPT allows anyone to explore, use, and share prompts across different LLMs. On one side, users cannot find high-quality prompts and often miss their potential use cases. On the other side, prompt engineers demand an open-source community and a 'Github' to collaborate, iterate, and manage their prompts.",
-        image: require("../../assets/images/sponsors/flowgpt.png")
+        name: "RealChar",
+        link: "https://realchar.ai/",
+        description: "With RealChar, users can create, customize and talk to their AI Character/Companion in Realtime (All in One Codebase). Have a natural seamless conversation with AI everywhere through mobile, web and terminal using LLM OpenAI GPT3.5/4, Anthropic Claude2, Chroma Vector DB, Whisper Speech2Text, ElevenLabs Text2Speech.",
+        image: require("../../assets/images/sponsors/realchar.png")
     },
     {
         name: "Perplexity AI",
         link: "https://www.perplexity.ai/",
         description: "Perplexity AI is designed as an integration of a search engine and a chatbot. Its user interface is not only dedicated to delivering precise search results but also emphasizes presenting information from authoritative and reliable sources. Through this platform, users can conveniently access and interactively explore information, ensuring that the content they receive is both accurate and trustworthy.",
-        image: require("../../assets/images/sponsors/perplexity.svg").default
+        image: require("../../assets/images/sponsors/perplexity.png")
     },
     {
         name: "Cerebral Valley",
@@ -93,7 +93,7 @@ export const booths = [
         name: "MountainLion",
         link: "https://test.mountainlion.ai/#/",
         description: "MountainLion is an AI cryptocurrency investment analysis tool incubated by GPTDAO. By integrating advanced artificial intelligence technologies, it offers investors unprecedented depth and breadth of analysis in the cryptocurrency domain. With MountainLion, investors can effortlessly explore intricate market data. Its robust data analysis capabilities enable it to identify subtle shifts in the market and provide users with timely feedback.",
-        image: require("../../assets/images/sponsors/mountainlion.svg").default
+        image: require("../../assets/images/sponsors/mountainlion.png")
     },
     {
         name: "Starloom",
@@ -115,9 +115,9 @@ export const booths = [
     },
     {
         name: "MetaGPT",
-        link: "https://www.metaidt.com/",
-        description: "MetaGPT is AI Assistant Powered by ChatGPT. With ChatGPT AI Assistant, users can unlock their team's full potential and take their projects to the next level. This can be the ultimate solution to optimize team's workflow and boost productivity.",
-        image: require("../../assets/images/sponsors/metagpt.jpeg")
+        link: "https://github.com/geekan/MetaGPT",
+        description: "The Multi-Agent Framework: Given one line Requirement, return PRD, Design, Tasks, Repo.",
+        image: require("../../assets/images/sponsors/metagpt.png")
     },
     {
         name: "ExaBITS",
@@ -125,12 +125,12 @@ export const booths = [
         description: "ExaBITS's mission is to streamline GenAI experiences by reducing costs, saving time, and enhancing the quality of life for users. Their vision is to create a dynamic digital ecosystem where users actively participate and benefit from their contributions. By providing computing resources, training LLM, generating content, and sharing data, users become integral parts of the ExaBITS network. ExaBITS envisions a future where knowledge and resources are shared freely, fostering an open, friendly, and collaborative environment.",
         image: require("../../assets/images/sponsors/exabits.webp")
     },
-    {
-        name: "Norbert",
-        link: "",
-        description: "Norbert is a specialized data startup for GenAI applications. It provides high quality labeling at low cost. It supports many types of applications such as LLM, SD, Machine learning, NLP, Computer Vision, Robotics, Expert Systems, Speech Recognition, Virtual Agents and Chatbots, and Recommender Systems.",
-        image: require("../../assets/images/sponsors/norbert.png")
-    },
+    // {
+    //     name: "Norbert",
+    //     link: "",
+    //     description: "Norbert is a specialized data startup for GenAI applications. It provides high quality labeling at low cost. It supports many types of applications such as LLM, SD, Machine learning, NLP, Computer Vision, Robotics, Expert Systems, Speech Recognition, Virtual Agents and Chatbots, and Recommender Systems.",
+    //     image: require("../../assets/images/sponsors/norbert.png")
+    // },
     {
         name: "IOBC Capital",
         link: "https://www.iobc.capital/#/",
@@ -147,7 +147,7 @@ export const booths = [
         name: "Puffer Finance",
         link: "https://www.puffer.fi/",
         description: "Puffer Finance is a liquid staking protocol on Eigenlayer, focused on enhancing Ethereum's decentralization. It strengthens Ethereum by creating a robust decentralized pocket within the validator network, making home-staking highly viable.",
-        image: require("../../assets/images/sponsors/pufferlogo.png")
+        image: require("../../assets/images/sponsors/puffer.png")
     },
     {
         name: "Brix Labs",
@@ -178,5 +178,29 @@ export const booths = [
         link: "https://www.wagmi33.org/",
         description: "Wagmi33 Foundation is a private equity investment DAO governed by decentralized principles. The mission of Wagmi33 is to discover the best teams and innovations in Web3 related areas. It provides capital investment and comprehensive incubator services and aims to become the decentralized evolution of Y Cominator in the era of Web3.",
         image: require("../../assets/images/sponsors/wagmi.webp")
+    },
+    {
+        name: "Yiren Digital",
+        link: "https://ir.yirendai.com/",
+        description: "",
+        image: require("../../assets/images/sponsors/yiren.png")
+    },
+    {
+        name: "Aligns.ai",
+        link: "https://aligns.ai/",
+        description: "",
+        image: require("../../assets/images/sponsors/aligns.png")
+    },
+    {
+        name: "sineaptic",
+        link: "https://sineaptic.com/",
+        description: "",
+        image: require("../../assets/images/sponsors/sineaptic.avif")
+    },
+    {
+        name: "FlowGPT",
+        link: "https://flowgpt.com/",
+        description: "FlowGPT allows anyone to explore, use, and share prompts across different LLMs. On one side, users cannot find high-quality prompts and often miss their potential use cases. On the other side, prompt engineers demand an open-source community and a 'Github' to collaborate, iterate, and manage their prompts.",
+        image: require("../../assets/images/sponsors/flowgpt.png")
     },
 ]

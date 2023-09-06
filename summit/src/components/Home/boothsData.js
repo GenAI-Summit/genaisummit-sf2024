@@ -77,12 +77,12 @@ export const booths = [
         description: "Perplexity AI is designed as an integration of a search engine and a chatbot. Its user interface is not only dedicated to delivering precise search results but also emphasizes presenting information from authoritative and reliable sources. Through this platform, users can conveniently access and interactively explore information, ensuring that the content they receive is both accurate and trustworthy.",
         image: require("../../assets/images/sponsors/perplexity.png")
     },
-    {
-        name: "Cerebral Valley",
-        link: "https://cerebralvalley.ai/",
-        description: "Cerebral Valley is a community comprised of founders and builders, dedicated to collaboratively researching and crafting the next generation of technology. Within this valley, members share resources, experiences, and knowledge, fostering cooperation and communication to push the boundaries of technological innovation.",
-        image: require("../../assets/images/sponsors/cerebral.png")
-    },
+    // {
+    //     name: "Cerebral Valley",
+    //     link: "https://cerebralvalley.ai/",
+    //     description: "Cerebral Valley is a community comprised of founders and builders, dedicated to collaboratively researching and crafting the next generation of technology. Within this valley, members share resources, experiences, and knowledge, fostering cooperation and communication to push the boundaries of technological innovation.",
+    //     image: require("../../assets/images/sponsors/cerebral.png")
+    // },
     {
         name: "Founders Space",
         link: "https://www.foundersspace.com/",

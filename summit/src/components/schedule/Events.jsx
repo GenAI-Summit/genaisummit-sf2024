@@ -232,7 +232,7 @@ const EventSchedules = () => {
 
                                 <ul>
                                     <li><i className="icofont-wall-clock"></i> 3:15PM - 4:00PM</li>
-                                    <li><i className="icofont-user-suited"></i> Panel guest name </li>
+                                    {/* <li><i className="icofont-user-suited"></i> Panel guest name </li> */}
                                 </ul>
                             </div>
                         </div>

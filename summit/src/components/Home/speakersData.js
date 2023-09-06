@@ -7,6 +7,16 @@ export const speakers = [
         socialLinks: []
     },
     {
+        name: "Rashmi Misra",
+        title: "GM of AI & Emerging Tech",
+        company: "Microsoft",
+        image: require("../../assets/images/speakers/misra.png"),
+        socialLinks: [
+            { icon: "icofont-twitter", href: "https://twitter.com/rmisra11" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/rmisra/" }
+        ]
+    },
+    {
         image: require("../../assets/images/speakers/jason_wei.jpeg"),
         name: "Jason Wei",
         title: "AI Researcher",
@@ -213,16 +223,6 @@ export const speakers = [
             { icon: "icofont-web", href: "https://www.murraynewlands.com/" },
             { icon: "icofont-twitter", href: "https://twitter.com/MurrayNewlands" },
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/murraynewlands/" }
-        ]
-    },
-    {
-        name: "Rashmi Misra",
-        title: "GM of AI & Emerging Tech",
-        company: "Microsoft",
-        image: require("../../assets/images/speakers/misra.png"),
-        socialLinks: [
-            { icon: "icofont-twitter", href: "https://twitter.com/rmisra11" },
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/rmisra/" }
         ]
     }
 ];

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a91a75e5.css",
-    "main.js": "/static/js/main.b52a0894.js",
+    "main.js": "/static/js/main.8f935abb.js",
     "static/js/787.16e64372.chunk.js": "/static/js/787.16e64372.chunk.js",
     "static/media/main-bg1.mp4": "/static/media/main-bg1.a2703484bb9eee7d0c2e.mp4",
     "static/media/main-bg1.jpg": "/static/media/main-bg1.feafeadc13b9c985725e.jpg",
@@ -28,6 +28,7 @@
     "static/media/arvind_jain.jpg": "/static/media/arvind_jain.e8ca1ed7b7571343d967.jpg",
     "static/media/citingAI.png": "/static/media/citingAI.02aa9271c1d93fdc1bad.png",
     "static/media/jim_fan.jpeg": "/static/media/jim_fan.d8ea5488c10bfe67b6cf.jpeg",
+    "static/media/ExaBITS.png": "/static/media/ExaBITS.12f5792220ba556abc41.png",
     "static/media/blog4.jpg": "/static/media/blog4.f1b0d80282d3a5f0a88f.jpg",
     "static/media/tencent.png": "/static/media/tencent.2d0c1ed73e4d4fbedfb0.png",
     "static/media/jerryliu.jpeg": "/static/media/jerryliu.846e2c9919eedcd1143a.jpeg",
@@ -77,14 +78,13 @@
     "static/media/glean.svg": "/static/media/glean.f1d742197e13dd3e1df625d605ec4217.svg",
     "static/media/rns.svg": "/static/media/rns.c2cde673a75709e63e7ee02e706d4aa8.svg",
     "static/media/arize.svg": "/static/media/arize.8ca474c99641714a03ec221151132c1d.svg",
-    "static/media/exabits.webp": "/static/media/exabits.862572af3daba87b11d9.webp",
     "index.html": "/index.html",
     "main.a91a75e5.css.map": "/static/css/main.a91a75e5.css.map",
-    "main.b52a0894.js.map": "/static/js/main.b52a0894.js.map",
+    "main.8f935abb.js.map": "/static/js/main.8f935abb.js.map",
     "787.16e64372.chunk.js.map": "/static/js/787.16e64372.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a91a75e5.css",
-    "static/js/main.b52a0894.js"
+    "static/js/main.8f935abb.js"
   ]
 }

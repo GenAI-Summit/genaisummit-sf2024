@@ -105,7 +105,7 @@ export const booths = [
         name: "1Gen.ai",
         link: "https://1gen.ai/",
         description: "With 1Gen.ai, users can effortlessly generate animated images using natural language, indulging in a seamless journey of image editing and creative design. This tool integrates advanced controllable AI technology, offering users revolutionary innovation in image creation and design.",
-        image: require("../../assets/images/sponsors/1gen.png")
+        image: require("../../assets/images/sponsors/1gen.jpeg")
     },
     {
         name: "MetaBlox",
@@ -177,7 +177,7 @@ export const booths = [
         name: "Wagmi33 Foundation",
         link: "https://www.wagmi33.org/",
         description: "Wagmi33 Foundation is a private equity investment DAO governed by decentralized principles. The mission of Wagmi33 is to discover the best teams and innovations in Web3 related areas. It provides capital investment and comprehensive incubator services and aims to become the decentralized evolution of Y Cominator in the era of Web3.",
-        image: require("../../assets/images/sponsors/wagmi.webp")
+        image: require("../../assets/images/sponsors/wagmi.png")
     },
     {
         name: "Yiren Digital",

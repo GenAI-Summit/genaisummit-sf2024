@@ -197,7 +197,7 @@ export const speakers = [
     {
         name: "Shaun Wei",
         title: "Founder & CEO",
-        company: "RealChar",
+        company: "RealChar.",
         image: require("../../assets/images/speakers/shaun.JPG"),
         socialLinks: [
             { icon: "icofont-twitter", href: "https://twitter.com/agishaun" },
@@ -216,13 +216,23 @@ export const speakers = [
     },
     {
         name: "Murray Newlands",
-        title: "Artist & Influencer",
-        company: "",
+        title: "Investor",
+        company: "Open Future Technology",
         image: require("../../assets/images/speakers/newlands.jpg"),
         socialLinks: [
             { icon: "icofont-web", href: "https://www.murraynewlands.com/" },
             { icon: "icofont-twitter", href: "https://twitter.com/MurrayNewlands" },
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/murraynewlands/" }
+        ]
+    },
+    {
+        name: "Rashmi Misra",
+        title: "GM of AI & Emerging Tech",
+        company: "Microsoft",
+        image: require("../../assets/images/speakers/misra.png"),
+        socialLinks: [
+            { icon: "icofont-twitter", href: "https://twitter.com/rmisra11" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/rmisra/" }
         ]
     }
 ];

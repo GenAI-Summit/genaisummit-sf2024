@@ -57,7 +57,7 @@ export const booths = [
         name: "DeepBrain AI",
         link: "https://www.deepbrain.io/",
         description: "DeepBrain AI uses virtual humans and generative AI to automate job interviews. DeepBrain AI Ltd., a South Korean video synthesis startup that creates artificial intelligence-based virtual humans, they announced a new capability called AI Interview that can automate job applicant interviews for recruiters.",
-        image: require("../../assets/images/sponsors/deepbrain.svg").default
+        image: require("../../assets/images/sponsors/deepbrain.png")
     },
     {
         name: "Lepton AI",
@@ -196,6 +196,36 @@ export const booths = [
         link: "https://sineaptic.com/",
         description: "",
         image: require("../../assets/images/sponsors/sineaptic.avif")
+    },
+    {
+        name: "CitingAI",
+        link: "",
+        description: "",
+        image: require("../../assets/images/sponsors/citingAI.png")
+    },
+    {
+        name: "Petoi",
+        link: "",
+        description: "",
+        image: require("../../assets/images/sponsors/Petoi1.png")
+    },
+    {
+        name: "Agent2",
+        link: "",
+        description: "",
+        image: require("../../assets/images/sponsors/agent2.png")
+    },
+    {
+        name: "pulze",
+        link: "",
+        description: "",
+        image: require("../../assets/images/sponsors/pulze.png")
+    },
+    {
+        name: "zipstack",
+        link: "",
+        description: "",
+        image: require("../../assets/images/sponsors/Zipstack.png")
     },
     {
         name: "FlowGPT",

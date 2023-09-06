@@ -123,7 +123,7 @@ export const booths = [
         name: "ExaBITS",
         link: "https://www.exabits.ai/",
         description: "ExaBITS's mission is to streamline GenAI experiences by reducing costs, saving time, and enhancing the quality of life for users. Their vision is to create a dynamic digital ecosystem where users actively participate and benefit from their contributions. By providing computing resources, training LLM, generating content, and sharing data, users become integral parts of the ExaBITS network. ExaBITS envisions a future where knowledge and resources are shared freely, fostering an open, friendly, and collaborative environment.",
-        image: require("../../assets/images/sponsors/exabits.webp")
+        image: require("../../assets/images/sponsors/ExaBITS.png")
     },
     // {
     //     name: "Norbert",

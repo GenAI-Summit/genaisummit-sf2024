@@ -16,6 +16,7 @@ import Partner from './components/Home/Partner';
 import Navigation from "./components/Navigation/Navigation";
 import TwitterFeed from './components/Media/TwitterFeed';
 import LatestNews from './components/Home/LatestNews';
+import Features from './components/Home/Features';
 
 const Home = () => (
   <>
@@ -26,6 +27,7 @@ const Home = () => (
     <div id="speakers">
       <Speakers />
     </div>
+    <Features />
     <div id="sponsors">
       <Partner />
     </div>

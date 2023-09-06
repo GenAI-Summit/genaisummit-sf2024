@@ -80,7 +80,7 @@ const FunFact = () => {
                                 <VisibilitySensor
                                     onChange={onVisibilityChange}
                                     offset={{
-                                        top: 20
+                                        top: 22
                                     }}
                                     delayedCall
                                 >
@@ -88,7 +88,7 @@ const FunFact = () => {
                                         start={0}
                                         end={
                                             didViewCountUp
-                                                ? 20
+                                                ? 22
                                                 : 0
                                         }
                                         duration={3}
@@ -108,7 +108,7 @@ const FunFact = () => {
                                 <VisibilitySensor
                                     onChange={onVisibilityChange}
                                     offset={{
-                                        top: 15
+                                        top: 9
                                     }}
                                     delayedCall
                                 >
@@ -116,7 +116,7 @@ const FunFact = () => {
                                         start={0}
                                         end={
                                             didViewCountUp
-                                                ? 15
+                                                ? 9
                                                 : 0
                                         }
                                         duration={3}

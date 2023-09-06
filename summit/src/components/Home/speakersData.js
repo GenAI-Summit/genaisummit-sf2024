@@ -205,16 +205,6 @@ export const speakers = [
         ]
     },
     {
-        name: "CC Gong",
-        title: "Cofounder",
-        company: "Cerebral AI",
-        image: require("../../assets/images/speakers/ccgong.jpeg"),
-        socialLinks: [
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/ccxgong/" },
-            { icon: "icofont-twitter", href: "https://twitter.com/CCgong" },
-        ]
-    },
-    {
         name: "Murray Newlands",
         title: "Investor",
         company: "Open Future Technology",

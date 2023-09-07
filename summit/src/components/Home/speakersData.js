@@ -162,14 +162,14 @@ export const speakers = [
         ]
     },
     {
-        name: "Chunting Zhou",
-        title: "Research Scientist",
-        company: "Meta AI",
-        image: require("../../assets/images/speakers/chuntingzhou.jpeg"),
+        name: "Yichong Xu",
+        title: "AI Researcher",
+        company: "Character.AI",
+        image: require("../../assets/images/speakers/yichong.jpg"),
         socialLinks: [
-            { icon: "icofont-web", href: "https://violet-zct.github.io" },
-            { icon: "icofont-twitter", href: "https://twitter.com/violet_zct" },
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/chunting-zhou-14525985" }
+            { icon: "icofont-web", href: "https://xycking.wixsite.com/yichongxu" },
+            { icon: "icofont-twitter", href: "https://twitter.com/xycking" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/yichong-xu-46618383/" }
         ]
     },
     {
@@ -233,6 +233,17 @@ export const speakers = [
             { icon: "icofont-web", href: "https://www.murraynewlands.com/" },
             { icon: "icofont-twitter", href: "https://twitter.com/MurrayNewlands" },
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/murraynewlands/" }
+        ]
+    },
+    {
+        name: "Chunting Zhou",
+        title: "Research Scientist",
+        company: "Meta AI",
+        image: require("../../assets/images/speakers/chuntingzhou.jpeg"),
+        socialLinks: [
+            { icon: "icofont-web", href: "https://violet-zct.github.io" },
+            { icon: "icofont-twitter", href: "https://twitter.com/violet_zct" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/chunting-zhou-14525985" }
         ]
     }
 ];

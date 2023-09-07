@@ -228,6 +228,18 @@ export const booths = [
         image: require("../../assets/images/sponsors/Zipstack.png")
     },
     {
+        name: "onecarmel",
+        link: "",
+        description: "",
+        image: require("../../assets/images/sponsors/onecarmel.png")
+    },
+    {
+        name: "K&L",
+        link: "",
+        description: "",
+        image: require("../../assets/images/sponsors/K&L.png")
+    },
+    {
         name: "FlowGPT",
         link: "https://flowgpt.com/",
         description: "FlowGPT allows anyone to explore, use, and share prompts across different LLMs. On one side, users cannot find high-quality prompts and often miss their potential use cases. On the other side, prompt engineers demand an open-source community and a 'Github' to collaborate, iterate, and manage their prompts.",

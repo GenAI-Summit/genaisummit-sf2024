@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a91a75e5.css",
-    "main.js": "/static/js/main.8f935abb.js",
+    "main.js": "/static/js/main.f1ae2450.js",
     "static/js/787.16e64372.chunk.js": "/static/js/787.16e64372.chunk.js",
     "static/media/main-bg1.mp4": "/static/media/main-bg1.a2703484bb9eee7d0c2e.mp4",
     "static/media/main-bg1.jpg": "/static/media/main-bg1.feafeadc13b9c985725e.jpg",
@@ -62,6 +62,7 @@
     "static/media/metagpt.png": "/static/media/metagpt.6dada2d899c347d6bd40.png",
     "static/media/lepton.png": "/static/media/lepton.fde66017fbc7790b489b.png",
     "static/media/puffer.png": "/static/media/puffer.c1c3b352e4fc92dc098f.png",
+    "static/media/barling.jpg": "/static/media/barling.af470c498158523e4151.jpg",
     "static/media/bg.jpg": "/static/media/bg.021d5f4d635a6b647a8b.jpg",
     "static/media/worldcoin.png": "/static/media/worldcoin.32de6f0d006816e279cd.png",
     "static/media/hanyu.jpeg": "/static/media/hanyu.ea849a86d34735d31d2a.jpeg",
@@ -80,11 +81,11 @@
     "static/media/arize.svg": "/static/media/arize.8ca474c99641714a03ec221151132c1d.svg",
     "index.html": "/index.html",
     "main.a91a75e5.css.map": "/static/css/main.a91a75e5.css.map",
-    "main.8f935abb.js.map": "/static/js/main.8f935abb.js.map",
+    "main.f1ae2450.js.map": "/static/js/main.f1ae2450.js.map",
     "787.16e64372.chunk.js.map": "/static/js/787.16e64372.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a91a75e5.css",
-    "static/js/main.8f935abb.js"
+    "static/js/main.f1ae2450.js"
   ]
 }

@@ -121,6 +121,16 @@ export const speakers = [
         ]
     },
     {
+        name: "Nathaniel Barling",
+        title: "Product & AI",
+        company: "a16z",
+        image: require("../../assets/images/speakers/barling.jpg"),
+        socialLinks: [
+            { icon: "icofont-twitter", href: "https://twitter.com/NatBarling" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/nathanielwjbarling/" }
+        ]
+    },
+    {
         image: require("../../assets/images/speakers/stevehoffman.jpeg"),
         name: "Steve Hoffman",
         title: "Founder & CEO",

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a91a75e5.css",
-    "main.js": "/static/js/main.71384fe2.js",
+    "main.js": "/static/js/main.12539590.js",
     "static/js/787.16e64372.chunk.js": "/static/js/787.16e64372.chunk.js",
     "static/media/main-bg1.mp4": "/static/media/main-bg1.a2703484bb9eee7d0c2e.mp4",
     "static/media/main-bg1.jpg": "/static/media/main-bg1.feafeadc13b9c985725e.jpg",
@@ -16,6 +16,7 @@
     "static/media/misra.png": "/static/media/misra.20ca48287f7bdd864af4.png",
     "static/media/yichong.jpg": "/static/media/yichong.0cd6369c3e8113c97a02.jpg",
     "static/media/icofont.woff2": "/static/media/icofont.9c33516aab48c61e3081.woff2",
+    "static/media/metasponser.png": "/static/media/metasponser.30e389bfb33728882913.png",
     "static/media/main-bg3.jpg": "/static/media/main-bg3.c2b9283388d541b857dd.jpg",
     "static/media/jason_wei.jpeg": "/static/media/jason_wei.723ccae95a9d56a6e25d.jpeg",
     "static/media/color-bg.jpg": "/static/media/color-bg.80f00b958e117b2698ca.jpg",
@@ -31,12 +32,13 @@
     "static/media/citingAI.png": "/static/media/citingAI.02aa9271c1d93fdc1bad.png",
     "static/media/jim_fan.jpeg": "/static/media/jim_fan.d8ea5488c10bfe67b6cf.jpeg",
     "static/media/ExaBITS.png": "/static/media/ExaBITS.12f5792220ba556abc41.png",
+    "static/media/Arcti.png": "/static/media/Arcti.a6f23798bc387155e6cc.png",
     "static/media/blog4.jpg": "/static/media/blog4.f1b0d80282d3a5f0a88f.jpg",
     "static/media/tencent.png": "/static/media/tencent.2d0c1ed73e4d4fbedfb0.png",
     "static/media/jerryliu.jpeg": "/static/media/jerryliu.846e2c9919eedcd1143a.jpeg",
-    "static/media/Petoi1.png": "/static/media/Petoi1.8fd628c2b1913409310a.png",
     "static/media/wagmi.png": "/static/media/wagmi.87098960ba1ee65777de.png",
     "static/media/yiren.png": "/static/media/yiren.8512a620b94fccb79660.png",
+    "static/media/Petoi1.png": "/static/media/Petoi1.24b22df6452d293848e4.png",
     "static/media/jason_l.webp": "/static/media/jason_l.b50f7c5e5525c81d4b3f.webp",
     "static/media/newlands.jpg": "/static/media/newlands.6aa8d1658fd44df7ce7d.jpg",
     "static/media/blog2.jpg": "/static/media/blog2.60e150c543ffcc93d334.jpg",
@@ -49,7 +51,6 @@
     "static/media/arvind.jpeg": "/static/media/arvind.d6ca9cc70071044de9f0.jpeg",
     "static/media/blog1.jpg": "/static/media/blog1.ead6e4f7ca7a665f822b.jpg",
     "static/media/founderspace.png": "/static/media/founderspace.ebb46359ba31243889fe.png",
-    "static/media/onecarmel.png": "/static/media/onecarmel.66f9b39dbf5bd157eebe.png",
     "static/media/metablox.png": "/static/media/metablox.758870c99117c00d5377.png",
     "static/media/vicuna.png": "/static/media/vicuna.432b982d7d050f7e51e1.png",
     "static/media/harrison.jpeg": "/static/media/harrison.5d7f7e99e0a59f6a0224.jpeg",
@@ -62,13 +63,13 @@
     "static/media/aligns.png": "/static/media/aligns.b1a0146f06a0bc9dfa79.png",
     "static/media/starloom.png": "/static/media/starloom.1320884ded369f3a8506.png",
     "static/media/hugo.jpeg": "/static/media/hugo.b6fcbd65812333f88743.jpeg",
+    "static/media/onecarmel.png": "/static/media/onecarmel.fb479116316c66d86904.png",
     "static/media/metagpt.png": "/static/media/metagpt.6dada2d899c347d6bd40.png",
     "static/media/lepton.png": "/static/media/lepton.fde66017fbc7790b489b.png",
     "static/media/barling.jpg": "/static/media/barling.af470c498158523e4151.jpg",
     "static/media/bg.jpg": "/static/media/bg.021d5f4d635a6b647a8b.jpg",
     "static/media/worldcoin.png": "/static/media/worldcoin.32de6f0d006816e279cd.png",
     "static/media/hanyu.jpeg": "/static/media/hanyu.ea849a86d34735d31d2a.jpeg",
-    "static/media/llama2.png": "/static/media/llama2.3d4cc12932e905ccec61.png",
     "static/media/flowgpt.png": "/static/media/flowgpt.98cd0a8b290f1b6f6a66.png",
     "static/media/pulze.png": "/static/media/pulze.5921bf4d03263d7fefc1.png",
     "static/media/Zipstack.png": "/static/media/Zipstack.d4c622777d8f708aae74.png",
@@ -83,11 +84,11 @@
     "static/media/arize.svg": "/static/media/arize.8ca474c99641714a03ec221151132c1d.svg",
     "index.html": "/index.html",
     "main.a91a75e5.css.map": "/static/css/main.a91a75e5.css.map",
-    "main.71384fe2.js.map": "/static/js/main.71384fe2.js.map",
+    "main.12539590.js.map": "/static/js/main.12539590.js.map",
     "787.16e64372.chunk.js.map": "/static/js/787.16e64372.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a91a75e5.css",
-    "static/js/main.71384fe2.js"
+    "static/js/main.12539590.js"
   ]
 }

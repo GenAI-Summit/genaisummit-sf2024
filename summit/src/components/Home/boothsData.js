@@ -108,6 +108,12 @@ export const booths = [
         image: require("../../assets/images/sponsors/1gen.jpeg")
     },
     {
+        name: "Arcticeider",
+        link: "",
+        description: "With 1Gen.ai, users can effortlessly generate animated images using natural language, indulging in a seamless journey of image editing and creative design. This tool integrates advanced controllable AI technology, offering users revolutionary innovation in image creation and design.",
+        image: require("../../assets/images/sponsors/Arcti.png")
+    },
+    {
         name: "MetaBlox",
         link: "https://metablox.io/",
         description: "MetaBlox is delivering enterprise-grade WiFi roaming to the public worldwide, ensuring uninterrupted, low-cost access to Web3 and the Metaverse compared to cellular services, as well as enhanced network security and an exceptional overall experience.",

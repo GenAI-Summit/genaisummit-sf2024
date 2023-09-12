@@ -45,7 +45,7 @@ const Partner = () => {
                             <GoldSponsors />
                         </div>
                         <div className="sponsor-logo">
-                            <img src={require("../../assets/images/sponsors/iobc.jpeg")} alt="Partner Logo" />
+                            <img src={require("../../assets/images/sponsors/yiren.png")} alt="Partner Logo" />
                             <img src={require("../../assets/images/sponsors/tencent.png")} alt="Partner Logo" />
                             <img src={require("../../assets/images/sponsors/swft.png")} alt="Partner Logo" id="big"/>
                             <img src={require("../../assets/images/sponsors/wagmi.png")} alt="Partner Logo" />

@@ -143,6 +143,7 @@ export const speakers = [
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/xinyun-chen-b4ab79172/" }
         ]
     },
+    
     {
         name: "Hanyu Xue",
         title: "Principle ML Eng Mgr",

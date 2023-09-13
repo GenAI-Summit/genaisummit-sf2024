@@ -126,6 +126,18 @@ export const booths = [
         image: require("../../assets/images/sponsors/metagpt.png")
     },
     {
+        name: "sineaptic",
+        link: "https://sineaptic.com/",
+        description: "",
+        image: require("../../assets/images/sponsors/sineaptic.avif")
+    },
+    {
+        name: "CitingAI",
+        link: "",
+        description: "",
+        image: require("../../assets/images/sponsors/citingAI.png")
+    },
+    {
         name: "ExaBITS",
         link: "https://www.exabits.ai/",
         description: "ExaBITS's mission is to streamline GenAI experiences by reducing costs, saving time, and enhancing the quality of life for users. Their vision is to create a dynamic digital ecosystem where users actively participate and benefit from their contributions. By providing computing resources, training LLM, generating content, and sharing data, users become integral parts of the ExaBITS network. ExaBITS envisions a future where knowledge and resources are shared freely, fostering an open, friendly, and collaborative environment.",
@@ -197,18 +209,7 @@ export const booths = [
         description: "",
         image: require("../../assets/images/sponsors/aligns.png")
     },
-    {
-        name: "sineaptic",
-        link: "https://sineaptic.com/",
-        description: "",
-        image: require("../../assets/images/sponsors/sineaptic.avif")
-    },
-    {
-        name: "CitingAI",
-        link: "",
-        description: "",
-        image: require("../../assets/images/sponsors/citingAI.png")
-    },
+    
     {
         name: "Petoi",
         link: "",
@@ -246,9 +247,10 @@ export const booths = [
         image: require("../../assets/images/sponsors/K&L.png")
     },
     {
-        name: "FlowGPT",
-        link: "https://flowgpt.com/",
-        description: "FlowGPT allows anyone to explore, use, and share prompts across different LLMs. On one side, users cannot find high-quality prompts and often miss their potential use cases. On the other side, prompt engineers demand an open-source community and a 'Github' to collaborate, iterate, and manage their prompts.",
-        image: require("../../assets/images/sponsors/flowgpt.png")
+        name: "BrilinkerGPT",
+        link: "",
+        description: "",
+        image: require("../../assets/images/sponsors/brilinker.png")
     },
+    
 ]

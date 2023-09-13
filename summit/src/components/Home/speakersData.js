@@ -101,6 +101,16 @@ export const speakers = [
         ]
     },
     {
+        name: "Rajat Suri",
+        title: "Co-founder @Lima Founder @Presto",
+        company: "Co-founder @Lyft",
+        image: require("../../assets/images/speakers/rajat.jpg"),
+        socialLinks: [
+            { icon: "icofont-twitter", href: "https://twitter.com/rajatsuri" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/rajatsuri/" }
+        ]
+    },
+    {
         name: "Jerry Liu",
         title: "Cofounder & CEO",
         company: "LlamaIndex",
@@ -119,6 +129,26 @@ export const speakers = [
         socialLinks: [
             { icon: "icofont-twitter", href: "https://twitter.com/NatBarling" },
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/nathanielwjbarling/" }
+        ]
+    },
+    {
+        name: "Sudip Roy",
+        title: "Director of Engineering",
+        company: "Cohere",
+        image: require("../../assets/images/speakers/Sudip.png"),
+        socialLinks: [
+            { icon: "icofont-web", href: "https://en.wikipedia.org/wiki/Sudip_Roy" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/sudip-roy-81a23b15/" }
+        ]
+    },
+    {
+        name: "Ameer Haj-Ali",
+        title: "Head of Cloud Infrastructure & Platform Engineering",
+        company: "Anyscale",
+        image: require("../../assets/images/speakers/ameer.jpg"),
+        socialLinks: [
+            { icon: "icofont-web", href: "https://www.ameerhajali.com/" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/ameer-haj-ali/" }
         ]
     },
     {
@@ -143,7 +173,7 @@ export const speakers = [
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/xinyun-chen-b4ab79172/" }
         ]
     },
-    
+
     {
         name: "Hanyu Xue",
         title: "Principle ML Eng Mgr",

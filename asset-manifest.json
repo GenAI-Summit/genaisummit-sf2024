@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a91a75e5.css",
-    "main.js": "/static/js/main.764b523b.js",
+    "main.js": "/static/js/main.ccce757b.js",
     "static/js/787.16e64372.chunk.js": "/static/js/787.16e64372.chunk.js",
     "static/media/main-bg1.mp4": "/static/media/main-bg1.a2703484bb9eee7d0c2e.mp4",
     "static/media/main-bg1.jpg": "/static/media/main-bg1.feafeadc13b9c985725e.jpg",
@@ -16,6 +16,7 @@
     "static/media/misra.png": "/static/media/misra.20ca48287f7bdd864af4.png",
     "static/media/yichong.jpg": "/static/media/yichong.0cd6369c3e8113c97a02.jpg",
     "static/media/icofont.woff2": "/static/media/icofont.9c33516aab48c61e3081.woff2",
+    "static/media/Sudip.png": "/static/media/Sudip.0a4f11d0826b0220f70b.png",
     "static/media/metasponser.png": "/static/media/metasponser.30e389bfb33728882913.png",
     "static/media/main-bg3.jpg": "/static/media/main-bg3.c2b9283388d541b857dd.jpg",
     "static/media/jason_wei.jpeg": "/static/media/jason_wei.723ccae95a9d56a6e25d.jpeg",
@@ -32,8 +33,9 @@
     "static/media/citingAI.png": "/static/media/citingAI.02aa9271c1d93fdc1bad.png",
     "static/media/jim_fan.jpeg": "/static/media/jim_fan.d8ea5488c10bfe67b6cf.jpeg",
     "static/media/ExaBITS.png": "/static/media/ExaBITS.12f5792220ba556abc41.png",
-    "static/media/Arcti.png": "/static/media/Arcti.a6f23798bc387155e6cc.png",
     "static/media/blog4.jpg": "/static/media/blog4.f1b0d80282d3a5f0a88f.jpg",
+    "static/media/Arcti.png": "/static/media/Arcti.1029d18e12cb0831cb39.png",
+    "static/media/Zipstack.png": "/static/media/Zipstack.e24d34382886a2f42f2c.png",
     "static/media/yiren.png": "/static/media/yiren.5e227cb986cc12c7ab5f.png",
     "static/media/jerryliu.jpeg": "/static/media/jerryliu.846e2c9919eedcd1143a.jpeg",
     "static/media/wagmi.png": "/static/media/wagmi.87098960ba1ee65777de.png",
@@ -58,7 +60,9 @@
     "static/media/mountainlion.png": "/static/media/mountainlion.d595bda0ce876154d0c0.png",
     "static/media/nftpath.png": "/static/media/nftpath.192ec775085e2155c15d.png",
     "static/media/realchar.png": "/static/media/realchar.25c5d8b837226aa5529f.png",
+    "static/media/rajat.jpg": "/static/media/rajat.7155c3570afab0c794c3.jpg",
     "static/media/jung.jpeg": "/static/media/jung.e22f3a7e1ece535b0442.jpeg",
+    "static/media/brilinker.png": "/static/media/brilinker.d79faf227c721ad61745.png",
     "static/media/aligns.png": "/static/media/aligns.b1a0146f06a0bc9dfa79.png",
     "static/media/starloom.png": "/static/media/starloom.1320884ded369f3a8506.png",
     "static/media/hugo.jpeg": "/static/media/hugo.b6fcbd65812333f88743.jpeg",
@@ -66,12 +70,11 @@
     "static/media/metagpt.png": "/static/media/metagpt.6dada2d899c347d6bd40.png",
     "static/media/lepton.png": "/static/media/lepton.fde66017fbc7790b489b.png",
     "static/media/barling.jpg": "/static/media/barling.af470c498158523e4151.jpg",
+    "static/media/ameer.jpg": "/static/media/ameer.64ed48787a5ae09dd5db.jpg",
     "static/media/bg.jpg": "/static/media/bg.021d5f4d635a6b647a8b.jpg",
     "static/media/worldcoin.png": "/static/media/worldcoin.32de6f0d006816e279cd.png",
     "static/media/hanyu.jpeg": "/static/media/hanyu.ea849a86d34735d31d2a.jpeg",
-    "static/media/flowgpt.png": "/static/media/flowgpt.98cd0a8b290f1b6f6a66.png",
     "static/media/pulze.png": "/static/media/pulze.5921bf4d03263d7fefc1.png",
-    "static/media/Zipstack.png": "/static/media/Zipstack.d4c622777d8f708aae74.png",
     "static/media/1gen.jpeg": "/static/media/1gen.ff5d140d571c8037e731.jpeg",
     "static/media/llamaindex.png": "/static/media/llamaindex.7d29c005b03a2163c2c7.png",
     "static/media/deepbrain.png": "/static/media/deepbrain.fd2c37f5cce8a8a27376.png",
@@ -83,11 +86,11 @@
     "static/media/arize.svg": "/static/media/arize.8ca474c99641714a03ec221151132c1d.svg",
     "index.html": "/index.html",
     "main.a91a75e5.css.map": "/static/css/main.a91a75e5.css.map",
-    "main.764b523b.js.map": "/static/js/main.764b523b.js.map",
+    "main.ccce757b.js.map": "/static/js/main.ccce757b.js.map",
     "787.16e64372.chunk.js.map": "/static/js/787.16e64372.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a91a75e5.css",
-    "static/js/main.764b523b.js"
+    "static/js/main.ccce757b.js"
   ]
 }

@@ -107,12 +107,14 @@ export const booths = [
         description: "With 1Gen.ai, users can effortlessly generate animated images using natural language, indulging in a seamless journey of image editing and creative design. This tool integrates advanced controllable AI technology, offering users revolutionary innovation in image creation and design.",
         image: require("../../assets/images/sponsors/1gen.jpeg")
     },
+    
     {
         name: "Arcticeider",
         link: "",
         description: "With 1Gen.ai, users can effortlessly generate animated images using natural language, indulging in a seamless journey of image editing and creative design. This tool integrates advanced controllable AI technology, offering users revolutionary innovation in image creation and design.",
         image: require("../../assets/images/sponsors/Arcti.png")
     },
+    
     {
         name: "MetaBlox",
         link: "https://metablox.io/",
@@ -124,6 +126,18 @@ export const booths = [
         link: "https://github.com/geekan/MetaGPT",
         description: "The Multi-Agent Framework: Given one line Requirement, return PRD, Design, Tasks, Repo.",
         image: require("../../assets/images/sponsors/metagpt.png")
+    },
+    {
+        name: "sineaptic",
+        link: "https://sineaptic.com/",
+        description: "",
+        image: require("../../assets/images/sponsors/sineaptic.avif")
+    },
+    {
+        name: "CitingAI",
+        link: "",
+        description: "",
+        image: require("../../assets/images/sponsors/citingAI.png")
     },
     {
         name: "ExaBITS",
@@ -197,18 +211,7 @@ export const booths = [
         description: "",
         image: require("../../assets/images/sponsors/aligns.png")
     },
-    {
-        name: "sineaptic",
-        link: "https://sineaptic.com/",
-        description: "",
-        image: require("../../assets/images/sponsors/sineaptic.avif")
-    },
-    {
-        name: "CitingAI",
-        link: "",
-        description: "",
-        image: require("../../assets/images/sponsors/citingAI.png")
-    },
+    
     {
         name: "Petoi",
         link: "",
@@ -246,9 +249,9 @@ export const booths = [
         image: require("../../assets/images/sponsors/K&L.png")
     },
     {
-        name: "FlowGPT",
-        link: "https://flowgpt.com/",
-        description: "FlowGPT allows anyone to explore, use, and share prompts across different LLMs. On one side, users cannot find high-quality prompts and often miss their potential use cases. On the other side, prompt engineers demand an open-source community and a 'Github' to collaborate, iterate, and manage their prompts.",
-        image: require("../../assets/images/sponsors/flowgpt.png")
+        name: "Brilinker",
+        link: "https://www.brilinker.com/#/",
+        description: "",
+        image: require("../../assets/images/sponsors/brilinker.png")
     },
 ]

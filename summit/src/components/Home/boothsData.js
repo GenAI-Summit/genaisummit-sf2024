@@ -252,5 +252,11 @@ export const booths = [
         description: "",
         image: require("../../assets/images/sponsors/brilinker.png")
     },
+    {
+        name: "Realloop",
+        link: "",
+        description: "",
+        image: require("../../assets/images/sponsors/Realloop.png")
+    },
     
 ]

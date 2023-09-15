@@ -101,6 +101,16 @@ export const speakers = [
         ]
     },
     {
+        name: "Anton Troynikov",
+        title: "Founder",
+        company: "Chroma",
+        image: require("../../assets/images/speakers/anton.jpg"),
+        socialLinks: [
+            { icon: "icofont-twitter", href: "https://twitter.com/atroyn" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/antontroynikov/" }
+        ]
+    },
+    {
         name: "Rajat Suri",
         title: "Co-founder @Lima Founder @Presto",
         company: "Co-founder @Lyft",
@@ -152,14 +162,14 @@ export const speakers = [
         ]
     },
     {
-        image: require("../../assets/images/speakers/stevehoffman.jpeg"),
-        name: "Steve Hoffman",
-        title: "Founder & CEO",
-        company: "Founders Space",
+        name: "Hugging Face",
+        title: "",
+        company: "",
+        image: require("../../assets/images/speakers/huggingface.png"),
         socialLinks: [
-            { href: "https://twitter.com/FoundersSpace", icon: "icofont-twitter" },
-            { href: "https://www.linkedin.com/in/foundersspace/", icon: "icofont-linkedin" },
-            { href: "https://www.foundersspace.com/hoffman/", icon: "icofont-web" }
+            { icon: "icofont-web", href: "https://huggingface.co/" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/company/huggingface/" },
+            { icon: "icofont-twitter",href:"https://twitter.com/huggingface"}
         ]
     },
     {
@@ -206,6 +216,16 @@ export const speakers = [
         ]
     },
     {
+        name: "Li Erran Li",
+        title: "head of science",
+        company: "AWS",
+        image: require("../../assets/images/speakers/erran.png"),
+        socialLinks: [
+            { icon: "icofont-twitter", href: "https://twitter.com/agishaun" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/shaunwei/" }
+        ]
+    },
+    {
         name: "Lianmin Zheng",
         title: "Author of Vicuna",
         company: "UCB LMSYS AI Lab",
@@ -242,10 +262,11 @@ export const speakers = [
         company: "RealChar.",
         image: require("../../assets/images/speakers/shaun.JPG"),
         socialLinks: [
-            { icon: "icofont-twitter", href: "https://twitter.com/agishaun" },
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/shaunwei/" }
+            { icon: "icofont-web", href: "http://www.cs.columbia.edu/~lierranli/" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/li-erran-li-552aa217/" }
         ]
     },
+    
     {
         name: "Murray Newlands",
         title: "Investor",
@@ -266,6 +287,15 @@ export const speakers = [
             { icon: "icofont-web", href: "https://violet-zct.github.io" },
             { icon: "icofont-twitter", href: "https://twitter.com/violet_zct" },
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/chunting-zhou-14525985" }
+        ]
+    },
+    {
+        name: "Tiger Feng",
+        title: "President",
+        company: "Seattle Technical Forum",
+        image: require("../../assets/images/speakers/tiger.png"),
+        socialLinks: [
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/tigerf/" }
         ]
     }
 ];

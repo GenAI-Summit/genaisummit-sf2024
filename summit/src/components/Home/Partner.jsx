@@ -23,7 +23,7 @@ const Partner = () => {
                 <div className="row">
                     <div className="col-lg-3 col-md-3 sponsor-div">
                         <div className="partner-title">
-                            <DiamondSponsors />
+                        <img src={require("../../assets/images/sponsors/diamond.png")} alt="Partner Logo" />
                         </div>
                         <div className="sponsor-logo">
                             <img src={require("../../assets/images/sponsors/microsoft.png")} alt="Partner Logo" />
@@ -32,35 +32,36 @@ const Partner = () => {
 
                     <div className="col-lg-3 col-md-3 sponsor-div">
                         <div className="partner-title">
-                            <PlatinumSponsors />
+                        <img src={require("../../assets/images/sponsors/plat.png")} alt="Partner Logo" />
                         </div>
                         <div className="sponsor-logo">
                             <img src={require("../../assets/images/sponsors/aws.png")} alt="Partner Logo" />
                             <img src={require("../../assets/images/sponsors/googlecloud.png")} alt="Partner Logo"/>
+                            <img src={require("../../assets/images/sponsors/dawn.png")} alt="Partner Logo"/>
                         </div>
                     </div>
 
                     <div className="col-lg-3 col-md-3 sponsor-div">
                         <div className="partner-title">
-                            <GoldSponsors />
+                        <img src={require("../../assets/images/sponsors/gold.png")} alt="Partner Logo" />
                         </div>
                         <div className="sponsor-logo">
                             <img src={require("../../assets/images/sponsors/yiren.png")} alt="Partner Logo" />
-                            <img src={require("../../assets/images/sponsors/tencent.png")} alt="Partner Logo" />
                             <img src={require("../../assets/images/sponsors/swft.png")} alt="Partner Logo" id="big"/>
                             <img src={require("../../assets/images/sponsors/wagmi.png")} alt="Partner Logo" />
+                            <img src={require("../../assets/images/sponsors/Realloop.png")} alt="Partner Logo" id="big"/>
                         </div>
                     </div>
 
                     <div className="col-lg-3 col-md-3 sponsor-div">
                         <div className="partner-title">
-                            <SilverSponsors />
+                        <img src={require("../../assets/images/sponsors/silver.png")} alt="Partner Logo" />
                         </div>
                         <div className="sponsor-logo">
-                            <img src={require("../../assets/images/sponsors/nftpath.png")} alt="Partner Logo" />
-                            <img src={require("../../assets/images/sponsors/espeedlogo.jpg")} alt="Partner Logo" />
-                            <img src={require("../../assets/images/sponsors/onecarmel.png")} alt="Partner Logo" />
+                            <img src={require("../../assets/images/sponsors/espeedlogo.png")} alt="Partner Logo" id="big" />
+                            <img src={require("../../assets/images/sponsors/onecarmel.png")} alt="Partner Logo" id="big"/>
                             <img src={require("../../assets/images/sponsors/metasponser.png")} alt="Partner Logo" />
+                            <img src={require("../../assets/images/sponsors/tencent.png")} alt="Partner Logo" />
                         </div>
                     </div>
                 </div>

@@ -240,7 +240,7 @@ const EventSchedules = () => {
                         
                         <div className="accordion-content">
                             <p>Chunting Zhou (Research Scientist @Meta AI), Anton Troynikov (Founder @Chroma), 
-                                Lianmin Zheng (Author @Vicuna), Shishir Patil (Creator @Gorilla)</p>
+                                Lianmin Zheng (Author @Vicuna), Li Erran Li (Head of Science @AWS), Shishir Patil (Creator @Gorilla)</p>
 
                             {/* <div className="row h-100 align-items-center">
                                 <div className="col-lg-6 col-md-7">
@@ -266,7 +266,7 @@ const EventSchedules = () => {
                         
                         <div className="accordion-content">
                             <p> Jason Lopatecki (Founder & CEO @Arize AI), Jerry Liu (Co-founder & CEO @LlamaIndex), Yangqing Jia (Founder @Lepton AI), 
-                                Michael Jung (Founder @DeepBrain), Harrison Chase (Founder & CEO @LangChain), Aravind Srinivas (Co-founder & CEO @Perplexity)</p>
+                                Michael Jung (Founder @DeepBrain), Aravind Srinivas (Co-founder & CEO @Perplexity)</p>
                             {/* <div className="row h-100 align-items-center">
                                 <div className="col-lg-6 col-md-7">
                                     <div className="location">

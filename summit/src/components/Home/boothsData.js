@@ -258,5 +258,10 @@ export const booths = [
         description: "",
         image: require("../../assets/images/sponsors/Realloop.png")
     },
-    
+    {
+        name: "Express",
+        link: "",
+        description: "",
+        image: require("../../assets/images/sponsors/xpress1.png")
+    },
 ]

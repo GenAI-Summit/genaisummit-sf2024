@@ -270,9 +270,7 @@ Jim Fan (Senior AI Scientist @NVIDIA)</p>
                         
                         <div className="accordion-content">
                             <p> Project 1 <br></br>
-Project 2 <br></br>
-
-Project 3 
+Project 2 
                             </p>
                             {/* <div className="row h-100 align-items-center">
                                 <div className="col-lg-6 col-md-7">
@@ -298,8 +296,7 @@ Project 3
                         
                         <div className="accordion-content">
                             <p>Project 1<br></br>
-Project 2<br></br>
-Project 3</p>
+Project 2</p>
 
                             {/* <div className="row h-100 align-items-center">
                                 <div className="col-lg-6 col-md-7">
@@ -353,8 +350,7 @@ Tiger Feng (President @Seattle Technical Forum)</p>
                         
                         <div className="accordion-content">
                             <p>Project 1<br></br>
-Project 2<br></br>
-Project 3</p>
+Project 2</p>
 
                             {/* <div className="row h-100 align-items-center">
                                 <div className="col-lg-6 col-md-7">
@@ -379,8 +375,7 @@ Project 3</p>
                         
                         <div className="accordion-content">
                             <p>Project 1<br></br>
-Project 2<br></br>
-Project 3</p>
+Project 2</p>
 
                             {/* <div className="row h-100 align-items-center">
                                 <div className="col-lg-6 col-md-7">

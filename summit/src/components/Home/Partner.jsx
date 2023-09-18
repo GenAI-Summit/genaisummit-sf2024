@@ -62,6 +62,7 @@ const Partner = () => {
                             <img src={require("../../assets/images/sponsors/onecarmel.png")} alt="Partner Logo" id="big"/>
                             <img src={require("../../assets/images/sponsors/metasponser.png")} alt="Partner Logo" />
                             <img src={require("../../assets/images/sponsors/tencent.png")} alt="Partner Logo" />
+                            <img src={require("../../assets/images/sponsors/jiccapital.png")} alt="Partner Logo" />
                         </div>
                     </div>
                 </div>

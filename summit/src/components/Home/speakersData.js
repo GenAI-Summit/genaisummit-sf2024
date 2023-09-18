@@ -152,7 +152,7 @@ export const speakers = [
         ]
     },
     {
-        name: "Ameer Haj-Ali",
+        name: "Dr. Ameer Haj-Ali",
         title: "Head of Cloud Infrastructure & Platform Engineering",
         company: "Anyscale",
         image: require("../../assets/images/speakers/ameer.jpg"),
@@ -170,6 +170,16 @@ export const speakers = [
             { icon: "icofont-web", href: "https://huggingface.co/" },
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/company/huggingface/" },
             { icon: "icofont-twitter",href:"https://twitter.com/huggingface"}
+        ]
+    },
+    {
+        name: "Yan Zhao",
+        title: "Vice Mayor",
+        company: "Saratoga City",
+        image: require("../../assets/images/speakers/zhaoyan.jpg"),
+        socialLinks: [
+            { icon: "icofont-web", href: "https://www.saratoga.ca.us/443/Yan-Zhao" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/yan-zhao-92a3328/" },
         ]
     },
     {
@@ -296,6 +306,42 @@ export const speakers = [
         image: require("../../assets/images/speakers/tiger.png"),
         socialLinks: [
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/tigerf/" }
+        ]
+    }
+    ,
+    {
+        name: "Dr. Michael Ran",
+        title: "Co-Founder",
+        company: "GPTDAO",
+        image: require("../../assets/images/speakers/MichaelRan.jpg"),
+        socialLinks: [
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/yang-ran-4ab4357a/" }
+            ,{ icon: "icofont-twitter", href: "https://twitter.com/MichaelRan15" }
+
+            
+        ]
+    }
+    ,
+    {
+        name: "Alan Xing",
+        title: "Co-Founder",
+        company: "GPT DAO & Wagmi33 Foundation",
+        image: require("../../assets/images/speakers/Alan.jpg"),
+        socialLinks: [
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/alanxing/" }
+            ,{ icon: "icofont-twitter", href: "https://twitter.com/alanxing" }
+            
+        ]
+    }
+    ,
+    {
+        name: "Ziren Lin",
+        title: "Senior Data Scientist",
+        company: "McKinsey AI",
+        image: require("../../assets/images/speakers/ziren.jpg"),
+        socialLinks: [
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/ziren-lin-62bb5a11a/" }
+            ,{ icon: "icofont-twitter", href: "https://twitter.com/lin_ziren" }
         ]
     }
 ];

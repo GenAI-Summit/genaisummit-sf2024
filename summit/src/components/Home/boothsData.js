@@ -264,4 +264,16 @@ export const booths = [
         description: "",
         image: require("../../assets/images/sponsors/xpress1.png")
     },
+    {
+        name: "faceAI",
+        link: "",
+        description: "",
+        image: require("../../assets/images/sponsors/faceAI.png")
+    },
+    {
+        name: "formacloud",
+        link: "",
+        description: "",
+        image: require("../../assets/images/sponsors/formacloud1.png")
+    },
 ]

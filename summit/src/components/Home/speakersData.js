@@ -152,7 +152,7 @@ export const speakers = [
         ]
     },
     {
-        name: "Dr. Ameer Haj-Ali",
+        name: "Ameer Haj-Ali",
         title: "Head of Cloud Infrastructure & Platform Engineering",
         company: "Anyscale",
         image: require("../../assets/images/speakers/ameer.jpg"),
@@ -175,7 +175,7 @@ export const speakers = [
     {
         name: "Yan Zhao",
         title: "Vice Mayor",
-        company: "Saratoga City",
+        company: "City of Saratoga",
         image: require("../../assets/images/speakers/zhaoyan.jpg"),
         socialLinks: [
             { icon: "icofont-web", href: "https://www.saratoga.ca.us/443/Yan-Zhao" },
@@ -310,9 +310,19 @@ export const speakers = [
     }
     ,
     {
-        name: "Dr. Michael Ran",
+        name: "Rohit Agarwal",
+        title: "Co-Founder & CEO",
+        company: "Portkey.ai",
+        image: require("../../assets/images/speakers/Rohit.jpg"),
+        socialLinks: [
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/1rohitagarwal/" }
+        ]
+    }
+    ,
+    {
+        name: "Michael Ran",
         title: "Co-Founder",
-        company: "GPTDAO",
+        company: "GPTDAO & Dawn Lab & 1gen.ai",
         image: require("../../assets/images/speakers/MichaelRan.jpg"),
         socialLinks: [
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/yang-ran-4ab4357a/" }

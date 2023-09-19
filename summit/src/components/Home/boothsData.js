@@ -256,7 +256,7 @@ export const booths = [
         name: "Realloop",
         link: "",
         description: "",
-        image: require("../../assets/images/sponsors/Realloop.png")
+        image: require("../../assets/images/sponsors/realloop.png")
     },
     {
         name: "Express",
@@ -275,5 +275,17 @@ export const booths = [
         link: "",
         description: "",
         image: require("../../assets/images/sponsors/formacloud1.png")
+    },
+    {
+        name: "porkey",
+        link: "",
+        description: "",
+        image: require("../../assets/images/sponsors/portkey.png")
+    },
+    {
+        name: "Iris Energy",
+        link: "",
+        description: "",
+        image: require("../../assets/images/sponsors/irisenergy.png")
     },
 ]

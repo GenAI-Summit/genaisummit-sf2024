@@ -41,17 +41,17 @@ const EventSchedules = () => {
                             </div>
                         </div>
                         
-                        {/* <div className="accordion-content">
-                            <p>content TBD</p>
+                        <div className="accordion-content">
+                            {/* <p>content TBD</p> */}
 
                             <div className="row h-100 align-items-center">
                                 <div className="col-lg-6 col-md-7">
                                     <div className="location">
-                                        <b>Location:</b> Room A, Santa Clara Conventin Ceneter
+                                        <b>Topic:</b> Applied LLM Evaluations in Production
                                     </div>
                                 </div>
                             </div>
-                        </div> */}
+                        </div>
                     </li>
 
                     <li className="accordion-item">
@@ -66,17 +66,17 @@ const EventSchedules = () => {
                             </div>
                         </div>
                         
-                        {/* <div className="accordion-content">
-                            <p>TBD</p>
+                        <div className="accordion-content">
+                            
 
                             <div className="row h-100 align-items-center">
                                 <div className="col-lg-6 col-md-7">
                                     <div className="location">
-                                        <b>Location:</b> Room B, Santa Clara Conventin Ceneter
+                                        <b>Topic:</b> Building Performant RAG Applications for Production
                                     </div>
                                 </div>
                             </div>
-                        </div> */}
+                        </div>
                     </li>
 
                     <li className="accordion-item">
@@ -325,6 +325,7 @@ Dr. Ameer Haj-Ali (Head of Cloud Infrastructure & Platform Engineering @Anyscale
 Weights & Biases, 
 HuggingFace, 
 Hanyu Xue (Principle ML Engineering Manager @Microsoft), 
+Rohit Agarwal (CEO of Portkey), 
 Tiger Feng (President @Seattle Technical Forum)</p>
 
                             {/* <div className="row h-100 align-items-center">

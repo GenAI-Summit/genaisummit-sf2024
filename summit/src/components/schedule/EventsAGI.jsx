@@ -8,7 +8,7 @@ const EventSchedules = () => {
                     <li className="accordion-item">
                         <div className="accordion-title">
                             <div className="schedule-info">
-                                <h3>Keynote 1: Jim Fan (Senior AI Scientist @ NVIDIA)</h3>
+                                <h3>Keynote 1: TBD</h3>
 
                                 <ul>
                                     <li><i className="icofont-wall-clock"></i> 8:30AM - 9:00AM</li>
@@ -82,7 +82,7 @@ const EventSchedules = () => {
                     <li className="accordion-item">
                         <div className="accordion-title">
                             <div className="schedule-info">
-                                <h3>Keynote 4: TBD</h3>
+                                <h3>Keynote 4: Jim Fan (Senior AI Scientist @ NVIDIA)</h3>
 
                                 <ul>
                                     <li><i className="icofont-wall-clock"></i> 10:00AM - 10:30AM</li>
@@ -90,15 +90,15 @@ const EventSchedules = () => {
                             </div>
                         </div>
                         
-                        {/* <div className="accordion-content">
+                        <div className="accordion-content">
                             <div className="row h-100 align-items-center">
                                 <div className="col-lg-6 col-md-7">
                                     <div className="location">
-                                        <b>Location:</b> Room C, Santa Clara Conventin Ceneter
+                                        <b>Topic:</b> The Age of AI Agents
                                     </div>
                                 </div>
                             </div>
-                        </div> */}
+                        </div>
                     </li>
 
                     <li className="accordion-item">
@@ -113,17 +113,17 @@ const EventSchedules = () => {
                             </div>
                         </div>
                         
-                        {/* <div className="accordion-content">
-                            <p>TBD</p>
+                        <div className="accordion-content">
+                            {/* <p>TBD</p> */}
 
                             <div className="row h-100 align-items-center">
                                 <div className="col-lg-6 col-md-7">
                                     <div className="location">
-                                        <b>Location:</b> Room D, Santa Clara Conventin Ceneter
+                                        <b>Topic:</b> Building Context Aware Reasoning Applications
                                     </div>
                                 </div>
                             </div>
-                        </div> */}
+                        </div>
                     </li>
 
                     <li className="accordion-item">
@@ -163,17 +163,17 @@ const EventSchedules = () => {
                             </div>
                         </div>
                         
-                        {/* <div className="accordion-content">
-                            <p>TBD</p>
+                        <div className="accordion-content">
+                            {/* <p>TBD</p> */}
 
                             <div className="row h-100 align-items-center">
                                 <div className="col-lg-6 col-md-7">
                                     <div className="location">
-                                        <b>Location:</b> Room A, Santa Clara Conventin Ceneter
+                                        <b>Topic:</b> New Paradigms in the Large Language Model Renaissance
                                     </div>
                                 </div>
                             </div>
-                        </div> */}
+                        </div>
                     </li>
 
                     <li className="accordion-item">
@@ -203,7 +203,7 @@ const EventSchedules = () => {
                     <li className="accordion-item">
                         <div className="accordion-title">
                             <div className="schedule-info">
-                                <h3>Panel 1: Generative Agents</h3>
+                                <h3>Panel 1: Generative Agents & Social Networking</h3>
 
                                 <ul>
                                     <li><i className="icofont-wall-clock"></i> 1:00PM - 2:00PM</li>
@@ -214,7 +214,8 @@ const EventSchedules = () => {
                         
                         <div className="accordion-content">
                             <p>Rajat Suri (Co-founder @Lima), Joon Sung Park (Pioneer researcher @Generative Agent), 
-                                Shawn Wang (Founder @Smol AI)</p>
+                                Shawn Wang (Founder @Smol AI), Shaun Wei (Founder & CEO @RealChar.), Yichong Xu (AI Researcher @Character AI), 
+                                Robin Duan (Founder & CEO @MetaY)</p>
 
                             {/* <div className="row h-100 align-items-center">
                                 <div className="col-lg-6 col-md-7">
@@ -229,7 +230,7 @@ const EventSchedules = () => {
                     <li className="accordion-item">
                         <div className="accordion-title">
                             <div className="schedule-info">
-                                <h3>Panel 2: Open Vs. Closed - The Dichotomy Of OpenSource Models In AI</h3>
+                                <h3>Panel 2: Open Vs. Closed - The Dichotomy Of Open-Source Models In AI</h3>
 
                                 <ul>
                                     <li><i className="icofont-wall-clock"></i> 2:00PM - 3:00PM </li>
@@ -290,7 +291,7 @@ const EventSchedules = () => {
                         </div>
                         
                         <div className="accordion-content">
-                            <p>Murray Newlands (Investor @Open Future Technology), IOBC Capital, Nathaniel Barling (Product & AI @a16z)</p>
+                            <p>Michael Ran (Co-Founder @Dawn Lab), Murray Newlands (Investor @Open Future Technology), IOBC Capital, Nathaniel Barling (Product & AI @a16z)</p>
 
                             {/* <div className="row h-100 align-items-center">
                                 <div className="col-lg-6 col-md-7">

@@ -239,7 +239,7 @@ export const speakers = [
         name: "Lianmin Zheng",
         title: "Author of Vicuna",
         company: "UCB LMSYS AI Lab",
-        image: require("../../assets/images/speakers/lianminzheng.jpeg"),
+        image: require("../../assets/images/speakers/lianmin.png"),
         socialLinks: [
             { icon: "icofont-web", href: "https://lmzheng.net/" },
             { icon: "icofont-twitter", href: "https://twitter.com/lm_zheng" },
@@ -312,7 +312,7 @@ export const speakers = [
     {
         name: "Rohit Agarwal",
         title: "Co-Founder & CEO",
-        company: "Portkey.ai",
+        company: "Portkey.AI",
         image: require("../../assets/images/speakers/Rohit.jpg"),
         socialLinks: [
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/1rohitagarwal/" }
@@ -322,7 +322,7 @@ export const speakers = [
     {
         name: "Michael Ran",
         title: "Co-Founder",
-        company: "GPTDAO & Dawn Lab & 1gen.ai",
+        company: "GPTDAO & Dawn Lab & 1gen.AI",
         image: require("../../assets/images/speakers/MichaelRan.jpg"),
         socialLinks: [
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/yang-ran-4ab4357a/" }

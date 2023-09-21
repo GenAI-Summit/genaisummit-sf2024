@@ -132,23 +132,25 @@ export const speakers = [
         ]
     },
     {
-        name: "Nathaniel Barling",
-        title: "Product & AI",
-        company: "a16z",
-        image: require("../../assets/images/speakers/barling.jpg"),
+        name: "Bader Hamdan",
+        title: "Ecosystem Chief",
+        company: "Vectara",
+        image: require("../../assets/images/speakers/Bader.png"),
         socialLinks: [
-            { icon: "icofont-twitter", href: "https://twitter.com/NatBarling" },
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/nathanielwjbarling/" }
+            { icon: "icofont-web", href: "https://www.baderhamdan.com/" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/baderhamdan/" },
+            { icon: "icofont-twitter", href: "https://twitter.com/B_BaderH" }
         ]
     },
     {
-        name: "Sudip Roy",
-        title: "Director of Engineering",
+        name: "Jay Alammar",
+        title: "Director, Engineering Fellow",
         company: "Cohere",
-        image: require("../../assets/images/speakers/Sudip.png"),
+        image: require("../../assets/images/speakers/Jay.jpg"),
         socialLinks: [
-            { icon: "icofont-web", href: "https://en.wikipedia.org/wiki/Sudip_Roy" },
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/sudip-roy-81a23b15/" }
+            { icon: "icofont-web", href: "http://jalammar.github.io/" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/jalammar/recent-activity/all/" },
+            { icon: "icofont-twitter", href: "https://twitter.com/JayAlammar" }
         ]
     },
     {
@@ -316,6 +318,16 @@ export const speakers = [
         image: require("../../assets/images/speakers/Rohit.jpg"),
         socialLinks: [
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/1rohitagarwal/" }
+        ]
+    },
+    {
+        name: "Shawn Wang",
+        title: "Founder",
+        company: "Smol AI",
+        image: require("../../assets/images/speakers/Shawn.png"),
+        socialLinks: [
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/shawnswyxwang/" }
+            
         ]
     }
     ,

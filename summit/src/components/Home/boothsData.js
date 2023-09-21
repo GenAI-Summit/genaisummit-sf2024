@@ -288,4 +288,22 @@ export const booths = [
         description: "",
         image: require("../../assets/images/sponsors/irisenergy.png")
     },
+    {
+        name: "MetaStill",
+        link: "",
+        description: "",
+        image: require("../../assets/images/sponsors/metastill.png")
+    },
+    {
+        name: "MathGPT",
+        link: "",
+        description: "",
+        image: require("../../assets/images/sponsors/MathGPT.png")
+    },
+    {
+        name: "BoxNearBy",
+        link: "",
+        description: "",
+        image: require("../../assets/images/sponsors/boxnearby.png")
+    },
 ]

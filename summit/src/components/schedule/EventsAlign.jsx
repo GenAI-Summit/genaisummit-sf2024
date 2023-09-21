@@ -8,7 +8,7 @@ const EventSchedules = () => {
                     <li className="accordion-item">
                         <div className="accordion-title">
                             <div className="schedule-info">
-                                <h3>Keynote 1: Weights & Biases</h3>
+                                <h3>Keynote 1: Dr. Ameer Haj-Ali (Head of Cloud Infrastructure & Platform Engineering @Anyscale)</h3>
 
                                 <ul>
                                     <li><i className="icofont-wall-clock"></i> 8:30AM - 9:00AM</li>
@@ -82,7 +82,7 @@ const EventSchedules = () => {
                     <li className="accordion-item">
                         <div className="accordion-title">
                             <div className="schedule-info">
-                                <h3>Keynote 4: Hugging Face</h3>
+                                <h3>Keynote 4: Jay Alammar (Director, Engineering Fellow @Cohere)</h3>
 
                                 <ul>
                                     <li><i className="icofont-wall-clock"></i> 10:00AM - 10:30AM</li>
@@ -104,7 +104,10 @@ const EventSchedules = () => {
                     <li className="accordion-item">
                         <div className="accordion-title">
                             <div className="schedule-info">
-                                <h3>Keynote 5: Sudip Roy (Director of Engineering @Cohere)</h3>
+                                <h3>Keynote 5: Rajat Suri
+(Co-Founder @Lima, 
+Founder @Presto, 
+Co-Founder @Lyft)</h3>
 
                                 <ul>
                                     <li><i className="icofont-wall-clock"></i> 10:30AM - 11:00AM</li>
@@ -113,23 +116,23 @@ const EventSchedules = () => {
                             </div>
                         </div>
                         
-                        {/* <div className="accordion-content">
-                            <p>TBD</p>
+                        <div className="accordion-content">
+                           
 
                             <div className="row h-100 align-items-center">
                                 <div className="col-lg-6 col-md-7">
                                     <div className="location">
-                                        <b>Location:</b> Room D, Santa Clara Conventin Ceneter
+                                        <b>Topic:</b> Scaling AI Companies
                                     </div>
                                 </div>
                             </div>
-                        </div> */}
+                        </div>
                     </li>
 
                     <li className="accordion-item">
                         <div className="accordion-title">
                             <div className="schedule-info">
-                                <h3>Keynote 6: Hugo Touvron (Lead Author of Llama2)</h3>
+                                <h3>Keynote 6: Aravind Srinivas Keynote (Perplexity)</h3>
 
                                 <ul>
                                     <li><i className="icofont-wall-clock"></i> 11:00AM - 11:30AM</li>
@@ -163,17 +166,17 @@ const EventSchedules = () => {
                             </div>
                         </div>
                         
-                        {/* <div className="accordion-content">
-                            <p>TBD</p>
+                        <div className="accordion-content">
+                         
 
                             <div className="row h-100 align-items-center">
                                 <div className="col-lg-6 col-md-7">
                                     <div className="location">
-                                        <b>Location:</b> Room A, Santa Clara Conventin Ceneter
+                                        <b>Topic:</b> Memory for AI
                                     </div>
                                 </div>
                             </div>
-                        </div> */}
+                        </div>
                     </li>
 
                     <li className="accordion-item">
@@ -322,8 +325,7 @@ Project 2</p>
                         <div className="accordion-content">
                             <p>
 Dr. Ameer Haj-Ali (Head of Cloud Infrastructure & Platform Engineering @Anyscale), 
-Weights & Biases, 
-HuggingFace, 
+
 Hanyu Xue (Principle ML Engineering Manager @Microsoft), 
 Rohit Agarwal (CEO of Portkey), 
 Tiger Feng (President @Seattle Technical Forum)</p>

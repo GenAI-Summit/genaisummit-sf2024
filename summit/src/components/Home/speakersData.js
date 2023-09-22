@@ -132,14 +132,14 @@ export const speakers = [
         ]
     },
     {
-        name: "Bader Hamdan",
-        title: "Ecosystem Chief",
+        name: "Amin Ahmad",
+        title: "Founder & CTO",
         company: "Vectara",
-        image: require("../../assets/images/speakers/Bader.png"),
+        image: require("../../assets/images/speakers/amin.jpg"),
         socialLinks: [
-            { icon: "icofont-web", href: "https://www.baderhamdan.com/" },
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/baderhamdan/" },
-            { icon: "icofont-twitter", href: "https://twitter.com/B_BaderH" }
+            
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/aminahmad/" }
+           
         ]
     },
     {
@@ -164,14 +164,14 @@ export const speakers = [
         ]
     },
     {
-        name: "Hugging Face",
-        title: "",
-        company: "",
-        image: require("../../assets/images/speakers/huggingface.png"),
+        name: "Yun Jin",
+        title: "Engineering Director",
+        company: "Meta",
+        image: require("../../assets/images/speakers/yunjin.jpg"),
         socialLinks: [
-            { icon: "icofont-web", href: "https://huggingface.co/" },
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/company/huggingface/" },
-            { icon: "icofont-twitter",href:"https://twitter.com/huggingface"}
+            
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/yunjin/" },
+            
         ]
     },
     {
@@ -365,5 +365,16 @@ export const speakers = [
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/ziren-lin-62bb5a11a/" }
             ,{ icon: "icofont-twitter", href: "https://twitter.com/lin_ziren" }
         ]
+    },
+    {
+        name: "Florence Li",
+        title: "Chief Creative Officer",
+        company: "McKinsey AI",
+        image: require("../../assets/images/speakers/Florence.jpg"),
+        socialLinks: [
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/florence-li-18b657206/" }
+           
+        ]
     }
+    
 ];

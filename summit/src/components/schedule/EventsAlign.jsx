@@ -132,7 +132,7 @@ Co-Founder @Lyft)</h3>
                     <li className="accordion-item">
                         <div className="accordion-title">
                             <div className="schedule-info">
-                                <h3>Keynote 6: Aravind Srinivas Keynote (Perplexity)</h3>
+                                <h3>Keynote 6: Yangqing Jia (Founder @Lepton AI)</h3>
 
                                 <ul>
                                     <li><i className="icofont-wall-clock"></i> 11:00AM - 11:30AM</li>
@@ -216,8 +216,10 @@ Co-Founder @Lyft)</h3>
                         </div>
                         
                         <div className="accordion-content">
-                            <p>Chunting Zhou (Research Scientist @Meta AI),
-                                 Jason Wei (AI Researcher @OpenAI), Xinyun Chen (Senior Scientist @DeepMind)</p>
+
+                            <p>Jason Wei (AI Researcher @OpenAI), Chunting Zhou (Research Scientist @Meta AI), Xinyun Chen (Senior Scientist @DeepMind)</p>
+
+                    
 
                             {/* <div className="row h-100 align-items-center">
                                 <div className="col-lg-6 col-md-7">
@@ -247,6 +249,7 @@ Student Ambassadors,
 Harrison Chase (Founder & CEO @LangChain), 
 Jason Wei (AI Researcher @OpenAI), 
 Jerry Liu (Cofounder & CEO @LlamaIndex), </p>
+
 
                             {/* <div className="row h-100 align-items-center">
                                 <div className="col-lg-6 col-md-7">

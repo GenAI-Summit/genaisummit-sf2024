@@ -241,7 +241,7 @@ const EventSchedules = () => {
                         </div>
                         
                         <div className="accordion-content">
-                            <p>Chunting Zhou (Research Scientist @Meta AI), Anton Troynikov (Founder @Chroma), 
+                            <p>Anton Troynikov (Founder @Chroma), Chunting Zhou (Research Scientist @Meta AI), 
                                 Lianmin Zheng (Author @Vicuna), Li Erran Li (Head of Science @AWS), Shishir Patil (Creator @Gorilla)</p>
 
                             {/* <div className="row h-100 align-items-center">
@@ -281,17 +281,20 @@ const EventSchedules = () => {
                     <li className="accordion-item">
                         <div className="accordion-title">
                             <div className="schedule-info">
-                                <h3>Panel 4: Fireside Chat: AI Education</h3>
+                                <h3>Panel 4: Fireside Talk: AI in the Future of Workforce and Education</h3>
 
                                 <ul>
-                                    <li><i className="icofont-wall-clock"></i> 4:00PM - 4:30PM </li>
+
+                                    <li><i className="icofont-wall-clock"></i> 4:00PM - 4:45PM </li>
+
+
                                     {/* <li><i className="icofont-user-suited"></i> Panel guest name </li> */}
                                 </ul>
                             </div>
                         </div>
                         
                         <div className="accordion-content">
-                            <p>Ziren Lin (Senior Data Scientist @McKinsey AI), Jonathan Hayne (COO @Deeplearning.ai)</p>
+                            <p>Amin Ahmad (Founder & CTO @Vectara), Minfa Wang (Autonomous Driving TechLead), Jing Wang (Storytell.AI), TBD (scale.ai)</p>
 
                             {/* <div className="row h-100 align-items-center">
                                 <div className="col-lg-6 col-md-7">
@@ -309,13 +312,17 @@ const EventSchedules = () => {
                                 <h3>Panel 5: Rise of Generative AI in SaaS and Robotics</h3>
 
                                 <ul>
+
                                     <li><i className="icofont-wall-clock"></i> 4:30PM-5:15PM </li>
                                 </ul>
                             </div>
                         </div>
                         
                         <div className="accordion-content">
-                            <p>Amin Ahmad (Founder & CEO @Vectara), Minfa Wang (Autonomous Driving TechLead), Jing Wang (Storytell.AI), TBD (scale.ai)</p>
+
+                            <p>Jonathan Heyne (COO @DeepLearning.AI), Kian Katanforoosh (CEO & Founder @Workera), Ziren Lin (Senior Data Scientist @McKinsey AI) </p>
+
+
 
                             {/* <div className="row h-100 align-items-center">
                                 <div className="col-lg-6 col-md-7">

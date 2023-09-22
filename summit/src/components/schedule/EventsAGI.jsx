@@ -306,7 +306,7 @@ const EventSchedules = () => {
                     <li className="accordion-item">
                         <div className="accordion-title">
                             <div className="schedule-info">
-                                <h3>Panel 5: Panel: Rise of Generative AI in SaaS and Robotics</h3>
+                                <h3>Panel 5: Rise of Generative AI in SaaS and Robotics</h3>
 
                                 <ul>
                                     <li><i className="icofont-wall-clock"></i> 4:30PM-5:15PM </li>

@@ -216,7 +216,7 @@ const EventSchedules = () => {
                         <div className="accordion-content">
                             <p>
                                 Shawn Wang (Founder @Smol AI), Shaun Wei (Founder & CEO @RealChar.), Yichong Xu (AI Researcher @Character AI), 
-                                Robin Duan (Founder & CEO @MetaY)</p>
+                                Florence Li (CCO @MetaY)</p>
 
                             {/* <div className="row h-100 align-items-center">
                                 <div className="col-lg-6 col-md-7">

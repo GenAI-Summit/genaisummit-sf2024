@@ -216,7 +216,10 @@ Co-Founder @Lyft)</h3>
                         </div>
                         
                         <div className="accordion-content">
+
                             <p>Jason Wei (AI Researcher @OpenAI), Chunting Zhou (Research Scientist @Meta AI), Xinyun Chen (Senior Scientist @DeepMind)</p>
+
+                    
 
                             {/* <div className="row h-100 align-items-center">
                                 <div className="col-lg-6 col-md-7">
@@ -245,7 +248,8 @@ Co-Founder @Lyft)</h3>
 Student Ambassadors, 
 Harrison Chase (Founder & CEO @LangChain), 
 Jason Wei (AI Researcher @OpenAI), 
-Jerry Liu (Cofounder & CEO @LlamaIndex)</p>
+Jerry Liu (Cofounder & CEO @LlamaIndex), </p>
+
 
                             {/* <div className="row h-100 align-items-center">
                                 <div className="col-lg-6 col-md-7">
@@ -323,7 +327,7 @@ Project 2</p>
                         <div className="accordion-content">
                             <p>
 Dr. Ameer Haj-Ali (Head of Cloud Infrastructure & Platform Engineering @Anyscale), 
-
+Yun Jin (Engineering Director @Meta)
 Hanyu Xue (Principle ML Engineering Manager @Microsoft), 
 Rohit Agarwal (CEO of Portkey), 
 Tiger Feng (President @Seattle Technical Forum)</p>

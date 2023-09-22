@@ -284,7 +284,10 @@ const EventSchedules = () => {
                                 <h3>Panel 4: Fireside Talk: AI in the Future of Workforce and Education</h3>
 
                                 <ul>
+
                                     <li><i className="icofont-wall-clock"></i> 4:00PM - 4:45PM </li>
+
+
                                     {/* <li><i className="icofont-user-suited"></i> Panel guest name </li> */}
                                 </ul>
                             </div>
@@ -306,16 +309,20 @@ const EventSchedules = () => {
                     <li className="accordion-item">
                         <div className="accordion-title">
                             <div className="schedule-info">
-                                <h3>Panel 5: AI Technologies and Software Development</h3>
+                                <h3>Panel 5: Rise of Generative AI in SaaS and Robotics</h3>
 
                                 <ul>
-                                    <li><i className="icofont-wall-clock"></i> 4:45PM-5:30PM </li>
+
+                                    <li><i className="icofont-wall-clock"></i> 4:30PM-5:15PM </li>
                                 </ul>
                             </div>
                         </div>
                         
                         <div className="accordion-content">
+
                             <p>Jonathan Heyne (COO @DeepLearning.AI), Kian Katanforoosh (CEO & Founder @Workera), Ziren Lin (Senior Data Scientist @McKinsey AI) </p>
+
+
 
                             {/* <div className="row h-100 align-items-center">
                                 <div className="col-lg-6 col-md-7">

@@ -369,7 +369,7 @@ export const speakers = [
     {
         name: "Florence Li",
         title: "Chief Creative Officer",
-        company: "McKinsey AI",
+        company: "MetaY",
         image: require("../../assets/images/speakers/Florence.jpg"),
         socialLinks: [
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/florence-li-18b657206/" }

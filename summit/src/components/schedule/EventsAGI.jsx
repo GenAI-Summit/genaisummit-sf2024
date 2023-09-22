@@ -267,8 +267,7 @@ const EventSchedules = () => {
                         </div>
                         
                         <div className="accordion-content">
-                            <p> Jason Lopatecki (Founder & CEO @Arize AI), Jerry Liu (Co-founder & CEO @LlamaIndex), Yangqing Jia (Founder @Lepton AI), 
-                                Michael Jung (Founder @DeepBrain), Aravind Srinivas (Co-founder & CEO @Perplexity)</p>
+                            <p> Jason Lopatecki (Founder & CEO @Arize AI), Jerry Liu (Co-founder & CEO @LlamaIndex), Aravind Srinivas (Co-founder & CEO @Perplexity)</p>
                             {/* <div className="row h-100 align-items-center">
                                 <div className="col-lg-6 col-md-7">
                                     <div className="location">
@@ -285,7 +284,7 @@ const EventSchedules = () => {
                                 <h3>Panel 4: Fireside Chat: AI Education</h3>
 
                                 <ul>
-                                    <li><i className="icofont-wall-clock"></i> 4:00PM - 5:00PM </li>
+                                    <li><i className="icofont-wall-clock"></i> 4:00PM - 4:30PM </li>
                                     {/* <li><i className="icofont-user-suited"></i> Panel guest name </li> */}
                                 </ul>
                             </div>
@@ -307,18 +306,16 @@ const EventSchedules = () => {
                     <li className="accordion-item">
                         <div className="accordion-title">
                             <div className="schedule-info">
-                                <h3>Panel 5: AI Technologies and Software Development</h3>
+                                <h3>Panel 5: Rise of Generative AI in SaaS and Robotics</h3>
 
                                 <ul>
-                                    <li><i className="icofont-wall-clock"></i> 5:00PM-6:00PM </li>
+                                    <li><i className="icofont-wall-clock"></i> 4:30PM-5:15PM </li>
                                 </ul>
                             </div>
                         </div>
                         
                         <div className="accordion-content">
-                            <p>Vedanuj Goswami (Meta), 
-Minfa Wang (Waymo), 
-TBD (Scale AI)</p>
+                            <p>Amin Ahmad (Founder & CEO @Vectara), Minfa Wang (Autonomous Driving TechLead), Jing Wang (Storytell.AI), TBD (scale.ai)</p>
 
                             {/* <div className="row h-100 align-items-center">
                                 <div className="col-lg-6 col-md-7">

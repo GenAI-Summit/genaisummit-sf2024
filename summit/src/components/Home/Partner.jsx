@@ -49,7 +49,7 @@ const Partner = () => {
                             <img src={require("../../assets/images/sponsors/yiren.png")} alt="Partner Logo" />
                             <img src={require("../../assets/images/sponsors/swft.png")} alt="Partner Logo" id="big"/>
                             <img src={require("../../assets/images/sponsors/wagmi.png")} alt="Partner Logo" />
-                            <img src={require("../../assets/images/sponsors/Realloop.png")} alt="Partner Logo" id="big"/>
+                            <img src={require("../../assets/images/sponsors/realloop.png")} alt="Partner Logo" id="big"/>
                         </div>
                     </div>
 

@@ -252,7 +252,7 @@ export const speakers = [
         name: "Shishir Patil",
         title: "Creator",
         company: "Gorilla LLM",
-        image: require("../../assets/images/speakers/patil.jpg"),
+        image: require("../../assets/images/speakers/patil.JPG"),
         socialLinks: [
             { icon: "icofont-web", href: "https://shishirpatil.github.io/" },
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/shishir-patil/" },
@@ -283,7 +283,7 @@ export const speakers = [
         name: "Murray Newlands",
         title: "Investor",
         company: "Open Future Technology",
-        image: require("../../assets/images/speakers/newlands.jpg"),
+        image: require("../../assets/images/speakers/newlands.JPG"),
         socialLinks: [
             { icon: "icofont-web", href: "https://www.murraynewlands.com/" },
             { icon: "icofont-twitter", href: "https://twitter.com/MurrayNewlands" },

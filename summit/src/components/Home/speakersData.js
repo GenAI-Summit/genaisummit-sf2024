@@ -121,6 +121,27 @@ export const speakers = [
         ]
     },
     {
+        name: "Jonathan Heyne",
+        title: "COO",
+        company: "DeepLearning.AI",
+        image: require("../../assets/images/speakers/jonathan.jpg"),
+        socialLinks: [
+            { icon: "icofont-twitter", href: "https://twitter.com/Jonheyne" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/jonathanheyne/" }
+        ]
+    },
+    {
+        name: "Kian Katanforoosh",
+        title: "CEO & Founder",
+        company: "Workera",
+        image: require("../../assets/images/speakers/kian.jpg"),
+        socialLinks: [
+            { icon: "icofont-twitter", href: "https://twitter.com/kiankatan" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/kiankatan/" }
+        ]
+    },
+    
+    {
         name: "Jerry Liu",
         title: "Cofounder & CEO",
         company: "LlamaIndex",
@@ -329,6 +350,16 @@ export const speakers = [
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/shawnswyxwang/" }
             
         ]
+    },
+    {
+        name: "Florence Li",
+        title: "Chief Creative Officer",
+        company: "McKinsey AI",
+        image: require("../../assets/images/speakers/Florence.jpg"),
+        socialLinks: [
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/florence-li-18b657206/" }
+           
+        ]
     }
     ,
     {
@@ -364,16 +395,6 @@ export const speakers = [
         socialLinks: [
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/ziren-lin-62bb5a11a/" }
             ,{ icon: "icofont-twitter", href: "https://twitter.com/lin_ziren" }
-        ]
-    },
-    {
-        name: "Florence Li",
-        title: "Chief Creative Officer",
-        company: "McKinsey AI",
-        image: require("../../assets/images/speakers/Florence.jpg"),
-        socialLinks: [
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/florence-li-18b657206/" }
-           
         ]
     }
     

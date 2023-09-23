@@ -254,8 +254,8 @@ export const speakers = [
         company: "AWS",
         image: require("../../assets/images/speakers/erran.png"),
         socialLinks: [
-            { icon: "icofont-twitter", href: "https://twitter.com/agishaun" },
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/shaunwei/" }
+            { icon: "icofont-web", href: "http://www.cs.columbia.edu/~lierranli/ " },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/li-erran-li-552aa217/" }
         ]
     },
     {
@@ -295,8 +295,8 @@ export const speakers = [
         company: "RealChar.",
         image: require("../../assets/images/speakers/shaun.JPG"),
         socialLinks: [
-            { icon: "icofont-web", href: "http://www.cs.columbia.edu/~lierranli/" },
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/li-erran-li-552aa217/" }
+            { icon: "icofont-twitter", href: "https://twitter.com/agishaun" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/shaunwei/" }
         ]
     },
     

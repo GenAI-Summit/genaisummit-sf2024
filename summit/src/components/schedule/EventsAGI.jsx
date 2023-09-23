@@ -158,7 +158,7 @@ const EventSchedules = () => {
                                 <h3>Keynote 7: Yan Zhao (Vice Mayor @ City of Saratoga)</h3>
 
                                 <ul>
-                                    <li><i className="icofont-wall-clock"></i> 12:00AM - 12:15pm</li>
+                                    <li><i className="icofont-wall-clock"></i> 12:00PM - 12:15pm</li>
                                     {/* <li><i className="icofont-user-suited"></i> Speaker Name</li> */}
                                 </ul>
                             </div>

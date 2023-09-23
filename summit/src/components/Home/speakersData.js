@@ -221,7 +221,7 @@ export const speakers = [
         image: require("../../assets/images/speakers/yangqingjia.jpeg"),
         name: "Yangqing Jia",
         title: "Founder",
-        company: "Lepton",
+        company: "Lepton AI",
         socialLinks: [
             { href: "https://twitter.com/jiayq", icon: "icofont-twitter" },
             { href: "https://www.linkedin.com/in/yangqing-jia/", icon: "icofont-linkedin" },

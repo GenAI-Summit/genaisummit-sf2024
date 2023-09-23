@@ -32,7 +32,7 @@ const EventSchedules = () => {
                     <li className="accordion-item">
                         <div className="accordion-title">
                             <div className="schedule-info">
-                                <h3>Keynote 2: Rashmi Misra (GM of AI & Emerging Tech @ Microsoft)</h3>
+                                <h3>Keynote 2: Rashmi Misra (General Manager, Data and AI Business Development @ Microsoft)</h3>
 
                                 <ul>
                                     <li><i className="icofont-wall-clock"></i> 9:00AM - 9:30AM</li>
@@ -41,17 +41,17 @@ const EventSchedules = () => {
                             </div>
                         </div>
                         
-                        {/* <div className="accordion-content">
-                            <p>content TBD</p>
+                        <div className="accordion-content">
+                            {/* <p>content TBD</p> */}
 
                             <div className="row h-100 align-items-center">
                                 <div className="col-lg-6 col-md-7">
                                     <div className="location">
-                                        <b>Location:</b> Room A, Santa Clara Conventin Ceneter
+                                        <b>Topic:</b> Powering your GenAI transformation
                                     </div>
                                 </div>
                             </div>
-                        </div> */}
+                        </div>
                     </li>
 
         
@@ -115,17 +115,17 @@ const EventSchedules = () => {
                             </div>
                         </div>
                         
-                        {/* <div className="accordion-content">
-                            <p>TBD</p>
+                        <div className="accordion-content">
+                            {/* <p>TBD</p> */}
 
                             <div className="row h-100 align-items-center">
                                 <div className="col-lg-6 col-md-7">
                                     <div className="location">
-                                        <b>Location:</b> Room A, Santa Clara Conventin Ceneter
+                                        <b>Topic:</b> Generative AI in the Enterprise
                                     </div>
                                 </div>
                             </div>
-                        </div> */}
+                        </div>
                     </li>
 
                     <li className="accordion-item">
@@ -242,7 +242,7 @@ const EventSchedules = () => {
                         
                         <div className="accordion-content">
                             <p>Anton Troynikov (Founder @Chroma), Chunting Zhou (Research Scientist @Meta AI), 
-                                Lianmin Zheng (Author @Vicuna), Li Erran Li (Head of Science @AWS), Shishir Patil (Creator @Gorilla)</p>
+                                Lianmin Zheng (Author @Vicuna), Li Erran Li (Head of HIL Science @AWS), Shishir Patil (Creator @Gorilla)</p>
 
                             {/* <div className="row h-100 align-items-center">
                                 <div className="col-lg-6 col-md-7">

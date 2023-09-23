@@ -230,7 +230,7 @@ export const speakers = [
     },
     {
         name: "Li Erran Li",
-        title: "head of science",
+        title: "Head of HIL Science",
         company: "AWS",
         image: require("../../assets/images/speakers/erran.png"),
         socialLinks: [
@@ -281,14 +281,13 @@ export const speakers = [
     },
     
     {
-        name: "Murray Newlands",
-        title: "Investor",
-        company: "Open Future Technology",
-        image: require("../../assets/images/speakers/newlands.jpg"),
+        name: "Karina Nguyen",
+        title: "AI Researcher",
+        company: "Anthropic",
+        image: require("../../assets/images/speakers/nguyen.png"),
         socialLinks: [
-            { icon: "icofont-web", href: "https://www.murraynewlands.com/" },
-            { icon: "icofont-twitter", href: "https://twitter.com/MurrayNewlands" },
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/murraynewlands/" }
+            { icon: "icofont-web", href: "https://karinanguyen.com/" },
+            { icon: "icofont-twitter", href: "https://twitter.com/karinanguyen_" }
         ]
     },
     {

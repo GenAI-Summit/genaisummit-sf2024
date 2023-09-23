@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a91a75e5.css",
-    "main.js": "/static/js/main.d4c564c2.js",
+    "main.js": "/static/js/main.7d766383.js",
     "static/js/787.16e64372.chunk.js": "/static/js/787.16e64372.chunk.js",
     "static/media/main-bg1.mp4": "/static/media/main-bg1.a2703484bb9eee7d0c2e.mp4",
     "static/media/main-bg1.jpg": "/static/media/main-bg1.feafeadc13b9c985725e.jpg",
@@ -59,6 +59,7 @@
     "static/media/jason_l.webp": "/static/media/jason_l.b50f7c5e5525c81d4b3f.webp",
     "static/media/Rohit.jpg": "/static/media/Rohit.c11096ea8e42722c6263.jpg",
     "static/media/yunjin.jpg": "/static/media/yunjin.190e1848690271cf1805.jpg",
+    "static/media/newlands.jpg": "/static/media/newlands.6aa8d1658fd44df7ce7d.jpg",
     "static/media/blog2.jpg": "/static/media/blog2.60e150c543ffcc93d334.jpg",
     "static/media/microsoft.png": "/static/media/microsoft.21e3a52cfa973d382495.png",
     "static/media/tencent.png": "/static/media/tencent.ad82fec661abff58eb76.png",
@@ -106,11 +107,11 @@
     "static/media/arize.svg": "/static/media/arize.8ca474c99641714a03ec221151132c1d.svg",
     "index.html": "/index.html",
     "main.a91a75e5.css.map": "/static/css/main.a91a75e5.css.map",
-    "main.d4c564c2.js.map": "/static/js/main.d4c564c2.js.map",
+    "main.7d766383.js.map": "/static/js/main.7d766383.js.map",
     "787.16e64372.chunk.js.map": "/static/js/787.16e64372.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a91a75e5.css",
-    "static/js/main.d4c564c2.js"
+    "static/js/main.7d766383.js"
   ]
 }

@@ -35,7 +35,7 @@ const EventSchedules = () => {
                                 <h3>Keynote 2: Rashmi Misra (GM of AI & Emerging Tech @ Microsoft)</h3>
 
                                 <ul>
-                                    <li><i className="icofont-wall-clock"></i> 9:00AM - 10:00AM</li>
+                                    <li><i className="icofont-wall-clock"></i> 9:00AM - 9:30AM</li>
                                     {/* <li><i className="icofont-user-suited"></i> Speaker Name</li> */}
                                 </ul>
                             </div>
@@ -59,10 +59,10 @@ const EventSchedules = () => {
                     <li className="accordion-item">
                         <div className="accordion-title">
                             <div className="schedule-info">
-                                <h3>Keynote 3: Jim Fan (Senior AI Scientist @ NVIDIA)</h3>
+                                <h3>Keynote 3: Jerry Liu (Co-Founder & CEO @LlamaIndex)</h3>
 
                                 <ul>
-                                    <li><i className="icofont-wall-clock"></i> 10:00AM - 10:30AM</li>
+                                    <li><i className="icofont-wall-clock"></i> 9:30AM - 10:30AM</li>
                                 </ul>
                             </div>
                         </div>
@@ -71,7 +71,7 @@ const EventSchedules = () => {
                             <div className="row h-100 align-items-center">
                                 <div className="col-lg-6 col-md-7">
                                     <div className="location">
-                                        <b>Topic:</b> The Age of AI Agents
+                                        <b>Topic:</b> Building Performant RAG Applications for Production
                                     </div>
                                 </div>
                             </div>

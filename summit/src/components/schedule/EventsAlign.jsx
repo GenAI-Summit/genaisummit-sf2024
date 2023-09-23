@@ -16,17 +16,17 @@ const EventSchedules = () => {
                             </div>
                         </div>
                         
-                        {/* <div className="accordion-content">
-                            <p>content TBD</p>
+                        <div className="accordion-content">
+                            {/* <p>content TBD</p> */}
 
                             <div className="row h-100 align-items-center">
                                 <div className="col-lg-6 col-md-7">
                                     <div className="location">
-                                        <b>Location:</b> Main Entrance, Santa Clara Conventin Ceneter
+                                        <b>Topic:</b> Scaling LLM Applications with Ray and Anyscale
                                     </div>
                                 </div>
                             </div>
-                        </div> */}
+                        </div>
                     </li>
 
                     <li className="accordion-item">
@@ -94,15 +94,17 @@ Co-Founder @Lyft)
                             </div>
                         </div>
                         
-                        {/* <div className="accordion-content">
-                            <div className="row h-100 align-items-center">
-                                <div className="col-lg-6 col-md-7">
-                                    <div className="location">
-                                        <b>Location:</b> Room C, Santa Clara Conventin Ceneter
-                                    </div>
-                                </div>
-                            </div>
-                        </div> */}
+                        <div className="accordion-content">
+                           
+
+                           <div className="row h-100 align-items-center">
+                               <div className="col-lg-6 col-md-7">
+                                   <div className="location">
+                                       <b>Topic:</b> Scaling AI Companies
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
                     </li>
 
                     <li className="accordion-item">
@@ -117,17 +119,7 @@ Co-Founder @Lyft)
                             </div>
                         </div>
                         
-                        <div className="accordion-content">
-                           
-
-                            <div className="row h-100 align-items-center">
-                                <div className="col-lg-6 col-md-7">
-                                    <div className="location">
-                                        <b>Topic:</b> Scaling AI Companies
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                       
                     </li>
 
                     <li className="accordion-item">
@@ -207,7 +199,7 @@ Co-Founder @Lyft)
                     <li className="accordion-item">
                         <div className="accordion-title">
                             <div className="schedule-info">
-                                <h3>Panel 1: Scrutinizing LLM with an Academic Lens</h3>
+                                <h3>Panel 1: Scrutinizing LLM with Academic Lens</h3>
 
                                 <ul>
                                     <li><i className="icofont-wall-clock"></i> 1:00PM - 2:00PM</li>
@@ -218,7 +210,7 @@ Co-Founder @Lyft)
                         
                         <div className="accordion-content">
 
-                            <p>Jason Wei (AI Researcher @OpenAI), Chunting Zhou (Research Scientist @Meta AI), Xinyun Chen (Senior Scientist @DeepMind)</p>
+                            <p>Karina Nguyen (AI Researcher @Anthropic), Jason Wei (AI Researcher @OpenAI), Chunting Zhou (Research Scientist @Meta AI), Xinyun Chen (Senior Scientist @DeepMind)</p>
 
                     
 

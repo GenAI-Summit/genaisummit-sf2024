@@ -57,7 +57,7 @@ const EventSchedules = () => {
                     <li className="accordion-item">
                         <div className="accordion-title">
                             <div className="schedule-info">
-                                <h3>Keynote 3: Jerry Liu (Cofounder & CEO @LlamaIndex)</h3>
+                                <h3>Keynote 3: Yangqing Jia (Founder @Lepton AI)</h3>
 
                                 <ul>
                                     <li><i className="icofont-wall-clock"></i> 9:30AM - 10:00AM</li>
@@ -72,7 +72,7 @@ const EventSchedules = () => {
                             <div className="row h-100 align-items-center">
                                 <div className="col-lg-6 col-md-7">
                                     <div className="location">
-                                        <b>Topic:</b> Building Performant RAG Applications for Production
+                                        {/* <b>Topic:</b> Building Performant RAG Applications for Production */}
                                     </div>
                                 </div>
                             </div>
@@ -82,7 +82,11 @@ const EventSchedules = () => {
                     <li className="accordion-item">
                         <div className="accordion-title">
                             <div className="schedule-info">
-                                <h3>Keynote 4: Jay Alammar (Director, Engineering Fellow @Cohere)</h3>
+                                <h3>Keynote 4: Rajat Suri
+(Co-Founder @Lima, 
+Founder @Presto, 
+Co-Founder @Lyft)
+                                    </h3>
 
                                 <ul>
                                     <li><i className="icofont-wall-clock"></i> 10:00AM - 10:30AM</li>
@@ -104,10 +108,7 @@ const EventSchedules = () => {
                     <li className="accordion-item">
                         <div className="accordion-title">
                             <div className="schedule-info">
-                                <h3>Keynote 5: Rajat Suri
-(Co-Founder @Lima, 
-Founder @Presto, 
-Co-Founder @Lyft)</h3>
+                                <h3>Time Flexibility</h3>
 
                                 <ul>
                                     <li><i className="icofont-wall-clock"></i> 10:30AM - 11:00AM</li>
@@ -132,7 +133,7 @@ Co-Founder @Lyft)</h3>
                     <li className="accordion-item">
                         <div className="accordion-title">
                             <div className="schedule-info">
-                                <h3>Keynote 6: Yangqing Jia (Founder @Lepton AI)</h3>
+                                <h3>Keynote 5: Jay Alammar (Director, Engineering Fellow @Cohere)</h3>
 
                                 <ul>
                                     <li><i className="icofont-wall-clock"></i> 11:00AM - 11:30AM</li>
@@ -157,7 +158,7 @@ Co-Founder @Lyft)</h3>
                     <li className="accordion-item">
                         <div className="accordion-title">
                             <div className="schedule-info">
-                                <h3>Keynote 7: Anton Troynikov (Founder @Chroma)</h3>
+                                <h3>Keynote 6: Anton Troynikov (Founder @Chroma)</h3>
 
                                 <ul>
                                     <li><i className="icofont-wall-clock"></i> 11:30AM - 12:00pm</li>

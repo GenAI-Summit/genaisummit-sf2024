@@ -27,17 +27,7 @@ export const speakers = [
             { href: "https://www.jasonwei.net/", icon: "icofont-web" }
         ]
     },
-    {
-        image: require("../../assets/images/speakers/jim_fan.jpeg"),
-        name: "Jim Fan",
-        title: "Senior AI Scientist",
-        company: "Nvidia",
-        socialLinks: [
-            { href: "https://twitter.com/DrJimFan", icon: "icofont-twitter" },
-            { href: "https://www.linkedin.com/in/drjimfan/", icon: "icofont-linkedin" },
-            { href: "https://jimfan.me/", icon: "icofont-web" }
-        ]
-    },    {
+      {
         image: require("../../assets/images/speakers/harrison.jpeg"),
         name: "Harrison Chase",
         title: "CEO",
@@ -67,16 +57,6 @@ export const speakers = [
         socialLinks: [
             { icon: "icofont-twitter", href: "https://twitter.com/jason_lopatecki" },
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/jason-lopatecki-9509941/" }
-        ]
-    },
-    {
-        image: require("../../assets/images/speakers/hugo.jpeg"),
-        name: "Hugo Touvron",
-        title: "Lead Author",
-        company: "Llama2",
-        socialLinks: [
-            { icon: "icofont-twitter", href: "https://twitter.com/hugotouvron" },
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/hugo-touvron/" }
         ]
     },
     {

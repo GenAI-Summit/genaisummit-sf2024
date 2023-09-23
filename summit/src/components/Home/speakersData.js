@@ -8,7 +8,7 @@ export const speakers = [
     },
     {
         name: "Rashmi Misra",
-        title: "GM of AI & Emerging Tech",
+        title: "General Manager, Data and AI Business Development",
         company: "Microsoft",
         image: require("../../assets/images/speakers/misra.png"),
         socialLinks: [

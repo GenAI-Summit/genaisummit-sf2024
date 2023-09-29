@@ -241,8 +241,7 @@ Co-Founder @Lyft)
 Student Ambassadors, 
 Harrison Chase (Founder & CEO @LangChain), 
 Jason Wei (AI Researcher @OpenAI), 
-Jerry Liu (Cofounder & CEO @LlamaIndex), 
-Murray Newlands (Investor @Open Future Technology)
+Jerry Liu (Cofounder & CEO @LlamaIndex)
 </p>
 
 

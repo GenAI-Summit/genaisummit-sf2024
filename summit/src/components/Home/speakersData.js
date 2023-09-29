@@ -279,7 +279,17 @@ export const speakers = [
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/shaunwei/" }
         ]
     },
-    
+    {
+        name: "Murray Newlands",
+        title: "Investor",
+        company: "Open Future Technology",
+        image: require("../../assets/images/speakers/newlands.jpg"),
+        socialLinks: [
+            { icon: "icofont-web", href: "https://www.murraynewlands.com/" },
+            { icon: "icofont-twitter", href: "https://twitter.com/MurrayNewlands" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/murraynewlands/" }
+        ]
+    },
     {
         name: "Karina Nguyen",
         title: "AI Researcher",

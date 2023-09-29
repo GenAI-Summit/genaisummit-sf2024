@@ -279,17 +279,17 @@ export const speakers = [
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/shaunwei/" }
         ]
     },
-    {
-        name: "Murray Newlands",
-        title: "Investor",
-        company: "Open Future Technology",
-        image: require("../../assets/images/speakers/newlands.jpg"),
-        socialLinks: [
-            { icon: "icofont-web", href: "https://www.murraynewlands.com/" },
-            { icon: "icofont-twitter", href: "https://twitter.com/MurrayNewlands" },
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/murraynewlands/" }
-        ]
-    },
+    // {
+    //     name: "Murray Newlands",
+    //     title: "Investor",
+    //     company: "Open Future Technology",
+    //     image: require("../../assets/images/speakers/newlands.jpg"),
+    //     socialLinks: [
+    //         { icon: "icofont-web", href: "https://www.murraynewlands.com/" },
+    //         { icon: "icofont-twitter", href: "https://twitter.com/MurrayNewlands" },
+    //         { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/murraynewlands/" }
+    //     ]
+    // },
     {
         name: "Karina Nguyen",
         title: "AI Researcher",
@@ -343,7 +343,7 @@ export const speakers = [
     {
         name: "Florence Li",
         title: "Chief Creative Officer",
-        company: "McKinsey AI",
+        company: "MetaY",
         image: require("../../assets/images/speakers/Florence.jpg"),
         socialLinks: [
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/florence-li-18b657206/" }

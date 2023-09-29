@@ -83,12 +83,12 @@ export const booths = [
     //     description: "Cerebral Valley is a community comprised of founders and builders, dedicated to collaboratively researching and crafting the next generation of technology. Within this valley, members share resources, experiences, and knowledge, fostering cooperation and communication to push the boundaries of technological innovation.",
     //     image: require("../../assets/images/sponsors/cerebral.png")
     // },
-    {
-        name: "Founders Space",
-        link: "https://www.foundersspace.com/",
-        description: "Founders Space is a global innovation hub for entrepreneurs, corporations, and investors, with over 50 partners in 22 countries. Founders Space is a global venture builder and innovation hub. Founders Space has been ranked as # 1 by Forbes and Entrepreneur Magazines because of their unique venture building model and global reach.",
-        image: require("../../assets/images/sponsors/founderspace.png")
-    },
+    // {
+    //     name: "Founders Space",
+    //     link: "https://www.foundersspace.com/",
+    //     description: "Founders Space is a global innovation hub for entrepreneurs, corporations, and investors, with over 50 partners in 22 countries. Founders Space is a global venture builder and innovation hub. Founders Space has been ranked as # 1 by Forbes and Entrepreneur Magazines because of their unique venture building model and global reach.",
+    //     image: require("../../assets/images/sponsors/founderspace.png")
+    // },
     {
         name: "MountainLion",
         link: "https://test.mountainlion.ai/#/",

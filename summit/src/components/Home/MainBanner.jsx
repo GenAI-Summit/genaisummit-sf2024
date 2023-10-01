@@ -27,6 +27,12 @@ const MainBanner = () => {
         if (hours < "10") { hours = "0" + hours; }
         if (minutes < "10") { minutes = "0" + minutes; }
         if (seconds < "10") { seconds = "0" + seconds; }
+        if (days < 0) {
+            days = 0;
+            hours = 0;
+            minutes = 0;
+            seconds = 0;
+        }
         setState(prevState => ({ ...prevState, days, hours, minutes, seconds }));
     }
 

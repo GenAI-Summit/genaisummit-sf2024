@@ -52,7 +52,7 @@ const FunFact = () => {
                                 <VisibilitySensor
                                     onChange={onVisibilityChange}
                                     offset={{
-                                        top: 10
+                                        top: 22
                                     }}
                                     delayedCall
                                 >
@@ -60,7 +60,7 @@ const FunFact = () => {
                                         start={0}
                                         end={
                                             didViewCountUp
-                                                ? 10
+                                                ? 22
                                                 : 0
                                         }
                                         duration={3}
@@ -80,7 +80,7 @@ const FunFact = () => {
                                 <VisibilitySensor
                                     onChange={onVisibilityChange}
                                     offset={{
-                                        top: 22
+                                        top: 34
                                     }}
                                     delayedCall
                                 >
@@ -88,7 +88,7 @@ const FunFact = () => {
                                         start={0}
                                         end={
                                             didViewCountUp
-                                                ? 22
+                                                ? 34
                                                 : 0
                                         }
                                         duration={3}
@@ -108,7 +108,7 @@ const FunFact = () => {
                                 <VisibilitySensor
                                     onChange={onVisibilityChange}
                                     offset={{
-                                        top: 9
+                                        top: 13
                                     }}
                                     delayedCall
                                 >
@@ -116,7 +116,7 @@ const FunFact = () => {
                                         start={0}
                                         end={
                                             didViewCountUp
-                                                ? 9
+                                                ? 13
                                                 : 0
                                         }
                                         duration={3}

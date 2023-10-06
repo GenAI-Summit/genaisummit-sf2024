@@ -60,14 +60,14 @@ const FunFact = () => {
                                         start={0}
                                         end={
                                             didViewCountUp
-                                                ? 22
+                                                ? 48
                                                 : 0
                                         }
                                         duration={3}
                                     />
                                 </VisibilitySensor>
                             </h3>
-                            <p>Topics</p>
+                            <p>Exhibits</p>
                         </div>
                     </div>
                     

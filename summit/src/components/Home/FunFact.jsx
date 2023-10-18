@@ -37,7 +37,7 @@ const FunFact = () => {
                                         }
                                         duration={3}
                                     />
-                                </VisibilitySensor>
+                                </VisibilitySensor>+
                             </h3>
                             <p>Attendees</p>
                         </div>

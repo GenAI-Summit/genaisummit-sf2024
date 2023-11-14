@@ -15,7 +15,7 @@ const BoothSponsors = () => {
     }, []);
 
     return (
-        <h3 className="lax" data-lax-preset="driftLeft" ref={elRef}>Exhibits</h3>
+        <h3 className="lax" data-lax-preset="driftLeft" ref={elRef}>Exhibits (previous)</h3>
     );
 }
 

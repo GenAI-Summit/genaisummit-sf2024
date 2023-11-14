@@ -10,7 +10,7 @@ const EventSchedules = () => {
                 <div className="container">
                     <div className="section-title">
                         {/* <span>10 events covering 10 topics</span> */}
-                        <h2>Summit Events - AGI Room</h2>
+                        <h2>Summit Events - AGI Room (Previous)</h2>
 
                         <LaxDiv text="EventsAGI" dataPreset="driftLeft" />
                     </div>
@@ -31,7 +31,7 @@ const EventSchedules = () => {
                         <br></br> 
                         <br></br> 
                         <br></br> 
-                        <h2>Summit Events - Align Room</h2>
+                        <h2>Summit Events - Align Room (Previous)</h2>
 
                         <LaxDiv text="EventsAlign" dataPreset="driftLeft" />
                     </div>

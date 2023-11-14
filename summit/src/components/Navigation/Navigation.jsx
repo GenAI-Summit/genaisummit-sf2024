@@ -112,12 +112,16 @@ const Navigation = () => {
                                 <li className="nav-item">
                                     <a href="https://linktr.ee/gptdao" target="_blank" rel="noopener noreferrer" className="nav-link">Contact</a>
                                 </li>
+
+                                <li className="nav-item">
+                                    <a href="https://sv2023.genaisummit.xyz/" target="_blank" rel="noopener noreferrer" className="nav-link">Previous Event</a>
+                                </li>
                             </ul>
 
                             <div className="others-option">
                                 <ul>
                                     <li>
-                                        <a href="https://www.eventbrite.com/e/generative-ai-silicon-valley-summit-2023-tickets-644622642677" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">Buy Tickets</a>
+                                        <a href="" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">Tickets Coming Soon</a>
                                     </li>
                                 </ul>
                             </div>

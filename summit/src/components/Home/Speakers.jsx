@@ -9,7 +9,7 @@ const Speakers = () => {
             <div className="container">
                 <div className="section-title">
                     <span>Listen to the Event Speakers</span>
-                    <h2>Our Speakers</h2>
+                    <h2>Our Speakers (Previous)</h2>
                     <LaxDiv text="Speakers" dataPreset="driftRight" />
                 </div>
 

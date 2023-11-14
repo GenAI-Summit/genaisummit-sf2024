@@ -60,7 +60,7 @@ const MainBanner = () => {
                     <div className="d-table-cell">
                         <div className="container">
                             <div className="main-banner-content">
-                                <h1>Generative AI Silicon Valley Summit 2023</h1>
+                                <h1>Generative AI Summit Silicon Valley 2023</h1>
 
                                 <ul>
                                     <li><i className="icofont-compass"></i> Santa Clara Convention Center, California</li>

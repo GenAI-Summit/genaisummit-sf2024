@@ -28,7 +28,7 @@ const Footer = () => {
                     <div className="col-lg-6 col-md-6">
                         <div className="single-footer-widget">
                             <h3>Contact Us</h3>
-                            <p>We sincerely invite you to join us, bring your creativity and ideals, and explore the future of generative AI together. Please contact us for more information about the Generative AI Silicon Valley Summit 2023.</p>
+                            <p>We sincerely invite you to join us, bring your creativity and ideals, and explore the future of generative AI together. Please contact us for more information about the Generative AI Summit Silicon Valley 2023.</p>
                             
                             <ul className="social-links">
                                 <li>

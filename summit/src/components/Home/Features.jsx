@@ -9,7 +9,7 @@ const Features = () => {
                     <div className="col-lg-6">
                         <div>
                             <img
-                                src={require("../../assets/images/about1.jpg")}
+                                src={require("../../assets/images/conference2.png")}
                                 className="about-img1" 
                                 alt="about" 
                             />
@@ -19,11 +19,15 @@ const Features = () => {
                     <div className="col-lg-6">
                         <div className="about-content">
                             <span>Empowering Tomorrow's Innovators</span>
-                            <h2>A Special Invitation for High School Students</h2>
-                            <p>In our mission to nurture the next generation of AI enthusiasts, GPT DAO in partnership with KAI (K12 AI Initiative) is inviting local high school students with a keen interest in AI to partake in this landmark event for FREE. Due to space constraints, only 50 students will be selected from the first 100 applications. Preference will be accorded to those showcasing a fervent passion for AI and coding experience.
+                            <h2>Why Attend</h2>
+                            <p>Networking Galore: Rub shoulders with the best minds in the AI realm, form invaluable connections, and usher in collaborative innovation.
+                            Hear from the stars of the industry as they deliver keynote speeches that promise to enlighten and inspire. Engage with these visionaries during interactive sessions, 
+                            where you can ask your burning questions and gain invaluable insights. 
+                            The GenAI Summit 2024 isn't just an event; it's where the future of AI becomes your present. 
+                            Join us to be part of molding the tech landscape of tomorrow.
                             </p>
                         </div>
-                        <a href="https://forms.gle/U7E5czneZmVc4ZGZ6" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Apply</a>
+                        {/* <a href="https://forms.gle/U7E5czneZmVc4ZGZ6" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Apply</a> */}
                     </div>
                 </div>
             </div>

@@ -11,11 +11,11 @@ const Footer = () => {
                         <div className="single-footer-widget">
                             <h3>Summit Information</h3>
                             <span>
-                                <i className="icofont-calendar"></i> 23 September, 2023
+                                <i className="icofont-calendar"></i> 27 - 31 May, 2024
                             </span>
 
                             <p className="location">
-                                <i className="icofont-google-map"></i> 5001 Great America Pkwy, Santa Clara, CA 95054
+                                <i className="icofont-google-map"></i> 3601 Lyon St, San Francisco, CA 94123
                             </p>
                             
                             
@@ -28,7 +28,7 @@ const Footer = () => {
                     <div className="col-lg-6 col-md-6">
                         <div className="single-footer-widget">
                             <h3>Contact Us</h3>
-                            <p>We sincerely invite you to join us, bring your creativity and ideals, and explore the future of generative AI together. Please contact us for more information about the Generative AI Summit Silicon Valley 2023.</p>
+                            <p>We sincerely invite you to join us, bring your creativity and ideals, and explore the future of generative AI together. Please contact us for more information about the Generative AI Summit San Francisco 2024.</p>
                             
                             <ul className="social-links">
                                 <li>
@@ -58,7 +58,7 @@ const Footer = () => {
                     <div className="col-lg-12">
                         <div className="copyright-area">
                             <p>
-                                Copyright <i className="icofont-copyright"></i> 2023 GPTDAO. All rights reserved
+                                Copyright <i className="icofont-copyright"></i> 2024 GPTDAO. All rights reserved
                             </p>
                         </div>
                     </div>

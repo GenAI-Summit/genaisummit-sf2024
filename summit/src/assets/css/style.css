@@ -4726,6 +4726,11 @@ Back To Top CSS
 .modal-video {
   position: absolute !important;
 }
+
+.centered-text {
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */
 
 /* .about-img1 {

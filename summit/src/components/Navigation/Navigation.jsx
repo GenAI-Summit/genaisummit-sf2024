@@ -91,7 +91,7 @@ const Navigation = () => {
                                         duration={500}
                                         className="scroll-link"
                                     >
-                                        Sponsor
+                                        Sponsors
                                     </ScrollLink>
                                 </li>
 

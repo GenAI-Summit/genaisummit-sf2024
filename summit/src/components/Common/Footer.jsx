@@ -11,17 +11,23 @@ const Footer = () => {
                         <div className="single-footer-widget">
                             <h3>Summit Information</h3>
                             <span>
-                                <i className="icofont-calendar"></i> 27 - 31 May, 2024
+                                <i className="icofont-calendar"></i> May 27 - 31, 2024
                             </span>
 
                             <p className="location">
                                 <i className="icofont-google-map"></i> 3601 Lyon St, San Francisco, CA 94123
                             </p>
                             
+
+                            <p className="location">
+                                <i className="icofont-email"></i> genaix@gptdao.ai
+                            </p>
                             
                             <a href="https://linktr.ee/gptdao" target="_blank" rel="noopener noreferrer" className="contact-authority">
                                 <i className="icofont-phone"></i> Contact Us
                             </a>
+
+                            
                         </div>
                     </div>
 

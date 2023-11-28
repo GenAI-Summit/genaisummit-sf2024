@@ -27,7 +27,8 @@ export const speakers = [
             { href: "https://www.jasonwei.net/", icon: "icofont-web" }
         ]
     },
-     {
+        {
+
         image: require("../../assets/images/speakers/harrison.jpeg"),
         name: "Harrison Chase",
         title: "CEO",

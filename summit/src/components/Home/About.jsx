@@ -29,7 +29,7 @@ const About = () => {
                             <img
 
 
-                                src={showOrb ? require("../../assets/images/palace1.png") : require("../../assets/images/conference1.jpg")}
+                                src={showOrb ? require("../../assets/images/palace2.png") : require("../../assets/images/conference1.png")}
 
 
                                 

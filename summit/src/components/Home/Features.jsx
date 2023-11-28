@@ -35,7 +35,7 @@ const Features = () => {
                         <div>
                             <img
 
-                                src={require("../../assets/images/palace2.png")}
+                                src={require("../../assets/images/palace1.png")}
 
                                 className="about-img1" 
                                 alt="about" 

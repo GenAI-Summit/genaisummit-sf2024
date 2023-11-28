@@ -27,16 +27,7 @@ export const speakers = [
             { href: "https://www.jasonwei.net/", icon: "icofont-web" }
         ]
     },
-      {
-        image: require("../../assets/images/speakers/harrison.jpeg"),
-        name: "Harrison Chase",
-        title: "CEO",
-        company: "LangChain",
-        socialLinks: [
-            { icon: "icofont-twitter", href: "https://twitter.com/hwchase17" },
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/harrison-chase-961287118/" }
-        ]
-    },    {
+     {
         image: require("../../assets/images/speakers/harrison.jpeg"),
         name: "Harrison Chase",
         title: "CEO",

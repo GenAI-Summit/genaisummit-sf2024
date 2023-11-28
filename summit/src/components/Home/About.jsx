@@ -27,7 +27,7 @@ const About = () => {
                     <div className="col-lg-6">
                         <div className="about-image">
                             <img
-                                src={showOrb ? require("../../assets/images/palace1.png") : require("../../assets/images/conference1.jpg")}
+                                src={showOrb ? require("../../assets/images/palace1.png") : require("../../assets/images/conference1.png")}
                                 
                                 className="about-img1" 
                                 alt="about" 

@@ -1,10 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.9732368b.css",
-    "main.js": "/static/js/main.86d16d6f.js",
+    "main.js": "/static/js/main.a009c3c4.js",
     "static/js/787.16e64372.chunk.js": "/static/js/787.16e64372.chunk.js",
     "static/media/main-bg1.mp4": "/static/media/main-bg1.db234ec6a3fd1090077a.mp4",
-    "static/media/conference1.jpg": "/static/media/conference1.7a59d9f50f35cbb734ba.jpg",
     "static/media/main-bg1.jpg": "/static/media/main-bg1.feafeadc13b9c985725e.jpg",
     "static/media/conference22.png": "/static/media/conference22.7eeb2c60ea03fbecddc5.png",
     "static/media/shaun.JPG": "/static/media/shaun.b608195ac9ae3b5002f4.JPG",
@@ -12,11 +11,13 @@
     "static/media/nguyen.png": "/static/media/nguyen.286a66cbf57878e03521.png",
     "static/media/Alan.jpg": "/static/media/Alan.d58a39ad85015a8beea0.jpg",
     "static/media/patil.jpg": "/static/media/patil.7f9a4fe93bb831edd3cb.jpg",
+    "static/media/palace2.png": "/static/media/palace2.198d5c71f414d52232f5.png",
     "static/media/chuntingzhou.jpeg": "/static/media/chuntingzhou.85f80f530ddd5e1efb72.jpeg",
     "static/media/lianmin.png": "/static/media/lianmin.5eb402ba4298b11ecb24.png",
     "static/media/zhaoyan.jpg": "/static/media/zhaoyan.f639aebe33e268839502.jpg",
     "static/media/xinyun.jpeg": "/static/media/xinyun.e6608d761b63ccf12341.jpeg",
     "static/media/icofont.woff": "/static/media/icofont.dad3accba068281878f1.woff",
+    "static/media/conference1.png": "/static/media/conference1.3385d7095bad7688687d.png",
     "static/media/misra.png": "/static/media/misra.20ca48287f7bdd864af4.png",
     "static/media/yichong.jpg": "/static/media/yichong.0cd6369c3e8113c97a02.jpg",
     "static/media/icofont.woff2": "/static/media/icofont.9c33516aab48c61e3081.woff2",
@@ -98,11 +99,11 @@
     "static/media/arize.svg": "/static/media/arize.8ca474c99641714a03ec221151132c1d.svg",
     "index.html": "/index.html",
     "main.9732368b.css.map": "/static/css/main.9732368b.css.map",
-    "main.86d16d6f.js.map": "/static/js/main.86d16d6f.js.map",
+    "main.a009c3c4.js.map": "/static/js/main.a009c3c4.js.map",
     "787.16e64372.chunk.js.map": "/static/js/787.16e64372.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9732368b.css",
-    "static/js/main.86d16d6f.js"
+    "static/js/main.a009c3c4.js"
   ]
 }

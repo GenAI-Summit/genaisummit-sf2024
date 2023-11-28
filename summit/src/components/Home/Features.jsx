@@ -25,6 +25,7 @@ const Features = () => {
                             <h5> Industry Leaders</h5>
                             <h5> Academics and Researchers</h5>
                             <h5> Policy Makers</h5>
+                            <h5> Investors & Founders</h5>
                             </div>
                         </div>
                         {/* <a href="https://forms.gle/U7E5czneZmVc4ZGZ6" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Apply</a> */}
@@ -33,7 +34,9 @@ const Features = () => {
                     <div className="col-lg-6">
                         <div>
                             <img
+
                                 src={require("../../assets/images/palace2.png")}
+
                                 className="about-img1" 
                                 alt="about" 
                             />
@@ -54,7 +57,7 @@ const Features = () => {
                     <div className="col-lg-6">
                         <div>
                             <img
-                                src={require("../../assets/images/conference2.png")}
+                                src={require("../../assets/images/conference22.png")}
                                 className="about-img1" 
                                 alt="about" 
                             />
@@ -81,14 +84,9 @@ startups in our Innovation Alley.</p>
 <p><h6>Tailored Learning Path:</h6> Choose from a myriad of tracks to tailor your learning
 experience to your professional interests and needs.</p>
                         </div>
-                        {/* <a href="https://forms.gle/U7E5czneZmVc4ZGZ6" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Apply</a> */}
                     </div>
                 </div>
-
-                
-            </div>
-
-            
+            </div>   
         </section>
     );
 }

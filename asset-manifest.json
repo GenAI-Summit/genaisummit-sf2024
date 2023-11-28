@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9732368b.css",
-    "main.js": "/static/js/main.3698c571.js",
+    "main.js": "/static/js/main.86d16d6f.js",
     "static/js/787.16e64372.chunk.js": "/static/js/787.16e64372.chunk.js",
     "static/media/main-bg1.mp4": "/static/media/main-bg1.db234ec6a3fd1090077a.mp4",
     "static/media/conference1.jpg": "/static/media/conference1.7a59d9f50f35cbb734ba.jpg",
@@ -9,7 +9,6 @@
     "static/media/conference22.png": "/static/media/conference22.7eeb2c60ea03fbecddc5.png",
     "static/media/shaun.JPG": "/static/media/shaun.b608195ac9ae3b5002f4.JPG",
     "static/media/palace1.png": "/static/media/palace1.ce940b707eaf9031898c.png",
-    "static/media/palace2.png": "/static/media/palace2.30b5b4082739c36c0187.png",
     "static/media/nguyen.png": "/static/media/nguyen.286a66cbf57878e03521.png",
     "static/media/Alan.jpg": "/static/media/Alan.d58a39ad85015a8beea0.jpg",
     "static/media/patil.jpg": "/static/media/patil.7f9a4fe93bb831edd3cb.jpg",
@@ -99,11 +98,11 @@
     "static/media/arize.svg": "/static/media/arize.8ca474c99641714a03ec221151132c1d.svg",
     "index.html": "/index.html",
     "main.9732368b.css.map": "/static/css/main.9732368b.css.map",
-    "main.3698c571.js.map": "/static/js/main.3698c571.js.map",
+    "main.86d16d6f.js.map": "/static/js/main.86d16d6f.js.map",
     "787.16e64372.chunk.js.map": "/static/js/787.16e64372.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9732368b.css",
-    "static/js/main.3698c571.js"
+    "static/js/main.86d16d6f.js"
   ]
 }

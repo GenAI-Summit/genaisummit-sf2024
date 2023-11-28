@@ -30,8 +30,8 @@ const BoothSponsors = () => {
         {/* <h4>(From "<a href="https://sv2023.genaisummit.xyz/" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }} >GenAI Summit 2023</a>")</h4>
         
         <p>and GenAI Cloud Computing Collaborators</p> */}
-        <LaxDiv text="Exhibits" dataPreset="driftRight" />
-        <a href="https://www.gptdao.ai/get-started" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Hold an exhibit spot</a>
+        {/* <LaxDiv text="Exhibits" dataPreset="driftRight" />
+        <a href="https://www.gptdao.ai/get-started" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Hold an exhibit spot</a> */}
     </div>
     );
 }

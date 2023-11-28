@@ -107,6 +107,14 @@ export const booths = [
         description: "With 1Gen.ai, users can effortlessly generate animated images using natural language, indulging in a seamless journey of image editing and creative design. This tool integrates advanced controllable AI technology, offering users revolutionary innovation in image creation and design.",
         image: require("../../assets/images/sponsors/1gen.jpeg")
     },
+    
+    {
+        name: "Arcticeider",
+        link: "",
+        description: "With 1Gen.ai, users can effortlessly generate animated images using natural language, indulging in a seamless journey of image editing and creative design. This tool integrates advanced controllable AI technology, offering users revolutionary innovation in image creation and design.",
+        image: require("../../assets/images/sponsors/Arcti.png")
+    },
+    
     {
         name: "Arcticeider",
         link: "",

@@ -63,14 +63,19 @@ const MainBanner = () => {
                             <div className="main-banner-content">
                                 <h1>Generative AI Summit San Francisco 2024</h1>
 
+                                <div className="about-content">
+                            <span>    IGNITING THE AI REVOLUTION IN THE HEART OF SAN FRANCISCO</span>
+                            </div>
+
                                 <ul>
                                     <li>
                                         <i className="icofont-compass"></i> Palace of Fine Arts, San Francisco, California</li>
-                                    <li><i className="icofont-calendar"></i> May 27 - May 31, 2024</li>
+                                    <li><i className="icofont-calendar"></i> May 27 - June 1, 2024</li>
+                                    
                                 </ul>
 
                                 <div className="button-box">
-                                    <a href="" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Coming Soon!</a>
+                                    <a href="" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Tickets Coming Soon!</a>
                                 </div>
                             </div>
                         </div>

@@ -11,7 +11,7 @@ const Footer = () => {
                         <div className="single-footer-widget">
                             <h3>Summit Information</h3>
                             <span>
-                                <i className="icofont-calendar"></i> May 27 - 31, 2024
+                                <i className="icofont-calendar"></i> May 27 - June 1, 2024
                             </span>
 
                             <p className="location">

@@ -123,7 +123,7 @@ const FunFact = () => {
                                     />
                                 </VisibilitySensor> +
                             </h3>
-                            <p>Sponsors</p>
+                            <p>Sessions</p>
                         </div>
                     </div>
                 </div>

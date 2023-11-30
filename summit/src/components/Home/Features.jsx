@@ -77,12 +77,13 @@ const Features = () => {
                             <img
 
 
-                                src={require("../../assets/images/main-bg2.jpg")}
+                                src={require("../../assets/images/femaleboss.png")}
 
 
                                 className="about-img1" 
                                 alt="about" 
                             />
+                            <p>(Images from previous summit)</p>
                         </div>
                     </div>
                 </div>
@@ -121,7 +122,8 @@ const Features = () => {
 </p>
                             <h5>Industry-Specific Meetups:</h5>
                             <p>Organized meetups for various sectors like technology, finance, and healthcare allow attendees to network with peers in their field, discussing challenges and opportunities specific to their industry.</p>
-                            
+                            <p><h5>More Entertainment:</h5> The summit will feature a spectacular array of entertainment, inviting Hollywood celebrities, renowned musicians, and artists to perform at the premier theater and the grand venue of the Palace of Fine Arts. This section promises a dazzling blend of technology and artistry, providing attendees with a unique and memorable experience that celebrates the convergence of AI, culture, and entertainment.
+</p>
                             
                             
 
@@ -129,8 +131,7 @@ const Features = () => {
                                     
                     </div>
                     
-                    <p><br/><h5>More Entertainment:</h5> The summit will feature a spectacular array of entertainment, inviting Hollywood celebrities, renowned musicians, and artists to perform at the premier theater and the grand venue of the Palace of Fine Arts. This section promises a dazzling blend of technology and artistry, providing attendees with a unique and memorable experience that celebrates the convergence of AI, culture, and entertainment.
-</p>
+                    
                 </div>
             </div>   
         </section>

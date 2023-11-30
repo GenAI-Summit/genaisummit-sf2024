@@ -8,18 +8,17 @@ const EventSchedules = () => {
                     <li className="accordion-item">
                         <div className="accordion-title">
                             <div className="schedule-info">
-                                <h3>Day 1: The Genesis of Generative AI</h3>
+                                <h3>Key Themes and Topics</h3>
 
-                                <ul>
+                                {/* <ul>
                                     <li><i className="icofont-wall-clock"></i> 29th May, 2024</li>
-                                </ul>
+                                </ul> */}
                             </div>
                         </div>
                         
                         <div className="accordion-content">
-                            <h6>1. Keynotes from industry stalwarts</h6> <br></br>
-                            <h6>2. Panel discussions on ethical AI</h6> <br></br>
-                            <h6>3. Hands-on workshops on generative techniques</h6>
+                            <p>Delve into themes such as AI technology breakthroughs, ethics in AI, AI's role in business and industry, sustainable AI initiatives, and human-AI collaboration. This segment will explore the most exhilarating and pivotal developments in AI, stimulating, challenging, and inspiring attendees.
+</p>
 
                             {/* <div className="row h-100 align-items-center">
                                 <div className="col-lg-6 col-md-7">
@@ -35,18 +34,17 @@ const EventSchedules = () => {
                     <li className="accordion-item">
                         <div className="accordion-title">
                             <div className="schedule-info">
-                                <h3>Day 2: AI in Action</h3>
+                                <h3>Speakers and Panelists</h3>
 
-                                <ul>
+                                {/* <ul>
                                     <li><i className="icofont-wall-clock"></i> 30th May, 2024</li>
-                                </ul>
+                                </ul> */}
                             </div>
                         </div>
                         
                         <div className="accordion-content">
-                            <h6>1. Live demonstrations of generative AI applications</h6> <br></br>
-                            <h6>2. Breakout sessions on sector-specific AI applications</h6> <br></br>
-                            <h6>3. Networking cocktail hour</h6>
+                            <p>Showcase the expertise and backgrounds of speakers and panelists, highlighting their anticipated contributions. The session will feature thought leaders, innovators, and visionaries from various AI domains.
+</p>
 
                             {/* <div className="row h-100 align-items-center">
                                 <div className="col-lg-6 col-md-7">
@@ -63,18 +61,43 @@ const EventSchedules = () => {
                     <li className="accordion-item">
                         <div className="accordion-title">
                             <div className="schedule-info">
-                                <h3>Day 3: The Horizon Ahead</h3>
+                                <h3>Sponsors and Partners</h3>
 
-                                <ul>
+                                {/* <ul>
                                     <li><i className="icofont-wall-clock"></i> 31th May, 2024</li>
-                                </ul>
+                                </ul> */}
                             </div>
                         </div>
                         
                         <div className="accordion-content">
-                            <h6>1. Future-gazing panels on the long-term impact of AI</h6> <br></br>
-                            <h6>2. Closing keynote: "The Next Decade in AI"</h6> <br></br>
-                            <h6>3. GenAI Awards Ceremony</h6>
+                            <p>Recognize and appreciate the support of sponsors and partners, emphasizing their role in making the summit a success. This section will highlight the collaborative ecosystem supported by leading brands and the inclusive approach by GPT DAO.
+</p>
+
+                            {/* <div className="row h-100 align-items-center">
+                                <div className="col-lg-6 col-md-7">
+                                    <div className="location">
+                                        <b>Location:</b> 
+                                        Main Entrance, Santa Clara Conventin Ceneter
+                                    </div>
+                                </div>
+                            </div> */}
+                        </div>
+                    </li>
+                    
+                    <li className="accordion-item">
+                        <div className="accordion-title">
+                            <div className="schedule-info">
+                                <h3>Exhibitions and Tech Demos</h3>
+
+                                {/* <ul>
+                                    <li><i className="icofont-wall-clock"></i> 31th May, 2024</li>
+                                </ul> */}
+                            </div>
+                        </div>
+                        
+                        <div className="accordion-content">
+                            <p>Describe the dynamic and immersive nature of the exhibitions, showcasing the breadth of AI applications on display. The exhibition hall will be a vibrant display of the latest in AI technology and applications from startups to established tech giants.
+</p>
 
                             {/* <div className="row h-100 align-items-center">
                                 <div className="col-lg-6 col-md-7">
@@ -87,7 +110,133 @@ const EventSchedules = () => {
                         </div>
                     </li>
 
-                    <p>Note: Tentative Agenda, update weekly.</p>
+                    <li className="accordion-item">
+                        <div className="accordion-title">
+                            <div className="schedule-info">
+                                <h3>Workshops and Interactive Sessions</h3>
+
+                                {/* <ul>
+                                    <li><i className="icofont-wall-clock"></i> 31th May, 2024</li>
+                                </ul> */}
+                            </div>
+                        </div>
+                        
+                        <div className="accordion-content">
+                            <p>Provide a glimpse into the hands-on experiences offered at the summit, focusing on learning outcomes and the interactive nature of these sessions. These will include AI coding bootcamps, AI ethics roundtables, AI in art workshops, and startup pitch sessions.
+</p>
+
+                            {/* <div className="row h-100 align-items-center">
+                                <div className="col-lg-6 col-md-7">
+                                    <div className="location">
+                                        <b>Location:</b> 
+                                        Main Entrance, Santa Clara Conventin Ceneter
+                                    </div>
+                                </div>
+                            </div> */}
+                        </div>
+                    </li>
+                    <li className="accordion-item">
+                        <div className="accordion-title">
+                            <div className="schedule-info">
+                                <h3>Networking Opportunities</h3>
+
+                                {/* <ul>
+                                    <li><i className="icofont-wall-clock"></i> 31th May, 2024</li>
+                                </ul> */}
+                            </div>
+                        </div>
+                        
+                        <div className="accordion-content">
+                            <p>Emphasize the variety and significance of networking opportunities, underlining the summit's role in fostering professional connections and collaborations. This includes the AI Innovators’ Lounge, industry-specific meetups, speed networking sessions, and evening social events.
+</p>
+
+                            {/* <div className="row h-100 align-items-center">
+                                <div className="col-lg-6 col-md-7">
+                                    <div className="location">
+                                        <b>Location:</b> 
+                                        Main Entrance, Santa Clara Conventin Ceneter
+                                    </div>
+                                </div>
+                            </div> */}
+                        </div>
+                    </li>
+
+                    <li className="accordion-item">
+                        <div className="accordion-title">
+                            <div className="schedule-info">
+                                <h3>Logistics and Amenities</h3>
+
+                                {/* <ul>
+                                    <li><i className="icofont-wall-clock"></i> 31th May, 2024</li>
+                                </ul> */}
+                            </div>
+                        </div>
+                        
+                        <div className="accordion-content">
+                            <p>Offer practical information about the summit's logistics, focusing on attendee convenience and accessibility. Information about venue accessibility, accommodations, transportation, and on-site amenities will be provided.</p>
+
+                            {/* <div className="row h-100 align-items-center">
+                                <div className="col-lg-6 col-md-7">
+                                    <div className="location">
+                                        <b>Location:</b> 
+                                        Main Entrance, Santa Clara Conventin Ceneter
+                                    </div>
+                                </div>
+                            </div> */}
+                        </div>
+                    </li>
+
+                    <li className="accordion-item">
+                        <div className="accordion-title">
+                            <div className="schedule-info">
+                                <h3>Sustainability and Accessibility Measures</h3>
+
+                                {/* <ul>
+                                    <li><i className="icofont-wall-clock"></i> 31th May, 2024</li>
+                                </ul> */}
+                            </div>
+                        </div>
+                        
+                        <div className="accordion-content">
+                            <p>Detail the summit's commitment to sustainability and inclusivity, highlighting specific measures and initiatives. This includes eco-friendly practices, digital materials, recycling programs, and ensuring accessibility for all attendees.
+</p>
+                            {/* <div className="row h-100 align-items-center">
+                                <div className="col-lg-6 col-md-7">
+                                    <div className="location">
+                                        <b>Location:</b> 
+                                        Main Entrance, Santa Clara Conventin Ceneter
+                                    </div>
+                                </div>
+                            </div> */}
+                        </div>
+                    </li>
+
+                    <li className="accordion-item">
+                        <div className="accordion-title">
+                            <div className="schedule-info">
+                                <h3>Future of AI and Closing Remarks</h3>
+
+                                {/* <ul>
+                                    <li><i className="icofont-wall-clock"></i> 31th May, 2024</li>
+                                </ul> */}
+                            </div>
+                        </div>
+                        
+                        <div className="accordion-content">
+                            <p>Provide an inspiring and forward-looking conclusion, emphasizing the summit's role in shaping the future of AI and the importance of responsible innovation. The closing remarks will summarize the event and provide a roadmap for the future use of AI.
+</p>
+                            {/* <div className="row h-100 align-items-center">
+                                <div className="col-lg-6 col-md-7">
+                                    <div className="location">
+                                        <b>Location:</b> 
+                                        Main Entrance, Santa Clara Conventin Ceneter
+                                    </div>
+                                </div>
+                            </div> */}
+                        </div>
+                    </li>
+
+                    <p>Note: Tentative Outline, update weekly.</p>
 
                     
 

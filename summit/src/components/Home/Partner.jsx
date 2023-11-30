@@ -8,6 +8,8 @@ import BoothSponsors from '../LaxButton/BoothSponsors';
 import LaxDiv from '../Shared/LaxDiv';
 import { booths } from './boothsData';
 
+
+//this contains partners (sponsors) and Booth information
 const Partner = () => {
     return (
         <section className="partner-area ptb-120">
@@ -21,6 +23,7 @@ const Partner = () => {
                     <LaxDiv text="Sponsors" dataPreset="driftRight" />
                     {/* <a href="https://www.gptdao.ai/get-started" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Become Our Sponsor</a> */}
                 </div>
+                
                 
                 <div className="row">
                     <div className="col-lg-3 col-md-3 sponsor-div">
@@ -64,29 +67,53 @@ const Partner = () => {
                             <img src={require("../../assets/images/sponsors/onecarmel.png")} alt="Partner Logo" id="big"/>
                             <img src={require("../../assets/images/sponsors/metasponser.png")} alt="Partner Logo" /> */}
                             <img src={require("../../assets/images/sponsors/tencent.png")} alt="Partner Logo" />
-                            {/* <img src={require("../../assets/images/sponsors/jiccapital.png")} alt="Partner Logo" /> */}
+                            <img src={require("../../assets/images/sponsors/backk1.png")} alt="Partner Logo" />
+                            <img src={require("../../assets/images/sponsors/backk1.png")} alt="Partner Logo" />
+                           
                         </div>
                         <div>
 
                             
                         </div>
+                        
                     </div>
-                </div>
+                    
+                </div> 
+                {/* stops here, starts from here, it is booth information*/}
+                
 
-                <div className='row'> 
-                    <div className="partner-title">
-                        <BoothSponsors />
-                    </div>
-                    {booths.map((booth, index) => (
-                        <div className="col-lg-2 col-md-2 sponsor-div">
-                            <div className="sponsor-logo" key={index}>
-                                    <img src={booth.image} alt={booth.name} className="img-fluid" />
-                            </div>
+                <div className="section-title">
+                    
+                    <LaxDiv text="Exhibits" dataPreset="DriftRight" />
+                        <span>Showcase your product to everyone at the Summit!</span>
+                        
+                        <h2>Previous Exhibits</h2>
+                        
+                        
+                    
+
+                    
+                </div>
+                
+                <div className="row">
+                    
+                    {/* <div className="mb-5 col-0"> mb-5控制行距 */} 
+                    <div className="col-0">
+                            <BoothSponsors />
                         </div>
-                    ))}
+                        {booths.map((booth, index) => (
+                            <div className="col-lg-2 col-md-2 sponsor-div">
+                                <div className="sponsor-logo" key={index}>
+                                        <img src={booth.image} alt={booth.name} className="img-fluid" />
+                                </div>
+                            </div>
+                        ))}
+                    
                 </div>
                 
             </div>
+            
+            {/* <div className="col-lg-3 col-md-3 sponsor-div"> */}
             
         </section>
   );

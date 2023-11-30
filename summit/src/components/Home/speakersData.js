@@ -72,6 +72,17 @@ export const speakers = [
         ]
     },
     {
+        name: "Jim Fan",
+        title: "Research Scientist",
+        company: "NVIDIA AI",
+        image: require("../../assets/images/speakers/jim_fan.jpeg"),
+        socialLinks: [
+            { icon: "icofont-web", href: "https://jimfan.me/" },
+            { icon: "icofont-twitter", href: "https://twitter.com/DrJimFan" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/drjimfan/" }
+        ]
+    },
+    {
         name: "Aravind Srinivas",
         title: "Cofounder & CEO",
         company: "Perplexity AI",
@@ -261,15 +272,7 @@ export const speakers = [
             { icon: "icofont-twitter", href: "https://twitter.com/shishirpatil_" }
         ]
     },
-    {
-        name: "Michael Jung",
-        title: "Founder",
-        company: "DeepBrain AI",
-        image: require("../../assets/images/speakers/jung.jpeg"),
-        socialLinks: [
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/msjung/" }
-        ]
-    },
+   
     {
         name: "Shaun Wei",
         title: "Founder & CEO",

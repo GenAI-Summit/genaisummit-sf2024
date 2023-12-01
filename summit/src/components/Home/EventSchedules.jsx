@@ -9,7 +9,9 @@ const EventSchedules = () => {
             <section className="schedule-area bg-image ptb-120">
                 <div className="container">
                     <div className="section-title">
-                        {/* <span>10 events covering 10 topics</span> */}
+
+                        <span>Maximize Your Journey at the AI Summit</span>
+
                         
                         <h2> <b>E</b>vent <b>O</b>utline</h2>
                         <LaxDiv text="Outline" dataPreset="driftRight" />

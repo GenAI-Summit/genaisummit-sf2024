@@ -101,11 +101,12 @@ const Features = () => {
                     <div className="col-lg-6">
                         <div>
                             <img
-                                src={require("../../assets/images/conference22.png")}
+                                src={require("../../assets/images/networking.JPG")}
                                 className="about-img1" 
                                 alt="about" 
                             />
                         </div>
+                        <p>(Images from previous summit)</p>
                     </div>
 
                     <div className="col-lg-6">
@@ -130,6 +131,8 @@ const Features = () => {
                                     </div>
                                     
                     </div>
+
+                    
                     
                     
                 </div>

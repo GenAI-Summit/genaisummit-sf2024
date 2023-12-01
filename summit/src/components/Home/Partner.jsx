@@ -127,7 +127,7 @@ const Partner = () => {
                                 </p> */}
                                 <h4>GPTDAO was presented to Certificate of Recognition by City of Saratoga on September 23, 2023.</h4>
                                 
-                                <p>Here at GenAI Summit, we engage with our community and collaborate with local residents. Our commitment to promoting and advancing artificial intelligence is a journey we proudly share with this vibrant community. We look forward to fostering further innovation and shared success in the future.</p>
+                                <p>Here at GenAI Summit, we engage with our community and collaborate with local residents. Our commitment to promoting and advancing artificial intelligence is a journey we proudly share with the local community. We look forward to fostering further innovation and shared success in the future.</p>
 
                                         </div>
                                         

@@ -10,10 +10,11 @@ const EventSchedules = () => {
                 <div className="container">
                     <div className="section-title">
                         {/* <span>10 events covering 10 topics</span> */}
-                        <h2> <b>E</b>vent <b>O</b>utline:</h2>
-                       
+                        
+                        <h2> <b>E</b>vent <b>O</b>utline</h2>
+                        <LaxDiv text="Outline" dataPreset="driftRight" />
 
-                        <LaxDiv text="Event Outline" dataPreset="driftLeft" />
+                        
                     </div>
                     
 

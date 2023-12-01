@@ -33,25 +33,25 @@ const Features = () => {
                         <div className="about-content">
                             <span>Hands-On Experiences: Learning by Doing</span>
                             
-                            <h2> <b>Workshops </b> and Interactive Sessions</h2>
+                            <h2> <b>Interactive</b> Sessions and Workshops</h2>
                             
                             <div className="">
-                            <h5> Distinguished Speakers and Returnees:</h5>
+                            <h5> Distinguished Speakers and Returnees</h5>
                             <p> Many of the esteemed speakers from our previous event, acclaimed for their contributions to AI, will be returning. Their presence ensures a continuity of expertise and thought leadership.
 </p> 
-<h5> Startup Pitch Sessions:</h5>
+<h5> Startup Pitch Sessions</h5>
                             <p> For the entrepreneurial minds, these sessions provide a platform to pitch AI-based business ideas to a panel of investors and industry leaders.
 </p> 
-                            <h5>AI Ethics Roundtables: </h5><p>Participate in roundtable discussions on AI ethics, where you can debate, discuss, and contribute to developing responsible AI guidelines.</p>
+                            <h5>AI Ethics Roundtables</h5><p>Participate in roundtable discussions on AI ethics, where you can debate, discuss, and contribute to developing responsible AI guidelines.</p>
 
-                            <h5> AI Coding Bootcamps:</h5>
+                            <h5> AI Coding Bootcamps</h5>
                             <p>  Whether you're a beginner or an experienced coder, our bootcamps offer the chance to learn and improve your AI coding skills under the guidance of experts.
 </p> 
                             
                             
                             
                             
-                            <h5>AI in Art Workshops:</h5>
+                            <h5>AI in Art Workshops</h5>
                             <p>Explore the intersection of AI and creativity in these workshops where art meets algorithms. Discover how AI is opening new frontiers in artistic expression.</p>
 
                         
@@ -119,11 +119,11 @@ const Features = () => {
                             The GenAI Summit 2024 isn't just an event; it's where the future of AI becomes your present. 
                             Join us to be part of molding the tech landscape of tomorrow.
                             </p> */}
-                            <h5> AI Innovators’ Lounge:</h5> <p> A dedicated space for attendees to meet, share ideas, and collaborate. Whether you’re seeking a mentor, a partner, or just an interesting conversation, the lounge is the perfect place to connect.
+                            <h5> AI Innovators’ Lounge</h5> <p> A dedicated space for attendees to meet, share ideas, and collaborate. Whether you’re seeking a mentor, a partner, or just an interesting conversation, the lounge is the perfect place to connect.
 </p>
-                            <h5>Industry-Specific Meetups:</h5>
+                            <h5>Industry-Specific Meetups</h5>
                             <p>Organized meetups for various sectors like technology, finance, and healthcare allow attendees to network with peers in their field, discussing challenges and opportunities specific to their industry.</p>
-                            <p><h5>More Entertainment:</h5> The summit will feature a spectacular array of entertainment, inviting Hollywood celebrities, renowned musicians, and artists to perform at the premier theater and the grand venue of the Palace of Fine Arts. This section promises a dazzling blend of technology and artistry, providing attendees with a unique and memorable experience that celebrates the convergence of AI, culture, and entertainment.
+                            <p><h5>More Entertainment</h5> The summit will feature a spectacular array of entertainment, inviting Hollywood celebrities, renowned musicians, and artists to perform at the premier theater and the grand venue of the Palace of Fine Arts. This section promises a dazzling blend of technology and artistry, providing attendees with a unique and memorable experience that celebrates the convergence of AI, culture, and entertainment.
 </p>
                             
                             

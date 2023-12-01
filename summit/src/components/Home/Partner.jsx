@@ -110,6 +110,46 @@ const Partner = () => {
                         ))}
                     
                 </div>
+
+                <div className="container">
+                    <div className="row h-100 align-items-center">
+                        
+
+                        <div className="col-lg-6">
+                            <div className="about-content">
+                                <span>Stay with the Community</span>
+                                <h2> <b>Certificate</b> of Recognition</h2>
+                                {/* <p>Networking Galore: Rub shoulders with the best minds in the AI realm, form invaluable connections, and usher in collaborative innovation.
+                                Hear from the stars of the industry as they deliver keynote speeches that promise to enlighten and inspire. Engage with these visionaries during interactive sessions, 
+                                where you can ask your burning questions and gain invaluable insights. 
+                                The GenAI Summit 2024 isn't just an event; it's where the future of AI becomes your present. 
+                                Join us to be part of molding the tech landscape of tomorrow.
+                                </p> */}
+                                <h4>GPTDAO was presented to Certificate of Recognition by City of Saratoga on September 23, 2023.</h4>
+                                
+                                <p>Here at GenAI Summit, we engage with our community and collaborate with local residents. Our commitment to promoting and advancing artificial intelligence is a journey we proudly share with this vibrant community. We look forward to fostering further innovation and shared success in the future.</p>
+
+                                        </div>
+                                        
+                            </div>
+                            <div className="col-lg-6">
+                                <div>
+                                <img
+                                    src={require("../../assets/images/certificate.png")}
+                                    className="about-img1" 
+                                    alt="about" 
+                                />
+                            </div>
+                            
+                        </div>
+
+                        
+                        
+                        
+                    </div>
+                </div>   
+
+                    
                 
             </div>
             

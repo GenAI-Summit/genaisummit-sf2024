@@ -132,8 +132,23 @@ const Partner = () => {
                                         </div>
                                         
                             </div>
+                            
+                            
                             <div className="col-lg-6">
+                            <div>
+                               
+                               
+                                
+                                <img
+                                    src={require("../../assets/images/imagewhite.png")}
+                                    className="about-img1" 
+                                    alt="about" 
+                                />
+                            </div>
                                 <div>
+                                <br/>
+                                <br/>
+                                
                                 <img
                                     src={require("../../assets/images/certificate.png")}
                                     className="about-img1" 

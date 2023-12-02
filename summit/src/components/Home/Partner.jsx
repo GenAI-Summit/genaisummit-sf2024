@@ -31,7 +31,7 @@ const Partner = () => {
                         <img src={require("../../assets/images/sponsors/diamond.png")} alt="Partner Logo" />
                         </div> */}
                         <div className="sponsor-logo">
-                            <img src={require("../../assets/images/sponsors/microsoft.png")} alt="Partner Logo" />
+                            
                         </div>
                     </div>
 
@@ -66,8 +66,10 @@ const Partner = () => {
                             {/* <img src={require("../../assets/images/sponsors/espeedlogo.png")} alt="Partner Logo" id="big" />
                             <img src={require("../../assets/images/sponsors/onecarmel.png")} alt="Partner Logo" id="big"/>
                             <img src={require("../../assets/images/sponsors/metasponser.png")} alt="Partner Logo" /> */}
+                            
+                            <img src={require("../../assets/images/sponsors/microsoft.png")} alt="Partner Logo" />
+                            <br/>
                             <img src={require("../../assets/images/sponsors/tencent.png")} alt="Partner Logo" />
-                            <img src={require("../../assets/images/sponsors/backk1.png")} alt="Partner Logo" />
                             <img src={require("../../assets/images/sponsors/backk1.png")} alt="Partner Logo" />
                            
                         </div>

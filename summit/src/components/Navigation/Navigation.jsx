@@ -114,7 +114,7 @@ const Navigation = () => {
                                 </li>
 
                                 <li className="nav-item">
-                                    <a href="https://sv2023.genaisummit.xyz/" target="_blank" rel="noopener noreferrer" className="nav-link">Previous Event</a>
+                                    <a href="https://sv2023.genaisummit.ai/" target="_blank" rel="noopener noreferrer" className="nav-link">Previous Event</a>
                                 </li>
                             </ul>
 

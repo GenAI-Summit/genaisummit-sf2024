@@ -55,7 +55,7 @@ const MainBanner = () => {
             
             <div className="main-banner item-bg">
                 <video autoPlay loop muted className="video-background">
-                    <source src={require("../../assets/videos/main-bg1.mp4")} type="video/mp4" />
+                    <source src={require("../../assets/videos/video1.mp4")} type="video/mp4" />
                 </video>
                 <div className="d-table">
                     <div className="d-table-cell">
@@ -75,7 +75,7 @@ const MainBanner = () => {
                                 </ul>
 
                                 <div className="button-box">
-                                    <a href="" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Tickets Coming Soon!</a>
+                                    <a href="" target= "blank" rel="noopener noreferrer" className="btn btn-primary">Tickets Coming Soon!</a>
                                 </div>
                             </div>
                         </div>

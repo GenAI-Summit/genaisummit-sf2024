@@ -31,7 +31,7 @@ export const speakers = [
 
         image: require("../../assets/images/speakers/harrison.jpeg"),
         name: "Harrison Chase",
-        title: "CEO",
+        title: "Co-Founder & CEO",
         company: "LangChain",
         socialLinks: [
             { icon: "icofont-twitter", href: "https://twitter.com/hwchase17" },
@@ -53,7 +53,7 @@ export const speakers = [
     {
         image: require("../../assets/images/speakers/jason_l.webp"),
         name: "Jason Lopatecki",
-        title: "CEO",
+        title: "Founder & CEO",
         company: "Arize AI",
         socialLinks: [
             { icon: "icofont-twitter", href: "https://twitter.com/jason_lopatecki" },
@@ -84,7 +84,7 @@ export const speakers = [
     },
     {
         name: "Aravind Srinivas",
-        title: "Cofounder & CEO",
+        title: "Co-founder & CEO",
         company: "Perplexity AI",
         image: require("../../assets/images/speakers/arvind.jpeg"),
         socialLinks: [
@@ -114,7 +114,7 @@ export const speakers = [
     },
     {
         name: "Jonathan Heyne",
-        title: "COO",
+        title: "Chief Operations Officer",
         company: "DeepLearning.AI",
         image: require("../../assets/images/speakers/jonathan.jpg"),
         socialLinks: [
@@ -135,7 +135,7 @@ export const speakers = [
     
     {
         name: "Jerry Liu",
-        title: "Cofounder & CEO",
+        title: "Co-founder & CEO",
         company: "LlamaIndex",
         image: require("../../assets/images/speakers/jerryliu.jpeg"),
         socialLinks: [
@@ -189,7 +189,7 @@ export const speakers = [
     },
     {
         name: "Yan Zhao",
-        title: "Vice Mayor",
+        title: "Mayor",
         company: "City of Saratoga",
         image: require("../../assets/images/speakers/zhaoyan.jpg"),
         socialLinks: [

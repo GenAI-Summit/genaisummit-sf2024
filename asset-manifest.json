@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.9732368b.css",
-    "main.js": "/static/js/main.a31aafa0.js",
+    "main.js": "/static/js/main.2392b66d.js",
     "static/js/787.16e64372.chunk.js": "/static/js/787.16e64372.chunk.js",
-    "static/media/video1.mp4": "/static/media/video1.b37970b701cddd41915e.mp4",
+    "static/media/video2.mp4": "/static/media/video2.237d61e2bcbc0debff15.mp4",
     "static/media/main-bg1.jpg": "/static/media/main-bg1.feafeadc13b9c985725e.jpg",
     "static/media/certificate.png": "/static/media/certificate.dcad0eed82ead5272b67.png",
+    "static/media/palace-video.mp4": "/static/media/palace-video.a09ed347dc0fe92dea80.mp4",
     "static/media/shaun.JPG": "/static/media/shaun.b608195ac9ae3b5002f4.JPG",
-    "static/media/palace1.png": "/static/media/palace1.ce940b707eaf9031898c.png",
     "static/media/networking.JPG": "/static/media/networking.b7b0a10059e296c49dae.JPG",
     "static/media/nguyen.png": "/static/media/nguyen.286a66cbf57878e03521.png",
     "static/media/Alan.jpg": "/static/media/Alan.d58a39ad85015a8beea0.jpg",
@@ -100,11 +100,11 @@
     "static/media/arize.svg": "/static/media/arize.8ca474c99641714a03ec221151132c1d.svg",
     "index.html": "/index.html",
     "main.9732368b.css.map": "/static/css/main.9732368b.css.map",
-    "main.a31aafa0.js.map": "/static/js/main.a31aafa0.js.map",
+    "main.2392b66d.js.map": "/static/js/main.2392b66d.js.map",
     "787.16e64372.chunk.js.map": "/static/js/787.16e64372.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9732368b.css",
-    "static/js/main.a31aafa0.js"
+    "static/js/main.2392b66d.js"
   ]
 }

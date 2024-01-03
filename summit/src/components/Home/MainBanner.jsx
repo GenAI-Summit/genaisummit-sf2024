@@ -55,7 +55,7 @@ const MainBanner = () => {
             
             <div className="main-banner item-bg">
                 <video autoPlay loop muted className="video-background">
-                    <source src={require("../../assets/videos/video1.mp4")} type="video/mp4" />
+                    <source src={require("../../assets/videos/video2.mp4")} type="video/mp4" />
                 </video>
                 <div className="d-table">
                     <div className="d-table-cell">

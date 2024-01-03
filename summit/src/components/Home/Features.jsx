@@ -62,15 +62,9 @@ const Features = () => {
 
                     <div className="col-lg-6">
                         <div>
-                            <img
-
-
-                                src={require("../../assets/images/palace1.png")}
-
-
-                                className="about-img1" 
-                                alt="about" 
-                            />
+                        <video autoPlay loop muted className="about-video1" style={{ width: '635px', height: '400px' }}>
+                    <source src={require("../../assets/videos/palace-video.mp4")} type="video/mp4" />
+                </video>
                         </div>
                         <br/>
                         <div>

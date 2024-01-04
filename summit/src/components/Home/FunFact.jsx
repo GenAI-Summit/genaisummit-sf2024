@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import CountUp from 'react-countup';
 import VisibilitySensor from "react-visibility-sensor";
- 
+
 const FunFact = () => {
     const [didViewCountUp, setDidViewCountUp] = useState(false);
 
@@ -70,7 +70,7 @@ const FunFact = () => {
                             <p>Exhibits</p>
                         </div>
                     </div>
-                    
+
                     <div className="col-lg-3 col-6 col-sm-6">
                         <div className="single-funfact">
                             <div className="icon">
@@ -116,7 +116,7 @@ const FunFact = () => {
                                         start={0}
                                         end={
                                             didViewCountUp
-                                                ? 100
+                                                ? 50
                                                 : 0
                                         }
                                         duration={3}
@@ -131,5 +131,5 @@ const FunFact = () => {
         </section>
     );
 }
- 
+
 export default FunFact;

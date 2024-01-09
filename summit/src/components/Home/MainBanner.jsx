@@ -75,7 +75,7 @@ const MainBanner = () => {
                                 </ul>
 
                                 <div className="button-box">
-                                    <a href="" target= "blank" rel="noopener noreferrer" className="btn btn-primary">Tickets Coming Soon!</a>
+                                    <a href="https://genmall.ai/products/gassf2024" target= "blank" rel="noopener noreferrer" className="btn btn-primary">Buy Tickets</a>
                                 </div>
                             </div>
                         </div>

@@ -21,7 +21,7 @@ const Partner = () => {
                     
                     <p>and GenAI Cloud Computing Collaborators</p> */}
                     <LaxDiv text="Sponsors" dataPreset="driftRight" />
-                    {/* <a href="https://www.gptdao.ai/get-started" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Become Our Sponsor</a> */}
+                    <a href="https://www.gptdao.ai/get-started" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Become Our Sponsor</a>
                 </div>
                 
                 
@@ -92,7 +92,7 @@ const Partner = () => {
                         <h2>Previous Exhibits</h2>
                         
                         
-                    
+                        <a href="https://www.gptdao.ai/get-started" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Take your place to exhibit</a>
 
                     
                 </div>

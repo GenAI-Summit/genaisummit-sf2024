@@ -121,7 +121,7 @@ const Navigation = () => {
                             <div className="others-option">
                                 <ul>
                                     <li>
-                                        <a href="" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">Tickets Coming Soon</a>
+                                        <a href="https://genmall.ai/products/gassf2024" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">Buy Tickets</a>
                                     </li>
                                 </ul>
                             </div>

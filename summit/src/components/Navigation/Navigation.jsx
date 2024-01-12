@@ -121,7 +121,7 @@ const Navigation = () => {
                             <div className="others-option">
                                 <ul>
                                     <li>
-                                        <a href="https://genmall.ai/products/gassf2024" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">Buy Tickets</a>
+                                        <a href="https://www.eventbrite.com/e/generative-ai-summit-san-francisco-2024-tickets-796934722207" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">Buy Tickets</a>
                                     </li>
                                 </ul>
                             </div>

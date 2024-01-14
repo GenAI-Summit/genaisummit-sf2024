@@ -9,9 +9,9 @@ const Speakers = () => {
             <div className="container">
                 <div className="section-title">
                     <span>Listen to the Event Speakers</span>
-                    <h2>Previous Speakers 
+                    <h2>Our Speakers 
                     </h2>
-                    {/* <h4>(From "<a href="https://sv2023.genaisummit.xyz/" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }} >GenAI Summit 2023</a>")</h4> */}
+                    {/* <a href="https://www.gptdao.ai/get-started" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Be our Speaker</a> */}
                     
                     <LaxDiv text="Speakers" dataPreset="driftRight" />
                 </div>
@@ -20,6 +20,8 @@ const Speakers = () => {
                     {speakers.map(speaker => (
                         <div className="mb-5 col-lg-2 col-md-3 col-sm-4 col-4" key={speaker.name}>
                             <div className="single-speakers-box">
+
+                                {/* here is all about each box of speakers */}
                                 <div className="speakers-image">
                                     <img src={speaker.image} alt={speaker.name} />
                                 </div>
@@ -34,23 +36,31 @@ const Speakers = () => {
                                             <li key={link.href}>
                                                 <a target="_blank" rel="noopener noreferrer" href={link.href}>
                                                     <i className={link.icon}></i>
+
+                                                    
                                                 </a>
+
+                                                
                                             </li>
                                         ))}
                                     </ul>
                                 </div>
+
+                                
                             </div>
+                            
                         </div>
                     ))}
-
-                    {/* <div className="col-lg-3 col-sm-6">
-                        <div className="single-speakers-box">
-                            <div className="speakers-content">
+                    {/* <div className=""> */}
+                        <div className="container">
+                            <div className="section-title">
                                 <h3>More to Come</h3>
                                 <span>Announced Weekly</span>
                             </div>
                         </div>
-                    </div>  */}
+                    {/* </div>  */}
+
+                    
                 </div>
             </div>
         </section>

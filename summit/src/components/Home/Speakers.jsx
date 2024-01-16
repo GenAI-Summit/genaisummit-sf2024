@@ -9,7 +9,7 @@ const Speakers = () => {
             <div className="container">
                 <div className="section-title">
                     <span>Listen to the Event Speakers</span>
-                    <h2>Previous Speakers 
+                    <h2>Previous Speakers
                     </h2>
                     {/* <a href="https://www.gptdao.ai/get-started" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Be our Speaker</a> */}
                     

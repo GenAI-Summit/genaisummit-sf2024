@@ -21,7 +21,11 @@ const About = () => {
                             <h2><b>Gen</b>erative  <b>AI</b> Summit <br/>San Francisco 2024</h2>
                             
                             <p>
-                            The Generative AI Summit SF 2024 is the world’s leading #GenAI premium event. It is scheduled from May 27 to June 1, 2024 in San Francisco, the AI capital of the world. It is expected to welcome 50,000 attendees, 500 exhibitors, 200 speakers, 100 sessions, 20 tracks, and beyond. The event is enriched by our partnership with SF Travel, the official travel agency representative of San Francisco City.
+                            The Generative AI Summit SF 2024 is the world’s largest premium #GenAI event. It is
+scheduled from May 27th to June 1st, 2024, in San Francisco, California, the AI capital
+of the world. We expect to welcome 50,000+ attendees, 500+ exhibitors, 200+
+speakers, 300+ VCs, 20+ tracks, and more. The event is enriched by our partnership
+with SF Travel, the official travel agency representative of San Francisco.
 <br/>
 <br/>
                             Spanning a full week at the Palace of Fine Arts, the Summit offers a range of activities including hackathons, top company showcases, market and business development sessions, hardware and chip innovations, AI agent showcases, large model competitions, education and research discussions, career opportunities, entertainment, afterparties, and VIP gatherings.  </p>

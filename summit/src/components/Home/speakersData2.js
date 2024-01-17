@@ -1,4 +1,4 @@
-export const speakers = [
+export const speakers2 = [
     {
         image: require("../../assets/images/speakers/microsoft.png"),
         name: "Microsoft",

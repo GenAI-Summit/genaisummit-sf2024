@@ -18,13 +18,41 @@ const FunFact = () => {
                     <div className="col-lg-3 col-6 col-sm-6">
                         <div className="single-funfact">
                             <div className="icon">
-                                <i className="icofont-users-social"></i>
+                                <i className="icofont-resize"></i>
                             </div>
                             <h3 className="odometer">
                                 <VisibilitySensor
                                     onChange={onVisibilityChange}
                                     offset={{
                                         top: 10000
+                                    }}
+                                    delayedCall
+                                >
+                                    <CountUp
+                                        start={0}
+                                        end={
+                                            didViewCountUp
+                                                ? 200000
+                                                : 0
+                                        }
+                                        duration={3}
+                                    />
+                                </VisibilitySensor> +
+                            </h3>
+                            <p>Sq. FT.</p>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3 col-6 col-sm-6">
+                        <div className="single-funfact">
+                            <div className="icon">
+                                <i className="icofont-users-social"></i>
+                            </div>
+                            <h3 className="odometer">
+                                <VisibilitySensor
+                                    onChange={onVisibilityChange}
+                                    offset={{
+                                        top: 22
                                     }}
                                     delayedCall
                                 >
@@ -46,13 +74,13 @@ const FunFact = () => {
                     <div className="col-lg-3 col-6 col-sm-6">
                         <div className="single-funfact">
                             <div className="icon">
-                                <i className="icofont-focus"></i>
+                                <i className="icofont-presentation-alt"></i>
                             </div>
                             <h3 className="odometer">
                                 <VisibilitySensor
                                     onChange={onVisibilityChange}
                                     offset={{
-                                        top: 22
+                                        top: 34
                                     }}
                                     delayedCall
                                 >
@@ -67,10 +95,42 @@ const FunFact = () => {
                                     />
                                 </VisibilitySensor> +
                             </h3>
-                            <p>Exhibits</p>
+                            <p>Exhibitors</p>
                         </div>
                     </div>
 
+                    
+
+                    <div className="col-lg-3 col-6 col-sm-6">
+                        <div className="single-funfact">
+                            <div className="icon">
+                                <i className="icofont-money"></i>
+                            </div>
+                            <h3 className="odometer">
+                                <VisibilitySensor
+                                    onChange={onVisibilityChange}
+                                    offset={{
+                                        top: 13
+                                    }}
+                                    delayedCall
+                                >
+                                    <CountUp
+                                        start={0}
+                                        end={
+                                            didViewCountUp
+                                                ? 300
+                                                : 0
+                                        }
+                                        duration={3}
+                                    />
+                                </VisibilitySensor> +
+                            </h3>
+                            <p>VCs</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="row">
                     <div className="col-lg-3 col-6 col-sm-6">
                         <div className="single-funfact">
                             <div className="icon">
@@ -80,7 +140,7 @@ const FunFact = () => {
                                 <VisibilitySensor
                                     onChange={onVisibilityChange}
                                     offset={{
-                                        top: 34
+                                        top: 10000
                                     }}
                                     delayedCall
                                 >
@@ -102,13 +162,13 @@ const FunFact = () => {
                     <div className="col-lg-3 col-6 col-sm-6">
                         <div className="single-funfact">
                             <div className="icon">
-                                <i className="icofont-copy"></i>
+                                <i className="icofont-ui-camera"></i>
                             </div>
                             <h3 className="odometer">
                                 <VisibilitySensor
                                     onChange={onVisibilityChange}
                                     offset={{
-                                        top: 13
+                                        top: 22
                                     }}
                                     delayedCall
                                 >
@@ -123,9 +183,41 @@ const FunFact = () => {
                                     />
                                 </VisibilitySensor> +
                             </h3>
-                            <p>Sessions</p>
+                            <p>Media Outlets</p>
                         </div>
                     </div>
+
+                    <div className="col-lg-3 col-6 col-sm-6">
+                        <div className="single-funfact">
+                            <div className="icon">
+                                <i className="icofont-focus"></i>
+                            </div>
+                            <h3 className="odometer">
+                                <VisibilitySensor
+                                    onChange={onVisibilityChange}
+                                    offset={{
+                                        top: 34
+                                    }}
+                                    delayedCall
+                                >
+                                    <CountUp
+                                        start={0}
+                                        end={
+                                            didViewCountUp
+                                                ? 20
+                                                : 0
+                                        }
+                                        duration={3}
+                                    />
+                                </VisibilitySensor> +
+                            </h3>
+                            <p>Tracks</p>
+                        </div>
+                    </div>
+
+                    
+
+                    
                 </div>
             </div>
         </section>

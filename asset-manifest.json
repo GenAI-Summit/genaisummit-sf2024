@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9732368b.css",
-    "main.js": "/static/js/main.a3f356a7.js",
+    "main.js": "/static/js/main.e39e88c1.js",
     "static/js/787.16e64372.chunk.js": "/static/js/787.16e64372.chunk.js",
     "static/media/jan15.mp4": "/static/media/jan15.15d4e8e2049c127e9fa4.mp4",
     "static/media/main-bg1.jpg": "/static/media/main-bg1.feafeadc13b9c985725e.jpg",
@@ -19,9 +19,10 @@
     "static/media/chuntingzhou.jpeg": "/static/media/chuntingzhou.85f80f530ddd5e1efb72.jpeg",
     "static/media/lianmin.png": "/static/media/lianmin.5eb402ba4298b11ecb24.png",
     "static/media/zhaoyan.png": "/static/media/zhaoyan.cc85124d4148ba0a291a.png",
-    "static/media/jason.png": "/static/media/jason.efa361d45d9b5676ac5f.png",
+    "static/media/jasonwei.png": "/static/media/jasonwei.3832b897453b63ea9d52.png",
+    "static/media/jason.png": "/static/media/jason.23a4c1e7e2e0246f452e.png",
     "static/media/yichong.png": "/static/media/yichong.b8a4a07b27634739e9bb.png",
-    "static/media/jimfan.png": "/static/media/jimfan.e4e72ec3297854806680.png",
+    "static/media/jimfan.png": "/static/media/jimfan.c24e2aaa48d6da7e20eb.png",
     "static/media/xinyun.png": "/static/media/xinyun.d77368c0b6186530164a.png",
     "static/media/jerry.png": "/static/media/jerry.af4b0eee026d5dcea6fe.png",
     "static/media/chunting.png": "/static/media/chunting.8ea6a9a774948a9ac738.png",
@@ -117,11 +118,11 @@
     "static/media/arize.svg": "/static/media/arize.8ca474c99641714a03ec221151132c1d.svg",
     "index.html": "/index.html",
     "main.9732368b.css.map": "/static/css/main.9732368b.css.map",
-    "main.a3f356a7.js.map": "/static/js/main.a3f356a7.js.map",
+    "main.e39e88c1.js.map": "/static/js/main.e39e88c1.js.map",
     "787.16e64372.chunk.js.map": "/static/js/787.16e64372.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9732368b.css",
-    "static/js/main.a3f356a7.js"
+    "static/js/main.e39e88c1.js"
   ]
 }

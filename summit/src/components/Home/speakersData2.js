@@ -75,7 +75,7 @@ export const speakers2 = [
     },
     {
         name: "Jim Fan",
-        title: "Research Scientist",
+        title: "Senior Research Scientist",
         company: "NVIDIA AI",
         image: require("../../assets/images/speakers/jim_fan.jpeg"),
         socialLinks: [
@@ -112,6 +112,17 @@ export const speakers2 = [
         socialLinks: [
             { icon: "icofont-twitter", href: "https://twitter.com/rajatsuri" },
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/rajatsuri/" }
+        ]
+    },
+    {
+        image: require("../../assets/images/speakers/yangqingjia.jpeg"),
+        name: "Yangqing Jia",
+        title: "Founder",
+        company: "Lepton AI",
+        socialLinks: [
+            { href: "https://twitter.com/jiayq", icon: "icofont-twitter" },
+            { href: "https://www.linkedin.com/in/yangqing-jia/", icon: "icofont-linkedin" },
+            { href: "https://daggerfs.com/", icon: "icofont-web" }
         ]
     },
     {
@@ -213,7 +224,7 @@ export const speakers2 = [
 
     {
         name: "Hanyu Xue",
-        title: "Principle ML Eng Mgr",
+        title: "Principle ML Eng Manager",
         company: "Microsoft",
         image: require("../../assets/images/speakers/hanyu.jpeg"),
         socialLinks: [
@@ -231,17 +242,7 @@ export const speakers2 = [
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/yichong-xu-46618383/" }
         ]
     },
-    {
-        image: require("../../assets/images/speakers/yangqingjia.jpeg"),
-        name: "Yangqing Jia",
-        title: "Founder",
-        company: "Lepton AI",
-        socialLinks: [
-            { href: "https://twitter.com/jiayq", icon: "icofont-twitter" },
-            { href: "https://www.linkedin.com/in/yangqing-jia/", icon: "icofont-linkedin" },
-            { href: "https://daggerfs.com/", icon: "icofont-web" }
-        ]
-    },
+    
     {
         name: "Li Erran Li",
         title: "Head of HIL Science",

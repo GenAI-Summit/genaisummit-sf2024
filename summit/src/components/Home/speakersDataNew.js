@@ -18,17 +18,18 @@ export const speakersnew = [
             
     //     ]
     // },
-    // {
-    //     image: require("../../assets/images/speakers/jason_wei.jpeg"),
-    //     name: "Jason Wei",
-    //     title: "AI Researcher",
-    //     company: "OpenAI",
-    //     socialLinks: [
-    //         { href: "https://twitter.com/_jasonwei", icon: "icofont-twitter" },
-    //         { href: "https://www.linkedin.com/in/jason-wei-5a7323b0/", icon: "icofont-linkedin" },
-    //         { href: "https://www.jasonwei.net/", icon: "icofont-web" }
-    //     ]
-    // },
+    {
+        image: require("../../assets/images/speakers/jason_wei.jpeg"),
+        name: "Jason Wei",
+        title: "AI Researcher",
+        company: "OpenAI",
+        popup: require("../../assets/images/speakers/popup/jasonwei.png"),
+        socialLinks: [
+            { href: "https://twitter.com/_jasonwei", icon: "icofont-twitter" },
+            { href: "https://www.linkedin.com/in/jason-wei-5a7323b0/", icon: "icofont-linkedin" },
+            { href: "https://www.jasonwei.net/", icon: "icofont-web" }
+        ]
+    },
     //     {
 
     //     image: require("../../assets/images/speakers/harrison.jpeg"),
@@ -78,7 +79,7 @@ export const speakersnew = [
     //     ]
     // },
     {
-        name: "Jim Fan",
+        name: "Dr. Jim Fan",
         title: "Senior Research Scientist",
         company: "NVIDIA AI",
         image: require("../../assets/images/speakers/jim_fan.jpeg"),
@@ -122,7 +123,7 @@ export const speakersnew = [
     },
     {
         image: require("../../assets/images/speakers/yangqingjia.jpeg"),
-        name: "Yangqing Jia",
+        name: "Dr. Yangqing Jia",
         title: "Founder",
         company: "Lepton AI",
         popup: require("../../assets/images/speakers/popup/yangqing.png"),

@@ -36,13 +36,12 @@
 
 /* Position the navigation arrows */
 .slick-slider-recent-speakers .slick-prev,
-
 .slick-slider-recent-speakers .slick-next {
   position: absolute;
   bottom: -1950px; /* Adjust as necessary */
   transform: translateY(100%);
   z-index: 25;
-  
+  display:none !important;
 }
 
 

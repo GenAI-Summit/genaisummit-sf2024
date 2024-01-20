@@ -310,17 +310,18 @@ export const speakersnew = [
     //         { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/lianmin-zheng-6266a8114" }
     //     ]
     // },
-    // {
-    //     name: "Shishir Patil",
-    //     title: "Creator",
-    //     company: "Gorilla LLM",
-    //     image: require("../../assets/images/speakers/patil.jpg"),
-    //     socialLinks: [
-    //         { icon: "icofont-web", href: "https://shishirpatil.github.io/" },
-    //         { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/shishir-patil/" },
-    //         { icon: "icofont-twitter", href: "https://twitter.com/shishirpatil_" }
-    //     ]
-    // },
+    {
+        name: "Shishir Patil",
+        title: "Creator",
+        company: "Gorilla LLM",
+        image: require("../../assets/images/speakers/patil.jpg"),
+        popup: require("../../assets/images/speakers/popup/shishir.png"),
+        socialLinks: [
+            { icon: "icofont-web", href: "https://shishirpatil.github.io/" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/shishir-patil/" },
+            { icon: "icofont-twitter", href: "https://twitter.com/shishirpatil_" }
+        ]
+    },
    
     // {
     //     name: "Shaun Wei",

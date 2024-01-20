@@ -31,22 +31,27 @@ const Partner = () => {
                         <img src={require("../../assets/images/sponsors/diamond.png")} alt="Partner Logo" />
                         </div> */}
                         <div className="sponsor-logo">
-                            
-                        </div>
-                    </div>
-
-                    {/* <div className="col-lg-3 col-md-3 sponsor-div">
-                        <div className="partner-title">
-                        <img src={require("../../assets/images/sponsors/plat.png")} alt="Partner Logo" />
-                        </div>
-                        <div className="sponsor-logo">
-                            <img src={require("../../assets/images/sponsors/aws.png")} alt="Partner Logo" />
-                            <img src={require("../../assets/images/sponsors/googlecloud.png")} alt="Partner Logo"/>
-                            <img src={require("../../assets/images/sponsors/dawn.png")} alt="Partner Logo"/>
+                            <br></br>
+                        {/* <img src={require("../../assets/images/sponsors/microsoft.png")} alt="Partner Logo" /> */}
                         </div>
                     </div>
 
                     <div className="col-lg-3 col-md-3 sponsor-div">
+                        {/* <div className="partner-title">
+                        <img src={require("../../assets/images/sponsors/plat.png")} alt="Partner Logo" />
+                        </div> */}
+                        <div className="sponsor-logo">
+                            {/* <img src={require("../../assets/images/sponsors/aws.png")} alt="Partner Logo" />
+                            <img src={require("../../assets/images/sponsors/googlecloud.png")} alt="Partner Logo"/>
+                            <img src={require("../../assets/images/sponsors/dawn.png")} alt="Partner Logo"/> */}
+                            <br></br>
+                            <img src={require("../../assets/images/sponsors/aws2.png")} alt="Partner Logo" id="big"/>
+                            <img src={require("../../assets/images/sponsors/backk1.png")} alt="Partner Logo" />
+                            {/* <img src={require("../../assets/images/sponsors/tencent.png")} alt="Partner Logo" /> */}
+                        </div>
+                    </div>
+
+                    {/* <div className="col-lg-3 col-md-3 sponsor-div">
                         <div className="partner-title">
                         <img src={require("../../assets/images/sponsors/gold.png")} alt="Partner Logo" />
                         </div>
@@ -67,10 +72,11 @@ const Partner = () => {
                             <img src={require("../../assets/images/sponsors/onecarmel.png")} alt="Partner Logo" id="big"/>
                             <img src={require("../../assets/images/sponsors/metasponser.png")} alt="Partner Logo" /> */}
                             
-                            <img src={require("../../assets/images/sponsors/microsoft.png")} alt="Partner Logo" />
+                            
                             <br/>
-                            <img src={require("../../assets/images/sponsors/tencent.png")} alt="Partner Logo" />
-                            <img src={require("../../assets/images/sponsors/backk1.png")} alt="Partner Logo" />
+                            
+                           
+                            
                            
                         </div>
                         <div>
@@ -81,8 +87,13 @@ const Partner = () => {
                     </div>
                     
                 </div> 
+
+
+
+
+
                 {/* stops here, starts from here, it is booth information*/}
-                
+                {/* booth information starts */}
 
                 <div className="section-title">
                     

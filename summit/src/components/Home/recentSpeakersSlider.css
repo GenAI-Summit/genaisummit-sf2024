@@ -41,7 +41,9 @@
   bottom: -1950px; /* Adjust as necessary */
   transform: translateY(100%);
   z-index: 25;
+
   display:none !important;
+
 }
 
 

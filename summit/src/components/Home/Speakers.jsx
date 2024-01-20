@@ -4,6 +4,9 @@ import LaxDiv from '../Shared/LaxDiv';
 import { speakers } from './speakersData';
 import { speakers2 } from './speakersData2';
 import { speakersnew } from './speakersDataNew';
+import { speakersrecent } from './speakersRecent';
+import Slider from 'react-slick'; // Assuming 'react-slick' and 'slick-carousel' are installed
+import './recentSpeakersSlider.css';
 
 
 const Speakers = () => {
@@ -32,10 +35,123 @@ const Speakers = () => {
         };
     };
 
+    function SampleNextArrow(props) {
+        const { className, style, onClick } = props;
+        return (
+          <div
+            className={`${className} btn btn-primary`}
+            style={{ ...style, display: 'block' }}
+            onClick={onClick}
+          >
+            Next
+          </div>
+        );
+      }
+      
+      function SamplePrevArrow(props) {
+        const { className, style, onClick } = props;
+        return (
+        
+          <div
+            className={`${className} btn btn-primary`}
+            style={{ ...style, display: 'block' }}
+            onClick={onClick}
+          >
+            Previous
+          </div>
+          
+        );
+      }
+
+
+
+    const sliderSettings = {
+        dots: true,
+        infinite: false,
+        speed: 500,
+        slidesToShow: 6,
+        slidesToScroll: 6,
+        className: "slick-slider-recent-speakers",
+        slide: "slick-slide-recent-speakers",
+        nextArrow: <SampleNextArrow />,
+        prevArrow: <SamplePrevArrow />,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    };
+
     
 
     return (
         <section className='speakers-area-two ptb-120'>
+            
+            <div className='container'>
+              
+                <span className="new-speakers-span">NEW SPEAKERS UPDATE DAILY!</span>
+              
+                <div className="" style={{ maxWidth: '100%', overflow: 'hidden' }}>
+                    <h2>Newly Updated Speakers</h2>  
+                    
+                </div>
+                {/* Slick Slider Container */}
+                <div className='row'>
+                <Slider {...sliderSettings}>
+                    {speakersrecent.map(speaker => (
+                        <div key={speaker.name} className="slick-slide-recent-speakers">
+                            <div className='single-speakers-box'>
+                                <div className='speakers-image' onClick={() => handleImageClick(speaker.popup)}>
+                                    <img src={speaker.image} alt={speaker.name} style={{cursor: 'pointer'}} />
+                                </div>
+                                <div className="speakers-content">
+                                    <h3>{speaker.name}</h3>
+                                    <span>{speaker.title}</span>
+                                    <span>{speaker.company}</span>
+                                    <ul className="social">
+                                        {speaker.socialLinks.map(link => (
+                                            <li key={link.href}>
+                                                <a target="_blank" rel="noopener noreferrer" href={link.href}>
+                                                    <i className={link.icon}></i>
+                                                </a>
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    ))}
+                </Slider>
+                </div>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            </div>
+
+
+
             <div className='container'>
                 <div className="section-title">
                     <span>Listen to the Event Speakers</span>
@@ -102,10 +218,11 @@ const Speakers = () => {
                             </div>
                         ))}
                     </div>
-                    <button onClick={toggleSpeakers} className="btn btn-primary">
-                        {isSpeakers2Shown ? 'Close' : 'Load more'}
-                    </button>
+                    
                 </div>
+                <button onClick={toggleSpeakers} className="btn btn-primary">
+                        {isSpeakers2Shown ? 'Close' : 'Load more'}
+                </button>
             </div>
         </section>
     );

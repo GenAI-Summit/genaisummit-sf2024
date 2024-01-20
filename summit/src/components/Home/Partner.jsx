@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import PlatinumSponsors from '../LaxButton/PlatinumSponsors';
-import GoldSponsors from '../LaxButton/GoldSponsors';
-import DiamondSponsors from '../LaxButton/DiamondSponsors';
-import SilverSponsors from '../LaxButton/SilverSponsors';
+// import PlatinumSponsors from '../LaxButton/PlatinumSponsors';
+// import GoldSponsors from '../LaxButton/GoldSponsors';
+// import DiamondSponsors from '../LaxButton/DiamondSponsors';
+// import SilverSponsors from '../LaxButton/SilverSponsors';
 import BoothSponsors from '../LaxButton/BoothSponsors';
 import LaxDiv from '../Shared/LaxDiv';
 import { booths } from './boothsData';
@@ -16,7 +16,7 @@ const Partner = () => {
             <div className="container">
                 <div className="section-title">
                     <span>Check Who Makes This Event Possible!</span>
-                    <h2>Previous Sponsors</h2>
+                    <h2>Sponsors</h2>
                     {/* <h4>(From "<a href="https://sv2023.genaisummit.xyz/" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }} >GenAI Summit 2023</a>")</h4>
                     
                     <p>and GenAI Cloud Computing Collaborators</p> */}

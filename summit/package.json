@@ -17,8 +17,10 @@
     "react-router-dom": "^6.13.0",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.9",
+    "react-slick": "^0.29.0",
     "react-twitter-embed": "^4.0.4",
     "react-visibility-sensor": "^5.1.1",
+    "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

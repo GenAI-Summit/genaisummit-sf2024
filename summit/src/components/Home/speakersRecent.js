@@ -1,45 +1,14 @@
-export const speakersnew = [
-    // {
-    //     image: require("../../assets/images/speakers/microsoft.png"),
-    //     name: "Microsoft",
-    //     title: "",
-    //     company: "",
-    //     socialLinks: []
-    // },
-    // {
-    //     name: "Rashmi Misra",
-    //     title: "General Manager, Data & AI Business Development",
-    //     company: "Microsoft",
-    //     image: require("../../assets/images/speakers/misra.png"),
-    //     popup: require("../../assets/images/blog1.jpg"),
-    //     socialLinks: [
-    //         { icon: "icofont-twitter", href: "https://twitter.com/rmisra11" },
-    //         { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/rmisra/" },
-            
-    //     ]
-    // },
+export const speakersrecent = [
     
-    //     {
-
-    //     image: require("../../assets/images/speakers/harrison.jpeg"),
-    //     name: "Harrison Chase",
-    //     title: "Co-Founder & CEO",
-    //     company: "LangChain",
-    //     socialLinks: [
-    //         { icon: "icofont-twitter", href: "https://twitter.com/hwchase17" },
-    //         { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/harrison-chase-961287118/" }
-    //     ]
-    // },
     {
-        image: require("../../assets/images/speakers/arvind_jain.jpg"),
-        name: "Arvind Jain",
-        title: "Founder & CEO",
-        company: "Glean",
-        popup: require("../../assets/images/speakers/popup/arvind.png"),
+        name: "Prof. Andreas Ramos",
+        title: "Digital Marketing Expert & Author",
+        company: "Arcticider.AI",
+        image: require("../../assets/images/speakers/andreas.png"),
+        popup: require("../../assets/images/speakers/popup/andreas.png"),
         socialLinks: [
-            { href: "https://twitter.com/jainarvind", icon: "icofont-twitter" },
-            { href: "https://www.linkedin.com/in/arvind-jain-5935161/", icon: "icofont-linkedin" },
-            { href: "https://www.glean.com/", icon: "icofont-web" }
+            { icon: "icofont-twitter", href: "https://www.andreas.com/" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/andreasramos/" }
         ]
     },
 
@@ -55,18 +24,19 @@ export const speakersnew = [
             { href: "https://www.jasonwei.net/", icon: "icofont-web" }
         ]
     },
+ 
 
-    {
-        image: require("../../assets/images/speakers/jason_l.webp"),
-        name: "Jason Lopatecki",
-        title: "Founder & CEO",
-        company: "Arize AI",
-        popup: require("../../assets/images/speakers/popup/jason.png"),
-        socialLinks: [
-            { icon: "icofont-twitter", href: "https://twitter.com/jason_lopatecki" },
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/jason-lopatecki-9509941/" }
-        ]
-    },
+    // {
+    //     image: require("../../assets/images/speakers/jason_l.webp"),
+    //     name: "Jason Lopatecki",
+    //     title: "Founder & CEO",
+    //     company: "Arize AI",
+    //     popup: require("../../assets/images/speakers/popup/jason.png"),
+    //     socialLinks: [
+    //         { icon: "icofont-twitter", href: "https://twitter.com/jason_lopatecki" },
+    //         { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/jason-lopatecki-9509941/" }
+    //     ]
+    // },
     // {
     //     name: "Worldcoin",
     //     title: "",
@@ -88,6 +58,16 @@ export const speakersnew = [
             { icon: "icofont-web", href: "https://jimfan.me/" },
             { icon: "icofont-twitter", href: "https://twitter.com/DrJimFan" },
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/drjimfan/" }
+        ]
+    },
+    {
+        name: "Dr. Simon Suo",
+        title: "Co-Founder & CTO",
+        company: "LlamaIndex",
+        image: require("../../assets/images/speakers/simon.png"),
+        popup: require("../../assets/images/speakers/popup/simon.png"),
+        socialLinks: [
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/sdsuo/" }
         ]
     },
     // {
@@ -224,31 +204,31 @@ export const speakersnew = [
     //     ]
     // },
 
-    {
-        name: "Dr. Xinyun Chen",
-        title: "Senior Scientist",
-        company: "Google Deepmind",
-        image: require("../../assets/images/speakers/xinyun.jpeg"),
-        popup: require("../../assets/images/speakers/popup/xinyun.png"),
-        socialLinks: [
-            { icon: "icofont-web", href: "https://jungyhuk.github.io/" },
-            { icon: "icofont-twitter", href: "https://twitter.com/xinyun_chen_" },
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/xinyun-chen-b4ab79172/" }
-        ]
-    },
+    // {
+    //     name: "Dr. Xinyun Chen",
+    //     title: "Senior Scientist",
+    //     company: "Google Deepmind",
+    //     image: require("../../assets/images/speakers/xinyun.jpeg"),
+    //     popup: require("../../assets/images/speakers/popup/xinyun.png"),
+    //     socialLinks: [
+    //         { icon: "icofont-web", href: "https://jungyhuk.github.io/" },
+    //         { icon: "icofont-twitter", href: "https://twitter.com/xinyun_chen_" },
+    //         { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/xinyun-chen-b4ab79172/" }
+    //     ]
+    // },
   
-    {
-        name: "Dr. Yichong Xu",
-        title: "AI Researcher",
-        company: "Character.AI",
-        image: require("../../assets/images/speakers/yichong.jpg"),
-        popup: require("../../assets/images/speakers/popup/yichong.png"),
-        socialLinks: [
-            { icon: "icofont-web", href: "https://xycking.wixsite.com/yichongxu" },
-            { icon: "icofont-twitter", href: "https://twitter.com/xycking" },
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/yichong-xu-46618383/" }
-        ]
-    },
+    // {
+    //     name: "Dr. Yichong Xu",
+    //     title: "AI Researcher",
+    //     company: "Character.AI",
+    //     image: require("../../assets/images/speakers/yichong.jpg"),
+    //     popup: require("../../assets/images/speakers/popup/yichong.png"),
+    //     socialLinks: [
+    //         { icon: "icofont-web", href: "https://xycking.wixsite.com/yichongxu" },
+    //         { icon: "icofont-twitter", href: "https://twitter.com/xycking" },
+    //         { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/yichong-xu-46618383/" }
+    //     ]
+    // },
     
     // {
     //     name: "Yun Jin",
@@ -262,19 +242,7 @@ export const speakersnew = [
     //     ]
     // },
 
-    {
-        name: "Dr. Simon Suo",
-        title: "Co-Founder & CTO",
-        company: "LlamaIndex",
-        image: require("../../assets/images/speakers/simon.png"),
-        popup: require("../../assets/images/speakers/popup/simon.png"),
-        socialLinks: [
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/sdsuo/" }
-        ]
-    },
-   
     
-
     // {
     //     name: "Hanyu Xue",
     //     title: "Principle Machine Leanring Engineering Manager",
@@ -332,30 +300,18 @@ export const speakersnew = [
     //         { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/shaunwei/" }
     //     ]
     // },
-     {
-        name: "Prof. Andreas Ramos",
-        title: "Digital Marketing Expert & Author",
-        company: "Arcticider.AI",
-        image: require("../../assets/images/speakers/andreas.png"),
-        popup: require("../../assets/images/speakers/popup/andreas.png"),
-        socialLinks: [
-            { icon: "icofont-twitter", href: "https://www.andreas.com/" },
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/andreasramos/" }
-        ]
-    },
-    
-    {
-        name: "Murray Newlands",
-        title: "Investor",
-        company: "Open Future Technology",
-        image: require("../../assets/images/speakers/newlands.png"),
-        popup: require("../../assets/images/speakers/popup/murray.png"),
-        socialLinks: [
-            { icon: "icofont-web", href: "https://www.murraynewlands.com/" },
-            { icon: "icofont-twitter", href: "https://twitter.com/MurrayNewlands" },
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/murraynewlands/" }
-        ]
-    },
+    // {
+    //     name: "Murray Newlands",
+    //     title: "Investor",
+    //     company: "Open Future Technology",
+    //     image: require("../../assets/images/speakers/newlands.png"),
+    //     popup: require("../../assets/images/speakers/popup/murray.png"),
+    //     socialLinks: [
+    //         { icon: "icofont-web", href: "https://www.murraynewlands.com/" },
+    //         { icon: "icofont-twitter", href: "https://twitter.com/MurrayNewlands" },
+    //         { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/murraynewlands/" }
+    //     ]
+    // },
     // {
     //     name: "Karina Nguyen",
     //     title: "AI Researcher",
@@ -366,30 +322,30 @@ export const speakersnew = [
     //         { icon: "icofont-twitter", href: "https://twitter.com/karinanguyen_" }
     //     ]
     // },
-    {
-        name: "Dr. Chunting Zhou",
-        title: "Senior Research Scientist",
-        company: "Meta AI",
-        image: require("../../assets/images/speakers/chuntingzhou.jpeg"),
-        popup: require("../../assets/images/speakers/popup/chunting.png"),
-        socialLinks: [
-            { icon: "icofont-web", href: "https://violet-zct.github.io" },
-            { icon: "icofont-twitter", href: "https://twitter.com/violet_zct" },
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/chunting-zhou-14525985" }
-        ]
-    },
+    // {
+    //     name: "Dr. Chunting Zhou",
+    //     title: "Senior Research Scientist",
+    //     company: "Meta AI",
+    //     image: require("../../assets/images/speakers/chuntingzhou.jpeg"),
+    //     popup: require("../../assets/images/speakers/popup/chunting.png"),
+    //     socialLinks: [
+    //         { icon: "icofont-web", href: "https://violet-zct.github.io" },
+    //         { icon: "icofont-twitter", href: "https://twitter.com/violet_zct" },
+    //         { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/chunting-zhou-14525985" }
+    //     ]
+    // },
     
-    {
-        name: "Yan Zhao",
-        title: "Mayor",
-        company: "City of Saratoga",
-        image: require("../../assets/images/speakers/zhaoyan.jpg"),
-        popup: require("../../assets/images/speakers/popup/zhaoyan.png"),
-        socialLinks: [
-            { icon: "icofont-web", href: "https://www.saratoga.ca.us/443/Yan-Zhao" },
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/yan-zhao-92a3328/" },
-        ]
-    },
+    // {
+    //     name: "Yan Zhao",
+    //     title: "Mayor",
+    //     company: "City of Saratoga",
+    //     image: require("../../assets/images/speakers/zhaoyan.jpg"),
+    //     popup: require("../../assets/images/speakers/popup/zhaoyan.png"),
+    //     socialLinks: [
+    //         { icon: "icofont-web", href: "https://www.saratoga.ca.us/443/Yan-Zhao" },
+    //         { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/yan-zhao-92a3328/" },
+    //     ]
+    // },
     
     // {
     //     name: "Tiger Feng",

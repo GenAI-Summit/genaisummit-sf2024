@@ -42,7 +42,7 @@
   bottom: -1950px; /* Adjust as necessary */
   transform: translateY(100%);
   z-index: 25;
-  
+  display:none !important;
 }
 
 
@@ -55,7 +55,7 @@
   padding: 10px 15px; /* Padding inside the buttons */
   border: none;
   border-radius: 4px; /* Rounded corners */
-  font-size: 15px; /* Font size for arrows */
+  font-size: 25px; /* Font size for arrows */
 }
 
 /* Position the Previous button to the left of the Next button */
@@ -69,23 +69,20 @@
 }
 
 /* Style the pagination dots */
-.slick-dots li button:before {
-  font-size: 12px; /* Font size for dots */
-  color: #ff0000; /* Color for dots, change as needed */
-}
+
 
 .slick-dots {
-  position: absolute;
-  bottom: 0px; /* Position dots below the slider */
+  display:none !important;
+  bottom: -500px; /* Position dots below the slider */
 }
 
 .slick-dots li {
-  margin: 0; /* Margin between dots */
+  margin: 50; /* Margin between dots */
 }
 
 .slick-dots li button {
   border: none;
-  background: transparent;
+  
 }
 
 .slick-dots li.slick-active button:before {

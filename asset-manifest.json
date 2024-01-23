@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.39ceda97.css",
-    "main.js": "/static/js/main.c9912ad2.js",
+    "main.css": "/static/css/main.750bd861.css",
+    "main.js": "/static/js/main.46477c19.js",
     "static/js/787.16e64372.chunk.js": "/static/js/787.16e64372.chunk.js",
     "static/media/jan15.mp4": "/static/media/jan15.15d4e8e2049c127e9fa4.mp4",
     "static/media/main-bg1.jpg": "/static/media/main-bg1.feafeadc13b9c985725e.jpg",
@@ -83,9 +83,9 @@
     "static/media/jason_l.webp": "/static/media/jason_l.b50f7c5e5525c81d4b3f.webp",
     "static/media/Rohit.jpg": "/static/media/Rohit.c11096ea8e42722c6263.jpg",
     "static/media/yunjin.jpg": "/static/media/yunjin.190e1848690271cf1805.jpg",
-    "static/media/aws2.png": "/static/media/aws2.e0f3dfe820a87b410856.png",
     "static/media/blog2.jpg": "/static/media/blog2.60e150c543ffcc93d334.jpg",
     "static/media/microsoft.png": "/static/media/microsoft.21e3a52cfa973d382495.png",
+    "static/media/aws2.png": "/static/media/aws2.6555a7f89a334adc831c.png",
     "static/media/tencent.png": "/static/media/tencent.ad82fec661abff58eb76.png",
     "static/media/blog3.jpg": "/static/media/blog3.c6b9942ebc3299fdf7ed.jpg",
     "static/media/agent2.png": "/static/media/agent2.102e719e465d7092d439.png",
@@ -131,12 +131,12 @@
     "static/media/rns.svg": "/static/media/rns.c2cde673a75709e63e7ee02e706d4aa8.svg",
     "static/media/arize.svg": "/static/media/arize.8ca474c99641714a03ec221151132c1d.svg",
     "index.html": "/index.html",
-    "main.39ceda97.css.map": "/static/css/main.39ceda97.css.map",
-    "main.c9912ad2.js.map": "/static/js/main.c9912ad2.js.map",
+    "main.750bd861.css.map": "/static/css/main.750bd861.css.map",
+    "main.46477c19.js.map": "/static/js/main.46477c19.js.map",
     "787.16e64372.chunk.js.map": "/static/js/787.16e64372.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.39ceda97.css",
-    "static/js/main.c9912ad2.js"
+    "static/css/main.750bd861.css",
+    "static/js/main.46477c19.js"
   ]
 }

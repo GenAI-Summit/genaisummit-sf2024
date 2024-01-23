@@ -1,5 +1,64 @@
 export const speakersrecent = [
-    
+    {
+        name: "Bob van Luijt",
+        title: "CEO & Co-Founder",
+        company: "Weaviate",
+        image: require("../../assets/images/speakers/bob.jpg"),
+        popup: require("../../assets/images/speakers/popup/bob.png"),
+        socialLinks: [
+            { icon: "icofont-web", href: "https://en.wikipedia.org/wiki/Bob_van_Luijt" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/bobvanluijt/?originalSubdomain=nl" },
+            { icon: "icofont-twitter", href: "https://twitter.com/bobvanluijt" }
+        ]
+    },
+    {
+        name: "Devendra Chaplot",
+        title: "AI Research Scientist",
+        company: "Mistral AI",
+        image: require("../../assets/images/speakers/devendra.jpg"),
+        popup: require("../../assets/images/speakers/popup/devendra.png"),
+        socialLinks: [
+            { icon: "icofont-web", href: "https://devendrachaplot.github.io/" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/devendra-chaplot-b1605534/" },
+            { icon: "icofont-twitter", href: "https://twitter.com/dchaplot" }
+        ]
+    },
+    {
+        name: "Tony Zhao",
+        title: "Author",
+        company: "Aloha",
+        image: require("../../assets/images/speakers/tony.jpg"),
+        popup: require("../../assets/images/speakers/popup/tony.png"),
+        socialLinks: [
+            { icon: "icofont-web", href: "https://tonyzhaozh.github.io/" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/tony-z-zhao/" },
+            { icon: "icofont-twitter", href: "https://twitter.com/tonyzzhao" }
+        ]
+    },
+    {
+        name: "Zipeng Fu",
+        title: "Author",
+        company: "Aloha",
+        image: require("../../assets/images/speakers/zipeng.jpg"),
+        popup: require("../../assets/images/speakers/popup/zipeng.png"),
+        socialLinks: [
+            { icon: "icofont-web", href: "https://zipengfu.github.io/" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/zipengfu/" },
+            { icon: "icofont-twitter", href: "https://twitter.com/zipengfu?lang=en" }
+        ]
+    },
+    {
+        name: "Greg Tanaka",
+        image: require("../../assets/images/speakers/greg.jpg"),
+        title: "Council Member",
+        company: "City of Palo Alto",
+        popup: require("../../assets/images/speakers/popup/greg.png"),
+        socialLinks: [
+            { href: "https://twitter.com/gregtanaka?lang=en", icon: "icofont-twitter" },
+            { href: "https://www.linkedin.com/in/gltanaka/", icon: "icofont-linkedin" },
+            { href: "https://www.gregtanaka.org/meet-greg", icon: "icofont-web" }
+        ]
+    },
     {
         name: "Shishir Patil",
         title: "Creator",

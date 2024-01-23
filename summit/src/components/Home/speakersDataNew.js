@@ -42,17 +42,16 @@ export const speakersnew = [
             { href: "https://www.glean.com/", icon: "icofont-web" }
         ]
     },
-
     {
-        image: require("../../assets/images/speakers/jason_wei.jpeg"),
-        name: "Jason Wei",
-        title: "AI Researcher",
-        company: "OpenAI",
-        popup: require("../../assets/images/speakers/popup/jasonwei.png"),
+        name: "Dr. Jim Fan",
+        title: "Senior Research Scientist",
+        company: "NVIDIA AI",
+        image: require("../../assets/images/speakers/jim_fan.jpeg"),
+        popup: require("../../assets/images/speakers/popup/jimfan.png"),
         socialLinks: [
-            { href: "https://twitter.com/_jasonwei", icon: "icofont-twitter" },
-            { href: "https://www.linkedin.com/in/jason-wei-5a7323b0/", icon: "icofont-linkedin" },
-            { href: "https://www.jasonwei.net/", icon: "icofont-web" }
+            { icon: "icofont-web", href: "https://jimfan.me/" },
+            { icon: "icofont-twitter", href: "https://twitter.com/DrJimFan" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/drjimfan/" }
         ]
     },
 
@@ -67,6 +66,18 @@ export const speakersnew = [
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/jason-lopatecki-9509941/" }
         ]
     },
+    {
+        image: require("../../assets/images/speakers/jason_wei.jpeg"),
+        name: "Jason Wei",
+        title: "AI Researcher",
+        company: "OpenAI",
+        popup: require("../../assets/images/speakers/popup/jasonwei.png"),
+        socialLinks: [
+            { href: "https://twitter.com/_jasonwei", icon: "icofont-twitter" },
+            { href: "https://www.linkedin.com/in/jason-wei-5a7323b0/", icon: "icofont-linkedin" },
+            { href: "https://www.jasonwei.net/", icon: "icofont-web" }
+        ]
+    },
     // {
     //     name: "Worldcoin",
     //     title: "",
@@ -78,18 +89,7 @@ export const speakersnew = [
     //         { icon: "icofont-linkedin", href: "https://www.linkedin.com/company/worldcoinfoundation/" }
     //     ]
     // },
-    {
-        name: "Dr. Jim Fan",
-        title: "Senior Research Scientist",
-        company: "NVIDIA AI",
-        image: require("../../assets/images/speakers/jim_fan.jpeg"),
-        popup: require("../../assets/images/speakers/popup/jimfan.png"),
-        socialLinks: [
-            { icon: "icofont-web", href: "https://jimfan.me/" },
-            { icon: "icofont-twitter", href: "https://twitter.com/DrJimFan" },
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/drjimfan/" }
-        ]
-    },
+    
     // {
     //     name: "Aravind Srinivas",
     //     title: "Co-founder & CEO",
@@ -111,16 +111,18 @@ export const speakersnew = [
     //     ]
     // },
     {
-        name: "Rajat Suri",
-        title: "Co-founder @Lima Founder @Presto",
-        company: "Co-founder @Lyft",
-        image: require("../../assets/images/speakers/rajat.jpg"),
-        popup: require("../../assets/images/speakers/popup/rajat.png"),
+        name: "Bob van Luijt",
+        title: "CEO & Co-Founder",
+        company: "Weaviate",
+        image: require("../../assets/images/speakers/bob.jpg"),
+        popup: require("../../assets/images/speakers/popup/bob.png"),
         socialLinks: [
-            { icon: "icofont-twitter", href: "https://twitter.com/rajatsuri" },
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/rajatsuri/" }
+            { icon: "icofont-web", href: "https://en.wikipedia.org/wiki/Bob_van_Luijt" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/bobvanluijt/?originalSubdomain=nl" },
+            { icon: "icofont-twitter", href: "https://twitter.com/bobvanluijt" }
         ]
     },
+    
     {
         image: require("../../assets/images/speakers/yangqingjia.jpeg"),
         name: "Dr. Yangqing Jia",
@@ -153,7 +155,18 @@ export const speakersnew = [
     //         { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/kiankatan/" }
     //     ]
     // },
-    
+    {
+        name: "Devendra Chaplot",
+        title: "AI Research Scientist",
+        company: "Mistral AI",
+        image: require("../../assets/images/speakers/devendra.jpg"),
+        popup: require("../../assets/images/speakers/popup/devendra.png"),
+        socialLinks: [
+            { icon: "icofont-web", href: "https://devendrachaplot.github.io/" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/devendra-chaplot-b1605534/" },
+            { icon: "icofont-twitter", href: "https://twitter.com/dchaplot" }
+        ]
+    },
     {
         name: "Jerry Liu",
         title: "Co-founder & CEO",
@@ -322,7 +335,20 @@ export const speakersnew = [
             { icon: "icofont-twitter", href: "https://twitter.com/shishirpatil_" }
         ]
     },
-   
+    {
+        name: "Rajat Suri",
+        title: "Co-founder @Lima Founder @Presto",
+        company: "Co-founder @Lyft",
+        image: require("../../assets/images/speakers/rajat.jpg"),
+        popup: require("../../assets/images/speakers/popup/rajat.png"),
+        socialLinks: [
+            { icon: "icofont-twitter", href: "https://twitter.com/rajatsuri" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/rajatsuri/" }
+        ]
+    },
+    
+
+
     // {
     //     name: "Shaun Wei",
     //     title: "Founder & CEO",
@@ -379,7 +405,30 @@ export const speakersnew = [
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/chunting-zhou-14525985" }
         ]
     },
-    
+    {
+        name: "Tony Zhao",
+        title: "Author",
+        company: "Aloha",
+        image: require("../../assets/images/speakers/tony.jpg"),
+        popup: require("../../assets/images/speakers/popup/tony.png"),
+        socialLinks: [
+            { icon: "icofont-web", href: "https://tonyzhaozh.github.io/" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/tony-z-zhao/" },
+            { icon: "icofont-twitter", href: "https://twitter.com/tonyzzhao" }
+        ]
+    },
+    {
+        name: "Zipeng Fu",
+        title: "Author",
+        company: "Aloha",
+        image: require("../../assets/images/speakers/zipeng.jpg"),
+        popup: require("../../assets/images/speakers/popup/zipeng.png"),
+        socialLinks: [
+            { icon: "icofont-web", href: "https://zipengfu.github.io/" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/zipengfu/" },
+            { icon: "icofont-twitter", href: "https://twitter.com/zipengfu?lang=en" }
+        ]
+    },
     {
         name: "Yan Zhao",
         title: "Mayor",
@@ -389,6 +438,18 @@ export const speakersnew = [
         socialLinks: [
             { icon: "icofont-web", href: "https://www.saratoga.ca.us/443/Yan-Zhao" },
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/yan-zhao-92a3328/" },
+        ]
+    },
+    {
+        name: "Greg Tanaka",
+        image: require("../../assets/images/speakers/greg.jpg"),
+        title: "Council Member",
+        company: "City of Palo Alto",
+        popup: require("../../assets/images/speakers/popup/greg.png"),
+        socialLinks: [
+            { href: "https://twitter.com/gregtanaka?lang=en", icon: "icofont-twitter" },
+            { href: "https://www.linkedin.com/in/gltanaka/", icon: "icofont-linkedin" },
+            { href: "https://www.gregtanaka.org/meet-greg", icon: "icofont-web" }
         ]
     },
     

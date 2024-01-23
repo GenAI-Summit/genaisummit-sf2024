@@ -32,7 +32,7 @@ const Partner = () => {
                         </div> */}
                         <div className="sponsor-logo">
                             <br></br>
-                        {/* <img src={require("../../assets/images/sponsors/microsoft.png")} alt="Partner Logo" /> */}
+                        <img src={require("../../assets/images/sponsors/googlecloud.png")} alt="Partner Logo" />
                         </div>
                     </div>
 

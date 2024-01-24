@@ -55,17 +55,7 @@ export const speakersnew = [
         ]
     },
 
-    {
-        image: require("../../assets/images/speakers/jason_l.webp"),
-        name: "Jason Lopatecki",
-        title: "Founder & CEO",
-        company: "Arize AI",
-        popup: require("../../assets/images/speakers/popup/jason.png"),
-        socialLinks: [
-            { icon: "icofont-twitter", href: "https://twitter.com/jason_lopatecki" },
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/jason-lopatecki-9509941/" }
-        ]
-    },
+    
     {
         image: require("../../assets/images/speakers/jason_wei.jpeg"),
         name: "Jason Wei",
@@ -122,19 +112,20 @@ export const speakersnew = [
             { icon: "icofont-twitter", href: "https://twitter.com/bobvanluijt" }
         ]
     },
-    
     {
-        image: require("../../assets/images/speakers/yangqingjia.jpeg"),
-        name: "Dr. Yangqing Jia",
-        title: "Founder",
-        company: "Lepton AI",
-        popup: require("../../assets/images/speakers/popup/yangqing.png"),
+        name: "Deon Nicholas",
+        title: "Co-Founder & CEO",
+        company: "Forethought",
+        image: require("../../assets/images/speakers/deon.jpg"),
+        popup: require("../../assets/images/speakers/popup/deon.png"),
         socialLinks: [
-            { href: "https://twitter.com/jiayq", icon: "icofont-twitter" },
-            { href: "https://www.linkedin.com/in/yangqing-jia/", icon: "icofont-linkedin" },
-            { href: "https://daggerfs.com/", icon: "icofont-web" }
+            
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/deon-nicholas/" },
+            { icon: "icofont-twitter", href: "https://twitter.com/dojideon?lang=en" }
         ]
     },
+    
+    
     // {
     //     name: "Jonathan Heyne",
     //     title: "Chief Operations Officer",
@@ -165,6 +156,17 @@ export const speakersnew = [
             { icon: "icofont-web", href: "https://devendrachaplot.github.io/" },
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/devendra-chaplot-b1605534/" },
             { icon: "icofont-twitter", href: "https://twitter.com/dchaplot" }
+        ]
+    },
+    {
+        image: require("../../assets/images/speakers/jason_l.webp"),
+        name: "Jason Lopatecki",
+        title: "Founder & CEO",
+        company: "Arize AI",
+        popup: require("../../assets/images/speakers/popup/jason.png"),
+        socialLinks: [
+            { icon: "icofont-twitter", href: "https://twitter.com/jason_lopatecki" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/jason-lopatecki-9509941/" }
         ]
     },
     {
@@ -200,6 +202,18 @@ export const speakersnew = [
         socialLinks: [
             { icon: "icofont-web", href: "https://www.ameerhajali.com/" },
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/ameer-haj-ali/" }
+        ]
+    },
+    {
+        image: require("../../assets/images/speakers/yangqingjia.jpeg"),
+        name: "Dr. Yangqing Jia",
+        title: "Founder",
+        company: "Lepton AI",
+        popup: require("../../assets/images/speakers/popup/yangqing.png"),
+        socialLinks: [
+            { href: "https://twitter.com/jiayq", icon: "icofont-twitter" },
+            { href: "https://www.linkedin.com/in/yangqing-jia/", icon: "icofont-linkedin" },
+            { href: "https://daggerfs.com/", icon: "icofont-web" }
         ]
     },
     {
@@ -407,8 +421,8 @@ export const speakersnew = [
     },
     {
         name: "Tony Zhao",
-        title: "Author",
-        company: "Aloha",
+        title: "Author Mobile ALOHA",
+        company: "Stanford University",
         image: require("../../assets/images/speakers/tony.jpg"),
         popup: require("../../assets/images/speakers/popup/tony.png"),
         socialLinks: [
@@ -419,8 +433,8 @@ export const speakersnew = [
     },
     {
         name: "Zipeng Fu",
-        title: "Author",
-        company: "Aloha",
+        title: "Author Mobile ALOHA",
+        company: "Stanford University",
         image: require("../../assets/images/speakers/zipeng.jpg"),
         popup: require("../../assets/images/speakers/popup/zipeng.png"),
         socialLinks: [

@@ -1,4 +1,17 @@
 export const speakersrecent = [
+
+    {
+        name: "Deon Nicholas",
+        title: "Co-Founder & CEO",
+        company: "Forethought",
+        image: require("../../assets/images/speakers/deon.jpg"),
+        popup: require("../../assets/images/speakers/popup/deon.png"),
+        socialLinks: [
+            
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/deon-nicholas/" },
+            { icon: "icofont-twitter", href: "https://twitter.com/dojideon?lang=en" }
+        ]
+    },
     {
         name: "Bob van Luijt",
         title: "CEO & Co-Founder",
@@ -25,8 +38,8 @@ export const speakersrecent = [
     },
     {
         name: "Tony Zhao",
-        title: "Author",
-        company: "Aloha",
+        title: "Author Mobile ALOHA",
+        company: "Stanford University",
         image: require("../../assets/images/speakers/tony.jpg"),
         popup: require("../../assets/images/speakers/popup/tony.png"),
         socialLinks: [
@@ -37,8 +50,8 @@ export const speakersrecent = [
     },
     {
         name: "Zipeng Fu",
-        title: "Author",
-        company: "Aloha",
+        title: "Author Mobile ALOHA",
+        company: "Stanford University",
         image: require("../../assets/images/speakers/zipeng.jpg"),
         popup: require("../../assets/images/speakers/popup/zipeng.png"),
         socialLinks: [

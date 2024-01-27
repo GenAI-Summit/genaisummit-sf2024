@@ -1,4 +1,50 @@
 export const speakersrecent = [
+    {
+        name: "Sam Liang",
+        title: "CEO & Founder",
+        company: "OTTER AI",
+        image: require("../../assets/images/speakers/samliang.jpg"),
+        popup: require("../../assets/images/speakers/popup/samliang.png"),
+        socialLinks: [
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/samliang/" },
+            { icon: "icofont-twitter", href: "https://twitter.com/goopt?lang=en" }
+        ]
+    },
+    {
+        name: "Craig Walker",
+        title: "CEO & Founder",
+        company: "Dialpad",
+        image: require("../../assets/images/speakers/craig.jpg"),
+        popup: require("../../assets/images/speakers/popup/craig.png"),
+        socialLinks: [
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/cwalker123/" },
+            { icon: "icofont-twitter", href: "https://twitter.com/cwalker123?lang=en" }
+        ]
+    },
+    {
+        name: "Yaron Singer",
+        title: "CEO & Founder",
+        company: "Robust Intelligence",
+        image: require("../../assets/images/speakers/yaron.jpg"),
+        popup: require("../../assets/images/speakers/popup/yaron.png"),
+        socialLinks: [
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/yaron-singer-76ab6317/" },
+            { icon: "icofont-twitter", href: "https://twitter.com/yaronsinger?lang=en" },
+            
+        ]
+    },
+    {
+        name: "Yohei Nakajima",
+        title: "Founder",
+        company: "BabyAGI",
+        image: require("../../assets/images/speakers/yohei.png"),
+        popup: require("../../assets/images/speakers/popup/yohei.png"),
+        socialLinks: [
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/yoheinakajima/" },
+            { icon: "icofont-twitter", href: "https://twitter.com/yoheinakajima?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" },
+            { icon: "icofont-web", href: "https://yoheinakajima.com/" }
+        ]
+    },
 
     {
         name: "Deon Nicholas",

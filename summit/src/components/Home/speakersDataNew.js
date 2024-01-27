@@ -158,15 +158,51 @@ export const speakersnew = [
             { icon: "icofont-twitter", href: "https://twitter.com/dchaplot" }
         ]
     },
+    
     {
-        image: require("../../assets/images/speakers/jason_l.webp"),
-        name: "Jason Lopatecki",
-        title: "Founder & CEO",
-        company: "Arize AI",
-        popup: require("../../assets/images/speakers/popup/jason.png"),
+        name: "Sam Liang",
+        title: "CEO & Founder",
+        company: "OTTER AI",
+        image: require("../../assets/images/speakers/samliang.jpg"),
+        popup: require("../../assets/images/speakers/popup/samliang.png"),
         socialLinks: [
-            { icon: "icofont-twitter", href: "https://twitter.com/jason_lopatecki" },
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/jason-lopatecki-9509941/" }
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/samliang/" },
+            { icon: "icofont-twitter", href: "https://twitter.com/goopt?lang=en" }
+        ]
+    },
+    {
+        name: "Craig Walker",
+        title: "CEO & Founder",
+        company: "Dialpad",
+        image: require("../../assets/images/speakers/craig.jpg"),
+        popup: require("../../assets/images/speakers/popup/craig.png"),
+        socialLinks: [
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/cwalker123/" },
+            { icon: "icofont-twitter", href: "https://twitter.com/cwalker123?lang=en" }
+        ]
+    },
+    {
+        name: "Yaron Singer",
+        title: "CEO & Founder",
+        company: "Robust Intelligence",
+        image: require("../../assets/images/speakers/yaron.jpg"),
+        popup: require("../../assets/images/speakers/popup/yaron.png"),
+        socialLinks: [
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/yaron-singer-76ab6317/" },
+            { icon: "icofont-twitter", href: "https://twitter.com/yaronsinger?lang=en" },
+            
+        ]
+    },
+    {
+        name: "Yohei Nakajima",
+        title: "Founder",
+        company: "BabyAGI",
+        image: require("../../assets/images/speakers/yohei.png"),
+        popup: require("../../assets/images/speakers/popup/yohei.png"),
+        socialLinks: [
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/yoheinakajima/" },
+            { icon: "icofont-twitter", href: "https://twitter.com/yoheinakajima?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" },
+            { icon: "icofont-web", href: "https://yoheinakajima.com/" }
         ]
     },
     {
@@ -182,6 +218,17 @@ export const speakersnew = [
         ]
     },
     {
+        image: require("../../assets/images/speakers/jason_l.webp"),
+        name: "Jason Lopatecki",
+        title: "Founder & CEO",
+        company: "Arize AI",
+        popup: require("../../assets/images/speakers/popup/jason.png"),
+        socialLinks: [
+            { icon: "icofont-twitter", href: "https://twitter.com/jason_lopatecki" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/jason-lopatecki-9509941/" }
+        ]
+    },
+    {
         name: "Jeremiah Owyang",
         title: "Venture Capital Investor",
         company: "Blitzscaling Ventures",
@@ -193,6 +240,7 @@ export const speakersnew = [
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/jowyang/" }
         ]
     },
+    
     {
         name: "Dr. Ameer Haj-Ali",
         title: "Head of Cloud Infrastructure & Platform Engineering",

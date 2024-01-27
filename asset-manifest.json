@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.750bd861.css",
-    "main.js": "/static/js/main.6c4cb46b.js",
+    "main.js": "/static/js/main.e4e43f56.js",
     "static/js/787.16e64372.chunk.js": "/static/js/787.16e64372.chunk.js",
     "static/media/jan15.mp4": "/static/media/jan15.15d4e8e2049c127e9fa4.mp4",
     "static/media/main-bg1.jpg": "/static/media/main-bg1.feafeadc13b9c985725e.jpg",
@@ -26,6 +26,7 @@
     "static/media/jimfan.png": "/static/media/jimfan.c24e2aaa48d6da7e20eb.png",
     "static/media/xinyun.png": "/static/media/xinyun.d77368c0b6186530164a.png",
     "static/media/jerry.png": "/static/media/jerry.af4b0eee026d5dcea6fe.png",
+    "static/media/craig.png": "/static/media/craig.9e3e3a4dca1c541ccecb.png",
     "static/media/chunting.png": "/static/media/chunting.8ea6a9a774948a9ac738.png",
     "static/media/deon.png": "/static/media/deon.429649ed2f2b3fb5bdcd.png",
     "static/media/zhaoyan.jpg": "/static/media/zhaoyan.f639aebe33e268839502.jpg",
@@ -36,10 +37,13 @@
     "static/media/shishir.png": "/static/media/shishir.9ba20217d2a99e0afe4e.png",
     "static/media/icofont.woff": "/static/media/icofont.dad3accba068281878f1.woff",
     "static/media/bob.png": "/static/media/bob.1b594d58be8e04367ef4.png",
+    "static/media/yohei.png": "/static/media/yohei.095fcc24b86d5785bfe6.png",
     "static/media/arvind.png": "/static/media/arvind.f14fdea9353a26d5fb23.png",
     "static/media/andreas.png": "/static/media/andreas.2f33eaaba896fc8ce327.png",
     "static/media/ameer.png": "/static/media/ameer.063e0f7465ad5347db76.png",
+    "static/media/samliang.png": "/static/media/samliang.eb74f8442d88b3d64fdc.png",
     "static/media/misra.png": "/static/media/misra.20ca48287f7bdd864af4.png",
+    "static/media/yaron.png": "/static/media/yaron.158c91be4c3ba736d9fb.png",
     "static/media/yichong.jpg": "/static/media/yichong.0cd6369c3e8113c97a02.jpg",
     "static/media/icofont.woff2": "/static/media/icofont.9c33516aab48c61e3081.woff2",
     "static/media/tony.png": "/static/media/tony.18286e6e3cadd5923f20.png",
@@ -85,11 +89,13 @@
     "static/media/jason_l.webp": "/static/media/jason_l.b50f7c5e5525c81d4b3f.webp",
     "static/media/Rohit.jpg": "/static/media/Rohit.c11096ea8e42722c6263.jpg",
     "static/media/yunjin.jpg": "/static/media/yunjin.190e1848690271cf1805.jpg",
+    "static/media/craig.jpg": "/static/media/craig.e81bed9b412d5b5ca9a3.jpg",
     "static/media/blog2.jpg": "/static/media/blog2.60e150c543ffcc93d334.jpg",
     "static/media/microsoft.png": "/static/media/microsoft.21e3a52cfa973d382495.png",
     "static/media/aws2.png": "/static/media/aws2.6555a7f89a334adc831c.png",
     "static/media/tencent.png": "/static/media/tencent.ad82fec661abff58eb76.png",
     "static/media/blog3.jpg": "/static/media/blog3.c6b9942ebc3299fdf7ed.jpg",
+    "static/media/samliang.jpg": "/static/media/samliang.c6226c4674ffbe918507.jpg",
     "static/media/agent2.png": "/static/media/agent2.102e719e465d7092d439.png",
     "static/media/zipeng.jpg": "/static/media/zipeng.d97b99b2140936fbd975.jpg",
     "static/media/anton.jpg": "/static/media/anton.07d8af0adea37845a79e.jpg",
@@ -104,6 +110,7 @@
     "static/media/boxnearby.png": "/static/media/boxnearby.d7b8b61ddfec36ded23d.png",
     "static/media/metablox.png": "/static/media/metablox.758870c99117c00d5377.png",
     "static/media/vicuna.png": "/static/media/vicuna.432b982d7d050f7e51e1.png",
+    "static/media/yaron.jpg": "/static/media/yaron.fe769b0a6f275c56d014.jpg",
     "static/media/harrison.jpeg": "/static/media/harrison.5d7f7e99e0a59f6a0224.jpeg",
     "static/media/xpress1.png": "/static/media/xpress1.712f1aa0ae268af7d622.png",
     "static/media/mountainlion.png": "/static/media/mountainlion.d595bda0ce876154d0c0.png",
@@ -134,11 +141,11 @@
     "static/media/arize.svg": "/static/media/arize.8ca474c99641714a03ec221151132c1d.svg",
     "index.html": "/index.html",
     "main.750bd861.css.map": "/static/css/main.750bd861.css.map",
-    "main.6c4cb46b.js.map": "/static/js/main.6c4cb46b.js.map",
+    "main.e4e43f56.js.map": "/static/js/main.e4e43f56.js.map",
     "787.16e64372.chunk.js.map": "/static/js/787.16e64372.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.750bd861.css",
-    "static/js/main.6c4cb46b.js"
+    "static/js/main.e4e43f56.js"
   ]
 }

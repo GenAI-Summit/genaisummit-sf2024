@@ -24,7 +24,7 @@
 
 .slick-slider-recent-speakers .speakers-image {
   align-self: center;
-  margin-top: -50px; 
+  margin-top: 10px; 
 }
 
 .slick-slider-recent-speakers .speakers-content {
@@ -42,7 +42,7 @@
   
   z-index: 25;
 
-  
+  display: none !important;
 
 }
 

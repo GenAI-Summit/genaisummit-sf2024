@@ -183,12 +183,12 @@ const Speakers = () => {
                     ))}
                 </div>
                 <div className="container">
-                    <div className="section-title">
+                    {/* <div className="section-title">
                         <h3>More to Come...</h3>
                         <span>Update Weekly</span>
-                    </div>
+                    </div> */}
                 </div>
-                <div className="container">
+                {/* <div className="container">
                     <div className="section-title">
                         <h2>Previous Speakers</h2> <h5>--- GenAI SV 2023</h5>
                     </div>
@@ -218,10 +218,10 @@ const Speakers = () => {
                         ))}
                     </div>
                     
-                </div>
-                <button onClick={toggleSpeakers} className="btn btn-primary">
+                </div> */}
+                {/* <button onClick={toggleSpeakers} className="btn btn-primary">
                         {isSpeakers2Shown ? 'Close' : 'Load more'}
-                </button>
+                </button> */}
             </div>
         </section>
     );

@@ -61,7 +61,10 @@ const MainBanner = () => {
                     <div className="d-table-cell">
                         <div className="container">
                             <div className="main-banner-content">
-                                <h1>Generative AI Summit San Francisco 2024</h1>
+                                <h1>#AIAREALL</h1>
+                                <br></br>
+                                <h1>GenAI Summit </h1>
+                                <h1>San Francisco 2024</h1>
 
                                 <div className="about-content">
                             <span>    IGNITING THE AI REVOLUTION IN THE HEART OF SAN FRANCISCO</span>

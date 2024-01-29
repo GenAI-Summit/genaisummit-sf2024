@@ -18,17 +18,22 @@ const About = () => {
                     <div className="col-lg-6">
                         <div className="about-content">
                         <span>A Full Week of Comprehensive Activities</span>
-                            <h2><b>Gen</b>erative  <b>AI</b> Summit <br/>San Francisco 2024</h2>
+                            <h2><b>GenAI</b> Summit <br/>San Francisco 2024</h2>
                             
                             <p>
-                            The Generative AI Summit SF 2024 is the world’s leading premium #GenAI event. It is
-scheduled from May 27th to June 1st, 2024, in San Francisco, California, the AI capital
-of the world. We expect to welcome 50,000+ attendees, 500+ exhibitors, 200+
-speakers, 300+ VCs, 20+ tracks, and more. The event is enriched by our partnership
-with SF Travel, the official travel agency representative of San Francisco.
+                            Dive into the heart of innovation at the GenAI Summit San Francisco 2024, set in the awe-inspiring, historic, Palace of Fine Arts from May 27th to June 1st. This summit is not just an event, it’s an extraordinary convergence of the brightest minds in Generative AI, encapsulating the spirit of the future.
 <br/>
 <br/>
-                            Spanning a full week at the Palace of Fine Arts, the Summit offers a range of activities including hackathons, top company showcases, market and business development sessions, hardware and chip innovations, AI agent showcases, large model competitions, education and research discussions, career opportunities, entertainment, afterparties, and VIP gatherings.  </p>
+<h5>The Summit at a glance</h5>
+
+•	Venue Size: 200,000+ square feet of immersive experiences. <br></br>
+•	Anticipated Audience: 50,000+ attendees from around the globe.<br></br>
+•	Exhibitors: 500+ exhibitors showcasing groundbreaking AI solutions.<br></br>
+•	Speakers: 200+ industry-leading experts sharing invaluable insights.<br></br>
+•	Venture Capitalists: 300+ VCs looking for the next big idea.<br></br>
+•	Media Coverage: 50+ media outlets capturing every exciting moment.<br></br>
+•	Dynamic Tracks: 20+ tracks showcasing exhilarating discoveries and information.
+</p>
 
                             
                             {/* <p>We are at the dawn of a new technological wave, with generative AI revealing a future of infinite possibilities. With over 1500 attendees, 50+ startups, and more than 500 developers, the summit brings together the world's most cutting-edge entrepreneurial teams and investment institutions to jointly explore the future of this field.</p> */}

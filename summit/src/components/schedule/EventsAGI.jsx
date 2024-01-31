@@ -8,7 +8,7 @@ const EventSchedules = () => {
                     <li className="accordion-item">
                         <div className="accordion-title">
                             <div className="schedule-info">
-                                <h3>Key Themes and Topics</h3>
+                                <h3>Key Themes & Topics</h3>
 
                                 {/* <ul>
                                     <li><i className="icofont-wall-clock"></i> 29th May, 2024</li>
@@ -34,7 +34,7 @@ const EventSchedules = () => {
                     <li className="accordion-item">
                         <div className="accordion-title">
                             <div className="schedule-info">
-                                <h3>Speakers and Panelists</h3>
+                                <h3>Speakers & Panelists</h3>
 
                                 {/* <ul>
                                     <li><i className="icofont-wall-clock"></i> 30th May, 2024</li>
@@ -61,7 +61,7 @@ const EventSchedules = () => {
                     <li className="accordion-item">
                         <div className="accordion-title">
                             <div className="schedule-info">
-                                <h3>Sponsors and Partners</h3>
+                                <h3>Sponsors & Partners</h3>
 
                                 {/* <ul>
                                     <li><i className="icofont-wall-clock"></i> 31th May, 2024</li>
@@ -87,7 +87,7 @@ const EventSchedules = () => {
                     <li className="accordion-item">
                         <div className="accordion-title">
                             <div className="schedule-info">
-                                <h3>Exhibitions and Tech Demos</h3>
+                                <h3>Exhibitions & Tech Demos</h3>
 
                                 {/* <ul>
                                     <li><i className="icofont-wall-clock"></i> 31th May, 2024</li>
@@ -113,7 +113,7 @@ const EventSchedules = () => {
                     <li className="accordion-item">
                         <div className="accordion-title">
                             <div className="schedule-info">
-                                <h3>Workshops and Interactive Sessions</h3>
+                                <h3>Workshops & Interactive Sessions</h3>
 
                                 {/* <ul>
                                     <li><i className="icofont-wall-clock"></i> 31th May, 2024</li>
@@ -164,7 +164,7 @@ const EventSchedules = () => {
                     <li className="accordion-item">
                         <div className="accordion-title">
                             <div className="schedule-info">
-                                <h3>Logistics and Amenities</h3>
+                                <h3>Logistics & Amenities</h3>
 
                                 {/* <ul>
                                     <li><i className="icofont-wall-clock"></i> 31th May, 2024</li>
@@ -189,7 +189,7 @@ const EventSchedules = () => {
                     <li className="accordion-item">
                         <div className="accordion-title">
                             <div className="schedule-info">
-                                <h3>Sustainability and Accessibility Measures</h3>
+                                <h3>Sustainability & Accessibility Measures</h3>
 
                                 {/* <ul>
                                     <li><i className="icofont-wall-clock"></i> 31th May, 2024</li>
@@ -214,7 +214,7 @@ const EventSchedules = () => {
                     <li className="accordion-item">
                         <div className="accordion-title">
                             <div className="schedule-info">
-                                <h3>Future of AI and Closing Remarks</h3>
+                                <h3>Future of AI & Closing Remarks</h3>
 
                                 {/* <ul>
                                     <li><i className="icofont-wall-clock"></i> 31th May, 2024</li>

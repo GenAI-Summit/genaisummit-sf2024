@@ -11,11 +11,11 @@ const Footer = () => {
                         <div className="single-footer-widget">
                             <h3>Summit Information</h3>
                             <span>
-                                <i className="icofont-calendar"></i> May 27 - June 1, 2024
+                                <i className="icofont-calendar"></i> May 29 - May 31, 2024
                             </span>
 
                             <p className="location">
-                                <i className="icofont-google-map"></i> 3601 Lyon St, San Francisco, CA 94123
+                                <i className="icofont-google-map"></i> Palace of Fine Arts, San Francisco, CA 94123
                             </p>
                             
 

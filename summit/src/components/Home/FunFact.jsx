@@ -60,7 +60,7 @@ const FunFact = () => {
                                         start={0}
                                         end={
                                             didViewCountUp
-                                                ? 50000
+                                                ? 30000
                                                 : 0
                                         }
                                         duration={3}
@@ -88,7 +88,7 @@ const FunFact = () => {
                                         start={0}
                                         end={
                                             didViewCountUp
-                                                ? 500
+                                                ? 300
                                                 : 0
                                         }
                                         duration={3}

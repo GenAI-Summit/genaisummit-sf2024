@@ -73,7 +73,7 @@ const MainBanner = () => {
                                 <ul>
                                     <li>
                                         <i className="icofont-compass"></i> Palace of Fine Arts, San Francisco, California</li>
-                                    <li><i className="icofont-calendar"></i> May 27 - June 1, 2024</li>
+                                    <li><i className="icofont-calendar"></i> May 29 - May 31, 2024</li>
                                     
                                 </ul>
 

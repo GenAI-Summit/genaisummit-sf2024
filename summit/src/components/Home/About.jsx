@@ -21,16 +21,16 @@ const About = () => {
                             <h2><b>GenAI</b> Summit <br/>San Francisco 2024</h2>
                             
                             <p>
-                            Dive into the heart of innovation at the GenAI Summit San Francisco 2024, set in the awe-inspiring, historic, Palace of Fine Arts from May 27th to June 1st. This summit is not just an event, it’s an extraordinary convergence of the brightest minds in Generative AI, encapsulating the spirit of the future.
+                            Dive into the heart of innovation at the GenAI Summit San Francisco 2024, set in the awe-inspiring, historic, Palace of Fine Arts from May 29th to May 31st. This summit is not just an event, it’s an extraordinary convergence of the brightest minds in Generative AI, encapsulating the spirit of the future.
 <br/>
 <br/>
 <h5>The Summit at a glance</h5>
 
 •	Venue Size: 200,000+ square feet of immersive experiences. <br></br>
-•	Anticipated Audience: 50,000+ attendees from around the globe.<br></br>
-•	Exhibitors: 500+ exhibitors showcasing groundbreaking AI solutions.<br></br>
-•	Speakers: 200+ industry-leading experts sharing invaluable insights.<br></br>
+•	Anticipated Audience: 30,000+ attendees from around the globe.<br></br>
+•	Exhibitors: 300+ exhibitors showcasing groundbreaking AI solutions.<br></br>
 •	Venture Capitalists: 300+ VCs looking for the next big idea.<br></br>
+•	Speakers: 200+ industry-leading experts sharing invaluable insights.<br></br>
 •	Media Coverage: 50+ media outlets capturing every exciting moment.<br></br>
 •	Dynamic Tracks: 20+ tracks showcasing exhilarating discoveries and information.
 </p>

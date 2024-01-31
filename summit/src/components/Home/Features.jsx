@@ -31,7 +31,7 @@ const Features = () => {
                         <a href="https://forms.gle/U7E5czneZmVc4ZGZ6" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Apply</a>
                         </div> */}
                         <div className="about-content">
-                            <span>A MUST-SEE EVENT </span>
+                            <span>Experience the Future at GenAl Summit SF 2024 </span>
                             
                             <h2> <b>Why</b> GenAI Summit San Francisco 2024 Should Not Be Missed</h2>
                             

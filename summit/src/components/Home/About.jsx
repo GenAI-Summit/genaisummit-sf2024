@@ -17,7 +17,7 @@ const About = () => {
                 <div className="row h-100 align-items-center">
                     <div className="col-lg-6">
                         <div className="about-content">
-                        <span>A Full Week of Comprehensive Activities</span>
+                        <span>Three Days of Comprehensive Activities</span>
                             <h2><b>GenAI</b> Summit <br/>San Francisco 2024</h2>
                             
                             <p>

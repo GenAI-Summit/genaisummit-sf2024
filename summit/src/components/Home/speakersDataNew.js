@@ -147,7 +147,7 @@ export const speakersnew = [
     //     ]
     // },
     {
-        name: "Devendra Chaplot",
+        name: "Dr. Devendra Chaplot",
         title: "AI Research Scientist",
         company: "Mistral AI",
         image: require("../../assets/images/speakers/devendra.jpg"),
@@ -160,7 +160,7 @@ export const speakersnew = [
     },
     
     {
-        name: "Sam Liang",
+        name: "Dr. Sam Liang",
         title: "CEO & Founder",
         company: "OTTER AI",
         image: require("../../assets/images/speakers/samliang.jpg"),

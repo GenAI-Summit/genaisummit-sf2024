@@ -30,44 +30,7 @@ export const speakersnew = [
     //         { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/harrison-chase-961287118/" }
     //     ]
     // },
-    {
-        image: require("../../assets/images/speakers/arvind_jain.jpg"),
-        name: "Arvind Jain",
-        title: "Founder & CEO",
-        company: "Glean",
-        popup: require("../../assets/images/speakers/popup/arvind.png"),
-        socialLinks: [
-            { href: "https://twitter.com/jainarvind", icon: "icofont-twitter" },
-            { href: "https://www.linkedin.com/in/arvind-jain-5935161/", icon: "icofont-linkedin" },
-            { href: "https://www.glean.com/", icon: "icofont-web" }
-        ]
-    },
-    {
-        name: "Dr. Jim Fan",
-        title: "Senior Research Scientist",
-        company: "NVIDIA AI",
-        image: require("../../assets/images/speakers/jim_fan.jpeg"),
-        popup: require("../../assets/images/speakers/popup/jimfan.png"),
-        socialLinks: [
-            { icon: "icofont-web", href: "https://jimfan.me/" },
-            { icon: "icofont-twitter", href: "https://twitter.com/DrJimFan" },
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/drjimfan/" }
-        ]
-    },
-
-    
-    {
-        image: require("../../assets/images/speakers/jason_wei.jpeg"),
-        name: "Jason Wei",
-        title: "AI Researcher",
-        company: "OpenAI",
-        popup: require("../../assets/images/speakers/popup/jasonwei.png"),
-        socialLinks: [
-            { href: "https://twitter.com/_jasonwei", icon: "icofont-twitter" },
-            { href: "https://www.linkedin.com/in/jason-wei-5a7323b0/", icon: "icofont-linkedin" },
-            { href: "https://www.jasonwei.net/", icon: "icofont-web" }
-        ]
-    },
+   
     // {
     //     name: "Worldcoin",
     //     title: "",
@@ -205,29 +168,7 @@ export const speakersnew = [
             { icon: "icofont-web", href: "https://yoheinakajima.com/" }
         ]
     },
-    {
-        name: "Jerry Liu",
-        title: "Co-founder & CEO",
-        company: "LlamaIndex",
-        image: require("../../assets/images/speakers/jerryliu.jpeg"),
-        popup: require("../../assets/images/speakers/popup/jerry.png"),
-        socialLinks: [
-            { icon: "icofont-web", href: "https://jerryjliu.github.io/" },
-            { icon: "icofont-twitter", href: "https://twitter.com/jerryjliu0" },
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/jerry-liu-64390071/" }
-        ]
-    },
-    {
-        image: require("../../assets/images/speakers/jason_l.webp"),
-        name: "Jason Lopatecki",
-        title: "Founder & CEO",
-        company: "Arize AI",
-        popup: require("../../assets/images/speakers/popup/jason.png"),
-        socialLinks: [
-            { icon: "icofont-twitter", href: "https://twitter.com/jason_lopatecki" },
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/jason-lopatecki-9509941/" }
-        ]
-    },
+    
     {
         name: "Dr. Ganapathy Krishnan",
         title: "VP & Science Fellow",
@@ -260,6 +201,90 @@ export const speakersnew = [
             { icon: "icofont-web", href: "https://casetext.com/about/" },
             { icon: "icofont-twitter", href: "https://twitter.com/Jacob_Heller" },
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/jakeheller/" }
+        ]
+    },
+    {
+        image: require("../../assets/images/speakers/chenxi.png"),
+        name: "Prof. Xi Chen",
+        title: "Professor & Andre Meyer Faculty",
+        company: "NYU Stern School of Business",
+        popup: require("../../assets/images/speakers/popup/chenxi.png"),
+        socialLinks: [
+            { href: "https://twitter.com/xcyale?lang=en", icon: "icofont-twitter" },
+            { href: "https://www.linkedin.com/in/xi-chen-900b2710/", icon: "icofont-linkedin" },
+            { href: "https://www.stern.nyu.edu/faculty/bio/xi-chen", icon: "icofont-web" }
+        ]
+    },
+    {
+        name: "Dr. Simon Suo",
+        title: "Co-Founder & CTO",
+        company: "LlamaIndex",
+        image: require("../../assets/images/speakers/simon.png"),
+        popup: require("../../assets/images/speakers/popup/simon.png"),
+        socialLinks: [
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/sdsuo/" }
+        ]
+    },
+    
+    {
+        image: require("../../assets/images/speakers/arvind_jain.jpg"),
+        name: "Arvind Jain",
+        title: "Founder & CEO",
+        company: "Glean",
+        popup: require("../../assets/images/speakers/popup/arvind.png"),
+        socialLinks: [
+            { href: "https://twitter.com/jainarvind", icon: "icofont-twitter" },
+            { href: "https://www.linkedin.com/in/arvind-jain-5935161/", icon: "icofont-linkedin" },
+            { href: "https://www.glean.com/", icon: "icofont-web" }
+        ]
+    },
+    {
+        name: "Dr. Jim Fan",
+        title: "Senior Research Scientist",
+        company: "NVIDIA AI",
+        image: require("../../assets/images/speakers/jim_fan.jpeg"),
+        popup: require("../../assets/images/speakers/popup/jimfan.png"),
+        socialLinks: [
+            { icon: "icofont-web", href: "https://jimfan.me/" },
+            { icon: "icofont-twitter", href: "https://twitter.com/DrJimFan" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/drjimfan/" }
+        ]
+    },
+
+    
+    {
+        image: require("../../assets/images/speakers/jason_wei.jpeg"),
+        name: "Jason Wei",
+        title: "AI Researcher",
+        company: "OpenAI",
+        popup: require("../../assets/images/speakers/popup/jasonwei.png"),
+        socialLinks: [
+            { href: "https://twitter.com/_jasonwei", icon: "icofont-twitter" },
+            { href: "https://www.linkedin.com/in/jason-wei-5a7323b0/", icon: "icofont-linkedin" },
+            { href: "https://www.jasonwei.net/", icon: "icofont-web" }
+        ]
+    },
+    {
+        name: "Jerry Liu",
+        title: "Co-founder & CEO",
+        company: "LlamaIndex",
+        image: require("../../assets/images/speakers/jerryliu.jpeg"),
+        popup: require("../../assets/images/speakers/popup/jerry.png"),
+        socialLinks: [
+            { icon: "icofont-web", href: "https://jerryjliu.github.io/" },
+            { icon: "icofont-twitter", href: "https://twitter.com/jerryjliu0" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/jerry-liu-64390071/" }
+        ]
+    },
+    {
+        image: require("../../assets/images/speakers/jason_l.webp"),
+        name: "Jason Lopatecki",
+        title: "Founder & CEO",
+        company: "Arize AI",
+        popup: require("../../assets/images/speakers/popup/jason.png"),
+        socialLinks: [
+            { icon: "icofont-twitter", href: "https://twitter.com/jason_lopatecki" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/jason-lopatecki-9509941/" }
         ]
     },
 
@@ -299,18 +324,7 @@ export const speakersnew = [
             { href: "https://daggerfs.com/", icon: "icofont-web" }
         ]
     },
-    {
-        image: require("../../assets/images/speakers/chenxi.png"),
-        name: "Prof. Xi Chen",
-        title: "Professor & Andre Meyer Faculty",
-        company: "NYU Stern School of Business",
-        popup: require("../../assets/images/speakers/popup/chenxi.png"),
-        socialLinks: [
-            { href: "https://twitter.com/xcyale?lang=en", icon: "icofont-twitter" },
-            { href: "https://www.linkedin.com/in/xi-chen-900b2710/", icon: "icofont-linkedin" },
-            { href: "https://www.stern.nyu.edu/faculty/bio/xi-chen", icon: "icofont-web" }
-        ]
-    },
+    
     // {
     //     name: "Amin Ahmad",
     //     title: "Founder & CTO",
@@ -372,16 +386,7 @@ export const speakersnew = [
     //     ]
     // },
 
-    {
-        name: "Dr. Simon Suo",
-        title: "Co-Founder & CTO",
-        company: "LlamaIndex",
-        image: require("../../assets/images/speakers/simon.png"),
-        popup: require("../../assets/images/speakers/popup/simon.png"),
-        socialLinks: [
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/sdsuo/" }
-        ]
-    },
+    
    
     
 

@@ -1,5 +1,39 @@
 export const speakersrecent = [
     {
+        name: "Dr. Ganapathy Krishnan",
+        title: "VP & Science Fellow",
+        company: "ServiceNow",
+        image: require("../../assets/images/speakers/ganapathy.jpg"),
+        popup: require("../../assets/images/speakers/popup/ganapathy.png"),
+        socialLinks: [
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/ganapathykrishnan/" }
+        ]
+    },
+    {
+        name: "Kevin McNamara",
+        title: "CEO and Founder",
+        company: "Parallel Domain",
+        image: require("../../assets/images/speakers/kevin.jpg"),
+        popup: require("../../assets/images/speakers/popup/kevin.png"),
+        socialLinks: [
+            { icon: "icofont-web", href: "https://paralleldomain.com/company" },
+            { icon: "icofont-twitter", href: "https://twitter.com/kev_mcnamara" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/kgmcnamara/" }
+        ]
+    },
+    {
+        name: "Jake Heller",
+        title: "CEO and Founder",
+        company: "Casetext.com",
+        image: require("../../assets/images/speakers/jake.jpg"),
+        popup: require("../../assets/images/speakers/popup/jake.png"),
+        socialLinks: [
+            { icon: "icofont-web", href: "https://casetext.com/about/" },
+            { icon: "icofont-twitter", href: "https://twitter.com/Jacob_Heller" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/jakeheller/" }
+        ]
+    },
+    {
         name: "Dr. Sam Liang",
         title: "CEO & Founder",
         company: "OTTER AI",

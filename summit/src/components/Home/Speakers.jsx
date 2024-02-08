@@ -154,7 +154,7 @@ const Speakers = () => {
             <div className='container'>
                 <div className="section-title">
                     <span>Listen to the Event Speakers</span>
-                    <h2>Speakers</h2>  <h5>--- GenAI SF 2024</h5>
+                    <h2>Speakers</h2>  
                     <a href="https://www.gptdao.ai/get-started" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Be our Speaker</a>
                 </div>
                 <div className='row'>

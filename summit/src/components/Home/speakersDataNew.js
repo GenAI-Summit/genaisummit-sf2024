@@ -68,17 +68,7 @@ export const speakersnew = [
             { href: "https://www.jasonwei.net/", icon: "icofont-web" }
         ]
     },
-    // {
-    //     name: "Worldcoin",
-    //     title: "",
-    //     company: "",
-    //     image: require("../../assets/images/speakers/worldcoin.png"),
-    //     socialLinks: [
-    //         { icon: "icofont-web", href: "https://worldcoin.org/world-id" },
-    //         { icon: "icofont-twitter", href: "https://twitter.com/worldcoin" },
-    //         { icon: "icofont-linkedin", href: "https://www.linkedin.com/company/worldcoinfoundation/" }
-    //     ]
-    // },
+   
     
     // {
     //     name: "Aravind Srinivas",
@@ -217,6 +207,7 @@ export const speakersnew = [
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/jerry-liu-64390071/" }
         ]
     },
+    
     {
         image: require("../../assets/images/speakers/jason_l.webp"),
         name: "Jason Lopatecki",
@@ -226,6 +217,30 @@ export const speakersnew = [
         socialLinks: [
             { icon: "icofont-twitter", href: "https://twitter.com/jason_lopatecki" },
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/jason-lopatecki-9509941/" }
+        ]
+    },
+    {
+        name: "Worldcoin",
+        title: "",
+        company: "",
+        image: require("../../assets/images/speakers/worldcoin.png"),
+        popup: require("../../assets/images/speakers/popup/worldcoin.png"),
+        socialLinks: [
+            { icon: "icofont-web", href: "https://worldcoin.org/world-id" },
+            { icon: "icofont-twitter", href: "https://twitter.com/worldcoin" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/company/worldcoinfoundation/" }
+        ]
+    },
+    {
+        name: "LangChain",
+        title: "",
+        company: "",
+        image: require("../../assets/images/speakers/langchain.png"),
+        popup: require("../../assets/images/speakers/popup/langchain.png"),
+        socialLinks: [
+            { icon: "icofont-web", href: "https://python.langchain.com/docs/integrations/providers/twitter" },
+            { icon: "icofont-twitter", href: "https://twitter.com/LangChainAI" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/company/langchain/" }
         ]
     },
     {
@@ -251,9 +266,9 @@ export const speakersnew = [
         ]
     },
     {
-        name: "Jake Heller",
-        title: "CEO and Founder",
-        company: "Casetext.com",
+        name: "Jake Heller, JD",
+        title: "Co-Founder @Casetext Head of Product of CoCounsel",
+        company: "@Thomson Reuters",
         image: require("../../assets/images/speakers/jake.jpg"),
         popup: require("../../assets/images/speakers/popup/jake.png"),
         socialLinks: [

@@ -22,9 +22,9 @@ export const speakersrecent = [
         ]
     },
     {
-        name: "Jake Heller",
-        title: "CEO and Founder",
-        company: "Casetext.com",
+        name: "Jake Heller, JD",
+        title: "Co-Founder @Casetext Head of Product of CoCounsel",
+        company: "@Thomson Reuters",
         image: require("../../assets/images/speakers/jake.jpg"),
         popup: require("../../assets/images/speakers/popup/jake.png"),
         socialLinks: [

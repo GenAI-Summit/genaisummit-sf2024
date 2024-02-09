@@ -31,6 +31,31 @@ export const speakersnew = [
     //     ]
     // },
     {
+        name: "DR. Yuhuai Wu",
+        title: "Co-founder",
+        company: "X.AI",
+        image: require("../../assets/images/speakers/yuhuai.jpg"),
+        popup: require("../../assets/images/speakers/popup/yuhuai.png"),
+        socialLinks: [
+            { icon: "icofont-web", href: "https://yuhuaiwu.github.io/" },
+            { icon: "icofont-twitter", href: "https://twitter.com/Yuhu_ai_" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/yuhuai-tony-wu-02a641b5/" }
+        ]
+    },
+    
+    {
+        name: "Dr. Denis Yarats",
+        title: "CTO & Co-founder",
+        company: "Perplexity",
+        image: require("../../assets/images/speakers/denis.jpg"),
+        popup: require("../../assets/images/speakers/popup/denis.png"),
+        socialLinks: [
+            { icon: "icofont-web", href: "https://cs.nyu.edu/~dy1042/" },
+            { icon: "icofont-twitter", href: "https://twitter.com/denisyarats" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/denisyarats/" }
+        ]
+    },
+    {
         image: require("../../assets/images/speakers/arvind_jain.jpg"),
         name: "Arvind Jain",
         title: "Founder & CEO",
@@ -70,16 +95,6 @@ export const speakersnew = [
     },
    
     
-    // {
-    //     name: "Aravind Srinivas",
-    //     title: "Co-founder & CEO",
-    //     company: "Perplexity AI",
-    //     image: require("../../assets/images/speakers/arvind.jpeg"),
-    //     socialLinks: [
-    //         { icon: "icofont-twitter", href: "https://twitter.com/AravSrinivas" },
-    //         { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/aravind-srinivas-16051987/" }
-    //     ]
-    // },
     // {
     //     name: "Anton Troynikov",
     //     title: "Founder",

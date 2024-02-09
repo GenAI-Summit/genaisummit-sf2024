@@ -1,5 +1,30 @@
 export const speakersrecent = [
     {
+        name: "DR. Yuhuai Wu",
+        title: "Co-founder",
+        company: "X.AI",
+        image: require("../../assets/images/speakers/yuhuai.jpg"),
+        popup: require("../../assets/images/speakers/popup/yuhuai.png"),
+        socialLinks: [
+            { icon: "icofont-web", href: "https://yuhuaiwu.github.io/" },
+            { icon: "icofont-twitter", href: "https://twitter.com/Yuhu_ai_" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/yuhuai-tony-wu-02a641b5/" }
+        ]
+    },
+    
+    {
+        name: "Dr. Denis Yarats",
+        title: "CTO & Co-founder",
+        company: "Perplexity",
+        image: require("../../assets/images/speakers/denis.jpg"),
+        popup: require("../../assets/images/speakers/popup/denis.png"),
+        socialLinks: [
+            { icon: "icofont-web", href: "https://cs.nyu.edu/~dy1042/" },
+            { icon: "icofont-twitter", href: "https://twitter.com/denisyarats" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/denisyarats/" }
+        ]
+    },
+    {
         name: "Dr. Ganapathy Krishnan",
         title: "VP & Science Fellow",
         company: "ServiceNow",

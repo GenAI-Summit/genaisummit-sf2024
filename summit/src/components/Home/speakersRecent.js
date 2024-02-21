@@ -12,7 +12,7 @@ export const speakersrecent = [
         ]
     },
     {
-        name: "DR. Yuhuai Wu",
+        name: "Dr. Yuhuai Wu",
         title: "Co-founder",
         company: "X.AI",
         image: require("../../assets/images/speakers/yuhuai.jpg"),

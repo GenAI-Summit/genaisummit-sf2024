@@ -1,5 +1,17 @@
 export const speakersrecent = [
     {
+        name: "Clarence Ng",
+        title: "Member of Technical Staff",
+        company: "OpenAI",
+        image: require("../../assets/images/speakers/clarence.png"),
+        popup: require("../../assets/images/speakers/popup/clarence.png"),
+        socialLinks: [
+            
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/clarng/" },
+            
+        ]
+    },
+    {
         name: "DR. Yuhuai Wu",
         title: "Co-founder",
         company: "X.AI",

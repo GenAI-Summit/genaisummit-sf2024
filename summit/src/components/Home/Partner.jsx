@@ -100,13 +100,128 @@ const Partner = () => {
                     <LaxDiv text="Exhibits" dataPreset="DriftRight" />
                         <span>Showcase your product to everyone at the Summit!</span>
                         
-                        <h2>Previous Exhibits</h2>
-                        
+                        <h2> <b>Exhibition</b> Opportunites</h2>
                         
                         <a href="https://www.gptdao.ai/get-started" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Take your place to exhibit</a>
 
                     
                 </div>
+                
+                <div className="container">
+                    <div className="row h-100 align-items-center">
+                    <h4>Located in the exhibition hall, the Booth allows you to conduct
+meetings while ensuring optimal brand exposure. Brand's logo will be
+featured on signage throughout the venue, displayed on website and
+brochures.</h4>
+
+                        <div className="col-lg-6">
+                            <div className="about-content">
+                       
+                            <br/>
+                    
+                        
+                                <h4>Booth Type A </h4><p>10ft x 10 ft (3m x 3m)</p>
+                                <h5>USD 9,999 (Early Bird)</h5>
+                                <p>• 10 x 10 ft Space Turnkey Solution<br></br>
+                                •  1x Round Table<br></br>
+                                • 3x Bar Stool Chairs<br></br>
+                                • 6x Back Walls Available for Posters or Designs<br></br> 
+                                (3.28ft x 7.87ft or 1m x 2.4m)<br></br>
+                                • Customer Curved Counter with Doors for Storage<br></br>
+                                • 3x Event Tickets</p>
+                                
+
+                            </div>
+                                        
+                        </div>
+                            
+                            
+                        <div className="col-lg-6">
+                            <div>
+                               
+                               
+                                
+                                <img
+                                    src={require("../../assets/images/imagewhite.png")}
+                                    className="about-img1" 
+                                    alt="about" 
+                                />
+                            </div>
+                                <div>
+                                <br/>
+                                
+                                <img
+                                    src={require("../../assets/images/booth3x3.png")}
+                                    className="about-img1" 
+                                    alt="about" 
+                                />
+                                <p>(Images are for illustrative purposes only, actual product may vary)</p>
+                            </div>
+                            
+                        </div>
+
+                        
+                        
+                        
+                    </div>
+                </div>   
+
+                <div className="container">
+                    <div className="row h-100 align-items-center">
+                   
+                    <div className="col-lg-6">
+                            <div>
+                               
+                               
+                                
+                                <img
+                                    src={require("../../assets/images/imagewhite.png")}
+                                    className="about-img1" 
+                                    alt="about" 
+                                />
+                            </div>
+                                <div>
+                                <br/>
+                                
+                                <img
+                                    src={require("../../assets/images/booth2x2.png")}
+                                    className="about-img1" 
+                                    alt="about" 
+                                />
+                                <p>(Images are for illustrative purposes only, actual product may vary)</p>
+                            </div>
+                            
+                        </div>
+                        <div className="col-lg-6">
+                            <div className="about-content">
+                       
+                            <br/>
+                    
+                        
+                                <h4>Booth Type B </h4><p>6.5ft x 6.5 ft (2m x 2m)</p>
+                                <h5>USD 6,999 (Early Bird)</h5>
+                                <p>
+                                • 6.5 x 6.5 ft Space Turnkey Solution<br></br>
+                                • 1x Round Table<br></br>
+                                • 3x Bar Stool Chairs<br></br>
+                                • 4x Back Walls Available for Posters or Designs<br></br> 
+                                (3.28ft x 7.87ft or 1m x 2.4m)<br></br>
+                                • Customer Curved Counter with Doors for Storage<br></br>
+                                • 2x Event Tickets</p>
+                                
+
+                            </div>
+                                        
+                        </div>
+                            
+                        
+                    </div>
+                </div>   
+
+                
+
+                        
+           
                 
                 <div className="row">
                     

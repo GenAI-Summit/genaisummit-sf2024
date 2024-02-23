@@ -37,11 +37,11 @@ const Footer = () => {
                             <p>We sincerely invite you to join us, bring your creativity and ideals, and explore the future of generative AI together. Please contact us for more information about the Generative AI Summit San Francisco 2024.</p>
                             
                             <ul className="social-links">
-                                <li>
+                                {/* <li>
                                     <Link to="https://linktr.ee/gptdao" className="twitter" target="_blank">
                                        <SiLinktree />
                                     </Link>
-                                </li>
+                                </li> */}
                                 <li>
                                     <Link to="https://twitter.com/GPTDAOGLOBAL" className="twitter" target="_blank">
                                         <i className="icofont-twitter"></i>

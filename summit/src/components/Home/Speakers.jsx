@@ -109,13 +109,13 @@ const Speakers = () => {
             
             <div className='container'>
               
-                <span className="new-speakers-span">NEW SPEAKERS UPDATE DAILY!</span>
+                {/* <span className="new-speakers-span">NEW SPEAKERS UPDATE DAILY!</span>
               
                 <div className="" style={{ maxWidth: '100%', overflow: 'hidden' }}>
                     <h2>Newly Updated Speakers</h2>  
                     
                 </div>
-                {/* Slick Slider Container */}
+                
                 <div className='row'>
                 <Slider {...sliderSettings}>
                     {speakersrecent.map(speaker => (
@@ -142,10 +142,10 @@ const Speakers = () => {
                         </div>
                     ))}
                 </Slider>
-                </div>
+            </div> */}
+            {/* <br></br>
             <br></br>
-            <br></br>
-            <br></br>
+            <br></br> */}
           
             </div>
 

@@ -109,7 +109,7 @@ const Speakers = () => {
             
             <div className='container'>
               
-                {/* <span className="new-speakers-span">NEW SPEAKERS UPDATE DAILY!</span>
+                <span className="new-speakers-span">NEW SPEAKERS UPDATE DAILY!</span>
               
                 <div className="" style={{ maxWidth: '100%', overflow: 'hidden' }}>
                     <h2>Newly Updated Speakers</h2>  
@@ -142,10 +142,10 @@ const Speakers = () => {
                         </div>
                     ))}
                 </Slider>
-            </div> */}
-            {/* <br></br>
+            </div>
             <br></br>
-            <br></br> */}
+            <br></br>
+            <br></br>
           
             </div>
 

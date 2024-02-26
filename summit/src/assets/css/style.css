@@ -145,7 +145,8 @@ label {
   position: absolute;
   top: 0;
   width: 51%;
-  background: #FF2D55;
+  /* background: #FF2D55; */
+  background: #00a1f1;
   height: 100%;
   z-index: -1;
   -webkit-transition: 0.5s;
@@ -260,7 +261,8 @@ label {
 }
 
 .section-title span {
-  color: #FF2D55;
+  /* color: #FF2D55; */
+  color: #00a1f1;
   letter-spacing: 1px;
   font-size: 16px;
   text-transform: uppercase;
@@ -280,8 +282,8 @@ label {
 }
 
 .section-title h2 b {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, rgba(0, 0, 0, 0)), color-stop(80%, #FF2D55));
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, #FF2D55 80%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, rgba(0, 0, 0, 0)), color-stop(80%, #00a1f1));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, #00a1f1 80%);
   font-weight: unset;
   background-size: 100px 1.07em !important;
 }
@@ -366,8 +368,10 @@ label {
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
-  background: #FF2D55;
-  border-color: #FF2D55;
+  /* background: #FF2D55; */
+  background:#00a1f1;
+  /* border-color: #FF2D55; */
+  border-color:#00a1f1;
 }
 
 /*form-control*/
@@ -502,7 +506,8 @@ Navbar CSS
 }
 
 .elkevent-mobile-nav.mean-container .mean-nav ul li a.active {
-  color: #FF2D55;
+  /* color: #FF2D55; */
+  color: #00a1f1;
 }
 
 .elkevent-nav {
@@ -541,11 +546,11 @@ Navbar CSS
 }
 
 .elkevent-nav nav .navbar-nav .nav-item a:hover, .elkevent-nav nav .navbar-nav .nav-item a:focus, .elkevent-nav nav .navbar-nav .nav-item a.active {
-  color: #FF2D55;
+  color: #00a1f1;
 }
 
 .elkevent-nav nav .navbar-nav .nav-item:hover a {
-  color: #FF2D55;
+  color: #00a1f1;
 }
 
 .elkevent-nav nav .navbar-nav .nav-item .dropdown-menu {
@@ -727,7 +732,7 @@ Main Banner CSS
 
 .main-banner-content h1 span {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, rgba(0, 0, 0, 0)), color-stop(80%, #FF2D55));
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, #FF2D55 80%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, #00a1f1 80%);
   background-size: 100px 1.2em !important;
 }
 
@@ -736,7 +741,7 @@ Main Banner CSS
 }
 
 .main-banner-content h1 b:nth-of-type(2) {
-  color: #FF2D55;
+  color: #00a1f1;
 }
 
 .main-banner-content h1 b:nth-of-type(3) {
@@ -764,7 +769,7 @@ Main Banner CSS
 
 .main-banner-content ul li i {
   margin-right: 3px;
-  color: #FF2D55;
+  color: #00a1f1;
 }
 
 .main-banner-content ul li:last-child {
@@ -1163,7 +1168,8 @@ About CSS
 }
 
 .about-content span {
-  color: #FF2D55;
+  /* color: #FF2D55; */
+  color:#00a1f1;
   letter-spacing: 1px;
   font-size: 16px;
   text-transform: uppercase;
@@ -1177,8 +1183,8 @@ About CSS
 }
 
 .about-content h2 b {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, rgba(0, 0, 0, 0)), color-stop(80%, #FF2D55));
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, #FF2D55 80%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, rgba(0, 0, 0, 0)), color-stop(80%, #00a1f1));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, #00a1f1 80%);
   font-weight: unset;
   background-size: 100px 1.05em !important;
 }
@@ -1406,7 +1412,7 @@ Why Choose Us CSS
 
 .single-box .content .icon {
   font-size: 45px;
-  color: #FF2D55;
+  color: #00a1f1;
 }
 
 .single-box .content h3 {
@@ -1589,7 +1595,7 @@ Speakers CSS
 }
 
 .single-speakers .speakers-content h3 a {
-  color: #FF2D55;
+  color: #00a1f1;
 }
 
 .single-speakers .speakers-content h3 a:hover, .single-speakers .speakers-content h3 a:focus {
@@ -1656,7 +1662,7 @@ Speakers CSS
 }
 
 .single-speakers ul li a:hover, .single-speakers ul li a:focus {
-  background-color: #FF2D55;
+  background-color: #00a1f1;
   color: #ffffff;
 }
 
@@ -1816,18 +1822,7 @@ Speakers CSS
   transition: 0.5s;
 }
 
-.single-speakers-box .speakers-content::before {
-  content: '';
-  width: 0;
-  height: 20px;
-  color: #ffffff;
-  background: #FF2D55;
-  position: absolute;
-  top: -20px;
-  right: 0;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
+
 
 .single-speakers-box .speakers-content h3 {
   font-size: 18px;
@@ -1843,7 +1838,7 @@ Speakers CSS
   text-transform: capitalize;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  color: #FF2D55;
+  color: #00a1f1;
 }
 
 .single-speakers-box .speakers-content .social {
@@ -1909,13 +1904,28 @@ Speakers CSS
 }
 
 .single-speakers-box:hover::before, .single-speakers-box:hover::after {
-  border-color: #FF2D55;
+  border-color: #00a1f1;
   -webkit-transform: scale(1);
           transform: scale(1);
 }
 
+.single-speakers-box .speakers-content::before {
+  /* 上半部分 */
+  content: '';
+  width: 0;
+  height: 30px;
+  color: #ffffff;
+  background: #00a1f1;
+  position: absolute;
+  top: -20px;
+  right: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
 .single-speakers-box:hover .speakers-content {
-  background: #FF2D55;
+  /* 下半部分 */
+  background: #00a1f1;
 }
 
 .single-speakers-box:hover .speakers-content::before {
@@ -2700,19 +2710,19 @@ FunFacts CSS
 }
 
 .col-lg-3:nth-child(1) .single-funfact h3, .col-lg-3:nth-child(1) .funFact h3 {
-  color: #FF2D55;
+  color: #00a1f1;
 }
 
 .col-lg-3:nth-child(2) .single-funfact h3, .col-lg-3:nth-child(2) .funFact h3 {
-  color: #FF2D55;
+  color: #00a1f1;
 }
 
 .col-lg-3:nth-child(3) .single-funfact h3, .col-lg-3:nth-child(3) .funFact h3 {
-  color: #FF2D55;
+  color: #00a1f1;
 }
 
 .col-lg-3:nth-child(4) .single-funfact h3, .col-lg-3:nth-child(4) .funFact h3 {
-  color: #FF2D55;
+  color: #00a1f1;
 }
 
 /*================================================
@@ -4356,9 +4366,9 @@ Contact Us CSS
   height: 50px;
   text-align: center;
   line-height: 47px;
-  border: 1px dashed #FF2D55;
+  border: 1px dashed #00a1f1;
   border-radius: 50%;
-  color: #FF2D55;
+  color: #00a1f1;
   font-size: 20px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -4393,7 +4403,7 @@ Contact Us CSS
 }
 
 .contact-box:hover .icon, .contact-box:focus .icon {
-  background: #FF2D55;
+  background: #00a1f1;
   color: #ffffff;
 }
 
@@ -4452,7 +4462,7 @@ Contact Us CSS
 }
 
 .leave-your-message .stay-connected ul li a:hover, .leave-your-message .stay-connected ul li a:focus {
-  color: #FF2D55;
+  color: #00a1f1;
 }
 
 #contactForm {

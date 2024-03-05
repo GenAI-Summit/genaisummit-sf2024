@@ -1,58 +1,45 @@
 {
-  "name": "summit",
-  "version": "0.1.0",
+  "name": "website",
   "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "lax.js": "^2.0.3",
-    "react": "^18.2.0",
-    "react-copy-to-clipboard": "^5.1.0",
-    "react-countup": "^6.4.2",
-    "react-dom": "^18.2.0",
-    "react-icons": "^4.10.1",
-    "react-modal-video": "^2.0.0",
-    "react-owl-carousel": "^2.3.3",
-    "react-router-dom": "^6.13.0",
-    "react-scripts": "5.0.1",
-    "react-scroll": "^1.8.9",
-    "react-slick": "^0.29.0",
-    "react-twitter-embed": "^4.0.4",
-    "react-visibility-sensor": "^5.1.1",
-    "slick-carousel": "^1.8.1",
-    "web-vitals": "^2.1.4"
-  },
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "preview": "vite preview",
+    "dev": "vite --mode development",
+    "dev:prod": "vite --mode production",
+    "build": "vite build --mode development",
+    "build:prod": "vite build --mode production"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "dependencies": {
+    "aos": "^2.3.4",
+    "axios": "^1.6.7",
+    "crypto-js": "^4.1.1",
+    "install": "^0.13.0",
+    "jquery": "^3.7.1",
+    "lib-flexible": "^0.3.2",
+    "lodash": "^4.17.21",
+    "marked": "^7.0.5",
+    "node-loader": "^2.0.0",
+    "node-sass": "^9.0.0",
+    "normalize.css": "^8.0.1",
+    "px2rem-loader": "^0.1.9",
+    "sass": "^1.63.5",
+    "slick-carousel": "^1.8.1",
+    "stripe": "^13.5.0",
+    "vue": "^3.2.47",
+    "vue-i18n": "^9.2.2",
+    "vue-number-animation": "^2.0.2",
+    "vue-router": "^4.0.0-beta.13",
+    "vue-slick-carousel": "^1.0.6",
+    "vuex": "^4.1.0",
+    "webpack": "^5.88.2"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "gh-pages": "^5.0.0"
-  },
-  "homepage": "http://genaisummit.xyz",
-  "cname": "genaisummit.xyz"
+    "@vitejs/plugin-vue": "^4.1.0",
+    "mini-css-extract-plugin": "^2.7.6",
+    "unplugin-auto-import": "^0.16.4",
+    "unplugin-vue-components": "^0.25.1",
+    "vite": "^4.3.9",
+    "vite-plugin-compression": "^0.5.1"
+  }
 }

@@ -10,7 +10,7 @@
 import { ref, computed, watch,onMounted } from 'vue';
 import { useStore} from 'vuex'
 import $ from 'jquery'; // 引入 jQuery
-import PersionItem from './persionItem.vue'
+import PersionItem from './PersionItem.vue'
 import speakersNewly from '../utils/speakerNewly'
 import EventBus from "../utils/EventBus.js";
 

@@ -454,7 +454,7 @@ import {
 } from "vue";
 import { useStore } from "vuex";
 import NumberCount from "../components/NumberCount.vue";
-import PersionItem from "../components/persionItem.vue";
+import PersionItem from "../components/PersionItem.vue";
 import Swiper from "../components/Swiper.vue";
 import Exhibition from "../components/Exhibition.vue";
 

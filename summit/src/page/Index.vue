@@ -181,7 +181,7 @@
       </div>
     </div>
     <div class="ss-title">
-      EXPERIENCE THE FUTURE AT GENAL SUMMIT SF 2024
+      EXPERIENCE THE FUTURE AT GENAI SUMMIT SF 2024
     </div>
     <div class="instration" :class="screenWidth > 600 ? '' : 'mb'">
       <div class="list">
@@ -337,6 +337,8 @@
           <img class="d" src="../assets/images/ico_logo_g2.png" alt="">
           <img class="a" src="../assets/images/ico_logo_g1.png" alt="">
         </div>
+    
+        
         <div class="list" @click="openUrl('https://aws.amazon.com/cn/free')">
           <img class="d" src="../assets/images/ico_logo_aw2.png" alt="">
           <img class="a" src="../assets/images/ico_logo_aw1.png" alt="">
@@ -360,7 +362,7 @@
     <div class="ss-title">
       SHOWCASE YOUR PRODUCT TO EVERYONE AT THE SUMMIT!
     </div>
-    <div class="sss-title">
+    <div class="text">
       Located in the exhibition hall, the Booth allows you to conduct meetings while ensuring optimal brand exposure. Brand's logo will be featured on signage throughout the venue, displayed on website and brochures.
     </div>
     <div class="Exhibition">

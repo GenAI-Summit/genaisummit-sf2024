@@ -608,17 +608,17 @@ export default {
       {
         title: "Main Stage",
         content:
-            "1.	Keynote: The Future of Generative AI: Trends and Predictions <br/>2.	Keynote: Ethical Implications of AI in Society <br/>3.	Keynote: The Role of AI in Revolutionizing Traditional Industries <br/>4.	Panel Discussion: Challenges and Opportunities in AI Education and Training <br/>5.	Panel Discussion: AI in Healthcare: Innovations and Ethical Concerns <br/>6.	Panel Discussion: The Impact of AI on Privacy and Data Security <br/>7.	Panel Discussion: AI and the Future of Work: What Lies Ahead?",
+            "1.	Keynote: The Future of Generative AI: Trends and Predictions <br/><br/>2.	Keynote: Ethical Implications of AI in Society <br/><br/>3.	Keynote: The Role of AI in Revolutionizing Traditional Industries <br/><br/>4.	Panel Discussion: Challenges and Opportunities in AI Education and Training <br/><br/>5.	Panel Discussion: AI in Healthcare: Innovations and Ethical Concerns <br/><br/>6.	Panel Discussion: The Impact of AI on Privacy and Data Security <br/><br/>7.	Panel Discussion: AI and the Future of Work: What Lies Ahead?",
       },
       {
         title: "Theater",
         content:
-          "1.	Keynote: Demystifying AI: Understanding the Basics <br/>2.	Keynote: Investing in AI: Opportunities and Risks <br/>3.	Keynote: AI in Creative Industries: A Paradigm Shift <br/>4.	Panel Discussion: Navigating the Regulatory Landscape of AI <br/>5.	Panel Discussion: AI for Good: Social and Humanitarian Applications <br/>6.	Panel Discussion: Integrating AI in Traditional Business Models <br/>7.	Panel Discussion: Global Perspectives on AI Development and Adoption <br/>",
+          "1.	Keynote: Demystifying AI: Understanding the Basics <br/><br/>2.	Keynote: Investing in AI: Opportunities and Risks <br/><br/>3.	Keynote: AI in Creative Industries: A Paradigm Shift <br/><br/>4.	Panel Discussion: Navigating the Regulatory Landscape of AI <br/><br/>5.	Panel Discussion: AI for Good: Social and Humanitarian Applications <br/><br/>6.	Panel Discussion: Integrating AI in Traditional Business Models <br/><br/>7.	Panel Discussion: Global Perspectives on AI Development and Adoption <br/>",
       },
       {
         title: "Break Out Rooms: Exploration and Learning",
         content:
-          "Rooms 1: Dedicated Microsoft Track <br/>Rooms 2: Dedicated OpenAI Track<br/>Rooms 3-6: Introduction to Industry-specific AI Applications – Workshops and showcases focusing on the applications of AI in their respective industries, for developers, marketers and creators.<br/>Room 7: AI Career Fair – Connecting job seekers with recruiters in AI and tech companies.<br/>Room 8: AI for Social Impact – Discussions and showcases on how AI is used for social good initiatives.<br/>Room 9: Startup Pitch Session – Emerging AI startups present their innovative solutions.<br/>Room 10: Beginner's Workshop in AI – A hands-on workshop for those new to AI for text2video, text2audio, text2multimodal, and text2richcontent.<br/><br/><br/><br/>",
+          "Rooms 1: Dedicated Microsoft Track <br/><br/>Rooms 2: Dedicated OpenAI Track<br/><br/>Rooms 3-6: Introduction to Industry-specific AI Applications – Workshops and showcases focusing on the applications of AI in their respective industries, for developers, marketers and creators<br/><br/>Room 7: AI Career Fair – Connecting job seekers with recruiters in AI and tech companies<br/><br/>Room 8: AI for Social Impact – Discussions and showcases on how AI is used for social good initiatives<br/><br/>Room 9: Startup Pitch Session – Emerging AI startups present their innovative solutions<br/><br/>Room 10: Beginner's Workshop in AI – A hands-on workshop for those new to AI for text2video, text2audio, text2multimodal, and text2richcontent<br/><br/><br/><br/>",
       },
     ]);
 
@@ -774,7 +774,7 @@ section {
   justify-content: start;
   position: relative;
   .bg {
-    position: absolute;
+    position: absolute; 
     top: 0;
     left: 0;
     width: 100%;

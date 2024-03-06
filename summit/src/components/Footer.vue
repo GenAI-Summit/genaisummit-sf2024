@@ -67,7 +67,7 @@ export default {
 <style scoped lang='scss'>
 .footer{
   background: #000000;
-  font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+  font-family: HarmonyOS Sans SC Regular;
   font-weight: 400;
   font-size: .296rem;
   color: rgba(255,255,255,.5);
@@ -94,7 +94,7 @@ export default {
       flex-direction: column;
       margin-top: 1rem;
       .title{
-        font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+        font-family: HarmonyOS Sans SC Bold;
         font-weight: bold;
         font-size: 24px;
         color: #FFFFFF;
@@ -117,7 +117,7 @@ export default {
     }
   }
   .bottom{
-    font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+    font-family: HarmonyOS Sans SC Regular;
     font-weight: 400;
     font-size: .259rem;
     color: rgba(255,255,255,.5);

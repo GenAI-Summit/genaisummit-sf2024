@@ -98,7 +98,13 @@
   <section class="cointainer section-number">
     <div class="c" :class="screenWidth > 600 ? '' : 'mb'">
       <div class="item" v-for="(item,index) in numberList" :key="index">
-        <img :src="'src/assets/images/icon-n.'+(index+1)+'.png'" alt="">
+        <img :src="icon1" alt="" v-if="index == 0">
+        <img :src="icon2" alt="" v-if="index == 1">
+        <img :src="icon3" alt="" v-if="index == 2">
+        <img :src="icon4" alt="" v-if="index == 3">
+        <img :src="icon5" alt="" v-if="index == 4">
+        <img :src="icon6" alt="" v-if="index == 5">
+        <img :src="icon7" alt="" v-if="index == 6">
         <div class="number">
           <NumberCount :startNumber="item.number - 200 > 0 ? item.number - 200 : 1" :endNumber="item.number" />
         </div>
@@ -181,7 +187,7 @@
       </div>
     </div>
     <div class="ss-title">
-      EXPERIENCE THE FUTURE AT GENAI SUMMIT SF 2024
+      EXPERIENCE THE FUTURE AT GENAL SUMMIT SF 2024
     </div>
     <div class="instration" :class="screenWidth > 600 ? '' : 'mb'">
       <div class="list">
@@ -291,7 +297,7 @@
       <div class="t2">
         GenAI Summit
       </div>
-      <div class="t4">
+      <div class="t3">
         Be a part of this grand event where every conversation, demonstration, and interaction open a window to the future. Whether you’re looking to invest, innovate, or ignite your career in AI, GenAI Summit 2024 is where you’ll want to be.
         <br>
         <br>
@@ -337,8 +343,6 @@
           <img class="d" src="../assets/images/ico_logo_g2.png" alt="">
           <img class="a" src="../assets/images/ico_logo_g1.png" alt="">
         </div>
-    
-        
         <div class="list" @click="openUrl('https://aws.amazon.com/cn/free')">
           <img class="d" src="../assets/images/ico_logo_aw2.png" alt="">
           <img class="a" src="../assets/images/ico_logo_aw1.png" alt="">
@@ -362,7 +366,7 @@
     <div class="ss-title">
       SHOWCASE YOUR PRODUCT TO EVERYONE AT THE SUMMIT!
     </div>
-    <div class="text">
+    <div class="sss-title">
       Located in the exhibition hall, the Booth allows you to conduct meetings while ensuring optimal brand exposure. Brand's logo will be featured on signage throughout the venue, displayed on website and brochures.
     </div>
     <div class="Exhibition">
@@ -463,6 +467,13 @@ import Exhibition from "../components/Exhibition.vue";
 import speakers from "../utils/speaker";
 import EventBus from "../utils/EventBus.js";
 import { toUpper } from 'lodash';
+import icon1 from '../assets/images/icon-n.1.png'
+import icon2 from '../assets/images/icon-n.2.png'
+import icon3 from '../assets/images/icon-n.3.png'
+import icon4 from '../assets/images/icon-n.4.png'
+import icon5 from '../assets/images/icon-n.5.png'
+import icon6 from '../assets/images/icon-n.6.png'
+import icon7 from '../assets/images/icon-n.7.png'
 export default {
   name: "",
   setup() {
@@ -608,17 +619,17 @@ export default {
       {
         title: "Main Stage",
         content:
-            "1.	Keynote: The Future of Generative AI: Trends and Predictions <br/><br/>2.	Keynote: Ethical Implications of AI in Society <br/><br/>3.	Keynote: The Role of AI in Revolutionizing Traditional Industries <br/><br/>4.	Panel Discussion: Challenges and Opportunities in AI Education and Training <br/><br/>5.	Panel Discussion: AI in Healthcare: Innovations and Ethical Concerns <br/><br/>6.	Panel Discussion: The Impact of AI on Privacy and Data Security <br/><br/>7.	Panel Discussion: AI and the Future of Work: What Lies Ahead?",
+            "1.	Keynote: The Future of Generative AI: Trends and Predictions <br/>2.	Keynote: Ethical Implications of AI in Society <br/>3.	Keynote: The Role of AI in Revolutionizing Traditional Industries <br/>4.	Panel Discussion: Challenges and Opportunities in AI Education and Training <br/>5.	Panel Discussion: AI in Healthcare: Innovations and Ethical Concerns <br/>6.	Panel Discussion: The Impact of AI on Privacy and Data Security <br/>7.	Panel Discussion: AI and the Future of Work: What Lies Ahead?",
       },
       {
         title: "Theater",
         content:
-          "1.	Keynote: Demystifying AI: Understanding the Basics <br/><br/>2.	Keynote: Investing in AI: Opportunities and Risks <br/><br/>3.	Keynote: AI in Creative Industries: A Paradigm Shift <br/><br/>4.	Panel Discussion: Navigating the Regulatory Landscape of AI <br/><br/>5.	Panel Discussion: AI for Good: Social and Humanitarian Applications <br/><br/>6.	Panel Discussion: Integrating AI in Traditional Business Models <br/><br/>7.	Panel Discussion: Global Perspectives on AI Development and Adoption <br/>",
+          "1.	Keynote: Demystifying AI: Understanding the Basics <br/>2.	Keynote: Investing in AI: Opportunities and Risks <br/>3.	Keynote: AI in Creative Industries: A Paradigm Shift <br/>4.	Panel Discussion: Navigating the Regulatory Landscape of AI <br/>5.	Panel Discussion: AI for Good: Social and Humanitarian Applications <br/>6.	Panel Discussion: Integrating AI in Traditional Business Models <br/>7.	Panel Discussion: Global Perspectives on AI Development and Adoption <br/>",
       },
       {
         title: "Break Out Rooms: Exploration and Learning",
         content:
-          "Rooms 1: Dedicated Microsoft Track <br/><br/>Rooms 2: Dedicated OpenAI Track<br/><br/>Rooms 3-6: Introduction to Industry-specific AI Applications – Workshops and showcases focusing on the applications of AI in their respective industries, for developers, marketers and creators<br/><br/>Room 7: AI Career Fair – Connecting job seekers with recruiters in AI and tech companies<br/><br/>Room 8: AI for Social Impact – Discussions and showcases on how AI is used for social good initiatives<br/><br/>Room 9: Startup Pitch Session – Emerging AI startups present their innovative solutions<br/><br/>Room 10: Beginner's Workshop in AI – A hands-on workshop for those new to AI for text2video, text2audio, text2multimodal, and text2richcontent<br/><br/><br/><br/>",
+          "Rooms 1: Dedicated Microsoft Track <br/>Rooms 2: Dedicated OpenAI Track<br/>Rooms 3-6: Introduction to Industry-specific AI Applications – Workshops and showcases focusing on the applications of AI in their respective industries, for developers, marketers and creators.<br/>Room 7: AI Career Fair – Connecting job seekers with recruiters in AI and tech companies.<br/>Room 8: AI for Social Impact – Discussions and showcases on how AI is used for social good initiatives.<br/>Room 9: Startup Pitch Session – Emerging AI startups present their innovative solutions.<br/>Room 10: Beginner's Workshop in AI – A hands-on workshop for those new to AI for text2video, text2audio, text2multimodal, and text2richcontent.<br/><br/><br/><br/>",
       },
     ]);
 
@@ -743,6 +754,13 @@ export default {
       showOutlineList,
       dayTab,
       dayTabToggle,
+      icon1,
+      icon2,
+      icon3,
+      icon4,
+      icon5,
+      icon6,
+      icon7,
     };
   },
   components: {
@@ -774,7 +792,7 @@ section {
   justify-content: start;
   position: relative;
   .bg {
-    position: absolute; 
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -782,9 +800,9 @@ section {
     background: linear-gradient(90deg, #0084f4 0%, rgba(0, 119, 221, 0) 100%)!important; /* 设置背景颜色 */
   }
   .t1 {
-    font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+    font-family: HarmonyOS Sans SC Regular;
     font-weight: 400;
-    font-size: 0.32rem;
+    font-size: 0.259rem;
     color: #ffffff;
     line-height: 0.37rem;
     text-align: left;
@@ -795,7 +813,7 @@ section {
     margin-bottom: 0.3rem;
   }
   .t2 {
-    font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+    font-family: HarmonyOS Sans SC Black;
     font-weight: 900;
     font-size: 0.89rem;
     color: #ffffff;
@@ -807,24 +825,11 @@ section {
     max-width: 700px;
   }
   .t3 {
-    font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+    font-family: HarmonyOS Sans SC Regular;
     font-weight: 400;
     font-size: 0.259rem;
     color: #ffffff;
     line-height: 0.3rem;
-    text-align: left;
-    font-style: normal;
-    text-transform: none;
-    width: 100%;
-    max-width: 700px;
-    margin-top: 0.3rem;
-  }
-  .t4 {
-    font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
-    font-weight: 400;
-    font-size: 0.319rem;
-    color: #ffffff;
-    line-height: 0.5rem;
     text-align: left;
     font-style: normal;
     text-transform: none;
@@ -860,7 +865,8 @@ section {
     position: absolute;
     top: -3rem;
     left: 0;
-    width: 100vw;
+    width: auto;
+    min-width: 100vw;
     height: auto;
     z-index: -1000;
     right: 0;
@@ -894,7 +900,7 @@ section {
       }
     }
     .b-title {
-      font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+      font-family: HarmonyOS Sans SC Black;
       font-weight: 900;
       font-size: 0.888rem;
       color: #008aff;
@@ -907,7 +913,7 @@ section {
       }
     }
     .h-title {
-      font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+      font-family: HarmonyOS Sans SC Black;
       font-weight: 900;
       font-size: 1.48rem;
       color: #000000;
@@ -930,7 +936,7 @@ section {
       }
     }
     .s-title {
-      font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+      font-family: HarmonyOS Sans SC Regular;
       font-weight: 400;
       font-size: 0.296rem;
       color: #000000;
@@ -961,7 +967,7 @@ section {
           width: 3.111rem;
           height: 0.889rem;
           border: none;
-          font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+          font-family: HarmonyOS Sans SC Bold;
           font-weight: bold;
           color: #ffffff;
           font-style: normal;
@@ -1014,7 +1020,7 @@ section {
             border-radius: 0px 0px 0px 0px;
             border: 1px solid;
             border-image: linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)) 1 1;
-            font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+            font-family: HarmonyOS Sans SC Bold;
             font-weight: bold;
             font-size: 0.56rem;
             color: #001f3c;
@@ -1037,7 +1043,7 @@ section {
           .timetip {
             width: 0.8rem;
             height: 0.8rem;
-            font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+            font-family: HarmonyOS Sans SC Regular;
             font-weight: 400;
             font-size: 0.37rem;
             color: rgba(0, 0, 0, 0.7);
@@ -1062,7 +1068,7 @@ section {
     display: flex;
     align-items: center;
     .sm-title {
-      font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+      font-family: HarmonyOS Sans SC Regular;
       font-weight: 400;
       font-size: 0.296rem;
       color: #00a4ef;
@@ -1072,7 +1078,7 @@ section {
     }
     .b-title {
       margin-top: 0.74rem;
-      font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+      font-family: HarmonyOS Sans SC Black;
       font-weight: 900;
       font-size: 0.592rem;
       color: #0d0e0f;
@@ -1089,7 +1095,7 @@ section {
     }
     .text {
       margin-top: 0.2rem;
-      font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+      font-family: HarmonyOS Sans SC Regular;
       font-weight: 400;
       font-size: 0.296rem;
       color: #78808f;
@@ -1102,7 +1108,7 @@ section {
   .right-content {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
-    flex: 1;
+    width: 40%;
     &.mb{
       width: 100%;
     }
@@ -1122,7 +1128,7 @@ section {
         }
       }
       .DP {
-        height: 50%;
+        height: 40%;
       }
       .AI {
         width: 50%;
@@ -1147,18 +1153,18 @@ section {
         transition: transform 0.2s ease; /* 添加过渡效果 */
         &.SD {
           width: 1.6rem;
-          left: 10%;
+          left: 0%;
           top: 20%;
         }
         &.SD1 {
           width: 1.6rem;
           right: 25%;
-          top: 0%;
+          top: 10%;
         }
         &.ELE {
           width: 1.6rem;
           right: 0%;
-          bottom: 30%;
+          bottom: 50%;
         }
       }
     }
@@ -1196,7 +1202,7 @@ section {
       width: 0.89rem;
     }
     .number {
-      font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+      font-family: HarmonyOS Sans SC Bold;
       font-weight: bold;
       font-size: 0.74rem;
       color: #000000;
@@ -1205,7 +1211,7 @@ section {
       margin-top: 0.2rem;
     }
     .tip {
-      font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+      font-family: HarmonyOS Sans SC Regular;
       font-weight: 400;
       font-size: 0.37rem;
       color: #78808f;
@@ -1230,7 +1236,7 @@ section {
     background: url("../assets/images/bg-title.png") ;
     background-size: contain;
   background-repeat: no-repeat; /* 防止背景图重复 */
-    font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+    font-family: HarmonyOS Sans SC Bold;
     font-weight: bold;
     font-size: 0.74rem;
     line-height: 1rem;
@@ -1257,9 +1263,9 @@ section {
   }
 }
 .ss-title {
-  font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+  font-family: HarmonyOS Sans SC Regular;
   font-weight: 400;
-  font-size: 0.296;
+  font-size: 0.296rem;
   color: #00a1f1;
   line-height: 19px;
   text-align: left;
@@ -1269,7 +1275,7 @@ section {
   margin-top: 0.1rem;
 }
 .sss-title {
-  font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+  font-family: HarmonyOS Sans SC Regular;
   font-weight: 400;
   font-size: 0.259rem;
   color: #000000;
@@ -1325,7 +1331,7 @@ section {
         margin-right: 0.15rem;
       }
       .title {
-        font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+        font-family: HarmonyOS Sans SC Bold;
         font-weight: bold;
         font-size: 0.296rem;
         color: #1d2a42;
@@ -1336,7 +1342,7 @@ section {
     }
     .bottom {
       padding-left: 0.9rem;
-      font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+      font-family: HarmonyOS Sans SC Regular;
       font-weight: 400;
       font-size: 0.259rem;
       color: #78808f;
@@ -1365,7 +1371,7 @@ section {
   .moreDiv {
     border: 1px solid #008aff;
     font-weight: bold;
-    font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+    font-family: HarmonyOS Sans SC Bold;
     font-weight: bold;
     font-size: 0.296rem;
     color: #008aff;
@@ -1448,7 +1454,7 @@ section {
           align-items: end;
         }
         .big {
-          font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+          font-family: HarmonyOS Sans SC Bold;
           font-weight: bold;
           font-size: 24px;
           color: #000000;
@@ -1537,7 +1543,7 @@ section {
         display: flex;
         align-items: center;
         .title {
-          font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+          font-family: HarmonyOS Sans SC Bold;
           font-weight: bold;
           font-size: 0.59rem;
           color: #000000;
@@ -1547,7 +1553,7 @@ section {
           text-transform: none;
         }
         .text {
-          font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+          font-family: HarmonyOS Sans SC Regular;
           font-weight: 400;
           font-size: 0.296rem;
           color: rgba(0, 0, 0, 0.4);
@@ -1585,7 +1591,7 @@ section {
         width: 3.7037rem;
         height: 0.7407rem;
         background: rgba(0, 138, 255, 0.1);
-        font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+        font-family: HarmonyOS Sans SC Bold;
         font-weight: bold;
         font-size: 0.2963rem;
         color: #008aff;
@@ -1622,6 +1628,7 @@ section {
         border-left: 1px solid rgba(0, 0, 0, 0.2);
         position: relative;
         padding-bottom: 0.7407rem;
+        font-family: HarmonyOS Sans SC bold;
         .flagBg {
           width: 12px;
           height: 12px;
@@ -1633,10 +1640,11 @@ section {
           // padding-top: 0.44rem;
           font-size: 0.44rem;
           font-weight: bold;
+          font-family: HarmonyOS Sans SC bold;
         }
         .detail {
           font-size: 0.2963rem;
-
+          font-family: HarmonyOS Sans SC Regular;
           margin-top: 0.2963rem;
         }
       }
@@ -1652,7 +1660,7 @@ section {
     line-height: calc(0.74rem - 2px);
     border-radius: 0px 0px 0px 0px;
     border: 1px solid #008aff;
-    font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+    font-family: HarmonyOS Sans SC Black;
     font-weight: 900;
     font-size: 0.296rem;
     color: #008aff;

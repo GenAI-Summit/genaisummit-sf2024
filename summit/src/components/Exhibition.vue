@@ -173,7 +173,7 @@
         flex: 1;
         padding: .4rem 0 .4rem .6rem;
         .title{
-            font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+            font-family: HarmonyOS Sans SC Bold;
             font-weight: bold;
             font-size: .45rem;
             color: #000000;
@@ -184,7 +184,7 @@
         }
         .s_title{
             margin-top: .3rem;
-            font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+            font-family: HarmonyOS Sans SC Regular;
             font-weight: 400;
             font-size: .296rem;
             color: #000000;
@@ -196,7 +196,7 @@
         .price{
             margin-top: .556rem;
             .big{
-                font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+                font-family: HarmonyOS Sans SC Bold;
                 font-weight: bold;
                 font-size: .45rem;
                 color: #008AFF;
@@ -205,7 +205,7 @@
                 text-transform: none;
             }
             .blod{
-                font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+                font-family: HarmonyOS Sans SC Bold;
                 font-weight: 400;
                 font-size: .296rem;
                 color: #000000;
@@ -216,7 +216,7 @@
         }
         .list{
             margin-top: .3rem;
-            font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+            font-family: HarmonyOS Sans SC Regular;
             font-weight: 400;
             font-size: .296rem;
             color: rgba(0,0,0,.5);
@@ -267,7 +267,7 @@
           align-items: end;
         }
         .big {
-          font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+          font-family: HarmonyOS Sans SC Bold;
           font-weight: bold;
           font-size: 24px;
           color: #000000;

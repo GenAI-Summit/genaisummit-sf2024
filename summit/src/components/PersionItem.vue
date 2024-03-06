@@ -104,7 +104,7 @@ export default {
         padding-top: .2rem;
         
         .name{
-            font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+            font-family: HarmonyOS Sans SC Bold;
             font-weight: bold;
             font-size: .37rem;
             color: #1D2A42;
@@ -113,7 +113,7 @@ export default {
             text-transform: none;
         }
         .job{
-            font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+            font-family: HarmonyOS Sans SC Regular;
             font-weight: 400;
             font-size: .296rem;
             color: #78808F;
@@ -126,7 +126,7 @@ export default {
             height: .7rem;
             background: #008AFF;
             border-radius: 0px 0px 0px 0px;
-            font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+            font-family: HarmonyOS Sans SC Regular;
             font-weight: 400;
             font-size: .259rem;
             color: #FFFFFF;

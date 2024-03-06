@@ -1,0 +1,45 @@
+{
+  "name": "website",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "preview": "vite preview",
+    "dev": "vite --mode development",
+    "dev:prod": "vite --mode production",
+    "build": "vite build --mode development",
+    "build:prod": "vite build --mode production"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "axios": "^1.6.7",
+    "crypto-js": "^4.1.1",
+    "install": "^0.13.0",
+    "jquery": "^3.7.1",
+    "lib-flexible": "^0.3.2",
+    "lodash": "^4.17.21",
+    "marked": "^7.0.5",
+    "node-loader": "^2.0.0",
+    "node-sass": "^9.0.0",
+    "normalize.css": "^8.0.1",
+    "px2rem-loader": "^0.1.9",
+    "sass": "^1.63.5",
+    "slick-carousel": "^1.8.1",
+    "stripe": "^13.5.0",
+    "vue": "^3.2.47",
+    "vue-i18n": "^9.2.2",
+    "vue-number-animation": "^2.0.2",
+    "vue-router": "^4.0.0-beta.13",
+    "vue-slick-carousel": "^1.0.6",
+    "vuex": "^4.1.0",
+    "webpack": "^5.88.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "mini-css-extract-plugin": "^2.7.6",
+    "unplugin-auto-import": "^0.16.4",
+    "unplugin-vue-components": "^0.25.1",
+    "vite": "^4.3.9",
+    "vite-plugin-compression": "^0.5.1"
+  }
+}

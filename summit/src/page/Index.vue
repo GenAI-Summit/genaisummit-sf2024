@@ -291,7 +291,7 @@
       <div class="t2">
         GenAI Summit
       </div>
-      <div class="t3">
+      <div class="t4">
         Be a part of this grand event where every conversation, demonstration, and interaction open a window to the future. Whether you’re looking to invest, innovate, or ignite your career in AI, GenAI Summit 2024 is where you’ll want to be.
         <br>
         <br>
@@ -784,7 +784,7 @@ section {
   .t1 {
     font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
     font-weight: 400;
-    font-size: 0.259rem;
+    font-size: 0.32rem;
     color: #ffffff;
     line-height: 0.37rem;
     text-align: left;
@@ -812,6 +812,19 @@ section {
     font-size: 0.259rem;
     color: #ffffff;
     line-height: 0.3rem;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+    width: 100%;
+    max-width: 700px;
+    margin-top: 0.3rem;
+  }
+  .t4 {
+    font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+    font-weight: 400;
+    font-size: 0.319rem;
+    color: #ffffff;
+    line-height: 0.5rem;
     text-align: left;
     font-style: normal;
     text-transform: none;

@@ -98,7 +98,13 @@
   <section class="cointainer section-number">
     <div class="c" :class="screenWidth > 600 ? '' : 'mb'">
       <div class="item" v-for="(item,index) in numberList" :key="index">
-        <img :src="'src/assets/images/icon-n.'+(index+1)+'.png'" alt="">
+        <img :src="icon1" alt="" v-if="index == 0">
+        <img :src="icon2" alt="" v-if="index == 1">
+        <img :src="icon3" alt="" v-if="index == 2">
+        <img :src="icon4" alt="" v-if="index == 3">
+        <img :src="icon5" alt="" v-if="index == 4">
+        <img :src="icon6" alt="" v-if="index == 5">
+        <img :src="icon7" alt="" v-if="index == 6">
         <div class="number">
           <NumberCount :startNumber="item.number - 200 > 0 ? item.number - 200 : 1" :endNumber="item.number" />
         </div>
@@ -181,7 +187,7 @@
       </div>
     </div>
     <div class="ss-title">
-      EXPERIENCE THE FUTURE AT GENAI SUMMIT SF 2024
+      EXPERIENCE THE FUTURE AT GENAL SUMMIT SF 2024
     </div>
     <div class="instration" :class="screenWidth > 600 ? '' : 'mb'">
       <div class="list">
@@ -291,7 +297,7 @@
       <div class="t2">
         GenAI Summit
       </div>
-      <div class="t4">
+      <div class="t3">
         Be a part of this grand event where every conversation, demonstration, and interaction open a window to the future. Whether you’re looking to invest, innovate, or ignite your career in AI, GenAI Summit 2024 is where you’ll want to be.
         <br>
         <br>
@@ -337,8 +343,6 @@
           <img class="d" src="../assets/images/ico_logo_g2.png" alt="">
           <img class="a" src="../assets/images/ico_logo_g1.png" alt="">
         </div>
-    
-        
         <div class="list" @click="openUrl('https://aws.amazon.com/cn/free')">
           <img class="d" src="../assets/images/ico_logo_aw2.png" alt="">
           <img class="a" src="../assets/images/ico_logo_aw1.png" alt="">
@@ -362,7 +366,7 @@
     <div class="ss-title">
       SHOWCASE YOUR PRODUCT TO EVERYONE AT THE SUMMIT!
     </div>
-    <div class="text">
+    <div class="sss-title">
       Located in the exhibition hall, the Booth allows you to conduct meetings while ensuring optimal brand exposure. Brand's logo will be featured on signage throughout the venue, displayed on website and brochures.
     </div>
     <div class="Exhibition">
@@ -463,6 +467,13 @@ import Exhibition from "../components/Exhibition.vue";
 import speakers from "../utils/speaker";
 import EventBus from "../utils/EventBus.js";
 import { toUpper } from 'lodash';
+import icon1 from '../assets/images/icon-n.1.png'
+import icon2 from '../assets/images/icon-n.2.png'
+import icon3 from '../assets/images/icon-n.3.png'
+import icon4 from '../assets/images/icon-n.4.png'
+import icon5 from '../assets/images/icon-n.5.png'
+import icon6 from '../assets/images/icon-n.6.png'
+import icon7 from '../assets/images/icon-n.7.png'
 export default {
   name: "",
   setup() {
@@ -743,6 +754,13 @@ export default {
       showOutlineList,
       dayTab,
       dayTabToggle,
+      icon1,
+      icon2,
+      icon3,
+      icon4,
+      icon5,
+      icon6,
+      icon7,
     };
   },
   components: {
@@ -784,7 +802,7 @@ section {
   .t1 {
     font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
     font-weight: 400;
-    font-size: 0.32rem;
+    font-size: 0.259rem;
     color: #ffffff;
     line-height: 0.37rem;
     text-align: left;
@@ -812,19 +830,6 @@ section {
     font-size: 0.259rem;
     color: #ffffff;
     line-height: 0.3rem;
-    text-align: left;
-    font-style: normal;
-    text-transform: none;
-    width: 100%;
-    max-width: 700px;
-    margin-top: 0.3rem;
-  }
-  .t4 {
-    font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
-    font-weight: 400;
-    font-size: 0.319rem;
-    color: #ffffff;
-    line-height: 0.5rem;
     text-align: left;
     font-style: normal;
     text-transform: none;
@@ -860,7 +865,8 @@ section {
     position: absolute;
     top: -3rem;
     left: 0;
-    width: 100vw;
+    width: auto;
+    min-width: 100vw;
     height: auto;
     z-index: -1000;
     right: 0;
@@ -1102,7 +1108,7 @@ section {
   .right-content {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
-    flex: 1;
+    width: 40%;
     &.mb{
       width: 100%;
     }
@@ -1122,7 +1128,7 @@ section {
         }
       }
       .DP {
-        height: 50%;
+        height: 40%;
       }
       .AI {
         width: 50%;
@@ -1147,18 +1153,18 @@ section {
         transition: transform 0.2s ease; /* 添加过渡效果 */
         &.SD {
           width: 1.6rem;
-          left: 10%;
+          left: 0%;
           top: 20%;
         }
         &.SD1 {
           width: 1.6rem;
           right: 25%;
-          top: 0%;
+          top: 10%;
         }
         &.ELE {
           width: 1.6rem;
           right: 0%;
-          bottom: 30%;
+          bottom: 50%;
         }
       }
     }

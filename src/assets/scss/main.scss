@@ -1,5 +1,20 @@
 @import 'normalize.css';
-
+@font-face {
+    font-family: HarmonyOS Sans SC Black;
+    src: url('../font/HarmonyOS_Sans_SC_Black.ttf');
+}
+@font-face {
+    font-family: HarmonyOS Sans SC Bold;
+    src: url('../font/HarmonyOS_Sans_SC_Bold.ttf');
+}
+@font-face {
+    font-family: HarmonyOS Sans SC Medium;
+    src: url('../font/HarmonyOS_Sans_SC_Medium.ttf');
+}
+@font-face {
+    font-family: HarmonyOS Sans SC Regular;
+    src: url('../font/HarmonyOS_Sans_SC_Regular.ttf');
+}
 * {
     box-sizing: border-box;
     font-size: .296rem;

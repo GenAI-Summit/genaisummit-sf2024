@@ -800,7 +800,7 @@ section {
     background: linear-gradient(90deg, #0084f4 0%, rgba(0, 119, 221, 0) 100%)!important; /* 设置背景颜色 */
   }
   .t1 {
-    font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+    font-family: HarmonyOS Sans SC Regular;
     font-weight: 400;
     font-size: 0.259rem;
     color: #ffffff;
@@ -813,7 +813,7 @@ section {
     margin-bottom: 0.3rem;
   }
   .t2 {
-    font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+    font-family: HarmonyOS Sans SC Black;
     font-weight: 900;
     font-size: 0.89rem;
     color: #ffffff;
@@ -825,7 +825,7 @@ section {
     max-width: 700px;
   }
   .t3 {
-    font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+    font-family: HarmonyOS Sans SC Regular;
     font-weight: 400;
     font-size: 0.259rem;
     color: #ffffff;
@@ -900,7 +900,7 @@ section {
       }
     }
     .b-title {
-      font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+      font-family: HarmonyOS Sans SC Black;
       font-weight: 900;
       font-size: 0.888rem;
       color: #008aff;
@@ -913,7 +913,7 @@ section {
       }
     }
     .h-title {
-      font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+      font-family: HarmonyOS Sans SC Black;
       font-weight: 900;
       font-size: 1.48rem;
       color: #000000;
@@ -936,7 +936,7 @@ section {
       }
     }
     .s-title {
-      font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+      font-family: HarmonyOS Sans SC Regular;
       font-weight: 400;
       font-size: 0.296rem;
       color: #000000;
@@ -967,7 +967,7 @@ section {
           width: 3.111rem;
           height: 0.889rem;
           border: none;
-          font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+          font-family: HarmonyOS Sans SC Bold;
           font-weight: bold;
           color: #ffffff;
           font-style: normal;
@@ -1020,7 +1020,7 @@ section {
             border-radius: 0px 0px 0px 0px;
             border: 1px solid;
             border-image: linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)) 1 1;
-            font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+            font-family: HarmonyOS Sans SC Bold;
             font-weight: bold;
             font-size: 0.56rem;
             color: #001f3c;
@@ -1043,7 +1043,7 @@ section {
           .timetip {
             width: 0.8rem;
             height: 0.8rem;
-            font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+            font-family: HarmonyOS Sans SC Regular;
             font-weight: 400;
             font-size: 0.37rem;
             color: rgba(0, 0, 0, 0.7);
@@ -1068,7 +1068,7 @@ section {
     display: flex;
     align-items: center;
     .sm-title {
-      font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+      font-family: HarmonyOS Sans SC Regular;
       font-weight: 400;
       font-size: 0.296rem;
       color: #00a4ef;
@@ -1078,7 +1078,7 @@ section {
     }
     .b-title {
       margin-top: 0.74rem;
-      font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+      font-family: HarmonyOS Sans SC Black;
       font-weight: 900;
       font-size: 0.592rem;
       color: #0d0e0f;
@@ -1095,7 +1095,7 @@ section {
     }
     .text {
       margin-top: 0.2rem;
-      font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+      font-family: HarmonyOS Sans SC Regular;
       font-weight: 400;
       font-size: 0.296rem;
       color: #78808f;
@@ -1202,7 +1202,7 @@ section {
       width: 0.89rem;
     }
     .number {
-      font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+      font-family: HarmonyOS Sans SC Bold;
       font-weight: bold;
       font-size: 0.74rem;
       color: #000000;
@@ -1211,7 +1211,7 @@ section {
       margin-top: 0.2rem;
     }
     .tip {
-      font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+      font-family: HarmonyOS Sans SC Regular;
       font-weight: 400;
       font-size: 0.37rem;
       color: #78808f;
@@ -1236,7 +1236,7 @@ section {
     background: url("../assets/images/bg-title.png") ;
     background-size: contain;
   background-repeat: no-repeat; /* 防止背景图重复 */
-    font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+    font-family: HarmonyOS Sans SC Bold;
     font-weight: bold;
     font-size: 0.74rem;
     line-height: 1rem;
@@ -1263,9 +1263,9 @@ section {
   }
 }
 .ss-title {
-  font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+  font-family: HarmonyOS Sans SC Regular;
   font-weight: 400;
-  font-size: 0.296;
+  font-size: 0.296rem;
   color: #00a1f1;
   line-height: 19px;
   text-align: left;
@@ -1275,7 +1275,7 @@ section {
   margin-top: 0.1rem;
 }
 .sss-title {
-  font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+  font-family: HarmonyOS Sans SC Regular;
   font-weight: 400;
   font-size: 0.259rem;
   color: #000000;
@@ -1331,7 +1331,7 @@ section {
         margin-right: 0.15rem;
       }
       .title {
-        font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+        font-family: HarmonyOS Sans SC Bold;
         font-weight: bold;
         font-size: 0.296rem;
         color: #1d2a42;
@@ -1342,7 +1342,7 @@ section {
     }
     .bottom {
       padding-left: 0.9rem;
-      font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+      font-family: HarmonyOS Sans SC Regular;
       font-weight: 400;
       font-size: 0.259rem;
       color: #78808f;
@@ -1371,7 +1371,7 @@ section {
   .moreDiv {
     border: 1px solid #008aff;
     font-weight: bold;
-    font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+    font-family: HarmonyOS Sans SC Bold;
     font-weight: bold;
     font-size: 0.296rem;
     color: #008aff;
@@ -1454,7 +1454,7 @@ section {
           align-items: end;
         }
         .big {
-          font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+          font-family: HarmonyOS Sans SC Bold;
           font-weight: bold;
           font-size: 24px;
           color: #000000;
@@ -1543,7 +1543,7 @@ section {
         display: flex;
         align-items: center;
         .title {
-          font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+          font-family: HarmonyOS Sans SC Bold;
           font-weight: bold;
           font-size: 0.59rem;
           color: #000000;
@@ -1553,7 +1553,7 @@ section {
           text-transform: none;
         }
         .text {
-          font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+          font-family: HarmonyOS Sans SC Regular;
           font-weight: 400;
           font-size: 0.296rem;
           color: rgba(0, 0, 0, 0.4);
@@ -1591,7 +1591,7 @@ section {
         width: 3.7037rem;
         height: 0.7407rem;
         background: rgba(0, 138, 255, 0.1);
-        font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+        font-family: HarmonyOS Sans SC Bold;
         font-weight: bold;
         font-size: 0.2963rem;
         color: #008aff;
@@ -1628,6 +1628,7 @@ section {
         border-left: 1px solid rgba(0, 0, 0, 0.2);
         position: relative;
         padding-bottom: 0.7407rem;
+        font-family: HarmonyOS Sans SC bold;
         .flagBg {
           width: 12px;
           height: 12px;
@@ -1639,10 +1640,11 @@ section {
           // padding-top: 0.44rem;
           font-size: 0.44rem;
           font-weight: bold;
+          font-family: HarmonyOS Sans SC bold;
         }
         .detail {
           font-size: 0.2963rem;
-
+          font-family: HarmonyOS Sans SC Regular;
           margin-top: 0.2963rem;
         }
       }
@@ -1658,7 +1660,7 @@ section {
     line-height: calc(0.74rem - 2px);
     border-radius: 0px 0px 0px 0px;
     border: 1px solid #008aff;
-    font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+    font-family: HarmonyOS Sans SC Black;
     font-weight: 900;
     font-size: 0.296rem;
     color: #008aff;

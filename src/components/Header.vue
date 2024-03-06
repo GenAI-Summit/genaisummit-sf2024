@@ -147,7 +147,7 @@ export default {
                 margin-left: .5rem;
                 a{
                     text-decoration: none;
-                    font-family: HarmonyOS Sans SC, HarmonyOS Sans SC;
+                    font-family: HarmonyOS Sans SC Bold;
                     font-weight: 400;
                     font-size: .296rem;
                     color: #78808F;

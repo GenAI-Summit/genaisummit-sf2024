@@ -1,13 +1,12 @@
 <template>
   <div class="header">
-    <div class="logo2">
+    <div class="logo-content">
+      <div class="logo2">
         <img src="../assets/images/gptdaoLogo2.png" alt="">
-        
-    </div>
-
-    <div class="logo3">
-      <img src="../assets/images/genaisummit.png" alt="">
-
+      </div>
+      <div class="logo3" v-if="screenWidth > 600">
+        <img src="../assets/images/genaisummit.png" alt="">
+      </div>
     </div>
     <div class="nav-list" v-if="screenWidth > 600">
         <ul>
@@ -37,7 +36,6 @@
     
     <div class="logo">
         <img src="../assets/images/microsoftAI.png" alt="">
-        
     </div>
   </div>
 </template>
@@ -115,13 +113,12 @@ export default {
     align-items: center;
     width: 100%;
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1500px;
     padding: 0 .5rem;
-    background: #FFFFFF;
-    .logo{
-        img{
-            width: 3.57rem;
-        }
+
+    .logo-content{
+        display: flex;
+        align-items: center;
     }
     .logo2{
       img{
@@ -132,6 +129,11 @@ export default {
       img{
             width: 5rem;
         }
+    }
+    .logo{
+      img{
+        width: 3rem;
+      }
     }
     .text{
       font-size: .4rem;
@@ -149,7 +151,7 @@ export default {
                     text-decoration: none;
                     font-family: HarmonyOS Sans SC Bold;
                     font-weight: 400;
-                    font-size: .296rem;
+                    font-size: .278rem;
                     color: #78808F;
                     text-align: left;
                     font-style: normal;

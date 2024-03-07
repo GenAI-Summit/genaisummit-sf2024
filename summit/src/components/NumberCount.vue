@@ -1,6 +1,6 @@
 <template>
     <div ref="counterContainer" class="number-counter">
-      <span :key="transitionKey" class="number">{{ displayNumber }}+</span>
+      <span :key="transitionKey" class="number">{{ formatNumber(displayNumber) }}+</span>
     </div>
   </template>
   
@@ -66,11 +66,23 @@
       onMounted(() => {
         window.addEventListener('scroll', handleScroll);
       });
-  
+      const formatNumber = (num) => {
+        if(!num){
+          return 0
+        }
+        if(num == '--'){
+          return '--'
+        }
+        num = Number(num).toFixed(6) - 0
+        const parts = num.toString().split('.')
+        parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ',')
+        return parts.join('.')
+      }
       return {
         displayNumber,
         transitionKey,
-        counterContainer
+        counterContainer,
+        formatNumber,
       };
     }
   };

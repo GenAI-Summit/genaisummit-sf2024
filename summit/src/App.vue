@@ -53,11 +53,13 @@ export default {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #fff; /* 添加背景色，便于查看位置 */
   z-index: 1000;
+  background: rgba(255,255,255,.6);
+  backdrop-filter: blur(10px);
 }
 .main-router{
   width: 100%;
   margin: 0 auto;
+
 }
 </style>

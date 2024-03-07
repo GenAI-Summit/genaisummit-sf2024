@@ -67,12 +67,13 @@
           <img src="../assets/images/icon-fang.png" alt="">
           GenAI Summit San Francisco 2024
         </div>
-        <div class="text">
+        <div class="text" >
           Dive into the heart of innovation at the GenAI Summit San Francisco 2024, set in the awe-inspiring, historic, Palace of Fine Arts from May 29th to May 31st. This summit is not just an event, it’s an extraordinary convergence of the brightest minds in Generative AI, encapsulating the spirit of the future.
         </div>
         <div class="b-title">
           <img src="../assets/images/icon-fang.png" alt="">
-          The Summit at a glance
+   
+          The Summit at a Glance
         </div>
         <div class="text">
           • Venue Size: 200,000+ square feet of immersive experiences. <br>
@@ -193,7 +194,7 @@
       <div class="list">
         <div class="top">
           <img src="../assets/images/Ai_ico_8.png" alt="">
-          <span class="title">Dr. Devendra Chaplot</span>
+          <span class="title">Cutting-Edge AI Innovations</span>
         </div>
         <div class="bottom">
           Witness the unveiling of the next-gen AI technologies.
@@ -242,7 +243,7 @@
           <span class="title">Inspiring Environment</span>
         </div>
         <div class="bottom">
-          EThe Palace of Fine Arts, a blend of history and innovation, creates a perfect setting for futuristic dialogues.
+          The Palace of Fine Arts, a blend of history and innovation, creates a perfect setting for futuristic dialogues.
         </div>
       </div>
       <div class="list">
@@ -619,17 +620,17 @@ export default {
       {
         title: "Main Stage",
         content:
-            "1.	Keynote: The Future of Generative AI: Trends and Predictions <br/>2.	Keynote: Ethical Implications of AI in Society <br/>3.	Keynote: The Role of AI in Revolutionizing Traditional Industries <br/>4.	Panel Discussion: Challenges and Opportunities in AI Education and Training <br/>5.	Panel Discussion: AI in Healthcare: Innovations and Ethical Concerns <br/>6.	Panel Discussion: The Impact of AI on Privacy and Data Security <br/>7.	Panel Discussion: AI and the Future of Work: What Lies Ahead?",
+            "1.	Keynote: The Future of Generative AI: Trends and Predictions <br/><br/>2.	Keynote: Ethical Implications of AI in Society <br/><br/>3.	Keynote: The Role of AI in Revolutionizing Traditional Industries <br/><br/>4.	Panel Discussion: Challenges and Opportunities in AI Education and Training <br/><br/>5.	Panel Discussion: AI in Healthcare: Innovations and Ethical Concerns <br/><br/>6.	Panel Discussion: The Impact of AI on Privacy and Data Security <br/><br/>7.	Panel Discussion: AI and the Future of Work: What Lies Ahead?",
       },
       {
         title: "Theater",
         content:
-          "1.	Keynote: Demystifying AI: Understanding the Basics <br/>2.	Keynote: Investing in AI: Opportunities and Risks <br/>3.	Keynote: AI in Creative Industries: A Paradigm Shift <br/>4.	Panel Discussion: Navigating the Regulatory Landscape of AI <br/>5.	Panel Discussion: AI for Good: Social and Humanitarian Applications <br/>6.	Panel Discussion: Integrating AI in Traditional Business Models <br/>7.	Panel Discussion: Global Perspectives on AI Development and Adoption <br/>",
+          "1.	Keynote: Demystifying AI: Understanding the Basics <br/><br/>2.	Keynote: Investing in AI: Opportunities and Risks <br/><br/>3.	Keynote: AI in Creative Industries: A Paradigm Shift <br/><br/>4.	Panel Discussion: Navigating the Regulatory Landscape of AI <br/><br/>5.	Panel Discussion: AI for Good: Social and Humanitarian Applications <br/><br/>6.	Panel Discussion: Integrating AI in Traditional Business Models <br/><br/>7.	Panel Discussion: Global Perspectives on AI Development and Adoption <br/>",
       },
       {
         title: "Break Out Rooms: Exploration and Learning",
         content:
-          "Rooms 1: Dedicated Microsoft Track <br/>Rooms 2: Dedicated OpenAI Track<br/>Rooms 3-6: Introduction to Industry-specific AI Applications – Workshops and showcases focusing on the applications of AI in their respective industries, for developers, marketers and creators.<br/>Room 7: AI Career Fair – Connecting job seekers with recruiters in AI and tech companies.<br/>Room 8: AI for Social Impact – Discussions and showcases on how AI is used for social good initiatives.<br/>Room 9: Startup Pitch Session – Emerging AI startups present their innovative solutions.<br/>Room 10: Beginner's Workshop in AI – A hands-on workshop for those new to AI for text2video, text2audio, text2multimodal, and text2richcontent.<br/><br/><br/><br/>",
+          "Rooms 1: Dedicated Microsoft Track <br/><br/>Rooms 2: Dedicated OpenAI Track<br/><br/>Rooms 3-6: Introduction to Industry-specific AI Applications – Workshops and showcases focusing on the applications of AI in their respective industries, for developers, marketers and creators<br/><br/>Room 7: AI Career Fair – Connecting job seekers with recruiters in AI and tech companies<br/><br/>Room 8: AI for Social Impact – Discussions and showcases on how AI is used for social good initiatives<br/><br/>Room 9: Startup Pitch Session – Emerging AI startups present their innovative solutions<br/><br/>Room 10: Beginner's Workshop in AI – A hands-on workshop for those new to AI for text2video, text2audio, text2multimodal, and text2richcontent.<br/><br/><br/><br/>",
       },
     ]);
 
@@ -642,17 +643,17 @@ export default {
       {
         title: "Main Stage",
         content:
-          "1.	Keynote: Advancements in AI Models: GPT-4 and Beyond <br/>2.	Keynote: AI in Environmental Sustainability <br/>3.	Keynote: Transforming Customer Experience with AI <br/>4.	Panel Discussion: AI in Financial Services: Revolutionizing Banking and Insurance<br/>5.	Panel Discussion: AI in Retail: Personalization and Efficiency<br/>6.	Panel Discussion: The Intersection of AI and Cybersecurity<br/>7.	Panel Discussion: AI and the Future of Transportation",
+          "1.	Keynote: Advancements in AI Models: GPT-4 and Beyond <br/><br/>2.	Keynote: AI in Environmental Sustainability <br/><br/>3.	Keynote: Transforming Customer Experience with AI <br/><br/>4.	Panel Discussion: AI in Financial Services: Revolutionizing Banking and Insurance<br/><br/>5.	Panel Discussion: AI in Retail: Personalization and Efficiency<br/><br/>6.	Panel Discussion: The Intersection of AI and Cybersecurity<br/><br/>7.	Panel Discussion: AI and the Future of Transportation",
       },
       {
         title: "Theater",
         content:
-          "1.	Keynote: AI in Manufacturing: Automation and Efficiency <br/>2.	Keynote: AI in Education: Enhancing Learning Experiences<br/>3.	Keynote: Women Leadership in AI<br/>4.	Panel Discussion: The Ethics of AI in Autonomous Systems<br/>5.	Panel Discussion: AI in Healthcare: Patient Care and Management<br/>6.	Panel Discussion: AI's Role in Content Creation and Media<br/>7.	Panel Discussion: Cross-Industry Collaboration in AI Development<br/>",
+          "1.	Keynote: AI in Manufacturing: Automation and Efficiency <br/><br/>2.	Keynote: AI in Education: Enhancing Learning Experiences<br/><br/>3.	Keynote: Women Leadership in AI<br/><br/>4.	Panel Discussion: The Ethics of AI in Autonomous Systems<br/><br/>5.	Panel Discussion: AI in Healthcare: Patient Care and Management<br/><br/>6.	Panel Discussion: AI's Role in Content Creation and Media<br/><br/>7.	Panel Discussion: Cross-Industry Collaboration in AI Development<br/>",
       },
       {
         title: "Break Out Rooms: Deep Dives and Networking",
         content:
-          "Rooms 1: Dedicated Microsoft Track<br/>Rooms 2: Dedicated OpenAI Track<br/>Rooms 3-6: Advanced Applications and Challenges – In-depth discussions and showcases on the latest advancements and challenges in AI for different industries, for developers, marketers and creators.<br/>Room 7: Mentorship in AI – Networking session connecting attendees with experienced mentors in the AI field.<br/>Room 8: AI Ethics Roundtable – A discussion on ethical considerations in AI development.<br/>Room 9: Investor Meet & Greet – An opportunity for startups to network with potential investors.<br/>Room 10: Intermediate AI Workshop – A workshop focused on more advanced AI concepts and tools. <br/><br/><br/>",
+          "Rooms 1: Dedicated Microsoft Track<br/><br/>Rooms 2: Dedicated OpenAI Track<br/><br/>Rooms 3-6: Advanced Applications and Challenges – In-depth discussions and showcases on the latest advancements and challenges in AI for different industries, for developers, marketers and creators<br/><br/>Room 7: Mentorship in AI – Networking session connecting attendees with experienced mentors in the AI field<br/><br/>Room 8: AI Ethics Roundtable – A discussion on ethical considerations in AI development<br/><br/>Room 9: Investor Meet & Greet – An opportunity for startups to network with potential investors<br/><br/>Room 10: Intermediate AI Workshop – A workshop focused on more advanced AI concepts and tools. <br/><br/><br/>",
       },
       
     ]);
@@ -666,17 +667,17 @@ export default {
       {
         title: "Main Stage",
         content:
-          "1.	Keynote: AI Governance: Balancing Innovation with Regulation <br/>2.	Keynote: AI and Global Economy: Trends and Forecasts<br/>3.	Keynote: AI in Public Sector: Opportunities and Challenges<br/>4.	Panel Discussion: AI Policy: A Global Dialogue<br/>5.	Panel Discussion: The Role of AI in Shaping Future Education Systems<br/>6.	Panel Discussion: Ethical AI: Creating a Framework for Responsible AI<br/>7.	Panel Discussion: AI and Human Interaction: The Next Decade",
+          "1.	Keynote: AI Governance: Balancing Innovation with Regulation <br/><br/>2.	Keynote: AI and Global Economy: Trends and Forecasts<br/><br/>3.	Keynote: AI in Public Sector: Opportunities and Challenges<br/><br/>4.	Panel Discussion: AI Policy: A Global Dialogue<br/><br/>5.	Panel Discussion: The Role of AI in Shaping Future Education Systems<br/><br/>6.	Panel Discussion: Ethical AI: Creating a Framework for Responsible AI<br/><br/>7.	Panel Discussion: AI and Human Interaction: The Next Decade",
       },
       {
         title: "Theater",
         content:
-          "1.	Keynote: AI in Urban Planning and Smart Cities<br/>2.	Keynote: The Impact of AI on Traditional Media and Journalism<br/>3.	Keynote: AI and the Future of E-commerce<br/>4.	Panel Discussion: AI in Entertainment: The Next Frontier<br/>5.	Panel Discussion: The Role of AI in Enhancing Public Safety<br/>6.	Panel Discussion: AI and Intellectual Property: Navigating the New Landscape<br/>7.	Panel Discussion: Bridging the AI Talent Gap: Education and Workforce Development<br/>",
+          "1.	Keynote: AI in Urban Planning and Smart Cities<br/><br/>2.	Keynote: The Impact of AI on Traditional Media and Journalism<br/><br/>3.	Keynote: AI and the Future of E-commerce<br/><br/>4.	Panel Discussion: AI in Entertainment: The Next Frontier<br/><br/>5.	Panel Discussion: The Role of AI in Enhancing Public Safety<br/><br/>6.	Panel Discussion: AI and Intellectual Property: Navigating the New Landscape<br/><br/>7.	Panel Discussion: Bridging the AI Talent Gap: Education and Workforce Development<br/>",
       },
       {
         title: "Break Out Rooms: Integration and Future Trends",
         content:
-          "Rooms 1: Dedicated Microsoft Track <br/>Rooms 2: Dedicated OpenAI Track <br/>Rooms 3-6: Integrating AI into Business – Workshops on how to successfully integrate AI solutions into various business operations.<br/>Room 7: Career Development Workshops – Sessions focusing on skill development and career progression in the AI industry.<br/>Room 8: AI for Environmental Sustainability – Showcasing AI solutions addressing environmental challenges.<br/>Room 9: Innovations in AI – Presentations on cutting-edge AI technologies and future trends.<br/>Room 10: Advanced AI Workshop – A deep dive into complex AI models and methodologies.<br/><br/><br/>",
+          "Rooms 1: Dedicated Microsoft Track <br/><br/>Rooms 2: Dedicated OpenAI Track <br/><br/>Rooms 3-6: Integrating AI into Business – Workshops on how to successfully integrate AI solutions into various business operations<br/><br/>Room 7: Career Development Workshops – Sessions focusing on skill development and career progression in the AI industry<br/><br/>Room 8: AI for Environmental Sustainability – Showcasing AI solutions addressing environmental challenges<br/><br/>Room 9: Innovations in AI – Presentations on cutting-edge AI technologies and future trends<br/><br/>Room 10: Advanced AI Workshop – A deep dive into complex AI models and methodologies.<br/><br/><br/>",
       },
       
     ]);
@@ -802,7 +803,7 @@ section {
   .t1 {
     font-family: HarmonyOS Sans SC Regular;
     font-weight: 400;
-    font-size: 0.259rem;
+    font-size: 0.3rem;
     color: #ffffff;
     line-height: 0.37rem;
     text-align: left;
@@ -815,7 +816,7 @@ section {
   .t2 {
     font-family: HarmonyOS Sans SC Black;
     font-weight: 900;
-    font-size: 0.89rem;
+    font-size: 0.95rem;
     color: #ffffff;
     line-height: 1rem;
     text-align: left;
@@ -827,9 +828,9 @@ section {
   .t3 {
     font-family: HarmonyOS Sans SC Regular;
     font-weight: 400;
-    font-size: 0.259rem;
+    font-size: 0.300rem;
     color: #ffffff;
-    line-height: 0.3rem;
+    line-height: 0.31rem;
     text-align: left;
     font-style: normal;
     text-transform: none;
@@ -1277,7 +1278,7 @@ section {
 .sss-title {
   font-family: HarmonyOS Sans SC Regular;
   font-weight: 400;
-  font-size: 0.259rem;
+  font-size: 0.31rem;
   color: #000000;
   line-height: 0.296rem;
   text-align: left;
@@ -1333,7 +1334,7 @@ section {
       .title {
         font-family: HarmonyOS Sans SC Bold;
         font-weight: bold;
-        font-size: 0.296rem;
+        font-size: 0.33rem;
         color: #1d2a42;
         text-align: left;
         font-style: normal;
@@ -1344,12 +1345,13 @@ section {
       padding-left: 0.9rem;
       font-family: HarmonyOS Sans SC Regular;
       font-weight: 400;
-      font-size: 0.259rem;
+      font-size: 0.3rem;
       color: #78808f;
       line-height: 16px;
       text-align: left;
       font-style: normal;
       text-transform: none;
+      margin-top: 4%;
     }
   }
 }

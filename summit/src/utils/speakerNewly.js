@@ -35,6 +35,9 @@ import tony from '../assets/images/speakers/tony.jpg';
 import zipeng from '../assets/images/speakers/zipeng.jpg';
 import zhaoyan from '../assets/images/speakers/zhaoyan.jpg';
 import greg from '../assets/images/speakers/greg.jpg';
+import henry from '../assets/images/speakers/henry.jpg';
+import sharan from '../assets/images/speakers/sharan.jpg';
+
 
 import dr_yuhuai_wu2 from '../assets/images/speakers/popup/yuhuai.png';
 import dr_denis_yarats2 from '../assets/images/speakers/popup/denis.png';
@@ -72,11 +75,32 @@ import tony2 from '../assets/images/speakers/popup/tony.png';
 import zipeng2 from '../assets/images/speakers/popup/zipeng.png';
 import zhaoyan2 from '../assets/images/speakers/popup/zhaoyan.png';
 import greg2 from '../assets/images/speakers/popup/greg.png';
-
+import henry2 from '../assets/images/speakers/popup/henry.png';
+import sharan2 from '../assets/images/speakers/popup/sharan.png';
 
 
 
 const speakerNewly = [
+  {
+    name: 'Sharan Narang',
+    job: 'Co-Author',
+    tip: 'Llama 2',
+    image: sharan,
+    website: 'https://scholar.google.com/citations?user=CWOixywAAAAJ&hl=en',
+    twitter: 'https://twitter.com/sharan0909',
+    linkedin: 'https://www.linkedin.com/in/sharan-narang/',
+    detail: sharan2,
+  },
+  {
+    name: 'Henry Peter',
+    job: 'Co-Founder, CTO & CISO',
+    tip: 'Ushur',
+    image: henry,
+    website: 'https://councils.forbes.com/profile/Henry-Peter-Chief-Technology-Officer-Co-Founder-Ushur/6964ac24-2893-4680-a7b9-a2d7171e6362',
+    twitter: 'https://twitter.com/hpeterock',
+    linkedin: 'https://www.linkedin.com/in/henrytpeter/',
+    detail: henry2,
+  },
   {
     name: 'Clarence Ng',
     job: 'Member of Technical Staff',
@@ -128,8 +152,8 @@ const speakerNewly = [
   },
   {
     name: 'Jake Heller, JD',
-    job: 'Co-Founder @Casetext Head of Product of CoCounsel',
-    tip: '@Thomson Reuters',
+    job: 'CEO & Founder',
+    tip: 'Casetext',
     image: jake,
     website: 'https://casetext.com/about/',
     twitter: 'https://twitter.com/Jacob_Heller',

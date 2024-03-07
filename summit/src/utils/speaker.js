@@ -35,6 +35,9 @@ import tony from '../assets/images/speakers/tony.jpg';
 import zipeng from '../assets/images/speakers/zipeng.jpg';
 import zhaoyan from '../assets/images/speakers/zhaoyan.jpg';
 import greg from '../assets/images/speakers/greg.jpg';
+import henry from '../assets/images/speakers/henry.jpg';
+import sharan from '../assets/images/speakers/sharan.jpg';
+
 
 import dr_yuhuai_wu2 from '../assets/images/speakers/popup/yuhuai.png';
 import dr_denis_yarats2 from '../assets/images/speakers/popup/denis.png';
@@ -72,13 +75,8 @@ import tony2 from '../assets/images/speakers/popup/tony.png';
 import zipeng2 from '../assets/images/speakers/popup/zipeng.png';
 import zhaoyan2 from '../assets/images/speakers/popup/zhaoyan.png';
 import greg2 from '../assets/images/speakers/popup/greg.png';
-
-
-
-
-
-
-
+import henry2 from '../assets/images/speakers/popup/henry.png';
+import sharan2 from '../assets/images/speakers/popup/sharan.png';
 
 
 
@@ -107,8 +105,9 @@ const speaker = [
     name: 'Arvind Jain',
     job:'Founder & CEO',
     tip:'Glean',
-    twitter: 'https://twitter.com/jainarvind',
     website:'https://www.glean.com/',
+    twitter: 'https://twitter.com/jainarvind',
+    
     link:'https://www.linkedin.com/in/arvind-jain-5935161/',
     detail:arvind2,
     image: arvind,
@@ -117,8 +116,9 @@ const speaker = [
     name: 'Dr. Jim Fan',
     job:'Senior Research Scientist',
     tip:'NVIDIA AI',
-    twitter: 'https://twitter.com/DrJimFan',
+    
     website:'https://jimfan.me/',
+    twitter: 'https://twitter.com/DrJimFan',
     link:'https://www.linkedin.com/in/drjimfan/',
     detail:jimfan2,
     image: jimfan,
@@ -149,6 +149,8 @@ const speaker = [
     tip: 'OpenAI',
     image: clarence,
     linkedin: 'https://www.linkedin.com/in/clarng/',
+    website: '',
+    twitter: '',
     detail: clarence2,
   },
   {
@@ -158,6 +160,7 @@ const speaker = [
     image: deon,
     twitter: 'https://twitter.com/dojideon?lang=en',
     linkedin: 'https://www.linkedin.com/in/deon-nicholas/',
+    website: '',
     detail: deon2,
   },
   {
@@ -177,6 +180,7 @@ const speaker = [
     image: samliang,
     linkedin: 'https://www.linkedin.com/in/samliang/',
     twitter: 'https://twitter.com/goopt?lang=en',
+    website: '',
     detail: samliang2,
   },
   {
@@ -184,6 +188,7 @@ const speaker = [
     job: 'CEO & Founder',
     tip: 'Dialpad',
     image: craig,
+    website: '',
     linkedin: 'https://www.linkedin.com/in/cwalker123/',
     twitter: 'https://twitter.com/cwalker123?lang=en',
     detail: craig2,
@@ -193,6 +198,7 @@ const speaker = [
     job: 'CEO & Founder',
     tip: 'Robust Intelligence',
     image: yaron,
+    website: '',
     linkedin: 'https://www.linkedin.com/in/yaron-singer-76ab6317/',
     twitter: 'https://twitter.com/yaronsinger?lang=en',
     detail: yaron2,
@@ -202,9 +208,10 @@ const speaker = [
     job: 'Founder',
     tip: 'BabyAGI',
     image: yohei,
+    website: 'https://yoheinakajima.com/',
     linkedin: 'https://www.linkedin.com/in/yoheinakajima/',
     twitter: 'https://twitter.com/yoheinakajima?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor',
-    website: 'https://yoheinakajima.com/',
+    
     detail: yohei2,
   },
   {
@@ -222,9 +229,30 @@ const speaker = [
     job: 'Founder & CEO',
     tip: 'Arize AI',
     image: jason_l,
+    website: '',
     twitter: 'https://twitter.com/jason_lopatecki',
     linkedin: 'https://www.linkedin.com/in/jason-lopatecki-9509941/',
     detail: jason_l2,
+  },
+  {
+    name: 'Sharan Narang',
+    job: 'Co-Author',
+    tip: 'Llama 2',
+    image: sharan,
+    website: 'https://scholar.google.com/citations?user=CWOixywAAAAJ&hl=en',
+    twitter: 'https://twitter.com/sharan0909',
+    linkedin: 'https://www.linkedin.com/in/sharan-narang/',
+    detail: sharan2,
+  },
+  {
+    name: 'Henry Peter',
+    job: 'Co-Founder, CTO & CISO',
+    tip: 'Ushur',
+    image: henry,
+    website: 'https://councils.forbes.com/profile/Henry-Peter-Chief-Technology-Officer-Co-Founder-Ushur/6964ac24-2893-4680-a7b9-a2d7171e6362',
+    twitter: 'https://twitter.com/hpeterock',
+    linkedin: 'https://www.linkedin.com/in/henrytpeter/',
+    detail: henry2,
   },
   {
     name: 'Worldcoin',
@@ -251,7 +279,9 @@ const speaker = [
     job: 'VP & Science Fellow',
     tip: 'ServiceNow',
     image: ganapathy,
+    website: '',
     linkedin: 'https://www.linkedin.com/in/ganapathykrishnan/',
+    twitter: '',
     detail: ganapathy2,
   },
   {
@@ -266,8 +296,8 @@ const speaker = [
   },
   {
     name: 'Jake Heller, JD',
-    job: 'Co-Founder @Casetext Head of Product of CoCounsel',
-    tip: '@Thomson Reuters',
+    job: 'CEO & Founder',
+    tip: 'Casetext',
     image: jake,
     website: 'https://casetext.com/about/',
     twitter: 'https://twitter.com/Jacob_Heller',
@@ -286,10 +316,11 @@ const speaker = [
   },
   {
     name: 'Dr. Ameer Haj-Ali',
-    job: 'Head of Cloud Infrastructure & Platform Engineering',
+    job: 'Founding Eng',
     tip: 'Anyscale',
     image: ameer,
     website: 'https://www.ameerhajali.com/',
+    twitter: '',
     linkedin: 'https://www.linkedin.com/in/ameer-haj-ali/',
     detail: ameer2,
   },
@@ -298,9 +329,10 @@ const speaker = [
     job: 'Founder',
     tip: 'Lepton AI',
     image: yangqingjia,
+    website: 'https://daggerfs.com/',
     twitter: 'https://twitter.com/jiayq',
     linkedin: 'https://www.linkedin.com/in/yangqing-jia/',
-    website: 'https://daggerfs.com/',
+    
     detail: yangqingjia2,
   },
   {
@@ -308,9 +340,10 @@ const speaker = [
     job: 'Professor & Andre Meyer Faculty',
     tip: 'NYU Stern School of Business',
     image: chenxi,
+    website: 'https://www.stern.nyu.edu/faculty/bio/xi-chen',
     twitter: 'https://twitter.com/xcyale?lang=en',
     linkedin: 'https://www.linkedin.com/in/xi-chen-900b2710/',
-    website: 'https://www.stern.nyu.edu/faculty/bio/xi-chen',
+    
     detail: chenxi2,
   },
   {
@@ -338,6 +371,8 @@ const speaker = [
     job: 'Co-Founder & CTO',
     tip: 'LlamaIndex',
     image: simon,
+    website: '',
+    twitter: '',
     linkedin: 'https://www.linkedin.com/in/sdsuo/',
     detail: simon2,
   },
@@ -347,15 +382,17 @@ const speaker = [
     tip: 'Gorilla LLM',
     image: patil,
     website: 'https://shishirpatil.github.io/',
-    linkedin: 'https://www.linkedin.com/in/shishir-patil/',
     twitter: 'https://twitter.com/shishirpatil_',
+    linkedin: 'https://www.linkedin.com/in/shishir-patil/',
+    
     detail: patil2,
   },
   {
     name: 'Rajat Suri',
-    job: 'Co-founder @Lima Founder @Presto',
-    tip: 'Co-founder @Lyft',
+    job: 'Co-founder @Lima/@Lyft ',
+    tip: 'Founder @Presto ',
     image: rajat,
+    website: '',
     twitter: 'https://twitter.com/rajatsuri',
     linkedin: 'https://www.linkedin.com/in/rajatsuri/',
     detail: rajat2,
@@ -365,6 +402,7 @@ const speaker = [
     job: 'Digital Marketing Expert & Author',
     tip: 'Arcticider.AI',
     image: andreas,
+    website: '',
     twitter: 'https://www.andreas.com/',
     linkedin: 'https://www.linkedin.com/in/andreasramos/',
     detail: andreas2,
@@ -395,8 +433,9 @@ const speaker = [
     tip: 'Stanford University',
     image: tony,
     website: 'https://tonyzhaozh.github.io/',
-    linkedin: 'https://www.linkedin.com/in/tony-z-zhao/',
     twitter: 'https://twitter.com/tonyzzhao',
+    linkedin: 'https://www.linkedin.com/in/tony-z-zhao/',
+   
     detail: tony2,
   },
   {
@@ -405,8 +444,9 @@ const speaker = [
     tip: 'Stanford University',
     image: zipeng,
     website: 'https://zipengfu.github.io/',
-    linkedin: 'https://www.linkedin.com/in/zipengfu/',
     twitter: 'https://twitter.com/zipengfu?lang=en',
+    linkedin: 'https://www.linkedin.com/in/zipengfu/',
+    
     detail: zipeng2,
   },
   {
@@ -415,6 +455,7 @@ const speaker = [
     tip: 'City of Saratoga',
     image: zhaoyan,
     website: 'https://www.saratoga.ca.us/443/Yan-Zhao',
+    twitter: '',
     linkedin: 'https://www.linkedin.com/in/yan-zhao-92a3328/',
     detail: zhaoyan2,
   },

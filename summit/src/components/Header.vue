@@ -28,15 +28,16 @@
             <li>
                 <a href="https://sv2023.genaisummit.ai/" target="_black" :class="{ active: activeSection === 'section6' }">PREVIOUS EVENT</a>
             </li>
+            <div class="logo">
+        <img src="../assets/images/microsoftAI.png" alt="">
+    </div>
             <li>
                 <button @click="openHandle">Buy Tickets</button>
             </li>
         </ul>
     </div>
     
-    <div class="logo">
-        <img src="../assets/images/microsoftAI.png" alt="">
-    </div>
+    
   </div>
 </template>
 
@@ -146,12 +147,13 @@ export default {
             align-items: center;
             li{
                 list-style: none;
-                margin-left: .5rem;
+                margin-left: .6rem;
+              
                 a{
                     text-decoration: none;
                     font-family: HarmonyOS Sans SC Bold;
                     font-weight: 400;
-                    font-size: .278rem;
+                    font-size: .31rem;
                     color: #78808F;
                     text-align: left;
                     font-style: normal;

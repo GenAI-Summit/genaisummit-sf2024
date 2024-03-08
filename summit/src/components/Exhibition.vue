@@ -9,7 +9,7 @@
                     <div class="title">Booth Type A</div>
                     <div class="s_title">10ft x 10 ft (3m x 3m)</div>
                     <div class="price">
-                        <span class="big">USD9,999</span><span class="bold"> (Early Bird)</span>
+                        <span class="big">USD 9,999</span><span class="bold"> (Early Bird)</span>
                     </div>
                     <div class="list">
                         10 x 10 ft Space Turnkey Solution <br>
@@ -46,7 +46,7 @@
                     <div class="title">Booth Type B</div>
                     <div class="s_title">6.5ft x 6.5 ft (2m x 2m)</div>
                     <div class="price">
-                        <span class="big">USD6,999</span><span class="bold"> (Early Bird)</span>
+                        <span class="big">USD 6,999</span><span class="bold"> (Early Bird)</span>
                     </div>
                     <div class="list">
                         6.5 x 6.5 ft Space Turnkey Solution <br>

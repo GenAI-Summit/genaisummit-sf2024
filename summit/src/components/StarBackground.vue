@@ -5,7 +5,7 @@
 <script>
 import { onMounted, onUnmounted, ref } from 'vue';
 import * as THREE from 'three';
-
+import yuan from '../assets/images/yuan.png'
 export default {
   name: 'ThreeJsParticlesWaves',
 
@@ -30,7 +30,7 @@ export default {
       const material = new THREE.SpriteMaterial({
         color: 0xffffff,
         // 使用圆形纹理代替自定义program绘制
-        map: new THREE.TextureLoader().load('../src/assets/images/yuan.png'),
+        map: new THREE.TextureLoader().load(yuan),
     });
 
       let i = 0;

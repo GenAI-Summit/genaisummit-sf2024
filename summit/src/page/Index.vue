@@ -1,523 +1,575 @@
 <template>
-  <section id="section1" :class="screenWidth > 600 ? '' : 'mb'">
-    <video autoplay muted loop class="background-video">
-      <source src="../assets/images/video.mp4" type="video/mp4" />
-      Your browser does not support the video tag.
-    </video>
-    <div class="content">
-      <div class="cointainer">
-        <div data-aos="fade-up">
-          <div class="b-title" :class="screenWidth > 600 ? '' : 'mb'">
-            #AIAREALL
-          </div>
-          <div class="h-title" :class="screenWidth > 600 ? '' : 'mb'">
-            GenAI Summit
-          </div>
-          <div class="h-title" :class="screenWidth > 600 ? '' : 'mb'">
-            San Francisco <span class="blue">2024</span>
-          </div>
-          <div class="s-title mt4" :class="screenWidth > 600 ? '' : 'mb'">
-            IGNITING THE AI REVOLUTION IN THE HEART OF SAN FRANCISCO
-          </div>
-          <div class="s-title">
-            <div class="mt4">
-              <img src="../assets/images/location.png" alt="" />
-              Palace of Fine Arts, San Francisco, California
+  <div>
+    <section id="section1" :class="screenWidth > 600 ? '' : 'mb'">
+      <video autoplay muted loop class="background-video">
+        <source src="../assets/images/video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div class="content">
+        <div class="cointainer">
+          <div data-aos="fade-up">
+            <div class="b-title" :class="screenWidth > 600 ? '' : 'mb'">
+              #AIAREALL
             </div>
-            <div class="mt4">
-              <img src="../assets/images/time.png" alt="" />
-              May 29 - May 31, 2024
+            <div class="h-title" :class="screenWidth > 600 ? '' : 'mb'">
+              GenAI Summit
+            </div>
+            <div class="h-title" :class="screenWidth > 600 ? '' : 'mb'">
+              San Francisco <span class="blue">2024</span>
+            </div>
+            <div class="s-title mt4" :class="screenWidth > 600 ? '' : 'mb'">
+              IGNITING THE AI REVOLUTION IN THE HEART OF SAN FRANCISCO
+            </div>
+            <div class="s-title">
+              <div class="mt4">
+                <img src="../assets/images/location.png" alt="" />
+                Palace of Fine Arts, San Francisco, California
+              </div>
+              <div class="mt4">
+                <img src="../assets/images/time.png" alt="" />
+                May 29 - May 31, 2024
+              </div>
+            </div>
+            <div class="btn-group">
+              <div class="left">
+                <button
+                  @click="
+                    openUrl(
+                      'https://www.eventbrite.com/e/genai-summit-san-francisco-2024-tickets-796934722207'
+                    )
+                  "
+                >
+                  <div class="spinner0"></div>
+                  Buy Tickets
+                </button>
+              </div>
+              <div class="right">
+                <div class="time-box">
+                  <div class="item">{{ timeObj.d }}</div>
+                  <div class="timetip">D</div>
+                  <div class="item">{{ timeObj.h }}</div>
+                  <div class="timetip">H</div>
+                  <div class="item">{{ timeObj.m }}</div>
+                  <div class="timetip">M</div>
+                  <div class="item">{{ timeObj.s }}</div>
+                  <div class="timetip">S</div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="btn-group">
-            <div class="left">
-              <button
-                @click="
-                  openUrl(
-                    'https://www.eventbrite.com/e/genai-summit-san-francisco-2024-tickets-796934722207'
-                  )
-                "
-              >
-                <div class="spinner0"></div>
-                Buy Tickets
-              </button>
+        </div>
+        <img class="ico ico1" src="../assets/images/ico_dim1.png" alt="" />
+        <img class="ico ico2" src="../assets/images/ico_dim2.png" alt="" />
+        <img class="ico ico3" src="../assets/images/ico_dim3.png" alt="" />
+      </div>
+    </section>
+    <div class="bg">
+      <section class="cointainer section-default">
+        <div class="left-content">
+          <div data-aos="fade-up">
+            <div class="sm-title">THREE DAYS OF COMPREHENSIVE ACTIVITIES</div>
+            <div class="b-title">
+              <img src="../assets/images/icon-fang.png" alt="" />
+              GenAI Summit San Francisco 2024
             </div>
-            <div class="right">
-              <div class="time-box">
-                <div class="item">{{ timeObj.d }}</div>
-                <div class="timetip">D</div>
-                <div class="item">{{ timeObj.h }}</div>
-                <div class="timetip">H</div>
-                <div class="item">{{ timeObj.m }}</div>
-                <div class="timetip">M</div>
-                <div class="item">{{ timeObj.s }}</div>
-                <div class="timetip">S</div>
+            <div class="text">
+              Dive into the heart of innovation at the GenAI Summit San
+              Francisco 2024, set in the awe-inspiring, historic, Palace of Fine
+              Arts from May 29th to May 31st. This summit is not just an event,
+              it’s an extraordinary convergence of the brightest minds in
+              Generative AI, encapsulating the spirit of the future.
+            </div>
+            <div class="b-title">
+              <img src="../assets/images/icon-fang.png" alt="" />
+
+              The Summit at a Glance
+            </div>
+            <div class="text">
+              • Venue Size: 200,000+ square feet of immersive experiences.
+              <br />
+              • Anticipated Audience: 30,000+ attendees from around the
+              globe.<br />
+              • Exhibitors: 300+ exhibitors showcasing groundbreaking AI
+              solutions.<br />
+              • Venture Capitalists: 300+ VCs looking for the next big idea.<br />
+              • Speakers: 200+ industry-leading experts sharing invaluable
+              insights.<br />
+              • Media Coverage: 50+ media outlets capturing every exciting
+              moment.<br />
+              • Dynamic Tracks: 20+ tracks showcasing exhilarating discoveries
+              and information.
+            </div>
+          </div>
+        </div>
+        <div class="right-content" :class="screenWidth > 600 ? '' : 'mb'">
+          <div
+            class="img-content"
+            :class="screenWidth > 600 ? '' : 'mb'"
+            data-aos="fade-left"
+            @mousemove="handleMouseMove"
+          >
+            <img class="AI" src="../assets/images/icon-AI.png" alt="" />
+            <img class="DP" src="../assets/images/icon-dp.png" alt="" />
+            <img
+              class="SD"
+              src="../assets/images/icon-sd.png"
+              alt=""
+              ref="imageRef"
+            />
+            <img
+              class="SD1"
+              src="../assets/images/icon-sd1.png"
+              alt=""
+              ref="imageRef1"
+            />
+            <img
+              class="ELE"
+              src="../assets/images/icon-ele.png"
+              alt=""
+              ref="imageRef2"
+            />
+          </div>
+        </div>
+      </section>
+      <div class="section-number">
+        <section class="cointainer">
+          <div class="c" :class="screenWidth > 600 ? '' : 'mb'">
+            <div
+              class="item"
+              v-for="(item, index) in numberList"
+              :key="index"
+              data-aos="flip-up"
+            >
+              <img :src="icon1" alt="" v-if="index == 0" />
+              <img :src="icon2" alt="" v-if="index == 1" />
+              <img :src="icon3" alt="" v-if="index == 2" />
+              <img :src="icon4" alt="" v-if="index == 3" />
+              <img :src="icon5" alt="" v-if="index == 4" />
+              <img :src="icon6" alt="" v-if="index == 5" />
+              <img :src="icon7" alt="" v-if="index == 6" />
+              <div class="number">
+                <NumberCount
+                  :startNumber="item.number - 200 > 0 ? item.number - 200 : 1"
+                  :endNumber="item.number"
+                />
+              </div>
+              <div class="tip">
+                {{ item.tip }}
+              </div>
+            </div>
+            <StarBackground />
+            <!-- <img class="wavs" src="../assets/images/wavs.gif" alt=""> -->
+          </div>
+        </section>
+      </div>
+
+      <section id="section2" class="cointainer">
+        <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
+          <div class="left-title before" :class="screenWidth > 600 ? '' : 'mb'" data-aos="flip-up">
+            Newly Updated Speakers
+          </div>
+
+          <div class="page" v-if="swiperPageInfo && screenWidth > 600">
+            <div class="fk" @click="swiperpre">
+              <img class="d" src="../assets/images/Ai_Button_left.png" alt="" />
+              <img
+                class="a"
+                src="../assets/images/Ai_Button_left_white.png"
+                alt=""
+              />
+            </div>
+            <div class="fk long">
+              <div class="">
+                <span class="big">{{ swiperPageInfo.nowPage }}</span
+                >/{{ swiperPageInfo.pages }}
+              </div>
+            </div>
+            <div class="fk" @click="swipernext">
+              <img
+                class="d"
+                src="../assets/images/Ai_Button_right.png"
+                alt=""
+              />
+              <img
+                class="a"
+                src="../assets/images/Ai_Button_right_white.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="swiper-content">
+          <Swiper ref="SwiperSpeaker" />
+        </div>
+        <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
+          <div class="left-title before" :class="screenWidth > 600 ? '' : 'mb'" data-aos="flip-up">
+            Speakers
+          </div>
+          <div class="open-btn">
+            <button @click="openUrl('https://www.gptdao.ai/get-started')">
+              Be our Speaker
+              <img src="../assets/images/general_return.png" alt="" />
+            </button>
+          </div>
+        </div>
+        <div class="ss-title" data-aos="flip-up">LISTEN TO THE EVENT SPEAKERS</div>
+
+        <div class="speaker-list" :class="screenWidth > 600 ? '' : 'mb'">
+          <div
+            class="list"
+            v-for="(item, index) in showSpeakersList"
+            :key="index"
+            data-aos="zoom-in"
+          >
+            <PersionItem :item="item" />
+          </div>
+        </div>
+
+        <div
+          class="moreDiv"
+          v-if="showSpeakersList.length < speakersList.length"
+          @click="moreHanle"
+        >
+          More
+          <img class="a" src="../assets/images/general_return_xia.png" alt="" />
+          <img
+            class="d"
+            src="../assets/images/general_return_xia_d.png"
+            alt=""
+          />
+        </div>
+        <div
+          class="moreDiv"
+          v-if="showSpeakersList.length == speakersList.length"
+          @click="closeHanle"
+        >
+          Hide
+          <img class="a" src="../assets/images/general_return_up.png" alt="" />
+          <img
+            class="d"
+            src="../assets/images/general_return_up_d.png"
+            alt=""
+          />
+        </div>
+      </section>
+      <div class="GenAISummit">
+        <div class="cointainer">
+          <div class="title" :class="screenWidth > 600 ? '' : 'mb'">
+            Why <span class="color">GenAI</span>
+            <span class="color">Summit</span> San Francisco 2024
+          </div>
+          <div class="title" :class="screenWidth > 600 ? '' : 'mb'">
+            Should Not Be Missed
+          </div>
+          <div class="ss-title">
+            EXPERIENCE THE FUTURE AT GENAL SUMMIT SF 2024
+          </div>
+          <div class="instration" :class="screenWidth > 600 ? '' : 'mb'">
+            <div class="list" data-aos="zoom-in">
+              <div class="top">
+                <img src="../assets/images/Ai_ico_8.png" alt="" />
+                <span class="title">Cutting-Edge AI Innovations</span>
+              </div>
+              <div class="bottom">
+                Witness the unveiling of the next-gen AI technologies.
+              </div>
+              <img
+                class="active"
+                src="../assets/images/Ai_ico_8_active.png"
+                alt=""
+              />
+            </div>
+            <div class="list" data-aos="zoom-in">
+              <div class="top">
+                <img src="../assets/images/Ai_ico_9.png" alt="" />
+                <span class="title">Networking Opportunities</span>
+              </div>
+              <div class="bottom">
+                Engage with global tech leaders and peers.
+              </div>
+              <img
+                class="active"
+                src="../assets/images/Ai_ico_9_active.png"
+                alt=""
+              />
+            </div>
+            <div class="list" data-aos="zoom-in">
+              <div class="top">
+                <img src="../assets/images/Ai_ico_10.png" alt="" />
+                <span class="title">Investment Insights</span>
+              </div>
+              <div class="bottom">
+                Access emerging startups and investment potential.
+              </div>
+              <img
+                class="active"
+                src="../assets/images/Ai_ico_10_active.png"
+                alt=""
+              />
+            </div>
+            <div class="list" data-aos="zoom-in">
+              <div class="top">
+                <img src="../assets/images/Ai_ico_11.png" alt="" />
+                <span class="title">Global AI Trends</span>
+              </div>
+              <div class="bottom">
+                Stay ahead with worldwide AI developments.
+              </div>
+              <img
+                class="active"
+                src="../assets/images/Ai_ico_11_active.png"
+                alt=""
+              />
+            </div>
+            <div class="list" data-aos="zoom-in">
+              <div class="top">
+                <img src="../assets/images/Ai_ico_12.png" alt="" />
+                <span class="title">Collaborative Ventures</span>
+              </div>
+              <div class="bottom">
+                Explore partnerships and collaborative projects.
+              </div>
+              <img
+                class="active"
+                src="../assets/images/Ai_ico_12_active.png"
+                alt=""
+              />
+            </div>
+
+            <div class="list" data-aos="zoom-in">
+              <div class="top">
+                <img src="../assets/images/Ai_ico_13.png" alt="" />
+                <span class="title">Inspiring Environment</span>
+              </div>
+              <div class="bottom">
+                The Palace of Fine Arts, a blend of history and innovation,
+                creates a perfect setting for futuristic dialogues.
+              </div>
+              <img
+                class="active"
+                src="../assets/images/Ai_ico_13_active.png"
+                alt=""
+              />
+            </div>
+            <div class="list" data-aos="zoom-in">
+              <div class="top">
+                <img src="../assets/images/Ai_ico_14.png" alt="" />
+                <span class="title">Product Launch Platform</span>
+              </div>
+              <div class="bottom">
+                Ideal for revealing new AI products to a large, diverse
+                audience.
+              </div>
+              <img
+                class="active"
+                src="../assets/images/Ai_ico_14_active.png"
+                alt=""
+              />
+            </div>
+            <div class="list" data-aos="zoom-in">
+              <div class="top">
+                <img src="../assets/images/Ai_ico_15.png" alt="" />
+                <span class="title">Educational Value</span>
+              </div>
+              <div class="bottom">
+                Deepen AI knowledge with sessions from top experts.
+              </div>
+              <img
+                class="active"
+                src="../assets/images/Ai_ico_15_active.png"
+                alt=""
+              />
+            </div>
+            <div class="list" data-aos="zoom-in">
+              <div class="top">
+                <img src="../assets/images/Ai_ico_16.png" alt="" />
+                <span class="title">Career Advancement</span>
+              </div>
+              <div class="bottom">
+                Open doors to new career opportunities in AI.
+              </div>
+              <img
+                class="active"
+                src="../assets/images/Ai_ico_16_active.png"
+                alt=""
+              />
+            </div>
+            <div class="list" data-aos="zoom-in">
+              <div class="top">
+                <img src="../assets/images/Ai_ico_17.png" alt="" />
+                <span class="title">Visionary Experience</span>
+              </div>
+              <div class="bottom">
+                Be part of a community shaping the AI revolution.
+              </div>
+              <img
+                class="active"
+                src="../assets/images/Ai_ico_17_active.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="Experience">
+        <div class="bg"></div>
+        <div
+          class="cointainer"
+          style="z-index: 2;"
+        >
+          <div class="t1" data-aos="slide-down">EMPOWERING TOMORROW'S INNOVATORS</div>
+          <div class="t2" data-aos="slide-up">Experience the Future at</div>
+          <div class="t2" data-aos="slide-up">GenAI Summit</div>
+          <div class="t3" data-aos="flip-up">
+            Be a part of this grand event where every conversation,
+            demonstration, and interaction open a window to the future. Whether
+            you’re looking to invest, innovate, or ignite your career in AI,
+            GenAI Summit 2024 is where you’ll want to be.
+            <br />
+            <br />
+            “Step into the future of AI at GenAI Summit San Francisco 2024 –
+            where ideas meet action, and tomorrow is shaped today!”
+          </div>
+        </div>
+      </div>
+      <section id="section3" class="cointainer">
+        <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
+          <div class="left-title before" :class="screenWidth > 600 ? '' : 'mb'" data-aos="flip-up">
+            Sponsors
+          </div>
+          <div class="open-btn">
+            <button @click="openUrl('https://www.gptdao.ai/get-started')">
+              Become Our Sponsor
+              <img src="../assets/images/general_return.png" alt="" />
+            </button>
+          </div>
+        </div>
+        <div class="ss-title" data-aos="flip-up">CHECK WHO MAKES THIS EVENT POSSIBLE!</div>
+
+        <div class="office_content">
+          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+            <div class="title_img">
+              <img src="../assets/images/diam.png" alt="" />
+            </div>
+            <div
+              class="list"
+              @click="openUrl('https://www.microsoft.com/en-us/')"
+            >
+              <img class="d" src="../assets/images/ico_logo_m2.png" alt="" />
+              <img class="a" src="../assets/images/ico_logo_m1.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="office_content">
+          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+            <div class="title_img">
+              <img src="../assets/images/plat.png" alt="" />
+            </div>
+            <div class="list" @click="openUrl('https://cloud.google.com/')">
+              <img class="d" src="../assets/images/ico_logo_g2.png" alt="" />
+              <img class="a" src="../assets/images/ico_logo_g1.png" alt="" />
+            </div>
+            <div
+              class="list"
+              @click="openUrl('https://aws.amazon.com/cn/free')"
+            >
+              <img class="d" src="../assets/images/ico_logo_aw2.png" alt="" />
+              <img class="a" src="../assets/images/ico_logo_aw1.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <!--  -->
+        <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
+          <div class="left-title before" :class="screenWidth > 600 ? '' : 'mb'"  data-aos="flip-up">
+            Exhibition Opportunites
+          </div>
+          <div class="open-btn">
+            <button @click="openUrl('https://www.gptdao.ai/get-started')">
+              Take your place to exhibit
+              <img src="../assets/images/general_return.png" alt="" />
+            </button>
+          </div>
+        </div>
+        <div class="ss-title" data-aos="flip-up">
+          SHOWCASE YOUR PRODUCT TO EVERYONE AT THE SUMMIT!
+        </div>
+        <div class="sss-title" data-aos="flip-up">
+          Located in the exhibition hall, the Booth allows you to conduct
+          meetings while ensuring optimal brand exposure. Brand's logo will be
+          featured on signage throughout the venue, displayed on website and
+          brochures.
+        </div>
+        <div class="Exhibition">
+          <Exhibition />
+        </div>
+      </section>
+
+      <div class="Recognition-bg">
+        <div class="cointainer">
+          <!--  -->
+          <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
+            <div
+              class="left-title before"
+              :class="screenWidth > 600 ? '' : 'mb'"
+              data-aos="flip-up"
+            >
+              Certificate of Recognition
+            </div>
+          </div>
+          <div class="ss-title">STAY WITH THE COMMUNITY</div>
+          <div class="Recognition">
+            <div class="list-img" data-aos="fade-right">
+              <img src="../assets/images/ico_certificate.png" alt="" />
+            </div>
+            <div class="list" data-aos="fade-up">
+              <div>
+                <div class="title">
+                  GPTDAO was presented to Certificate of Recognition by City of
+                  Saratoga on September 23, 2023.
+                </div>
+                <div class="text">
+                  Here at GenAI Summit, we engage with our community and
+                  collaborate with local residents. Our commitment to promoting
+                  and advancing artificial intelligence is a journey we proudly
+                  share with the local community. We look forward to fostering
+                  further innovation and shared success in the future.
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <img class="ico ico1" src="../assets/images/ico_dim1.png" alt="" />
-      <img class="ico ico2" src="../assets/images/ico_dim2.png" alt="" />
-      <img class="ico ico3" src="../assets/images/ico_dim3.png" alt="" />
-    </div>
-  </section>
-  <div class="bg">
-    <section class="cointainer section-default">
-      <div class="left-content">
-        <div data-aos="fade-up">
-          <div class="sm-title">THREE DAYS OF COMPREHENSIVE ACTIVITIES</div>
-          <div class="b-title">
-            <img src="../assets/images/icon-fang.png" alt="" />
-            GenAI Summit San Francisco 2024
-          </div>
-          <div class="text">
-            Dive into the heart of innovation at the GenAI Summit San Francisco
-            2024, set in the awe-inspiring, historic, Palace of Fine Arts from
-            May 29th to May 31st. This summit is not just an event, it’s an
-            extraordinary convergence of the brightest minds in Generative AI,
-            encapsulating the spirit of the future.
-          </div>
-          <div class="b-title">
-            <img src="../assets/images/icon-fang.png" alt="" />
+      <section id="section4" class="cointainer">
+        <!--  -->
 
-            The Summit at a Glance
-          </div>
-          <div class="text">
-            • Venue Size: 200,000+ square feet of immersive experiences. <br />
-            • Anticipated Audience: 30,000+ attendees from around the globe.<br />
-            • Exhibitors: 300+ exhibitors showcasing groundbreaking AI
-            solutions.<br />
-            • Venture Capitalists: 300+ VCs looking for the next big idea.<br />
-            • Speakers: 200+ industry-leading experts sharing invaluable
-            insights.<br />
-            • Media Coverage: 50+ media outlets capturing every exciting
-            moment.<br />
-            • Dynamic Tracks: 20+ tracks showcasing exhilarating discoveries and
-            information.
+        <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
+          <div class="left-title before" :class="screenWidth > 600 ? '' : 'mb'"  data-aos="flip-up">
+            Tentative Event Agenda
           </div>
         </div>
-      </div>
-      <div class="right-content" :class="screenWidth > 600 ? '' : 'mb'">
-        <div
-          class="img-content"
-          :class="screenWidth > 600 ? '' : 'mb'"
-          data-aos="fade-left"
-          @mousemove="handleMouseMove"
-        >
-          <img class="AI" src="../assets/images/icon-AI.png" alt="" />
-          <img class="DP" src="../assets/images/icon-dp.png" alt="" />
-          <img
-            class="SD"
-            src="../assets/images/icon-sd.png"
-            alt=""
-            ref="imageRef"
-          />
-          <img
-            class="SD1"
-            src="../assets/images/icon-sd1.png"
-            alt=""
-            ref="imageRef1"
-          />
-          <img
-            class="ELE"
-            src="../assets/images/icon-ele.png"
-            alt=""
-            ref="imageRef2"
-          />
-        </div>
-      </div>
-    </section>
-    <div class="section-number">
-      <section class="cointainer ">
-        <div class="c" :class="screenWidth > 600 ? '' : 'mb'">
-          <div class="item" v-for="(item, index) in numberList" :key="index">
-            <img :src="icon1" alt="" v-if="index == 0" />
-            <img :src="icon2" alt="" v-if="index == 1" />
-            <img :src="icon3" alt="" v-if="index == 2" />
-            <img :src="icon4" alt="" v-if="index == 3" />
-            <img :src="icon5" alt="" v-if="index == 4" />
-            <img :src="icon6" alt="" v-if="index == 5" />
-            <img :src="icon7" alt="" v-if="index == 6" />
-            <div class="number">
-              <NumberCount
-                :startNumber="item.number - 200 > 0 ? item.number - 200 : 1"
-                :endNumber="item.number"
+        <div class="ss-title" data-aos="flip-up">MAXIMIZE YOUR JOURNEY AT THE AI SUMMIT</div>
+        <div class="ss-title2" data-aos="flip-up">(Note: Tentative Outline, update weekly)</div>
+        <SwiperDay />
+      </section>
+
+      <div class="dialog" v-if="showDialog" @click="closeDialog">
+        <div class="img-content">
+          <div class="detail" :style="style" @click.stop>
+            <img class="info" :src="showImgUrl" alt="" />
+            <div class="setting">
+              <img
+                src="../assets/images/close.png"
+                @click="closeDialog"
+                alt=""
+              />
+              <img
+                src="../assets/images/all.png"
+                alt=""
+                @click.stop="pullAll"
+                v-if="!pullAllStatus && screenWidth > 700"
               />
             </div>
-            <div class="tip">
-              {{ item.tip }}
-            </div>
-          </div>
-          <StarBackground />
-          <!-- <img class="wavs" src="../assets/images/wavs.gif" alt=""> -->
-        </div>
-      </section>
-    </div>
-
-    <section id="section2" class="cointainer">
-      <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
-       
-        <div class="left-title before" :class="screenWidth > 600 ? '' : 'mb'">
-          Newly Updated Speakers
-        </div>
-
-        <div class="page" v-if="swiperPageInfo && screenWidth > 600">
-          <div class="fk" @click="swiperpre">
-            <img class="d" src="../assets/images/Ai_Button_left.png" alt="" />
-            <img
-              class="a"
-              src="../assets/images/Ai_Button_left_white.png"
-              alt=""
-            />
-          </div>
-          <div class="fk long">
-            <div class="">
-              <span class="big">{{ swiperPageInfo.nowPage }}</span
-              >/{{ swiperPageInfo.pages }}
-            </div>
-          </div>
-          <div class="fk" @click="swipernext">
-            <img class="d" src="../assets/images/Ai_Button_right.png" alt="" />
-            <img
-              class="a"
-              src="../assets/images/Ai_Button_right_white.png"
-              alt=""
-            />
-          </div>
-        </div>
-      </div>
-      <div class="swiper-content">
-        <Swiper ref="SwiperSpeaker" />
-      </div>
-      <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
-        <div class="left-title before" :class="screenWidth > 600 ? '' : 'mb'">
-          Speakers
-        </div>
-        <div class="open-btn">
-          <button @click="openUrl('https://www.gptdao.ai/get-started')">
-            Be our Speaker
-            <img src="../assets/images/general_return.png" alt="" />
-          </button>
-        </div>
-      </div>
-      <div class="ss-title">LISTEN TO THE EVENT SPEAKERS</div>
-
-      <div class="speaker-list" :class="screenWidth > 600 ? '' : 'mb'">
-        <div
-          class="list"
-          v-for="(item, index) in showSpeakersList"
-          :key="index"
-        >
-          <PersionItem :item="item" />
-        </div>
-      </div>
-
-      <div
-        class="moreDiv"
-        v-if="showSpeakersList.length < speakersList.length"
-        @click="moreHanle"
-      >
-        More
-        <img class="a" src="../assets/images/general_return_xia.png" alt="" />
-        <img class="d" src="../assets/images/general_return_xia_d.png" alt="" />
-      </div>
-      <div
-        class="moreDiv"
-        v-if="showSpeakersList.length == speakersList.length"
-        @click="closeHanle"
-      >
-        Hide
-        <img class="a" src="../assets/images/general_return_up.png" alt="" />
-        <img class="d" src="../assets/images/general_return_up_d.png" alt="" />
-      </div>
-      <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
-        <div>
-          <div class="left-title before" :class="screenWidth > 600 ? '' : 'mb'">
-            Why GenAI Summit
-          </div>
-          <div
-            class="left-title left-title2"
-            :class="screenWidth > 600 ? '' : 'mb'"
-          >
-            San Francisco 2024 Should Not Be Missed
-          </div>
-        </div>
-      </div>
-      <div class="ss-title">EXPERIENCE THE FUTURE AT GENAL SUMMIT SF 2024</div>
-      <div class="instration" :class="screenWidth > 600 ? '' : 'mb'">
-        <div class="list">
-          <div class="top">
-            <img src="../assets/images/Ai_ico_8.png" alt="" />
-            <span class="title">Cutting-Edge AI Innovations</span>
-          </div>
-          <div class="bottom">
-            Witness the unveiling of the next-gen AI technologies.
-          </div>
-        </div>
-        <div class="list">
-          <div class="top">
-            <img src="../assets/images/Ai_ico_9.png" alt="" />
-            <span class="title">Networking Opportunities</span>
-          </div>
-          <div class="bottom">Engage with global tech leaders and peers.</div>
-        </div>
-        <div class="list">
-          <div class="top">
-            <img src="../assets/images/Ai_ico_10.png" alt="" />
-            <span class="title">Investment Insights</span>
-          </div>
-          <div class="bottom">
-            Access emerging startups and investment potential.
-          </div>
-        </div>
-        <div class="list">
-          <div class="top">
-            <img src="../assets/images/Ai_ico_11.png" alt="" />
-            <span class="title">Global AI Trends</span>
-          </div>
-          <div class="bottom">Stay ahead with worldwide AI developments.</div>
-        </div>
-        <div class="list">
-          <div class="top">
-            <img src="../assets/images/Ai_ico_12.png" alt="" />
-            <span class="title">Collaborative Ventures</span>
-          </div>
-          <div class="bottom">
-            Explore partnerships and collaborative projects.
-          </div>
-        </div>
-
-        <div class="list">
-          <div class="top">
-            <img src="../assets/images/Ai_ico_13.png" alt="" />
-            <span class="title">Inspiring Environment</span>
-          </div>
-          <div class="bottom">
-            The Palace of Fine Arts, a blend of history and innovation, creates
-            a perfect setting for futuristic dialogues.
-          </div>
-        </div>
-        <div class="list">
-          <div class="top">
-            <img src="../assets/images/Ai_ico_14.png" alt="" />
-            <span class="title">Product Launch Platform</span>
-          </div>
-          <div class="bottom">
-            Ideal for revealing new AI products to a large, diverse audience.
-          </div>
-        </div>
-        <div class="list">
-          <div class="top">
-            <img src="../assets/images/Ai_ico_15.png" alt="" />
-            <span class="title">Educational Value</span>
-          </div>
-          <div class="bottom">
-            Deepen AI knowledge with sessions from top experts.
-          </div>
-        </div>
-        <div class="list">
-          <div class="top">
-            <img src="../assets/images/Ai_ico_16.png" alt="" />
-            <span class="title">Career Advancement</span>
-          </div>
-          <div class="bottom">
-            Open doors to new career opportunities in AI.
-          </div>
-        </div>
-        <div class="list">
-          <div class="top">
-            <img src="../assets/images/Ai_ico_17.png" alt="" />
-            <span class="title">Visionary Experience</span>
-          </div>
-          <div class="bottom">
-            Be part of a community shaping the AI revolution.
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <div class="Experience">
-      <div class="bg"></div>
-      <div
-        class="cointainer"
-        data-aos="fade-up"
-        data-aos-delay="200"
-        data-aos-offset="50"
-      >
-        <div class="t1">EMPOWERING TOMORROW'S INNOVATORS</div>
-        <div class="t2">Experience the Future at</div>
-        <div class="t2">GenAI Summit</div>
-        <div class="t3">
-          Be a part of this grand event where every conversation, demonstration,
-          and interaction open a window to the future. Whether you’re looking to
-          invest, innovate, or ignite your career in AI, GenAI Summit 2024 is
-          where you’ll want to be.
-          <br />
-          <br />
-          “Step into the future of AI at GenAI Summit San Francisco 2024 – where
-          ideas meet action, and tomorrow is shaped today!”
-        </div>
-      </div>
-    </div>
-    <section id="section3" class="cointainer">
-      <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
-        <div class="left-title before" :class="screenWidth > 600 ? '' : 'mb'">
-          Sponsors
-        </div>
-        <div class="open-btn">
-          <button @click="openUrl('https://www.gptdao.ai/get-started')">
-            Become Our Sponsor
-            <img src="../assets/images/general_return.png" alt="" />
-          </button>
-        </div>
-      </div>
-      <div class="ss-title">CHECK WHO MAKES THIS EVENT POSSIBLE!</div>
-
-      <div class="office_content">
-        <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
-          <div class="title_img">
-            <img src="../assets/images/diam.png" alt="" />
-          </div>
-          <div
-            class="list"
-            @click="openUrl('https://www.microsoft.com/en-us/')"
-          >
-            <img class="d" src="../assets/images/ico_logo_m2.png" alt="" />
-            <img class="a" src="../assets/images/ico_logo_m1.png" alt="" />
-          </div>
-        </div>
-      </div>
-      <div class="office_content">
-        <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
-          <div class="title_img">
-            <img src="../assets/images/plat.png" alt="" />
-          </div>
-          <div class="list" @click="openUrl('https://cloud.google.com/')">
-            <img class="d" src="../assets/images/ico_logo_g2.png" alt="" />
-            <img class="a" src="../assets/images/ico_logo_g1.png" alt="" />
-          </div>
-          <div class="list" @click="openUrl('https://aws.amazon.com/cn/free')">
-            <img class="d" src="../assets/images/ico_logo_aw2.png" alt="" />
-            <img class="a" src="../assets/images/ico_logo_aw1.png" alt="" />
-          </div>
-        </div>
-      </div>
-
-      <!--  -->
-      <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
-        <div class="left-title before" :class="screenWidth > 600 ? '' : 'mb'">
-          Exhibition Opportunites
-        </div>
-        <div class="open-btn">
-          <button @click="openUrl('https://www.gptdao.ai/get-started')">
-            Take your place to exhibit
-            <img src="../assets/images/general_return.png" alt="" />
-          </button>
-        </div>
-      </div>
-      <div class="ss-title">
-        SHOWCASE YOUR PRODUCT TO EVERYONE AT THE SUMMIT!
-      </div>
-      <div class="sss-title">
-        Located in the exhibition hall, the Booth allows you to conduct meetings
-        while ensuring optimal brand exposure. Brand's logo will be featured on
-        signage throughout the venue, displayed on website and brochures.
-      </div>
-      <div class="Exhibition">
-        <Exhibition />
-      </div>
-      <!--  -->
-      <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
-        <div class="left-title before" :class="screenWidth > 600 ? '' : 'mb'">
-          Certificate of Recognition
-        </div>
-      </div>
-      <div class="ss-title">STAY WITH THE COMMUNITY</div>
-      <div class="Recognition">
-        <div class="list-img" data-aos="fade-right">
-          <img src="../assets/images/ico_certificate.png" alt="" />
-        </div>
-        <div class="list" data-aos="fade-up">
-          <div>
-            <div class="title">
-              GPTDAO was presented to Certificate of Recognition by City of
-              Saratoga on September 23, 2023.
-            </div>
-            <div class="text">
-              Here at GenAI Summit, we engage with our community and collaborate
-              with local residents. Our commitment to promoting and advancing
-              artificial intelligence is a journey we proudly share with the
-              local community. We look forward to fostering further innovation
-              and shared success in the future.
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="section4" class="cointainer">
-      <!--  -->
-
-      <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
-        <div class="left-title before" :class="screenWidth > 600 ? '' : 'mb'">
-          Tentative Event Agenda
-        </div>
-      </div>
-      <div class="ss-title">MAXIMIZE YOUR JOURNEY AT THE AI SUMMIT</div>
-      <div class="ss-title2">(Note: Tentative Outline, update weekly)</div>
-      <div class="ss-content">
-        <div class="dayTab">
-          <div
-            class="dayTab_item"
-            :class="dayTab == 'Day1' ? 'active' : ''"
-            @click="dayTabToggle('Day1')"
-          >
-            Day1
-          </div>
-          <div
-            class="dayTab_item"
-            :class="dayTab == 'Day2' ? 'active' : ''"
-            @click="dayTabToggle('Day2')"
-          >
-            Day2
-          </div>
-          <div
-            class="dayTab_item"
-            :class="dayTab == 'Day3' ? 'active' : ''"
-            @click="dayTabToggle('Day3')"
-          >
-            Day3
-          </div>
-        </div>
-        <div class="inner_ss-content">
-          <div
-            class="ss-content_item"
-            data-aos="fade-up"
-            v-for="item in showOutlineList"
-            :key="item"
-          >
-            <!-- <div class="ss-content_item" data-aos="fade-up" v-for="item in currentOutlineList" :key="item.title"> -->
-            <img class="flagBg" src="../assets/images/ico_yuan.svg" alt="" />
-            <div class="title">{{ item.title }}</div>
-            <div class="detail" v-html="item.content"></div>
-          </div>
-        </div>
-      </div>
-      <br />
-    </section>
-
-    <div class="dialog" v-if="showDialog" @click="closeDialog">
-      <div class="img-content">
-        <div class="detail" :style="style" @click.stop>
-          <img class="info" :src="showImgUrl" alt="" />
-          <div class="setting">
-            <img src="../assets/images/close.png" @click="closeDialog" alt="" />
-            <img
-              src="../assets/images/all.png"
-              alt=""
-              @click.stop="pullAll"
-              v-if="!pullAllStatus && screenWidth > 700"
-            />
           </div>
         </div>
       </div>
@@ -540,6 +592,7 @@ import PersionItem from "../components/PersionItem.vue";
 import Swiper from "../components/Swiper.vue";
 import Exhibition from "../components/Exhibition.vue";
 import StarBackground from "../components/StarBackground.vue";
+import SwiperDay from "../components/SwiperDay.vue";
 
 import speakers from "../utils/speaker";
 import EventBus from "../utils/EventBus.js";
@@ -837,6 +890,7 @@ export default {
     Swiper,
     Exhibition,
     StarBackground,
+    SwiperDay
   },
   methods: {},
   mounted() {},
@@ -850,7 +904,6 @@ section {
   overflow: hidden;
 }
 .Experience {
-  margin-top: 1rem;
   width: 100%;
   height: 500px;
   background-image: url("../assets/images/ico_background.png"); /* 设置背景图 */
@@ -860,17 +913,14 @@ section {
   align-items: center;
   justify-content: start;
   position: relative;
+  background-attachment: fixed;
   .bg {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(
-      90deg,
-      #0084f4 0%,
-      rgba(0, 119, 221, 0) 100%
-    ) !important; /* 设置背景颜色 */
+    background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
   }
   .t1 {
     font-family: HarmonyOS Sans SC Regular;
@@ -1176,8 +1226,7 @@ section {
       align-items: center;
       img {
         width: 0.48rem;
-        margin-right: -0.2rem;
-        margin-top: -0.3rem;
+        margin-right: 0.1rem;
       }
     }
     .text {
@@ -1218,11 +1267,11 @@ section {
         height: 40%;
       }
       .AI {
-        width: 50%;
+        width: 80%;
         left: 50%;
-        margin-left: -25%;
+        margin-left: -40%;
         position: absolute;
-        bottom: 30%;
+        bottom: 25%;
         animation: up-down 2s ease-in-out infinite alternate-reverse both;
       }
       @keyframes up-down {
@@ -1250,7 +1299,7 @@ section {
         }
         &.ELE {
           width: 1.6rem;
-          right: 0%;
+          right: -30%;
           bottom: 50%;
         }
       }
@@ -1334,16 +1383,19 @@ section {
     text-transform: none;
     margin-top: 0.3rem;
     position: relative;
-    padding-left: .2rem;
-    &.before::before{
-      content: '';
+    padding-left: 0.2rem;
+    &.before::before {
+      content: "";
       position: absolute;
-      width: .88rem;
-      height: .88rem;
-      background: linear-gradient( 135deg, rgba(7,120,216,0.36) 0%, rgba(9,119,213,0) 100%);
+      width: 0.88rem;
+      height: 0.88rem;
+      background: linear-gradient(
+        135deg,
+        rgba(7, 120, 216, 0.36) 0%,
+        rgba(9, 119, 213, 0) 100%
+      );
       top: 0;
       left: 0;
-
     }
     &.mb {
       font-size: 0.5rem;
@@ -1357,10 +1409,8 @@ section {
       background: none;
       padding-left: 0;
       margin-top: 0;
-     
     }
   }
-
 }
 .ss-title {
   font-family: HarmonyOS Sans SC Regular;
@@ -1404,35 +1454,59 @@ section {
 .instration {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 0.4rem;
   &.mb {
     .list {
       width: 47%;
+      margin-right: 6%;
+      &:nth-child(3n) {
+        margin-right: 6%;
+      }
+      &:nth-child(2n) {
+        margin-right: 0;
+      }
     }
   }
   .list {
     margin-top: 0.3rem;
-    background: #ffffff;
-    width: 23%;
-    margin-right: 2.66%;
+    width: 32%;
+    margin-right: 2%;
     padding: 0.3rem 0.3rem 0.6rem 0.3rem;
     cursor: pointer;
-    border: 1px solid #ffffff;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.26) 0%,
+      rgba(255, 255, 255, 0.06) 100%
+    );
+    border-radius: 0px 0px 0px 0px;
+    border: 1px solid transparent;
+    border-bottom: none;
+    position: relative;
+    overflow: hidden;
+    .active {
+      width: 2rem;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      z-index: 1;
+      transition: opacity 0.8s ease; /* 透明度变化将在1秒内平滑过渡 */
+      opacity: 0;
+
+    }
     &:hover {
-      background: linear-gradient(
-        180deg,
-        rgba(255, 255, 255, 0) 0%,
-        #ffffff 100%
-      );
-      border-radius: 0px 0px 0px 0px;
       border: 1px solid;
+      .active {
+        opacity: 1;
+      }
       border-image: linear-gradient(
           180deg,
-          rgba(0, 138, 255, 1),
-          rgba(0, 138, 255, 0)
+          rgba(255, 255, 255, 0.54),
+          rgba(255, 255, 255, 0)
         )
         1 1;
+      border-bottom: none;
     }
-    &:nth-child(4n) {
+    &:nth-child(3n) {
       margin-right: 0;
     }
     .top {
@@ -1446,7 +1520,7 @@ section {
         font-family: HarmonyOS Sans SC Bold;
         font-weight: bold;
         font-size: 0.33rem;
-        color: #1d2a42;
+        color: #ffffff;
         text-align: left;
         font-style: normal;
         text-transform: none;
@@ -1457,12 +1531,14 @@ section {
       font-family: HarmonyOS Sans SC Regular;
       font-weight: 400;
       font-size: 0.3rem;
-      color: #78808f;
+      color: rgba(255, 255, 255, 0.7);
       line-height: 18px;
       text-align: left;
       font-style: normal;
       text-transform: none;
       margin-top: 4%;
+      z-index: 2;
+      position: relative;
     }
   }
 }
@@ -1502,20 +1578,20 @@ section {
     transition: background-color 0.3s ease;
     z-index: 2;
     cursor: pointer;
-      &::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: -100%;
-        width: 100%;
-        height: 100%;
-        background-color: #008aff;
-        transition: left 0.15s ease;
-        z-index: -1;
-      }
-      &:hover::before {
-        left: 0;
-      } 
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background-color: #008aff;
+      transition: left 0.15s ease;
+      z-index: -1;
+    }
+    &:hover::before {
+      left: 0;
+    }
     img {
       margin: 0 0.1rem;
       &.d {
@@ -1537,6 +1613,7 @@ section {
       }
     }
   }
+
   .swiper-content {
     width: 100%;
     margin-top: 0.5rem;
@@ -1598,6 +1675,43 @@ section {
     }
   }
 }
+.GenAISummit {
+  background: url("../assets//images/GenAISummitBg.png") no-repeat;
+  background-size: 100% 100%;
+  padding: 2rem 0 1rem;
+  .title {
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    font-size: 0.74rem;
+    color: #ffffff;
+    line-height: 0.87rem;
+    text-align: center;
+    font-style: normal;
+    .color {
+      font-size: 0.74rem;
+      text-transform: none;
+      font-style: normal;
+      background: linear-gradient(
+        to right,
+        #0066ff 0%,
+        #0075ff 35%,
+        #0044c9 100%
+      );
+      -webkit-background-clip: text; /* 将背景应用到文字上 */
+      color: transparent; /* 设置文字颜色为透明，显示渐变效果 */
+    }
+  }
+  .ss-title {
+    font-family: Microsoft YaHei, Microsoft YaHei;
+    font-weight: 400;
+    font-size: 0.296rem;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 0.3rem;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+  }
+}
 #section3 {
   .office {
     display: flex;
@@ -1624,14 +1738,21 @@ section {
       }
     }
     .list {
-      width: 24%;
+      flex: 1;
       background: #ffffff;
       text-align: center;
       cursor: pointer;
-      height: 100%;
+      height: 1.8rem;
       z-index: 2;
+      display: flex;
+      justify-content: center;
+      border-radius: 1.5rem;
+      margin-left: .4rem;
+      &:first-child{
+        margin-left: 0;
+      }
       img {
-        width: 100%;
+        height: 1.8rem;
         z-index: -1;
         &.d {
           display: block;
@@ -1654,14 +1775,39 @@ section {
       }
     }
   }
+
+}
+.Recognition-bg{
+  background:  url('../assets/images/Recognition-bg.png');
+  background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    position: relative;
+    padding: .6rem 0 1rem;
+    .cointainer{
+      .bg-title{
+        margin-top: 0;
+      }
+      .left-title{
+        color: #FFFFFF;
+      }
+      .ss-title{
+        color: rgba(255,255,255,.7);
+      }
+    }
   .Recognition {
     display: flex;
     flex-wrap: wrap;
     margin-top: 0.4rem;
     background: #ffffff;
+   
     .list-img {
       width: 100%;
       max-width: 400px;
+      display: flex;
+      align-items: center;
       img {
         width: 100%;
       }
@@ -1696,89 +1842,7 @@ section {
   }
 }
 #section4 {
-  margin-bottom: 2.2222rem;
-  .ss-content {
-    width: 100%;
-    height: 11.1111rem;
-    background: rgba(255, 255, 255, 0.5);
-    border-radius: 0px 0px 0px 0px;
-    border: 2px solid;
-    border-image: linear-gradient(
-        180deg,
-        rgba(255, 255, 255, 1),
-        rgba(255, 255, 255, 0)
-      )
-      2 2;
-    padding: 0.7407rem 0 0 0.7407rem;
-    margin-top: 0.4444rem;
-    .dayTab {
-      margin-bottom: 0.5185rem;
-      display: flex;
-      gap: 0.2222rem;
-      .dayTab_item {
-        cursor: pointer;
-        width: 3.7037rem;
-        height: 0.7407rem;
-        background: rgba(0, 138, 255, 0.1);
-        font-family: HarmonyOS Sans SC Bold;
-        font-weight: bold;
-        font-size: 0.2963rem;
-        color: #008aff;
-        line-height: 0.7407rem;
-        text-align: center;
-        transition: all 0.5s;
-        position: relative;
-        &:hover,
-        &.active {
-          background: #008aff;
-          color: #ffffff;
-          &::after {
-            content: ""; //一定要有它，否则效果出不来
-            position: absolute; //给高亮元素定位，在这之前要给statusItem元素设置position:relative定位
-            left: 50%;
-            top: 0.7407rem;
-            transform: translate(-50%, 0); //居中显示
-            border: 0.1rem solid transparent; //小三角的大小
-            border-top-color: #428ffc; //小三角朝下
-          }
-        }
-      }
-    }
-    .inner_ss-content {
-      width: 100%;
-      height: 100%;
-      color: #000000;
-      overflow: hidden;
-      overflow-y: auto;
-      padding-right: 1.111rem;
-      padding-left: 6px;
-      .ss-content_item {
-        padding-left: 0.44rem;
-        border-left: 1px solid rgba(0, 0, 0, 0.2);
-        position: relative;
-        padding-bottom: 0.7407rem;
-        font-family: HarmonyOS Sans SC bold;
-        .flagBg {
-          width: 12px;
-          height: 12px;
-          position: absolute;
-          top: 0;
-          left: -6px;
-        }
-        .title {
-          // padding-top: 0.44rem;
-          font-size: 0.44rem;
-          font-weight: bold;
-          font-family: HarmonyOS Sans SC bold;
-        }
-        .detail {
-          font-size: 0.2963rem;
-          font-family: HarmonyOS Sans SC Regular;
-          margin-top: 0.2963rem;
-        }
-      }
-    }
-  }
+
 }
 
 .open-btn {
@@ -1804,20 +1868,20 @@ section {
     overflow: hidden;
     transition: background-color 0.5s ease;
     z-index: 2;
-      &::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: -100%;
-        width: 100%;
-        height: 100%;
-        background-color: #008aff;
-        transition: left 0.15s ease;
-        z-index: -1;
-      }
-      &:hover::before {
-        left: 0;
-      } 
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background-color: #008aff;
+      transition: left 0.15s ease;
+      z-index: -1;
+    }
+    &:hover::before {
+      left: 0;
+    }
     img {
       display: none;
       width: 0.37rem;

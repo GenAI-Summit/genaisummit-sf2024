@@ -8,30 +8,30 @@
         <img src="../assets/images/genaisummit.png" alt="">
       </div>
     </div>
-    <div class="nav-list" v-if="screenWidth > 600">
+    <div class="nav-list">
         <ul>
-            <li>
+            <li v-if="screenWidth > 600">
                 <a :to="null" @click="scrollToSection('section1')" :class="{ active: activeSection === 'section1' }">HOME</a>
             </li>
-            <li>
+            <li v-if="screenWidth > 600">
                 <a :to="null" @click="scrollToSection('section2')" :class="{ active: activeSection === 'section2' }">SPEAKERS</a>
             </li>
-            <li>
+            <li v-if="screenWidth > 600">
                 <a :to="null" @click="scrollToSection('section3')" :class="{ active: activeSection === 'section3' }">SPONSORS</a>
             </li>
-            <li>
+            <li v-if="screenWidth > 600">
                 <a :to="null" @click="scrollToSection('section4')" :class="{ active: activeSection === 'section4' }">SCHEDULE</a>
             </li>
-            <li>
+            <li v-if="screenWidth > 600">
                 <a href="https://linktr.ee/gptdao" target="_black" :class="{ active: activeSection === 'section5' }">CONTACT</a>
             </li>
-            <li>
+            <li v-if="screenWidth > 600">
                 <a href="https://sv2023.genaisummit.ai/" target="_black" :class="{ active: activeSection === 'section6' }">PREVIOUS EVENT</a>
             </li>
             <div class="logo">
-        <img src="../assets/images/microsoftAI.png" alt="">
-    </div>
-            <li>
+              <img src="../assets/images/microsoftAI.png" alt="">
+            </div>
+            <li v-if="screenWidth > 600">
                 <button @click="openHandle">Buy Tickets</button>
             </li>
         </ul>
@@ -153,7 +153,7 @@ export default {
                     text-decoration: none;
                     font-family: HarmonyOS Sans SC Bold;
                     font-weight: 400;
-                    font-size: .31rem;
+                    font-size: .259rem;
                     color: #78808F;
                     text-align: left;
                     font-style: normal;

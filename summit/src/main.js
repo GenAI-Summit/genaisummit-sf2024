@@ -15,7 +15,7 @@ AOS.init({
     // Global settings:
     offset: -100, // 偏移量，以像素为单位，相对于元素底部的位置开始触发动画
     duration: 1500, // 动画持续时间，以毫秒为单位
-    delay: 500,
+    delay: 600,
     anchorPlacement: 'center-bottom' 
   })
 const app = createApp(App)

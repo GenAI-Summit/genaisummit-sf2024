@@ -157,6 +157,7 @@
 
     <section id="section2" class="cointainer">
       <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
+       
         <div class="left-title before" :class="screenWidth > 600 ? '' : 'mb'">
           Newly Updated Speakers
         </div>
@@ -459,11 +460,11 @@
 
       <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
         <div class="left-title before" :class="screenWidth > 600 ? '' : 'mb'">
-          Event Outline
+          Tentative Event Agenda
         </div>
       </div>
       <div class="ss-title">MAXIMIZE YOUR JOURNEY AT THE AI SUMMIT</div>
-      (Note: Tentative Outline, update weekly.)
+      <div class="ss-title2">(Note: Tentative Outline, update weekly)</div>
       <div class="ss-content">
         <div class="dayTab">
           <div
@@ -874,7 +875,7 @@ section {
   .t1 {
     font-family: HarmonyOS Sans SC Regular;
     font-weight: 400;
-    font-size: 0.3rem;
+    font-size: 0.33rem;
     color: #ffffff;
     line-height: 0.37rem;
     text-align: left;
@@ -899,9 +900,9 @@ section {
   .t3 {
     font-family: HarmonyOS Sans SC Regular;
     font-weight: 400;
-    font-size: 0.3rem;
+    font-size: 0.35rem;
     color: #ffffff;
-    line-height: 0.31rem;
+    line-height: 0.48rem;
     text-align: left;
     font-style: normal;
     text-transform: none;
@@ -1183,12 +1184,12 @@ section {
       margin-top: 0.2rem;
       font-family: HarmonyOS Sans SC Regular;
       font-weight: 400;
-      font-size: 0.296rem;
+      font-size: 0.37rem;
       color: #78808f;
       text-align: left;
       font-style: normal;
       text-transform: none;
-      line-height: 0.4rem;
+      line-height: 0.5rem;
     }
   }
   .right-content {
@@ -1356,8 +1357,10 @@ section {
       background: none;
       padding-left: 0;
       margin-top: 0;
+     
     }
   }
+
 }
 .ss-title {
   font-family: HarmonyOS Sans SC Regular;
@@ -1371,12 +1374,24 @@ section {
   padding: 0.1rem 0;
   margin-top: 0.1rem;
 }
+.ss-title2 {
+  font-family: HarmonyOS Sans SC Regular;
+  font-weight: 400;
+  font-size: 0.296rem;
+  color: #000000;
+  line-height: 19px;
+  text-align: left;
+  font-style: normal;
+  text-transform: none;
+  padding: 0.1rem 0;
+  margin-top: 0.1rem;
+}
 .sss-title {
   font-family: HarmonyOS Sans SC Regular;
   font-weight: 400;
   font-size: 0.31rem;
   color: #000000;
-  line-height: 0.296rem;
+  line-height: 0.45rem;
   text-align: left;
   font-style: normal;
   text-transform: none;
@@ -1443,7 +1458,7 @@ section {
       font-weight: 400;
       font-size: 0.3rem;
       color: #78808f;
-      line-height: 16px;
+      line-height: 18px;
       text-align: left;
       font-style: normal;
       text-transform: none;
@@ -1670,8 +1685,8 @@ section {
         font-family: HarmonyOS Sans SC Regular;
         font-weight: 400;
         font-size: 0.296rem;
-        color: rgba(0, 0, 0, 0.4);
-        line-height: 0.37rem;
+        color: rgba(19, 19, 19, 0.4);
+        line-height: 0.5rem;
         text-align: left;
         font-style: normal;
         text-transform: none;

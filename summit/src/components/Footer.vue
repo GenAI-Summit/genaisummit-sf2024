@@ -5,7 +5,7 @@
        <div>
         <div class="title">Summit Information</div>
         <div class="list">May 29 - May 31, 2024</div>
-        <div class="list">Palace of Fine Arts, San Francisco, CA 94123</div>
+        <div class="list">Palace of Fine Arts, San Francisco, CA, 94123</div>
         <div class="list">genaix@gptdao.ai</div>
         <div class="list h" @click="openUrl('https://linktr.ee/gptdao')">Contact Us</div>
        </div>
@@ -13,7 +13,7 @@
       <div class="item">
         <div>
           <div class="title">Contact Us</div>
-          <div class="list">We sincerely invite you to join us, bring your creativity and ideals, and explore the future of generative AI together. Please contact us for more information about the Generative AI Summit San Francisco 2024.4</div>
+          <div class="list">We sincerely invite you to join us, bring your creativity and ideas, and explore the future of generative AI together. Please contact us for more information.</div>
           <div class="list">
             <img @click="openUrl('https://www.gptdao.ai/')" src="../assets/images/FB.png" alt="">
             <img @click="openUrl('https://twitter.com/GPTDAOGLOBAL')" src="../assets/images/IG.png" alt="">

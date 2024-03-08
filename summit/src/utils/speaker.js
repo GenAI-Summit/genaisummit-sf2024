@@ -37,6 +37,7 @@ import zhaoyan from '../assets/images/speakers/zhaoyan.jpg';
 import greg from '../assets/images/speakers/greg.jpg';
 import henry from '../assets/images/speakers/henry.jpg';
 import sharan from '../assets/images/speakers/sharan.jpg';
+import microsoft from '../assets/images/speakers/microsoft.png';
 
 
 import dr_yuhuai_wu2 from '../assets/images/speakers/popup/yuhuai.png';
@@ -81,6 +82,16 @@ import sharan2 from '../assets/images/speakers/popup/sharan.png';
 
 
 const speaker = [
+  {
+    name: 'Microsoft',
+    job: '',
+    tip: '',
+    image: microsoft,
+    website: 'https://www.microsoft.com/en-us/',
+    twitter: 'https://twitter.com/Microsoft',
+    linkedin: 'https://www.linkedin.com/company/microsoft/',
+    detail: microsoft,
+  },
   {
     name: 'Dr. Yuhuai Wu',
     job: 'Co-founder',

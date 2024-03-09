@@ -473,8 +473,8 @@
               class="list"
               @click="openUrl('https://aws.amazon.com/cn/free')"
             >
-              <img class="d" src="../assets/images/ico_logo_aw2.png" alt="" />
-              <img class="a" src="../assets/images/ico_logo_aw1.png" alt="" />
+              <img class="d" src="../assets/images/aws-startup.png" alt="" />
+              <img class="a" src="../assets/images/aws-startup2.png" alt="" />
             </div>
           </div>
         </div>

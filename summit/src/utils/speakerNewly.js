@@ -81,16 +81,16 @@ import sharan2 from '../assets/images/speakers/popup/sharan.png';
 
 
 const speakerNewly = [
-  {
-    name: 'Sharan Narang',
-    job: 'Co-Author',
-    tip: 'Llama 2',
-    image: sharan,
-    website: 'https://scholar.google.com/citations?user=CWOixywAAAAJ&hl=en',
-    twitter: 'https://twitter.com/sharan0909',
-    linkedin: 'https://www.linkedin.com/in/sharan-narang/',
-    detail: sharan2,
-  },
+  // {
+  //   name: 'Sharan Narang',
+  //   job: 'Co-Author',
+  //   tip: 'Llama 2',
+  //   image: sharan,
+  //   website: 'https://scholar.google.com/citations?user=CWOixywAAAAJ&hl=en',
+  //   twitter: 'https://twitter.com/sharan0909',
+  //   linkedin: 'https://www.linkedin.com/in/sharan-narang/',
+  //   detail: sharan2,
+  // },
   {
     name: 'Henry Peter',
     job: 'Co-Founder, CTO & CISO',

@@ -616,10 +616,7 @@ export default {
     const showImgUrl = ref("");
 
     const numberList = ref([
-      {
-        tip: "Sq. FT.",
-        number: 200000,
-      },
+
       {
         tip: "Attendees",
         number: 30000,
@@ -643,6 +640,10 @@ export default {
       {
         tip: "Tracks",
         number: 20,
+      },
+      {
+        tip: "Sq. FT.",
+        number: 200000,
       },
     ]);
     const handleMouseMove = (e) => {
@@ -1801,8 +1802,10 @@ section {
     display: flex;
     flex-wrap: wrap;
     margin-top: 0.4rem;
-    background: #ffffff;
-   
+    background: rgba(255,255,255,0.8);
+    border-radius: 0px 0px 0px 0px;
+    border: 1px solid;
+    border-image: linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)) 1 1;
     .list-img {
       width: 100%;
       max-width: 400px;

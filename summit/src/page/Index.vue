@@ -262,7 +262,7 @@
             Should Not Be Missed
           </div>
           <div class="ss-title">
-            EXPERIENCE THE FUTURE AT GENAL SUMMIT SF 2024
+            EXPERIENCE THE FUTURE AT GENAI SUMMIT SF 2024
           </div>
           <div class="instration" :class="screenWidth > 600 ? '' : 'mb'">
             <div class="list" data-aos="zoom-in">

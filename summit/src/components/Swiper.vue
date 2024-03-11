@@ -24,6 +24,9 @@ export default {
     });
     const spearkSList = ref(speakersNewly)
     const pageSize = ref(Math.floor(screenWidth.value/400) == 0 ? 1 : Math.floor(screenWidth.value/400))
+    if(screenWidth.value < 700){
+      pageSize.value = 2
+    }
     const nowPage = ref(1)
     const total = spearkSList.value.length
     const pages = ref(Math.ceil(total/pageSize.value))

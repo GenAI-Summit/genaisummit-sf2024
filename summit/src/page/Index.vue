@@ -255,7 +255,7 @@
       <div class="GenAISummit">
         <div class="cointainer">
           <div class="title" :class="screenWidth > 600 ? '' : 'mb'">
-            Why <span class="color">GenAI</span>
+            Why <span class="color">GenAI </span>
             <span class="color">Summit</span> San Francisco 2024
           </div>
           <div class="title" :class="screenWidth > 600 ? '' : 'mb'">

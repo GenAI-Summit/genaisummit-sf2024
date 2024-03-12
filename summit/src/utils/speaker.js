@@ -38,6 +38,12 @@ import greg from '../assets/images/speakers/greg.jpg';
 import henry from '../assets/images/speakers/henry.jpg';
 import sharan from '../assets/images/speakers/sharan.jpg';
 import microsoft from '../assets/images/speakers/microsoft.png';
+import dugar from '../assets/images/speakers/dugar.png';
+import mike from '../assets/images/speakers/mike.png';
+import ratner from '../assets/images/speakers/ratner.png';
+import roman from '../assets/images/speakers/roman.png';
+import timshi from '../assets/images/speakers/timshi.png';
+
 
 
 import dr_yuhuai_wu2 from '../assets/images/speakers/popup/yuhuai.png';
@@ -78,6 +84,11 @@ import zhaoyan2 from '../assets/images/speakers/popup/zhaoyan.png';
 import greg2 from '../assets/images/speakers/popup/greg.png';
 import henry2 from '../assets/images/speakers/popup/henry.png';
 import sharan2 from '../assets/images/speakers/popup/sharan.png';
+import dugar2 from '../assets/images/speakers/popup/dugar.png';
+import mike2 from '../assets/images/speakers/popup/mike.png';
+import ratner2 from '../assets/images/speakers/popup/ratner.png';
+import roman2 from '../assets/images/speakers/popup/roman.png';
+import timshi2 from '../assets/images/speakers/popup/timshi.png';
 
 
 
@@ -95,7 +106,7 @@ const speaker = [
   {
     name: 'Dr. Yuhuai Wu',
     job: 'Co-founder',
-    tip: 'X.AI',
+    tip: 'xAI',
     image: dr_yuhuai_wu,
     website: 'https://yuhuaiwu.github.io/',
     twitter: 'https://twitter.com/Yuhu_ai_',
@@ -103,15 +114,16 @@ const speaker = [
     detail: dr_yuhuai_wu2,
   },
   {
-    name: 'Dr. Denis Yarats',
-    job: 'CTO & Co-founder',
-    tip: 'Perplexity',
-    image: dr_denis_yarats,
-    website: 'https://cs.nyu.edu/~dy1042/',
-    twitter: 'https://twitter.com/denisyarats',
-    linkedin: 'https://www.linkedin.com/in/denisyarats/',
-    detail: dr_denis_yarats2,
-  },
+    name: 'Dr. Jim Fan',
+    job:'Senior Research Scientist',
+    tip:'NVIDIA AI',
+    
+    website:'https://jimfan.me/',
+    twitter: 'https://twitter.com/DrJimFan',
+    link:'https://www.linkedin.com/in/drjimfan/',
+    detail:jimfan2,
+    image: jimfan,
+},
   {
     name: 'Arvind Jain',
     job:'Founder & CEO',
@@ -124,16 +136,16 @@ const speaker = [
     image: arvind,
 },
 {
-    name: 'Dr. Jim Fan',
-    job:'Senior Research Scientist',
-    tip:'NVIDIA AI',
-    
-    website:'https://jimfan.me/',
-    twitter: 'https://twitter.com/DrJimFan',
-    link:'https://www.linkedin.com/in/drjimfan/',
-    detail:jimfan2,
-    image: jimfan,
+  name: 'Dr. Denis Yarats',
+  job: 'CTO & Co-founder',
+  tip: 'Perplexity',
+  image: dr_denis_yarats,
+  website: 'https://cs.nyu.edu/~dy1042/',
+  twitter: 'https://twitter.com/denisyarats',
+  linkedin: 'https://www.linkedin.com/in/denisyarats/',
+  detail: dr_denis_yarats2,
 },
+
 {
     name: 'Jason Wei',
     job: 'AI Researcher',
@@ -184,6 +196,17 @@ const speaker = [
     linkedin: 'https://www.linkedin.com/in/devendra-chaplot-b1605534/',
     detail: devendra2,
   },
+
+  {
+    name: 'Dr. Alexander Ratner',
+    job: 'CEO & Co-Founder',
+    tip: 'Snorkel AI',
+    image: ratner,
+    linkedin: 'https://www.linkedin.com/in/alexander-ratner-038ba239/',
+    twitter: 'https://twitter.com/ajratner',
+    website: 'https://councils.forbes.com/profile/Alexander-Ratner-CEO-Co-founder-Snorkel-AI/f1b8b27b-d6ae-40ca-baba-cc2c6c004721',
+    detail: ratner2,
+  },
   {
     name: 'Dr. Sam Liang',
     job: 'CEO & Founder',
@@ -205,6 +228,17 @@ const speaker = [
     detail: craig2,
   },
   {
+    name: 'Pankaj Dugar',
+    job: 'SVP & GM, North America',
+    tip: 'AI21 Labs',
+    image: dugar,
+    website: '',
+    linkedin: 'https://www.linkedin.com/in/pdugar/',
+    twitter: '',
+    detail: dugar2,
+  },
+
+  {
     name: 'Yaron Singer',
     job: 'CEO & Founder',
     tip: 'Robust Intelligence',
@@ -225,16 +259,16 @@ const speaker = [
     
     detail: yohei2,
   },
-  {
-    name: 'Jerry Liu',
-    job: 'Co-founder & CEO',
-    tip: 'LlamaIndex',
-    image: jerryliu,
-    website: 'https://jerryjliu.github.io/',
-    twitter: 'https://twitter.com/jerryjliu0',
-    linkedin: 'https://www.linkedin.com/in/jerry-liu-64390071/',
-    detail: jerryliu2,
-  },
+  // {
+  //   name: 'Jerry Liu',
+  //   job: 'Co-founder & CEO',
+  //   tip: 'LlamaIndex',
+  //   image: jerryliu,
+  //   website: 'https://jerryjliu.github.io/',
+  //   twitter: 'https://twitter.com/jerryjliu0',
+  //   linkedin: 'https://www.linkedin.com/in/jerry-liu-64390071/',
+  //   detail: jerryliu2,
+  // },
   {
     name: 'Jason Lopatecki',
     job: 'Founder & CEO',
@@ -245,16 +279,26 @@ const speaker = [
     linkedin: 'https://www.linkedin.com/in/jason-lopatecki-9509941/',
     detail: jason_l2,
   },
-  // {
-  //   name: 'Sharan Narang',
-  //   job: 'Co-Author',
-  //   tip: 'Llama 2',
-  //   image: sharan,
-  //   website: 'https://scholar.google.com/citations?user=CWOixywAAAAJ&hl=en',
-  //   twitter: 'https://twitter.com/sharan0909',
-  //   linkedin: 'https://www.linkedin.com/in/sharan-narang/',
-  //   detail: sharan2,
-  // },
+  {
+    name: 'Tim Shi',
+    job: 'Co-founder & CTO',
+    tip: 'Cresta',
+    image: timshi,
+    website: 'https://theorg.com/org/cresta/org-chart/tim-shi',
+    twitter: 'https://twitter.com/timshi_ai',
+    linkedin: 'https://www.linkedin.com/in/tianlinshi/',
+    detail: timshi2,
+  },
+  {
+    name: 'Sharan Narang',
+    job: 'Co-Author',
+    tip: 'Llama 2',
+    image: sharan,
+    website: 'https://scholar.google.com/citations?user=CWOixywAAAAJ&hl=en',
+    twitter: 'https://twitter.com/sharan0909',
+    linkedin: 'https://www.linkedin.com/in/sharan-narang/',
+    detail: sharan2,
+  },
   {
     name: 'Henry Peter',
     job: 'Co-Founder, CTO & CISO',
@@ -295,6 +339,19 @@ const speaker = [
     twitter: '',
     detail: ganapathy2,
   },
+
+  {
+    name: 'Ed Roman',
+    job: 'Managing Partner',
+    tip: 'Hack VC',
+    image: roman,
+    website: '',
+    linkedin: 'https://www.linkedin.com/in/ed-roman-19686/',
+    twitter: 'https://twitter.com/ed_roman',
+    detail: roman2,
+  },
+
+
   {
     name: 'Kevin McNamara',
     job: 'CEO and Founder',
@@ -305,14 +362,25 @@ const speaker = [
     linkedin: 'https://www.linkedin.com/in/kgmcnamara/',
     detail: kevin2,
   },
+
+  {
+    name: 'Mike Murchison',
+    job: 'CEO and Co-Founder',
+    tip: 'Ada',
+    image: mike,
+    website: 'https://paralleldomain.com/company',
+    twitter: 'https://twitter.com/kev_mcnamara',
+    linkedin: 'https://www.linkedin.com/in/kgmcnamara/',
+    detail: mike2,
+  },
   {
     name: 'Jake Heller, JD',
     job: 'CEO & Founder',
     tip: 'Casetext',
     image: jake,
-    website: 'https://casetext.com/about/',
-    twitter: 'https://twitter.com/Jacob_Heller',
-    linkedin: 'https://www.linkedin.com/in/jakeheller/',
+    website: 'https://www.murch.me/',
+    twitter: 'https://twitter.com/mimurchison',
+    linkedin: 'https://www.linkedin.com/in/mikemurchison/?originalSubdomain=ca',
     detail: jake2,
   },
   {
@@ -377,16 +445,16 @@ const speaker = [
     linkedin: 'https://www.linkedin.com/in/yichong-xu-46618383/',
     detail: yichong2,
   },
-  {
-    name: 'Dr. Simon Suo',
-    job: 'Co-Founder & CTO',
-    tip: 'LlamaIndex',
-    image: simon,
-    website: '',
-    twitter: '',
-    linkedin: 'https://www.linkedin.com/in/sdsuo/',
-    detail: simon2,
-  },
+  // {
+  //   name: 'Dr. Simon Suo',
+  //   job: 'Co-Founder & CTO',
+  //   tip: 'LlamaIndex',
+  //   image: simon,
+  //   website: '',
+  //   twitter: '',
+  //   linkedin: 'https://www.linkedin.com/in/sdsuo/',
+  //   detail: simon2,
+  // },
   {
     name: 'Shishir Patil',
     job: 'Creator',

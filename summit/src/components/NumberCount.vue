@@ -19,7 +19,7 @@
       },
       duration: {
         type: Number,
-        default: 1500 // 一半时间
+        default: 3000 // 一半时间
       }
     },
     setup(props, { emit }) {

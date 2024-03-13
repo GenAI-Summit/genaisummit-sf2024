@@ -840,6 +840,9 @@ export default {
       style.value.width = "50%";
       showImgUrl.value = "";
       pullAllStatus.value = false;
+      if (screenWidth.value < 700) {
+        style.value.width = "100%";
+      }
     };
     if (screenWidth.value < 700) {
       style.value.width = "100%";

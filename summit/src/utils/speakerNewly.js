@@ -43,6 +43,7 @@ import mike from '../assets/images/speakers/mike.png';
 import ratner from '../assets/images/speakers/ratner.png';
 import roman from '../assets/images/speakers/roman.png';
 import timshi from '../assets/images/speakers/timshi.png';
+import ross from '../assets/images/speakers/ross.png';
 
 
 
@@ -89,10 +90,22 @@ import mike2 from '../assets/images/speakers/popup/mike.png';
 import ratner2 from '../assets/images/speakers/popup/ratner.png';
 import roman2 from '../assets/images/speakers/popup/roman.png';
 import timshi2 from '../assets/images/speakers/popup/timshi.png';
+import ross2 from '../assets/images/speakers/popup/ross.png';
 
 
 
 const speakerNewly = [
+  {
+    name: 'Jonathan Ross',
+    job:'Founder & CEO',
+    tip:'Groq',
+    
+    website:'',
+    twitter: 'https://twitter.com/JonathanRoss321',
+    link:'https://www.linkedin.com/in/ross-jonathan/',
+    detail:ross2,
+    image: ross,
+  },
   {
     name: 'Dr. Alexander Ratner',
     job: 'CEO & Co-Founder',

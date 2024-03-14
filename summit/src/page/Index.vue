@@ -213,8 +213,8 @@
           </div>
         </div>
         <div class="ss-title" data-aos="flip-up">LISTEN TO THE EVENT SPEAKERS</div>
-
-        <div class="speaker-list" :class="screenWidth > 600 ? '' : 'mb'">
+        <div class="speak-content" :style="heightStyle">
+          <div class="speaker-list" ref="speakerList" :class="screenWidth > 600 ? '' : 'mb'">
           <div
             class="list"
             v-for="(item, index) in showSpeakersList"
@@ -224,10 +224,11 @@
             <PersionItem :item="item" />
           </div>
         </div>
+        </div>
 
         <div
           class="moreDiv"
-          v-if="showSpeakersList.length < speakersList.length"
+          v-if="!showAll"
           @click="moreHanle"
         >
           More
@@ -240,7 +241,7 @@
         </div>
         <div
           class="moreDiv"
-          v-if="showSpeakersList.length == speakersList.length"
+          v-if="showAll"
           @click="closeHanle"
         >
           Hide
@@ -614,7 +615,7 @@ export default {
     const SwiperSpeaker = ref(null);
     const showDialog = ref(false);
     const showImgUrl = ref("");
-
+    const speakerList = ref(null)
     const numberList = ref([
 
       {
@@ -663,18 +664,21 @@ export default {
       imageRef1.value.style.transform = `translate(${moveX}px, ${moveY}px)`;
       imageRef2.value.style.transform = `translate(${moveX}px, ${moveY}px)`;
     };
-
+    const showAll = ref(false)
     const openUrl = (url) => {
       window.open(url);
     };
     const moreHanle = () => {
-      showSpeakersList.value = speakersList.value;
+      showAll.value = true
+      heightStyle.value.height = speakerList.value.offsetHeight+ 'px'
+
     };
     const closeHanle = () => {
-      showSpeakersList.value = speakersList.value.slice(0, 8);
+      showAll.value = false
+      heightStyle.value.height = '14rem'
     };
     const speakersList = ref(speakers);
-    const showSpeakersList = ref(speakers.slice(0, 8));
+    const showSpeakersList = ref(speakers);
     const targetDate = ref("2024/05/30");
     const timeObj = ref({
       d: "00",
@@ -718,6 +722,9 @@ export default {
       intervalId = setInterval(() => {
         timeObj.value = calculateTimeRemaining();
       }, 1000);
+
+
+      console.log()
       return () => clearInterval(intervalId);
     });
     onBeforeUnmount(() => {
@@ -847,8 +854,11 @@ export default {
     if (screenWidth.value < 700) {
       style.value.width = "100%";
     }
-
+    const heightStyle = ref({
+      height: '14rem'
+    })
     return {
+      heightStyle,
       screenWidth,
       closeDialog,
       pullAll,
@@ -886,6 +896,8 @@ export default {
       icon5,
       icon6,
       icon7,
+      showAll,
+      speakerList,
     };
   },
   components: {
@@ -1547,9 +1559,14 @@ section {
   }
 }
 #section2 {
+  .speak-content{
+    overflow: hidden;
+    transition: height 0.5s ease-in-out;
+  }
   .speaker-list {
     display: flex;
     flex-wrap: wrap;
+
     .list {
       width: 22%;
       margin-left: 2%;

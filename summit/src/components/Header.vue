@@ -42,13 +42,25 @@
 </template>
 
 <script>
-import { ref, computed, watch } from 'vue';
+import { ref, computed, watch, onMounted } from 'vue';
 import { useStore} from 'vuex'
 import { useRoute } from 'vue-router';
 
 export default {
   name: '',
   setup() {
+    const sectionList = {
+      section1: 'Home',
+      section2: 'SPEAKERS',
+      section3: 'SPONSORS',
+      section4: 'SCHEDULE',
+    }
+    const linkList = {
+      Home: 'section1',
+      SPEAKERS: 'section2',
+      SPONSORS: 'section3',
+      SCHEDULE: 'section4',
+    }
     const store = useStore();
 
     const activeSection = ref('');
@@ -56,7 +68,8 @@ export default {
 
     const scrollToSection = (sectionId) => {
       const section = document.getElementById(sectionId);
-      console.log(section.offsetTop)
+      const newHash = `?section=` + sectionList[sectionId];
+      window.location.hash = newHash;
       if (section) {
         window.scrollTo({
           top: section.offsetTop - 80,
@@ -84,6 +97,14 @@ export default {
     const screenWidth = computed(() => {
       return store.state.screenWidth;
     });
+    onMounted( () => {
+        setTimeout(() => {
+          const section = route.query.section
+          if(linkList[section]){
+            scrollToSection(linkList[section])
+          }
+        },1000)
+    })
     return {
         activeSection,
         scrollToSection,

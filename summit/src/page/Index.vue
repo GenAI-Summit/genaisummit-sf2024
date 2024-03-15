@@ -1943,6 +1943,7 @@ section {
     .detail {
       position: relative;
       overflow: hidden;
+      max-height: 100%;
       .info {
         width: 100%;
       }

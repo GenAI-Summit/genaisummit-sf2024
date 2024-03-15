@@ -32,7 +32,7 @@
               <img src="../assets/images/microsoftAI.png" alt="">
             </div>
             <li v-if="screenWidth > 600">
-                <button @click="openHandle">Buy Tickets</button>
+                <button @click="BuyTickets">Buy Tickets</button>
             </li>
         </ul>
     </div>
@@ -67,8 +67,9 @@ export default {
     const route = useRoute();
 
     const scrollToSection = (sectionId) => {
+      const discount = route.query.discount
       const section = document.getElementById(sectionId);
-      const newHash = `?section=` + sectionList[sectionId];
+      const newHash = discount ? `?section=` + sectionList[sectionId] + `&discount=` + discount : `?section=` + sectionList[sectionId];
       window.location.hash = newHash;
       if (section) {
         window.scrollTo({
@@ -90,8 +91,12 @@ export default {
     };
 
     window.addEventListener('scroll', handleScroll);
-    const openHandle = () => {
-      window.open('https://www.eventbrite.com/e/genai-summit-san-francisco-2024-tickets-796934722207')
+    const BuyTickets = () => {
+      if(route.query.discount){
+        window.open('https://www.eventbrite.com/e/genai-summit-san-francisco-2024-tickets-796934722207?discount=' + route.query.discount)
+      }else{
+        window.open('https://www.eventbrite.com/e/genai-summit-san-francisco-2024-tickets-796934722207')
+      }
     }
     //适配
     const screenWidth = computed(() => {
@@ -108,7 +113,7 @@ export default {
     return {
         activeSection,
         scrollToSection,
-        openHandle,
+        BuyTickets,
         screenWidth
     } 
   },

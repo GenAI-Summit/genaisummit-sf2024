@@ -33,11 +33,7 @@
             <div class="btn-group">
               <div class="left">
                 <button
-                  @click="
-                    openUrl(
-                      'https://www.eventbrite.com/e/genai-summit-san-francisco-2024-tickets-796934722207'
-                    )
-                  "
+                  @click="BuyTickets"
                 >
                   <div class="spinner0"></div>
                   Buy Tickets
@@ -855,7 +851,15 @@ export default {
     const heightStyle = ref({
       height: '14rem'
     })
+    const BuyTickets = () => {
+      if(route.query.discount){
+        window.open('https://www.eventbrite.com/e/genai-summit-san-francisco-2024-tickets-796934722207?discount=' + route.query.discount)
+      }else{
+        window.open('https://www.eventbrite.com/e/genai-summit-san-francisco-2024-tickets-796934722207')
+      }
+    }
     return {
+      BuyTickets,
       heightStyle,
       screenWidth,
       closeDialog,

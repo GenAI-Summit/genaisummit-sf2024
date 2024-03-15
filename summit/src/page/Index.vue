@@ -591,6 +591,8 @@ import SwiperDay from "../components/SwiperDay.vue";
 
 import speakers from "../utils/speaker";
 import EventBus from "../utils/EventBus.js";
+import { useRoute } from 'vue-router';
+
 import { toUpper } from "lodash";
 import icon1 from "../assets/images/icon-n.1.png";
 import icon2 from "../assets/images/icon-n.2.png";
@@ -603,6 +605,8 @@ export default {
   name: "",
   setup() {
     const store = useStore();
+    const route = useRoute();
+
     const imageRef = ref(null);
     const imageRef1 = ref(null);
     const imageRef2 = ref(null);

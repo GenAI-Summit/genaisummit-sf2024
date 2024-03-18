@@ -4,34 +4,34 @@
       <div class="logo2">
         <img src="../assets/images/gptdaoLogo2.png" alt="">
       </div>
-      <div class="logo3" v-if="screenWidth > 600">
+      <div class="logo3" v-if="screenWidth > 1200">
         <img src="../assets/images/genaisummit.png" alt="">
       </div>
     </div>
     <div class="nav-list">
         <ul>
-            <li v-if="screenWidth > 600">
+            <li v-if="screenWidth > 900">
                 <a :to="null" @click="scrollToSection('section1')" :class="{ active: activeSection === 'section1' }">HOME</a>
             </li>
-            <li v-if="screenWidth > 600">
+            <li v-if="screenWidth > 900">
                 <a :to="null" @click="scrollToSection('section2')" :class="{ active: activeSection === 'section2' }">SPEAKERS</a>
             </li>
-            <li v-if="screenWidth > 600">
+            <li v-if="screenWidth > 900">
                 <a :to="null" @click="scrollToSection('section3')" :class="{ active: activeSection === 'section3' }">SPONSORS</a>
             </li>
-            <li v-if="screenWidth > 600">
+            <li v-if="screenWidth > 900">
                 <a :to="null" @click="scrollToSection('section4')" :class="{ active: activeSection === 'section4' }">SCHEDULE</a>
             </li>
-            <li v-if="screenWidth > 600">
+            <li v-if="screenWidth > 900">
                 <a href="https://linktr.ee/gptdao" target="_black" :class="{ active: activeSection === 'section5' }">CONTACT</a>
             </li>
-            <li v-if="screenWidth > 600">
+            <li v-if="screenWidth > 900">
                 <a href="https://sv2023.genaisummit.ai/" target="_black" :class="{ active: activeSection === 'section6' }">PREVIOUS EVENT</a>
             </li>
             <div class="logo">
               <img src="../assets/images/microsoftAI.png" alt="">
             </div>
-            <li v-if="screenWidth > 600">
+            <li v-if="screenWidth > 900">
                 <button @click="BuyTickets">Buy Tickets</button>
             </li>
         </ul>
@@ -142,7 +142,6 @@ export default {
     margin: 0 auto;
     max-width: 1500px;
     padding: 0 .5rem;
-
     .logo-content{
         display: flex;
         align-items: center;

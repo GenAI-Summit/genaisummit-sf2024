@@ -1392,7 +1392,6 @@ section {
     margin-top: 0.5rem;
   }
   .left-title {
-    min-width: 700px;
     // background: url("../assets/images/bg-title.png");
     background-size: contain;
     background-repeat: no-repeat; /* 防止背景图重复 */

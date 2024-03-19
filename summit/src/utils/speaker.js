@@ -44,6 +44,19 @@ import ratner from '../assets/images/speakers/ratner.png';
 import roman from '../assets/images/speakers/roman.png';
 import timshi from '../assets/images/speakers/timshi.png';
 import ross from '../assets/images/speakers/ross.png';
+import jain from '../assets/images/speakers/jain.png';
+import george from '../assets/images/speakers/george.png';
+import tomlee from '../assets/images/speakers/tomlee.png';
+import yaniv from '../assets/images/speakers/yaniv.png';
+import moody from '../assets/images/speakers/moody.png';
+import josh from '../assets/images/speakers/josh.png';
+import shiv from '../assets/images/speakers/shiv.png';
+import rob from '../assets/images/speakers/rob.png';
+import emrah from '../assets/images/speakers/emrah.png';
+import yashar from '../assets/images/speakers/yashar.png';
+import tonyb from '../assets/images/speakers/tonyb.png';
+import davit from '../assets/images/speakers/davit.png';
+
 
 
 
@@ -91,7 +104,18 @@ import ratner2 from '../assets/images/speakers/popup/ratner.png';
 import roman2 from '../assets/images/speakers/popup/roman.png';
 import timshi2 from '../assets/images/speakers/popup/timshi.png';
 import ross2 from '../assets/images/speakers/popup/ross.png';
-
+import jain2 from '../assets/images/speakers/popup/jain.png';
+import george2 from '../assets/images/speakers/popup/goerge.png';
+import tomlee2 from '../assets/images/speakers/popup/tomlee.png';
+import yaniv2 from '../assets/images/speakers/popup/yaniv.png';
+import moody2 from '../assets/images/speakers/popup/moody.png';
+import josh2 from '../assets/images/speakers/popup/josh.png';
+import shiv2 from '../assets/images/speakers/popup/shiv.png';
+import rob2 from '../assets/images/speakers/popup/rob.png';
+import emrah2 from '../assets/images/speakers/popup/emrah.png';
+import yashar2 from '../assets/images/speakers/popup/yashar.png';
+import tonyb2 from '../assets/images/speakers/popup/tonyb.png';
+import davit2 from '../assets/images/speakers/popup/davit.png';
 
 
 const speaker = [
@@ -222,6 +246,16 @@ const speaker = [
     detail: ratner2,
   },
   {
+    name: 'Swapnil Jain',
+    job: 'CEO & Co-Founder',
+    tip: 'Observe AI',
+    image: jain,
+    linkedin: 'https://www.linkedin.com/in/conversationintelligence/',
+    twitter: 'https://twitter.com/swapnil',
+    website: '',
+    detail: jain2,
+  },
+  {
     name: 'Dr. Sam Liang',
     job: 'CEO & Founder',
     tip: 'OTTER AI',
@@ -263,6 +297,28 @@ const speaker = [
     detail: yaron2,
   },
   {
+    name: 'Dr. George Sivulka',
+    job: 'Founder & CEO',
+    tip: 'Hebbia AI',
+    image: george,
+    linkedin: 'https://www.linkedin.com/in/sivulka/',
+    twitter: 'https://twitter.com/gsivulka',
+    website: '',
+    detail: george2,
+  },
+  {
+    name: 'Dr. Shiv Rao',
+    job: 'Co-Founder & CEO',
+    tip: 'Abridge',
+    image: shiv,
+    website: 'https://www.abridge.com/author/shiv-rao',
+    linkedin: 'https://www.linkedin.com/in/shivdevrao/',
+    twitter: 'https://twitter.com/ShivdevRao',
+    
+    detail: shiv2,
+  },
+
+  {
     name: 'Yohei Nakajima',
     job: 'Founder',
     tip: 'BabyAGI',
@@ -302,6 +358,16 @@ const speaker = [
     twitter: 'https://twitter.com/timshi_ai',
     linkedin: 'https://www.linkedin.com/in/tianlinshi/',
     detail: timshi2,
+  },
+  {
+    name: 'Kevin Moody',
+    job: 'Co-Founder & CEO',
+    tip: 'Mem Labs',
+    image: moody,
+    website: ' ',
+    twitter: 'https://twitter.com/kevinfmoody',
+    linkedin: 'https://www.linkedin.com/in/kevinfmoody/',
+    detail: moody2,
   },
   {
     name: 'Sharan Narang',
@@ -376,7 +442,36 @@ const speaker = [
     linkedin: 'https://www.linkedin.com/in/kgmcnamara/',
     detail: kevin2,
   },
-
+  {
+    name: 'Yaniv Makover',
+    job: 'Co-Founder & CEO',
+    tip: 'Anyword',
+    image: yaniv,
+    website: '',
+    twitter: 'https://twitter.com/YanivMakover',
+    linkedin: 'https://www.linkedin.com/in/yaniv-makover-a8590b3/',
+    detail: yaniv2,
+  },
+  {
+    name: 'Tom Lee',
+    job: 'Co-Founder',
+    tip: 'LOVO',
+    image: tomlee,
+    website: '',
+    twitter: '',
+    linkedin: 'https://www.linkedin.com/in/tomsklee/?locale=en_US',
+    detail: tomlee2,
+  },
+  {
+    name: 'Dr. Josh Tobin',
+    job: 'Co-Founder',
+    tip: 'Gantry',
+    image: josh,
+    website: '',
+    twitter: 'https://twitter.com/josh_tobin_',
+    linkedin: 'https://www.linkedin.com/in/josh-tobin-4b3b10a9/',
+    detail: josh2,
+  },
   {
     name: 'Mike Murchison',
     job: 'CEO and Co-Founder',
@@ -387,6 +482,7 @@ const speaker = [
     linkedin: 'https://www.linkedin.com/in/kgmcnamara/',
     detail: mike2,
   },
+  
   {
     name: 'Jake Heller, JD',
     job: 'CEO & Founder',
@@ -396,6 +492,16 @@ const speaker = [
     twitter: 'https://twitter.com/mimurchison',
     linkedin: 'https://www.linkedin.com/in/mikemurchison/?originalSubdomain=ca',
     detail: jake2,
+  },
+  {
+    name: 'Rob Meadows',
+    job: 'President',
+    tip: 'AI Foundation',
+    image: rob,
+    website: '',
+    twitter: 'https://twitter.com/robmeadows',
+    linkedin: 'https://www.linkedin.com/in/robmeadows/',
+    detail: rob2,
   },
   {
     name: 'Jeremiah Owyang',
@@ -427,6 +533,50 @@ const speaker = [
     linkedin: 'https://www.linkedin.com/in/yangqing-jia/',
     
     detail: yangqingjia2,
+  },
+  {
+    name: 'Emrah Gultekin',
+    job: 'Chairman & Co-Founder',
+    tip: 'Chooch',
+    image: emrah,
+    website: '',
+    twitter: '',
+    linkedin: 'https://www.linkedin.com/in/emrahgultekin/',
+    
+    detail: emrah2,
+  },
+  {
+    name: 'Yashar Behzadi',
+    job: 'Founder & CEO',
+    tip: 'Synthesis AI',
+    image: yashar,
+    website: 'https://www.dataversity.net/contributors/yashar-behzadi/',
+    twitter: 'https://twitter.com/YasharBehzadi',
+    linkedin: 'https://www.linkedin.com/in/yasharbehzadi/',
+    
+    detail: yashar2,
+  },
+  {
+    name: 'Davit Baghdasaryan',
+    job: 'Co-Founder & CEO',
+    tip: 'Krisp',
+    image: davit,
+    website: '',
+    twitter: 'https://twitter.com/davitb',
+    linkedin: 'https://www.linkedin.com/in/davitb/',
+    
+    detail: davit2,
+  },
+  {
+    name: 'Tony Beltramelli',
+    job: 'Co-Founder & CEO',
+    tip: 'Uizard Technology',
+    image: tonyb,
+    website: '',
+    twitter: 'https://twitter.com/Tbeltramelli',
+    linkedin: 'https://www.linkedin.com/in/tony-beltramelli-513b1219/?originalSubdomain=dk',
+    
+    detail: tonyb2,
   },
   {
     name: 'Prof. Xi Chen',

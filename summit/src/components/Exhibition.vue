@@ -1,7 +1,7 @@
 <template>
     <div ref="slick" class="slick-carousel1">
         <div>
-           <div class="swiper-box img1" :class="screenWidth > 600 ? '' : 'mb'">
+            <div class="swiper-box img1" :class="screenWidth > 600 ? '' : 'mb'">
                 <div class="img_content">
                     <img src="../assets/images/typeA.png" alt="">
                 </div>
@@ -35,8 +35,9 @@
                         </div>
                     </div>
                 </div>
-           </div>
+            </div>
         </div>
+
         <div>
            <div class="swiper-box img1" :class="screenWidth > 600 ? '' : 'mb'">
                 <div class="img_content">
@@ -74,6 +75,55 @@
                 </div>
            </div>
         </div>
+
+        <div>
+           <div class="swiper-box img1" :class="screenWidth > 600 ? '' : 'mb'">
+            <br/>
+            <br/>
+            <br/>
+                <div class="img_content">
+                  <br/>
+                  <br/>
+                  <br/>
+                  
+                    <img src="../assets/images/typeC.png" alt="">
+                </div>
+                <div class="price_content">
+                    <div class="title">Booth Type C </div>
+                    <!-- (Special Offer for Startups) -->
+                    <div class="s_title">6 ft x 2.5 ft  (1.8m x 0.8m)</div>
+                    <div class="price">
+                        <span class="big">USD 2,999</span><span class="bold"> (Early Bird)</span>
+                    </div>
+                    <div class="list">
+                        1x Table (Size: 6 ft x 2.5 ft x 2.5 ft)  <br>
+                        2x Chairs<br>
+                        2x Event Tickets<br>
+                        Roll-up Banners & Other Publicity Materials Supported
+                    </div>
+                    <div class="page" v-if="screenWidth > 600">
+                        <div class="fk" @click="slickPrev">
+                        <img class="d" src="../assets/images/Ai_Button_left.png" alt="">
+                        <img class="a" src="../assets/images/Ai_Button_left_white.png" alt="">
+                        </div>
+                        <div class="fk long">
+                        <div class="">
+                            <span class="big">{{ swiperPageInfo.nowPage }}</span>/{{ swiperPageInfo.pages }}
+                        </div>
+                        </div>
+                        <div class="fk" @click="slickNext">
+                        <img class="d" src="../assets/images/Ai_Button_right.png" alt="">
+                        <img class="a" src="../assets/images/Ai_Button_right_white.png" alt="">
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+        
+
+        
+
+
     </div>
   </template>
   
@@ -92,7 +142,7 @@
       });
       const pageSize = ref(1)
       const nowPage = ref(1)
-      const total = 2
+      const total = 3
       const pages = ref(Math.ceil(total/pageSize.value))
       const options = {
           autoplaySpeed: 5000,

@@ -56,6 +56,7 @@ import emrah from '../assets/images/speakers/emrah.png';
 import yashar from '../assets/images/speakers/yashar.png';
 import tonyb from '../assets/images/speakers/tonyb.png';
 import davit from '../assets/images/speakers/davit.png';
+import popa from '../assets/images/speakers/popa.jpg';
 
 
 
@@ -116,6 +117,7 @@ import emrah2 from '../assets/images/speakers/popup/emrah.png';
 import yashar2 from '../assets/images/speakers/popup/yashar.png';
 import tonyb2 from '../assets/images/speakers/popup/tonyb.png';
 import davit2 from '../assets/images/speakers/popup/davit.png';
+import popa2 from '../assets/images/speakers/popup/popa.png';
 
 
 const speaker = [
@@ -139,17 +141,7 @@ const speaker = [
     linkedin: 'https://www.linkedin.com/in/yuhuai-tony-wu-02a641b5/',
     detail: dr_yuhuai_wu2,
   },
-  {
-    name: 'Dr. Jim Fan',
-    job:'Senior Research Scientist',
-    tip:'NVIDIA AI',
-    
-    website:'https://jimfan.me/',
-    twitter: 'https://twitter.com/DrJimFan',
-    link:'https://www.linkedin.com/in/drjimfan/',
-    detail:jimfan2,
-    image: jimfan,
-},
+
 
 {
   name: 'Jonathan Ross',
@@ -161,6 +153,17 @@ const speaker = [
   link:'https://www.linkedin.com/in/ross-jonathan/',
   detail:ross2,
   image: ross,
+},
+{
+  name: 'Dr. Jim Fan',
+  job:'Senior Research Scientist',
+  tip:'NVIDIA AI',
+  
+  website:'https://jimfan.me/',
+  twitter: 'https://twitter.com/DrJimFan',
+  link:'https://www.linkedin.com/in/drjimfan/',
+  detail:jimfan2,
+  image: jimfan,
 },
   {
     name: 'Arvind Jain',
@@ -193,6 +196,16 @@ const speaker = [
     twitter: 'https://twitter.com/_jasonwei',
     linkedin: 'https://www.linkedin.com/in/jason-wei-5a7323b0/',
     detail: jasonwei2,
+  },
+  {
+    name: 'Raluca Ada Popa',
+    job: 'Professor',
+    tip: 'UC Berkeley CS Dept.',
+    image: popa,
+    website: 'https://people.eecs.berkeley.edu/~raluca/',
+    twitter: 'https://twitter.com/ralucaadapopa',
+    linkedin: 'https://www.linkedin.com/in/ralucaadapopa/',
+    detail: popa2,
   },
   {
     name: 'Bob van Luijt',

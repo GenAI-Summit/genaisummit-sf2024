@@ -56,6 +56,7 @@ import emrah from '../assets/images/speakers/emrah.png';
 import yashar from '../assets/images/speakers/yashar.png';
 import tonyb from '../assets/images/speakers/tonyb.png';
 import davit from '../assets/images/speakers/davit.png';
+import popa from '../assets/images/speakers/popa.jpg';
 
 
 
@@ -116,11 +117,22 @@ import emrah2 from '../assets/images/speakers/popup/emrah.png';
 import yashar2 from '../assets/images/speakers/popup/yashar.png';
 import tonyb2 from '../assets/images/speakers/popup/tonyb.png';
 import davit2 from '../assets/images/speakers/popup/davit.png';
+import popa2 from '../assets/images/speakers/popup/popa.png';
 
 
 
 
 const speakerNewly = [
+  {
+    name: 'Raluca Ada Popa',
+    job: 'Professor',
+    tip: 'UC Berkeley CS Dept.',
+    image: popa,
+    website: 'https://people.eecs.berkeley.edu/~raluca/',
+    twitter: 'https://twitter.com/ralucaadapopa',
+    linkedin: 'https://www.linkedin.com/in/ralucaadapopa/',
+    detail: popa2,
+  },
   {
     name: 'Davit Baghdasaryan',
     job: 'Co-Founder & CEO',

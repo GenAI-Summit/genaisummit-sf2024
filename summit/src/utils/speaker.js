@@ -57,6 +57,7 @@ import yashar from '../assets/images/speakers/yashar.png';
 import tonyb from '../assets/images/speakers/tonyb.png';
 import davit from '../assets/images/speakers/davit.png';
 import popa from '../assets/images/speakers/popa.jpg';
+import amr from '../assets/images/speakers/amr.png';
 
 
 
@@ -118,6 +119,7 @@ import yashar2 from '../assets/images/speakers/popup/yashar.png';
 import tonyb2 from '../assets/images/speakers/popup/tonyb.png';
 import davit2 from '../assets/images/speakers/popup/davit.png';
 import popa2 from '../assets/images/speakers/popup/popa.png';
+import amr2 from '../assets/images/speakers/popup/amr.png';
 
 
 const speaker = [
@@ -329,6 +331,18 @@ const speaker = [
     twitter: 'https://twitter.com/ShivdevRao',
     
     detail: shiv2,
+  },
+
+  {
+    name: 'Amr Awadallah',
+    job: 'Founder & CEO',
+    tip: 'Vectara',
+    image: amr,
+    website: '',
+    linkedin: 'https://www.linkedin.com/in/awadallah/',
+    twitter: 'https://twitter.com/awadallah',
+    
+    detail: amr2,
   },
 
   {

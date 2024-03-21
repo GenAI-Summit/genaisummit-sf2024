@@ -158,7 +158,7 @@ const speaker = [
 },
 {
   name: 'Dr. Jim Fan',
-  job:'Senior Research Scientist',
+  job:' Senior Research Scientist & Lead of AI Agents Initiative',
   tip:'NVIDIA AI',
   
   website:'https://jimfan.me/',

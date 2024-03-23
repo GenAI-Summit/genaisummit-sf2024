@@ -17,7 +17,7 @@
                         3x Bar Stool Chairs<br>
                         6x Back Walls Available for Posters or Designs(3.28ft x 7.87ft or 1m x 2.4m)<br>
                         Customer Curved Counter with Doors for Storage<br>
-                        3x Event Tickets<br>
+                        4x Event Tickets<br>
                     </div>
                     <div class="page" v-if="screenWidth > 600">
                         <div class="fk" @click="slickPrev">
@@ -55,7 +55,54 @@
                         3x Bar Stool Chairs<br>
                         4x Back Walls Available for Posters or Designs (3.28ft x 7.87ft or 1m x 2.4m)<br>
                         Customer Curved Counter with Doors for Storage<br>
+                        3x Event Tickets<br>
+                    </div>
+                    <div class="page" v-if="screenWidth > 600">
+                        <div class="fk" @click="slickPrev">
+                        <img class="d" src="../assets/images/Ai_Button_left.png" alt="">
+                        <img class="a" src="../assets/images/Ai_Button_left_white.png" alt="">
+                        </div>
+                        <div class="fk long">
+                        <div class="">
+                            <span class="big">{{ swiperPageInfo.nowPage }}</span>/{{ swiperPageInfo.pages }}
+                        </div>
+                        </div>
+                        <div class="fk" @click="slickNext">
+                        <img class="d" src="../assets/images/Ai_Button_right.png" alt="">
+                        <img class="a" src="../assets/images/Ai_Button_right_white.png" alt="">
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+
+        <div>
+           <div class="swiper-box img1" :class="screenWidth > 600 ? '' : 'mb'">
+            <br/>
+            <br/>
+            <br/>
+                <div class="img_content">
+                  <br/>
+              
+                  
+                    <img src="../assets/images/typeC.png" alt="">
+                </div>
+                <div class="price_content">
+                    <div class="title">Booth Type C </div>
+                    <!-- (Special Offer for Startups) -->
+                    <div class="s_title">6 ft x 2.5 ft  (1.8m x 0.8m)</div>
+                    <div class="price">
+                        <span class="big">USD 2,999</span><span class="bold"> (Early Bird)</span>
+                    </div>
+                    <div class="list">
+                        1x Table (Size: 6 ft x 2.5 ft x 2.5 ft)  <br>
+                        2x Chairs<br>
                         2x Event Tickets<br>
+                        Fit for Roll-up Banners & Other Publicity Materials
+                        <br>
+                        <br>
+                        <br>
+                        <br>
                     </div>
                     <div class="page" v-if="screenWidth > 600">
                         <div class="fk" @click="slickPrev">
@@ -86,20 +133,24 @@
                   <br/>
                   <br/>
                   
-                    <img src="../assets/images/typeC.png" alt="">
+                    <img src="../assets/images/typeS.jpg" alt="">
                 </div>
                 <div class="price_content">
-                    <div class="title">Booth Type C </div>
+                    <div class="title">Booth Type S </div>
                     <!-- (Special Offer for Startups) -->
-                    <div class="s_title">6 ft x 2.5 ft  (1.8m x 0.8m)</div>
+                    <div class="s_title">10 ft x 10 ft  (3m x 3m)</div>
                     <div class="price">
-                        <span class="big">USD 2,999</span><span class="bold"> (Early Bird)</span>
+                        <span class="big">USD 4,999</span><span class="bold"> (Early Bird)</span>
                     </div>
                     <div class="list">
-                        1x Table (Size: 6 ft x 2.5 ft x 2.5 ft)  <br>
-                        2x Chairs<br>
-                        2x Event Tickets<br>
-                        Roll-up Banners & Other Publicity Materials Supported
+                        10 x 10 ft Space  <br>
+                        2x Chairs <br>
+                        3x Event Tickets<br>
+                        Fit for Roll-up Banners & Other Publicity Materials
+                        <br>
+                        <br>
+                        <br>
+                        <br>
                     </div>
                     <div class="page" v-if="screenWidth > 600">
                         <div class="fk" @click="slickPrev">
@@ -142,7 +193,7 @@
       });
       const pageSize = ref(1)
       const nowPage = ref(1)
-      const total = 3
+      const total = 4
       const pages = ref(Math.ceil(total/pageSize.value))
       const options = {
           autoplaySpeed: 5000,

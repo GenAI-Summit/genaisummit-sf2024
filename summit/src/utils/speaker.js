@@ -58,6 +58,13 @@ import tonyb from '../assets/images/speakers/tonyb.png';
 import davit from '../assets/images/speakers/davit.png';
 import popa from '../assets/images/speakers/popa.jpg';
 import amr from '../assets/images/speakers/amr.png';
+import sriharsha from '../assets/images/speakers/sriharsha.png';
+import orbach from '../assets/images/speakers/orbach.png';
+import karina from '../assets/images/speakers/karina.png';
+import harris from '../assets/images/speakers/harris.png';
+import gade from '../assets/images/speakers/gade.png';
+import eddie from '../assets/images/speakers/eddie.png';
+
 
 
 
@@ -120,6 +127,12 @@ import tonyb2 from '../assets/images/speakers/popup/tonyb.png';
 import davit2 from '../assets/images/speakers/popup/davit.png';
 import popa2 from '../assets/images/speakers/popup/popa.png';
 import amr2 from '../assets/images/speakers/popup/amr.png';
+import sriharsha2 from '../assets/images/speakers/popup/sriharsha.png';
+import orbach2 from '../assets/images/speakers/popup/orbach.png';
+import karina2 from '../assets/images/speakers/popup/karina.png';
+import harris2 from '../assets/images/speakers/popup/harris.png';
+import gade2 from '../assets/images/speakers/popup/gade.png';
+import eddie2 from '../assets/images/speakers/popup/eddie.png';
 
 
 const speaker = [
@@ -158,7 +171,7 @@ const speaker = [
 },
 {
   name: 'Dr. Jim Fan',
-  job:' Senior Research Scientist & Lead of AI Agents Initiative',
+  job:' Senior Research Scientist',
   tip:'NVIDIA AI',
   
   website:'https://jimfan.me/',
@@ -251,6 +264,17 @@ const speaker = [
   },
 
   {
+    name: 'Karina Nguyen',
+    job: 'AI Researcher',
+    tip: 'Snorkel AI',
+    image: karina,
+    linkedin: '',
+    twitter: 'https://twitter.com/karinanguyen_',
+    website: 'https://karinanguyen.com/',
+    detail: karina2,
+  },
+
+  {
     name: 'Dr. Alexander Ratner',
     job: 'CEO & Co-Founder',
     tip: 'Snorkel AI',
@@ -299,6 +323,27 @@ const speaker = [
     linkedin: 'https://www.linkedin.com/in/pdugar/',
     twitter: '',
     detail: dugar2,
+  },
+  {
+    name: 'Ram Sriharsha',
+    job: 'CTO',
+    tip: 'Pinecone',
+    image: sriharsha,
+    website: '',
+    linkedin: 'https://www.linkedin.com/in/harsha340/',
+    twitter: 'https://twitter.com/halfabrane',
+    detail: sriharsha2,
+  },
+
+  {
+    name: 'Eddie Aftandilian',
+    job: 'Principle Researcher',
+    tip: 'Github',
+    image: eddie,
+    website: 'https://eaftan.github.io/about/',
+    linkedin: 'https://www.linkedin.com/in/eddie-aftandilian-772b267/',
+    twitter: 'https://twitter.com/eaftandilian',
+    detail: eddie2,
   },
 
   {

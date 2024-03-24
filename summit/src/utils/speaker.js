@@ -266,7 +266,7 @@ const speaker = [
   {
     name: 'Karina Nguyen',
     job: 'AI Researcher',
-    tip: 'Snorkel AI',
+    tip: 'Anthropic',
     image: karina,
     linkedin: '',
     twitter: 'https://twitter.com/karinanguyen_',

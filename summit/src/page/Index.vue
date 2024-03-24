@@ -480,7 +480,7 @@
             Exhibition Opportunites
           </div>
           <div class="open-btn">
-            <button @click="openUrl('https://forms.gle/9pTcvfZcVEVRzmQZ8')">
+            <button @click="openUrl('https://www.eventbrite.com/e/genai-summit-san-francisco-2024-tickets-796934722207')">
               Take your place to exhibit
               <img src="../assets/images/general_return.png" alt="" />
             </button>

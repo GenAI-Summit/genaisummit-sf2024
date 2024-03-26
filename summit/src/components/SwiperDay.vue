@@ -1,7 +1,7 @@
 <template>
   <div class="swoperCont_days">
     <div class="titleFlex">
-      <div class="page" v-if="screenWidth>600">
+      <div class="page">
         <div class="fk" @click="scrollToLeft()">
           <img class="d" src="../assets/images/Ai_Button_left.png" alt="" />
           <img class="a" src="../assets/images/Ai_Button_left_white.png" alt="" />
@@ -199,14 +199,24 @@ export default {
       // container.scrollLeft = content.scrollWidth - container.clientWidth;
       var maxScrollLeft = content.scrollWidth - container.clientWidth;
       var step = 10; // 每次滚动的像素数
-
-      var scrollInterval = setInterval(function () {
-        if (container.scrollLeft < maxScrollLeft) {
-          container.scrollLeft += step;
-        } else {
-          clearInterval(scrollInterval);
-        }
-      }, 20); // 每10毫秒滚动一次
+      if (screenWidth.value <= 600) {
+        flagR.value = flagR.value + 1;
+        var scrollInterval = setInterval(function () {
+          if (container.scrollLeft < (flagR.value == 1 ? 282 : maxScrollLeft)) {
+            container.scrollLeft += step;
+          } else {
+            clearInterval(scrollInterval);
+          }
+        }, 20); // 每10毫秒滚动一次
+      } else {
+        var scrollInterval = setInterval(function () {
+          if (container.scrollLeft < maxScrollLeft) {
+            container.scrollLeft += step;
+          } else {
+            clearInterval(scrollInterval);
+          }
+        }, 20); // 每10毫秒滚动一次
+      }
     };
     const flagR = ref(0);
     const flagL = ref(0);
@@ -218,14 +228,31 @@ export default {
       )[2];
       var content = document.getElementsByClassName("slick-track")[2];
       var step = 5; // 每次滚动的像素数
-
-      var scrollInterval = setInterval(function () {
-        if (container.scrollLeft > 0) {
-          container.scrollLeft -= step;
-        } else {
-          clearInterval(scrollInterval);
+      if (screenWidth.value <= 600) {
+        let leftW = 0;
+        if (flagR.value == 2) {
+          leftW = 282;
+          flagR.value = 1;
+        } else if (flagR.value == 1) {
+          leftW = 0;
+          flagR.value = 0;
         }
-      }, 10); // 每10毫秒滚动一次
+        var scrollInterval = setInterval(function () {
+          if (container.scrollLeft > leftW) {
+            container.scrollLeft -= step;
+          } else {
+            clearInterval(scrollInterval);
+          }
+        }, 10); // 每10毫秒滚动一次
+      } else {
+        var scrollInterval = setInterval(function () {
+          if (container.scrollLeft > 0) {
+            container.scrollLeft -= step;
+          } else {
+            clearInterval(scrollInterval);
+          }
+        }, 10); // 每10毫秒滚动一次
+      }
     };
     return {
       screenWidth,

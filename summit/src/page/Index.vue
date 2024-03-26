@@ -1670,11 +1670,14 @@ section {
     align-items: center;
     &.mb {
       .list {
-        width: 26%;
+        width: 30%;
+        max-width: 30%;
         margin-bottom: 0.3rem;
         height: 100%;
+        margin-left: 0.1rem;
         img {
           width: 100%;
+          height: auto;
         }
       }
       .title_img {

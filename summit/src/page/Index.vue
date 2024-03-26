@@ -134,7 +134,7 @@
             Speakers
           </div>
           <div class="open-btn">
-            <button @click="openUrl('https://www.gptdao.ai/get-started')">
+            <button @click="openUrl('https://forms.gle/9pTcvfZcVEVRzmQZ8')">
               Be our Speaker
               <img src="../assets/images/general_return.png" alt="" />
             </button>
@@ -343,7 +343,7 @@
             Sponsors
           </div>
           <div class="open-btn">
-            <button @click="openUrl('https://www.gptdao.ai/get-started')">
+            <button @click="openUrl('https://forms.gle/9pTcvfZcVEVRzmQZ8')">
               Become Our Sponsor
               <img src="../assets/images/general_return.png" alt="" />
             </button>
@@ -384,7 +384,7 @@
             Exhibition Opportunites
           </div>
           <div class="open-btn">
-            <button @click="openUrl('https://www.gptdao.ai/get-started')">
+            <button @click="openUrl('https://www.eventbrite.com/e/genai-summit-san-francisco-2024-tickets-796934722207')">
               Take your place to exhibit
               <img src="../assets/images/general_return.png" alt="" />
             </button>
@@ -404,9 +404,9 @@
         </div>
       </section>
 
-      <div class="Recognition-bg">
+      <!-- <div class="Recognition-bg">
         <div class="cointainer">
-          <!--  -->
+        
           <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
             <div class="left-title before" :class="screenWidth > 600 ? '' : 'mb'" data-aos="flip-up">
               Certificate of Recognition
@@ -434,7 +434,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <section id="section4" class="cointainer">
         <!--  -->
 

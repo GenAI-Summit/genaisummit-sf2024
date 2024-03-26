@@ -1,81 +1,96 @@
 <template>
-  <div ref="slick" class="slick-carousel2">
-    <div class="swiper_box np swiper_box1" :class="classNameStr">
-      <div class="ss-content">
-        <div class="img">
-          <img src="../assets/images/day1.png" alt="" />
-          <div class="info">
-            <div>
-              <div class="title">Day1</div>
-              <div class="date d1">May 29, 2024</div>
-            </div>
-          </div>
+  <div class="swoperCont_days">
+    <div class="titleFlex">
+      <div class="page" v-if="screenWidth>600">
+        <div class="fk" @click="scrollToLeft()">
+          <img class="d" src="../assets/images/Ai_Button_left.png" alt="" />
+          <img class="a" src="../assets/images/Ai_Button_left_white.png" alt="" />
         </div>
-        <div class="inner_ss-content">
-          <div
-            class="ss-content_item"
-            data-aos="fade-up"
-            v-for="item in OutlineList"
-            :key="item"
-          >
-            <img class="flagBg" src="../assets/images/ico_yuan.svg" alt="" />
-            <div class="title">{{ item.title }}</div>
-            <div class="detail" v-html="item.content"></div>
-          </div>
+        <!-- <div class="fk long">
+              <div class="">
+                <span class="big">{{ swiperPageInfo.nowPage }}</span>/{{ swiperPageInfo.pages }}
+              </div>
+            </div> -->
+        <div class="fk" @click="scrollToRight()">
+          <img class="d" src="../assets/images/Ai_Button_right.png" alt="" />
+          <img class="a" src="../assets/images/Ai_Button_right_white.png" alt="" />
+        </div>
+      </div>
+      <div class="page" v-else>
+        <div class="fk" @click="scrollToLeft(1)">
+          <img class="d" src="../assets/images/Ai_Button_left.png" alt="" />
+          <img class="a" src="../assets/images/Ai_Button_left_white.png" alt="" />
+        </div>
+        <div class="fk" @click="scrollToRight(1)">
+          <img class="d" src="../assets/images/Ai_Button_right.png" alt="" />
+          <img class="a" src="../assets/images/Ai_Button_right_white.png" alt="" />
         </div>
       </div>
     </div>
-    <div class="swiper_box">
-      <div class="ss-content">
-        <div class="img">
-          <img src="../assets/images/day2.png" alt="" />
-          <div class="info">
-            <div>
-              <div class="title">Day2</div>
-              <div class="date d2">May 30, 2024</div>
+    <div ref="slick" class="slick-carousel2" id="slick-carousel2">
+      <div class="swiper_box np swiper_box1" :class="classNameStr">
+        <div class="ss-content">
+          <div class="img">
+            <img src="../assets/images/day1.png" alt="" />
+            <div class="info">
+              <div>
+                <div class="title">Day1</div>
+                <div class="date d1">May 29, 2024</div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="inner_ss-content">
-          <div
-            class="ss-content_item"
-            data-aos="fade-up"
-            v-for="item in OutlineList2"
-            :key="item"
-          >
-            <img class="flagBg" src="../assets/images/ico_yuan.svg" alt="" />
-            <div class="title">{{ item.title }}</div>
-            <div class="detail" v-html="item.content"></div>
+          <div class="inner_ss-content">
+            <div class="ss-content_item" data-aos="fade-up" v-for="item in OutlineList" :key="item">
+              <img class="flagBg" src="../assets/images/ico_yuan.svg" alt="" />
+              <div class="title">{{ item.title }}</div>
+              <div class="detail" v-html="item.content"></div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="swiper_box swiper_box3" :class="classNameStr">
-      <div class="ss-content">
-        <div class="img">
-          <img src="../assets/images/day3.png" alt="" />
-          <div class="info">
-            <div>
-              <div class="title">Day3</div>
-              <div class="date d3">May 31, 2024</div>
+      <div class="swiper_box">
+        <div class="ss-content">
+          <div class="img">
+            <img src="../assets/images/day2.png" alt="" />
+            <div class="info">
+              <div>
+                <div class="title">Day2</div>
+                <div class="date d2">May 30, 2024</div>
+              </div>
+            </div>
+          </div>
+          <div class="inner_ss-content">
+            <div class="ss-content_item" data-aos="fade-up" v-for="item in OutlineList2" :key="item">
+              <img class="flagBg" src="../assets/images/ico_yuan.svg" alt="" />
+              <div class="title">{{ item.title }}</div>
+              <div class="detail" v-html="item.content"></div>
             </div>
           </div>
         </div>
-        <div class="inner_ss-content">
-          <div
-            class="ss-content_item"
-            data-aos="fade-up"
-            v-for="item in OutlineList3"
-            :key="item"
-          >
-            <img class="flagBg" src="../assets/images/ico_yuan.svg" alt="" />
-            <div class="title">{{ item.title }}</div>
-            <div class="detail" v-html="item.content"></div>
+      </div>
+      <div class="swiper_box swiper_box3" :class="classNameStr">
+        <div class="ss-content">
+          <div class="img">
+            <img src="../assets/images/day3.png" alt="" />
+            <div class="info">
+              <div>
+                <div class="title">Day3</div>
+                <div class="date d3">May 31, 2024</div>
+              </div>
+            </div>
+          </div>
+          <div class="inner_ss-content">
+            <div class="ss-content_item" data-aos="fade-up" v-for="item in OutlineList3" :key="item">
+              <img class="flagBg" src="../assets/images/ico_yuan.svg" alt="" />
+              <div class="title">{{ item.title }}</div>
+              <div class="detail" v-html="item.content"></div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+
 </template>
 
 <script>
@@ -92,9 +107,9 @@ export default {
       return store.state.screenWidth;
     });
     const pageSize = ref(3);
-    const slidesToShow = ref(2.5)
-    if(screenWidth.value < 800){
-      slidesToShow.value = 1.2
+    const slidesToShow = ref(2.5);
+    if (screenWidth.value < 800) {
+      slidesToShow.value = 1.2;
     }
     const options = {
       dots: false,
@@ -117,13 +132,9 @@ export default {
           }
         }
       );
-      $(".slick-carousel2").on(
-        "swipe",
-        function (event, slick, direction) {
-            classNameStr.value = "";
-        }
-      );
-      
+      $(".slick-carousel2").on("swipe", function (event, slick, direction) {
+        classNameStr.value = "";
+      });
     });
     const OutlineList = ref([
       {
@@ -190,13 +201,52 @@ export default {
           "Rooms 1: Dedicated Microsoft Track <br/><br/>Rooms 2: Dedicated OpenAI Track <br/><br/>Rooms 3-6: Integrating AI into Business – Workshops on how to successfully integrate AI solutions into various business operations<br/><br/>Room 7: Career Development Workshops – Sessions focusing on skill development and career progression in the AI industry<br/><br/>Room 8: AI for Environmental Sustainability – Showcasing AI solutions addressing environmental challenges<br/><br/>Room 9: Innovations in AI – Presentations on cutting-edge AI technologies and future trends<br/><br/>Room 10: Advanced AI Workshop – A deep dive into complex AI models and methodologies.<br/><br/><br/>",
       },
     ]);
+    const scrollToRight = () => {
+      var container = document.getElementsByClassName(
+        "slick-list draggable"
+      )[2];
+      var content = document.getElementsByClassName("slick-track")[2];
+      // container.scrollLeft = content.scrollWidth - container.clientWidth;
+      var maxScrollLeft = content.scrollWidth - container.clientWidth;
+      var step = 10; // 每次滚动的像素数
 
+      var scrollInterval = setInterval(function () {
+        if (container.scrollLeft < maxScrollLeft) {
+          container.scrollLeft += step;
+        } else {
+          clearInterval(scrollInterval);
+        }
+      }, 20); // 每10毫秒滚动一次
+    };
+    const flagR = ref(0);
+    const flagL = ref(0);
+    const flagRW = ref(282);
+    const isMiddle = ref(false);
+    const scrollToLeft = () => {
+      var container = document.getElementsByClassName(
+        "slick-list draggable"
+      )[2];
+      var content = document.getElementsByClassName("slick-track")[2];
+      var step = 5; // 每次滚动的像素数
+
+      var scrollInterval = setInterval(function () {
+        if (container.scrollLeft > 0) {
+          container.scrollLeft -= step;
+        } else {
+          clearInterval(scrollInterval);
+        }
+      }, 10); // 每10毫秒滚动一次
+    };
     return {
       screenWidth,
       OutlineList,
       OutlineList2,
       OutlineList3,
       classNameStr,
+      scrollToRight,
+      scrollToLeft,
+      flagR,
+      flagL,
     };
   },
   components: {},
@@ -341,6 +391,68 @@ export default {
         font-size: 0.2963rem;
         font-family: HarmonyOS Sans SC Regular;
         margin-top: 0.2963rem;
+      }
+    }
+  }
+}
+.swoperCont_days {
+  position: relative;
+}
+.titleFlex {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: -1.14rem;
+  right: 0;
+  .page {
+    display: flex;
+    cursor: pointer;
+    .fk {
+      height: 0.74rem;
+      width: 0.74rem;
+      border: 1px solid #000000;
+      cursor: pointer;
+      margin-left: 0.2rem;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .d {
+        display: inline-block;
+      }
+      .a {
+        display: none;
+      }
+      &:hover {
+        background: #008aff;
+        border: 1px solid #008aff;
+        .d {
+          display: none;
+        }
+        .a {
+          display: inline-block;
+        }
+      }
+      &.long {
+        width: 1.64rem;
+        &:hover {
+          border: 1px solid #000000;
+          background: none;
+        }
+        & > div {
+          display: flex;
+          align-items: end;
+        }
+        .big {
+          font-family: HarmonyOS Sans SC Bold;
+          font-weight: bold;
+          font-size: 24px;
+          color: #000000;
+          line-height: 28px;
+          text-align: left;
+          font-style: normal;
+          text-transform: none;
+        }
       }
     }
   }

@@ -158,51 +158,51 @@ const speaker = [
   },
 
 
-{
-  name: 'Jonathan Ross',
-  job:'Founder & CEO',
-  tip:'Groq',
-  
-  website:'',
-  twitter: 'https://twitter.com/JonathanRoss321',
-  link:'https://www.linkedin.com/in/ross-jonathan/',
-  detail:ross2,
-  image: ross,
-},
-{
-  name: 'Dr. Jim Fan',
-  job:' Senior Research Scientist',
-  tip:'NVIDIA AI',
-  
-  website:'https://jimfan.me/',
-  twitter: 'https://twitter.com/DrJimFan',
-  link:'https://www.linkedin.com/in/drjimfan/',
-  detail:jimfan2,
-  image: jimfan,
-},
+  {
+    name: 'Jonathan Ross',
+    job: 'Founder & CEO',
+    tip: 'Groq',
+
+    website: '',
+    twitter: 'https://twitter.com/JonathanRoss321',
+    link: 'https://www.linkedin.com/in/ross-jonathan/',
+    detail: ross2,
+    image: ross,
+  },
+  {
+    name: 'Dr. Jim Fan',
+    job: ' Senior Research Scientist',
+    tip: 'NVIDIA AI',
+
+    website: 'https://jimfan.me/',
+    twitter: 'https://twitter.com/DrJimFan',
+    link: 'https://www.linkedin.com/in/drjimfan/',
+    detail: jimfan2,
+    image: jimfan,
+  },
   {
     name: 'Arvind Jain',
-    job:'Founder & CEO',
-    tip:'Glean',
-    website:'https://www.glean.com/',
+    job: 'Founder & CEO',
+    tip: 'Glean',
+    website: 'https://www.glean.com/',
     twitter: 'https://twitter.com/jainarvind',
-    
-    link:'https://www.linkedin.com/in/arvind-jain-5935161/',
-    detail:arvind2,
-    image: arvind,
-},
-{
-  name: 'Dr. Denis Yarats',
-  job: 'CTO & Co-founder',
-  tip: 'Perplexity',
-  image: dr_denis_yarats,
-  website: 'https://cs.nyu.edu/~dy1042/',
-  twitter: 'https://twitter.com/denisyarats',
-  linkedin: 'https://www.linkedin.com/in/denisyarats/',
-  detail: dr_denis_yarats2,
-},
 
-{
+    link: 'https://www.linkedin.com/in/arvind-jain-5935161/',
+    detail: arvind2,
+    image: arvind,
+  },
+  {
+    name: 'Dr. Denis Yarats',
+    job: 'CTO & Co-founder',
+    tip: 'Perplexity',
+    image: dr_denis_yarats,
+    website: 'https://cs.nyu.edu/~dy1042/',
+    twitter: 'https://twitter.com/denisyarats',
+    linkedin: 'https://www.linkedin.com/in/denisyarats/',
+    detail: dr_denis_yarats2,
+  },
+
+  {
     name: 'Jason Wei',
     job: 'AI Researcher',
     tip: 'OpenAI',
@@ -213,7 +213,7 @@ const speaker = [
     detail: jasonwei2,
   },
   {
-    name: 'Raluca Ada Popa',
+    name: 'Prof. Raluca Popa',
     job: 'Professor',
     tip: 'UC Berkeley CS Dept.',
     image: popa,
@@ -325,7 +325,7 @@ const speaker = [
     detail: dugar2,
   },
   {
-    name: 'Ram Sriharsha',
+    name: 'Dr. Ram Sriharsha',
     job: 'CTO',
     tip: 'Pinecone',
     image: sriharsha,
@@ -336,7 +336,7 @@ const speaker = [
   },
 
   {
-    name: 'Eddie Aftandilian',
+    name: 'Dr. Eddie Aftandilian',
     job: 'Principle Researcher',
     tip: 'Github',
     image: eddie,
@@ -374,7 +374,7 @@ const speaker = [
     website: 'https://www.abridge.com/author/shiv-rao',
     linkedin: 'https://www.linkedin.com/in/shivdevrao/',
     twitter: 'https://twitter.com/ShivdevRao',
-    
+
     detail: shiv2,
   },
 
@@ -386,7 +386,7 @@ const speaker = [
     website: '',
     linkedin: 'https://www.linkedin.com/in/awadallah/',
     twitter: 'https://twitter.com/awadallah',
-    
+
     detail: amr2,
   },
 
@@ -398,7 +398,7 @@ const speaker = [
     website: 'https://yoheinakajima.com/',
     linkedin: 'https://www.linkedin.com/in/yoheinakajima/',
     twitter: 'https://twitter.com/yoheinakajima?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor',
-    
+
     detail: yohei2,
   },
   // {
@@ -554,7 +554,7 @@ const speaker = [
     linkedin: 'https://www.linkedin.com/in/kgmcnamara/',
     detail: mike2,
   },
-  
+
   {
     name: 'Jake Heller, JD',
     job: 'CEO & Founder',
@@ -603,7 +603,7 @@ const speaker = [
     website: 'https://daggerfs.com/',
     twitter: 'https://twitter.com/jiayq',
     linkedin: 'https://www.linkedin.com/in/yangqing-jia/',
-    
+
     detail: yangqingjia2,
   },
   {
@@ -614,7 +614,7 @@ const speaker = [
     website: '',
     twitter: '',
     linkedin: 'https://www.linkedin.com/in/emrahgultekin/',
-    
+
     detail: emrah2,
   },
   {
@@ -625,7 +625,7 @@ const speaker = [
     website: 'https://www.dataversity.net/contributors/yashar-behzadi/',
     twitter: 'https://twitter.com/YasharBehzadi',
     linkedin: 'https://www.linkedin.com/in/yasharbehzadi/',
-    
+
     detail: yashar2,
   },
   {
@@ -636,7 +636,7 @@ const speaker = [
     website: '',
     twitter: 'https://twitter.com/davitb',
     linkedin: 'https://www.linkedin.com/in/davitb/',
-    
+
     detail: davit2,
   },
   {
@@ -647,7 +647,7 @@ const speaker = [
     website: '',
     twitter: 'https://twitter.com/Tbeltramelli',
     linkedin: 'https://www.linkedin.com/in/tony-beltramelli-513b1219/?originalSubdomain=dk',
-    
+
     detail: tonyb2,
   },
   {
@@ -658,7 +658,7 @@ const speaker = [
     website: 'https://www.stern.nyu.edu/faculty/bio/xi-chen',
     twitter: 'https://twitter.com/xcyale?lang=en',
     linkedin: 'https://www.linkedin.com/in/xi-chen-900b2710/',
-    
+
     detail: chenxi2,
   },
   {
@@ -699,7 +699,7 @@ const speaker = [
     website: 'https://shishirpatil.github.io/',
     twitter: 'https://twitter.com/shishirpatil_',
     linkedin: 'https://www.linkedin.com/in/shishir-patil/',
-    
+
     detail: patil2,
   },
   {
@@ -750,7 +750,7 @@ const speaker = [
     website: 'https://tonyzhaozh.github.io/',
     twitter: 'https://twitter.com/tonyzzhao',
     linkedin: 'https://www.linkedin.com/in/tony-z-zhao/',
-   
+
     detail: tony2,
   },
   {
@@ -761,7 +761,7 @@ const speaker = [
     website: 'https://zipengfu.github.io/',
     twitter: 'https://twitter.com/zipengfu?lang=en',
     linkedin: 'https://www.linkedin.com/in/zipengfu/',
-    
+
     detail: zipeng2,
   },
   {

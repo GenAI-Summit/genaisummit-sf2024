@@ -136,7 +136,7 @@ import eddie2 from '../assets/images/speakers/popup/eddie.png';
 
 const speakerNewly = [
   {
-    name: 'Eddie Aftandilian',
+    name: 'Dr. Eddie Aftandilian',
     job: 'Principle Researcher',
     tip: 'Github',
     image: eddie,
@@ -146,7 +146,7 @@ const speakerNewly = [
     detail: eddie2,
   },
   {
-    name: 'Ram Sriharsha',
+    name: 'Dr. Ram Sriharsha',
     job: 'CTO',
     tip: 'Pinecone',
     image: sriharsha,
@@ -173,11 +173,11 @@ const speakerNewly = [
     website: '',
     linkedin: 'https://www.linkedin.com/in/awadallah/',
     twitter: 'https://twitter.com/awadallah',
-    
+
     detail: amr2,
   },
   {
-    name: 'Raluca Ada Popa',
+    name: 'Prof. Raluca Popa',
     job: 'Professor',
     tip: 'UC Berkeley CS Dept.',
     image: popa,
@@ -194,7 +194,7 @@ const speakerNewly = [
     website: '',
     twitter: 'https://twitter.com/davitb',
     linkedin: 'https://www.linkedin.com/in/davitb/',
-    
+
     detail: davit2,
   },
   {
@@ -205,7 +205,7 @@ const speakerNewly = [
     website: '',
     twitter: 'https://twitter.com/Tbeltramelli',
     linkedin: 'https://www.linkedin.com/in/tony-beltramelli-513b1219/?originalSubdomain=dk',
-    
+
     detail: tonyb2,
   },
   {
@@ -216,7 +216,7 @@ const speakerNewly = [
     website: 'https://www.dataversity.net/contributors/yashar-behzadi/',
     twitter: 'https://twitter.com/YasharBehzadi',
     linkedin: 'https://www.linkedin.com/in/yasharbehzadi/',
-    
+
     detail: yashar2,
   },
   {
@@ -227,7 +227,7 @@ const speakerNewly = [
     website: '',
     twitter: '',
     linkedin: 'https://www.linkedin.com/in/emrahgultekin/',
-    
+
     detail: emrah2,
   },
   {
@@ -248,7 +248,7 @@ const speakerNewly = [
     website: 'https://www.abridge.com/author/shiv-rao',
     linkedin: 'https://www.linkedin.com/in/shivdevrao/',
     twitter: 'https://twitter.com/ShivdevRao',
-    
+
     detail: shiv2,
   },
   {
@@ -291,7 +291,7 @@ const speakerNewly = [
     linkedin: 'https://www.linkedin.com/in/tomsklee/?locale=en_US',
     detail: tomlee2,
   },
-  
+
   {
     name: 'Dr. George Sivulka',
     job: 'Founder & CEO',
@@ -314,13 +314,13 @@ const speakerNewly = [
   },
   {
     name: 'Jonathan Ross',
-    job:'Founder & CEO',
-    tip:'Groq',
-    
-    website:'',
+    job: 'Founder & CEO',
+    tip: 'Groq',
+
+    website: '',
     twitter: 'https://twitter.com/JonathanRoss321',
-    link:'https://www.linkedin.com/in/ross-jonathan/',
-    detail:ross2,
+    link: 'https://www.linkedin.com/in/ross-jonathan/',
+    detail: ross2,
     image: ross,
   },
   {

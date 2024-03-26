@@ -16,16 +16,6 @@
           <img class="a" src="../assets/images/Ai_Button_right_white.png" alt="" />
         </div>
       </div>
-      <div class="page" v-else>
-        <div class="fk" @click="scrollToLeft(1)">
-          <img class="d" src="../assets/images/Ai_Button_left.png" alt="" />
-          <img class="a" src="../assets/images/Ai_Button_left_white.png" alt="" />
-        </div>
-        <div class="fk" @click="scrollToRight(1)">
-          <img class="d" src="../assets/images/Ai_Button_right.png" alt="" />
-          <img class="a" src="../assets/images/Ai_Button_right_white.png" alt="" />
-        </div>
-      </div>
     </div>
     <div ref="slick" class="slick-carousel2" id="slick-carousel2">
       <div class="swiper_box np swiper_box1" :class="classNameStr">

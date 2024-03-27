@@ -831,7 +831,7 @@ export default {
         img:  new URL( `../assets/images/logoPantners/pantners${4}.png`, import.meta.url).href,
         url: 'https://npu.co/',
       },{
-        img:  new URL( `../assets/images/logoPantners/pantners${5}.png`, import.meta.url).href,
+        img:  new URL( `../assets/images/logoPantners/pantners${61}.png`, import.meta.url).href,
         url: 'https://www.plugandplaytechcenter.com/',
       },{
         img:  new URL( `../assets/images/logoPantners/pantners${6}.png`, import.meta.url).href,

@@ -195,8 +195,11 @@
 
           </div>
           <div class="pantnersList">
-            <div class="pantnersItem" :class="screenWidth > 600 ? '' : 'mb'" v-for="(item,index) in 12" :key="item" data-aos="zoom-in">
-              <img :src="getImg(index+1)" alt="">
+            <div class="pantnersItem" @click="openUrl(item.url)" :class="screenWidth > 600 ? '' : 'mb'" v-for="(item,index) in EventPartners" :key="index" data-aos="zoom-in">
+              <img :src="item.img" alt="">
+            </div>
+            <div class="pantnersItem" :class="screenWidth > 600 ? '' : 'mb f1'">
+              More
             </div>
           </div>
         </div>
@@ -812,7 +815,30 @@ export default {
       ).href;
       
     };
-    
+    const EventPartners = ref([
+      {
+        img:  new URL( `../assets/images/logoPantners/pantners${1}.png`, import.meta.url).href,
+        url: 'https://www.sftravel.com/',
+      },
+      {
+        img:  new URL( `../assets/images/logoPantners/pantners${2}.png`, import.meta.url).href,
+        url: 'https://palaceoffinearts.com/',
+      },{
+        img:  new URL( `../assets/images/logoPantners/pantners${3}.png`, import.meta.url).href,
+        url: 'https://www.palaceoffinearts.org/',
+      },
+      {
+        img:  new URL( `../assets/images/logoPantners/pantners${4}.png`, import.meta.url).href,
+        url: 'https://npu.co/',
+      },{
+        img:  new URL( `../assets/images/logoPantners/pantners${5}.png`, import.meta.url).href,
+        url: 'https://www.plugandplaytechcenter.com/',
+      },{
+        img:  new URL( `../assets/images/logoPantners/pantners${6}.png`, import.meta.url).href,
+        url: '   https://siliconvalleytechweek.com/',
+      },
+      
+    ])
 
 
 
@@ -860,6 +886,7 @@ export default {
       speakerList,
       getImg,
       getImg2,
+      EventPartners,
     };
   },
   components: {
@@ -1982,14 +2009,23 @@ section {
     display: flex;
     flex-flow: wrap;
     gap: 1%;
-    margin-top: 0.5rem;
     .pantnersItem {
-      width: 19%;
+      cursor: pointer;
+      margin-top: 0.5rem;
+      width: 24%;
       // height: ;
       margin-bottom: 0.2222rem;
       transition: all linear 0.5s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #afbace;
+      font-size: 0.37rem;
       &.mb {
         width: 32%;
+        &.f1{
+          width: 100%;
+        }
       }
       &:hover {
         background: #ffffff;

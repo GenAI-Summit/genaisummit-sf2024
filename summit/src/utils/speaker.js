@@ -64,6 +64,7 @@ import karina from '../assets/images/speakers/karina.png';
 import harris from '../assets/images/speakers/harris.png';
 import gade from '../assets/images/speakers/gade.png';
 import eddie from '../assets/images/speakers/eddie.png';
+import shah from '../assets/images/speakers/shah.png';
 
 
 
@@ -133,6 +134,7 @@ import karina2 from '../assets/images/speakers/popup/karina.png';
 import harris2 from '../assets/images/speakers/popup/harris.png';
 import gade2 from '../assets/images/speakers/popup/gade.png';
 import eddie2 from '../assets/images/speakers/popup/eddie.png';
+import shah2 from '../assets/images/speakers/popup/shah.png';
 
 
 const speaker = [
@@ -336,6 +338,17 @@ const speaker = [
   },
 
   {
+    name: 'Sanket Shah',
+    job: 'CEO',
+    tip: 'InVideo',
+    image: shah,
+    website: 'https://invideo.io/blog/author/sanket-shah/',
+    linkedin: 'https://www.linkedin.com/in/sanketsh/?originalSubdomain=in',
+    twitter: 'https://twitter.com/_sankyy',
+    detail: shah,
+  },
+
+  {
     name: 'Dr. Eddie Aftandilian',
     job: 'Principle Researcher',
     tip: 'Github',
@@ -524,16 +537,16 @@ const speaker = [
     linkedin: 'https://www.linkedin.com/in/yaniv-makover-a8590b3/',
     detail: yaniv2,
   },
-  {
-    name: 'Tom Lee',
-    job: 'Co-Founder',
-    tip: 'LOVO',
-    image: tomlee,
-    website: '',
-    twitter: '',
-    linkedin: 'https://www.linkedin.com/in/tomsklee/?locale=en_US',
-    detail: tomlee2,
-  },
+  // {
+  //   name: 'Tom Lee',
+  //   job: 'Co-Founder',
+  //   tip: 'LOVO',
+  //   image: tomlee,
+  //   website: '',
+  //   twitter: '',
+  //   linkedin: 'https://www.linkedin.com/in/tomsklee/?locale=en_US',
+  //   detail: tomlee2,
+  // },
   {
     name: 'Dr. Josh Tobin',
     job: 'Co-Founder',
@@ -560,9 +573,9 @@ const speaker = [
     job: 'CEO & Founder',
     tip: 'Casetext',
     image: jake,
-    website: 'https://www.murch.me/',
-    twitter: 'https://twitter.com/mimurchison',
-    linkedin: 'https://www.linkedin.com/in/mikemurchison/?originalSubdomain=ca',
+    website: 'https://casetext.com/about/',
+    twitter: 'https://twitter.com/Jacob_Heller',
+    linkedin: 'https://www.linkedin.com/in/jakeheller/',
     detail: jake2,
   },
   {

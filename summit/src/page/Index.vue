@@ -185,11 +185,12 @@
           <Swiper ref="SwiperSpeaker" />
         </div>
       </section>
+
       <div class="pantners">
         <div class="cointainer">
           <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
             <div class="left-title before" :class="screenWidth > 600 ? '' : 'mb'" data-aos="flip-up">
-              Trusted Partners
+              Event Partners
             </div>
 
           </div>
@@ -200,6 +201,10 @@
           </div>
         </div>
       </div>
+
+
+
+      
       <div class="GenAISummit" :class="screenWidth > 600 ? '' : 'mb'">
         <div class="cointainer">
           <div class="title" :class="screenWidth > 600 ? '' : 'mb'">
@@ -403,6 +408,23 @@
           <Exhibition />
         </div>
       </section>
+
+      <!-- <div class="pantners">
+        <div class="cointainer">
+          <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
+            <div class="left-title before" :class="screenWidth > 600 ? '' : 'mb'" data-aos="flip-up">
+              Exhibits
+            </div>
+
+          </div>
+          <div class="pantnersList">
+            <div class="pantnersItem" :class="screenWidth > 600 ? '' : 'mb'" v-for="(item,index) in 12" :key="item" data-aos="zoom-in">
+              <img :src="getImg(index+1)" alt="">
+            </div>
+          </div>
+       
+        </div>
+      </div> -->
 
       <!-- <div class="Recognition-bg">
         <div class="cointainer">
@@ -782,6 +804,18 @@ export default {
       ).href;
     };
 
+    const getImg2 = () => {
+      return new URL(
+        `../assets/images/logoPantners/pantners${i}.png`,
+        
+        import.meta.url
+      ).href;
+      
+    };
+    
+
+
+
     return {
       BuyTickets,
       heightStyle,
@@ -825,6 +859,7 @@ export default {
       showAll,
       speakerList,
       getImg,
+      getImg2,
     };
   },
   components: {

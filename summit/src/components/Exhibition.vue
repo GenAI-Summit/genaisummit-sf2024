@@ -3,7 +3,8 @@
         <div>
             <div class="swiper-box img1" :class="screenWidth > 600 ? '' : 'mb'">
                 <div class="img_content">
-                    <img src="../assets/images/typeA.png" alt="">
+                    <img src="../assets/images/typeA2.png" alt="">
+
                 </div>
                 <div class="price_content">
                     <div class="title">Booth Type A</div>
@@ -41,7 +42,7 @@
         <div>
            <div class="swiper-box img1" :class="screenWidth > 600 ? '' : 'mb'">
                 <div class="img_content">
-                    <img src="../assets/images/typeB.png" alt="">
+                    <img src="../assets/images/typeB2.png" alt="">
                 </div>
                 <div class="price_content">
                     <div class="title">Booth Type B</div>

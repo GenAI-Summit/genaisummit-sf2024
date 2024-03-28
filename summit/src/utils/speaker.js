@@ -345,7 +345,7 @@ const speaker = [
     website: 'https://invideo.io/blog/author/sanket-shah/',
     linkedin: 'https://www.linkedin.com/in/sanketsh/?originalSubdomain=in',
     twitter: 'https://twitter.com/_sankyy',
-    detail: shah,
+    detail: shah2,
   },
 
   {

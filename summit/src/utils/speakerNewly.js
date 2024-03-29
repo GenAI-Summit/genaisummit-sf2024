@@ -358,7 +358,7 @@ const speakerNewly = [
 
   {
     name: 'Tim Shi',
-    job: 'Co-founder & CTO',
+    job: 'Co-Founder & CTO',
     tip: 'Cresta',
     image: timshi,
     website: 'https://theorg.com/org/cresta/org-chart/tim-shi',
@@ -416,8 +416,8 @@ const speakerNewly = [
   },
 
   {
-    name: 'Dr. Yuhuai Wu',
-    job: 'Co-founder',
+    name: 'Dr. Tony Wu',
+    job: 'Co-Founder',
     tip: 'xAI',
     image: dr_yuhuai_wu,
     website: 'https://yuhuaiwu.github.io/',
@@ -428,7 +428,7 @@ const speakerNewly = [
 
   {
     name: 'Dr. Denis Yarats',
-    job: 'CTO & Co-founder',
+    job: 'CTO & Co-Founder',
     tip: 'Perplexity',
     image: dr_denis_yarats,
     website: 'https://cs.nyu.edu/~dy1042/',

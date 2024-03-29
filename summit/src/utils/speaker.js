@@ -149,8 +149,8 @@ const speaker = [
     detail: microsoft,
   },
   {
-    name: 'Dr. Yuhuai Wu',
-    job: 'Co-founder',
+    name: 'Dr. Tony Wu',
+    job: 'Co-Founder',
     tip: 'xAI',
     image: dr_yuhuai_wu,
     website: 'https://yuhuaiwu.github.io/',
@@ -173,9 +173,8 @@ const speaker = [
   },
   {
     name: 'Dr. Jim Fan',
-    job: ' Senior Research Scientist',
-    tip: 'NVIDIA AI',
-
+    job: 'Research Manager & Lead of Embodied AI',
+    tip: 'NVIDIA',
     website: 'https://jimfan.me/',
     twitter: 'https://twitter.com/DrJimFan',
     link: 'https://www.linkedin.com/in/drjimfan/',
@@ -193,9 +192,42 @@ const speaker = [
     detail: arvind2,
     image: arvind,
   },
+
+
+
+  {
+    name: 'Prof. Raluca Popa',
+    job: 'Professor',
+    tip: 'UC Berkeley CS Dept.',
+    image: popa,
+    website: 'https://people.eecs.berkeley.edu/~raluca/',
+    twitter: 'https://twitter.com/ralucaadapopa',
+    linkedin: 'https://www.linkedin.com/in/ralucaadapopa/',
+    detail: popa2,
+  },
+  {
+    name: 'Deon Nicholas',
+    job: 'Co-Founder & CEO',
+    tip: 'Forethought',
+    image: deon,
+    twitter: 'https://twitter.com/dojideon?lang=en',
+    linkedin: 'https://www.linkedin.com/in/deon-nicholas/',
+    website: '',
+    detail: deon2,
+  },
+  {
+    name: 'Karina Nguyen',
+    job: 'AI Researcher',
+    tip: 'Anthropic',
+    image: karina,
+    linkedin: '',
+    twitter: 'https://twitter.com/karinanguyen_',
+    website: 'https://karinanguyen.com/',
+    detail: karina2,
+  },
   {
     name: 'Dr. Denis Yarats',
-    job: 'CTO & Co-founder',
+    job: 'CTO & Co-Founder',
     tip: 'Perplexity',
     image: dr_denis_yarats,
     website: 'https://cs.nyu.edu/~dy1042/',
@@ -213,16 +245,6 @@ const speaker = [
     twitter: 'https://twitter.com/_jasonwei',
     linkedin: 'https://www.linkedin.com/in/jason-wei-5a7323b0/',
     detail: jasonwei2,
-  },
-  {
-    name: 'Prof. Raluca Popa',
-    job: 'Professor',
-    tip: 'UC Berkeley CS Dept.',
-    image: popa,
-    website: 'https://people.eecs.berkeley.edu/~raluca/',
-    twitter: 'https://twitter.com/ralucaadapopa',
-    linkedin: 'https://www.linkedin.com/in/ralucaadapopa/',
-    detail: popa2,
   },
   {
     name: 'Bob van Luijt',
@@ -244,16 +266,7 @@ const speaker = [
     twitter: '',
     detail: clarence2,
   },
-  {
-    name: 'Deon Nicholas',
-    job: 'Co-Founder & CEO',
-    tip: 'Forethought',
-    image: deon,
-    twitter: 'https://twitter.com/dojideon?lang=en',
-    linkedin: 'https://www.linkedin.com/in/deon-nicholas/',
-    website: '',
-    detail: deon2,
-  },
+
   {
     name: 'Dr. Devendra Chaplot',
     job: 'AI Research Scientist',
@@ -265,16 +278,6 @@ const speaker = [
     detail: devendra2,
   },
 
-  {
-    name: 'Karina Nguyen',
-    job: 'AI Researcher',
-    tip: 'Anthropic',
-    image: karina,
-    linkedin: '',
-    twitter: 'https://twitter.com/karinanguyen_',
-    website: 'https://karinanguyen.com/',
-    detail: karina2,
-  },
 
   {
     name: 'Dr. Alexander Ratner',
@@ -436,7 +439,7 @@ const speaker = [
   },
   {
     name: 'Tim Shi',
-    job: 'Co-founder & CTO',
+    job: 'Co-Founder & CTO',
     tip: 'Cresta',
     image: timshi,
     website: 'https://theorg.com/org/cresta/org-chart/tim-shi',
@@ -717,7 +720,7 @@ const speaker = [
   },
   {
     name: 'Rajat Suri',
-    job: 'Co-founder @Lima/@Lyft ',
+    job: 'Co-Founder @Lima/@Lyft ',
     tip: 'Founder @Presto ',
     image: rajat,
     website: '',

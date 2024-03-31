@@ -65,6 +65,7 @@ import harris from '../assets/images/speakers/harris.png';
 import gade from '../assets/images/speakers/gade.png';
 import eddie from '../assets/images/speakers/eddie.png';
 import shah from '../assets/images/speakers/shah.png';
+import lijia from '../assets/images/speakers/lijia.png';
 
 
 
@@ -135,6 +136,7 @@ import harris2 from '../assets/images/speakers/popup/harris.png';
 import gade2 from '../assets/images/speakers/popup/gade.png';
 import eddie2 from '../assets/images/speakers/popup/eddie.png';
 import shah2 from '../assets/images/speakers/popup/shah.png';
+import lijia2 from '../assets/images/speakers/popup/lijia.png';
 
 
 const speaker = [
@@ -172,15 +174,16 @@ const speaker = [
     image: ross,
   },
   {
-    name: 'Dr. Jim Fan',
-    job: 'Research Manager & Lead of Embodied AI',
-    tip: 'NVIDIA',
-    website: 'https://jimfan.me/',
-    twitter: 'https://twitter.com/DrJimFan',
-    link: 'https://www.linkedin.com/in/drjimfan/',
-    detail: jimfan2,
-    image: jimfan,
+    name: 'Prof. Raluca Popa',
+    job: 'Professor',
+    tip: 'UC Berkeley CS Dept.',
+    image: popa,
+    website: 'https://people.eecs.berkeley.edu/~raluca/',
+    twitter: 'https://twitter.com/ralucaadapopa',
+    linkedin: 'https://www.linkedin.com/in/ralucaadapopa/',
+    detail: popa2,
   },
+
   {
     name: 'Arvind Jain',
     job: 'Founder & CEO',
@@ -193,18 +196,18 @@ const speaker = [
     image: arvind,
   },
 
-
-
   {
-    name: 'Prof. Raluca Popa',
-    job: 'Professor',
-    tip: 'UC Berkeley CS Dept.',
-    image: popa,
-    website: 'https://people.eecs.berkeley.edu/~raluca/',
-    twitter: 'https://twitter.com/ralucaadapopa',
-    linkedin: 'https://www.linkedin.com/in/ralucaadapopa/',
-    detail: popa2,
+    name: 'Dr. Jim Fan',
+    job: 'Research Manager & Lead of Embodied AI',
+    tip: 'NVIDIA',
+    website: 'https://jimfan.me/',
+    twitter: 'https://twitter.com/DrJimFan',
+    link: 'https://www.linkedin.com/in/drjimfan/',
+    detail: jimfan2,
+    image: jimfan,
   },
+
+
   {
     name: 'Deon Nicholas',
     job: 'Co-Founder & CEO',
@@ -245,6 +248,17 @@ const speaker = [
     twitter: 'https://twitter.com/_jasonwei',
     linkedin: 'https://www.linkedin.com/in/jason-wei-5a7323b0/',
     detail: jasonwei2,
+  },
+
+  {
+    name: 'Jia Li',
+    job: 'Co-Founder, CAIO & President',
+    tip: 'LiveX AI',
+    image: lijia,
+    website: '',
+    twitter: 'https://twitter.com/lijiali_vision',
+    linkedin: 'https://www.linkedin.com/in/lijiali/',
+    detail: lijia2,
   },
   {
     name: 'Bob van Luijt',

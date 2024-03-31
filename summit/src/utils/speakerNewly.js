@@ -65,6 +65,7 @@ import harris from '../assets/images/speakers/harris.png';
 import gade from '../assets/images/speakers/gade.png';
 import eddie from '../assets/images/speakers/eddie.png';
 import shah from '../assets/images/speakers/shah.png';
+import lijia from '../assets/images/speakers/lijia.png';
 
 
 
@@ -135,8 +136,20 @@ import harris2 from '../assets/images/speakers/popup/harris.png';
 import gade2 from '../assets/images/speakers/popup/gade.png';
 import eddie2 from '../assets/images/speakers/popup/eddie.png';
 import shah2 from '../assets/images/speakers/popup/shah.png';
+import lijia2 from '../assets/images/speakers/popup/lijia.png';
 
 const speakerNewly = [
+  
+  {
+    name: 'Jia Li',
+    job: 'Co-Founder, CAIO & President',
+    tip: 'LiveX AI',
+    image: lijia,
+    website: '',
+    twitter: 'https://twitter.com/lijiali_vision',
+    linkedin: 'https://www.linkedin.com/in/lijiali/',
+    detail: lijia2,
+  },
   {
     name: 'Sanket Shah',
     job: 'CEO',

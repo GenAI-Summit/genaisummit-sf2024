@@ -124,53 +124,7 @@
            </div>
         </div>
 
-        <div>
-           <div class="swiper-box img1" :class="screenWidth > 600 ? '' : 'mb'">
-            <br/>
-            <br/>
-            <br/>
-                <div class="img_content">
-                  <br/>
-                  <br/>
-                  <br/>
-                  
-                    <img src="../assets/images/typeS.jpg" alt="">
-                </div>
-                <div class="price_content">
-                    <div class="title">Booth Type S </div>
-                    <!-- (Special Offer for Startups) -->
-                    <div class="s_title">10 ft x 10 ft  (3m x 3m)</div>
-                    <div class="price">
-                        <span class="big">USD 4,999</span><span class="bold"> (Early Bird)</span>
-                    </div>
-                    <div class="list">
-                        10 x 10 ft Space  <br>
-                        2x Chairs <br>
-                        3x Event Tickets<br>
-                        Fit for Roll-up Banners & Other Publicity Materials
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                    </div>
-                    <div class="page" v-if="screenWidth > 600">
-                        <div class="fk" @click="slickPrev">
-                        <img class="d" src="../assets/images/Ai_Button_left.png" alt="">
-                        <img class="a" src="../assets/images/Ai_Button_left_white.png" alt="">
-                        </div>
-                        <div class="fk long">
-                        <div class="">
-                            <span class="big">{{ swiperPageInfo.nowPage }}</span>/{{ swiperPageInfo.pages }}
-                        </div>
-                        </div>
-                        <div class="fk" @click="slickNext">
-                        <img class="d" src="../assets/images/Ai_Button_right.png" alt="">
-                        <img class="a" src="../assets/images/Ai_Button_right_white.png" alt="">
-                        </div>
-                    </div>
-                </div>
-           </div>
-        </div>
+       
         
 
         
@@ -194,7 +148,7 @@
       });
       const pageSize = ref(1)
       const nowPage = ref(1)
-      const total = 4
+      const total = 3
       const pages = ref(Math.ceil(total/pageSize.value))
       const options = {
           autoplaySpeed: 5000,

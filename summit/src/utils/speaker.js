@@ -691,16 +691,7 @@ const speaker = [
 
     detail: chenxi2,
   },
-  {
-    name: 'Dr. Xinyun Chen',
-    job: 'Senior Scientist',
-    tip: 'Google Deepmind',
-    image: xinyun,
-    website: 'https://jungyhuk.github.io/',
-    twitter: 'https://twitter.com/xinyun_chen_',
-    linkedin: 'https://www.linkedin.com/in/xinyun-chen-b4ab79172/',
-    detail: xinyun2,
-  },
+
   {
     name: 'Dr. Yichong Xu',
     job: 'AI Researcher',

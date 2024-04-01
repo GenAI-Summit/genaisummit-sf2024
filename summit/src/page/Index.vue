@@ -340,8 +340,8 @@
             GenAI Summit 2024 is where you’ll want to be.
             <br />
             <br />
-            “Step into the future of AI at GenAI Summit San Francisco 2024 –
-            where ideas meet action, and tomorrow is shaped today!”
+            Step into the future of AI at GenAI Summit San Francisco 2024 –
+            where ideas meet action, and tomorrow is shaped today!
           </div>
         </div>
       </div>
@@ -386,10 +386,10 @@
           </div>
         </div>
 
-        <!--  -->
+        
         <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
           <div class="left-title before" :class="screenWidth > 600 ? '' : 'mb'" data-aos="flip-up">
-            Exhibition Opportunites
+            Exhibition Opportunities
           </div>
           <div class="open-btn">
             <button @click="openUrl('https://www.eventbrite.com/e/genai-summit-san-francisco-2024-tickets-796934722207')">

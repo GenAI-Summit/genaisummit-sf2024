@@ -162,7 +162,7 @@ const speakerNewly = [
   },
   {
     name: 'Dr. Eddie Aftandilian',
-    job: 'Principle Researcher',
+    job: 'Principal Researcher',
     tip: 'Github',
     image: eddie,
     website: 'https://eaftan.github.io/about/',

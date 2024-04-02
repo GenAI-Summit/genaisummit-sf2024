@@ -837,6 +837,10 @@ export default {
         img:  new URL( `../assets/images/logoPantners/pantners${6}.png`, import.meta.url).href,
         url: '   https://siliconvalleytechweek.com/',
       },
+      {
+        img:  new URL( `../assets/images/logoPantners/kunpeng.png`, import.meta.url).href,
+        url: 'https://tgo.infoq.cn/',
+      },
       
     ])
 

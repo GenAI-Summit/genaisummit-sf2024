@@ -58,7 +58,7 @@
       </div>
     </section>
     <div class="bg">
-      <section class="cointainer section-default">
+      <!-- <section class="cointainer section-default">
         <div class="left-content">
           <div data-aos="fade-up">
             <div class="sm-title">THREE DAYS OF COMPREHENSIVE ACTIVITIES</div>
@@ -102,10 +102,30 @@
             <img class="ELE" src="../assets/images/icon-ele.png" alt="" ref="imageRef2" />
           </div>
         </div>
-      </section>
+      </section> -->
       <div class="section-number">
         <section class="cointainer">
+
+          <div class="pantners">
+        <!-- <div class="cointainer">
+          <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
+            <div class="left-title before" :class="screenWidth > 600 ? '' : 'mb'" data-aos="flip-up">
+              Sponsored By
+            </div>
+
+          </div>
+          <div class="pantnersList">
+            <div class="pantnersItem" @click="openUrl(item.url)" :class="screenWidth > 600 ? '' : 'mb'" v-for="(item,index) in EventPartners2" :key="index" data-aos="zoom-in">
+              <img :src="item.img" alt="">
+            </div>
+            
+          </div>
+        </div> -->
+      </div>
+
+
           <div class="c" :class="screenWidth > 600 ? '' : 'mb'">
+            
             <div class="item" v-for="(item, index) in numberList" :key="index" data-aos="flip-up">
               <img :src="icon1" alt="" v-if="index == 0" />
               <img :src="icon2" alt="" v-if="index == 1" />
@@ -375,10 +395,10 @@
             <div class="title_img">
               <img src="../assets/images/plat.png" alt="" />
             </div>
-            <div class="list" @click="openUrl('https://cloud.google.com/')">
+            <!-- <div class="list" @click="openUrl('https://cloud.google.com/')">
               <img class="d" src="../assets/images/ico_logo_g2.png" alt="" />
               <img class="a" src="../assets/images/ico_logo_g1.png" alt="" />
-            </div>
+            </div> -->
             <div class="list" @click="openUrl('https://aws.amazon.com/cn/free')">
               <img class="d" src="../assets/images/aws-startup.png" alt="" />
               <img class="a" src="../assets/images/aws-startup2.png" alt="" />
@@ -843,6 +863,14 @@ export default {
       },
       
     ])
+    const EventPartners2 = ref([
+      {
+        img:  new URL( `../assets/images/microsoftAI.png`, import.meta.url).href,
+        url: 'https://www.microsoft.com/en-us/ai/ai-lab',
+      },
+      
+      
+    ])
 
 
 
@@ -891,6 +919,7 @@ export default {
       getImg,
       getImg2,
       EventPartners,
+      EventPartners2,
     };
   },
   components: {

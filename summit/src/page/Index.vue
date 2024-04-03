@@ -1000,6 +1000,7 @@ section {
   }
 }
 .cointainer {
+
   width: 100%;
   margin: 0 auto;
   max-width: 1200px;

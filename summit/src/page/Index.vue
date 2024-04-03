@@ -51,11 +51,20 @@
               </div>
             </div>
           </div>
+         
         </div>
         <img class="ico ico1" src="../assets/images/ico_dim1.png" alt="" />
         <img class="ico ico2" src="../assets/images/ico_dim2.png" alt="" />
         <img class="ico ico3" src="../assets/images/ico_dim3.png" alt="" />
       </div>
+      <div class="top_item">
+            <div>
+              <div class="show_title">Sponsored by</div>
+              <div class="item_bg_box">
+                <img src="../assets/images/microsoftAI.png" alt="" />
+              </div>
+            </div>
+          </div>
     </section>
     <div class="bg">
       <!-- <section class="cointainer section-default">
@@ -105,9 +114,8 @@
       </section> -->
       <div class="section-number">
         <section class="cointainer">
-
           <div class="pantners">
-        <!-- <div class="cointainer">
+            <!-- <div class="cointainer">
           <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
             <div class="left-title before" :class="screenWidth > 600 ? '' : 'mb'" data-aos="flip-up">
               Sponsored By
@@ -121,12 +129,15 @@
             
           </div>
         </div> -->
-      </div>
-
+          </div>
 
           <div class="c" :class="screenWidth > 600 ? '' : 'mb'">
-            
-            <div class="item" v-for="(item, index) in numberList" :key="index" data-aos="flip-up">
+            <div
+              class="item"
+              v-for="(item, index) in numberList"
+              :key="index"
+              data-aos="flip-up"
+            >
               <img :src="icon1" alt="" v-if="index == 0" />
               <img :src="icon2" alt="" v-if="index == 1" />
               <img :src="icon3" alt="" v-if="index == 2" />
@@ -135,7 +146,10 @@
               <img :src="icon6" alt="" v-if="index == 5" />
               <img :src="icon7" alt="" v-if="index == 6" />
               <div class="number">
-                <NumberCount :startNumber="item.number - 200 > 0 ? item.number - 200 : 1" :endNumber="item.number" />
+                <NumberCount
+                  :startNumber="item.number - 200 > 0 ? item.number - 200 : 1"
+                  :endNumber="item.number"
+                />
               </div>
               <div class="tip">
                 {{ item.tip }}
@@ -148,9 +162,12 @@
       </div>
 
       <section id="section2" class="cointainer">
-
         <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
-          <div class="left-title before" :class="screenWidth > 600 ? '' : 'mb'" data-aos="flip-up">
+          <div
+            class="left-title before"
+            :class="screenWidth > 600 ? '' : 'mb'"
+            data-aos="flip-up"
+          >
             Speakers
           </div>
           <div class="open-btn">
@@ -160,44 +177,80 @@
             </button>
           </div>
         </div>
-        <div class="ss-title" data-aos="flip-up">LISTEN TO THE EVENT SPEAKERS</div>
+        <div class="ss-title" data-aos="flip-up">
+          LISTEN TO THE EVENT SPEAKERS
+        </div>
         <div class="speak-content" :style="heightStyle">
-          <div class="speaker-list" ref="speakerList" :class="screenWidth > 600 ? '' : 'mb'">
-            <div class="list" v-for="(item, index) in showSpeakersList" :key="index" data-aos="zoom-in">
+          <div
+            class="speaker-list"
+            ref="speakerList"
+            :class="screenWidth > 600 ? '' : 'mb'"
+          >
+            <div
+              class="list"
+              v-for="(item, index) in showSpeakersList"
+              :key="index"
+              data-aos="zoom-in"
+            >
               <PersionItem :item="item" />
             </div>
           </div>
         </div>
 
-        <div class="moreDiv" v-if="showAll<3" @click="moreHanle">
+        <div class="moreDiv" v-if="showAll < 3" @click="moreHanle">
           More
           <img class="a" src="../assets/images/general_return_xia.png" alt="" />
-          <img class="d" src="../assets/images/general_return_xia_d.png" alt="" />
+          <img
+            class="d"
+            src="../assets/images/general_return_xia_d.png"
+            alt=""
+          />
         </div>
-        <div class="moreDiv" v-if="showAll==3" @click="closeHanle">
+        <div class="moreDiv" v-if="showAll == 3" @click="closeHanle">
           Hide
           <img class="a" src="../assets/images/general_return_up.png" alt="" />
-          <img class="d" src="../assets/images/general_return_up_d.png" alt="" />
+          <img
+            class="d"
+            src="../assets/images/general_return_up_d.png"
+            alt=""
+          />
         </div>
 
         <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
-          <div class="left-title before" :class="screenWidth > 600 ? '' : 'mb'" data-aos="flip-up">
+          <div
+            class="left-title before"
+            :class="screenWidth > 600 ? '' : 'mb'"
+            data-aos="flip-up"
+          >
             Newly Updated Speakers
           </div>
 
           <div class="page" v-if="swiperPageInfo && screenWidth > 600">
             <div class="fk" @click="swiperpre">
               <img class="d" src="../assets/images/Ai_Button_left.png" alt="" />
-              <img class="a" src="../assets/images/Ai_Button_left_white.png" alt="" />
+              <img
+                class="a"
+                src="../assets/images/Ai_Button_left_white.png"
+                alt=""
+              />
             </div>
             <div class="fk long">
               <div class="">
-                <span class="big">{{ swiperPageInfo.nowPage }}</span>/{{ swiperPageInfo.pages }}
+                <span class="big">{{ swiperPageInfo.nowPage }}</span
+                >/{{ swiperPageInfo.pages }}
               </div>
             </div>
             <div class="fk" @click="swipernext">
-              <img class="d" src="../assets/images/Ai_Button_right.png" alt="" />
-              <img class="a" src="../assets/images/Ai_Button_right_white.png" alt="" />
+              <img
+                class="d"
+                src="../assets/images/Ai_Button_right.png"
+                alt=""
+              />
+              <img
+                class="a"
+                src="../assets/images/Ai_Button_right_white.png"
+                alt=""
+              />
             </div>
           </div>
         </div>
@@ -209,14 +262,24 @@
       <div class="pantners">
         <div class="cointainer">
           <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
-            <div class="left-title before" :class="screenWidth > 600 ? '' : 'mb'" data-aos="flip-up">
+            <div
+              class="left-title before"
+              :class="screenWidth > 600 ? '' : 'mb'"
+              data-aos="flip-up"
+            >
               Event Partners
             </div>
-
           </div>
           <div class="pantnersList">
-            <div class="pantnersItem" @click="openUrl(item.url)" :class="screenWidth > 600 ? '' : 'mb'" v-for="(item,index) in EventPartners" :key="index" data-aos="zoom-in">
-              <img :src="item.img" alt="">
+            <div
+              class="pantnersItem"
+              @click="openUrl(item.url)"
+              :class="screenWidth > 600 ? '' : 'mb'"
+              v-for="(item, index) in EventPartners"
+              :key="index"
+              data-aos="zoom-in"
+            >
+              <img :src="item.img" alt="" />
             </div>
             <div class="pantnersItem" :class="screenWidth > 600 ? '' : 'mb f1'">
               More
@@ -225,9 +288,6 @@
         </div>
       </div>
 
-
-
-      
       <div class="GenAISummit" :class="screenWidth > 600 ? '' : 'mb'">
         <div class="cointainer">
           <div class="title" :class="screenWidth > 600 ? '' : 'mb'">
@@ -249,7 +309,11 @@
               <div class="bottom">
                 Witness the unveiling of the next-gen AI technologies.
               </div>
-              <img class="active" src="../assets/images/Ai_ico_8_active.png" alt="" />
+              <img
+                class="active"
+                src="../assets/images/Ai_ico_8_active.png"
+                alt=""
+              />
             </div>
             <div class="list" data-aos="zoom-in">
               <div class="top">
@@ -259,7 +323,11 @@
               <div class="bottom">
                 Engage with global tech leaders and peers.
               </div>
-              <img class="active" src="../assets/images/Ai_ico_9_active.png" alt="" />
+              <img
+                class="active"
+                src="../assets/images/Ai_ico_9_active.png"
+                alt=""
+              />
             </div>
             <div class="list" data-aos="zoom-in">
               <div class="top">
@@ -269,7 +337,11 @@
               <div class="bottom">
                 Access emerging startups and investment potential.
               </div>
-              <img class="active" src="../assets/images/Ai_ico_10_active.png" alt="" />
+              <img
+                class="active"
+                src="../assets/images/Ai_ico_10_active.png"
+                alt=""
+              />
             </div>
             <div class="list" data-aos="zoom-in">
               <div class="top">
@@ -279,7 +351,11 @@
               <div class="bottom">
                 Stay ahead with worldwide AI developments.
               </div>
-              <img class="active" src="../assets/images/Ai_ico_11_active.png" alt="" />
+              <img
+                class="active"
+                src="../assets/images/Ai_ico_11_active.png"
+                alt=""
+              />
             </div>
             <div class="list" data-aos="zoom-in">
               <div class="top">
@@ -289,7 +365,11 @@
               <div class="bottom">
                 Explore partnerships and collaborative projects.
               </div>
-              <img class="active" src="../assets/images/Ai_ico_12_active.png" alt="" />
+              <img
+                class="active"
+                src="../assets/images/Ai_ico_12_active.png"
+                alt=""
+              />
             </div>
 
             <div class="list" data-aos="zoom-in">
@@ -301,7 +381,11 @@
                 The Palace of Fine Arts, a blend of history and innovation,
                 creates a perfect setting for futuristic dialogues.
               </div>
-              <img class="active" src="../assets/images/Ai_ico_13_active.png" alt="" />
+              <img
+                class="active"
+                src="../assets/images/Ai_ico_13_active.png"
+                alt=""
+              />
             </div>
             <div class="list" data-aos="zoom-in">
               <div class="top">
@@ -312,7 +396,11 @@
                 Ideal for revealing new AI products to a large, diverse
                 audience.
               </div>
-              <img class="active" src="../assets/images/Ai_ico_14_active.png" alt="" />
+              <img
+                class="active"
+                src="../assets/images/Ai_ico_14_active.png"
+                alt=""
+              />
             </div>
             <div class="list" data-aos="zoom-in">
               <div class="top">
@@ -322,7 +410,11 @@
               <div class="bottom">
                 Deepen AI knowledge with sessions from top experts.
               </div>
-              <img class="active" src="../assets/images/Ai_ico_15_active.png" alt="" />
+              <img
+                class="active"
+                src="../assets/images/Ai_ico_15_active.png"
+                alt=""
+              />
             </div>
             <div class="list" data-aos="zoom-in">
               <div class="top">
@@ -332,7 +424,11 @@
               <div class="bottom">
                 Open doors to new career opportunities in AI.
               </div>
-              <img class="active" src="../assets/images/Ai_ico_16_active.png" alt="" />
+              <img
+                class="active"
+                src="../assets/images/Ai_ico_16_active.png"
+                alt=""
+              />
             </div>
             <div class="list" data-aos="zoom-in">
               <div class="top">
@@ -342,15 +438,21 @@
               <div class="bottom">
                 Be part of a community shaping the AI revolution.
               </div>
-              <img class="active" src="../assets/images/Ai_ico_17_active.png" alt="" />
+              <img
+                class="active"
+                src="../assets/images/Ai_ico_17_active.png"
+                alt=""
+              />
             </div>
           </div>
         </div>
       </div>
       <div class="Experience">
         <div class="bg"></div>
-        <div class="cointainer" style="z-index: 2;">
-          <div class="t1" data-aos="slide-down">EMPOWERING TOMORROW'S INNOVATORS</div>
+        <div class="cointainer" style="z-index: 2">
+          <div class="t1" data-aos="slide-down">
+            EMPOWERING TOMORROW'S INNOVATORS
+          </div>
           <div class="t2" data-aos="slide-up">Experience the Future at</div>
           <div class="t2" data-aos="slide-up">GenAI Summit</div>
           <div class="t3" data-aos="flip-up">
@@ -367,7 +469,11 @@
       </div>
       <section id="section3" class="cointainer">
         <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
-          <div class="left-title before" :class="screenWidth > 600 ? '' : 'mb'" data-aos="flip-up">
+          <div
+            class="left-title before"
+            :class="screenWidth > 600 ? '' : 'mb'"
+            data-aos="flip-up"
+          >
             Sponsors
           </div>
           <div class="open-btn">
@@ -377,14 +483,19 @@
             </button>
           </div>
         </div>
-        <div class="ss-title" data-aos="flip-up">CHECK WHO MAKES THIS EVENT POSSIBLE!</div>
+        <div class="ss-title" data-aos="flip-up">
+          CHECK WHO MAKES THIS EVENT POSSIBLE!
+        </div>
 
         <div class="office_content">
           <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
             <div class="title_img">
               <img src="../assets/images/diam.png" alt="" />
             </div>
-            <div class="list" @click="openUrl('https://www.microsoft.com/en-us/')">
+            <div
+              class="list"
+              @click="openUrl('https://www.microsoft.com/en-us/')"
+            >
               <img class="d" src="../assets/images/ico_logo_m2.png" alt="" />
               <img class="a" src="../assets/images/ico_logo_m1.png" alt="" />
             </div>
@@ -399,20 +510,32 @@
               <img class="d" src="../assets/images/ico_logo_g2.png" alt="" />
               <img class="a" src="../assets/images/ico_logo_g1.png" alt="" />
             </div> -->
-            <div class="list" @click="openUrl('https://aws.amazon.com/cn/free')">
+            <div
+              class="list"
+              @click="openUrl('https://aws.amazon.com/cn/free')"
+            >
               <img class="d" src="../assets/images/aws-startup.png" alt="" />
               <img class="a" src="../assets/images/aws-startup2.png" alt="" />
             </div>
           </div>
         </div>
 
-        
         <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
-          <div class="left-title before" :class="screenWidth > 600 ? '' : 'mb'" data-aos="flip-up">
+          <div
+            class="left-title before"
+            :class="screenWidth > 600 ? '' : 'mb'"
+            data-aos="flip-up"
+          >
             Exhibition Opportunities
           </div>
           <div class="open-btn">
-            <button @click="openUrl('https://www.eventbrite.com/e/genai-summit-san-francisco-2024-tickets-796934722207')">
+            <button
+              @click="
+                openUrl(
+                  'https://www.eventbrite.com/e/genai-summit-san-francisco-2024-tickets-796934722207'
+                )
+              "
+            >
               Take your place to exhibit
               <img src="../assets/images/general_return.png" alt="" />
             </button>
@@ -484,13 +607,20 @@
         <!--  -->
 
         <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
-          <div class="left-title before" :class="screenWidth > 600 ? '' : 'mb'" data-aos="flip-up">
+          <div
+            class="left-title before"
+            :class="screenWidth > 600 ? '' : 'mb'"
+            data-aos="flip-up"
+          >
             Tentative Event Agenda
           </div>
-
         </div>
-        <div class="ss-title" data-aos="flip-up">MAXIMIZE YOUR JOURNEY AT THE AI SUMMIT</div>
-        <div class="ss-title2" data-aos="flip-up">(Note: Tentative Outline, update weekly)</div>
+        <div class="ss-title" data-aos="flip-up">
+          MAXIMIZE YOUR JOURNEY AT THE AI SUMMIT
+        </div>
+        <div class="ss-title2" data-aos="flip-up">
+          (Note: Tentative Outline, update weekly)
+        </div>
         <SwiperDay />
       </section>
 
@@ -499,21 +629,30 @@
           <div class="detail" :style="style" @click.stop>
             <img class="info" :src="showImgUrl" alt="" />
             <div class="setting">
-              <img src="../assets/images/close.png" @click="closeDialog" alt="" />
-              <img src="../assets/images/all.png" alt="" @click.stop="pullAll" v-if="!pullAllStatus && screenWidth > 700" />
+              <img
+                src="../assets/images/close.png"
+                @click="closeDialog"
+                alt=""
+              />
+              <img
+                src="../assets/images/all.png"
+                alt=""
+                @click.stop="pullAll"
+                v-if="!pullAllStatus && screenWidth > 700"
+              />
             </div>
           </div>
         </div>
       </div>
 
-      <div class="mbBuyTickets" v-if="screenWidth < 600 ">
+      <div class="mbBuyTickets" v-if="screenWidth < 600">
         <div class="innerTickets">
-
           <div class="ticketsBtn" @click="BuyTickets">
-            <div class="ticketsPrice">
-              $179 – $9,999
+            <div class="ticketsPrice">$179 – $9,999</div>
+            <div class="ticketsBtnText">
+              <img src="../assets/images/hot.png" alt="">
+              Get tickets
             </div>
-            <div class="ticketsBtnText">Get tickets</div>
           </div>
         </div>
       </div>
@@ -830,49 +969,67 @@ export default {
     const getImg2 = () => {
       return new URL(
         `../assets/images/logoPantners/pantners${i}.png`,
-        
+
         import.meta.url
       ).href;
-      
     };
     const EventPartners = ref([
       {
-        img:  new URL( `../assets/images/logoPantners/pantners${1}.png`, import.meta.url).href,
-        url: 'https://www.sftravel.com/',
+        img: new URL(
+          `../assets/images/logoPantners/pantners${1}.png`,
+          import.meta.url
+        ).href,
+        url: "https://www.sftravel.com/",
       },
       {
-        img:  new URL( `../assets/images/logoPantners/pantners${2}.png`, import.meta.url).href,
-        url: 'https://palaceoffinearts.com/',
-      },{
-        img:  new URL( `../assets/images/logoPantners/pantners${3}.png`, import.meta.url).href,
-        url: 'https://www.palaceoffinearts.org/',
+        img: new URL(
+          `../assets/images/logoPantners/pantners${2}.png`,
+          import.meta.url
+        ).href,
+        url: "https://palaceoffinearts.com/",
       },
       {
-        img:  new URL( `../assets/images/logoPantners/pantners${4}.png`, import.meta.url).href,
-        url: 'https://npu.co/',
-      },{
-        img:  new URL( `../assets/images/logoPantners/pantners${61}.png`, import.meta.url).href,
-        url: 'https://www.plugandplaytechcenter.com/',
-      },{
-        img:  new URL( `../assets/images/logoPantners/pantners${6}.png`, import.meta.url).href,
-        url: '   https://siliconvalleytechweek.com/',
+        img: new URL(
+          `../assets/images/logoPantners/pantners${3}.png`,
+          import.meta.url
+        ).href,
+        url: "https://www.palaceoffinearts.org/",
       },
       {
-        img:  new URL( `../assets/images/logoPantners/kunpeng.png`, import.meta.url).href,
-        url: 'https://tgo.infoq.cn/',
+        img: new URL(
+          `../assets/images/logoPantners/pantners${4}.png`,
+          import.meta.url
+        ).href,
+        url: "https://npu.co/",
       },
-      
-    ])
+      {
+        img: new URL(
+          `../assets/images/logoPantners/pantners${61}.png`,
+          import.meta.url
+        ).href,
+        url: "https://www.plugandplaytechcenter.com/",
+      },
+      {
+        img: new URL(
+          `../assets/images/logoPantners/pantners${6}.png`,
+          import.meta.url
+        ).href,
+        url: "   https://siliconvalleytechweek.com/",
+      },
+      {
+        img: new URL(
+          `../assets/images/logoPantners/kunpeng.png`,
+          import.meta.url
+        ).href,
+        url: "https://tgo.infoq.cn/",
+      },
+    ]);
     const EventPartners2 = ref([
       {
-        img:  new URL( `../assets/images/microsoftAI.png`, import.meta.url).href,
-        url: 'https://www.microsoft.com/en-us/ai/ai-lab',
+        img: new URL(`../assets/images/microsoftAI.png`, import.meta.url).href,
+        url: "https://www.microsoft.com/en-us/ai/ai-lab",
       },
-      
-      
-    ])
-
-
+    ]);
 
     return {
       BuyTickets,
@@ -1000,7 +1157,6 @@ section {
   }
 }
 .cointainer {
-
   width: 100%;
   margin: 0 auto;
   max-width: 1200px;
@@ -1010,7 +1166,7 @@ section {
   padding: calc(1.1rem + 80px) 0 1.1rem;
   position: relative;
   overflow: hidden;
-  height: calc(100vh);
+  height: calc(85vh);
   &.mb {
     height: 70vh;
   }
@@ -2033,6 +2189,14 @@ section {
         font-size: 0.4444rem;
         width: 5rem;
         background: #008aff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100px;
+        img{
+          width: 20px;
+          margin-right: .3rem;
+        }
       }
     }
   }
@@ -2057,7 +2221,7 @@ section {
       font-size: 0.37rem;
       &.mb {
         width: 32%;
-        &.f1{
+        &.f1 {
           width: 100%;
         }
       }

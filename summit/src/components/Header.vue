@@ -28,11 +28,13 @@
             <li v-if="screenWidth > 900">
                 <a href="https://sv2023.genaisummit.ai/" target="_black" :class="{ active: activeSection === 'section6' }">PREVIOUS EVENT</a>
             </li>
-            <div class="logo">
+            <!-- <div class="logo">
               <img src="../assets/images/microsoftAI.png" alt="">
-            </div>
-            <li v-if="screenWidth > 900">
-                <button @click="BuyTickets">Buy Tickets</button>
+            </div> -->
+            <li>
+                <button @click="BuyTickets">
+                  <img src="../assets/images/hot.png" alt="">
+                  Buy Tickets</button>
             </li>
         </ul>
     </div>
@@ -190,8 +192,8 @@ export default {
                     cursor: pointer;
                 }
                   button{
-                    width: 2rem;
-                    height: .6rem;
+                    width: 2.8rem;
+                    height: .9rem;
                     background:  #008AFF;
                     color: #FFFFFF;
                     cursor: pointer;
@@ -199,6 +201,13 @@ export default {
                     position: relative;
                     overflow: hidden;
                     transition: background-color 0.3s ease;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 100px;
+                    img{
+                      margin-right: .15rem;
+                    }
                     z-index: 2;
                       &::before {
                         content: "";

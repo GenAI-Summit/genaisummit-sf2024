@@ -58,63 +58,39 @@
         <img class="ico ico3" src="../assets/images/ico_dim3.png" alt="" />
       </div>
       <div class="top_item">
+        
             <div>
               <div class="show_title">Sponsored by</div>
+              
+          
               <div class="item_bg_box">
-                <img src="../assets/images/microsoftAI.png" alt="" />
+                <img src="../assets/images/whiteverti2.png" alt="" />
+                <img src="../assets/images/micro_logo.png" alt="" />
+                <br/>   
+                <img src="../assets/images/whiteverti2.png" alt="" />
+                <img src="../assets/images/whiteverti2.png" alt="" />
+                <br/>
+                <img src="../assets/images/gptdaologo23.png" alt="" />
+
+                <img src="../assets/images/whiteverti2.png" alt="" />
+                
+
+                <img src="../assets/images/more.png" alt="" />
               </div>
+              
+              
             </div>
+            
+            
           </div>
+         
     </section>
     <div class="bg">
-      <!-- <section class="cointainer section-default">
-        <div class="left-content">
-          <div data-aos="fade-up">
-            <div class="sm-title">THREE DAYS OF COMPREHENSIVE ACTIVITIES</div>
-            <div class="b-title">
-              <img src="../assets/images/icon-fang.png" alt="" />
-              GenAI Summit San Francisco 2024
-            </div>
-            <div class="text">
-              Dive into the heart of innovation at the GenAI Summit San
-              Francisco 2024, set in the awe-inspiring, historic Palace of Fine
-              Arts from May 29th to May 31st. This summit is not just an event,
-              it’s an extraordinary convergence of the brightest minds in
-              Generative AI, encapsulating the spirit of the future.
-            </div>
-            <div class="b-title">
-              <img src="../assets/images/icon-fang.png" alt="" />
-
-              The Summit at a Glance
-            </div>
-            <div class="text">
-              • Venue Size: 200,000+ square feet of immersive experiences.
-              <br />
-              • Anticipated Audience: 30,000+ attendees from around the
-              globe.<br />
-              • Exhibitors: 300+ exhibitors showcasing groundbreaking AI
-              solutions.<br />
-              • Venture Capitalists: 300+ VCs looking for the next big idea.<br />
-              • Speakers: 200+ industry-leading founders, investors, and experts sharing invaluable insights.<br />
-              • Media Coverage: 50+ media outlets capturing every exciting
-              moment.<br />
-              • Dynamic Tracks: 20+ tracks and 200+ sessions showcasing exhilarating discoveries and information.
-            </div>
-          </div>
-        </div>
-        <div class="right-content" :class="screenWidth > 600 ? '' : 'mb'">
-          <div class="img-content" :class="screenWidth > 600 ? '' : 'mb'" data-aos="fade-left" @mousemove="handleMouseMove">
-            <img class="AI" src="../assets/images/icon-AI.png" alt="" />
-            <img class="DP" src="../assets/images/icon-dp.png" alt="" />
-            <img class="SD" src="../assets/images/icon-sd.png" alt="" ref="imageRef" />
-            <img class="SD1" src="../assets/images/icon-sd1.png" alt="" ref="imageRef1" />
-            <img class="ELE" src="../assets/images/icon-ele.png" alt="" ref="imageRef2" />
-          </div>
-        </div>
-      </section> -->
       <div class="section-number">
         <section class="cointainer">
+          
           <div class="pantners">
+            
             <!-- <div class="cointainer">
           <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
             <div class="left-title before" :class="screenWidth > 600 ? '' : 'mb'" data-aos="flip-up">
@@ -287,6 +263,8 @@
           </div>
         </div>
       </div>
+
+      
 
       <div class="GenAISummit" :class="screenWidth > 600 ? '' : 'mb'">
         <div class="cointainer">
@@ -487,7 +465,7 @@
           CHECK WHO MAKES THIS EVENT POSSIBLE!
         </div>
 
-        <div class="office_content">
+        <!-- <div class="office_content">
           <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
             <div class="title_img">
               <img src="../assets/images/diam.png" alt="" />
@@ -500,7 +478,7 @@
               <img class="a" src="../assets/images/ico_logo_m1.png" alt="" />
             </div>
           </div>
-        </div>
+        </div> -->
         <div class="office_content">
           <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
             <div class="title_img">
@@ -733,6 +711,27 @@ export default {
         number: 200000,
       },
     ]);
+
+
+
+    const activeSection = ref('');
+    const scrollToSection = (sectionId) => {
+      const discount = route.query.discount
+      const section = document.getElementById(sectionId);
+      const newHash = discount ? `?section=` + sectionList[sectionId] + `&discount=` + discount : `?section=` + sectionList[sectionId];
+      window.location.hash = newHash;
+      if (section) {
+        window.scrollTo({
+          top: section.offsetTop - 80,
+          behavior: 'smooth'
+        });
+      }
+    };
+    
+
+    
+
+
     const handleMouseMove = (e) => {
       const mouseX = e.clientX;
       const mouseY = e.clientY;
@@ -1077,6 +1076,10 @@ export default {
       getImg2,
       EventPartners,
       EventPartners2,
+      activeSection,
+      scrollToSection,
+      BuyTickets,
+      screenWidth
     };
   },
   components: {
@@ -1166,7 +1169,7 @@ section {
   padding: calc(1.1rem + 80px) 0 1.1rem;
   position: relative;
   overflow: hidden;
-  height: calc(85vh);
+  height: calc(77vh);
   &.mb {
     height: 70vh;
   }
@@ -1332,20 +1335,20 @@ section {
         }
       }
       .right {
-        margin-top: 0.5rem;
+        margin-top: .55rem;
         .time-box {
           display: flex;
           align-items: center;
           .item {
-            width: 1.59rem;
-            height: 1.59rem;
+            width: 1rem;
+            height: 1rem;
             background: linear-gradient(
               180deg,
               rgba(255, 255, 255, 0) 0%,
               #ffffff 100%
             );
             border-radius: 0px 0px 0px 0px;
-            border: 1px solid;
+            border: 01px solid;
             border-image: linear-gradient(
                 180deg,
                 rgba(255, 255, 255, 1),
@@ -1354,12 +1357,12 @@ section {
               1 1;
             font-family: HarmonyOS Sans SC Bold;
             font-weight: bold;
-            font-size: 0.56rem;
+            font-size: 0.4rem;
             color: #001f3c;
             text-align: center;
             font-style: normal;
             text-transform: none;
-            line-height: 1.59rem;
+            line-height: 1rem;
             position: relative;
             &::after {
               content: "";
@@ -1373,8 +1376,8 @@ section {
             }
           }
           .timetip {
-            width: 0.8rem;
-            height: 0.8rem;
+            width: 1rem;
+            height: 1rem;
             font-family: HarmonyOS Sans SC Regular;
             font-weight: 400;
             font-size: 0.37rem;
@@ -1382,7 +1385,7 @@ section {
             text-align: center;
             font-style: normal;
             text-transform: none;
-            line-height: 0.8rem;
+            line-height: 1rem;
           }
         }
       }

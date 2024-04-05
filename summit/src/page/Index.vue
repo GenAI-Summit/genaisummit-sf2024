@@ -65,12 +65,13 @@
           
               <div class="item_bg_box">
                 <img src="../assets/images/whiteverti2.png" alt="" />
+                <img src="../assets/images/whiteverti2.png" alt="" />
                 <img src="../assets/images/micro_logo.png" alt="" />
                 <br/>   
                 <img src="../assets/images/whiteverti2.png" alt="" />
                 <img src="../assets/images/whiteverti2.png" alt="" />
                 <br/>
-                <img src="../assets/images/gptdaologo23.png" alt="" />
+                
 
                 <img src="../assets/images/whiteverti2.png" alt="" />
                 

@@ -44,9 +44,10 @@
 </template>
 
 <script>
-import { ref, computed, watch, onMounted } from 'vue';
+import { ref, computed, watch, onMounted, onUnmounted } from 'vue';
 import { useStore} from 'vuex'
 import { useRoute } from 'vue-router';
+import EventBus from "../utils/EventBus.js";
 
 export default {
   name: '',
@@ -104,7 +105,11 @@ export default {
     const screenWidth = computed(() => {
       return store.state.screenWidth;
     });
+    const goPageHandle = () => {
+      scrollToSection('section3')
+    }
     onMounted( () => {
+      EventBus.$on("goPageHandle", goPageHandle);
         setTimeout(() => {
           const section = route.query.section
           if(linkList[section]){
@@ -112,6 +117,9 @@ export default {
           }
         },1000)
     })
+    onUnmounted(() => {
+      EventBus.$off("goPageHandle");
+    });
     return {
         activeSection,
         scrollToSection,

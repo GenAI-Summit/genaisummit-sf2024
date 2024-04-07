@@ -52,14 +52,30 @@
 
     .item_bg_box {
         width: 10rem;
-        height: 1rem;
+        height: 1.3rem;
         background: url(../images/top_item_bg.png) no-repeat;
         background-size: 100% 100%;
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-direction: column;
         img{
             height: .9rem;
+        }
+        .more{
+            font-size: 16px;
+            cursor: pointer;
+            background: #ECEFF2;
+            border-radius: 19px 19px 19px 19px;
+            display: flex;
+            align-items: center;
+            width: auto;
+            padding: 2px 4px;
+            img{
+                width: 16px;
+                height:16px;
+                margin-left: 2px;
+            }
         }
     }
 }

@@ -62,27 +62,14 @@
             <div>
               <div class="show_title">Sponsored by</div>
               
-          
               <div class="item_bg_box">
-                <img src="../assets/images/whiteverti2.png" alt="" />
-                <img src="../assets/images/whiteverti2.png" alt="" />
-                <img src="../assets/images/micro_logo.png" alt="" />
-                <br/>   
-                <img src="../assets/images/whiteverti2.png" alt="" />
-                <img src="../assets/images/whiteverti2.png" alt="" />
-                <br/>
-                
-
-                <img src="../assets/images/whiteverti2.png" alt="" />
-                
-
-                <img src="../assets/images/more.png" alt="" />
+                  <img src="../assets/images/micro_logo.png" alt="" />
+                  <div class="more" @click="goPageHandle">
+                    more
+                    <img src="../assets/images/down_more.png" alt="">
+                  </div>
               </div>
-              
-              
             </div>
-            
-            
           </div>
          
     </section>
@@ -1030,8 +1017,11 @@ export default {
         url: "https://www.microsoft.com/en-us/ai/ai-lab",
       },
     ]);
-
+    const goPageHandle = () => {
+      EventBus.$emit("goPageHandle");
+    }
     return {
+      goPageHandle,
       BuyTickets,
       heightStyle,
       screenWidth,
@@ -1170,7 +1160,7 @@ section {
   padding: calc(1.1rem + 80px) 0 1.1rem;
   position: relative;
   overflow: hidden;
-  height: calc(77vh);
+  height: calc(82vh);
   &.mb {
     height: 70vh;
   }

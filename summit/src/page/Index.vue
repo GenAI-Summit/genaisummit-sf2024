@@ -616,7 +616,7 @@
           <div class="ticketsBtn" @click="BuyTickets">
             <div class="ticketsPrice">$179 – $9,999</div>
             <div class="ticketsBtnText">
-              <img src="../assets/images/hot.png" alt="">
+              <img src="../assets/images/hot.gif" alt="">
               Get tickets
             </div>
           </div>
@@ -2188,7 +2188,7 @@ section {
         justify-content: center;
         border-radius: 100px;
         img{
-          width: 20px;
+          width: 30px;
           margin-right: .3rem;
         }
       }

@@ -33,7 +33,7 @@
             </div> -->
             <li>
                 <button @click="BuyTickets">
-                  <img src="../assets/images/hot.png" alt="">
+                  <img src="../assets/images/hot.gif" alt="">
                   Buy Tickets</button>
             </li>
         </ul>
@@ -215,6 +215,7 @@ export default {
                     border-radius: 100px;
                     img{
                       margin-right: .15rem;
+                      width: .5rem;
                     }
                     z-index: 2;
                       &::before {

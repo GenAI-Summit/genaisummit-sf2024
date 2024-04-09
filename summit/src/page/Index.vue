@@ -32,10 +32,18 @@
             </div>
             <div class="btn-group">
               <div class="left">
-                <button @click="BuyTickets">
+                <button>
                   <div class="spinner0"></div>
                   Buy Tickets
                 </button>
+                <div class="buy-listBox">
+                  <div class="list" @click="BuyTicketsLuma">
+                    <img class="luma" src="../assets/images/luma.png" alt="" />
+                  </div>
+                  <div class="list" @click="BuyTickets">
+                    <img class="event" src="../assets/images/event.png" alt="" />
+                  </div>
+                </div>
               </div>
               <div class="right">
                 <div class="time-box">
@@ -53,9 +61,9 @@
           </div>
          
         </div>
-        <img class="ico ico1" src="../assets/images/ico_dim1.png" alt="" />
+        <!-- <img class="ico ico1" src="../assets/images/ico_dim1.png" alt="" />
         <img class="ico ico2" src="../assets/images/ico_dim2.png" alt="" />
-        <img class="ico ico3" src="../assets/images/ico_dim3.png" alt="" />
+        <img class="ico ico3" src="../assets/images/ico_dim3.png" alt="" /> -->
       </div>
       <div class="top_item">
         
@@ -495,16 +503,18 @@
             Exhibition Opportunities
           </div>
           <div class="open-btn">
-            <button
-              @click="
-                openUrl(
-                  'https://www.eventbrite.com/e/genai-summit-san-francisco-2024-tickets-796934722207'
-                )
-              "
-            >
+            <button>
               Take your place to exhibit
               <img src="../assets/images/general_return.png" alt="" />
             </button>
+            <div class="buy-listBox">
+              <div class="list" @click="BuyTicketsLuma">
+                <img class="luma" src="../assets/images/luma.png" alt="" />
+              </div>
+              <div class="list" @click="BuyTickets">
+                <img class="event" src="../assets/images/event.png" alt="" />
+              </div>
+            </div>
           </div>
         </div>
         <div class="ss-title" data-aos="flip-up">
@@ -613,11 +623,19 @@
 
       <div class="mbBuyTickets" v-if="screenWidth < 600">
         <div class="innerTickets">
-          <div class="ticketsBtn" @click="BuyTickets">
+          <div class="ticketsBtn">
             <div class="ticketsPrice">$179 – $9,999</div>
             <div class="ticketsBtnText">
               <img src="../assets/images/hot.gif" alt="">
               Get tickets
+              <div class="buy-listBox">
+                <div class="list" @click="BuyTicketsLuma">
+                  <img class="luma" src="../assets/images/luma.png" alt="" />
+                </div>
+                <div class="list" @click="BuyTickets">
+                  <img class="event" src="../assets/images/event.png" alt="" />
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -934,18 +952,6 @@ export default {
     const heightStyle = ref({
       height: "14rem",
     });
-    const BuyTickets = () => {
-      if (route.query.discount) {
-        window.open(
-          "https://www.eventbrite.com/e/genai-summit-san-francisco-2024-tickets-796934722207?discount=" +
-            route.query.discount
-        );
-      } else {
-        window.open(
-          "https://www.eventbrite.com/e/genai-summit-san-francisco-2024-tickets-796934722207"
-        );
-      }
-    };
     const getImg = (i) => {
       return new URL(
         `../assets/images/logoPantners/pantners${i}.png`,
@@ -1020,6 +1026,23 @@ export default {
     const goPageHandle = () => {
       EventBus.$emit("goPageHandle");
     }
+    const BuyTickets = () => {
+      if (route.query.discount) {
+        window.open(
+          "https://www.eventbrite.com/e/genai-summit-san-francisco-2024-tickets-796934722207?discount=" +
+            route.query.discount
+        );
+      } else {
+        window.open(
+          "https://www.eventbrite.com/e/genai-summit-san-francisco-2024-tickets-796934722207"
+        );
+      }
+    };
+    const BuyTicketsLuma = () => {
+      window.open(
+          "https://lu.ma/genaisummitsf2024"
+        );
+    }
     return {
       goPageHandle,
       BuyTickets,
@@ -1070,7 +1093,8 @@ export default {
       activeSection,
       scrollToSection,
       BuyTickets,
-      screenWidth
+      screenWidth,
+      BuyTicketsLuma
     };
   },
   components: {
@@ -1160,7 +1184,8 @@ section {
   padding: calc(1.1rem + 80px) 0 1.1rem;
   position: relative;
   overflow: hidden;
-  height: calc(82vh);
+  height: calc(75vh);
+  min-height: 680px;
   &.mb {
     height: 70vh;
   }
@@ -1280,9 +1305,54 @@ section {
       display: flex;
       flex-wrap: wrap;
       align-items: center;
+      justify-content: space-between;
       .left {
         margin-top: 0.5rem;
-        flex: 1;
+        position: relative;
+        &:hover{
+            .buy-listBox{
+              display: block;
+             
+            }
+            button{
+              &::before {
+                left: 0;
+              }
+            }
+          }
+        .buy-listBox {
+            padding: 10px;
+            cursor: pointer;
+            position: absolute;
+            width: 100%;
+            background: rgba(255, 255, 255, 1);
+            border: 1px solid rgba(0, 0, 0, 0.15);
+            box-shadow: 0px 4px 20px -6px rgba(0, 0, 0, 0.15) !important;
+            border-radius: 13px 13px 13px 13px;
+            top: 0.9rem;
+            z-index: 9999;
+            display: none;
+            .list{
+                width: 100%;
+                text-align: center;
+                padding: .1rem 0;
+                border: 1px solid transparent;
+                margin: 0 auto;
+                border-radius: 100px;
+                &:hover{
+                  border: 1px solid #000000;
+                }
+              }
+              img{
+                &.luma{
+                  width: 1.3rem;
+                }
+                &.event{
+                  margin-top: 4px;
+                  width: 1.6rem;
+                }
+              };
+          }
         button {
           background: #000000;
           width: 3.111rem;
@@ -2057,6 +2127,55 @@ section {
 
 .open-btn {
   margin-top: 0.3rem;
+  position: relative;
+  &:hover{
+            .buy-listBox{
+              display: block;
+             
+            }
+            button{
+              &::before {
+                left: 0;
+              }
+              color: #ffffff;
+              img {
+                display: block;
+              }
+            }
+          }
+  .buy-listBox {
+            padding: 10px;
+            cursor: pointer;
+            position: absolute;
+            width: 100%;
+            background: rgba(255, 255, 255, 1);
+            border: 1px solid rgba(0, 0, 0, 0.15);
+            box-shadow: 0px 4px 20px -6px rgba(0, 0, 0, 0.15) !important;
+            border-radius: 13px 13px 13px 13px;
+            top: 0.7rem;
+            z-index: 9999;
+            display: none;
+            .list{
+                width: 100%;
+                text-align: center;
+                padding: .1rem 0;
+                border: 1px solid transparent;
+                margin: 0 auto;
+                border-radius: 100px;
+                &:hover{
+                  border: 1px solid #000000;
+                }
+              }
+              img{
+                &.luma{
+                  width: 1.3rem;
+                }
+                &.event{
+                  margin-top: 4px;
+                  width: 1.6rem;
+                }
+              };
+          }
   button {
     padding: 0 0.2rem;
     height: 0.74rem;
@@ -2089,19 +2208,10 @@ section {
       transition: left 0.15s ease;
       z-index: -1;
     }
-    &:hover::before {
-      left: 0;
-    }
     img {
       display: none;
       width: 0.37rem;
       margin-left: 0.1rem;
-    }
-    &:hover {
-      color: #ffffff;
-      img {
-        display: block;
-      }
     }
   }
 }
@@ -2187,6 +2297,45 @@ section {
         align-items: center;
         justify-content: center;
         border-radius: 100px;
+        position: relative;
+        &:hover{
+            .buy-listBox{
+              display: block;
+            }
+          }
+        .buy-listBox {
+            padding: 10px;
+            cursor: pointer;
+            position: absolute;
+            width: 100%;
+            background: rgba(255, 255, 255, 1);
+            border: 1px solid rgba(0, 0, 0, 0.15);
+            box-shadow: 0px 4px 20px -6px rgba(0, 0, 0, 0.15) !important;
+            border-radius: 13px 13px 13px 13px;
+            bottom: 1.5rem;
+            z-index: 9999;
+            display: none;
+            .list{
+                width: 100%;
+                text-align: center;
+                padding: .1rem 0;
+                border: 1px solid transparent;
+                margin: 0 auto;
+                border-radius: 100px;
+                &:hover{
+                  border: 1px solid #000000;
+                }
+              }
+              img{
+                &.luma{
+                  width: 1.3rem;
+                }
+                &.event{
+                  margin-top: 4px;
+                  width: 1.6rem;
+                }
+              };
+          }
         img{
           width: 30px;
           margin-right: .3rem;

@@ -51,14 +51,13 @@
     }
 
     .item_bg_box {
-        width: 10rem;
+        padding: 0.5rem ;
         height: 1.3rem;
         background: url(../images/top_item_bg.png) no-repeat;
         background-size: 100% 100%;
         display: flex;
         align-items: center;
         justify-content: center;
-        flex-direction: column;
         img{
             height: .9rem;
         }
@@ -70,7 +69,8 @@
             display: flex;
             align-items: center;
             width: auto;
-            padding: 2px 4px;
+            padding: 6px 10px;
+            margin-left: 10px;
             img{
                 width: 16px;
                 height:16px;

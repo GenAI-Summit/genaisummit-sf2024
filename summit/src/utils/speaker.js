@@ -270,16 +270,6 @@ const speaker = [
     linkedin: 'https://www.linkedin.com/in/bobvanluijt/?originalSubdomain=nl',
     detail: bob2,
   },
-  {
-    name: 'Clarence Ng',
-    job: 'Member of Technical Staff',
-    tip: 'OpenAI',
-    image: clarence,
-    linkedin: 'https://www.linkedin.com/in/clarng/',
-    website: '',
-    twitter: '',
-    detail: clarence2,
-  },
 
   {
     name: 'Dr. Devendra Chaplot',

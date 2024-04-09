@@ -419,14 +419,6 @@ const speakerNewly = [
     linkedin: 'https://www.linkedin.com/in/henrytpeter/',
     detail: henry2,
   },
-  {
-    name: 'Clarence Ng',
-    job: 'Member of Technical Staff',
-    tip: 'OpenAI',
-    image: clarence,
-    linkedin: 'https://www.linkedin.com/in/clarng/',
-    detail: clarence2,
-  },
 
   {
     name: 'Dr. Tony Wu',

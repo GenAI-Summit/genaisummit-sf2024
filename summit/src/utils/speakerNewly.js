@@ -66,7 +66,8 @@ import gade from '../assets/images/speakers/gade.png';
 import eddie from '../assets/images/speakers/eddie.png';
 import shah from '../assets/images/speakers/shah.png';
 import lijia from '../assets/images/speakers/lijia.png';
-
+import fiona from '../assets/images/speakers/fiona.png';
+import ambati from '../assets/images/speakers/ambati.png';
 
 
 
@@ -137,8 +138,30 @@ import gade2 from '../assets/images/speakers/popup/gade.png';
 import eddie2 from '../assets/images/speakers/popup/eddie.png';
 import shah2 from '../assets/images/speakers/popup/shah.png';
 import lijia2 from '../assets/images/speakers/popup/lijia.png';
+import fiona2 from '../assets/images/speakers/popup/fiona.png';
+import ambati2 from '../assets/images/speakers/popup/ambati.png';
 
 const speakerNewly = [
+  {
+    name: 'Sri Satish Ambati',
+    job: 'Co-Founder & CEO',
+    tip: 'H2O.AI',
+    image: ambati,
+    website: 'https://www.rblt.com/tech-summit-biography/sri-ambati',
+    twitter: 'https://twitter.com/srisatish',
+    linkedin: 'https://www.linkedin.com/in/srisatishambati/',
+    detail: ambati2,
+  },
+  {
+    name: 'Fiona Ma',
+    job: 'State Treasurer',
+    tip: "State Treasurer's Office",
+    image: fiona,
+    linkedin: 'https://www.linkedin.com/in/fionamacpa/',
+    twitter: 'https://twitter.com/fionama',
+    website: 'https://www.fionama.com/',
+    detail: fiona2,
+  },
   
   {
     name: 'Jia Li',

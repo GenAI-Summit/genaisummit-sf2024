@@ -486,7 +486,7 @@
             </div> -->
             <div
               class="list"
-              @click="openUrl('https://aws.amazon.com/cn/free')"
+              @click="openUrl('https://aws.amazon.com/startups?lang=en-US')"
             >
               <img class="d" src="../assets/images/aws-startup.png" alt="" />
               <img class="a" src="../assets/images/aws-startup2.png" alt="" />

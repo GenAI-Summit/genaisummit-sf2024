@@ -530,6 +530,36 @@
           <Exhibition />
         </div>
       </section>
+      
+      <!-- Exhibition Starts Here -->
+      <!-- <div class="pantners2">
+        <div class="cointainer">
+          <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
+            <div
+              class="left-title before"
+              :class="screenWidth > 600 ? '' : 'mb'"
+              data-aos="flip-up"
+            >
+              Exhibition
+            </div>
+          </div>
+          <div class="pantnersList">
+            <div
+              class="pantnersItem"
+              @click="openUrl(item.url)"
+              :class="screenWidth > 600 ? '' : 'mb'"
+              v-for="(item, index) in EventPartners2"
+              :key="index"
+              data-aos="zoom-in"
+            >
+              <img :src="item.img" alt="" />
+            </div>
+            <div class="pantnersItem" :class="screenWidth > 600 ? '' : 'mb f1'">
+              More
+            </div>
+          </div>
+        </div>
+      </div> -->
 
       <!-- <div class="pantners">
         <div class="cointainer">
@@ -1019,9 +1049,71 @@ export default {
     ]);
     const EventPartners2 = ref([
       {
-        img: new URL(`../assets/images/microsoftAI.png`, import.meta.url).href,
+        img: new URL(`../assets/images/sponsors/microsoft2.png`, import.meta.url).href,
         url: "https://www.microsoft.com/en-us/ai/ai-lab",
       },
+      {
+        img: new URL(`../assets/images/sponsors/IBM.png`, import.meta.url).href,
+        url: "https://www.ibm.com/us-en",
+      },
+      
+      
+      {
+        img: new URL(`../assets/images/sponsors/iobc.png`, import.meta.url).href,
+        url: "https://www.iobc.capital/#/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/realloop.png`, import.meta.url).href,
+        url: "http://www.realloop.com/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/ida.png`, import.meta.url).href,
+        url: "http://www.idaireland.com",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/otter.png`, import.meta.url).href,
+        url: "https://otter.ai/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/zilliz.png`, import.meta.url).href,
+        url: "https://zilliz.com/cloud?utm_source=google&utm_medium=cpc&utm_campaign=Brand_Zilliz_Search&utm_content=Zilliz_SKAG&utm_term=zilliz&utm_campaign=Brand_Zilliz_Search&utm_source=adwords&utm_medium=ppc&hsa_acc=3636806625&hsa_cam=20126268396&hsa_grp=152646187561&hsa_ad=658436361072&hsa_src=g&hsa_tgt=kwd-1219724973301&hsa_kw=zilliz&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=CjwKCAjw8diwBhAbEiwA7i_sJW18kjAPsvO-0r4Ra1BJ6bV9O2bboN9x3F_qPqiI_F234qosqPZtSRoCxS8QAvD_BwE",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/molar.png`, import.meta.url).href,
+        url: "https://www.molardata.com/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/exaBITS.png`, import.meta.url).href,
+        url: "https://www.exabits.ai/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/94ai.png`, import.meta.url).href,
+        url: "https://cn.94ai.com/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/akool.png`, import.meta.url).href,
+        url: "https://akool.com/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/upmarket.png`, import.meta.url).href,
+        url: "https://www.upmarket.co/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/skalable.png`, import.meta.url).href,
+        url: "https://skalabletech.com/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/ushur.png`, import.meta.url).href,
+        url: "https://ushur.com/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/livex.png`, import.meta.url).href,
+        url: "https://livex.ai/",
+      },
+      
+
+
+
     ]);
     const goPageHandle = () => {
       EventBus.$emit("goPageHandle");
@@ -2374,6 +2466,41 @@ section {
       img {
         width: 80%;
         height: 100%;
+        margin-left: 10%;
+      }
+    }
+  }
+}
+.pantners2 {
+  width: 100%;
+  .pantnersList {
+    display: flex;
+    flex-flow: wrap;
+    gap: 1%;
+    .pantnersItem {
+      cursor: pointer;
+      margin-top: 0.5rem;
+      width: 19%;
+      height: auto;
+      margin-bottom: 0.5rem;
+      transition: all linear 0.5s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #3d3d3d;
+      font-size: 0.37rem;
+      &.mb {
+        width: 32%;
+        &.f1 {
+          width: 100%;
+        }
+      }
+      &:hover {
+        background: #ffffff;
+      }
+      img {
+        width: 80%;
+        height: 90%;
         margin-left: 10%;
       }
     }

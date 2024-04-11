@@ -68,6 +68,7 @@ import shah from '../assets/images/speakers/shah.png';
 import lijia from '../assets/images/speakers/lijia.png';
 import fiona from '../assets/images/speakers/fiona.png';
 import ambati from '../assets/images/speakers/ambati.png';
+import philip from '../assets/images/speakers/philip.png';
 
 
 
@@ -140,8 +141,21 @@ import shah2 from '../assets/images/speakers/popup/shah.png';
 import lijia2 from '../assets/images/speakers/popup/lijia.png';
 import fiona2 from '../assets/images/speakers/popup/fiona.png';
 import ambati2 from '../assets/images/speakers/popup/ambati.png';
+import philip2 from '../assets/images/speakers/popup/philip.png';
+
+
 
 const speakerNewly = [
+  {
+    name: 'Philip Rathle',
+    job: 'CTO',
+    tip: 'Neo4j',
+    image: philip,
+    linkedin: 'https://www.linkedin.com/in/prathle/',
+    twitter: 'https://twitter.com/prathle',
+    website: 'https://board.fastcompany.com/profile/Philip-Rathle-CTO-Neo4j/833d03ca-d8dd-42a2-a4c0-6cc3baef452d',
+    detail: philip2,
+  },
   {
     name: 'Sri Satish Ambati',
     job: 'Co-Founder & CEO',

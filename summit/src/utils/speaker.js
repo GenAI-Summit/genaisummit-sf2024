@@ -68,6 +68,7 @@ import shah from '../assets/images/speakers/shah.png';
 import lijia from '../assets/images/speakers/lijia.png';
 import fiona from '../assets/images/speakers/fiona.png';
 import ambati from '../assets/images/speakers/ambati.png';
+import philip from '../assets/images/speakers/philip.png';
 
 
 
@@ -140,6 +141,7 @@ import shah2 from '../assets/images/speakers/popup/shah.png';
 import lijia2 from '../assets/images/speakers/popup/lijia.png';
 import fiona2 from '../assets/images/speakers/popup/fiona.png';
 import ambati2 from '../assets/images/speakers/popup/ambati.png';
+import philip2 from '../assets/images/speakers/popup/philip.png';
 
 
 const speaker = [
@@ -274,26 +276,18 @@ const speaker = [
     linkedin: 'https://www.linkedin.com/in/lijiali/',
     detail: lijia2,
   },
-  {
-    name: 'Bob van Luijt',
-    job: 'CEO & Co-Founder',
-    tip: 'Weaviate',
-    image: bob,
-    website: 'https://en.wikipedia.org/wiki/Bob_van_Luijt',
-    twitter: 'https://twitter.com/bobvanluijt',
-    linkedin: 'https://www.linkedin.com/in/bobvanluijt/?originalSubdomain=nl',
-    detail: bob2,
-  },
+  
 
+  
   {
-    name: 'Dr. Devendra Chaplot',
-    job: 'AI Research Scientist',
-    tip: 'Mistral AI',
-    image: devendra,
-    website: 'https://devendrachaplot.github.io/',
-    twitter: 'https://twitter.com/dchaplot',
-    linkedin: 'https://www.linkedin.com/in/devendra-chaplot-b1605534/',
-    detail: devendra2,
+    name: 'Philip Rathle',
+    job: 'CTO',
+    tip: 'Neo4j',
+    image: philip,
+    linkedin: 'https://www.linkedin.com/in/prathle/',
+    twitter: 'https://twitter.com/prathle',
+    website: 'https://board.fastcompany.com/profile/Philip-Rathle-CTO-Neo4j/833d03ca-d8dd-42a2-a4c0-6cc3baef452d',
+    detail: philip2,
   },
 
   {
@@ -307,7 +301,16 @@ const speaker = [
     detail: ambati2,
   },
 
-
+  {
+    name: 'Pankaj Dugar',
+    job: 'SVP & GM, North America',
+    tip: 'AI21 Labs',
+    image: dugar,
+    website: '',
+    linkedin: 'https://www.linkedin.com/in/pdugar/',
+    twitter: '',
+    detail: dugar2,
+  },
   {
     name: 'Dr. Alexander Ratner',
     job: 'CEO & Co-Founder',
@@ -317,6 +320,27 @@ const speaker = [
     twitter: 'https://twitter.com/ajratner',
     website: 'https://councils.forbes.com/profile/Alexander-Ratner-CEO-Co-founder-Snorkel-AI/f1b8b27b-d6ae-40ca-baba-cc2c6c004721',
     detail: ratner2,
+  },
+
+  {
+    name: 'Dr. Devendra Chaplot',
+    job: 'AI Research Scientist',
+    tip: 'Mistral AI',
+    image: devendra,
+    website: 'https://devendrachaplot.github.io/',
+    twitter: 'https://twitter.com/dchaplot',
+    linkedin: 'https://www.linkedin.com/in/devendra-chaplot-b1605534/',
+    detail: devendra2,
+  },
+  {
+    name: 'Bob van Luijt',
+    job: 'CEO & Co-Founder',
+    tip: 'Weaviate',
+    image: bob,
+    website: 'https://en.wikipedia.org/wiki/Bob_van_Luijt',
+    twitter: 'https://twitter.com/bobvanluijt',
+    linkedin: 'https://www.linkedin.com/in/bobvanluijt/?originalSubdomain=nl',
+    detail: bob2,
   },
   {
     name: 'Swapnil Jain',
@@ -348,16 +372,7 @@ const speaker = [
     twitter: 'https://twitter.com/cwalker123?lang=en',
     detail: craig2,
   },
-  {
-    name: 'Pankaj Dugar',
-    job: 'SVP & GM, North America',
-    tip: 'AI21 Labs',
-    image: dugar,
-    website: '',
-    linkedin: 'https://www.linkedin.com/in/pdugar/',
-    twitter: '',
-    detail: dugar2,
-  },
+ 
   {
     name: 'Dr. Ram Sriharsha',
     job: 'CTO',

@@ -41,7 +41,11 @@
                     <img class="luma" src="../assets/images/luma.png" alt="" />
                   </div>
                   <div class="list" @click="BuyTickets">
-                    <img class="event" src="../assets/images/event.png" alt="" />
+                    <img
+                      class="event"
+                      src="../assets/images/event.png"
+                      alt=""
+                    />
                   </div>
                 </div>
               </div>
@@ -59,34 +63,29 @@
               </div>
             </div>
           </div>
-         
         </div>
         <!-- <img class="ico ico1" src="../assets/images/ico_dim1.png" alt="" />
         <img class="ico ico2" src="../assets/images/ico_dim2.png" alt="" />
         <img class="ico ico3" src="../assets/images/ico_dim3.png" alt="" /> -->
       </div>
       <div class="top_item">
-        
-            <div>
-              <div class="show_title">Sponsored by</div>
-              
-              <div class="item_bg_box">
-                  <img src="../assets/images/micro_logo.png" alt="" />
-                  <div class="more" @click="goPageHandle">
-                    more
-                    <img src="../assets/images/down_more.png" alt="">
-                  </div>
-              </div>
+        <div>
+          <div class="show_title">Sponsored by</div>
+
+          <div class="item_bg_box">
+            <img src="../assets/images/micro_logo.png" alt="" />
+            <div class="more" @click="goPageHandle">
+              more
+              <img src="../assets/images/down_more.png" alt="" />
             </div>
           </div>
-         
+        </div>
+      </div>
     </section>
     <div class="bg">
       <div class="section-number">
         <section class="cointainer">
-          
           <div class="pantners">
-            
             <!-- <div class="cointainer">
           <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
             <div class="left-title before" :class="screenWidth > 600 ? '' : 'mb'" data-aos="flip-up">
@@ -259,8 +258,6 @@
           </div>
         </div>
       </div>
-
-      
 
       <div class="GenAISummit" :class="screenWidth > 600 ? '' : 'mb'">
         <div class="cointainer">
@@ -530,7 +527,7 @@
           <Exhibition />
         </div>
       </section>
-      
+
       <!-- Exhibition Starts Here -->
       <div class="pantners2">
         <div class="cointainer">
@@ -543,21 +540,47 @@
               Exhibition
             </div>
           </div>
-          <div class="pantnersList">
-            <div
-              class="pantnersItem"
-              @click="openUrl(item.url)"
-              :class="screenWidth > 600 ? '' : 'mb'"
-              v-for="(item, index) in EventPartners2"
-              :key="index"
-              data-aos="zoom-in"
-            >
-              <img :src="item.img" alt="" />
+          <div class="pantnersList" :style="ExhibitionStyle">
+            <div class="flex1" ref="Exhibition">
+              <div
+                class="pantnersItem"
+                @click="openUrl(item.url)"
+                :class="screenWidth > 600 ? '' : 'mb'"
+                v-for="(item, index) in EventPartners2"
+                :key="index"
+                data-aos="zoom-in"
+              >
+                <img :src="item.img" alt="" />
+              </div>
             </div>
-            <div class="pantnersItem" :class="screenWidth > 600 ? '' : 'mb f1'">
-              More...
-            </div>
+
           </div>
+          <div class="moreDiv" v-if="!showAllExhibition" @click="moreHanleExhibition">
+              More
+              <img
+                class="a"
+                src="../assets/images/general_return_xia.png"
+                alt=""
+              />
+              <img
+                class="d"
+                src="../assets/images/general_return_xia_d.png"
+                alt=""
+              />
+            </div>
+            <div class="moreDiv" v-if="showAllExhibition" @click="closeHanleExhibition">
+              Hide
+              <img
+                class="a"
+                src="../assets/images/general_return_up.png"
+                alt=""
+              />
+              <img
+                class="d"
+                src="../assets/images/general_return_up_d.png"
+                alt=""
+              />
+            </div>
         </div>
       </div>
 
@@ -627,7 +650,13 @@
         <div class="ss-title2" data-aos="flip-up">
           (Note: Tentative Outline, update weekly)
         </div>
-        <SwiperDay />
+        <div class="tab-tip-box">
+          <div class="tip-list" v-for="(list,index) in tipList" :key="index">
+            {{ list }}
+          </div>
+        </div>
+        <!-- <SwiperDay /> -->
+        <Agenda/>
       </section>
 
       <div class="dialog" v-if="showDialog" @click="closeDialog">
@@ -656,7 +685,7 @@
           <div class="ticketsBtn">
             <div class="ticketsPrice">$179 – $9,999</div>
             <div class="ticketsBtnText">
-              <img src="../assets/images/hot.gif" alt="">
+              <img src="../assets/images/hot.gif" alt="" />
               Get tickets
               <div class="buy-listBox">
                 <div class="list" @click="BuyTicketsLuma">
@@ -689,7 +718,7 @@ import PersionItem from "../components/PersionItem.vue";
 import Swiper from "../components/Swiper.vue";
 import Exhibition from "../components/Exhibition.vue";
 import StarBackground from "../components/StarBackground.vue";
-import SwiperDay from "../components/SwiperDay.vue";
+import Agenda from "../components/Agenda.vue";
 
 import speakers from "../utils/speaker";
 import EventBus from "../utils/EventBus.js";
@@ -717,6 +746,7 @@ export default {
     const showDialog = ref(false);
     const showImgUrl = ref("");
     const speakerList = ref(null);
+    const Exhibition = ref(null);
     const numberList = ref([
       {
         tip: "Attendees",
@@ -748,25 +778,21 @@ export default {
       },
     ]);
 
-
-
-    const activeSection = ref('');
+    const activeSection = ref("");
     const scrollToSection = (sectionId) => {
-      const discount = route.query.discount
+      const discount = route.query.discount;
       const section = document.getElementById(sectionId);
-      const newHash = discount ? `?section=` + sectionList[sectionId] + `&discount=` + discount : `?section=` + sectionList[sectionId];
+      const newHash = discount
+        ? `?section=` + sectionList[sectionId] + `&discount=` + discount
+        : `?section=` + sectionList[sectionId];
       window.location.hash = newHash;
       if (section) {
         window.scrollTo({
           top: section.offsetTop - 80,
-          behavior: 'smooth'
+          behavior: "smooth",
         });
       }
     };
-    
-
-    
-
 
     const handleMouseMove = (e) => {
       const mouseX = e.clientX;
@@ -801,6 +827,16 @@ export default {
     const closeHanle = () => {
       showAll.value = 0;
       heightStyle.value.height = "14rem";
+    };
+
+    const showAllExhibition = ref(false)
+    const moreHanleExhibition = () => {
+      showAllExhibition.value = true;
+      ExhibitionStyle.value.height = Exhibition.value.offsetHeight + "px";
+    };
+    const closeHanleExhibition = () => {
+      showAllExhibition.value = false;
+      ExhibitionStyle.value.height = "4rem";
     };
     const speakersList = ref(speakers);
     const showSpeakersList = ref(speakers);
@@ -982,6 +1018,10 @@ export default {
     const heightStyle = ref({
       height: "14rem",
     });
+    const ExhibitionStyle = ref({
+      height: "4rem",
+    });
+
     const getImg = (i) => {
       return new URL(
         `../assets/images/logoPantners/pantners${i}.png`,
@@ -1049,117 +1089,137 @@ export default {
     ]);
     const EventPartners2 = ref([
       {
-        img: new URL(`../assets/images/sponsors/microsoft2.png`, import.meta.url).href,
+        img: new URL(
+          `../assets/images/sponsors/microsoft2.png`,
+          import.meta.url
+        ).href,
         url: "https://www.microsoft.com/en-us/ai/ai-lab",
       },
       {
         img: new URL(`../assets/images/sponsors/IBM.png`, import.meta.url).href,
         url: "https://www.ibm.com/us-en",
       },
-      
-      
+
       {
-        img: new URL(`../assets/images/sponsors/iobc.png`, import.meta.url).href,
+        img: new URL(`../assets/images/sponsors/iobc.png`, import.meta.url)
+          .href,
         url: "https://www.iobc.capital/#/",
       },
-      
+
       {
         img: new URL(`../assets/images/sponsors/ida.png`, import.meta.url).href,
         url: "http://www.idaireland.com",
       },
       {
-        img: new URL(`../assets/images/sponsors/otter.png`, import.meta.url).href,
+        img: new URL(`../assets/images/sponsors/otter.png`, import.meta.url)
+          .href,
         url: "https://otter.ai/",
       },
-      
-      
+
       {
-        img: new URL(`../assets/images/sponsors/molar.png`, import.meta.url).href,
+        img: new URL(`../assets/images/sponsors/molar.png`, import.meta.url)
+          .href,
         url: "https://www.molardata.com/",
       },
       {
-        img: new URL(`../assets/images/sponsors/realloop.png`, import.meta.url).href,
+        img: new URL(`../assets/images/sponsors/realloop.png`, import.meta.url)
+          .href,
         url: "http://www.realloop.com/",
       },
       {
-        img: new URL(`../assets/images/sponsors/zilliz.png`, import.meta.url).href,
+        img: new URL(`../assets/images/sponsors/zilliz.png`, import.meta.url)
+          .href,
         url: "https://zilliz.com/cloud?utm_source=google&utm_medium=cpc&utm_campaign=Brand_Zilliz_Search&utm_content=Zilliz_SKAG&utm_term=zilliz&utm_campaign=Brand_Zilliz_Search&utm_source=adwords&utm_medium=ppc&hsa_acc=3636806625&hsa_cam=20126268396&hsa_grp=152646187561&hsa_ad=658436361072&hsa_src=g&hsa_tgt=kwd-1219724973301&hsa_kw=zilliz&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=CjwKCAjw8diwBhAbEiwA7i_sJW18kjAPsvO-0r4Ra1BJ6bV9O2bboN9x3F_qPqiI_F234qosqPZtSRoCxS8QAvD_BwE",
       },
       {
-        img: new URL(`../assets/images/sponsors/exabits.png`, import.meta.url).href,
+        img: new URL(`../assets/images/sponsors/exabits.png`, import.meta.url)
+          .href,
         url: "https://www.exabits.ai/",
       },
       {
-        img: new URL(`../assets/images/sponsors/94ai.png`, import.meta.url).href,
+        img: new URL(`../assets/images/sponsors/94ai.png`, import.meta.url)
+          .href,
         url: "https://cn.94ai.com/",
       },
       {
-        img: new URL(`../assets/images/sponsors/akool.png`, import.meta.url).href,
+        img: new URL(`../assets/images/sponsors/akool.png`, import.meta.url)
+          .href,
         url: "https://akool.com/",
       },
       {
-        img: new URL(`../assets/images/sponsors/upmarket.png`, import.meta.url).href,
+        img: new URL(`../assets/images/sponsors/upmarket.png`, import.meta.url)
+          .href,
         url: "https://www.upmarket.co/",
       },
       {
-        img: new URL(`../assets/images/sponsors/skalable.png`, import.meta.url).href,
+        img: new URL(`../assets/images/sponsors/skalable.png`, import.meta.url)
+          .href,
         url: "https://skalabletech.com/",
       },
       {
-        img: new URL(`../assets/images/sponsors/jiffy.png`, import.meta.url).href,
+        img: new URL(`../assets/images/sponsors/jiffy.png`, import.meta.url)
+          .href,
         url: "https://jiffy.ai/",
       },
       {
-        img: new URL(`../assets/images/sponsors/aizip.png`, import.meta.url).href,
+        img: new URL(`../assets/images/sponsors/aizip.png`, import.meta.url)
+          .href,
         url: "https://aizip.ai/",
       },
       {
-        img: new URL(`../assets/images/sponsors/mother.png`, import.meta.url).href,
+        img: new URL(`../assets/images/sponsors/mother.png`, import.meta.url)
+          .href,
         url: "https://www.mothertongue.com/",
       },
       {
-        img: new URL(`../assets/images/sponsors/ivymax.png`, import.meta.url).href,
+        img: new URL(`../assets/images/sponsors/ivymax.png`, import.meta.url)
+          .href,
         url: "https://www.ivymax.com/",
       },
       {
-        img: new URL(`../assets/images/sponsors/swiftsecurity.png`, import.meta.url).href,
+        img: new URL(
+          `../assets/images/sponsors/swiftsecurity.png`,
+          import.meta.url
+        ).href,
         url: "https://swiftsecurity.ai/",
       },
       {
-        img: new URL(`../assets/images/sponsors/modlee.png`, import.meta.url).href,
+        img: new URL(`../assets/images/sponsors/modlee.png`, import.meta.url)
+          .href,
         url: "https://www.modlee.ai/",
       },
       {
-        img: new URL(`../assets/images/sponsors/unitree.png`, import.meta.url).href,
+        img: new URL(`../assets/images/sponsors/unitree.png`, import.meta.url)
+          .href,
         url: "https://www.unitree.com/",
       },
       {
-        img: new URL(`../assets/images/sponsors/mountainlion.png`, import.meta.url).href,
+        img: new URL(
+          `../assets/images/sponsors/mountainlion.png`,
+          import.meta.url
+        ).href,
         url: "https://www.mlion.ai/",
       },
       {
-        img: new URL(`../assets/images/sponsors/1gen.png`, import.meta.url).href,
+        img: new URL(`../assets/images/sponsors/1gen.png`, import.meta.url)
+          .href,
         url: "https://1gen.ai/",
       },
 
-
       {
-        img: new URL(`../assets/images/sponsors/ushur.png`, import.meta.url).href,
+        img: new URL(`../assets/images/sponsors/ushur.png`, import.meta.url)
+          .href,
         url: "https://ushur.com/",
       },
       {
-        img: new URL(`../assets/images/sponsors/livex.png`, import.meta.url).href,
+        img: new URL(`../assets/images/sponsors/livex.png`, import.meta.url)
+          .href,
         url: "https://livex.ai/",
       },
-      
-      
-
-
-
     ]);
     const goPageHandle = () => {
       EventBus.$emit("goPageHandle");
-    }
+    };
     const BuyTickets = () => {
       if (route.query.discount) {
         window.open(
@@ -1173,14 +1233,23 @@ export default {
       }
     };
     const BuyTicketsLuma = () => {
-      window.open(
-          "https://lu.ma/genaisummitsf2024"
-        );
-    }
+      window.open("https://lu.ma/genaisummitsf2024");
+    };
+    const tipList = ref([
+      'History & Future of LLM','LLM Framework / State-of-the-art of LLM','Chips for LLM','Robotic and GenAI','The Art of FineTuning & RAG','Enterprise and GenAI',
+      'Women in GenAI','Sustainability of GenAI','Safety and Ethnicity of LLM','Policy and Public Good with LLM','Data Privacy','Text to Video','VectorDB','AI Agents',
+      'AI companions','Law and LLM','Healthcare and AI','Education and GenAI','Marketing an GenAI'
+    ])
     return {
+      tipList,
+      showAllExhibition,
+      moreHanleExhibition,
+      closeHanleExhibition,
       goPageHandle,
       BuyTickets,
+      Exhibition,
       heightStyle,
+      ExhibitionStyle,
       screenWidth,
       closeDialog,
       pullAll,
@@ -1228,7 +1297,7 @@ export default {
       scrollToSection,
       BuyTickets,
       screenWidth,
-      BuyTicketsLuma
+      BuyTicketsLuma,
     };
   },
   components: {
@@ -1237,7 +1306,7 @@ export default {
     Swiper,
     Exhibition,
     StarBackground,
-    SwiperDay,
+    Agenda,
   },
   methods: {},
   mounted() {},
@@ -1443,50 +1512,49 @@ section {
       .left {
         margin-top: 0.5rem;
         position: relative;
-        &:hover{
-            .buy-listBox{
-              display: block;
-             
-            }
-            button{
-              &::before {
-                left: 0;
-              }
+        &:hover {
+          .buy-listBox {
+            display: block;
+          }
+          button {
+            &::before {
+              left: 0;
             }
           }
+        }
         .buy-listBox {
-            padding: 10px;
-            cursor: pointer;
-            position: absolute;
+          padding: 10px;
+          cursor: pointer;
+          position: absolute;
+          width: 100%;
+          background: rgba(255, 255, 255, 1);
+          border: 1px solid rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 20px -6px rgba(0, 0, 0, 0.15) !important;
+          border-radius: 13px 13px 13px 13px;
+          top: 0.9rem;
+          z-index: 9999;
+          display: none;
+          .list {
             width: 100%;
-            background: rgba(255, 255, 255, 1);
-            border: 1px solid rgba(0, 0, 0, 0.15);
-            box-shadow: 0px 4px 20px -6px rgba(0, 0, 0, 0.15) !important;
-            border-radius: 13px 13px 13px 13px;
-            top: 0.9rem;
-            z-index: 9999;
-            display: none;
-            .list{
-                width: 100%;
-                text-align: center;
-                padding: .1rem 0;
-                border: 1px solid transparent;
-                margin: 0 auto;
-                border-radius: 100px;
-                &:hover{
-                  border: 1px solid #000000;
-                }
-              }
-              img{
-                &.luma{
-                  width: 1.3rem;
-                }
-                &.event{
-                  margin-top: 4px;
-                  width: 1.6rem;
-                }
-              };
+            text-align: center;
+            padding: 0.1rem 0;
+            border: 1px solid transparent;
+            margin: 0 auto;
+            border-radius: 100px;
+            &:hover {
+              border: 1px solid #000000;
+            }
           }
+          img {
+            &.luma {
+              width: 1.3rem;
+            }
+            &.event {
+              margin-top: 4px;
+              width: 1.6rem;
+            }
+          }
+        }
         button {
           background: #000000;
           width: 3.111rem;
@@ -1530,7 +1598,7 @@ section {
         }
       }
       .right {
-        margin-top: .55rem;
+        margin-top: 0.55rem;
         .time-box {
           display: flex;
           align-items: center;
@@ -1828,6 +1896,24 @@ section {
   padding: 0.1rem 0;
   margin-top: 0.1rem;
 }
+.tab-tip-box{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  .tip-list{
+    font-family: Microsoft YaHei, Microsoft YaHei;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(0,0,0,0.6);
+    line-height: 16px;
+    text-align: left;
+    background: rgba(7,120,216,0.1);
+    margin-right: 8px;
+    padding: 3px 6px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+}
 .sss-title {
   font-family: HarmonyOS Sans SC Regular;
   font-weight: 400;
@@ -1933,27 +2019,7 @@ section {
     }
   }
 }
-#section2 {
-  .speak-content {
-    overflow: hidden;
-    transition: height 0.5s ease-in-out;
-  }
-  .speaker-list {
-    display: flex;
-    flex-wrap: wrap;
-
-    .list {
-      width: 22%;
-      margin-left: 2%;
-      margin-top: 2%;
-    }
-    &.mb {
-      .list {
-        width: 48%;
-      }
-    }
-  }
-  .moreDiv {
+.moreDiv {
     border: 1px solid #008aff;
     font-weight: bold;
     font-family: HarmonyOS Sans SC Bold;
@@ -2009,6 +2075,27 @@ section {
       }
     }
   }
+#section2 {
+  .speak-content {
+    overflow: hidden;
+    transition: height 0.5s ease-in-out;
+  }
+  .speaker-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    .list {
+      width: 22%;
+      margin-left: 2%;
+      margin-top: 2%;
+    }
+    &.mb {
+      .list {
+        width: 48%;
+      }
+    }
+  }
+
 
   .swiper-content {
     width: 100%;
@@ -2262,54 +2349,53 @@ section {
 .open-btn {
   margin-top: 0.3rem;
   position: relative;
-  &:hover{
-            .buy-listBox{
-              display: block;
-             
-            }
-            button{
-              &::before {
-                left: 0;
-              }
-              color: #ffffff;
-              img {
-                display: block;
-              }
-            }
-          }
+  &:hover {
+    .buy-listBox {
+      display: block;
+    }
+    button {
+      &::before {
+        left: 0;
+      }
+      color: #ffffff;
+      img {
+        display: block;
+      }
+    }
+  }
   .buy-listBox {
-            padding: 10px;
-            cursor: pointer;
-            position: absolute;
-            width: 100%;
-            background: rgba(255, 255, 255, 1);
-            border: 1px solid rgba(0, 0, 0, 0.15);
-            box-shadow: 0px 4px 20px -6px rgba(0, 0, 0, 0.15) !important;
-            border-radius: 13px 13px 13px 13px;
-            top: 0.7rem;
-            z-index: 9999;
-            display: none;
-            .list{
-                width: 100%;
-                text-align: center;
-                padding: .1rem 0;
-                border: 1px solid transparent;
-                margin: 0 auto;
-                border-radius: 100px;
-                &:hover{
-                  border: 1px solid #000000;
-                }
-              }
-              img{
-                &.luma{
-                  width: 1.3rem;
-                }
-                &.event{
-                  margin-top: 4px;
-                  width: 1.6rem;
-                }
-              };
-          }
+    padding: 10px;
+    cursor: pointer;
+    position: absolute;
+    width: 100%;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 20px -6px rgba(0, 0, 0, 0.15) !important;
+    border-radius: 13px 13px 13px 13px;
+    top: 0.7rem;
+    z-index: 9999;
+    display: none;
+    .list {
+      width: 100%;
+      text-align: center;
+      padding: 0.1rem 0;
+      border: 1px solid transparent;
+      margin: 0 auto;
+      border-radius: 100px;
+      &:hover {
+        border: 1px solid #000000;
+      }
+    }
+    img {
+      &.luma {
+        width: 1.3rem;
+      }
+      &.event {
+        margin-top: 4px;
+        width: 1.6rem;
+      }
+    }
+  }
   button {
     padding: 0 0.2rem;
     height: 0.74rem;
@@ -2432,47 +2518,47 @@ section {
         justify-content: center;
         border-radius: 100px;
         position: relative;
-        &:hover{
-            .buy-listBox{
-              display: block;
+        &:hover {
+          .buy-listBox {
+            display: block;
+          }
+        }
+        .buy-listBox {
+          padding: 10px;
+          cursor: pointer;
+          position: absolute;
+          width: 100%;
+          background: rgba(255, 255, 255, 1);
+          border: 1px solid rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 20px -6px rgba(0, 0, 0, 0.15) !important;
+          border-radius: 13px 13px 13px 13px;
+          bottom: 1.5rem;
+          z-index: 9999;
+          display: none;
+          .list {
+            width: 100%;
+            text-align: center;
+            padding: 0.1rem 0;
+            border: 1px solid transparent;
+            margin: 0 auto;
+            border-radius: 100px;
+            &:hover {
+              border: 1px solid #000000;
             }
           }
-        .buy-listBox {
-            padding: 10px;
-            cursor: pointer;
-            position: absolute;
-            width: 100%;
-            background: rgba(255, 255, 255, 1);
-            border: 1px solid rgba(0, 0, 0, 0.15);
-            box-shadow: 0px 4px 20px -6px rgba(0, 0, 0, 0.15) !important;
-            border-radius: 13px 13px 13px 13px;
-            bottom: 1.5rem;
-            z-index: 9999;
-            display: none;
-            .list{
-                width: 100%;
-                text-align: center;
-                padding: .1rem 0;
-                border: 1px solid transparent;
-                margin: 0 auto;
-                border-radius: 100px;
-                &:hover{
-                  border: 1px solid #000000;
-                }
-              }
-              img{
-                &.luma{
-                  width: 1.3rem;
-                }
-                &.event{
-                  margin-top: 4px;
-                  width: 1.6rem;
-                }
-              };
+          img {
+            &.luma {
+              width: 1.3rem;
+            }
+            &.event {
+              margin-top: 4px;
+              width: 1.6rem;
+            }
           }
-        img{
+        }
+        img {
           width: 30px;
-          margin-right: .3rem;
+          margin-right: 0.3rem;
         }
       }
     }
@@ -2516,14 +2602,17 @@ section {
 .pantners2 {
   width: 100%;
   .pantnersList {
-    display: flex;
-    flex-flow: wrap;
-    gap: 1%;
+    overflow: hidden;
+    transition: height 0.5s ease-in-out;
+    .flex1 {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
     .pantnersItem {
       cursor: pointer;
       margin-top: 0.5rem;
       width: 19%;
-      height: auto;
       margin-bottom: 0.5rem;
       transition: all linear 0.5s;
       display: flex;
@@ -2542,7 +2631,6 @@ section {
       }
       img {
         width: 80%;
-        height: 90%;
         margin-left: 10%;
       }
     }

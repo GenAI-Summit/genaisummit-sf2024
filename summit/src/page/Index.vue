@@ -532,7 +532,7 @@
       </section>
       
       <!-- Exhibition Starts Here -->
-      <!-- <div class="pantners2">
+      <div class="pantners2">
         <div class="cointainer">
           <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
             <div
@@ -555,11 +555,11 @@
               <img :src="item.img" alt="" />
             </div>
             <div class="pantnersItem" :class="screenWidth > 600 ? '' : 'mb f1'">
-              More
+              More...
             </div>
           </div>
         </div>
-      </div> -->
+      </div>
 
       <!-- <div class="pantners">
         <div class="cointainer">
@@ -1062,10 +1062,7 @@ export default {
         img: new URL(`../assets/images/sponsors/iobc.png`, import.meta.url).href,
         url: "https://www.iobc.capital/#/",
       },
-      {
-        img: new URL(`../assets/images/sponsors/realloop.png`, import.meta.url).href,
-        url: "http://www.realloop.com/",
-      },
+      
       {
         img: new URL(`../assets/images/sponsors/ida.png`, import.meta.url).href,
         url: "http://www.idaireland.com",
@@ -1074,13 +1071,19 @@ export default {
         img: new URL(`../assets/images/sponsors/otter.png`, import.meta.url).href,
         url: "https://otter.ai/",
       },
-      {
-        img: new URL(`../assets/images/sponsors/zilliz.png`, import.meta.url).href,
-        url: "https://zilliz.com/cloud?utm_source=google&utm_medium=cpc&utm_campaign=Brand_Zilliz_Search&utm_content=Zilliz_SKAG&utm_term=zilliz&utm_campaign=Brand_Zilliz_Search&utm_source=adwords&utm_medium=ppc&hsa_acc=3636806625&hsa_cam=20126268396&hsa_grp=152646187561&hsa_ad=658436361072&hsa_src=g&hsa_tgt=kwd-1219724973301&hsa_kw=zilliz&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=CjwKCAjw8diwBhAbEiwA7i_sJW18kjAPsvO-0r4Ra1BJ6bV9O2bboN9x3F_qPqiI_F234qosqPZtSRoCxS8QAvD_BwE",
-      },
+      
+      
       {
         img: new URL(`../assets/images/sponsors/molar.png`, import.meta.url).href,
         url: "https://www.molardata.com/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/realloop.png`, import.meta.url).href,
+        url: "http://www.realloop.com/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/zilliz.png`, import.meta.url).href,
+        url: "https://zilliz.com/cloud?utm_source=google&utm_medium=cpc&utm_campaign=Brand_Zilliz_Search&utm_content=Zilliz_SKAG&utm_term=zilliz&utm_campaign=Brand_Zilliz_Search&utm_source=adwords&utm_medium=ppc&hsa_acc=3636806625&hsa_cam=20126268396&hsa_grp=152646187561&hsa_ad=658436361072&hsa_src=g&hsa_tgt=kwd-1219724973301&hsa_kw=zilliz&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=CjwKCAjw8diwBhAbEiwA7i_sJW18kjAPsvO-0r4Ra1BJ6bV9O2bboN9x3F_qPqiI_F234qosqPZtSRoCxS8QAvD_BwE",
       },
       {
         img: new URL(`../assets/images/sponsors/exaBITS.png`, import.meta.url).href,
@@ -1103,6 +1106,44 @@ export default {
         url: "https://skalabletech.com/",
       },
       {
+        img: new URL(`../assets/images/sponsors/jiffy.png`, import.meta.url).href,
+        url: "https://jiffy.ai/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/aizip.png`, import.meta.url).href,
+        url: "https://aizip.ai/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/mother.png`, import.meta.url).href,
+        url: "https://www.mothertongue.com/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/ivymax.png`, import.meta.url).href,
+        url: "https://www.ivymax.com/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/swiftsecurity.png`, import.meta.url).href,
+        url: "https://swiftsecurity.ai/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/modlee.png`, import.meta.url).href,
+        url: "https://www.modlee.ai/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/unitree.png`, import.meta.url).href,
+        url: "https://www.unitree.com/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/mountainlion.png`, import.meta.url).href,
+        url: "https://www.mlion.ai/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/1gen.png`, import.meta.url).href,
+        url: "https://1gen.ai/",
+      },
+
+
+      {
         img: new URL(`../assets/images/sponsors/ushur.png`, import.meta.url).href,
         url: "https://ushur.com/",
       },
@@ -1110,6 +1151,7 @@ export default {
         img: new URL(`../assets/images/sponsors/livex.png`, import.meta.url).href,
         url: "https://livex.ai/",
       },
+      
       
 
 

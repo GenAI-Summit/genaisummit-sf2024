@@ -1086,7 +1086,7 @@ export default {
         url: "https://zilliz.com/cloud?utm_source=google&utm_medium=cpc&utm_campaign=Brand_Zilliz_Search&utm_content=Zilliz_SKAG&utm_term=zilliz&utm_campaign=Brand_Zilliz_Search&utm_source=adwords&utm_medium=ppc&hsa_acc=3636806625&hsa_cam=20126268396&hsa_grp=152646187561&hsa_ad=658436361072&hsa_src=g&hsa_tgt=kwd-1219724973301&hsa_kw=zilliz&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=CjwKCAjw8diwBhAbEiwA7i_sJW18kjAPsvO-0r4Ra1BJ6bV9O2bboN9x3F_qPqiI_F234qosqPZtSRoCxS8QAvD_BwE",
       },
       {
-        img: new URL(`../assets/images/sponsors/exaBITS.png`, import.meta.url).href,
+        img: new URL(`../assets/images/sponsors/exabits.png`, import.meta.url).href,
         url: "https://www.exabits.ai/",
       },
       {

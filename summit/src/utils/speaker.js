@@ -69,6 +69,7 @@ import lijia from '../assets/images/speakers/lijia.png';
 import fiona from '../assets/images/speakers/fiona.png';
 import ambati from '../assets/images/speakers/ambati.png';
 import philip from '../assets/images/speakers/philip.png';
+import rathi from '../assets/images/speakers/rathi.jfif';
 
 
 
@@ -142,6 +143,7 @@ import lijia2 from '../assets/images/speakers/popup/lijia.png';
 import fiona2 from '../assets/images/speakers/popup/fiona.png';
 import ambati2 from '../assets/images/speakers/popup/ambati.png';
 import philip2 from '../assets/images/speakers/popup/philip.png';
+import rathi2 from '../assets/images/speakers/popup/rathi.png';
 
 
 const speaker = [
@@ -179,14 +181,14 @@ const speaker = [
     image: ross,
   },
   {
-    name: 'Prof. Raluca Popa',
-    job: 'Professor',
-    tip: 'UC Berkeley CS Dept.',
-    image: popa,
-    website: 'https://people.eecs.berkeley.edu/~raluca/',
-    twitter: 'https://twitter.com/ralucaadapopa',
-    linkedin: 'https://www.linkedin.com/in/ralucaadapopa/',
-    detail: popa2,
+    name: 'Rathi Murthy',
+    job: 'CTO/ President Expedia Services',
+    tip: 'Expedia Group',
+    image: rathi,
+    website: 'https://www.expediagroup.com/who-we-are/leadership/person-details/default.aspx?ItemId=91aed8a2-db02-42b4-a871-ec13d236b7b3',
+    twitter: '',
+    linkedin: 'https://www.linkedin.com/in/rathi-murthy/',
+    detail: rathi2,
   },
 
   {
@@ -223,17 +225,18 @@ const speaker = [
     website: '',
     detail: deon2,
   },
-
   {
-    name: 'Fiona Ma',
-    job: 'State Treasurer',
-    tip: "State Treasurer's Office",
-    image: fiona,
-    linkedin: 'https://www.linkedin.com/in/fionamacpa/',
-    twitter: 'https://twitter.com/fionama',
-    website: 'https://www.fionama.com/',
-    detail: fiona2,
+    name: 'Prof. Raluca Popa',
+    job: 'Professor',
+    tip: 'UC Berkeley CS Dept.',
+    image: popa,
+    website: 'https://people.eecs.berkeley.edu/~raluca/',
+    twitter: 'https://twitter.com/ralucaadapopa',
+    linkedin: 'https://www.linkedin.com/in/ralucaadapopa/',
+    detail: popa2,
   },
+
+
   {
     name: 'Karina Nguyen',
     job: 'AI Researcher',
@@ -300,6 +303,16 @@ const speaker = [
     linkedin: 'https://www.linkedin.com/in/srisatishambati/',
     detail: ambati2,
   },
+  {
+    name: 'Fiona Ma',
+    job: 'State Treasurer',
+    tip: "State Treasurer's Office",
+    image: fiona,
+    linkedin: 'https://www.linkedin.com/in/fionamacpa/',
+    twitter: 'https://twitter.com/fionama',
+    website: 'https://www.fionama.com/',
+    detail: fiona2,
+  },
 
   {
     name: 'Pankaj Dugar',
@@ -311,6 +324,7 @@ const speaker = [
     twitter: '',
     detail: dugar2,
   },
+ 
   {
     name: 'Dr. Alexander Ratner',
     job: 'CEO & Co-Founder',

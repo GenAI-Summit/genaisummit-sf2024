@@ -102,19 +102,16 @@ export default {
       
     });
     const OutlineList = ref([
-      {
-        title: "Day 1 - Foundations and Innovations in Generative AI",
-        content: "",
-      },
+      
       {
         title: "Main Stage",
         content:
-          "1.	Keynote: The Future of Generative AI: Trends and Predictions <br/><br/>2.	Keynote: Ethical Implications of AI in Society <br/><br/>3.	Keynote: The Role of AI in Revolutionizing Traditional Industries <br/><br/>4.	Panel Discussion: Challenges and Opportunities in AI Education and Training <br/><br/>5.	Panel Discussion: AI in Healthcare: Innovations and Ethical Concerns <br/><br/>6.	Panel Discussion: The Impact of AI on Privacy and Data Security <br/><br/>7.	Panel Discussion: AI and the Future of Work: What Lies Ahead?",
+          "1.	Keynote 09:00 - 10:00: The Future of Foundation Models <br/><br/>2.	Keynote 10:00-11:00: Enterprise AI Search & Knowledge Discovery <br/><br/>3.	Keynote 11:00-12:00: What’s Next Big Moment in Generative AI? <br/><br/>4.	Panel Discussion 13:00-14:00: AI and the Future of Human Work: What Lies Ahead? <br/><br/>5.	Panel Discussion 14:00-15:00: Augmented Marketing with Generative AI <br/><br/>6.	Panel Discussion 15:00 - 16:00: AI in Environmental Sustainability <br/><br/>7.	Panel Discussion 16:00 - 17:00: Video Generation Models: from Research to Production",
       },
       {
         title: "Theater",
         content:
-          "1.	Keynote: Demystifying AI: Understanding the Basics <br/><br/>2.	Keynote: Investing in AI: Opportunities and Risks <br/><br/>3.	Keynote: AI in Creative Industries: A Paradigm Shift <br/><br/>4.	Panel Discussion: Navigating the Regulatory Landscape of AI <br/><br/>5.	Panel Discussion: AI for Good: Social and Humanitarian Applications <br/><br/>6.	Panel Discussion: Integrating AI in Traditional Business Models <br/><br/>7.	Panel Discussion: Global Perspectives on AI Development and Adoption <br/>",
+          "1.	Keynote 09:00-10:00: Beyond Search: How AI Automation Unlocks All Human Knowledge <br/><br/>2.	Keynote 10:00-11:00: The Promise of AI as Holistic Transformation <br/><br/>3.	Keynote 11:00-12:00: Lightning Speed AI Inference to understand profoundly and intuitively <br/><br/>4.	Panel Discussion 13:00-14:00: Transforming Fortune 500 Branding using GenAI <br/><br/>5.	Panel Discussion 14:00-15:00: Content frameworks: generatation, intellectual properties, collaboration <br/><br/>6.	Panel Discussion 15:00-16:00: A Deep Dive into the State-of-the-Art LLMs <br/><br/>7.	Panel Discussion 16:00-17:00: How AI Is Reshaping Medicine and Healthcare <br/>",
       },
       {
         title: "Break Out Rooms: Exploration and Learning",
@@ -124,19 +121,16 @@ export default {
     ]);
 
     const OutlineList2 = ref([
-      {
-        title: "Day 2 - Technical Deep Dives and Industry Applications",
-        content: "",
-      },
+      
       {
         title: "Main Stage",
         content:
-          "1.	Keynote: Advancements in AI Models: GPT-4 and Beyond <br/><br/>2.	Keynote: AI in Environmental Sustainability <br/><br/>3.	Keynote: Transforming Customer Experience with AI <br/><br/>4.	Panel Discussion: AI in Financial Services: Revolutionizing Banking and Insurance<br/><br/>5.	Panel Discussion: AI in Retail: Personalization and Efficiency<br/><br/>6.	Panel Discussion: The Intersection of AI and Cybersecurity<br/><br/>7.	Panel Discussion: AI and the Future of Transportation",
+          "1.	Keynote 09:00-10:00: Design Speech AI Note Taker & Real-time AI Transcription for 10M Users <br/><br/>2.	Keynote 10:00-11:00: Unlocks the Power of Knowledge with information discovery and sharing <br/><br/>3.	Keynote 11:00-12:00: Reducing Societal-scale Risks from AI <br/><br/>4.	Panel Discussion 13:00-14:00: Beyond Boundary: Synthesizing data by and for Generative AI<br/><br/>5.	Panel Discussion 14:00-15:00: Low/No Code AI Deployment Technologies and Platforms<br/><br/>6.	Panel Discussion 15:00-16:00: Multimodal Generative AI Applications<br/><br/>7.	Panel Discussion 16:00-17:00: No/Low-Code AI Application Builders",
       },
       {
         title: "Theater",
         content:
-          "1.	Keynote: AI in Manufacturing: Automation and Efficiency <br/><br/>2.	Keynote: AI in Education: Enhancing Learning Experiences<br/><br/>3.	Keynote: Women Leadership in AI<br/><br/>4.	Panel Discussion: The Ethics of AI in Autonomous Systems<br/><br/>5.	Panel Discussion: AI in Healthcare: Patient Care and Management<br/><br/>6.	Panel Discussion: AI's Role in Content Creation and Media<br/><br/>7.	Panel Discussion: Cross-Industry Collaboration in AI Development<br/>",
+          "1.	Keynote 09:00-10:00: Data privacy and Security in GenAI <br/><br/>2.	Keynote 10:00-11:00: How Far is Grok towards the Understanding of the Universe <br/><br/>3.	Keynote 11:00-12:00: Superalignment: Scientific and Technical Breakthroughs to steer and control AI systems much smarter than us <br/><br/>4.	Panel Discussion 13:00-14:00: Building AI Agents that Scale <br/><br/>5.	Panel Discussion 14:00-15:00: GenAI Venture Investment Landscape 2.0<br/><br/>6.	Panel Discussion 15:00-16:00: AI's Role in Content Creation and Media <br/><br/>7.	Panel Discussion 16:00-17:00: A Quantitative Analysis of Catastrophic AI Risks<br/>",
       },
       {
         title: "Break Out Rooms: Deep Dives and Networking",
@@ -146,19 +140,16 @@ export default {
     ]);
 
     const OutlineList3 = ref([
-      {
-        title: "Day 3 - The Future Landscape and Policy Considerations",
-        content: "",
-      },
+      
       {
         title: "Main Stage",
         content:
-          "1.	Keynote: AI Governance: Balancing Innovation with Regulation <br/><br/>2.	Keynote: AI and Global Economy: Trends and Forecasts<br/><br/>3.	Keynote: AI in Public Sector: Opportunities and Challenges<br/><br/>4.	Panel Discussion: AI Policy: A Global Dialogue<br/><br/>5.	Panel Discussion: The Role of AI in Shaping Future Education Systems<br/><br/>6.	Panel Discussion: Ethical AI: Creating a Framework for Responsible AI<br/><br/>7.	Panel Discussion: AI and Human Interaction: The Next Decade",
+          "1.	Keynote 09:00-10:00: Vector Database built for enterprise-grade AI applications <br/><br/>2.	Keynote 10:00-11:00: How to Quickly and Reliably Build, Develop, Prototype, and Test New AI Solutions <br/><br/>3.	Keynote 11:00-12:00: Ethical AI: Creating a Framework for Responsible AI<br/><br/>4.	Panel Discussion 13:00-14:00: Will VectorDB Disappear with Longer Context Window?<br/><br/>5.	Panel Discussion 14:00-15:00: Experiment Tracking and Prompt Engineering Practices<br/><br/>6.	Panel Discussion 15:00-16:00: Building a Responsible AGI: AI development for the Non-profit<br/><br/>7.	Panel Discussion 16:00-17:00: Governance and Compliance Risk: A UN Perspective",
       },
       {
         title: "Theater",
         content:
-          "1.	Keynote: AI in Urban Planning and Smart Cities<br/><br/>2.	Keynote: The Impact of AI on Traditional Media and Journalism<br/><br/>3.	Keynote: AI and the Future of E-commerce<br/><br/>4.	Panel Discussion: AI in Entertainment: The Next Frontier<br/><br/>5.	Panel Discussion: The Role of AI in Enhancing Public Safety<br/><br/>6.	Panel Discussion: AI and Intellectual Property: Navigating the New Landscape<br/><br/>7.	Panel Discussion: Bridging the AI Talent Gap: Education and Workforce Development<br/>",
+          "1.	Keynote 09:00-10:00: Unlock Efficiency with the Generative AI Automation Platform<br/><br/>2.	Keynote 10:00-11:00: The Impact of AI on Traditional Media<br/><br/>3.	Keynote 11:00-12:00: Codesign of AI software and hardware<br/><br/>4.	Panel Discussion 13:00-14:00: Accelerating AI in Hardware <br/><br/>5.	Panel Discussion 14:00-15:00: AI and the Future of E-commerce<br/><br/>6.	Panel Discussion 15:00-16:00: AI and Intellectual Property: Navigating the New Landscape<br/><br/>7.	Panel Discussion 16:00-17:00: Bridging the AI Talent Gap: Education and Workforce Development<br/>",
       },
       {
         title: "Break Out Rooms: Integration and Future Trends",

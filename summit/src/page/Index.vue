@@ -524,6 +524,7 @@
           brochures.
         </div>
         <div class="Exhibition">
+
           <Exhibition />
         </div>
       </section>
@@ -641,7 +642,7 @@
             :class="screenWidth > 600 ? '' : 'mb'"
             data-aos="flip-up"
           >
-            Tentative Event Agenda
+            Event Agenda
           </div>
         </div>
         <div class="ss-title" data-aos="flip-up">
@@ -836,7 +837,7 @@ export default {
     };
     const closeHanleExhibition = () => {
       showAllExhibition.value = false;
-      ExhibitionStyle.value.height = "4rem";
+      ExhibitionStyle.value.height = "10.2rem";
     };
     const speakersList = ref(speakers);
     const showSpeakersList = ref(speakers);
@@ -908,23 +909,7 @@ export default {
 
     const OutlineList = ref([
       {
-        title: "Day 1 - Foundations and Innovations in Generative AI",
-        content: "",
-      },
-      {
-        title: "Main Stage",
-        content:
-          "1.	Keynote: The Future of Generative AI: Trends and Predictions <br/><br/>2.	Keynote: Ethical Implications of AI in Society <br/><br/>3.	Keynote: The Role of AI in Revolutionizing Traditional Industries <br/><br/>4.	Panel Discussion: Challenges and Opportunities in AI Education and Training <br/><br/>5.	Panel Discussion: AI in Healthcare: Innovations and Ethical Concerns <br/><br/>6.	Panel Discussion: The Impact of AI on Privacy and Data Security <br/><br/>7.	Panel Discussion: AI and the Future of Work: What Lies Ahead?",
-      },
-      {
-        title: "Theater",
-        content:
-          "1.	Keynote: Demystifying AI: Understanding the Basics <br/><br/>2.	Keynote: Investing in AI: Opportunities and Risks <br/><br/>3.	Keynote: AI in Creative Industries: A Paradigm Shift <br/><br/>4.	Panel Discussion: Navigating the Regulatory Landscape of AI <br/><br/>5.	Panel Discussion: AI for Good: Social and Humanitarian Applications <br/><br/>6.	Panel Discussion: Integrating AI in Traditional Business Models <br/><br/>7.	Panel Discussion: Global Perspectives on AI Development and Adoption <br/>",
-      },
-      {
-        title: "Break Out Rooms: Exploration and Learning",
-        content:
-          "Rooms 1: Dedicated Microsoft Track <br/><br/>Rooms 2: Dedicated OpenAI Track<br/><br/>Rooms 3-6: Introduction to Industry-specific AI Applications – Workshops and showcases focusing on the applications of AI in their respective industries, for developers, marketers and creators<br/><br/>Room 7: AI Career Fair – Connecting job seekers with recruiters in AI and tech companies<br/><br/>Room 8: AI for Social Impact – Discussions and showcases on how AI is used for social good initiatives<br/><br/>Room 9: Startup Pitch Session – Emerging AI startups present their innovative solutions<br/><br/>Room 10: Beginner's Workshop in AI – A hands-on workshop for those new to AI for text2video, text2audio, text2multimodal, and text2richcontent.<br/><br/><br/><br/>",
+     
       },
     ]);
 
@@ -952,7 +937,7 @@ export default {
 
     const OutlineList3 = ref([
       {
-        title: "Day 3 - The Future Landscape and Policy Considerations",
+        title: "Day 3 - The Future Landscape and Policy Considerationsssssss",
         content: "",
       },
       {
@@ -1018,8 +1003,10 @@ export default {
     const heightStyle = ref({
       height: "14rem",
     });
+
+    // Exhibition初始展示高度
     const ExhibitionStyle = ref({
-      height: "4rem",
+      height: "10.2rem",
     });
 
     const getImg = (i) => {
@@ -1162,6 +1149,16 @@ export default {
         url: "https://jiffy.ai/",
       },
       {
+        img: new URL(`../assets/images/sponsors/magstone.png`, import.meta.url)
+          .href,
+        url: "https://www.magstonelaw.com/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/upbeat.png`, import.meta.url)
+          .href,
+        url: "https://www.upbeat.chat/",
+      },
+      {
         img: new URL(`../assets/images/sponsors/aizip.png`, import.meta.url)
           .href,
         url: "https://aizip.ai/",
@@ -1205,6 +1202,11 @@ export default {
           .href,
         url: "https://1gen.ai/",
       },
+      {
+        img: new URL(`../assets/images/sponsors/sineaptic.png`, import.meta.url)
+          .href,
+        url: "https://sineaptic.com/",
+      },
 
       {
         img: new URL(`../assets/images/sponsors/ushur.png`, import.meta.url)
@@ -1217,6 +1219,9 @@ export default {
         url: "https://livex.ai/",
       },
     ]);
+
+
+
     const goPageHandle = () => {
       EventBus.$emit("goPageHandle");
     };

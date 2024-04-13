@@ -69,6 +69,7 @@ import lijia from '../assets/images/speakers/lijia.png';
 import fiona from '../assets/images/speakers/fiona.png';
 import ambati from '../assets/images/speakers/ambati.png';
 import philip from '../assets/images/speakers/philip.png';
+import rathi from '../assets/images/speakers/rathi.jfif';
 
 
 
@@ -142,10 +143,21 @@ import lijia2 from '../assets/images/speakers/popup/lijia.png';
 import fiona2 from '../assets/images/speakers/popup/fiona.png';
 import ambati2 from '../assets/images/speakers/popup/ambati.png';
 import philip2 from '../assets/images/speakers/popup/philip.png';
+import rathi2 from '../assets/images/speakers/popup/rathi.png';
 
 
 
 const speakerNewly = [
+  {
+    name: 'Rathi Murthy',
+    job: 'CTO/ President Expedia Services',
+    tip: 'Expedia Group',
+    image: rathi,
+    website: 'https://www.expediagroup.com/who-we-are/leadership/person-details/default.aspx?ItemId=91aed8a2-db02-42b4-a871-ec13d236b7b3',
+    twitter: '',
+    linkedin: 'https://www.linkedin.com/in/rathi-murthy/',
+    detail: rathi2,
+  },
   {
     name: 'Philip Rathle',
     job: 'CTO',

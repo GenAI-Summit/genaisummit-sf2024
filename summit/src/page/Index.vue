@@ -827,7 +827,7 @@ export default {
     };
     const closeHanle = () => {
       showAll.value = 0;
-      heightStyle.value.height = "14rem";
+      heightStyle.value.height = "16rem";
     };
 
     const showAllExhibition = ref(false)
@@ -1001,7 +1001,7 @@ export default {
       style.value.width = "100%";
     }
     const heightStyle = ref({
-      height: "14rem",
+      height: "16rem",
     });
 
     // Exhibition初始展示高度
@@ -1092,15 +1092,20 @@ export default {
           .href,
         url: "https://www.iobc.capital/#/",
       },
-
       {
-        img: new URL(`../assets/images/sponsors/ida.png`, import.meta.url).href,
-        url: "http://www.idaireland.com",
+        img: new URL(`../assets/images/sponsors/zilliz.png`, import.meta.url)
+          .href,
+        url: "https://zilliz.com/cloud?utm_source=google&utm_medium=cpc&utm_campaign=Brand_Zilliz_Search&utm_content=Zilliz_SKAG&utm_term=zilliz&utm_campaign=Brand_Zilliz_Search&utm_source=adwords&utm_medium=ppc&hsa_acc=3636806625&hsa_cam=20126268396&hsa_grp=152646187561&hsa_ad=658436361072&hsa_src=g&hsa_tgt=kwd-1219724973301&hsa_kw=zilliz&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=CjwKCAjw8diwBhAbEiwA7i_sJW18kjAPsvO-0r4Ra1BJ6bV9O2bboN9x3F_qPqiI_F234qosqPZtSRoCxS8QAvD_BwE",
       },
+      
       {
         img: new URL(`../assets/images/sponsors/otter.png`, import.meta.url)
           .href,
         url: "https://otter.ai/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/ida.png`, import.meta.url).href,
+        url: "http://www.idaireland.com",
       },
 
       {
@@ -1108,15 +1113,13 @@ export default {
           .href,
         url: "https://www.molardata.com/",
       },
+      
       {
-        img: new URL(`../assets/images/sponsors/realloop.png`, import.meta.url)
-          .href,
-        url: "http://www.realloop.com/",
-      },
-      {
-        img: new URL(`../assets/images/sponsors/zilliz.png`, import.meta.url)
-          .href,
-        url: "https://zilliz.com/cloud?utm_source=google&utm_medium=cpc&utm_campaign=Brand_Zilliz_Search&utm_content=Zilliz_SKAG&utm_term=zilliz&utm_campaign=Brand_Zilliz_Search&utm_source=adwords&utm_medium=ppc&hsa_acc=3636806625&hsa_cam=20126268396&hsa_grp=152646187561&hsa_ad=658436361072&hsa_src=g&hsa_tgt=kwd-1219724973301&hsa_kw=zilliz&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=CjwKCAjw8diwBhAbEiwA7i_sJW18kjAPsvO-0r4Ra1BJ6bV9O2bboN9x3F_qPqiI_F234qosqPZtSRoCxS8QAvD_BwE",
+        img: new URL(
+          `../assets/images/sponsors/mountainlion.png`,
+          import.meta.url
+        ).href,
+        url: "https://www.mlion.ai/",
       },
       {
         img: new URL(`../assets/images/sponsors/exabits.png`, import.meta.url)
@@ -1132,6 +1135,11 @@ export default {
         img: new URL(`../assets/images/sponsors/akool.png`, import.meta.url)
           .href,
         url: "https://akool.com/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/1gen.png`, import.meta.url)
+          .href,
+        url: "https://1gen.ai/",
       },
       {
         img: new URL(`../assets/images/sponsors/upmarket.png`, import.meta.url)
@@ -1190,18 +1198,8 @@ export default {
           .href,
         url: "https://www.unitree.com/",
       },
-      {
-        img: new URL(
-          `../assets/images/sponsors/mountainlion.png`,
-          import.meta.url
-        ).href,
-        url: "https://www.mlion.ai/",
-      },
-      {
-        img: new URL(`../assets/images/sponsors/1gen.png`, import.meta.url)
-          .href,
-        url: "https://1gen.ai/",
-      },
+      
+      
       {
         img: new URL(`../assets/images/sponsors/sineaptic.png`, import.meta.url)
           .href,
@@ -1217,6 +1215,11 @@ export default {
         img: new URL(`../assets/images/sponsors/livex.png`, import.meta.url)
           .href,
         url: "https://livex.ai/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/realloop.png`, import.meta.url)
+          .href,
+        url: "http://www.realloop.com/",
       },
     ]);
 

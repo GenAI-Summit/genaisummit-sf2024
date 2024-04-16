@@ -70,6 +70,8 @@ import fiona from '../assets/images/speakers/fiona.png';
 import ambati from '../assets/images/speakers/ambati.png';
 import philip from '../assets/images/speakers/philip.png';
 import rathi from '../assets/images/speakers/rathi.jfif';
+import muddu from '../assets/images/speakers/muddu.png';
+import stewart from '../assets/images/speakers/stewart.jfif';
 
 
 
@@ -144,10 +146,33 @@ import fiona2 from '../assets/images/speakers/popup/fiona.png';
 import ambati2 from '../assets/images/speakers/popup/ambati.png';
 import philip2 from '../assets/images/speakers/popup/philip.png';
 import rathi2 from '../assets/images/speakers/popup/rathi.png';
-
-
+import muddu2 from '../assets/images/speakers/popup/muddu.png';
+import stewart2 from '../assets/images/speakers/popup/stewart.png';
 
 const speakerNewly = [
+  
+  {
+    name: 'Dr. Michael Stewart',
+    job: 'Managing Partner',
+    tip: "M12, Microsoft's Venture Fund",
+    linkedin: 'https://www.linkedin.com/in/mpstewart/',
+    twitter: 'https://twitter.com/mps_vc',
+    website: '',
+    detail: stewart2,
+    image: stewart,
+  },
+
+  {
+    name: 'Dr. Muddu Sudhakar',
+    job: 'Co-Founder & CEO',
+    tip: 'Aisera',
+    image: muddu,
+    website: 'https://aisera.com/company/',
+    linkedin: 'https://www.linkedin.com/in/muddusudhakar/',
+    twitter: 'https://twitter.com/smuddu?lang=en',
+
+    detail: muddu2,
+  },
   {
     name: 'Rathi Murthy',
     job: 'CTO/ President Expedia Services',

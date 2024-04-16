@@ -70,6 +70,8 @@ import fiona from '../assets/images/speakers/fiona.png';
 import ambati from '../assets/images/speakers/ambati.png';
 import philip from '../assets/images/speakers/philip.png';
 import rathi from '../assets/images/speakers/rathi.jfif';
+import muddu from '../assets/images/speakers/muddu.png';
+import stewart from '../assets/images/speakers/stewart.jfif';
 
 
 
@@ -144,6 +146,8 @@ import fiona2 from '../assets/images/speakers/popup/fiona.png';
 import ambati2 from '../assets/images/speakers/popup/ambati.png';
 import philip2 from '../assets/images/speakers/popup/philip.png';
 import rathi2 from '../assets/images/speakers/popup/rathi.png';
+import muddu2 from '../assets/images/speakers/popup/muddu.png';
+import stewart2 from '../assets/images/speakers/popup/stewart.png';
 
 
 const speaker = [
@@ -181,14 +185,25 @@ const speaker = [
     image: ross,
   },
   {
-    name: 'Rathi Murthy',
-    job: 'CTO/ President Expedia Services',
-    tip: 'Expedia Group',
-    image: rathi,
-    website: 'https://www.expediagroup.com/who-we-are/leadership/person-details/default.aspx?ItemId=91aed8a2-db02-42b4-a871-ec13d236b7b3',
-    twitter: '',
-    linkedin: 'https://www.linkedin.com/in/rathi-murthy/',
-    detail: rathi2,
+    name: 'Fiona Ma',
+    job: 'State Treasurer',
+    tip: "State Treasurer's Office",
+    image: fiona,
+    linkedin: 'https://www.linkedin.com/in/fionamacpa/',
+    twitter: 'https://twitter.com/fionama',
+    website: 'https://www.fionama.com/',
+    detail: fiona2,
+  },
+
+  {
+    name: 'Dr. Michael Stewart',
+    job: 'Managing Partner',
+    tip: "M12, Microsoft's Venture Fund",
+    linkedin: 'https://www.linkedin.com/in/mpstewart/',
+    twitter: 'https://twitter.com/mps_vc',
+    website: '',
+    detail: stewart2,
+    image: stewart,
   },
 
   {
@@ -198,7 +213,7 @@ const speaker = [
     website: 'https://www.glean.com/',
     twitter: 'https://twitter.com/jainarvind',
 
-    link: 'https://www.linkedin.com/in/arvind-jain-5935161/',
+    linkedin: 'https://www.linkedin.com/in/arvind-jain-5935161/',
     detail: arvind2,
     image: arvind,
   },
@@ -209,7 +224,7 @@ const speaker = [
     tip: 'NVIDIA',
     website: 'https://jimfan.me/',
     twitter: 'https://twitter.com/DrJimFan',
-    link: 'https://www.linkedin.com/in/drjimfan/',
+    linkedin: 'https://www.linkedin.com/in/drjimfan/',
     detail: jimfan2,
     image: jimfan,
   },
@@ -303,16 +318,18 @@ const speaker = [
     linkedin: 'https://www.linkedin.com/in/srisatishambati/',
     detail: ambati2,
   },
+
   {
-    name: 'Fiona Ma',
-    job: 'State Treasurer',
-    tip: "State Treasurer's Office",
-    image: fiona,
-    linkedin: 'https://www.linkedin.com/in/fionamacpa/',
-    twitter: 'https://twitter.com/fionama',
-    website: 'https://www.fionama.com/',
-    detail: fiona2,
+    name: 'Rathi Murthy',
+    job: 'CTO/ President Expedia Services',
+    tip: 'Expedia Group',
+    image: rathi,
+    website: 'https://www.expediagroup.com/who-we-are/leadership/person-details/default.aspx?ItemId=91aed8a2-db02-42b4-a871-ec13d236b7b3',
+    twitter: '',
+    linkedin: 'https://www.linkedin.com/in/rathi-murthy/',
+    detail: rathi2,
   },
+  
 
   {
     name: 'Pankaj Dugar',
@@ -386,6 +403,19 @@ const speaker = [
     twitter: 'https://twitter.com/cwalker123?lang=en',
     detail: craig2,
   },
+  {
+    name: 'Dr. Shiv Rao',
+    job: 'Co-Founder & CEO',
+    tip: 'Abridge',
+    image: shiv,
+    website: 'https://www.abridge.com/author/shiv-rao',
+    linkedin: 'https://www.linkedin.com/in/shivdevrao/',
+    twitter: 'https://twitter.com/ShivdevRao',
+
+    detail: shiv2,
+  },
+
+
  
   {
     name: 'Dr. Ram Sriharsha',
@@ -440,16 +470,17 @@ const speaker = [
     website: '',
     detail: george2,
   },
+  
   {
-    name: 'Dr. Shiv Rao',
+    name: 'Dr. Muddu Sudhakar',
     job: 'Co-Founder & CEO',
-    tip: 'Abridge',
-    image: shiv,
-    website: 'https://www.abridge.com/author/shiv-rao',
-    linkedin: 'https://www.linkedin.com/in/shivdevrao/',
-    twitter: 'https://twitter.com/ShivdevRao',
+    tip: 'Aisera',
+    image: muddu,
+    website: 'https://aisera.com/company/',
+    linkedin: 'https://www.linkedin.com/in/muddusudhakar/',
+    twitter: 'https://twitter.com/smuddu?lang=en',
 
-    detail: shiv2,
+    detail: muddu2,
   },
 
   {

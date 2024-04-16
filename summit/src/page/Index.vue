@@ -778,14 +778,32 @@ export default {
         number: 200000,
       },
     ]);
-
+    const getLocationParame = () => {
+      const url =location.href;
+      const match = url.match(/[\?&]discount=([^&#]*)/);
+      const discountValue = match ? match[1] : null;
+      return discountValue
+    }
+    const getLocationParame1 = () => {
+      const url =location.href;
+      const match = url.match(/[\?&]coupon=([^&#]*)/);
+      const couponValue = match ? match[1] : null;
+      return couponValue
+    }
     const activeSection = ref("");
     const scrollToSection = (sectionId) => {
-      const discount = route.query.discount;
+      const discount = route.query.discount || getLocationParame();
+      const coupon = route.query.coupon || getLocationParame1();
       const section = document.getElementById(sectionId);
-      const newHash = discount
-        ? `?section=` + sectionList[sectionId] + `&discount=` + discount
-        : `?section=` + sectionList[sectionId];
+      let newHash = ''
+      if(discount){
+        newHash = `?section=` + sectionList[sectionId] + `&discount=` + discount
+      }else{
+        newHash =  `?section=` + sectionList[sectionId]
+      }
+      if(coupon){
+        newHash = newHash + '&coupon=' + coupon
+      }
       window.location.hash = newHash;
       if (section) {
         window.scrollTo({
@@ -1229,10 +1247,11 @@ export default {
       EventBus.$emit("goPageHandle");
     };
     const BuyTickets = () => {
-      if (route.query.discount) {
+      const discount = route.query.discount || getLocationParame()
+      if (discount) {
         window.open(
           "https://www.eventbrite.com/e/genai-summit-san-francisco-2024-tickets-796934722207?discount=" +
-            route.query.discount
+          discount
         );
       } else {
         window.open(
@@ -1241,7 +1260,16 @@ export default {
       }
     };
     const BuyTicketsLuma = () => {
-      window.open("https://lu.ma/genaisummitsf2024");
+      const coupon = route.query.coupon || getLocationParame1()
+      if(coupon){
+        window.open(
+          "https://lu.ma/genaisummitsf2024?coupon=" + coupon
+        );
+      }else{
+        window.open(
+          "https://lu.ma/genaisummitsf2024"
+        );
+      }
     };
     const tipList = ref([
       'History & Future of LLM','LLM Framework / State-of-the-art of LLM','Chips for LLM','Robotic and GenAI','The Art of FineTuning & RAG','Enterprise and GenAI',

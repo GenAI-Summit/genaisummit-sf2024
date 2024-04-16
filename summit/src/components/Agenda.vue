@@ -328,8 +328,9 @@ export default {
 }
 .swoperCont_days {
  .tab{
+    width: 100%;
     display: flex;
-    width: 16rem;
+    max-width: 16rem;
     height: 1.1rem;
     margin-top: 20px;
     .tab-item{

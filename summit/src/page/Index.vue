@@ -1165,9 +1165,20 @@ export default {
         url: "https://www.upmarket.co/",
       },
       {
+        img: new URL(`../assets/images/sponsors/aiads.png`, import.meta.url)
+          .href,
+        url: "https://aiads.app/",
+      },
+
+      {
         img: new URL(`../assets/images/sponsors/skalable.png`, import.meta.url)
           .href,
         url: "https://skalabletech.com/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/telus.png`, import.meta.url)
+          .href,
+        url: "https://www.telusinternational.com/",
       },
       {
         img: new URL(`../assets/images/sponsors/jiffy.png`, import.meta.url)
@@ -1178,6 +1189,12 @@ export default {
         img: new URL(`../assets/images/sponsors/magstone.png`, import.meta.url)
           .href,
         url: "https://www.magstonelaw.com/",
+      },
+
+      {
+        img: new URL(`../assets/images/sponsors/gptworks.png`, import.meta.url)
+          .href,
+        url: "https://www.gptworks.ai/",
       },
       {
         img: new URL(`../assets/images/sponsors/upbeat.png`, import.meta.url)
@@ -1238,6 +1255,26 @@ export default {
         img: new URL(`../assets/images/sponsors/realloop.png`, import.meta.url)
           .href,
         url: "http://www.realloop.com/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/suanxiang.png`, import.meta.url)
+          .href,
+        url: "https://nascentcore.ai/en/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/starloom.png`, import.meta.url)
+          .href,
+        url: "https://starloom.ai/#/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/citing.png`, import.meta.url)
+          .href,
+        url: "https://citing.ai/#/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/utburst.png`, import.meta.url)
+          .href,
+        url: "https://outburst.ai/",
       },
     ]);
 

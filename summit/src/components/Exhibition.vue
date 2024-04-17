@@ -18,7 +18,7 @@
                         3x Bar Stool Chairs<br>
                         6x Back Walls Available for Posters or Designs(3.28ft x 7.87ft or 1m x 2.4m)<br>
                         Customer Curved Counter with Doors for Storage<br>
-                        4x Event Tickets<br>
+                        5x Event Tickets<br>
                     </div>
                     <div class="page" v-if="screenWidth > 600">
                         <div class="fk" @click="slickPrev">
@@ -56,7 +56,7 @@
                         3x Bar Stool Chairs<br>
                         4x Back Walls Available for Posters or Designs (3.28ft x 7.87ft or 1m x 2.4m)<br>
                         Customer Curved Counter with Doors for Storage<br>
-                        3x Event Tickets<br>
+                        4x Event Tickets<br>
                     </div>
                     <div class="page" v-if="screenWidth > 600">
                         <div class="fk" @click="slickPrev">
@@ -98,7 +98,7 @@
                     <div class="list">
                         1x Table (Size: 6 ft x 2.5 ft x 2.5 ft)  <br>
                         2x Chairs<br>
-                        2x Event Tickets<br>
+                        3x Event Tickets<br>
                         Fit for Roll-up Banners & Other Publicity Materials
                         <br>
                         <br>

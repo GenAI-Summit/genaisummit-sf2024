@@ -491,6 +491,9 @@
           </div>
         </div>
 
+
+
+
         <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
           <div
             class="left-title before"
@@ -1091,7 +1094,17 @@ export default {
         ).href,
         url: "https://tgo.infoq.cn/",
       },
+
+      {
+        img: new URL(
+          `../assets/images/logoPantners/fourseason.png`,
+          import.meta.url
+        ).href,
+        url: "https://www.fourseasons.com/",
+      },
     ]);
+
+    // Sponsors start here
     const EventPartners2 = ref([
       {
         img: new URL(
@@ -1179,6 +1192,11 @@ export default {
         img: new URL(`../assets/images/sponsors/telus.png`, import.meta.url)
           .href,
         url: "https://www.telusinternational.com/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/fivetran.png`, import.meta.url)
+          .href,
+        url: "https://www.fivetran.com/",
       },
       {
         img: new URL(`../assets/images/sponsors/jiffy.png`, import.meta.url)

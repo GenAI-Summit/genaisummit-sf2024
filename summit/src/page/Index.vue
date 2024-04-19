@@ -68,6 +68,7 @@
         <img class="ico ico2" src="../assets/images/ico_dim2.png" alt="" />
         <img class="ico ico3" src="../assets/images/ico_dim3.png" alt="" /> -->
       </div>
+
       <div class="top_item">
         <div>
           <div class="show_title">Sponsored by</div>
@@ -230,7 +231,112 @@
         </div>
       </section>
 
-      <div class="pantners">
+      <section id="section3" class="cointainer">
+        <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
+          <div
+            class="left-title before"
+            :class="screenWidth > 600 ? '' : 'mb'"
+            data-aos="flip-up"
+          >
+            WorkShops
+          </div>
+          <div class="open-btn">
+            <button @click="openUrl('https://forms.gle/9pTcvfZcVEVRzmQZ8')">
+              Become Our Sponsor
+              <img src="../assets/images/general_return.png" alt="" />
+            </button>
+          </div>
+        </div>
+        <div class="ss-title" data-aos="flip-up">
+          INSIDE OF LESSONS TO LEARN NEW TECHNOLOGY!
+        </div>
+
+        <div class="office_content">
+          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+            
+            <div
+              class="list"
+              @click="openUrl('https://www.nvidia.com/en-us/')"
+            >
+              <img class="d" src="../assets/images/workshop/nvidia.png" alt="" />
+              <img class="a" src="../assets/images/workshop/nvidia.png" alt="" />
+            </div>
+            <div
+              class="list"
+              @click="openUrl('https://aws.amazon.com/startups?lang=en-US')"
+            >
+              <img class="d" src="../assets/images/sponsors/aws.png" alt="" />
+              <img class="a" src="../assets/images/sponsors/aws.png" alt="" />
+            </div>
+
+          </div>
+        </div>
+
+
+        <!-- gold -->
+        <div class="office_content">
+          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+            
+            <!-- <div class="list" @click="openUrl('https://cloud.google.com/')">
+              <img class="d" src="../assets/images/ico_logo_g2.png" alt="" />
+              <img class="a" src="../assets/images/ico_logo_g1.png" alt="" />
+            </div> -->
+            <div
+              class="list"
+              @click="openUrl('https://sambanova.ai/')"
+            >
+              <img class="d" src="../assets/images/sponsors/samba.png" alt="" />
+              <img class="a" src="../assets/images/sponsors/samba.png" alt="" />
+            </div>
+            <div
+              class="list"
+              @click="openUrl('https://zilliz.com/')"
+            >
+              <img class="d" src="../assets/images/sponsors/zilliz.png" alt="" />
+              <img class="a" src="../assets/images/sponsors/zilliz.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+
+         
+        <!-- <div class="office_content">
+          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+            
+          
+            <div
+              class="list"
+              @click="openUrl('https://sambanova.ai/')"
+            >
+              <img class="d" src="../assets/images/sponsors/samba.png" alt="" />
+              <img class="a" src="../assets/images/sponsors/samba.png" alt="" />
+            </div>
+
+          </div>
+
+      </div> -->
+
+      <!-- <div class="office_content">
+          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+            
+            <div
+              class="list"
+              @click="openUrl('https://zilliz.com/')"
+            >
+              <img class="d" src="../assets/images/sponsors/zilliz.png" alt="" />
+              <img class="a" src="../assets/images/sponsors/zilliz.png" alt="" />
+            </div>
+
+          </div>
+
+      </div> -->
+      </section>
+
+      
+
+
+      <!-- WorkShop Starts here -->
+      <!-- <div class="pantners">
         <div class="cointainer">
           <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
             <div
@@ -241,6 +347,9 @@
               WorkShop
             </div>
           </div>
+
+
+
           <div class="pantnersList">
             <div
               class="pantnersItem"
@@ -257,7 +366,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <div class="GenAISummit" :class="screenWidth > 600 ? '' : 'mb'">
         <div class="cointainer">
@@ -438,6 +547,7 @@
           </div>
         </div>
       </div>
+
       <section id="section3" class="cointainer">
         <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
           <div
@@ -539,13 +649,7 @@
               <img class="a" src="../assets/images/sponsors/zilliz.png" alt="" />
             </div>
 
-            <div
-              class="list"
-              @click="openUrl('https://otter.ai/')"
-            >
-              <img class="d" src="../assets/images/sponsors/otter.png" alt="" />
-              <img class="a" src="../assets/images/sponsors/otter.png" alt="" />
-            </div>
+            
 
             
           </div>

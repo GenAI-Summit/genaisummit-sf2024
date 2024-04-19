@@ -238,7 +238,7 @@
               :class="screenWidth > 600 ? '' : 'mb'"
               data-aos="flip-up"
             >
-              Event Partners
+              WorkShop
             </div>
           </div>
           <div class="pantnersList">
@@ -246,7 +246,7 @@
               class="pantnersItem"
               @click="openUrl(item.url)"
               :class="screenWidth > 600 ? '' : 'mb'"
-              v-for="(item, index) in EventPartners"
+              v-for="(item, index) in workshop"
               :key="index"
               data-aos="zoom-in"
             >
@@ -485,55 +485,75 @@
               class="list"
               @click="openUrl('https://aws.amazon.com/startups?lang=en-US')"
             >
-              <img class="d" src="../assets/images/aws-startup.png" alt="" />
-              <img class="a" src="../assets/images/aws-startup2.png" alt="" />
+              <img class="d" src="../assets/images/sponsors/aws.png" alt="" />
+              <img class="a" src="../assets/images/sponsors/aws.png" alt="" />
             </div>
           </div>
         </div>
 
 
-
-
-        <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
-          <div
-            class="left-title before"
-            :class="screenWidth > 600 ? '' : 'mb'"
-            data-aos="flip-up"
-          >
-            Exhibition Opportunities
-          </div>
-          <div class="open-btn">
-            <button>
-              Take your place to exhibit
-              <img src="../assets/images/general_return.png" alt="" />
-            </button>
-            <div class="buy-listBox">
-              <div class="list" @click="BuyTicketsLuma">
-                <img class="luma" src="../assets/images/luma.png" alt="" />
-              </div>
-              <div class="list" @click="BuyTickets">
-                <img class="event" src="../assets/images/event.png" alt="" />
-              </div>
+        <!-- gold -->
+        <div class="office_content">
+          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+            <div class="title_img">
+              <img src="../assets/images/gold.png" alt="" />
+            </div>
+            <!-- <div class="list" @click="openUrl('https://cloud.google.com/')">
+              <img class="d" src="../assets/images/ico_logo_g2.png" alt="" />
+              <img class="a" src="../assets/images/ico_logo_g1.png" alt="" />
+            </div> -->
+            <div
+              class="list"
+              @click="openUrl('https://www.iobc.capital/#/')"
+            >
+              <img class="d" src="../assets/images/sponsors/iobc.png" alt="" />
+              <img class="a" src="../assets/images/sponsors/iobc.png" alt="" />
             </div>
           </div>
         </div>
-        <div class="ss-title" data-aos="flip-up">
-          SHOWCASE YOUR PRODUCT TO EVERYONE AT THE SUMMIT!
-        </div>
-        <div class="sss-title" data-aos="flip-up">
-          Located in the exhibition hall, the Booth allows you to conduct
-          meetings while ensuring optimal brand exposure. Brand's logo will be
-          featured on signage throughout the venue, displayed on website and
-          brochures.
-        </div>
-        <div class="Exhibition">
 
-          <Exhibition />
-        </div>
-      </section>
 
-      <!-- Exhibition Starts Here -->
-      <div class="pantners2">
+          <!-- silver -->
+        <div class="office_content">
+          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+            <div class="title_img">
+              <img src="../assets/images/silver.png" alt="" />
+            </div>
+            <!-- <div class="list" @click="openUrl('https://cloud.google.com/')">
+              <img class="d" src="../assets/images/ico_logo_g2.png" alt="" />
+              <img class="a" src="../assets/images/ico_logo_g1.png" alt="" />
+            </div> -->
+            <div
+              class="list"
+              @click="openUrl('https://sambanova.ai/')"
+            >
+              <img class="d" src="../assets/images/sponsors/samba.png" alt="" />
+              <img class="a" src="../assets/images/sponsors/samba.png" alt="" />
+            </div>
+
+            <div
+              class="list"
+              @click="openUrl('https://zilliz.com/')"
+            >
+              <img class="d" src="../assets/images/sponsors/zilliz.png" alt="" />
+              <img class="a" src="../assets/images/sponsors/zilliz.png" alt="" />
+            </div>
+
+            <div
+              class="list"
+              @click="openUrl('https://otter.ai/')"
+            >
+              <img class="d" src="../assets/images/sponsors/otter.png" alt="" />
+              <img class="a" src="../assets/images/sponsors/otter.png" alt="" />
+            </div>
+
+            
+          </div>
+        </div>
+
+        
+
+        <div class="pantners2">
         <div class="cointainer">
           <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
             <div
@@ -587,6 +607,54 @@
             </div>
         </div>
       </div>
+
+
+
+
+
+
+        <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
+          <div
+            class="left-title before"
+            :class="screenWidth > 600 ? '' : 'mb'"
+            data-aos="flip-up"
+          >
+            Exhibition Opportunities
+          </div>
+          <div class="open-btn">
+            <button>
+              Take your place to exhibit
+              <img src="../assets/images/general_return.png" alt="" />
+            </button>
+            <div class="buy-listBox">
+              <div class="list" @click="BuyTicketsLuma">
+                <img class="luma" src="../assets/images/luma.png" alt="" />
+              </div>
+              <div class="list" @click="BuyTickets">
+                <img class="event" src="../assets/images/event.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="ss-title" data-aos="flip-up">
+          SHOWCASE YOUR PRODUCT TO EVERYONE AT THE SUMMIT!
+        </div>
+        <div class="sss-title" data-aos="flip-up">
+          Located in the exhibition hall, the Booth allows you to conduct
+          meetings while ensuring optimal brand exposure. Brand's logo will be
+          featured on signage throughout the venue, displayed on website and
+          brochures.
+        </div>
+        <div class="Exhibition">
+
+          <Exhibition />
+        </div>
+      </section>
+
+      <!-- Exhibition Starts Here -->
+      
 
       <!-- <div class="pantners">
         <div class="cointainer">
@@ -662,6 +730,36 @@
         <!-- <SwiperDay /> -->
         <Agenda/>
       </section>
+
+      <div class="pantners">
+        <div class="cointainer">
+          <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
+            <div
+              class="left-title before"
+              :class="screenWidth > 600 ? '' : 'mb'"
+              data-aos="flip-up"
+            >
+              Event Partners
+            </div>
+          </div>
+          <div class="pantnersList">
+            <div
+              class="pantnersItem"
+              @click="openUrl(item.url)"
+              :class="screenWidth > 600 ? '' : 'mb'"
+              v-for="(item, index) in EventPartners"
+              :key="index"
+              data-aos="zoom-in"
+            >
+              <img :src="item.img" alt="" />
+            </div>
+            <div class="pantnersItem" :class="screenWidth > 600 ? '' : 'mb f1'">
+              More
+            </div>
+          </div>
+        </div>
+      </div>
+
 
       <div class="dialog" v-if="showDialog" @click="closeDialog">
         <div class="img-content">
@@ -1104,7 +1202,7 @@ export default {
       },
     ]);
 
-    // Sponsors start here
+    // Sponsor start here
     const EventPartners2 = ref([
       {
         img: new URL(
@@ -1126,7 +1224,7 @@ export default {
       {
         img: new URL(`../assets/images/sponsors/zilliz.png`, import.meta.url)
           .href,
-        url: "https://zilliz.com/cloud?utm_source=google&utm_medium=cpc&utm_campaign=Brand_Zilliz_Search&utm_content=Zilliz_SKAG&utm_term=zilliz&utm_campaign=Brand_Zilliz_Search&utm_source=adwords&utm_medium=ppc&hsa_acc=3636806625&hsa_cam=20126268396&hsa_grp=152646187561&hsa_ad=658436361072&hsa_src=g&hsa_tgt=kwd-1219724973301&hsa_kw=zilliz&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=CjwKCAjw8diwBhAbEiwA7i_sJW18kjAPsvO-0r4Ra1BJ6bV9O2bboN9x3F_qPqiI_F234qosqPZtSRoCxS8QAvD_BwE",
+        url: "https://zilliz.com/",
       },
       
       {
@@ -1251,6 +1349,11 @@ export default {
           .href,
         url: "https://www.unitree.com/",
       },
+      {
+        img: new URL(`../assets/images/sponsors/vimmerse.png`, import.meta.url)
+          .href,
+        url: "https://www.vimmerse.net/",
+      },
       
       
       {
@@ -1296,6 +1399,39 @@ export default {
       },
     ]);
 
+
+    const workshop = ref([
+    {
+        img: new URL(
+          `../assets/images/workshop/nvidia.png`,
+          import.meta.url
+        ).href,
+        url: "https://www.nvidia.com/en-us/",
+      },
+      {
+        img: new URL(
+          `../assets/images/sponsors/aws.png`,
+          import.meta.url
+        ).href,
+        url: "https://aws.amazon.com/startups?lang=en-US",
+      },
+      {
+        img: new URL(
+          `../assets/images/sponsors/samba.png`,
+          import.meta.url
+        ).href,
+        url: "https://sambanova.ai/",
+      },
+      {
+        img: new URL(
+          `../assets/images/sponsors/zilliz.png`,
+          import.meta.url
+        ).href,
+        url: "https://zilliz.com/",
+      },
+      
+    
+    ]);
 
 
     const goPageHandle = () => {
@@ -1384,6 +1520,7 @@ export default {
       getImg2,
       EventPartners,
       EventPartners2,
+      workshop,
       activeSection,
       scrollToSection,
       BuyTickets,

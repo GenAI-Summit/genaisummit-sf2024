@@ -72,6 +72,10 @@ import philip from '../assets/images/speakers/philip.png';
 import rathi from '../assets/images/speakers/rathi.jfif';
 import muddu from '../assets/images/speakers/muddu.png';
 import stewart from '../assets/images/speakers/stewart.jfif';
+import rashimi from '../assets/images/speakers/rashimi.jfif';
+
+import soumya from '../assets/images/speakers/soumya.jfif';
+import gideon from '../assets/images/speakers/gideon.jfif';
 
 
 
@@ -148,8 +152,42 @@ import philip2 from '../assets/images/speakers/popup/philip.png';
 import rathi2 from '../assets/images/speakers/popup/rathi.png';
 import muddu2 from '../assets/images/speakers/popup/muddu.png';
 import stewart2 from '../assets/images/speakers/popup/stewart.png';
+import rashimi2 from '../assets/images/speakers/popup/rashimi.png';
+
+import soumya2 from '../assets/images/speakers/popup/soumya.png';
+import gideon2 from '../assets/images/speakers/popup/gideon.png';
 
 const speakerNewly = [
+  {
+    name: 'Dr. Rashimi Misra',
+    job: 'Chie AI Officer',
+    tip: 'Analog Devices',
+    website: '',
+    twitter: 'https://twitter.com/rmisra11',
+    linkedin: 'https://www.linkedin.com/in/rmisra/',
+    detail: rashimi2,
+    image: rashimi,
+  },
+  {
+    name: 'Gideon Mendels',
+    job: 'Co-Founder & CEO',
+    tip: 'Comet ML',
+    image: gideon,
+    website: 'https://www.linkedin.com/in/gideon-mendels/recent-activity/all/?trk=public_post_follow-articles',
+    twitter: 'https://twitter.com/comet_ai',
+    linkedin: 'https://www.linkedin.com/in/gideon-mendels/',
+    detail: gideon2,
+  },
+  {
+    name: 'Soumya Batra',
+    job: 'Co-Author',
+    tip: 'LIama 2',
+    image: soumya,
+    website: 'https://arxiv.org/abs/2307.09288',
+    twitter: 'https://twitter.com/batrasoumya',
+    linkedin: 'https://www.linkedin.com/in/soumyabatra/',
+    detail: soumya2,
+  },
   
   {
     name: 'Dr. Michael Stewart',

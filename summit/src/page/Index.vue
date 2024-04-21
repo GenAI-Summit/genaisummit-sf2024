@@ -231,7 +231,7 @@
         </div>
       </section>
 
-      <section id="section3" class="cointainer">
+      <section id="section5" class="cointainer">
         <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
           <div
             class="left-title before"
@@ -242,13 +242,16 @@
           </div>
           <div class="open-btn">
             <button @click="openUrl('https://forms.gle/9pTcvfZcVEVRzmQZ8')">
-              Become Our Sponsor
+              Join Our WorkShop
               <img src="../assets/images/general_return.png" alt="" />
             </button>
           </div>
         </div>
         <div class="ss-title" data-aos="flip-up">
           INSIDE OF LESSONS TO LEARN NEW TECHNOLOGY!
+        </div>
+        <div class="sss-title" data-aos="flip-up">
+          Applied Generative AI Workshops offer a comprehensive solution that equips both technical and non-technical attendees from all age groups with essential skills in just 60 minutes. Here are a few highlighted sessions (Updated weekly):
         </div>
 
         <div class="office_content">
@@ -300,36 +303,7 @@
 
 
          
-        <!-- <div class="office_content">
-          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
-            
-          
-            <div
-              class="list"
-              @click="openUrl('https://sambanova.ai/')"
-            >
-              <img class="d" src="../assets/images/sponsors/samba.png" alt="" />
-              <img class="a" src="../assets/images/sponsors/samba.png" alt="" />
-            </div>
-
-          </div>
-
-      </div> -->
-
-      <!-- <div class="office_content">
-          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
-            
-            <div
-              class="list"
-              @click="openUrl('https://zilliz.com/')"
-            >
-              <img class="d" src="../assets/images/sponsors/zilliz.png" alt="" />
-              <img class="a" src="../assets/images/sponsors/zilliz.png" alt="" />
-            </div>
-
-          </div>
-
-      </div> -->
+      
       </section>
 
       
@@ -727,7 +701,7 @@
           </div>
           <div class="open-btn">
             <button>
-              Take your place to exhibit
+              Take Your Place to Exhibit
               <img src="../assets/images/general_return.png" alt="" />
             </button>
             <div class="buy-listBox">
@@ -824,7 +798,7 @@
           MAXIMIZE YOUR JOURNEY AT THE AI SUMMIT
         </div>
         <div class="ss-title2" data-aos="flip-up">
-          (Note: Tentative Outline, update weekly)
+          (Note: Tentative Agenda, update weekly)
         </div>
         <div class="tab-tip-box">
           <div class="tip-list" v-for="(list,index) in tipList" :key="index">
@@ -2529,6 +2503,79 @@ section {
     text-align: center;
     font-style: normal;
     text-transform: none;
+  }
+}
+#section5 {
+  .office {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+    align-items: center;
+    &.mb {
+      .list {
+        width: 30%;
+        max-width: 30%;
+        margin-bottom: 0.3rem;
+        height: 100%;
+        margin-left: 0.1rem;
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+      .title_img {
+        width: 30%;
+        margin-bottom: 0.3rem;
+        img {
+          width: 100%;
+        }
+      }
+    }
+    .title_img {
+      margin-right: 0.4rem;
+      img {
+        width: 4rem;
+      }
+    }
+    .list {
+      flex: 1;
+      background: #ffffff;
+      text-align: center;
+      cursor: pointer;
+      height: 1.8rem;
+      z-index: 2;
+      display: flex;
+      justify-content: center;
+      border-radius: 1.5rem;
+      margin-left: 0.4rem;
+      &:first-child {
+        margin-left: 0;
+      }
+      img {
+        height: 1.8rem;
+        z-index: -1;
+        &.d {
+          display: block;
+          border-radius: 1.5rem;
+        }
+        &.a {
+          display: none;
+          border-radius: 1.5rem;
+        }
+      }
+      &:hover {
+        background: #008aff;
+        height: 100%;
+        img {
+          &.a {
+            display: block;
+          }
+          &.d {
+            display: none;
+          }
+        }
+      }
+    }
   }
 }
 #section3 {

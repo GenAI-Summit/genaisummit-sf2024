@@ -29,6 +29,14 @@
         <li v-if="screenWidth > 900">
           <a
             :to="null"
+            @click="scrollToSection('section5')"
+            :class="{ active: activeSection === 'section5' }"
+            >WORKSHOP</a
+          >
+        </li>
+        <li v-if="screenWidth > 900">
+          <a
+            :to="null"
             @click="scrollToSection('section3')"
             :class="{ active: activeSection === 'section3' }"
             >SPONSORS</a
@@ -42,6 +50,8 @@
             >SCHEDULE</a
           >
         </li>
+
+       
         <li v-if="screenWidth > 900">
           <a
             href="https://linktr.ee/gptdao"

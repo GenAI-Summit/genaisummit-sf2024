@@ -542,7 +542,7 @@
           CHECK WHO MAKES THIS EVENT POSSIBLE!
         </div>
 
-        <!-- <div class="office_content">
+        <div class="office_content">
           <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
             <div class="title_img">
               <img src="../assets/images/diam.png" alt="" />
@@ -551,11 +551,11 @@
               class="list"
               @click="openUrl('https://www.microsoft.com/en-us/')"
             >
-              <img class="d" src="../assets/images/ico_logo_m2.png" alt="" />
-              <img class="a" src="../assets/images/ico_logo_m1.png" alt="" />
+              <img class="d" src="../assets/images/sponsors/microsoft3.png" alt="" />
+              <img class="a" src="../assets/images/sponsors/microsoft3.png" alt="" />
             </div>
           </div>
-        </div> -->
+        </div>
         <div class="office_content">
           <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
             <div class="title_img">
@@ -1287,7 +1287,7 @@ export default {
           `../assets/images/sponsors/microsoft2.png`,
           import.meta.url
         ).href,
-        url: "https://www.microsoft.com/en-us/ai/ai-lab",
+        url: "../assets/images/diam.png",
       },
       {
         img: new URL(`../assets/images/sponsors/IBM.png`, import.meta.url).href,
@@ -1432,6 +1432,11 @@ export default {
           .href,
         url: "https://www.vimmerse.net/",
       },
+      {
+        img: new URL(`../assets/images/sponsors/conversight.png`, import.meta.url)
+          .href,
+        url: "https://conversight.ai/",
+      },
       
       
       {
@@ -1475,6 +1480,29 @@ export default {
           .href,
         url: "https://outburst.ai/",
       },
+      {
+        img: new URL(
+          `../assets/images/sponsors/intellimart.png`,
+          import.meta.url
+        ).href,
+        url: "https://www.intellimart.ai/",
+      },
+      {
+        img: new URL(
+          `../assets/images/sponsors/genmall.png`,
+          import.meta.url
+        ).href,
+        url: "https://genmall.ai/",
+      },
+      {
+        img: new URL(
+          `../assets/images/sponsors/arctic.png`,
+          import.meta.url
+        ).href,
+        url: "https://www.arcticeider.ai/",
+      },
+
+
     ]);
 
 
@@ -1507,6 +1535,7 @@ export default {
         ).href,
         url: "https://zilliz.com/",
       },
+     
       
     
     ]);

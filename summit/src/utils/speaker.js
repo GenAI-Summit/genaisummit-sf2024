@@ -72,7 +72,7 @@ import philip from '../assets/images/speakers/philip.png';
 import rathi from '../assets/images/speakers/rathi.jfif';
 import muddu from '../assets/images/speakers/muddu.png';
 import stewart from '../assets/images/speakers/stewart.jfif';
-import rashimi from '../assets/images/speakers/rashimi.jfif';
+import rashimi from '../assets/images/speakers/rashimi.jpg';
 
 import soumya from '../assets/images/speakers/soumya.jfif';
 import gideon from '../assets/images/speakers/gideon.jfif';

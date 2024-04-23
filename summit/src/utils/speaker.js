@@ -228,7 +228,7 @@ const speaker = [
 
 
   {
-    name: 'Dr. Rashimi Misra',
+    name: 'Dr. Rashmi Misra',
     job: 'Chie AI Officer',
     tip: 'Analog Devices',
     website: '',

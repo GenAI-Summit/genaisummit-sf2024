@@ -1279,13 +1279,7 @@ export default {
         url: "https://www.fourseasons.com/",
       },
 
-      {
-        img: new URL(
-          `../assets/images/logoPantners/xiongmao.png`,
-          import.meta.url
-        ).href,
-        url: "https://www.hungrypanda.co/",
-      },
+      
     ]);
 
     // Sponsor start here
@@ -1445,7 +1439,13 @@ export default {
           .href,
         url: "https://conversight.ai/",
       },
-      
+      {
+        img: new URL(
+          `../assets/images/logoPantners/xiongmao.png`,
+          import.meta.url
+        ).href,
+        url: "https://www.hungrypanda.co/",
+      },
       
       {
         img: new URL(`../assets/images/sponsors/sineaptic.png`, import.meta.url)

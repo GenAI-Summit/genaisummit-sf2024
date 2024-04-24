@@ -1278,6 +1278,14 @@ export default {
         ).href,
         url: "https://www.fourseasons.com/",
       },
+
+      {
+        img: new URL(
+          `../assets/images/logoPantners/xiongmao.png`,
+          import.meta.url
+        ).href,
+        url: "https://www.hungrypanda.co/",
+      },
     ]);
 
     // Sponsor start here

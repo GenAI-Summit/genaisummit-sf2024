@@ -566,6 +566,17 @@ const speaker = [
     detail: moody2,
   },
   {
+    name: 'Dr. Yangqing Jia',
+    job: 'Founder',
+    tip: 'Lepton AI',
+    image: yangqingjia,
+    website: 'https://daggerfs.com/',
+    twitter: 'https://twitter.com/jiayq',
+    linkedin: 'https://www.linkedin.com/in/yangqing-jia/',
+
+    detail: yangqingjia2,
+  },
+  {
     name: 'Gideon Mendels',
     job: 'Co-Founder & CEO',
     tip: 'Comet ML',
@@ -740,17 +751,7 @@ const speaker = [
     linkedin: 'https://www.linkedin.com/in/ameer-haj-ali/',
     detail: ameer2,
   },
-  {
-    name: 'Dr. Yangqing Jia',
-    job: 'Founder',
-    tip: 'Lepton AI',
-    image: yangqingjia,
-    website: 'https://daggerfs.com/',
-    twitter: 'https://twitter.com/jiayq',
-    linkedin: 'https://www.linkedin.com/in/yangqing-jia/',
-
-    detail: yangqingjia2,
-  },
+ 
   {
     name: 'Emrah Gultekin',
     job: 'Chairman & Co-Founder',

@@ -229,7 +229,7 @@ const speaker = [
 
   {
     name: 'Dr. Rashmi Misra',
-    job: 'Chie AI Officer',
+    job: 'Chief AI Officer',
     tip: 'Analog Devices',
     website: '',
     twitter: 'https://twitter.com/rmisra11',

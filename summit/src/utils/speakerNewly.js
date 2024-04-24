@@ -160,7 +160,7 @@ import gideon2 from '../assets/images/speakers/popup/gideon.png';
 const speakerNewly = [
   {
     name: 'Dr. Rashmi Misra',
-    job: 'Chie AI Officer',
+    job: 'Chief AI Officer',
     tip: 'Analog Devices',
     website: '',
     twitter: 'https://twitter.com/rmisra11',

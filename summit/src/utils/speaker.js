@@ -474,6 +474,7 @@ const speaker = [
     detail: tuhin2,
   },
 
+  
   {
     name: 'Sanket Shah',
     job: 'CEO',

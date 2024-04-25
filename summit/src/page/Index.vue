@@ -242,7 +242,7 @@
           </div>
           <div class="open-btn">
             <button @click="openUrl('https://forms.gle/9pTcvfZcVEVRzmQZ8')">
-              Join Our WorkShop
+              WorkShop Application
               <img src="../assets/images/general_return.png" alt="" />
             </button>
           </div>
@@ -297,6 +297,30 @@
             >
               <img class="d" src="../assets/images/sponsors/zilliz.png" alt="" />
               <img class="a" src="../assets/images/sponsors/zilliz.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="office_content">
+          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+            
+            <!-- <div class="list" @click="openUrl('https://cloud.google.com/')">
+              <img class="d" src="../assets/images/ico_logo_g2.png" alt="" />
+              <img class="a" src="../assets/images/ico_logo_g1.png" alt="" />
+            </div> -->
+            <div
+              class="list"
+             
+            >
+              <img class="d" src="../assets/images/sponsors/playk12.png" alt="" />
+              <img class="a" src="../assets/images/sponsors/playk12.png" alt="" />
+            </div>
+            <div
+              class="list"
+            
+            >
+              <img class="d" src="../assets/images/sponsors/play.png" alt="" />
+              <img class="a" src="../assets/images/sponsors/play.png" alt="" />
             </div>
           </div>
         </div>
@@ -1438,6 +1462,11 @@ export default {
         img: new URL(`../assets/images/sponsors/conversight.png`, import.meta.url)
           .href,
         url: "https://conversight.ai/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/teqfocus.png`, import.meta.url)
+          .href,
+        url: "https://www.teqfocus.com/",
       },
       {
         img: new URL(

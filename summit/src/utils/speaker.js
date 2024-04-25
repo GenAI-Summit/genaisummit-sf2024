@@ -277,16 +277,16 @@ const speaker = [
   },
 
 
-  {
-    name: 'Karina Nguyen',
-    job: 'AI Researcher',
-    tip: 'Anthropic',
-    image: karina,
-    linkedin: '',
-    twitter: 'https://twitter.com/karinanguyen_',
-    website: 'https://karinanguyen.com/',
-    detail: karina2,
-  },
+  // {
+  //   name: 'Karina Nguyen',
+  //   job: 'AI Researcher',
+  //   tip: 'Anthropic',
+  //   image: karina,
+  //   linkedin: '',
+  //   twitter: 'https://twitter.com/karinanguyen_',
+  //   website: 'https://karinanguyen.com/',
+  //   detail: karina2,
+  // },
   {
     name: 'Dr. Denis Yarats',
     job: 'CTO & Co-Founder',

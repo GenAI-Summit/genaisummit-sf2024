@@ -73,9 +73,11 @@ import rathi from '../assets/images/speakers/rathi.jfif';
 import muddu from '../assets/images/speakers/muddu.png';
 import stewart from '../assets/images/speakers/stewart.jfif';
 import rashimi from '../assets/images/speakers/rashimi.jpg';
-
 import soumya from '../assets/images/speakers/soumya.jfif';
 import gideon from '../assets/images/speakers/gideon.jfif';
+import curtis from '../assets/images/speakers/curtis.jfif';
+import waseem from '../assets/images/speakers/waseem.jpg';
+import tuhin from '../assets/images/speakers/tuhin.jfif';
 
 
 
@@ -156,8 +158,44 @@ import rashimi2 from '../assets/images/speakers/popup/rashimi.png';
 
 import soumya2 from '../assets/images/speakers/popup/soumya.png';
 import gideon2 from '../assets/images/speakers/popup/gideon.png';
+import curtis2 from '../assets/images/speakers/popup/curtis.png';
+import waseem2 from '../assets/images/speakers/popup/waseem.png';
+import tuhin2 from '../assets/images/speakers/popup/tuhin.png';
+
 
 const speakerNewly = [
+  {
+    name: 'Waseem Alshikh',
+    job: 'Co-Founder & CTO',
+    tip: 'Writer.com',
+    image: waseem,
+    website: 'https://writer.com/',
+    linkedin: 'https://www.linkedin.com/in/waseemalshikh/',
+    twitter: 'https://twitter.com/waseem_s',
+    detail: waseem2,
+  },
+
+  {
+    name: 'Dr. Curtis Northcutt',
+    job: 'Co-Founder & CEO',
+    tip: 'Cleanlab AI',
+    image: curtis,
+    website: 'https://www.curtisnorthcutt.com/',
+    linkedin: 'https://www.linkedin.com/in/cgnorthcutt/',
+    twitter: 'https://twitter.com/cgnorthcutt',
+    detail: curtis2,
+  },
+
+  {
+    name: 'Tuhin Srivastava',
+    job: 'Co-Founder',
+    tip: 'Baseten',
+    image: tuhin,
+    website: 'https://www.baseten.co/author/tuhin-srivastava/',
+    linkedin: 'https://www.linkedin.com/in/tuhin-srivastava-60601114/',
+    twitter: 'https://twitter.com/tuhinone',
+    detail: tuhin2,
+  },
   {
     name: 'Dr. Rashmi Misra',
     job: 'Chief AI Officer',

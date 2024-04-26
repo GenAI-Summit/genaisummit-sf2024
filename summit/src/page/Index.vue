@@ -322,6 +322,34 @@
               <img class="d" src="../assets/images/sponsors/play.png" alt="" />
               <img class="a" src="../assets/images/sponsors/play.png" alt="" />
             </div>
+
+            
+          </div>
+        </div>
+
+        <div class="office_content">
+          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+            
+            <!-- <div class="list" @click="openUrl('https://cloud.google.com/')">
+              <img class="d" src="../assets/images/ico_logo_g2.png" alt="" />
+              <img class="a" src="../assets/images/ico_logo_g1.png" alt="" />
+            </div> -->
+            <div
+              class="list"
+             
+            >
+              <img class="d" src="../assets/images/sponsors/jobfair.png" alt="" />
+              <img class="a" src="../assets/images/sponsors/jobfair.png" alt="" />
+            </div>
+            <div
+              class="list"
+            
+            >
+              <img class="d" src="../assets/images/sponsors/morecome.png" alt="" />
+              <img class="a" src="../assets/images/sponsors/morecome.png" alt="" />
+            </div>
+
+            
           </div>
         </div>
 

@@ -78,6 +78,7 @@ import gideon from '../assets/images/speakers/gideon.jfif';
 import curtis from '../assets/images/speakers/curtis.jfif';
 import waseem from '../assets/images/speakers/waseem.jpg';
 import tuhin from '../assets/images/speakers/tuhin.jfif';
+import brooke from '../assets/images/speakers/brooke.jfif';
 
 
 
@@ -161,6 +162,7 @@ import gideon2 from '../assets/images/speakers/popup/gideon.png';
 import curtis2 from '../assets/images/speakers/popup/curtis.png';
 import waseem2 from '../assets/images/speakers/popup/waseem.png';
 import tuhin2 from '../assets/images/speakers/popup/tuhin.png';
+import brooke2 from '../assets/images/speakers/popup/brooke.png';
 
 
 
@@ -220,17 +222,7 @@ const speaker = [
     image: stewart,
   },
 
-  {
-    name: 'Arvind Jain',
-    job: 'Founder & CEO',
-    tip: 'Glean',
-    website: 'https://www.glean.com/',
-    twitter: 'https://twitter.com/jainarvind',
 
-    linkedin: 'https://www.linkedin.com/in/arvind-jain-5935161/',
-    detail: arvind2,
-    image: arvind,
-  },
 
 
   {
@@ -266,15 +258,16 @@ const speaker = [
     image: jimfan,
   },
   {
-    name: 'Prof. Raluca Popa',
-    job: 'Professor',
-    tip: 'UC Berkeley CS Dept.',
-    image: popa,
-    website: 'https://people.eecs.berkeley.edu/~raluca/',
-    twitter: 'https://twitter.com/ralucaadapopa',
-    linkedin: 'https://www.linkedin.com/in/ralucaadapopa/',
-    detail: popa2,
+    name: 'Dr. Sam Liang',
+    job: 'CEO & Founder',
+    tip: 'OTTER AI',
+    image: samliang,
+    linkedin: 'https://www.linkedin.com/in/samliang/',
+    twitter: 'https://twitter.com/goopt?lang=en',
+    website: '',
+    detail: samliang2,
   },
+ 
 
 
   // {
@@ -307,6 +300,28 @@ const speaker = [
     twitter: 'https://twitter.com/_jasonwei',
     linkedin: 'https://www.linkedin.com/in/jason-wei-5a7323b0/',
     detail: jasonwei2,
+  },
+
+  {
+    name: 'Brooke Jenkins J.D.',
+    job: 'District Attorney',
+    tip: 'San Francisco',
+    image: brooke,
+    website: 'https://www.sfdistrictattorney.org/about-us/',
+    twitter: 'https://twitter.com/BrookeJenkinsSF',
+    linkedin: 'https://www.linkedin.com/in/brooke-jenkins-41902114/',
+    detail: brooke2,
+  },
+  {
+    name: 'Arvind Jain',
+    job: 'Founder & CEO',
+    tip: 'Glean',
+    website: 'https://www.glean.com/',
+    twitter: 'https://twitter.com/jainarvind',
+
+    linkedin: 'https://www.linkedin.com/in/arvind-jain-5935161/',
+    detail: arvind2,
+    image: arvind,
   },
 
   {
@@ -408,15 +423,16 @@ const speaker = [
     website: '',
     detail: jain2,
   },
+ 
   {
-    name: 'Dr. Sam Liang',
-    job: 'CEO & Founder',
-    tip: 'OTTER AI',
-    image: samliang,
-    linkedin: 'https://www.linkedin.com/in/samliang/',
-    twitter: 'https://twitter.com/goopt?lang=en',
-    website: '',
-    detail: samliang2,
+    name: 'Prof. Raluca Popa',
+    job: 'Professor',
+    tip: 'UC Berkeley CS Dept.',
+    image: popa,
+    website: 'https://people.eecs.berkeley.edu/~raluca/',
+    twitter: 'https://twitter.com/ralucaadapopa',
+    linkedin: 'https://www.linkedin.com/in/ralucaadapopa/',
+    detail: popa2,
   },
   {
     name: 'Craig Walker',

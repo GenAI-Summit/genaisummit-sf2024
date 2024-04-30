@@ -124,6 +124,88 @@
            </div>
         </div>
 
+        <div>
+           <div class="swiper-box img1" :class="screenWidth > 600 ? '' : 'mb'">
+                <div class="img_content">
+                    <img src="../assets/images/groundpof.png" alt="">
+                </div>
+                <div class="price_content">
+                    <div class="title">Booth Location</div>
+                    <div class="s_title">Type A & B located in the Ground Floor</div>
+                    <div class="price">
+                        <span class="big">Blue: Type A </span><span class="bold"> </span>
+                    </div>
+                    <div class="type">
+                        <span class="big">Red: Type B </span><span class="bold"> </span>
+                    </div>
+                    <div class="list">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                  
+                       
+                    </div>
+                    <div class="page" v-if="screenWidth > 600">
+                        <div class="fk" @click="slickPrev">
+                        <img class="d" src="../assets/images/Ai_Button_left.png" alt="">
+                        <img class="a" src="../assets/images/Ai_Button_left_white.png" alt="">
+                        </div>
+                        <div class="fk long">
+                        <div class="">
+                            <span class="big">{{ swiperPageInfo.nowPage }}</span>/{{ swiperPageInfo.pages }}
+                        </div>
+                        </div>
+                        <div class="fk" @click="slickNext">
+                        <img class="d" src="../assets/images/Ai_Button_right.png" alt="">
+                        <img class="a" src="../assets/images/Ai_Button_right_white.png" alt="">
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+
+        <div>
+           <div class="swiper-box img1" :class="screenWidth > 600 ? '' : 'mb'">
+                <div class="img_content">
+                    <img src="../assets/images/secondpof.png" alt="">
+                </div>
+                <div class="price_content">
+                    <div class="title">Booth Location</div>
+                    <div class="s_title">Type C located in the Second Floor (Ground and Second Floor shares the same roof)</div>
+                  
+                    <div class="typec">
+                        <span class="big">Grean: Type C </span><span class="bold"> </span>
+                    </div>
+                    <div class="list">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                  
+                       
+                    </div>
+                    <div class="page" v-if="screenWidth > 600">
+                        <div class="fk" @click="slickPrev">
+                        <img class="d" src="../assets/images/Ai_Button_left.png" alt="">
+                        <img class="a" src="../assets/images/Ai_Button_left_white.png" alt="">
+                        </div>
+                        <div class="fk long">
+                        <div class="">
+                            <span class="big">{{ swiperPageInfo.nowPage }}</span>/{{ swiperPageInfo.pages }}
+                        </div>
+                        </div>
+                        <div class="fk" @click="slickNext">
+                        <img class="d" src="../assets/images/Ai_Button_right.png" alt="">
+                        <img class="a" src="../assets/images/Ai_Button_right_white.png" alt="">
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+
        
         
 
@@ -148,7 +230,7 @@
       });
       const pageSize = ref(1)
       const nowPage = ref(1)
-      const total = 3
+      const total = 5
       const pages = ref(Math.ceil(total/pageSize.value))
       const options = {
           autoplaySpeed: 5000,
@@ -256,6 +338,47 @@
                 font-weight: bold;
                 font-size: .45rem;
                 color: #008AFF;
+                text-align: left;
+                font-style: normal;
+                text-transform: none;
+            }
+            .blod{
+                font-family: HarmonyOS Sans SC Bold;
+                font-weight: 400;
+                font-size: .296rem;
+                color: #000000;
+                text-align: left;
+                font-style: normal;
+                text-transform: none;
+            }
+        }
+        .type{
+            margin-top: .556rem;
+            .big{
+                font-family: HarmonyOS Sans SC Bold;
+                font-weight: bold;
+                font-size: .45rem;
+                color: #c92d35;
+                text-align: left;
+                font-style: normal;
+                text-transform: none;
+            }
+            .blod{
+                font-family: HarmonyOS Sans SC Bold;
+                font-weight: 400;
+                font-size: .296rem;
+                color: #000000;
+                text-align: left;
+                font-style: normal;
+                text-transform: none;
+            }
+        }.typec{
+            margin-top: .556rem;
+            .big{
+                font-family: HarmonyOS Sans SC Bold;
+                font-weight: bold;
+                font-size: .45rem;
+                color: #2cca7b;
                 text-align: left;
                 font-style: normal;
                 text-transform: none;

@@ -1398,6 +1398,11 @@ export default {
         url: "https://akool.com/",
       },
       {
+        img: new URL(`../assets/images/sponsors/taskus.png`, import.meta.url)
+          .href,
+        url: "https://www.taskus.com/en-us/",
+      },
+      {
         img: new URL(`../assets/images/sponsors/1gen.png`, import.meta.url)
           .href,
         url: "https://1gen.ai/",

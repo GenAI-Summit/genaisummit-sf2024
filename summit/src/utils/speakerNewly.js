@@ -78,6 +78,7 @@ import gideon from '../assets/images/speakers/gideon.jfif';
 import curtis from '../assets/images/speakers/curtis.jfif';
 import waseem from '../assets/images/speakers/waseem.jpg';
 import tuhin from '../assets/images/speakers/tuhin.jfif';
+import brooke from '../assets/images/speakers/brooke.jfif';
 
 
 
@@ -161,9 +162,21 @@ import gideon2 from '../assets/images/speakers/popup/gideon.png';
 import curtis2 from '../assets/images/speakers/popup/curtis.png';
 import waseem2 from '../assets/images/speakers/popup/waseem.png';
 import tuhin2 from '../assets/images/speakers/popup/tuhin.png';
+import brooke2 from '../assets/images/speakers/popup/brooke.png';
 
 
 const speakerNewly = [
+  
+  {
+    name: 'Brooke Jenkins J.D.',
+    job: 'District Attorney',
+    tip: 'San Francisco',
+    image: brooke,
+    website: 'https://www.sfdistrictattorney.org/about-us/',
+    twitter: 'https://twitter.com/BrookeJenkinsSF',
+    linkedin: 'https://www.linkedin.com/in/brooke-jenkins-41902114/',
+    detail: brooke2,
+  },
   {
     name: 'Waseem Alshikh',
     job: 'Co-Founder & CTO',

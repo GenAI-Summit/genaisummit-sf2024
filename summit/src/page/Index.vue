@@ -1170,7 +1170,7 @@ export default {
       {
         title: "Main Stage",
         content:
-          "1.	Keynote: Advancements in AI Models: GPT-4 and Beyond <br/><br/>2.	Keynote: AI in Environmental Sustainability <br/><br/>3.	Keynote: Transforming Customer Experience with AI <br/><br/>4.	Panel Discussion: AI in Financial Services: Revolutionizing Banking and Insurance<br/><br/>5.	Panel Discussion: AI in Retail: Personalization and Efficiency<br/><br/>6.	Panel Discussion: The Intersection of AI and Cybersecurity<br/><br/>7.	Panel Discussion: AI and the Future of Transportation",
+          "1.	Keynote: Advancements in AI Models: GPT-4 and Beyond<br/><br/>2.	Keynote: AI in Environmental Sustainability <br/><br/>3.	Keynote: Transforming Customer Experience with AI <br/><br/>4.	Panel Discussion: AI in Financial Services: Revolutionizing Banking and Insurance<br/><br/>5.	Panel Discussion: AI in Retail: Personalization and Efficiency<br/><br/>6.	Panel Discussion: The Intersection of AI and Cybersecurity<br/><br/>7.	Panel Discussion: AI and the Future of Transportation",
       },
       {
         title: "Theater",
@@ -1443,7 +1443,11 @@ export default {
           .href,
         url: "https://www.magstonelaw.com/",
       },
-
+      {
+        img: new URL(`../assets/images/sponsors/boothai.png`, import.meta.url)
+          .href,
+        url: "https://www.booth.ai/",
+      },
       {
         img: new URL(`../assets/images/sponsors/gptworks.png`, import.meta.url)
           .href,

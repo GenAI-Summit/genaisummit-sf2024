@@ -106,7 +106,7 @@ export default {
       {
         title: "Main Stage",
         content:
-          "1.	Keynote 09:00 - 10:00: The Future of Foundation Models <br/><br/>2.	Keynote 10:00-11:00: Enterprise AI Search & Knowledge Discovery <br/><br/>3.	Keynote 11:00-12:00: What’s Next Big Moment in Generative AI? <br/><br/>4.	Panel Discussion 13:00-14:00: AI and the Future of Human Work: What Lies Ahead? <br/><br/>5.	Panel Discussion 14:00-15:00: Augmented Marketing with Generative AI <br/><br/>6.	Panel Discussion 15:00 - 16:00: Fireside Chat: Exploring the Frontiers of Generative AI with M12’s Managing Partner <br/><br/>7.	Panel Discussion 16:00 - 17:00: Video Generation Models: from Research to Production",
+          "1.	Keynote 09:00 - 10:00: The Future of Foundation Models<br/><br/>2.	Keynote 10:00-11:00: Enterprise AI Search & Knowledge Discovery <br/><br/>3.	Keynote 11:00-12:00: What’s Next Big Moment in Generative AI? <br/><br/>4.	Panel Discussion 13:00-14:00: AI and the Future of Human Work: What Lies Ahead? <br/><br/>5.	Panel Discussion 14:00-15:00: Augmented Marketing with Generative AI <br/><br/>6.	Panel Discussion 15:00 - 16:00: Fireside Chat: Exploring the Frontiers of Generative AI with M12’s Managing Partner <br/><br/>7.	Panel Discussion 16:00 - 17:00: Video Generation Models: from Research to Production",
       },
       {
         title: "Theater",

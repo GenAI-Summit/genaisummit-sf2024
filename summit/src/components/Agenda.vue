@@ -106,13 +106,13 @@ export default {
       {
         title: "Main Stage",
         content:
-          "1.	Keynote 09:00 - 10:00: The Future of Foundation Models<br/><br/>2.	Keynote 10:00-11:00: Enterprise AI Search & Knowledge Discovery <br/><br/>3.	Keynote 11:00-12:00: What’s Next Big Moment in Generative AI? <br/><br/>4.	Panel Discussion 13:00-14:00: AI and the Future of Human Work: What Lies Ahead? <br/><br/>5.	Panel Discussion 14:00-15:00: Augmented Marketing with Generative AI <br/><br/>6.	Panel Discussion 15:00 - 16:00: Fireside Chat: Exploring the Frontiers of Generative AI with M12’s Managing Partner <br/><br/>7.	Panel Discussion 16:00 - 17:00: Video Generation Models: from Research to Production",
+        "1. Keynote 09:00 - 10:00: The Future of Foundation Models<br/><br/>2.  Keynote 10:00-11:00: What’s Next Big Moment in Generative AI? <br/><br/>3.  Keynote 11:00-12:00: Enterprise AI Search & Knowledge Discovery <br/><br/>4.  Panel Discussion 13:00-13:45: Key Challenges for Providing GenAI Services On Scalable Cloud Infrastructure <br/><br/>5.  Keynote 13:45-14:30: Vector Database built for enterprise-grade AI applications <br/><br/>6. Fireside Chat 14:30-15:15: GenAI Venture Investment Landscape 2.0 <br/><br/>7.  Panel Discussion 15:15-16:00: Robotics and GenAI <br/><br/>8.  Panel Discussion 16:00-16:45: AI and the Future of Work: What Lies Ahead?", 
+
       },
       {
         title: "Theater",
-        content:
-          "1.	Keynote 09:00-10:00: Beyond Search: How AI Automation Unlocks All Human Knowledge <br/><br/>2.	Keynote 10:00-11:00: The Promise of AI as Holistic Transformation <br/><br/>3.	Keynote 11:00-12:00: Lightning Speed AI Inference to understand profoundly and intuitively <br/><br/>4.	Panel Discussion 13:00-14:00: Transforming Fortune 500 Branding using GenAI <br/><br/>5.	Panel Discussion 14:00-15:00: Content frameworks: generatation, intellectual properties, collaboration <br/><br/>6.	Panel Discussion 15:00-16:00: A Deep Dive into the State-of-the-Art LLMs <br/><br/>7.	Panel Discussion 16:00-17:00: How AI Is Reshaping Medicine and Healthcare <br/>",
-      },
+        content:"1. Keynote 09:00-09:45: Advancements in Embodied AI: Key Technologies, Applications, and Future Trends <br/><br/>2.  Keynote 09:45-10:30: How Far is Grok towards the Understanding of the Universe <br/><br/>3.  Keynote 10:30-11:15: Optimizing Enterprise Systems through Integration of LLM <br/><br/>4. Keynote 11:15-12:00: From Sci-Fi Dreams to Sustainable Solutions: GenAI for a Better World<br/><br/>5.  Panel Discussion 13:00-13:45: A Deep Dive into the State-of-the-Art LLMs <br/><br/>6. Panel Discussion 13:45-14:30: Conversational AI in Sales and Marketing <br/><br/>7. Panel Discussion 14:30-15:15: How AI Is Reshaping Medicine and Healthcare <br/><br/>8. Panel Discussion 15:15-16:00: A New Renaissance in Art & Design <br/><br/>9. Panel Discussion 16:00-16:45: The Impact of AI on Privacy and Data Security ",
+ },
       {
         title: "Break Out Rooms: Exploration and Learning",
         content:
@@ -124,14 +124,12 @@ export default {
       
       {
         title: "Main Stage",
-        content:
-          "1.	Keynote 09:00-10:00: Design Speech AI Note Taker & Real-time AI Transcription for 10M Users <br/><br/>2.	Keynote 10:00-11:00: Unlocks the Power of Knowledge with information discovery and sharing <br/><br/>3.	Keynote 11:00-12:00: Reducing Societal-scale Risks from AI <br/><br/>4.	Panel Discussion 13:00-14:00: Beyond Boundary: Synthesizing data by and for Generative AI<br/><br/>5.	Panel Discussion 14:00-15:00: Low/No Code AI Deployment Technologies and Platforms<br/><br/>6.	Panel Discussion 15:00-16:00: Multimodal Generative AI Applications<br/><br/>7.	Panel Discussion 16:00-17:00: No/Low-Code AI Application Builders",
-      },
+        content:"1. Keynote 09:00-09:45: The Role of Generative AI in Advancing Industrial Automation and Smart Manufacturing <br/><br/>2.  Keynote 09:45-10:30: Unlocks the Power of Knowledge with information discovery and sharing <br/><br/>3. Keynote 10:30-11:15: Challenges and Opportunities in AI Education and Training <br/><br/>4. Keynote 11:15-12:00: AI in Healthcare: Innovations and Ethical Concerns<br/><br/>5. Panel Discussion 13:00-13:45: Harnessing the Power of LLM for Super Agents: Capabilities, Challenges, and Future Prospects <br/><br/>6.  Panel Discussion 13:45-14:30: LLM Alignment<br/><br/>7. Panel Discussion 14:30-15:15: VC in the Future <br/><br/>8. Panel Discussion 15:15-16:00: How does LLM Helps to Preserve Minority Culture<br/><br/>9. Keynote 16:00-16:45: What Makes SF and CA the Capital of AI in the World",
+ },
       {
         title: "Theater",
-        content:
-          "1.	Keynote 09:00-10:00: Data privacy and Security in GenAI <br/><br/>2.	Keynote 10:00-11:00: How Far is Grok towards the Understanding of the Universe <br/><br/>3.	Keynote 11:00-12:00: Superalignment: Scientific and Technical Breakthroughs to steer and control AI systems much smarter than us <br/><br/>4.	Panel Discussion 13:00-14:00: Building AI Agents that Scale <br/><br/>5.	Panel Discussion 14:00-15:00: GenAI Venture Investment Landscape 2.0<br/><br/>6.	Panel Discussion 15:00-16:00: AI's Role in Content Creation and Media <br/><br/>7.	Panel Discussion 16:00-17:00: A Quantitative Analysis of Catastrophic AI Risks<br/>",
-      },
+        content:"1. Keynote 09:00-09:45: Will be provided by Speaker soon <br/><br/>2.  Keynote 09:45-10:30: Lightning Speed AI Inference to understand profoundly and intuitively <br/><br/>3.  Keynote 10:30-11:15: AI for Work: How GenAI Improves the Way We Work and Collaborate <br/><br/>4. Keynote 11:15-12:00: Demystifying AI: Understanding the Basics <br/><br/>5.  Panel Discussion 13:00-13:45: AI for Good: Social and Humanitarian Applications <br/><br/>6. Panel Discussion 13:45-14:30: Pioneering Women in Generative AI <br/><br/>7. Panel Discussion 14:30-15:15: The World of Customer Support with AI Agents <br/><br/>8. Panel Discussion 15:15-16:00: LLM Safety and Security <br/><br/>9. Panel Discussion 16:00-16:45: Integrating AI in Traditional Business Models ",
+ },
       {
         title: "Break Out Rooms: Deep Dives and Networking",
         content:
@@ -143,14 +141,13 @@ export default {
       
       {
         title: "Main Stage",
-        content:
-          "1.	Keynote 09:00-10:00: Vector Database built for enterprise-grade AI applications <br/><br/>2.	Keynote 10:00-11:00: How to Quickly and Reliably Build, Develop, Prototype, and Test New AI Solutions <br/><br/>3.	Keynote 11:00-12:00: Ethical AI: Creating a Framework for Responsible AI<br/><br/>4.	Panel Discussion 13:00-14:00: Will VectorDB Disappear with Longer Context Window?<br/><br/>5.	Panel Discussion 14:00-15:00: Experiment Tracking and Prompt Engineering Practices<br/><br/>6.	Panel Discussion 15:00-16:00: Building a Responsible AGI: AI development for the Non-profit<br/><br/>7.	Panel Discussion 16:00-17:00: Governance and Compliance Risk: A UN Perspective",
-      },
+        content:"1. Keynote 09:00-09:45: Transforming Customer Service with Generative AI <br/><br/>2.  Keynote 09:45-10:30: What Does AI Mean for Cloud Infrastructure <br/><br/>3.  Keynote 10:30-11:15: Transform Enterprise Work With Full-stack Generative AI <br/><br/>4.  Keynote 11:15-12:00: The Impact of AI on Privacy and Data Security <br/><br/>5. Panel Discussion 13:00-13:45: VectorDB 2.0 with Longer Context Window <br/><br/>6.  Panel Discussion 13:45-14:30: Experiment Tracking and Prompt Engineering Practices <br/><br/>7. Panel Discussion 14:30-15:15: Building a Responsible AGI: Ethics of AI in Decision-Making <br/><br/>8. Panel Discussion 15:15-16:00: Video Generation Models: from Research to Production <br/><br/>9. Panel Discussion 16:00-16:45: AI in Environmental Sustainability",
+},
       {
         title: "Theater",
         content:
-          "1.	Keynote 09:00-10:00: Unlock Efficiency with the Generative AI Automation Platform<br/><br/>2.	Keynote 10:00-11:00: The Impact of AI on Traditional Media<br/><br/>3.	Keynote 11:00-12:00: Codesign of AI software and hardware<br/><br/>4.	Panel Discussion 13:00-14:00: Accelerating AI in Hardware <br/><br/>5.	Panel Discussion 14:00-15:00: AI and the Future of E-commerce<br/><br/>6.	Panel Discussion 15:00-16:00: AI and Intellectual Property: Navigating the New Landscape<br/><br/>7.	Panel Discussion 16:00-17:00: Bridging the AI Talent Gap: Education and Workforce Development<br/>",
-      },
+"1. Keynote 09:00-09:45: Will be provided by Speaker soon <br/><br/>2.  Keynote 09:45-10:30: Will be provided by Speaker soon <br/><br/>3.  Keynote 10:30-11:15: AI in Manufacturing: Automation and Efficiency <br/><br/>4. Keynote 11:15-12:00: AI in Education: Enhancing Learning Experiences <br/><br/>5.  Panel Discussion 13:00-13:45: AI and the Future of Human Work <br/><br/>6. Panel Discussion 13:45-14:30: Synthesizing Data Generation <br/><br/>7. Panel Discussion 14:30-15:15: AI and Intellectual Property: Navigating the New Landscape <br/><br/>8. Panel Discussion 15:15-16:00: Building the Future Classroom <br/><br/>9. Panel Discussion 16:00-16:45: Cross-Industry Collaboration in AI Development ",
+},
       {
         title: "Break Out Rooms: Integration and Future Trends",
         content:

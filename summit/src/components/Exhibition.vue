@@ -8,17 +8,18 @@
                 </div>
                 <div class="price_content">
                     <div class="title">Booth Type A</div>
-                    <div class="s_title">10ft x 10 ft (3m x 3m)</div>
+                    <div class="s_title">10 x 10 ft (3m x 3m) Space Turnkey Solution </div>
                     <div class="price">
                         <span class="big">USD 9,999</span><span class="bold"> (Early Bird)</span>
                     </div>
                     <div class="list">
-                        10 x 10 ft Space Turnkey Solution <br>
-                        1x Round Table<br>
-                        3x Bar Stool Chairs<br>
-                        6x Back Walls Available for Posters or Designs(3.28ft x 7.87ft or 1m x 2.4m)<br>
+                      
+                        1x Round Table & 3x Bar Stool Chairs<br>
+                        6x Back Walls Available for Posters or Designs (Each 3.28ft x 7.87ft or 1m x 2.4m)<br>
                         Customer Curved Counter with Doors for Storage<br>
-                        5x Event Tickets<br>
+                        8x Event Tickets (Include: 1x VIP, 2x AA, 5x GA)<br>
+                        Choose two from the three below: <br>
+                        Panel Speaker (50mins), Workshop (60mins), Solo Pitch (15mins)
                     </div>
                     <div class="page" v-if="screenWidth > 600">
                         <div class="fk" @click="slickPrev">
@@ -46,17 +47,19 @@
                 </div>
                 <div class="price_content">
                     <div class="title">Booth Type B</div>
-                    <div class="s_title">6.5ft x 6.5 ft (2m x 2m)</div>
+                    <div class="s_title">6.5 x 6.5 ft (2m x 2m) Space Turnkey Solution </div>
                     <div class="price">
                         <span class="big">USD 6,999</span><span class="bold"> (Early Bird)</span>
                     </div>
                     <div class="list">
-                        6.5 x 6.5 ft Space Turnkey Solution <br>
-                        1x Round Table<br>
-                        3x Bar Stool Chairs<br>
-                        4x Back Walls Available for Posters or Designs (3.28ft x 7.87ft or 1m x 2.4m)<br>
+                        
+                        1x Round Table & 3x Bar Stool Chairs<br>
+                        
+                        4x Back Walls Available for Posters or Designs (Each 3.28ft x 7.87ft or 1m x 2.4m)<br>
                         Customer Curved Counter with Doors for Storage<br>
-                        4x Event Tickets<br>
+                        6 x Event Tickets (Include: 1x VIP, 1x AA, 4x GA)<br>
+                        Choose two from the three below: <br>
+                        Panel Speaker (50mins), Workshop (60mins), Solo Pitch (15mins)
                     </div>
                     <div class="page" v-if="screenWidth > 600">
                         <div class="fk" @click="slickPrev">
@@ -165,7 +168,7 @@
            </div>
         </div>
 
-        <div>
+        <!-- <div>
            <div class="swiper-box img1" :class="screenWidth > 600 ? '' : 'mb'">
                 <div class="img_content">
                     <img src="../assets/images/secondpof.png" alt="">
@@ -204,7 +207,7 @@
                     </div>
                 </div>
            </div>
-        </div>
+        </div> -->
 
        
         
@@ -230,7 +233,7 @@
       });
       const pageSize = ref(1)
       const nowPage = ref(1)
-      const total = 5
+      const total = 4
       const pages = ref(Math.ceil(total/pageSize.value))
       const options = {
           autoplaySpeed: 5000,

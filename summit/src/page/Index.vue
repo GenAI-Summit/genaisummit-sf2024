@@ -1530,6 +1530,21 @@ export default {
         url: "https://livex.ai/",
       },
       {
+        img: new URL(`../assets/images/sponsors/deepcheck.png`, import.meta.url)
+          .href,
+        url: "https://www.deepchecks.com",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/deepabacus.png`, import.meta.url)
+          .href,
+        url: "https://www.deepabacus.com/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/sider.png`, import.meta.url)
+          .href,
+        url: "https://sider.ai/en/",
+      },
+      {
         img: new URL(`../assets/images/sponsors/realloop.png`, import.meta.url)
           .href,
         url: "http://www.realloop.com/",

@@ -2509,7 +2509,7 @@ section {
     flex-wrap: wrap;
 
     .list {
-      width: 22%;
+      width: 10%;
       margin-left: 2%;
       margin-top: 2%;
     }

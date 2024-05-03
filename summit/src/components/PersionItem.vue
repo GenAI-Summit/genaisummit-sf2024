@@ -83,7 +83,7 @@ export default {
         img{
             width: .63rem;
             cursor: pointer;
-            margin-bottom: .2rem;
+            margin-bottom: .1rem;
         }
     }
     .per{
@@ -101,34 +101,34 @@ export default {
         bottom: -.7rem;
         left: 0;
         width: 100%;
-        padding-top: .2rem;
+        padding-top: .1rem;
         
         .name{
             font-family: HarmonyOS Sans SC Bold;
             font-weight: bold;
-            font-size: .37rem;
+            font-size: .25rem;
             color: #1D2A42;
-            line-height: .5rem;
+            line-height: .3rem;
             font-style: normal;
             text-transform: none;
         }
         .job{
             font-family: HarmonyOS Sans SC Regular;
             font-weight: 400;
-            font-size: .296rem;
+            font-size: .188rem;
             color: #78808F;
-            line-height: .5rem;
+            line-height: .4rem;
             text-align: center;
             font-style: normal;
         }
         .Introduction{
-            width: 90%;
+            width: 80%;
             height: .7rem;
             background: #008AFF;
             border-radius: 0px 0px 0px 0px;
             font-family: HarmonyOS Sans SC Regular;
             font-weight: 400;
-            font-size: .259rem;
+            font-size: .2rem;
             color: #FFFFFF;
             font-style: normal;
             border: none;

@@ -80,6 +80,8 @@ import waseem from '../assets/images/speakers/waseem.jpg';
 import tuhin from '../assets/images/speakers/tuhin.jfif';
 import brooke from '../assets/images/speakers/brooke.jfif';
 import huang from '../assets/images/speakers/huang.jfif';
+import jon from '../assets/images/speakers/jon.png';
+
 
 
 
@@ -163,9 +165,21 @@ import waseem2 from '../assets/images/speakers/popup/waseem.png';
 import tuhin2 from '../assets/images/speakers/popup/tuhin.png';
 import brooke2 from '../assets/images/speakers/popup/brooke.png';
 import huang2 from '../assets/images/speakers/popup/huang.png';
+import jon2 from '../assets/images/speakers/popup/jon.png';
 
 
 const speakerNewly = [
+      
+  {
+    name: 'Jon Shalowitz',
+    job: 'Managing Director',
+    tip: 'Woodside Capital Partners',
+    image: jon,
+    linkedin: 'https://www.linkedin.com/in/jshalowitz/',
+    twitter: '',
+    website: 'https://woodsidecap.com/team/jon-shalowitz/',
+    detail: jon2,
+  },
   {
     name: 'Dr. Irene Huang',
     job: 'Senior Director',

@@ -79,6 +79,7 @@ import curtis from '../assets/images/speakers/curtis.jfif';
 import waseem from '../assets/images/speakers/waseem.jpg';
 import tuhin from '../assets/images/speakers/tuhin.jfif';
 import brooke from '../assets/images/speakers/brooke.jfif';
+import huang from '../assets/images/speakers/huang.jfif';
 
 
 
@@ -156,13 +157,13 @@ import rathi2 from '../assets/images/speakers/popup/rathi.png';
 import muddu2 from '../assets/images/speakers/popup/muddu.png';
 import stewart2 from '../assets/images/speakers/popup/stewart.png';
 import rashimi2 from '../assets/images/speakers/popup/rashimi.png';
-
 import soumya2 from '../assets/images/speakers/popup/soumya.png';
 import gideon2 from '../assets/images/speakers/popup/gideon.png';
 import curtis2 from '../assets/images/speakers/popup/curtis.png';
 import waseem2 from '../assets/images/speakers/popup/waseem.png';
 import tuhin2 from '../assets/images/speakers/popup/tuhin.png';
 import brooke2 from '../assets/images/speakers/popup/brooke.png';
+import huang2 from '../assets/images/speakers/popup/huang.png';
 
 
 
@@ -511,6 +512,16 @@ const speaker = [
     linkedin: 'https://www.linkedin.com/in/cgnorthcutt/',
     twitter: 'https://twitter.com/cgnorthcutt',
     detail: curtis2,
+  },
+  {
+    name: 'Dr. Irene Huang',
+    job: 'Senior Director',
+    tip: ' TaskUs',
+    image: huang,
+    website: 'https://www.taskus.com/en-us/',
+    linkedin: 'https://www.linkedin.com/in/irenehuangphd/',
+    twitter: '',
+    detail: huang2,
   },
 
   {

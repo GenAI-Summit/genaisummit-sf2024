@@ -101,7 +101,7 @@ export default {
         bottom: -.7rem;
         left: 0;
         width: 100%;
-        padding-top: .1rem;
+        padding-top: .08rem;
         
         .name{
             font-family: HarmonyOS Sans SC Bold;
@@ -123,7 +123,7 @@ export default {
         }
         .Introduction{
             width: 80%;
-            height: .7rem;
+            height: .67rem;
             background: #008AFF;
             border-radius: 0px 0px 0px 0px;
             font-family: HarmonyOS Sans SC Regular;

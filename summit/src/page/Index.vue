@@ -152,7 +152,7 @@
         <div class="ss-title" data-aos="flip-up">
           LISTEN TO THE EVENT SPEAKERS
         </div>
-        <div class="speak-content" :style="heightStyle">
+        <div class="speak-content">
           <div
             class="speaker-list"
             ref="speakerList"
@@ -169,6 +169,7 @@
           </div>
         </div>
 
+        <!-- no more button
         <div class="moreDiv" v-if="showAll < 2" @click="moreHanle">
           More
           <img class="a" src="../assets/images/general_return_xia.png" alt="" />
@@ -187,6 +188,7 @@
             alt=""
           />
         </div>
+        -->
 
         <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
           <div
@@ -1133,7 +1135,6 @@ export default {
         timeObj.value = calculateTimeRemaining();
       }, 1000);
 
-      console.log();
       return () => clearInterval(intervalId);
     });
     onBeforeUnmount(() => {

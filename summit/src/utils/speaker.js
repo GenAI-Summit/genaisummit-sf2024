@@ -344,7 +344,7 @@ const speaker = [
   {
     name: 'JACK J. MCCAULEY',
     job: 'Co-Founder',
-    tip: 'ocULUS',
+    tip: 'Oculus',
     image: mccauley,
     linkedin: 'https://www.linkedin.com/in/jack-j-mccauley-9237bb5/',
     twitter: 'https://twitter.com/jackmccauley1',

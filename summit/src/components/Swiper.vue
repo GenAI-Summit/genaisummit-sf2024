@@ -1,7 +1,7 @@
 <template>
   <div ref="slick" class="slick-carousel">
     <template v-for="(list,index) in spearkSList" :key="index">
-        <PersionItem :item="list"/>
+        <PersionItem2 :item="list"/>
     </template>
   </div>
 </template>
@@ -10,7 +10,7 @@
 import { ref, computed, watch,onMounted } from 'vue';
 import { useStore} from 'vuex'
 import $ from 'jquery'; // 引入 jQuery
-import PersionItem from './PersionItem.vue'
+import PersionItem2 from './PersionItem2.vue'
 import speakersNewly from '../utils/speakerNewly'
 import EventBus from "../utils/EventBus.js";
 
@@ -70,7 +70,7 @@ export default {
     } 
   },
   components: {
-    PersionItem
+    PersionItem2
   },
   methods: {
     

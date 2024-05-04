@@ -81,6 +81,7 @@ import tuhin from '../assets/images/speakers/tuhin.jfif';
 import brooke from '../assets/images/speakers/brooke.jfif';
 import huang from '../assets/images/speakers/huang.jfif';
 import jon from '../assets/images/speakers/jon.png';
+import mccauley from '../assets/images/speakers/Mccauley.jpg';
 
 
 
@@ -166,6 +167,7 @@ import tuhin2 from '../assets/images/speakers/popup/tuhin.png';
 import brooke2 from '../assets/images/speakers/popup/brooke.png';
 import huang2 from '../assets/images/speakers/popup/huang.png';
 import jon2 from '../assets/images/speakers/popup/jon.png';
+import mccauley2  from '../assets/images/speakers/popup/Mccauley2.png';
 
 
 
@@ -338,7 +340,28 @@ const speaker = [
     linkedin: 'https://www.linkedin.com/in/lijiali/',
     detail: lijia2,
   },
+
+  {
+    name: 'JACK J. MCCAULEY',
+    job: 'Co-Founder',
+    tip: 'ocULUS',
+    image: mccauley,
+    linkedin: 'https://www.linkedin.com/in/jack-j-mccauley-9237bb5/',
+    twitter: 'https://twitter.com/jackmccauley1',
+    website: '',
+    detail: mccauley2,
+  },
   
+  {
+    name: 'Jon Shalowitz',
+    job: 'Managing Director',
+    tip: 'Woodside Capital Partners',
+    image: jon,
+    linkedin: 'https://www.linkedin.com/in/jshalowitz/',
+    twitter: '',
+    website: 'https://woodsidecap.com/team/jon-shalowitz/',
+    detail: jon2,
+  },
 
   
   {
@@ -352,16 +375,6 @@ const speaker = [
     detail: philip2,
   },
     
-  {
-    name: 'Jon Shalowitz',
-    job: 'Managing Director',
-    tip: 'Woodside Capital Partners',
-    image: jon,
-    linkedin: 'https://www.linkedin.com/in/jshalowitz/',
-    twitter: '',
-    website: 'https://woodsidecap.com/team/jon-shalowitz/',
-    detail: jon2,
-  },
 
   {
     name: 'Sri Satish Ambati',

@@ -169,7 +169,7 @@
           </div>
         </div>
 
-        <div class="moreDiv" v-if="showAll < 3" @click="moreHanle">
+        <div class="moreDiv" v-if="showAll < 2" @click="moreHanle">
           More
           <img class="a" src="../assets/images/general_return_xia.png" alt="" />
           <img
@@ -178,7 +178,7 @@
             alt=""
           />
         </div>
-        <div class="moreDiv" v-if="showAll == 3" @click="closeHanle">
+        <div class="moreDiv" v-if="showAll == 2" @click="closeHanle">
           Hide
           <img class="a" src="../assets/images/general_return_up.png" alt="" />
           <img
@@ -1069,13 +1069,11 @@ export default {
       showAll.value = showAll.value + 1;
       console.log(showAll.value);
       if (showAll.value == 2) {
-        heightStyle.value.height = speakerList.value.offsetHeight / 2 + "px";
-      } else if (showAll.value == 3) {
         heightStyle.value.height = speakerList.value.offsetHeight + "px";
       }
     };
     const closeHanle = () => {
-      showAll.value = 0;
+      showAll.value = 1;
       heightStyle.value.height = "16rem";
     };
 

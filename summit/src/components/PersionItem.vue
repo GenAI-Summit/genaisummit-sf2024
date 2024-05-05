@@ -58,7 +58,7 @@ export default {
 <style scoped lang='scss'>
 
 .speaker{
-    padding: .3rem .3rem 0 .3rem;
+    padding: .1rem .1rem 0 .1rem;
     background: #FFFFFF;
     cursor: pointer;
     position: relative;
@@ -117,7 +117,7 @@ export default {
             font-weight: 400;
             font-size: .188rem;
             color: #78808F;
-            line-height: .4rem;
+            line-height: .38rem;
             text-align: center;
             font-style: normal;
         }

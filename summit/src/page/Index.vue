@@ -2515,7 +2515,7 @@ section {
     }
     &.mb {
       .list {
-        width: 48%;
+        width: 23%;
       }
     }
   }

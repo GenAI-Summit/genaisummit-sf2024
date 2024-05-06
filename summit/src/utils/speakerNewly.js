@@ -201,6 +201,7 @@ const speakerNewly = [
     linkedin: 'https://www.linkedin.com/in/brooke-jenkins-41902114/',
     detail: brooke2,
   },
+  /*
   {
     name: 'Waseem Alshikh',
     job: 'Co-Founder & CTO',
@@ -211,6 +212,7 @@ const speakerNewly = [
     twitter: 'https://twitter.com/waseem_s',
     detail: waseem2,
   },
+  */
 
   {
     name: 'Dr. Curtis Northcutt',
@@ -286,6 +288,7 @@ const speakerNewly = [
 
     detail: muddu2,
   },
+  /*
   {
     name: 'Rathi Murthy',
     job: 'CTO/ President Expedia Services',
@@ -296,6 +299,7 @@ const speakerNewly = [
     linkedin: 'https://www.linkedin.com/in/rathi-murthy/',
     detail: rathi2,
   },
+  */
   {
     name: 'Philip Rathle',
     job: 'CTO',
@@ -531,7 +535,7 @@ const speakerNewly = [
 
     website: '',
     twitter: 'https://twitter.com/JonathanRoss321',
-    link: 'https://www.linkedin.com/in/ross-jonathan/',
+    linkedin: 'https://www.linkedin.com/in/ross-jonathan/',
     detail: ross2,
     image: ross,
   },

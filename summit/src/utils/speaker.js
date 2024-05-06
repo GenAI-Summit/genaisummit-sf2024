@@ -82,6 +82,7 @@ import brooke from '../assets/images/speakers/brooke.jfif';
 import huang from '../assets/images/speakers/huang.jfif';
 import jon from '../assets/images/speakers/jon.png';
 import mccauley from '../assets/images/speakers/Mccauley.jpg';
+import rodrigoliang from '../assets/images/speakers/rodrigoliang.jpeg';
 
 
 
@@ -168,6 +169,7 @@ import brooke2 from '../assets/images/speakers/popup/brooke.png';
 import huang2 from '../assets/images/speakers/popup/huang.png';
 import jon2 from '../assets/images/speakers/popup/jon.png';
 import mccauley2  from '../assets/images/speakers/popup/Mccauley2.png';
+import rodrigoliang2 from '../assets/images/speakers/popup/rodrigoliang2.png';
 
 
 
@@ -195,15 +197,14 @@ const speaker = [
 
 
   {
-    name: 'Jonathan Ross',
-    job: 'Founder & CEO',
-    tip: 'Groq',
-
+    name: 'Rodrigo Liang',
+    job: 'Co-Founder & CEO',
+    tip: 'SambaNova Systems',
+    image: rodrigoliang,
+    twitter: 'https://twitter.com/RodrigoLiang',
+    linkedin: 'https://www.linkedin.com/in/rodrigo-liang/',
     website: '',
-    twitter: 'https://twitter.com/JonathanRoss321',
-    link: 'https://www.linkedin.com/in/ross-jonathan/',
-    detail: ross2,
-    image: ross,
+    detail: rodrigoliang2,
   },
   {
     name: 'Dr. Sam Liang',
@@ -261,6 +262,16 @@ const speaker = [
     linkedin: 'https://www.linkedin.com/in/deon-nicholas/',
     website: '',
     detail: deon2,
+  },
+  {
+    name: 'Jonathan Ross',
+    job: 'Founder & CEO',
+    tip: 'Groq',
+    website: '',
+    twitter: 'https://twitter.com/JonathanRoss321',
+    linkedin: 'https://www.linkedin.com/in/ross-jonathan/',
+    detail: ross2,
+    image: ross,
   },
   {
     name: 'Dr. Jim Fan',
@@ -387,6 +398,7 @@ const speaker = [
     detail: ambati2,
   },
 
+  /*
   {
     name: 'Rathi Murthy',
     job: 'CTO/ President Expedia Services',
@@ -397,6 +409,7 @@ const speaker = [
     linkedin: 'https://www.linkedin.com/in/rathi-murthy/',
     detail: rathi2,
   },
+  */
   
 
   {
@@ -496,6 +509,7 @@ const speaker = [
     twitter: 'https://twitter.com/halfabrane',
     detail: sriharsha2,
   },
+  /*
   {
     name: 'Waseem Alshikh',
     job: 'Co-Founder & CTO',
@@ -506,6 +520,7 @@ const speaker = [
     twitter: 'https://twitter.com/waseem_s',
     detail: waseem2,
   },
+  */
 
   {
     name: 'Tuhin Srivastava',

@@ -887,9 +887,11 @@
             >
               <img :src="item.img" alt="" />
             </div>
+            <!--
             <div class="pantnersItem" :class="screenWidth > 600 ? '' : 'mb f1'">
               More
             </div>
+            -->
           </div>
         </div>
       </div>

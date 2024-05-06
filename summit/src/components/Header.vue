@@ -342,6 +342,7 @@ export default {
           display: flex;
           align-items: center;
           justify-content: center;
+          font-family: 'HarmonyOS Sans SC Bold',serif;
           border-radius: 100px;
           img {
             margin-right: 0.15rem;

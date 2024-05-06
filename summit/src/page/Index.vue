@@ -312,10 +312,11 @@
             </div> -->
             <div
               class="list"
-             
+              @click="openUrl('https://otter.ai/')"
             >
-              <img class="d" src="../assets/images/sponsors/playk12.png" alt="" />
-              <img class="a" src="../assets/images/sponsors/playk12.png" alt="" />
+              <img class="d" src="../assets/images/sponsors/otter.png" alt="" />
+              <img class="a" src="../assets/images/sponsors/otter.png" alt="" />
+              
             </div>
             <div
               class="list"
@@ -345,10 +346,11 @@
             </div>
             <div
               class="list"
+              
             
             >
-              <img class="d" src="../assets/images/sponsors/morecome.png" alt="" />
-              <img class="a" src="../assets/images/sponsors/morecome.png" alt="" />
+            <img class="d" src="../assets/images/sponsors/playk12.png" alt="" />
+              <img class="a" src="../assets/images/sponsors/playk12.png" alt="" />
             </div>
 
             
@@ -1500,6 +1502,41 @@ export default {
           .href,
         url: "https://conversight.ai/",
       },
+      {
+        img: new URL(`../assets/images/sponsors/enviate.png`, import.meta.url)
+          .href,
+        url: "https://enviate.ai/home",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/onesourcecloud.png`, import.meta.url)
+          .href,
+        url: "https://www.onesourcecloud.net/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/ayraa.png`, import.meta.url)
+          .href,
+        url: "https://www.ayraa.io/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/streetbeat.png`, import.meta.url)
+          .href,
+        url: "https://streetbeat.com/en",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/house.png`, import.meta.url)
+          .href,
+        url: "https://house.com/",
+      },
+
+      {
+        img: new URL(`../assets/images/sponsors/pointable.png`, import.meta.url)
+          .href,
+        url: "https://www.pointable.ai/",
+      },
+      
+
+
+
       {
         img: new URL(`../assets/images/sponsors/teqfocus.png`, import.meta.url)
           .href,

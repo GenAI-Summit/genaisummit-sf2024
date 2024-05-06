@@ -267,10 +267,9 @@ const speaker = [
     name: 'Jonathan Ross',
     job: 'Founder & CEO',
     tip: 'Groq',
-
     website: '',
     twitter: 'https://twitter.com/JonathanRoss321',
-    link: 'https://www.linkedin.com/in/ross-jonathan/',
+    linkedin: 'https://www.linkedin.com/in/ross-jonathan/',
     detail: ross2,
     image: ross,
   },

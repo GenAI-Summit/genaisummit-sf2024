@@ -210,8 +210,10 @@
             </div>
             <div class="fk long">
               <div class="">
-                <span class="big">{{ swiperPageInfo.nowPage }}</span
-                >/{{ swiperPageInfo.pages }}
+                <span class="big">
+                  {{ swiperPageInfo.nowPage }}
+                </span>
+                /{{ swiperPageInfo.pages }}
               </div>
             </div>
             <div class="fk" @click="swipernext">
@@ -344,10 +346,10 @@
               <img class="d" src="../assets/images/sponsors/jobfair.png" alt="" />
               <img class="a" src="../assets/images/sponsors/jobfair.png" alt="" />
             </div>
+
+            <!-- TODO -->
             <div
               class="list"
-              
-            
             >
             <img class="d" src="../assets/images/sponsors/playk12.png" alt="" />
               <img class="a" src="../assets/images/sponsors/playk12.png" alt="" />
@@ -360,6 +362,50 @@
 
          
       
+      </section>
+
+
+      <!-- TODO -->
+      <section id="section6" class="cointainer">
+        <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
+          <div
+            class="left-title before"
+            :class="screenWidth > 600 ? '' : 'mb'"
+            data-aos="flip-up"
+          >
+            K12 AI Initiative
+          </div>
+        </div>
+        <div class="ss-title" data-aos="flip-up">
+          MEET THE SPEAKERS
+        </div>
+        <div class="speak-k12-content">
+          <div
+            class="speaker-k12-list"
+            ref="speakerK12List"
+            :class="screenWidth > 600 ? '' : 'mb'"
+          >
+            <div
+              class="list"
+              v-for="(item, index) in showSpeakersK12List"
+              :key="index"
+              data-aos="zoom-in"
+            >
+              <PersionItem :item="item" />
+            </div>
+          </div>
+        </div>
+        <div class="ss-title" data-aos="flip-up">
+          ACTIVITIES FROM THE PAST YEAR
+        </div>
+        <div class="speaker-k12-content">
+          <div class="speaker-k12-list"
+            :class="screenWidth > 600 ? '' : 'mb'"
+          >
+          <div class="actlist"></div>
+          <div class="actlist"></div>
+          </div>
+        </div>
       </section>
 
       
@@ -837,7 +883,8 @@
             </div>
           </div>
         </div>
-      </div> -->
+      </div>
+      -->
       <section id="section4" class="cointainer">
         <!--  -->
 
@@ -959,6 +1006,7 @@ import StarBackground from "../components/StarBackground.vue";
 import Agenda from "../components/Agenda.vue";
 
 import speakers from "../utils/speaker";
+import speakersK12 from "../utils/speakerK12";
 import EventBus from "../utils/EventBus.js";
 import { useRoute } from "vue-router";
 
@@ -984,6 +1032,7 @@ export default {
     const showDialog = ref(false);
     const showImgUrl = ref("");
     const speakerList = ref(null);
+    const speakerK12List = ref(null);
     const Exhibition = ref(null);
     const numberList = ref([
       {
@@ -1073,7 +1122,7 @@ export default {
     };
     const moreHanle = () => {
       showAll.value = showAll.value + 1;
-      console.log(showAll.value);
+      //console.log(showAll.value);
       if (showAll.value == 2) {
         heightStyle.value.height = speakerList.value.offsetHeight + "px";
       }
@@ -1094,7 +1143,10 @@ export default {
     };
     const speakersList = ref(speakers);
     const showSpeakersList = ref(speakers);
-    console.log(showSpeakersList);
+
+    const speakersK12List = ref(speakersK12);
+    const showSpeakersK12List = ref(speakersK12);
+
     const targetDate = ref("2024/05/30");
     const timeObj = ref({
       d: "00",
@@ -1727,6 +1779,8 @@ export default {
       openUrl,
       speakersList,
       showSpeakersList,
+      speakersK12List,
+      showSpeakersK12List,
       moreHanle,
       closeHanle,
       calculateTimeRemaining,
@@ -1751,6 +1805,7 @@ export default {
       icon7,
       showAll,
       speakerList,
+      speakerK12List,
       getImg,
       getImg2,
       EventPartners,
@@ -2538,6 +2593,7 @@ section {
       }
     }
   }
+
 #section2 {
   .speak-content {
     overflow: hidden;
@@ -2548,8 +2604,8 @@ section {
     flex-wrap: wrap;
 
     .list {
-      width: 10%;
-      margin-left: 2%;
+      width: 12%;
+      margin-left: 0.5%;
       margin-top: 2%;
     }
     &.mb {
@@ -2660,79 +2716,6 @@ section {
     text-align: center;
     font-style: normal;
     text-transform: none;
-  }
-}
-#section5 {
-  .office {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 0.5rem;
-    align-items: center;
-    &.mb {
-      .list {
-        width: 30%;
-        max-width: 30%;
-        margin-bottom: 0.3rem;
-        height: 100%;
-        margin-left: 0.1rem;
-        img {
-          width: 100%;
-          height: auto;
-        }
-      }
-      .title_img {
-        width: 30%;
-        margin-bottom: 0.3rem;
-        img {
-          width: 100%;
-        }
-      }
-    }
-    .title_img {
-      margin-right: 0.4rem;
-      img {
-        width: 4rem;
-      }
-    }
-    .list {
-      flex: 1;
-      background: #ffffff;
-      text-align: center;
-      cursor: pointer;
-      height: 1.8rem;
-      z-index: 2;
-      display: flex;
-      justify-content: center;
-      border-radius: 1.5rem;
-      margin-left: 0.4rem;
-      &:first-child {
-        margin-left: 0;
-      }
-      img {
-        height: 1.8rem;
-        z-index: -1;
-        &.d {
-          display: block;
-          border-radius: 1.5rem;
-        }
-        &.a {
-          display: none;
-          border-radius: 1.5rem;
-        }
-      }
-      &:hover {
-        background: #008aff;
-        height: 100%;
-        img {
-          &.a {
-            display: block;
-          }
-          &.d {
-            display: none;
-          }
-        }
-      }
-    }
   }
 }
 #section3 {
@@ -2879,7 +2862,112 @@ section {
     }
   }
 }
+
 #section4 {
+}
+
+#section5 {
+  .office {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+    align-items: center;
+    &.mb {
+      .list {
+        width: 30%;
+        max-width: 30%;
+        margin-bottom: 0.3rem;
+        height: 100%;
+        margin-left: 0.1rem;
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+      .title_img {
+        width: 30%;
+        margin-bottom: 0.3rem;
+        img {
+          width: 100%;
+        }
+      }
+    }
+    .title_img {
+      margin-right: 0.4rem;
+      img {
+        width: 4rem;
+      }
+    }
+    .list {
+      flex: 1;
+      background: #ffffff;
+      text-align: center;
+      cursor: pointer;
+      height: 1.8rem;
+      z-index: 2;
+      display: flex;
+      justify-content: center;
+      border-radius: 1.5rem;
+      margin-left: 0.4rem;
+      &:first-child {
+        margin-left: 0;
+      }
+      img {
+        height: 1.8rem;
+        z-index: -1;
+        &.d {
+          display: block;
+          border-radius: 1.5rem;
+        }
+        &.a {
+          display: none;
+          border-radius: 1.5rem;
+        }
+      }
+      &:hover {
+        background: #008aff;
+        height: 100%;
+        img {
+          &.a {
+            display: block;
+          }
+          &.d {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+#section6 {
+  .speak-k12-content {
+    overflow: hidden;
+    transition: height 0.5s ease-in-out;
+  }
+  .speaker-k12-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    .list {
+      width: 30%;
+      margin-left: 2%;
+      margin-top: 2%;
+    }
+    &.mb {
+      .list {
+        width: 30%;
+      }
+    }
+
+    .actlist {
+      height: 400px;
+      width: 48%;
+      margin-top: 0.5rem;
+      border-color: red;
+      border: 1px solid;
+    }
+  }
 }
 
 .open-btn {

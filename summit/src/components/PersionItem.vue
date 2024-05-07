@@ -58,7 +58,7 @@ export default {
 <style scoped lang='scss'>
 
 .speaker{
-    padding: .1rem .1rem 0 .1rem;
+    padding: 0;
     background: #FFFFFF;
     cursor: pointer;
     position: relative;

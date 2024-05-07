@@ -1479,6 +1479,11 @@ export default {
         url: "https://www.upmarket.co/",
       },
       {
+        img: new URL(`../assets/images/sponsors/generativex.jpg`, import.meta.url)
+          .href,
+        url: "https://gen-x.co.jp/",
+      },
+      {
         img: new URL(
           `../assets/images/sponsors/chatmaster.png`,
           import.meta.url

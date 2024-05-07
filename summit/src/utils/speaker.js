@@ -84,6 +84,9 @@ import jon from '../assets/images/speakers/jon.png';
 import mccauley from '../assets/images/speakers/Mccauley.jpg';
 import rodrigoliang from '../assets/images/speakers/rodrigoliang.jpeg';
 import geraldparloiu from '../assets/images/speakers/geraldparloiu.jpg';
+import joonarahko from '../assets/images/speakers/joonarahko.jpg';
+import tiffanyjoybasse from '../assets/images/speakers/tiffanyjoybasse.jpg';
+import kathrynwu from '../assets/images/speakers/kathrynwu.jpg';
 
 
 
@@ -125,7 +128,7 @@ import zipeng2 from '../assets/images/speakers/popup/zipeng.png';
 import zhaoyan2 from '../assets/images/speakers/popup/zhaoyan.png';
 import greg2 from '../assets/images/speakers/popup/greg.png';
 import henry2 from '../assets/images/speakers/popup/henry.png';
-import sharan2 from '../assets/images/speakers/popup/sharan.png';
+import sharan2 from '../assets/images/speakers/popup/sharan2.png';
 import dugar2 from '../assets/images/speakers/popup/dugar.png';
 import mike2 from '../assets/images/speakers/popup/mike.png';
 import ratner2 from '../assets/images/speakers/popup/ratner.png';
@@ -172,6 +175,9 @@ import jon2 from '../assets/images/speakers/popup/jon.png';
 import mccauley2  from '../assets/images/speakers/popup/Mccauley2.png';
 import rodrigoliang2 from '../assets/images/speakers/popup/rodrigoliang2.png';
 import geraldparloiu2 from '../assets/images/speakers/popup/geraldparloiu2.png';
+import joonarahko2 from '../assets/images/speakers/popup/joonarahko2.png';
+import tiffanyjoybasse2 from '../assets/images/speakers/popup/tiffanyjoybasse2.png';
+import kathrynwu2 from '../assets/images/speakers/popup/kathrynwu2.png';
 
 
 
@@ -567,16 +573,6 @@ const speaker = [
     twitter: 'https://twitter.com/cgnorthcutt',
     detail: curtis2,
   },
-  {
-    name: 'Dr. Irene Huang',
-    job: 'Senior Director',
-    tip: ' TaskUs',
-    image: huang,
-    website: 'https://www.taskus.com/en-us/',
-    linkedin: 'https://www.linkedin.com/in/irenehuangphd/',
-    twitter: '',
-    detail: huang2,
-  },
 
   {
     name: 'Dr. Eddie Aftandilian',
@@ -709,7 +705,7 @@ const speaker = [
   {
     name: 'Sharan Narang',
     job: 'Co-Author',
-    tip: 'LIama 2',
+    tip: 'Llama 3 & Llama 2',
     image: sharan,
     website: 'https://scholar.google.com/citations?user=CWOixywAAAAJ&hl=en',
     twitter: 'https://twitter.com/sharan0909',
@@ -870,6 +866,17 @@ const speaker = [
     twitter: '',
     linkedin: 'https://www.linkedin.com/in/ameer-haj-ali/',
     detail: ameer2,
+  },
+
+  {
+    name: 'Dr. Irene Huang',
+    job: 'Senior Director',
+    tip: ' TaskUs',
+    image: huang,
+    website: 'https://www.taskus.com/en-us/',
+    linkedin: 'https://www.linkedin.com/in/irenehuangphd/',
+    twitter: '',
+    detail: huang2,
   },
  
   {
@@ -1040,7 +1047,37 @@ const speaker = [
     twitter: 'https://twitter.com/gregtanaka?lang=en',
     linkedin: 'https://www.linkedin.com/in/gltanaka/',
     detail: greg2,
-  }
+  },
+  {
+    name: 'Joona Rahko',
+    job: 'Founding Engineer',
+    tip: 'Layer.ai',
+    image: joonarahko,
+    website: '',
+    twitter: '',
+    linkedin: 'https://www.linkedin.com/in/joona-rahko-82757794/',
+    detail: joonarahko2,
+  },
+  {
+    name: 'Kathryn Wu',
+    job: 'Co-Founder',
+    tip: 'Openmart',
+    image: kathrynwu,
+    website: '',
+    twitter: '',
+    linkedin: 'https://www.linkedin.com/in/kathrynwoohoo/',
+    detail: kathrynwu2,
+  },
+  {
+    name: 'Tiffany Joy Basse',
+    job: 'Economic Development Director and Member',
+    tip: 'Tripanick-Nansemond Indian Tribe',
+    image: tiffanyjoybasse,
+    website: '',
+    twitter: 'https://twitter.com/tiffanyjoybasse?lang=en',
+    linkedin: 'https://www.linkedin.com/in/tiffanyjoybasse/',
+    detail: tiffanyjoybasse2,
+  },
 ];
 
 

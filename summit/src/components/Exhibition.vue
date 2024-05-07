@@ -19,7 +19,7 @@
                         Customer Curved Counter with Doors for Storage<br>
                         8x Event Tickets (Include: 1x VIP, 2x AA, 5x GA)<br>
                         Choose two from the three below: <br>
-                        Panel Speaker (50mins), Workshop (60mins), Solo Pitch (15mins)
+                        Panel Speaker (50mins), Seminar (60mins), Solo Pitch (15mins)
                     </div>
                     <div class="page" v-if="screenWidth > 600">
                         <div class="fk" @click="slickPrev">
@@ -59,7 +59,7 @@
                         Customer Curved Counter with Doors for Storage<br>
                         6 x Event Tickets (Include: 1x VIP, 1x AA, 4x GA)<br>
                         Choose two from the three below: <br>
-                        Panel Speaker (50mins), Workshop (60mins), Solo Pitch (15mins)
+                        Panel Speaker (50mins), Seminar (60mins), Solo Pitch (15mins)
                     </div>
                     <div class="page" v-if="screenWidth > 600">
                         <div class="fk" @click="slickPrev">

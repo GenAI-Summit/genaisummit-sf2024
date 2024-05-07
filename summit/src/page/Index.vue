@@ -255,7 +255,8 @@
           INSIDE OF LESSONS TO LEARN NEW TECHNOLOGY!
         </div>
         <div class="sss-title" data-aos="flip-up">
-          Applied Generative AI Workshops offer a comprehensive solution that equips both technical and non-technical attendees from all age groups with essential skills in just 60 minutes. Here are a few highlighted sessions (Updated weekly):
+          Applied Generative AI Workshops offer a comprehensive solution that equips both technical and non-technical attendees from all age groups with essential skills in just 60 minutes.
+          Here are a few highlighted sessions (Updated weekly, <i>please bring your labtop</i>):
         </div>
 
         <div class="office_content">
@@ -705,6 +706,14 @@
               <img class="d" src="../assets/images/sponsors/iobc.png" alt="" />
               <img class="a" src="../assets/images/sponsors/iobc.png" alt="" />
             </div>
+
+            <div
+              class="list"
+              @click="openUrl('https://www.ibm.com/us-en/')"
+            >
+              <img class="d" src="../assets/images/sponsors/IBM2.jpg" alt="" />
+              <img class="a" src="../assets/images/sponsors/IBM2.jpg" alt="" />
+            </div>
           </div>
         </div>
 
@@ -729,15 +738,20 @@
 
             <div
               class="list"
+              @click="openUrl('https://otter.ai/')"
+            >
+              <img class="d" src="../assets/images/sponsors/otter2.jpg" alt="" />
+              <img class="a" src="../assets/images/sponsors/otter2.jpg" alt="" />
+            </div>
+
+            <div
+              class="list"
               @click="openUrl('https://zilliz.com/')"
             >
               <img class="d" src="../assets/images/sponsors/zilliz.png" alt="" />
               <img class="a" src="../assets/images/sponsors/zilliz.png" alt="" />
             </div>
 
-            
-
-            
           </div>
         </div>
 
@@ -908,7 +922,7 @@
           </div>
         </div>
         <div class="ss-title" data-aos="flip-up">
-          MAXIMIZE YOUR JOURNEY AT THE AI SUMMIT
+          MAXIMIZE YOUR JOURNEY AT THE AI SUMMIT - Live Captioning by Otter.ai: the Exclusive GenAI Meeting Assistant Sponsor
         </div>
         <div class="ss-title2" data-aos="flip-up">
           (Note: Tentative Agenda, update weekly)
@@ -2757,12 +2771,12 @@ section {
 #section3 {
   .office {
     display: flex;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     margin-top: 0.5rem;
     align-items: center;
     &.mb {
       .list {
-        width: 30%;
+        width: 25%;
         max-width: 30%;
         margin-bottom: 0.3rem;
         height: 100%;
@@ -2773,7 +2787,7 @@ section {
         }
       }
       .title_img {
-        width: 30%;
+        width: 20%;
         margin-bottom: 0.3rem;
         img {
           width: 100%;
@@ -2795,7 +2809,7 @@ section {
       z-index: 2;
       display: flex;
       justify-content: center;
-      border-radius: 1.5rem;
+      border-radius: 1rem;
       margin-left: 0.4rem;
       &:first-child {
         margin-left: 0;
@@ -2805,11 +2819,11 @@ section {
         z-index: -1;
         &.d {
           display: block;
-          border-radius: 1.5rem;
+          border-radius: 0rem;
         }
         &.a {
           display: none;
-          border-radius: 1.5rem;
+          border-radius: 0rem;
         }
       }
       &:hover {

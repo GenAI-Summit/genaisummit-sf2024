@@ -291,7 +291,7 @@ export default {
     }
   }
   .inner_ss-content {
-    height: 11.1111rem;
+    height: 13rem;
     width: 100%;
     color: #000000;
     overflow: hidden;

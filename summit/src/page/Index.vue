@@ -365,7 +365,7 @@
       </section>
 
 
-      <!-- TODO -->
+      <!--
       <section id="section6" class="cointainer">
         <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
           <div
@@ -403,11 +403,21 @@
             :class="screenWidth > 600 ? '' : 'mb'"
           >
           <div class="actlist"></div>
-          <div class="actlist"></div>
+          <div class="actlist">
+            <iframe 
+              class="k12-video"
+              src="https://www.youtube.com/embed/km4o5GbSsI8"
+              title="K12 AI Initiative Launched @ GenAI Summit Silicon Valley 2023"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen>
+            </iframe>
+          </div>
           </div>
         </div>
       </section>
-
+      -->
       
 
 
@@ -1469,6 +1479,13 @@ export default {
         url: "https://www.upmarket.co/",
       },
       {
+        img: new URL(
+          `../assets/images/sponsors/chatmaster.png`,
+          import.meta.url
+        ).href,
+        url: "https://www.youtek.cc/"
+      },
+      {
         img: new URL(`../assets/images/sponsors/aiads.png`, import.meta.url)
           .href,
         url: "https://aiads.app/",
@@ -1508,6 +1525,20 @@ export default {
         img: new URL(`../assets/images/sponsors/gptworks.png`, import.meta.url)
           .href,
         url: "https://www.gptworks.ai/",
+      },
+      {
+        img: new URL(
+          `../assets/images/sponsors/zuora.png`,
+          import.meta.url
+        ).href,
+        url: "https://www.zuora.com/",
+      },
+      {
+        img: new URL(
+          `../assets/images/sponsors/orb.png`,
+          import.meta.url
+        ).href,
+        url: "https://www.withorb.com/ai/",
       },
       {
         img: new URL(`../assets/images/sponsors/upbeat.png`, import.meta.url)
@@ -2961,11 +2992,16 @@ section {
     }
 
     .actlist {
-      height: 400px;
+      height: 300px;
       width: 48%;
+      margin-left: 2%;
       margin-top: 0.5rem;
       border-color: red;
       border: 1px solid;
+    }
+
+    .k12-video {
+      height: 100%;
     }
   }
 }

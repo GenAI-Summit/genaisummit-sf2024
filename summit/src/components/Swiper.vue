@@ -8,7 +8,7 @@
 
 <script>
 import { ref, computed, watch,onMounted } from 'vue';
-import { useStore} from 'vuex'
+import { useStore } from 'vuex'
 import $ from 'jquery'; // 引入 jQuery
 import PersionItem2 from './PersionItem2.vue'
 import speakersNewly from '../utils/speakerNewly'
@@ -23,10 +23,12 @@ export default {
       return store.state.screenWidth;
     });
     const spearkSList = ref(speakersNewly)
-    const pageSize = ref(Math.floor(screenWidth.value/400) == 0 ? 1 : Math.floor(screenWidth.value/400))
+    const pageSize = ref(Math.floor(screenWidth.value / 400) == 0 ? 1 : Math.floor(screenWidth.value / 400) + 1)
+    /*
     if(screenWidth.value < 700){
       pageSize.value = 2
     }
+    */
     const nowPage = ref(1)
     const total = spearkSList.value.length
     const pages = ref(Math.ceil(total/pageSize.value))

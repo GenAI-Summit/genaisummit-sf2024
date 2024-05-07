@@ -710,8 +710,8 @@
               class="list"
               @click="openUrl('https://www.ibm.com/us-en/')"
             >
-              <img class="d" src="../assets/images/sponsors/IBM.png" alt="" />
-              <img class="a" src="../assets/images/sponsors/IBM.png" alt="" />
+              <img class="d" src="../assets/images/sponsors/IBM2.jpg" alt="" />
+              <img class="a" src="../assets/images/sponsors/IBM2.jpg" alt="" />
             </div>
           </div>
         </div>

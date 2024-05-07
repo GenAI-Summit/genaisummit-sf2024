@@ -1788,7 +1788,7 @@ export default {
     const tipList = ref([
       'History & Future of LLM','LLM Framework / State-of-the-art of LLM','Chips for LLM','Robotic and GenAI','The Art of FineTuning & RAG','Enterprise and GenAI',
       'Women in GenAI','Sustainability of GenAI','Safety and Ethnicity of LLM','Policy and Public Good with LLM','Data Privacy','Text to Video','VectorDB','AI Agents',
-      'AI companions','Law and LLM','Healthcare and AI','Education and GenAI','Marketing an GenAI'
+      'AI companions','Law and LLM','Healthcare and AI','Education and GenAI','Marketing and GenAI'
     ])
     return {
       tipList,

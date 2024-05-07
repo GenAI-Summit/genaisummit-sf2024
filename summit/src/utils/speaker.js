@@ -83,6 +83,7 @@ import huang from '../assets/images/speakers/huang.jfif';
 import jon from '../assets/images/speakers/jon.png';
 import mccauley from '../assets/images/speakers/Mccauley.jpg';
 import rodrigoliang from '../assets/images/speakers/rodrigoliang.jpeg';
+import geraldparloiu from '../assets/images/speakers/geraldparloiu.jpg';
 
 
 
@@ -170,6 +171,7 @@ import huang2 from '../assets/images/speakers/popup/huang.png';
 import jon2 from '../assets/images/speakers/popup/jon.png';
 import mccauley2  from '../assets/images/speakers/popup/Mccauley2.png';
 import rodrigoliang2 from '../assets/images/speakers/popup/rodrigoliang2.png';
+import geraldparloiu2 from '../assets/images/speakers/popup/geraldparloiu2.png';
 
 
 
@@ -474,6 +476,16 @@ const speaker = [
     twitter: 'https://twitter.com/ralucaadapopa',
     linkedin: 'https://www.linkedin.com/in/ralucaadapopa/',
     detail: popa2,
+  },
+  {
+    name: 'Gerald Parloiu',
+    job: 'Lead GTM',
+    tip: 'Sana.AI',
+    image: geraldparloiu,
+    website: '',
+    linkedin: 'https://www.linkedin.com/in/geraldparloiu/',
+    twitter: 'https://twitter.com/geraldparloiu?lang=en',
+    detail: geraldparloiu2,
   },
   {
     name: 'Craig Walker',

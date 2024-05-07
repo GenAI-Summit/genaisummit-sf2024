@@ -81,6 +81,7 @@ import tuhin from '../assets/images/speakers/tuhin.jfif';
 import brooke from '../assets/images/speakers/brooke.jfif';
 import huang from '../assets/images/speakers/huang.jfif';
 import jon from '../assets/images/speakers/jon.png';
+import geraldparloiu from '../assets/images/speakers/geraldparloiu.jpg';
 
 
 
@@ -166,10 +167,21 @@ import tuhin2 from '../assets/images/speakers/popup/tuhin.png';
 import brooke2 from '../assets/images/speakers/popup/brooke.png';
 import huang2 from '../assets/images/speakers/popup/huang.png';
 import jon2 from '../assets/images/speakers/popup/jon.png';
+import geraldparloiu2 from '../assets/images/speakers/popup/geraldparloiu2.png';
 
 
 const speakerNewly = [
       
+  {
+    name: 'Gerald Parloiu',
+    job: 'Lead GTM',
+    tip: 'Sana.AI',
+    image: geraldparloiu,
+    linkedin: 'https://www.linkedin.com/in/geraldparloiu/',
+    twitter: 'https://twitter.com/geraldparloiu?lang=en',
+    website: '',
+    detail: geraldparloiu2,
+  },
   {
     name: 'Jon Shalowitz',
     job: 'Managing Director',

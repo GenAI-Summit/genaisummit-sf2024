@@ -87,6 +87,7 @@ import geraldparloiu from '../assets/images/speakers/geraldparloiu.jpg';
 import joonarahko from '../assets/images/speakers/joonarahko.jpg';
 import tiffanyjoybasse from '../assets/images/speakers/tiffanyjoybasse.jpg';
 import kathrynwu from '../assets/images/speakers/kathrynwu.jpg';
+import londonbreed from '../assets/images/speakers/londonbreed.jpg';
 
 
 
@@ -178,41 +179,30 @@ import geraldparloiu2 from '../assets/images/speakers/popup/geraldparloiu2.png';
 import joonarahko2 from '../assets/images/speakers/popup/joonarahko2.png';
 import tiffanyjoybasse2 from '../assets/images/speakers/popup/tiffanyjoybasse2.png';
 import kathrynwu2 from '../assets/images/speakers/popup/kathrynwu2.png';
+import londonbreed2 from '../assets/images/speakers/popup/londonbreed2.png';
 
 
 
 const speaker = [
   {
-    name: 'Microsoft',
-    job: '',
-    tip: '',
-    image: microsoft,
-    website: 'https://www.microsoft.com/en-us/',
-    twitter: 'https://twitter.com/Microsoft',
-    linkedin: 'https://www.linkedin.com/company/microsoft/',
-    detail: microsoft,
-  },
-  {
-    name: 'Dr. Tony Wu',
-    job: 'Co-Founder',
-    tip: 'xAI',
-    image: dr_yuhuai_wu,
-    website: 'https://yuhuaiwu.github.io/',
-    twitter: 'https://twitter.com/Yuhu_ai_',
-    linkedin: 'https://www.linkedin.com/in/yuhuai-tony-wu-02a641b5/',
-    detail: dr_yuhuai_wu2,
-  },
-
-
-  {
-    name: 'Rodrigo Liang',
-    job: 'Co-Founder & CEO',
-    tip: 'SambaNova Systems',
-    image: rodrigoliang,
-    twitter: 'https://twitter.com/RodrigoLiang',
-    linkedin: 'https://www.linkedin.com/in/rodrigo-liang/',
+    name: 'London Breed',
+    job: 'Mayor',
+    tip: 'City & County of San Francisco',
+    image: londonbreed,
     website: '',
-    detail: rodrigoliang2,
+    twitter: 'https://twitter.com/LondonBreed',
+    linkedin: '',
+    detail: londonbreed2,
+  },
+  {
+    name: 'Dr. Michael Stewart',
+    job: 'Managing Partner',
+    tip: "M12, Microsoft's Venture Fund",
+    linkedin: 'https://www.linkedin.com/in/mpstewart/',
+    twitter: 'https://twitter.com/mps_vc',
+    website: '',
+    detail: stewart2,
+    image: stewart,
   },
   {
     name: 'Dr. Sam Liang',
@@ -225,30 +215,26 @@ const speaker = [
     detail: samliang2,
   },
   {
-    name: 'Fiona Ma',
-    job: 'State Treasurer',
-    tip: "State Treasurer's Office",
-    image: fiona,
-    linkedin: 'https://www.linkedin.com/in/fionamacpa/',
-    twitter: 'https://twitter.com/fionama',
-    website: 'https://www.fionama.com/',
-    detail: fiona2,
-  },
+    name: 'Arvind Jain',
+    job: 'Founder & CEO',
+    tip: 'Glean',
+    website: 'https://www.glean.com/',
+    twitter: 'https://twitter.com/jainarvind',
 
+    linkedin: 'https://www.linkedin.com/in/arvind-jain-5935161/',
+    detail: arvind2,
+    image: arvind,
+  },
   {
-    name: 'Dr. Michael Stewart',
-    job: 'Managing Partner',
-    tip: "M12, Microsoft's Venture Fund",
-    linkedin: 'https://www.linkedin.com/in/mpstewart/',
-    twitter: 'https://twitter.com/mps_vc',
+    name: 'Rodrigo Liang',
+    job: 'Co-Founder & CEO',
+    tip: 'SambaNova Systems',
+    image: rodrigoliang,
+    twitter: 'https://twitter.com/RodrigoLiang',
+    linkedin: 'https://www.linkedin.com/in/rodrigo-liang/',
     website: '',
-    detail: stewart2,
-    image: stewart,
+    detail: rodrigoliang2,
   },
-
-
-
-
   {
     name: 'Dr. Rashmi Misra',
     job: 'Chief AI Officer',
@@ -259,6 +245,43 @@ const speaker = [
     detail: rashimi2,
     image: rashimi,
   },
+  {
+    name: 'Dr. Tony Wu',
+    job: 'Co-Founder',
+    tip: 'xAI',
+    image: dr_yuhuai_wu,
+    website: 'https://yuhuaiwu.github.io/',
+    twitter: 'https://twitter.com/Yuhu_ai_',
+    linkedin: 'https://www.linkedin.com/in/yuhuai-tony-wu-02a641b5/',
+    detail: dr_yuhuai_wu2,
+  },
+  {
+    name: 'Jonathan Ross',
+    job: 'Founder & CEO',
+    tip: 'Groq',
+    website: '',
+    twitter: 'https://twitter.com/JonathanRoss321',
+    linkedin: 'https://www.linkedin.com/in/ross-jonathan/',
+    detail: ross2,
+    image: ross,
+  },
+
+
+  {
+    name: 'Fiona Ma',
+    job: 'State Treasurer',
+    tip: "State Treasurer's Office",
+    image: fiona,
+    linkedin: 'https://www.linkedin.com/in/fionamacpa/',
+    twitter: 'https://twitter.com/fionama',
+    website: 'https://www.fionama.com/',
+    detail: fiona2,
+  },
+
+
+
+
+
 
 
   {
@@ -270,16 +293,6 @@ const speaker = [
     linkedin: 'https://www.linkedin.com/in/deon-nicholas/',
     website: '',
     detail: deon2,
-  },
-  {
-    name: 'Jonathan Ross',
-    job: 'Founder & CEO',
-    tip: 'Groq',
-    website: '',
-    twitter: 'https://twitter.com/JonathanRoss321',
-    linkedin: 'https://www.linkedin.com/in/ross-jonathan/',
-    detail: ross2,
-    image: ross,
   },
   {
     name: 'Dr. Jim Fan',
@@ -336,17 +349,6 @@ const speaker = [
     twitter: 'https://twitter.com/BrookeJenkinsSF',
     linkedin: 'https://www.linkedin.com/in/brooke-jenkins-41902114/',
     detail: brooke2,
-  },
-  {
-    name: 'Arvind Jain',
-    job: 'Founder & CEO',
-    tip: 'Glean',
-    website: 'https://www.glean.com/',
-    twitter: 'https://twitter.com/jainarvind',
-
-    linkedin: 'https://www.linkedin.com/in/arvind-jain-5935161/',
-    detail: arvind2,
-    image: arvind,
   },
 
   {

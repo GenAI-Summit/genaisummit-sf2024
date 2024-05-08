@@ -36,7 +36,7 @@
         const stepTime = duration / steps;
   
         let current = start;
-  
+
         const timer = setInterval(() => {
           current += increment;
           displayNumber.value = current;
@@ -45,7 +45,7 @@
             clearInterval(timer);
           }
         }, stepTime);
-  
+
         setTimeout(() => {
           transitionKey.value += 1; // 每次数字变化时，更新transition key，强制重新渲染过渡效果
         }, duration);
@@ -90,6 +90,6 @@
   
   <style>
   .number {
-    font-size: .74rem;
+    font-size: .5rem;
   }
   </style>

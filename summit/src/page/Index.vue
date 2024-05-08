@@ -486,7 +486,6 @@
       </section>
 
 
-      <!--
       <section id="section6" class="cointainer">
         <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
           <div
@@ -497,7 +496,10 @@
             K12 AI Initiative
           </div>
         </div>
-        <div class="row">
+        <div
+          class="row"
+          :class="screenWidth > 600 ? '' : 'mb'"
+        >
           <div class="left">
             <div class="ss-title" data-aos="flip-up">
               MEET THE SPEAKERS
@@ -548,7 +550,6 @@
           </div>
         </div>
       </section>
-      -->
       
 
 

@@ -151,24 +151,25 @@
             </div> -->
             <div
               class="list"
+              @click="openUrl('https://www.ibm.com/us-en/')"
+            >
+              <img class="d" src="../assets/images/sponsors/IBM2.jpg" alt="" />
+              <img class="a" src="../assets/images/sponsors/IBM2.jpg" alt="" />
+            </div>
+
+            <div
+              class="list"
               @click="openUrl('https://www.iobc.capital/#/')"
             >
               <img class="d" src="../assets/images/sponsors/iobc.png" alt="" />
               <img class="a" src="../assets/images/sponsors/iobc.png" alt="" />
             </div>
 
-            <div
-              class="list"
-              @click="openUrl('https://www.ibm.com/us-en/')"
-            >
-              <img class="d" src="../assets/images/sponsors/IBM2.jpg" alt="" />
-              <img class="a" src="../assets/images/sponsors/IBM2.jpg" alt="" />
-            </div>
           </div>
         </div>
 
 
-          <!-- silver -->
+        <!-- silver -->
         <div class="office_content">
           <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
             <div class="title_img">
@@ -486,6 +487,7 @@
       </section>
 
 
+      <!--
       <section id="section6" class="cointainer">
         <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
           <div
@@ -550,6 +552,7 @@
           </div>
         </div>
       </section>
+      -->
       
 
 
@@ -2814,14 +2817,13 @@ section {
       }
     }
     .list {
-      flex: 1;
       background: #ffffff;
       text-align: center;
       cursor: pointer;
       height: 1.8rem;
       z-index: 2;
       display: flex;
-      justify-content: center;
+      justify-content: flex-start;
       border-radius: 1rem;
       margin-left: 0.4rem;
       &:first-child {

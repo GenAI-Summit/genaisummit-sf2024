@@ -319,6 +319,16 @@ const speaker = [
   //   detail: karina2,
   // },
   {
+    name: 'Jon Shalowitz',
+    job: 'Managing Director',
+    tip: 'Woodside Capital Partners',
+    image: jon,
+    linkedin: 'https://www.linkedin.com/in/jshalowitz/',
+    twitter: '',
+    website: 'https://woodsidecap.com/team/jon-shalowitz/',
+    detail: jon2,
+  },
+  {
     name: 'Dr. Denis Yarats',
     job: 'CTO & Co-Founder',
     tip: 'Perplexity',
@@ -363,7 +373,7 @@ const speaker = [
   },
 
   {
-    name: 'JACK J. MCCAULEY',
+    name: 'Jack J. Mccauley',
     job: 'Co-Founder',
     tip: 'Oculus',
     image: mccauley,
@@ -373,16 +383,6 @@ const speaker = [
     detail: mccauley2,
   },
   
-  {
-    name: 'Jon Shalowitz',
-    job: 'Managing Director',
-    tip: 'Woodside Capital Partners',
-    image: jon,
-    linkedin: 'https://www.linkedin.com/in/jshalowitz/',
-    twitter: '',
-    website: 'https://woodsidecap.com/team/jon-shalowitz/',
-    detail: jon2,
-  },
 
   
   {

@@ -83,6 +83,130 @@
         </div>
       </div>
     </section>
+
+
+      <section id="sponsor_section" class="cointainer">
+        <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
+          <div
+            class="left-title before"
+            :class="screenWidth > 600 ? '' : 'mb'"
+            data-aos="flip-up"
+          >
+            Sponsors
+          </div>
+          <div class="open-btn">
+            <button @click="openUrl('https://forms.gle/9pTcvfZcVEVRzmQZ8')">
+              Become Our Sponsor
+              <img src="../assets/images/general_return.png" alt="" />
+            </button>
+          </div>
+        </div>
+        <div class="ss-title" data-aos="flip-up">
+          CHECK WHO MAKES THIS EVENT POSSIBLE!
+        </div>
+
+        <div class="office_content">
+          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+            <div class="title_img">
+              <img src="../assets/images/diam.png" alt="" />
+            </div>
+            <div
+              class="list"
+              @click="openUrl('https://www.microsoft.com/en-us/')"
+            >
+              <img class="d" src="../assets/images/sponsors/microsoft3.png" alt="" />
+              <img class="a" src="../assets/images/sponsors/microsoft3.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="office_content">
+          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+            <div class="title_img">
+              <img src="../assets/images/plat.png" alt="" />
+            </div>
+            <!-- <div class="list" @click="openUrl('https://cloud.google.com/')">
+              <img class="d" src="../assets/images/ico_logo_g2.png" alt="" />
+              <img class="a" src="../assets/images/ico_logo_g1.png" alt="" />
+            </div> -->
+            <div
+              class="list"
+              @click="openUrl('https://aws.amazon.com/startups?lang=en-US')"
+            >
+              <img class="d" src="../assets/images/sponsors/aws.png" alt="" />
+              <img class="a" src="../assets/images/sponsors/aws.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+
+        <!-- gold -->
+        <div class="office_content">
+          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+            <div class="title_img">
+              <img src="../assets/images/gold.png" alt="" />
+            </div>
+            <!-- <div class="list" @click="openUrl('https://cloud.google.com/')">
+              <img class="d" src="../assets/images/ico_logo_g2.png" alt="" />
+              <img class="a" src="../assets/images/ico_logo_g1.png" alt="" />
+            </div> -->
+            <div
+              class="list"
+              @click="openUrl('https://www.iobc.capital/#/')"
+            >
+              <img class="d" src="../assets/images/sponsors/iobc.png" alt="" />
+              <img class="a" src="../assets/images/sponsors/iobc.png" alt="" />
+            </div>
+
+            <div
+              class="list"
+              @click="openUrl('https://www.ibm.com/us-en/')"
+            >
+              <img class="d" src="../assets/images/sponsors/IBM2.jpg" alt="" />
+              <img class="a" src="../assets/images/sponsors/IBM2.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+
+
+          <!-- silver -->
+        <div class="office_content">
+          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+            <div class="title_img">
+              <img src="../assets/images/silver.png" alt="" />
+            </div>
+            <!-- <div class="list" @click="openUrl('https://cloud.google.com/')">
+              <img class="d" src="../assets/images/ico_logo_g2.png" alt="" />
+              <img class="a" src="../assets/images/ico_logo_g1.png" alt="" />
+            </div> -->
+            <div
+              class="list"
+              @click="openUrl('https://sambanova.ai/')"
+            >
+              <img class="d" src="../assets/images/sponsors/samba.png" alt="" />
+              <img class="a" src="../assets/images/sponsors/samba.png" alt="" />
+            </div>
+
+            <div
+              class="list"
+              @click="openUrl('https://otter.ai/')"
+            >
+              <img class="d" src="../assets/images/sponsors/otter2.jpg" alt="" />
+              <img class="a" src="../assets/images/sponsors/otter2.jpg" alt="" />
+            </div>
+
+            <div
+              class="list"
+              @click="openUrl('https://zilliz.com/')"
+            >
+              <img class="d" src="../assets/images/sponsors/zilliz.png" alt="" />
+              <img class="a" src="../assets/images/sponsors/zilliz.png" alt="" />
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+
     <div class="bg">
       <div class="section-number">
         <section class="cointainer">
@@ -352,17 +476,13 @@
             <div
               class="list"
             >
-            <img class="d" src="../assets/images/sponsors/playk12.png" alt="" />
+              <img class="d" src="../assets/images/sponsors/playk12.png" alt="" />
               <img class="a" src="../assets/images/sponsors/playk12.png" alt="" />
             </div>
 
             
           </div>
         </div>
-
-
-         
-      
       </section>
 
 
@@ -377,44 +497,54 @@
             K12 AI Initiative
           </div>
         </div>
-        <div class="ss-title" data-aos="flip-up">
-          MEET THE SPEAKERS
-        </div>
-        <div class="speak-k12-content">
-          <div
-            class="speaker-k12-list"
-            ref="speakerK12List"
-            :class="screenWidth > 600 ? '' : 'mb'"
-          >
-            <div
-              class="list"
-              v-for="(item, index) in showSpeakersK12List"
-              :key="index"
-              data-aos="zoom-in"
-            >
-              <PersionItem :item="item" />
+        <div class="row">
+          <div class="left">
+            <div class="ss-title" data-aos="flip-up">
+              MEET THE SPEAKERS
+            </div>
+            <div class="speak-k12-content">
+              <div
+                class="speaker-k12-list"
+                ref="speakerK12List"
+                :class="screenWidth > 600 ? '' : 'mb'"
+              >
+                <div
+                  class="list"
+                  v-for="(item, index) in showSpeakersK12List"
+                  :key="index"
+                  data-aos="zoom-in"
+                >
+                  <PersionItem :item="item" />
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="ss-title" data-aos="flip-up">
-          ACTIVITIES FROM THE PAST YEAR
-        </div>
-        <div class="speaker-k12-content">
-          <div class="speaker-k12-list"
-            :class="screenWidth > 600 ? '' : 'mb'"
-          >
-          <div class="actlist"></div>
-          <div class="actlist">
-            <iframe 
-              class="k12-video"
-              src="https://www.youtube.com/embed/km4o5GbSsI8"
-              title="K12 AI Initiative Launched @ GenAI Summit Silicon Valley 2023"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen>
-            </iframe>
-          </div>
+          <div class="right">
+            <div class="ss-title" data-aos="fade-up">
+              ACTIVITIES FROM THE PAST YEAR
+            </div>
+            <div class="activity-k12-content">
+              <div class="activity-k12-list"
+                :class="screenWidth > 600 ? '' : 'mb'"
+              >
+                <div class="list" data-aos="zoom-in">
+                  <img class="d" src="../assets/images/k12.jpg" alt="" />
+                  <img class="a" src="../assets/images/k12.jpg" alt="" />
+                </div>
+                <div class="list">
+                  <iframe
+                    data-aos="zoom-in"
+                    class="k12-video"
+                    src="https://www.youtube.com/embed/km4o5GbSsI8"
+                    title="K12 AI Initiative Launched @ GenAI Summit Silicon Valley 2023"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen>
+                  </iframe>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -635,128 +765,10 @@
         </div>
       </div>
 
-      <section id="section3" class="cointainer">
-        <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
-          <div
-            class="left-title before"
-            :class="screenWidth > 600 ? '' : 'mb'"
-            data-aos="flip-up"
-          >
-            Sponsors
-          </div>
-          <div class="open-btn">
-            <button @click="openUrl('https://forms.gle/9pTcvfZcVEVRzmQZ8')">
-              Become Our Sponsor
-              <img src="../assets/images/general_return.png" alt="" />
-            </button>
-          </div>
-        </div>
-        <div class="ss-title" data-aos="flip-up">
-          CHECK WHO MAKES THIS EVENT POSSIBLE!
-        </div>
-
-        <div class="office_content">
-          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
-            <div class="title_img">
-              <img src="../assets/images/diam.png" alt="" />
-            </div>
-            <div
-              class="list"
-              @click="openUrl('https://www.microsoft.com/en-us/')"
-            >
-              <img class="d" src="../assets/images/sponsors/microsoft3.png" alt="" />
-              <img class="a" src="../assets/images/sponsors/microsoft3.png" alt="" />
-            </div>
-          </div>
-        </div>
-        <div class="office_content">
-          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
-            <div class="title_img">
-              <img src="../assets/images/plat.png" alt="" />
-            </div>
-            <!-- <div class="list" @click="openUrl('https://cloud.google.com/')">
-              <img class="d" src="../assets/images/ico_logo_g2.png" alt="" />
-              <img class="a" src="../assets/images/ico_logo_g1.png" alt="" />
-            </div> -->
-            <div
-              class="list"
-              @click="openUrl('https://aws.amazon.com/startups?lang=en-US')"
-            >
-              <img class="d" src="../assets/images/sponsors/aws.png" alt="" />
-              <img class="a" src="../assets/images/sponsors/aws.png" alt="" />
-            </div>
-          </div>
-        </div>
-
-
-        <!-- gold -->
-        <div class="office_content">
-          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
-            <div class="title_img">
-              <img src="../assets/images/gold.png" alt="" />
-            </div>
-            <!-- <div class="list" @click="openUrl('https://cloud.google.com/')">
-              <img class="d" src="../assets/images/ico_logo_g2.png" alt="" />
-              <img class="a" src="../assets/images/ico_logo_g1.png" alt="" />
-            </div> -->
-            <div
-              class="list"
-              @click="openUrl('https://www.iobc.capital/#/')"
-            >
-              <img class="d" src="../assets/images/sponsors/iobc.png" alt="" />
-              <img class="a" src="../assets/images/sponsors/iobc.png" alt="" />
-            </div>
-
-            <div
-              class="list"
-              @click="openUrl('https://www.ibm.com/us-en/')"
-            >
-              <img class="d" src="../assets/images/sponsors/IBM2.jpg" alt="" />
-              <img class="a" src="../assets/images/sponsors/IBM2.jpg" alt="" />
-            </div>
-          </div>
-        </div>
-
-
-          <!-- silver -->
-        <div class="office_content">
-          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
-            <div class="title_img">
-              <img src="../assets/images/silver.png" alt="" />
-            </div>
-            <!-- <div class="list" @click="openUrl('https://cloud.google.com/')">
-              <img class="d" src="../assets/images/ico_logo_g2.png" alt="" />
-              <img class="a" src="../assets/images/ico_logo_g1.png" alt="" />
-            </div> -->
-            <div
-              class="list"
-              @click="openUrl('https://sambanova.ai/')"
-            >
-              <img class="d" src="../assets/images/sponsors/samba.png" alt="" />
-              <img class="a" src="../assets/images/sponsors/samba.png" alt="" />
-            </div>
-
-            <div
-              class="list"
-              @click="openUrl('https://otter.ai/')"
-            >
-              <img class="d" src="../assets/images/sponsors/otter2.jpg" alt="" />
-              <img class="a" src="../assets/images/sponsors/otter2.jpg" alt="" />
-            </div>
-
-            <div
-              class="list"
-              @click="openUrl('https://zilliz.com/')"
-            >
-              <img class="d" src="../assets/images/sponsors/zilliz.png" alt="" />
-              <img class="a" src="../assets/images/sponsors/zilliz.png" alt="" />
-            </div>
-
-          </div>
-        </div>
 
         
 
+      <section id="section3" class="cointainer">
         <div class="pantners2">
         <div class="cointainer">
           <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
@@ -2362,9 +2374,9 @@ section {
   }
 
   .item {
-    width: 25%;
+    width: 14%;
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 2rem;
     img {
       width: 0.89rem;
     }
@@ -2389,7 +2401,7 @@ section {
   }
 }
 .bg-title {
-  margin-top: 1.5rem;
+  margin-top: 0.75rem;
   justify-content: space-between;
   align-items: center;
   display: flex;
@@ -2768,6 +2780,79 @@ section {
     text-transform: none;
   }
 }
+#sponsor_section {
+  .office {
+    display: flex;
+    /*flex-wrap: wrap;*/
+    margin-top: 0;
+    align-items: center;
+    &.mb {
+      .list {
+        width: 25%;
+        max-width: 30%;
+        margin-bottom: 0.3rem;
+        height: 100%;
+        margin-left: 0.1rem;
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+      .title_img {
+        width: 20%;
+        margin-bottom: 0.3rem;
+        img {
+          width: 100%;
+        }
+      }
+    }
+    .title_img {
+      margin-right: 0.4rem;
+      img {
+        width: 4rem;
+      }
+    }
+    .list {
+      flex: 1;
+      background: #ffffff;
+      text-align: center;
+      cursor: pointer;
+      height: 1.8rem;
+      z-index: 2;
+      display: flex;
+      justify-content: center;
+      border-radius: 1rem;
+      margin-left: 0.4rem;
+      &:first-child {
+        margin-left: 0;
+      }
+      img {
+        height: 1.8rem;
+        z-index: -1;
+        &.d {
+          display: block;
+          border-radius: 0rem;
+        }
+        &.a {
+          display: none;
+          border-radius: 0rem;
+        }
+      }
+      &:hover {
+        background: #008aff;
+        height: 100%;
+        img {
+          &.a {
+            display: block;
+          }
+          &.d {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
 #section3 {
   .office {
     display: flex;
@@ -2995,32 +3080,71 @@ section {
     overflow: hidden;
     transition: height 0.5s ease-in-out;
   }
-  .speaker-k12-list {
-    display: flex;
-    flex-wrap: wrap;
 
-    .list {
-      width: 30%;
-      margin-left: 2%;
-      margin-top: 2%;
-    }
+  .row {
+    display: flex;
+
     &.mb {
-      .list {
-        width: 30%;
+      flex-direction: column;
+
+      .left {
+        width: 100%;
+      }
+      .right {
+        width: 100%;
       }
     }
 
-    .actlist {
-      height: 300px;
-      width: 48%;
-      margin-left: 2%;
-      margin-top: 0.5rem;
-      border-color: red;
-      border: 1px solid;
+    .left {
+      width: 50%;
     }
 
-    .k12-video {
-      height: 100%;
+    .right {
+      width: 50%;
+    }
+
+    .speaker-k12-list {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+
+      .list {
+        width: 23%;
+        margin-top: 2%;
+      }
+      &.mb {
+        .list {
+          width: 30%;
+        }
+      }
+    }
+    .activity-k12-list {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+
+      .list {
+        width: 48%;
+        margin-top: 2%;
+        border: 1px solid #FFFFFF;
+      }
+      .a {
+        width: 100%;
+        display: none;
+      }
+      .d {
+        width: 100%;
+        display: inline-block;
+      }
+      .k12-video {
+        width: 100%;
+        height: 100%;
+      }
+      &.mb {
+        .list {
+          width: 100%;
+        }
+      }
     }
   }
 }

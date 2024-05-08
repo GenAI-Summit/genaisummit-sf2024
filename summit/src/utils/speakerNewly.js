@@ -82,6 +82,7 @@ import brooke from '../assets/images/speakers/brooke.jfif';
 import huang from '../assets/images/speakers/huang.jfif';
 import jon from '../assets/images/speakers/jon.png';
 import geraldparloiu from '../assets/images/speakers/geraldparloiu.jpg';
+import londonbreed from '../assets/images/speakers/londonbreed.jpg';
 
 
 
@@ -168,10 +169,21 @@ import brooke2 from '../assets/images/speakers/popup/brooke.png';
 import huang2 from '../assets/images/speakers/popup/huang.png';
 import jon2 from '../assets/images/speakers/popup/jon.png';
 import geraldparloiu2 from '../assets/images/speakers/popup/geraldparloiu2.png';
+import londonbreed2 from '../assets/images/speakers/popup/londonbreed2.png';
 
 
 const speakerNewly = [
       
+  {
+    name: 'London Breed',
+    job: 'Mayor',
+    tip: 'City & County of San Francisco',
+    image: londonbreed,
+    linkedin: '',
+    twitter: 'https://twitter.com/LondonBreed',
+    website: '',
+    detail: londonbreed2,
+  },
   {
     name: 'Gerald Parloiu',
     job: 'Lead GTM',

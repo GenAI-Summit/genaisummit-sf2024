@@ -148,7 +148,7 @@ export default {
             <br/><br/><br/>
           5. Panel Discussion 13:45-14:30: Conversational AI in Sales and Marketing
             <br/><br/>&nbsp&nbsp 
-            - (Jim Palmer, Chief AI Officer @Dialpad) | (Yaniv Makover, CEO @Anyword) | (Jim Palmer, Professor @NYU) | (Prof Andreas Ramos @Arcticider.ai)
+            - (Jim Palmer, Chief AI Officer @Dialpad) | (Yaniv Makover, CEO @Anyword) | (Chen Xi, Professor @NYU) | (Prof Andreas Ramos @Arcticider.ai)
             <br/><br/><br/>
           6. Panel Discussion 14:30-15:15: How AI Is Reshaping the Service in Medicine and Healthcare
             <br/><br/>&nbsp&nbsp 

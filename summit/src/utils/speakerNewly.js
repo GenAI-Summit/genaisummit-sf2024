@@ -586,6 +586,7 @@ const speakerNewly = [
     website: 'https://councils.forbes.com/profile/Alexander-Ratner-CEO-Co-founder-Snorkel-AI/f1b8b27b-d6ae-40ca-baba-cc2c6c004721',
     detail: ratner2,
   },
+  /*
   {
     name: 'Pankaj Dugar',
     job: 'SVP & GM, North America',
@@ -596,6 +597,7 @@ const speakerNewly = [
     twitter: '',
     detail: dugar2,
   },
+  */
 
   {
     name: 'Tim Shi',

@@ -1578,6 +1578,11 @@ export default {
         url: "https://www.fivetran.com/",
       },
       {
+        img: new URL(`../assets/images/sponsors/vimmerse.png`, import.meta.url)
+          .href,
+        url: "https://www.vimmerse.net/",
+      },
+      {
         img: new URL(`../assets/images/sponsors/ayraa.png`, import.meta.url)
           .href,
         url: "https://www.ayraa.io/",
@@ -1588,14 +1593,14 @@ export default {
         url: "https://jiffy.ai/",
       },
       {
+        img: new URL(`../assets/images/sponsors/dekube.png`, import.meta.url)
+          .href,
+        url: "https://dekube.ai/",
+      },
+      {
         img: new URL(`../assets/images/sponsors/magstone.png`, import.meta.url)
           .href,
         url: "https://www.magstonelaw.com/",
-      },
-      {
-        img: new URL(`../assets/images/sponsors/vimmerse.png`, import.meta.url)
-          .href,
-        url: "https://www.vimmerse.net/",
       },
       {
         img: new URL(`../assets/images/sponsors/boothai.png`, import.meta.url)

@@ -35,7 +35,7 @@ import zipeng from '../assets/images/speakers/zipeng.jpg';
 import zhaoyan from '../assets/images/speakers/zhaoyan.jpg';
 import greg from '../assets/images/speakers/greg.jpg';
 import henry from '../assets/images/speakers/henry.jpg';
-import sharan from '../assets/images/speakers/sharan.jpg';
+import sharannarang from '../assets/images/speakers/sharannarang.jpg';
 import microsoft from '../assets/images/speakers/microsoft.png';
 import dugar from '../assets/images/speakers/dugar.png';
 import mike from '../assets/images/speakers/mike.png';
@@ -130,7 +130,7 @@ import zipeng2 from '../assets/images/speakers/popup/zipeng.png';
 import zhaoyan2 from '../assets/images/speakers/popup/zhaoyan.png';
 import greg2 from '../assets/images/speakers/popup/greg.png';
 import henry2 from '../assets/images/speakers/popup/henry.png';
-import sharan2 from '../assets/images/speakers/popup/sharan2.png';
+import sharannarang2 from '../assets/images/speakers/popup/sharannarang2.png';
 import dugar2 from '../assets/images/speakers/popup/dugar.png';
 import mike2 from '../assets/images/speakers/popup/mike.png';
 import ratner2 from '../assets/images/speakers/popup/ratner.png';
@@ -722,11 +722,11 @@ const speaker = [
     name: 'Sharan Narang',
     job: 'Co-Author',
     tip: 'Llama 3 & Llama 2',
-    image: sharan,
+    image: sharannarang,
     website: 'https://scholar.google.com/citations?user=CWOixywAAAAJ&hl=en',
     twitter: 'https://twitter.com/sharan0909',
     linkedin: 'https://www.linkedin.com/in/sharan-narang/',
-    detail: sharan2,
+    detail: sharannarang2,
   },
 
   {

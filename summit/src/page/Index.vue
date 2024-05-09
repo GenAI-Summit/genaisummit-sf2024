@@ -1595,6 +1595,11 @@ export default {
         url: "https://www.magstonelaw.com/",
       },
       {
+        img: new URL(`../assets/images/sponsors/vimmerse.png`, import.meta.url)
+          .href,
+        url: "https://www.vimmerse.net/",
+      },
+      {
         img: new URL(`../assets/images/sponsors/boothai.png`, import.meta.url)
           .href,
         url: "https://www.booth.ai/",
@@ -1654,11 +1659,6 @@ export default {
         img: new URL(`../assets/images/sponsors/unitree.png`, import.meta.url)
           .href,
         url: "https://www.unitree.com/",
-      },
-      {
-        img: new URL(`../assets/images/sponsors/vimmerse.png`, import.meta.url)
-          .href,
-        url: "https://www.vimmerse.net/",
       },
       {
         img: new URL(`../assets/images/sponsors/conversight.png`, import.meta.url)

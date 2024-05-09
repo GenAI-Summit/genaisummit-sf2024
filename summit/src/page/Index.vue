@@ -1510,6 +1510,11 @@ export default {
         url: "https://gen-x.co.jp/",
       },
       {
+        img: new URL(`../assets/images/sponsors/pinecone.png`, import.meta.url)
+          .href,
+        url: "https://www.pinecone.io/",
+      },
+      {
         img: new URL(
           `../assets/images/sponsors/chatmaster.png`,
           import.meta.url

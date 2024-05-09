@@ -83,6 +83,7 @@ import huang from '../assets/images/speakers/huang.jfif';
 import jon from '../assets/images/speakers/jon.png';
 import geraldparloiu from '../assets/images/speakers/geraldparloiu.jpg';
 import londonbreed from '../assets/images/speakers/londonbreed.jpg';
+import bhavinshah from '../assets/images/speakers/bhavinshah.jpg';
 
 
 
@@ -170,10 +171,22 @@ import huang2 from '../assets/images/speakers/popup/huang.png';
 import jon2 from '../assets/images/speakers/popup/jon.png';
 import geraldparloiu2 from '../assets/images/speakers/popup/geraldparloiu2.png';
 import londonbreed2 from '../assets/images/speakers/popup/londonbreed2.png';
+import bhavinshah2 from '../assets/images/speakers/popup/bhavinshah2.png';
 
 
 const speakerNewly = [
       
+    {
+    name: 'Bhavin Shah',
+    job: 'CEO & Founder',
+    tip: 'Moveworks',
+    image: bhavinshah,
+    website: '',
+    twitter: 'https://twitter.com/bhavinator?lang=en',
+    linkedin: 'https://www.linkedin.com/in/bhavinnicholasshah/',
+    detail: bhavinshah2,
+  },
+
   {
     name: 'London Breed',
     job: 'Mayor',

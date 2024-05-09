@@ -1,45 +1,43 @@
-import bob from '../assets/images/speakers/bob.jpg';
-import tony from '../assets/images/speakers/tony.jpg';
-import ross from '../assets/images/speakers/ross.png';
+import markfriedman from '../assets/images/speakers/markfriedman.jpg';
+import weiqinggu from '../assets/images/speakers/weiqinggu.jpg';
+import henrikchristensen from '../assets/images/speakers/henrikchristensen.jpg';
 
 
-import bob2 from '../assets/images/speakers/popup/bob.png';
-import tony2 from '../assets/images/speakers/popup/tony.png';
-import ross2 from '../assets/images/speakers/popup/ross.png';
+import markfriedman2 from '../assets/images/speakers/popup/markfriedman2.png';
+import weiqinggu2 from '../assets/images/speakers/popup/weiqinggu2.png';
+import henrikchristensen2 from '../assets/images/speakers/popup/henrikchristensen2.png';
 
 const speakerK12 = [
       
   {
-    name: 'Bob van Luijt',
-    job: 'CEO & Co-Founder',
-    tip: 'Weaviate',
-    image: bob,
-    website: 'https://en.wikipedia.org/wiki/Bob_van_Luijt',
-    twitter: 'https://twitter.com/bobvanluijt',
-    linkedin: 'https://www.linkedin.com/in/bobvanluijt/?originalSubdomain=nl',
-    detail: bob2,
+    name: 'Mark Friedman',
+    job: 'Research Affiliate',
+    tip: 'Massachusetts Institute of Technology',
+    image: markfriedman,
+    website: '',
+    twitter: 'https://twitter.com/mark_s_friedman',
+    linkedin: 'https://www.linkedin.com/in/marksfriedman/',
+    detail: markfriedman2,
   },
   {
-    name: 'Tony Beltramelli',
-    job: 'Co-Founder & CEO',
-    tip: 'Uizard Technology',
-    image: tony,
-    website: '',
-    twitter: 'https://twitter.com/Tbeltramelli',
-    linkedin: 'https://www.linkedin.com/in/tony-beltramelli-513b1219/?originalSubdomain=dk',
-
-    detail: tony2,
+    name: 'Prof. Weiqing Gu',
+    job: 'Professor',
+    tip: 'Harvey Mudd College',
+    image: weiqinggu,
+    website: 'https://math.hmc.edu/gu/',
+    twitter: '',
+    linkedin: 'https://www.linkedin.com/in/weiqing-gu-56b9bab/',
+    detail: weiqinggu2,
   },
   {
-    name: 'Jonathan Ross',
-    job: 'Founder & CEO',
-    tip: 'Groq',
-
-    website: '',
-    twitter: 'https://twitter.com/JonathanRoss321',
-    linkedin: 'https://www.linkedin.com/in/ross-jonathan/',
-    detail: ross2,
-    image: ross,
+    name: 'Prof. Henrik Christensen',
+    job: 'Professor',
+    tip: 'University of California San Diego',
+    image: henrikchristensen,
+    website: 'https://hichristensen.com/',
+    twitter: 'https://twitter.com/hiskov/',
+    linkedin: 'https://www.linkedin.com/in/henrikichristensen/',
+    detail: henrikchristensen2,
   },
 ];
 

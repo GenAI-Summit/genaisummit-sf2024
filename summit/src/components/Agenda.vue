@@ -148,7 +148,7 @@ export default {
             <br/><br/><br/>
           5. Panel Discussion 13:45-14:30: Conversational AI in Sales and Marketing
             <br/><br/>&nbsp&nbsp 
-            - (Jim Palmer, Chief AI Officer @Dialpad) | (Yaniv Makover, CEO @Anyword) | (Jim Palmer, Professor @NYU) | (Prof Andreas Ramos @Arcticider.ai)
+            - (Jim Palmer, Chief AI Officer @Dialpad) | (Yaniv Makover, CEO @Anyword) | (Chen Xi, Professor @NYU) | (Prof Andreas Ramos @Arcticider.ai)
             <br/><br/><br/>
           6. Panel Discussion 14:30-15:15: How AI Is Reshaping the Service in Medicine and Healthcare
             <br/><br/>&nbsp&nbsp 
@@ -198,7 +198,7 @@ export default {
             <br/><br/><br/>
           4. Fireside Chat 11:15-12:00: GenAI Venture Investment Landscape 2.0 
             <br/><br/>&nbsp&nbsp 
-            - (Dr. Michael Stewart, Managing Partner @M12)
+            - (Dr. Michael Stewart, Managing Partner @M12) | (Moderated by Nathan Lile, CEO Synth Labs)
             <br/><br/><br/>
           5. Panel Discussion 13:00-13:45: Harnessing the Power of LLM for Super Agents: Capabilities, Challenges, and Future Prospects 
             <br/><br/>&nbsp&nbsp 
@@ -290,31 +290,27 @@ export default {
             <br/><br/>&nbsp&nbsp 
             - (Dr. Yangqing Jia, Founder @Lepton.AI)
             <br/><br/><br/>
-          3. Keynote 10:30-11:15: Transform Enterprise Work With Full-stack Generative AI 
-            <br/><br/>&nbsp&nbsp 
-            - (Waseem Alshikh, CTO @Writer.AI)
-            <br/><br/><br/>
-          4. Keynote 11:15-12:00: How Does Invesment Looks Like in the Era of GenAI 
+          3. Keynote 11:15-12:00: Straight Talk on Selling an AI Startup
             <br/><br/>&nbsp&nbsp 
             - (Woodside Capital Partners)
             <br/><br/><br/>
-          5. Panel Discussion 13:00-13:45: VectorDB 2.0 with Longer Context Window 
+          4. Panel Discussion 13:00-13:45: VectorDB 2.0 with Longer Context Window 
             <br/><br/>&nbsp&nbsp 
             - (Ram Sriharsha, CTO @Pinecone) | (Alexander Ratner, CEO @SnorkelAI) | (Bob Van Luijt, CEO & Co-Founder @Weaviate) | (Amr Awadallah, CEO @Vectara)
             <br/><br/><br/>
-          6. Panel Discussion 13:45-14:30: Experiment Tracking and Prompt Engineering Practices 
+          5. Panel Discussion 13:45-14:30: Experiment Tracking and Prompt Engineering Practices 
             <br/><br/>&nbsp&nbsp 
             - (Jason Kopatecki, CEO @Arize AI) | (Gideon Mendels, Co-Founder & CEO @Comet ML) | (Sri Ambati, CEO @H2O.AI)
             <br/><br/><br/>
-          7. Panel Discussion 14:30-15:15: Building a Responsible AGI: Ethics of AI in Decision-Making 
+          6. Panel Discussion 14:30-15:15: Building a Responsible AGI: Ethics of AI in Decision-Making 
             <br/><br/>&nbsp&nbsp 
             - (Yan Zhao, Saratoga Mayor) | (Yashar Behzadi, CEO @Synthesis AI) | (Greg Tanaka, Palo Alto Council Member) | (Rajat Suri, Co-Founde @Lima) 
             <br/><br/><br/>
-          8. Panel Discussion 15:15-16:00: Video Generation Models: from Research to Production 
+          7. Panel Discussion 15:15-16:00: Video Generation Models: from Research to Production 
             <br/><br/>&nbsp&nbsp 
             - (Jiajun Lu, Founder & CEO @Akool), | (Sunny Rochiramani, Head of Engineering @Descript)
             <br/><br/><br/>
-          9. Panel Discussion 16:00-16:45: AI in Environmental Sustainability
+          8. Panel Discussion 16:00-16:45: AI in Environmental Sustainability
         `,
       },
       {

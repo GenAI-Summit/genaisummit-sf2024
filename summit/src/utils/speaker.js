@@ -1,4 +1,3 @@
-
 import dr_yuhuai_wu from '../assets/images/speakers/yuhuai.jpg';
 import dr_denis_yarats from '../assets/images/speakers/denis.jpg';
 import arvind from '../assets/images/speakers/arvind_jain.jpg';
@@ -82,12 +81,14 @@ import brooke from '../assets/images/speakers/brooke.jfif';
 import huang from '../assets/images/speakers/huang.jfif';
 import jon from '../assets/images/speakers/jon.png';
 import mccauley from '../assets/images/speakers/Mccauley.jpg';
-import rodrigoliang from '../assets/images/speakers/rodrigoliang.jpeg';
+import rodrigoliang from '../assets/images/speakers/rodrigoliang.jpg';
 import geraldparloiu from '../assets/images/speakers/geraldparloiu.jpg';
 import joonarahko from '../assets/images/speakers/joonarahko.jpg';
 import tiffanyjoybasse from '../assets/images/speakers/tiffanyjoybasse.jpg';
 import kathrynwu from '../assets/images/speakers/kathrynwu.jpg';
 import londonbreed from '../assets/images/speakers/londonbreed.jpg';
+import bhavinshah from '../assets/images/speakers/bhavinshah.jpg';
+import alekhjindal from '../assets/images/speakers/alekhjindal.jpg';
 
 
 
@@ -180,6 +181,8 @@ import joonarahko2 from '../assets/images/speakers/popup/joonarahko2.png';
 import tiffanyjoybasse2 from '../assets/images/speakers/popup/tiffanyjoybasse2.png';
 import kathrynwu2 from '../assets/images/speakers/popup/kathrynwu2.png';
 import londonbreed2 from '../assets/images/speakers/popup/londonbreed2.png';
+import bhavinshah2 from '../assets/images/speakers/popup/bhavinshah2.png';
+import alekhjindal2 from '../assets/images/speakers/popup/alekhjindal2.png';
 
 
 
@@ -359,6 +362,17 @@ const speaker = [
     twitter: 'https://twitter.com/BrookeJenkinsSF',
     linkedin: 'https://www.linkedin.com/in/brooke-jenkins-41902114/',
     detail: brooke2,
+  },
+
+  {
+    name: 'Bhavin Shah',
+    job: 'CEO & Founder',
+    tip: 'Moveworks',
+    image: bhavinshah,
+    website: '',
+    twitter: 'https://twitter.com/bhavinator?lang=en',
+    linkedin: 'https://www.linkedin.com/in/bhavinnicholasshah/',
+    detail: bhavinshah2,
   },
 
   {
@@ -1079,6 +1093,16 @@ const speaker = [
     twitter: 'https://twitter.com/tiffanyjoybasse?lang=en',
     linkedin: 'https://www.linkedin.com/in/tiffanyjoybasse/',
     detail: tiffanyjoybasse2,
+  },
+  {
+    name: 'Alekh Jindal',
+    job: 'CEO and Co-founder',
+    tip: 'Tursio',
+    image: alekhjindal,
+    website: '',
+    twitter: 'https://twitter.com/AlekhJindal',
+    linkedin: 'https://www.linkedin.com/in/alekhjindal/',
+    detail: alekhjindal2,
   },
 ];
 

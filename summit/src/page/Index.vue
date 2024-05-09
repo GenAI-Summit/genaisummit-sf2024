@@ -1,5 +1,7 @@
 <template>
   <div>
+
+    <!-- section1 start -->
     <section id="section1" :class="screenWidth > 600 ? '' : 'mb'">
       <video autoplay muted loop class="background-video">
         <source src="../assets/images/video.mp4" type="video/mp4" />
@@ -83,33 +85,39 @@
         </div>
       </div>
     </section>
+    <!-- section1 end -->
 
 
-      <section id="sponsor_section" class="cointainer">
-        <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
-          <div
-            class="left-title before"
-            :class="screenWidth > 600 ? '' : 'mb'"
-            data-aos="flip-up"
-          >
-            Sponsors
-          </div>
-          <div class="open-btn">
-            <button @click="openUrl('https://forms.gle/9pTcvfZcVEVRzmQZ8')">
-              Become Our Sponsor
-              <img src="../assets/images/general_return.png" alt="" />
-            </button>
-          </div>
+    <!-- sponsor section start -->
+    <section id="sponsor_section" class="cointainer">
+      <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
+        <div
+          class="left-title before"
+          :class="screenWidth > 600 ? '' : 'mb'"
+          data-aos="flip-up"
+        >
+          Sponsors
         </div>
-        <div class="ss-title" data-aos="flip-up">
-          CHECK WHO MAKES THIS EVENT POSSIBLE!
+        <div class="open-btn">
+          <button @click="openUrl('https://forms.gle/9pTcvfZcVEVRzmQZ8')">
+            Become Our Sponsor
+            <img src="../assets/images/general_return.png" alt="" />
+          </button>
         </div>
+      </div>
+      <div class="ss-title" data-aos="flip-up">
+        CHECK WHO MAKES THIS EVENT POSSIBLE!
+      </div>
 
-        <div class="office_content">
-          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+      <!-- diamond -->
+      <div class="office_content">
+        <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+          <div class="left">
             <div class="title_img">
               <img src="../assets/images/diam.png" alt="" />
             </div>
+          </div>
+          <div class="right">
             <div
               class="list"
               @click="openUrl('https://www.microsoft.com/en-us/')"
@@ -119,15 +127,17 @@
             </div>
           </div>
         </div>
-        <div class="office_content">
-          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+      </div>
+
+      <!-- platinum -->
+      <div class="office_content">
+        <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+          <div class="left">
             <div class="title_img">
               <img src="../assets/images/plat.png" alt="" />
             </div>
-            <!-- <div class="list" @click="openUrl('https://cloud.google.com/')">
-              <img class="d" src="../assets/images/ico_logo_g2.png" alt="" />
-              <img class="a" src="../assets/images/ico_logo_g1.png" alt="" />
-            </div> -->
+          </div>
+          <div class="right">
             <div
               class="list"
               @click="openUrl('https://aws.amazon.com/startups?lang=en-US')"
@@ -137,24 +147,24 @@
             </div>
           </div>
         </div>
+      </div>
 
 
-        <!-- gold -->
-        <div class="office_content">
-          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+      <!-- gold -->
+      <div class="office_content">
+        <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+          <div class="left">
             <div class="title_img">
               <img src="../assets/images/gold.png" alt="" />
             </div>
-            <!-- <div class="list" @click="openUrl('https://cloud.google.com/')">
-              <img class="d" src="../assets/images/ico_logo_g2.png" alt="" />
-              <img class="a" src="../assets/images/ico_logo_g1.png" alt="" />
-            </div> -->
+          </div>
+          <div class="right">
             <div
               class="list"
               @click="openUrl('https://www.ibm.com/us-en/')"
             >
-              <img class="d" src="../assets/images/sponsors/IBM2.jpg" alt="" />
-              <img class="a" src="../assets/images/sponsors/IBM2.jpg" alt="" />
+              <img class="d" src="../assets/images/sponsors/IBM_temp.jpg" alt="" />
+              <img class="a" src="../assets/images/sponsors/IBM_temp.jpg" alt="" />
             </div>
 
             <div
@@ -164,21 +174,20 @@
               <img class="d" src="../assets/images/sponsors/iobc.png" alt="" />
               <img class="a" src="../assets/images/sponsors/iobc.png" alt="" />
             </div>
-
           </div>
         </div>
+      </div>
 
 
-        <!-- silver -->
-        <div class="office_content">
-          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+      <!-- silver -->
+      <div class="office_content">
+        <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+          <div class="left">
             <div class="title_img">
               <img src="../assets/images/silver.png" alt="" />
             </div>
-            <!-- <div class="list" @click="openUrl('https://cloud.google.com/')">
-              <img class="d" src="../assets/images/ico_logo_g2.png" alt="" />
-              <img class="a" src="../assets/images/ico_logo_g1.png" alt="" />
-            </div> -->
+          </div>
+          <div class="right">
             <div
               class="list"
               @click="openUrl('https://sambanova.ai/')"
@@ -197,15 +206,32 @@
 
             <div
               class="list"
+              @click="openUrl('https://iren.com/')"
+            >
+              <img class="d" src="../assets/images/sponsors/iren.png" alt="" />
+              <img class="a" src="../assets/images/sponsors/iren.png" alt="" />
+            </div>
+
+            <div
+              class="list"
+              @click="openUrl('https://ir.yiren.com/')"
+            >
+              <img class="d" src="../assets/images/sponsors/yiren.png" alt="" />
+              <img class="a" src="../assets/images/sponsors/yiren.png" alt="" />
+            </div>
+
+            <div
+              class="list"
               @click="openUrl('https://zilliz.com/')"
             >
               <img class="d" src="../assets/images/sponsors/zilliz.png" alt="" />
               <img class="a" src="../assets/images/sponsors/zilliz.png" alt="" />
             </div>
-
           </div>
         </div>
-      </section>
+      </div>
+    </section>
+    <!-- sponsor section end -->
 
 
     <div class="bg">
@@ -258,6 +284,7 @@
         </section>
       </div>
 
+      <!-- section2 start -->
       <section id="section2" class="cointainer">
         <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
           <div
@@ -359,7 +386,9 @@
           <Swiper ref="SwiperSpeaker" />
         </div>
       </section>
+      <!-- section2 end -->
 
+      <!-- section5 start -->
       <section id="section5" class="cointainer">
         <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
           <div
@@ -406,14 +435,8 @@
         </div>
 
 
-        <!-- gold -->
         <div class="office_content">
           <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
-            
-            <!-- <div class="list" @click="openUrl('https://cloud.google.com/')">
-              <img class="d" src="../assets/images/ico_logo_g2.png" alt="" />
-              <img class="a" src="../assets/images/ico_logo_g1.png" alt="" />
-            </div> -->
             <div
               class="list"
               @click="openUrl('https://sambanova.ai/')"
@@ -473,7 +496,6 @@
               <img class="a" src="../assets/images/sponsors/jobfair.png" alt="" />
             </div>
 
-            <!-- TODO -->
             <div
               class="list"
             >
@@ -485,9 +507,9 @@
           </div>
         </div>
       </section>
+      <!-- section5 end -->
 
 
-      <!--
       <section id="section6" class="cointainer">
         <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
           <div
@@ -552,7 +574,6 @@
           </div>
         </div>
       </section>
-      -->
       
 
 
@@ -587,7 +608,8 @@
             </div>
           </div>
         </div>
-      </div> -->
+      </div>
+      -->
 
       <div class="GenAISummit" :class="screenWidth > 600 ? '' : 'mb'">
         <div class="cointainer">
@@ -771,7 +793,7 @@
 
 
         
-
+      <!-- section3 start -->
       <section id="section3" class="cointainer">
         <div class="pantners2">
         <div class="cointainer">
@@ -831,8 +853,6 @@
 
 
 
-
-
         <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
           <div
             class="left-title before"
@@ -868,10 +888,13 @@
           brochures.
         </div>
         <div class="Exhibition">
-
           <Exhibition />
         </div>
       </section>
+      <!-- section3 end -->
+
+
+
 
       <!-- Exhibition Starts Here -->
       
@@ -925,9 +948,9 @@
         </div>
       </div>
       -->
-      <section id="section4" class="cointainer">
-        <!--  -->
 
+      <!-- section4 start -->
+      <section id="section4" class="cointainer">
         <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
           <div
             class="left-title before"
@@ -948,10 +971,11 @@
             {{ list }}
           </div>
         </div>
-        <!-- <SwiperDay /> -->
         <Agenda/>
       </section>
+      <!-- section4 end -->
 
+      <!-- Event Partners -->
       <div class="pantners">
         <div class="cointainer">
           <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
@@ -1476,6 +1500,13 @@ export default {
           `../assets/images/sponsors/mountainlion.png`,
           import.meta.url
         ).href,
+        url: "https://www.puffer.fi/",
+      },
+      {
+        img: new URL(
+          `../assets/images/sponsors/puffer.png`,
+          import.meta.url
+        ).href,
         url: "https://www.mlion.ai/",
       },
       {
@@ -1534,12 +1565,17 @@ export default {
       {
         img: new URL(`../assets/images/sponsors/telus.png`, import.meta.url)
           .href,
-        url: "https://www.telusinternational.com/",
+        url: "https://telusinternational.com/aidata/",
       },
       {
         img: new URL(`../assets/images/sponsors/fivetran.png`, import.meta.url)
           .href,
         url: "https://www.fivetran.com/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/ayraa.png`, import.meta.url)
+          .href,
+        url: "https://www.ayraa.io/",
       },
       {
         img: new URL(`../assets/images/sponsors/jiffy.png`, import.meta.url)
@@ -1550,6 +1586,11 @@ export default {
         img: new URL(`../assets/images/sponsors/magstone.png`, import.meta.url)
           .href,
         url: "https://www.magstonelaw.com/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/vimmerse.png`, import.meta.url)
+          .href,
+        url: "https://www.vimmerse.net/",
       },
       {
         img: new URL(`../assets/images/sponsors/boothai.png`, import.meta.url)
@@ -1613,11 +1654,6 @@ export default {
         url: "https://www.unitree.com/",
       },
       {
-        img: new URL(`../assets/images/sponsors/vimmerse.png`, import.meta.url)
-          .href,
-        url: "https://www.vimmerse.net/",
-      },
-      {
         img: new URL(`../assets/images/sponsors/conversight.png`, import.meta.url)
           .href,
         url: "https://conversight.ai/",
@@ -1631,11 +1667,6 @@ export default {
         img: new URL(`../assets/images/sponsors/onesourcecloud.png`, import.meta.url)
           .href,
         url: "https://www.onesourcecloud.net/",
-      },
-      {
-        img: new URL(`../assets/images/sponsors/ayraa.png`, import.meta.url)
-          .href,
-        url: "https://www.ayraa.io/",
       },
       {
         img: new URL(`../assets/images/sponsors/streetbeat.png`, import.meta.url)
@@ -2787,35 +2818,67 @@ section {
 #sponsor_section {
   .office {
     display: flex;
-    /*flex-wrap: wrap;*/
+    flex-wrap: wrap;
+    align-items: flex-start;
     margin-top: 0;
-    align-items: center;
-    &.mb {
-      .list {
-        width: 25%;
-        max-width: 30%;
-        margin-bottom: 0.3rem;
-        height: 100%;
-        margin-left: 0.1rem;
-        img {
-          width: 100%;
-          height: auto;
-        }
-      }
+    .left {
+      width: 20%;
+
       .title_img {
-        width: 20%;
-        margin-bottom: 0.3rem;
+        margin-right: 0.4rem;
         img {
-          width: 100%;
+          width: 4rem;
         }
       }
     }
-    .title_img {
-      margin-right: 0.4rem;
-      img {
-        width: 4rem;
+
+    .right {
+      margin-left: 0.5rem;
+      width: 75%;
+      display: flex;
+      flex-wrap: wrap;
+
+      .list {
+        margin-left: 0rem;
+        margin-right: 0.4rem;
       }
     }
+
+    &.mb {
+      .left {
+        width: 20%;
+
+        .title_img {
+          width: 100%;
+          margin-bottom: 0.3rem;
+          img {
+            width: 100%;
+          }
+        }
+      }
+      .right {
+        margin-left: 0.4rem;
+        width: 75%;
+        display: flex;
+        flex-wrap: wrap;
+
+        .list {
+          width: 25%;
+          max-width: 30%;
+          margin-bottom: 0.3rem;
+          height: 100%;
+          margin-left: 0.1rem;
+          img {
+            width: 100%;
+            height: auto;
+          }
+        }
+
+
+      }
+    }
+
+
     .list {
       background: #ffffff;
       text-align: center;
@@ -2854,6 +2917,7 @@ section {
         }
       }
     }
+
   }
 }
 #section3 {

@@ -435,14 +435,8 @@
         </div>
 
 
-        <!-- gold -->
         <div class="office_content">
           <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
-            
-            <!-- <div class="list" @click="openUrl('https://cloud.google.com/')">
-              <img class="d" src="../assets/images/ico_logo_g2.png" alt="" />
-              <img class="a" src="../assets/images/ico_logo_g1.png" alt="" />
-            </div> -->
             <div
               class="list"
               @click="openUrl('https://sambanova.ai/')"
@@ -502,7 +496,6 @@
               <img class="a" src="../assets/images/sponsors/jobfair.png" alt="" />
             </div>
 
-            <!-- TODO -->
             <div
               class="list"
             >

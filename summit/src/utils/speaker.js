@@ -88,6 +88,7 @@ import joonarahko from '../assets/images/speakers/joonarahko.jpg';
 import tiffanyjoybasse from '../assets/images/speakers/tiffanyjoybasse.jpg';
 import kathrynwu from '../assets/images/speakers/kathrynwu.jpg';
 import londonbreed from '../assets/images/speakers/londonbreed.jpg';
+import bhavinshah from '../assets/images/speakers/bhavinshah.jpg';
 
 
 
@@ -180,6 +181,7 @@ import joonarahko2 from '../assets/images/speakers/popup/joonarahko2.png';
 import tiffanyjoybasse2 from '../assets/images/speakers/popup/tiffanyjoybasse2.png';
 import kathrynwu2 from '../assets/images/speakers/popup/kathrynwu2.png';
 import londonbreed2 from '../assets/images/speakers/popup/londonbreed2.png';
+import bhavinshah2 from '../assets/images/speakers/popup/bhavinshah2.png';
 
 
 
@@ -359,6 +361,17 @@ const speaker = [
     twitter: 'https://twitter.com/BrookeJenkinsSF',
     linkedin: 'https://www.linkedin.com/in/brooke-jenkins-41902114/',
     detail: brooke2,
+  },
+
+  {
+    name: 'Bhavin Shah',
+    job: 'CEO & Founder',
+    tip: 'Moveworks',
+    image: bhavinshah,
+    website: '',
+    twitter: 'https://twitter.com/bhavinator?lang=en',
+    linkedin: 'https://www.linkedin.com/in/bhavinnicholasshah/',
+    detail: bhavinshah2,
   },
 
   {

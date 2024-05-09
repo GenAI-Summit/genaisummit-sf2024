@@ -198,7 +198,7 @@ export default {
             <br/><br/><br/>
           4. Fireside Chat 11:15-12:00: GenAI Venture Investment Landscape 2.0 
             <br/><br/>&nbsp&nbsp 
-            - (Dr. Michael Stewart, Managing Partner @M12)
+            - (Dr. Michael Stewart, Managing Partner @M12) | (Moderated by Nathan Lile, CEO Synth Labs)
             <br/><br/><br/>
           5. Panel Discussion 13:00-13:45: Harnessing the Power of LLM for Super Agents: Capabilities, Challenges, and Future Prospects 
             <br/><br/>&nbsp&nbsp 

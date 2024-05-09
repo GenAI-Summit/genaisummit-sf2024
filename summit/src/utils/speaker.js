@@ -82,7 +82,7 @@ import brooke from '../assets/images/speakers/brooke.jfif';
 import huang from '../assets/images/speakers/huang.jfif';
 import jon from '../assets/images/speakers/jon.png';
 import mccauley from '../assets/images/speakers/Mccauley.jpg';
-import rodrigoliang from '../assets/images/speakers/rodrigoliang.jpeg';
+import rodrigoliang from '../assets/images/speakers/rodrigoliang.jpg';
 import geraldparloiu from '../assets/images/speakers/geraldparloiu.jpg';
 import joonarahko from '../assets/images/speakers/joonarahko.jpg';
 import tiffanyjoybasse from '../assets/images/speakers/tiffanyjoybasse.jpg';

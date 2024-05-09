@@ -517,7 +517,6 @@
       <!-- section5 end -->
 
 
-      <!--
       <section id="section6" class="cointainer">
         <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
           <div
@@ -582,7 +581,6 @@
           </div>
         </div>
       </section>
-      -->
       
 
 

@@ -436,6 +436,7 @@ const speaker = [
   */
   
 
+  /*
   {
     name: 'Pankaj Dugar',
     job: 'SVP & GM, North America',
@@ -446,6 +447,7 @@ const speaker = [
     twitter: '',
     detail: dugar2,
   },
+  */
  
   {
     name: 'Dr. Alexander Ratner',

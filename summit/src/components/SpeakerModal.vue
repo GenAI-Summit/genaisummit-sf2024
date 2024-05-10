@@ -116,10 +116,11 @@ export default {
 
         .name {
           margin-top: 0;
+          font-size: 8.5cqw;
+          line-height: 1em;
 
           .name-text {
             font-size: 8.5cqw;
-            line-height: 1;
             font-weight: bold;
             color: #00a1f0;
             font-family: "Noto Sans TC", sans-serif;
@@ -128,10 +129,11 @@ export default {
 
         .job {
           margin-top: 1%;
+          font-size: 5cqw;
+          line-height: 1.2em;
 
           .job-text {
             font-size: 5cqw;
-            line-height: 1.2em;
             color: white;
             font-family: "Noto Sans TC", sans-serif;
           }
@@ -139,6 +141,8 @@ export default {
 
         .tip {
           margin-top: 1%;
+          font-size: 5cqw;
+          line-height: 1em;
 
           .tip-text {
             font-size: 5cqw;
@@ -149,14 +153,24 @@ export default {
         }
 
         .description {
-          margin-top: 2%;
+          margin-top: 3%;
           height: 73%;
+          line-height: 1.2em;
+          font-size: 4.2cqw;
 
           .description-text {
-            font-size: 3.5cqw;
-            line-height: 1.2em;
+            font-size: 4.2cqw;
             color: white;
             font-family: "Noto Sans TC", sans-serif;
+
+            /*
+            @container (width >= 700px) {
+              .text-overlay {
+                --scale-factor: 1.2;
+              }
+            }
+            */
+
           }
         }
       }

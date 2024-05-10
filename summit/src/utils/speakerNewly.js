@@ -185,7 +185,6 @@ const speakerNewly = [
     twitter: 'https://twitter.com/bhavinator?lang=en',
     linkedin: 'https://www.linkedin.com/in/bhavinnicholasshah/',
     detail: bhavinshah2,
-    description: ``,
   },
   {
     name: 'London Breed',

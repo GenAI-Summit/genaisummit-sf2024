@@ -673,15 +673,6 @@ const speakerNewly = [
     linkedin: 'https://www.linkedin.com/in/denisyarats/',
     detail: dr_denis_yarats2,
   },
-
-  {
-    name: 'Dr. Ganapathy Krishnan',
-    job: 'VP & Science Fellow',
-    tip: 'ServiceNow',
-    image: ganapathy,
-    linkedin: 'https://www.linkedin.com/in/ganapathykrishnan/',
-    detail: ganapathy2,
-  },
   {
     name: 'Kevin McNamara',
     job: 'CEO and Founder',

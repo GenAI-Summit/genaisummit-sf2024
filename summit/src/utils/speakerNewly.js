@@ -545,6 +545,7 @@ const speakerNewly = [
   //   detail: tomlee2,
   // },
 
+  /*
   {
     name: 'Dr. George Sivulka',
     job: 'Founder & CEO',
@@ -555,6 +556,7 @@ const speakerNewly = [
     website: '',
     detail: george2,
   },
+  */
   {
     name: 'Swapnil Jain',
     job: 'CEO & Co-Founder',

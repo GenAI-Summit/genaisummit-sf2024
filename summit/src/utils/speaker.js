@@ -613,6 +613,7 @@ const speaker = [
     twitter: 'https://twitter.com/yaronsinger?lang=en',
     detail: yaron2,
   },
+  /*
   {
     name: 'Dr. George Sivulka',
     job: 'Founder & CEO',
@@ -623,6 +624,7 @@ const speaker = [
     website: '',
     detail: george2,
   },
+  */
   
   {
     name: 'Dr. Muddu Sudhakar',

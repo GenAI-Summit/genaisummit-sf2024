@@ -774,17 +774,6 @@ const speaker = [
     detail: langchain2,
   },
   {
-    name: 'Dr. Ganapathy Krishnan',
-    job: 'VP & Science Fellow',
-    tip: 'ServiceNow',
-    image: ganapathy,
-    website: '',
-    linkedin: 'https://www.linkedin.com/in/ganapathykrishnan/',
-    twitter: '',
-    detail: ganapathy2,
-  },
-
-  {
     name: 'Ed Roman',
     job: 'Managing Partner',
     tip: 'Hack VC',

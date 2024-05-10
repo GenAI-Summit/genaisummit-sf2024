@@ -152,7 +152,7 @@ export default {
             <br/><br/><br/>
           6. Panel Discussion 14:30-15:15: How AI Is Reshaping the Service in Medicine and Healthcare
             <br/><br/>&nbsp&nbsp 
-            - (Shiv Rao, CEO @Abridge) | (Zack Lipton, CTO @Abridge), (Ganapathy Krishnan, VP & Science Fellow @ServiceNow, Ankit Jain, CEO @Infinitus), (Movework)
+            - (Shiv Rao, CEO @Abridge) | (Zack Lipton, CTO @Abridge), (Ankit Jain, CEO @Infinitus), (Movework)
             <br/><br/><br/>
           7. Panel Discussion 15:15-16:00: A New Renaissance in Art & Design
             <br/><br/>&nbsp&nbsp 

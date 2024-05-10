@@ -1029,6 +1029,8 @@
         </div>
       </div>
 
+      <SpeakerModal ref="speakerModal" />
+
       <div class="mbBuyTickets" v-if="screenWidth < 600">
         <div class="innerTickets">
           <div class="ticketsBtn">
@@ -1068,12 +1070,13 @@ import Swiper from "../components/Swiper.vue";
 import Exhibition from "../components/Exhibition.vue";
 import StarBackground from "../components/StarBackground.vue";
 import Agenda from "../components/Agenda.vue";
+import SpeakerModal from "../components/SpeakerModal.vue";
 
 import speakers from "../utils/speaker";
 import speakersK12 from "../utils/speakerK12";
 import EventBus from "../utils/EventBus.js";
 import { useRoute } from "vue-router";
-
+t
 import { toUpper } from "lodash";
 import icon1 from "../assets/images/icon-n.1.png";
 import icon2 from "../assets/images/icon-n.2.png";
@@ -1098,6 +1101,9 @@ export default {
     const speakerList = ref(null);
     const speakerK12List = ref(null);
     const Exhibition = ref(null);
+
+    const speakerModal = ref(null);
+
     const numberList = ref([
       {
         tip: "Attendees",
@@ -1196,6 +1202,10 @@ export default {
       heightStyle.value.height = "16rem";
     };
 
+    const handleModal = (item) => {
+      speakerModal.value.openModal(item);
+    };
+
     const showAllExhibition = ref(false)
     const moreHanleExhibition = () => {
       showAllExhibition.value = true;
@@ -1248,6 +1258,7 @@ export default {
     };
     let intervalId;
     onMounted(() => {
+      EventBus.$on("handleModal", handleModal);
       EventBus.$on("openDialog", openDialog);
       EventBus.$on("pageInfo", setPageInfo);
       clearInterval(intervalId);
@@ -1273,6 +1284,7 @@ export default {
     onUnmounted(() => {
       EventBus.$off("pageInfo", setPageInfo);
       EventBus.$off("openDialog", openDialog);
+      EventBus.$off("handleModal", handleModal);
     });
 
     const OutlineList = ref([
@@ -1923,6 +1935,7 @@ export default {
       BuyTickets,
       screenWidth,
       BuyTicketsLuma,
+      speakerModal,
     };
   },
   components: {
@@ -1932,6 +1945,7 @@ export default {
     Exhibition,
     StarBackground,
     Agenda,
+    SpeakerModal,
   },
   methods: {},
   mounted() {},
@@ -3323,8 +3337,8 @@ section {
   width: 100vw;
   height: 100vh;
   background: rgba(0, 0, 0, 0.8);
-  backdrop-filter: blur(10px); /* 模糊效果，可以调整模糊程度 */
-  -webkit-backdrop-filter: blur(10px); /* Safari 支持 */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* Safari Support */
   .img-content {
     width: 100%;
     height: 100%;

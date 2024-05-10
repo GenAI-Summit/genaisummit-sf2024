@@ -6,7 +6,7 @@
             <div class="name">{{ item.name }}</div>
             <div class="job">{{ item.job }}</div>
             <div class="job">{{ item.tip }}</div>
-            <button class="Introduction" @click="openDialog(item.detail)">Introduction</button>
+            <button class="Introduction" @click="openModal(item)">Introduction</button>
         </div>
     </div>
     <div class="contact" data-aos="fade-up">
@@ -34,10 +34,14 @@ export default {
     const openDialog = (url) => {
       EventBus.$emit("openDialog", url);
     }
+    const openModal = (item) => {
+      EventBus.$emit("handleModal", item);
+    }
     return {
-        item,
-        openUrl,
-        openDialog,
+      item,
+      openUrl,
+      openDialog,
+      openModal,
     } 
   },
   components: {

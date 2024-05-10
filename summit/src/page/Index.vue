@@ -1076,7 +1076,7 @@ import speakers from "../utils/speaker";
 import speakersK12 from "../utils/speakerK12";
 import EventBus from "../utils/EventBus.js";
 import { useRoute } from "vue-router";
-t
+
 import { toUpper } from "lodash";
 import icon1 from "../assets/images/icon-n.1.png";
 import icon2 from "../assets/images/icon-n.2.png";

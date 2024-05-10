@@ -176,7 +176,7 @@ import bhavinshah2 from '../assets/images/speakers/popup/bhavinshah2.png';
 
 const speakerNewly = [
       
-    {
+  {
     name: 'Bhavin Shah',
     job: 'CEO & Founder',
     tip: 'Moveworks',
@@ -185,8 +185,8 @@ const speakerNewly = [
     twitter: 'https://twitter.com/bhavinator?lang=en',
     linkedin: 'https://www.linkedin.com/in/bhavinnicholasshah/',
     detail: bhavinshah2,
+    description: ``,
   },
-
   {
     name: 'London Breed',
     job: 'Mayor',

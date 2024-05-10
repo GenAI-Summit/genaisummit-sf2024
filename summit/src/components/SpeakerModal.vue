@@ -2,24 +2,37 @@
   <div class="modal" v-if="visible" @click="closeModal">
     <div class="img-content">
       <div class="detail" :style="style" @click.stop>
-        <div class="text-overlay">
-          <p class="name">{{ speaker.name }}</p>
-          <p class="job">{{ speaker.job }}</p>
-          <p class="tip">{{ speaker.tip }}</p>
-          <p class="description">{{ "description..." }}</p>
+        <div
+          class="text-overlay"
+          :class="screenWidth < 600 ? 'mb' : ''"
+        >
+          <div class="name">
+            <span class="name-text">{{ speaker.name }}</span>
+          </div>
+          <div class="job">
+            <span class="job-text">{{ speaker.job }}</span>
+          </div>
+          <div class="tip">
+            <span class="tip-text">@{{ speaker.tip }}</span>
+          </div>
+          <div class="description">
+            <span class="description-text">{{ speaker.description }}</span>
+          </div>
         </div>
-        <img class="info" :src="speaker.detail" alt="" />
+        <img class="info" :src="speaker.detail" alt="" unselectable="on" />
         <div class="setting">
           <img
             src="../assets/images/close.png"
             @click="closeModal"
             alt=""
+            unselectable="on"
           />
           <img
             src="../assets/images/all.png"
             alt=""
             @click.stop="pullAll"
-            v-if="!pullAllStatus"
+            v-if="!pullAllStatus && screenWidth > 700"
+            unselectable="on"
           />
         </div>
       </div>
@@ -33,10 +46,10 @@ import { useStore } from "vuex";
 
 export default {
   setup() {
-    const style = ref({ width: "50%" });
     const store = useStore();
     const screenWidth = computed(() => store.state.screenWidth);
-    return { 
+    const style = ref({ width: screenWidth.value < 700 ? "100%" : "50%" });
+    return {
       style,
       screenWidth 
     };
@@ -79,7 +92,7 @@ export default {
   height: 100vh;
   background: rgba(0, 0, 0, 0.8);
   backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px); /* Safari Support */
+  -webkit-backdrop-filter: blur(10px);
   .img-content {
     width: 100%;
     height: 100%;
@@ -89,16 +102,63 @@ export default {
     .detail {
 
       .text-overlay {
+        container: text-overlay / size;
         position: absolute;
-        top: 50%;  /* Adjust this value to position vertically */
-        left: 50%;
-        transform: translateX(-50%);
+        top: 11%;
+        left: 49%;
+        width: 50%;
+        height: 89%;
         color: white;
-        font-size: 1rem; /* Large text size */
-        font-weight: bold;
-        text-align: center;
-        z-index: 10;  /* Ensures text is above the image */
-        width: 90%;  /* Adjust width as needed */
+        align-items: left;
+        background-color: black;
+        padding-left: 10px;
+        z-index: 10;
+
+        .name {
+          margin-top: 0;
+
+          .name-text {
+            font-size: 8.5cqw;
+            line-height: 1;
+            font-weight: bold;
+            color: #00a1f0;
+            font-family: "Noto Sans TC", sans-serif;
+          }
+        }
+
+        .job {
+          margin-top: 1%;
+
+          .job-text {
+            font-size: 5cqw;
+            line-height: 1.2em;
+            color: white;
+            font-family: "Noto Sans TC", sans-serif;
+          }
+        }
+
+        .tip {
+          margin-top: 1%;
+
+          .tip-text {
+            font-size: 5cqw;
+            line-height: 1;
+            color: white;
+            font-family: "Noto Sans TC", sans-serif;
+          }
+        }
+
+        .description {
+          margin-top: 2%;
+          height: 73%;
+
+          .description-text {
+            font-size: 3.5cqw;
+            line-height: 1.2em;
+            color: white;
+            font-family: "Noto Sans TC", sans-serif;
+          }
+        }
       }
 
       position: relative;
@@ -106,6 +166,7 @@ export default {
       max-height: 100%;
       .info {
         width: 100%;
+        display: block;
       }
       .setting {
         position: absolute;

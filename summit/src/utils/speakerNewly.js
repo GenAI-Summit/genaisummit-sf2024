@@ -545,6 +545,7 @@ const speakerNewly = [
   //   detail: tomlee2,
   // },
 
+  /*
   {
     name: 'Dr. George Sivulka',
     job: 'Founder & CEO',
@@ -555,6 +556,7 @@ const speakerNewly = [
     website: '',
     detail: george2,
   },
+  */
   {
     name: 'Swapnil Jain',
     job: 'CEO & Co-Founder',
@@ -670,15 +672,6 @@ const speakerNewly = [
     twitter: 'https://twitter.com/denisyarats',
     linkedin: 'https://www.linkedin.com/in/denisyarats/',
     detail: dr_denis_yarats2,
-  },
-
-  {
-    name: 'Dr. Ganapathy Krishnan',
-    job: 'VP & Science Fellow',
-    tip: 'ServiceNow',
-    image: ganapathy,
-    linkedin: 'https://www.linkedin.com/in/ganapathykrishnan/',
-    detail: ganapathy2,
   },
   {
     name: 'Kevin McNamara',

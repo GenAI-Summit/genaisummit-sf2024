@@ -77,10 +77,12 @@
 
           <div class="item_bg_box">
             <img src="../assets/images/micro_logo.png" alt="" />
+            <!--
             <div class="more" @click="goPageHandle">
               more
               <img src="../assets/images/down_more.png" alt="" />
             </div>
+            -->
           </div>
         </div>
       </div>

@@ -89,6 +89,8 @@ import kathrynwu from '../assets/images/speakers/kathrynwu.jpg';
 import londonbreed from '../assets/images/speakers/londonbreed.jpg';
 import bhavinshah from '../assets/images/speakers/bhavinshah.jpg';
 import alekhjindal from '../assets/images/speakers/alekhjindal.jpg';
+import monicazou from '../assets/images/speakers/monicazou.jpg';
+import clairexie from '../assets/images/speakers/clairexie.jpg';
 
 
 
@@ -183,6 +185,8 @@ import kathrynwu2 from '../assets/images/speakers/popup/kathrynwu2.png';
 import londonbreed2 from '../assets/images/speakers/popup/londonbreed2.png';
 import bhavinshah2 from '../assets/images/speakers/popup/bhavinshah2.png';
 import alekhjindal2 from '../assets/images/speakers/popup/alekhjindal2.png';
+import monicazou2 from '../assets/images/speakers/popup/monicazou2.png';
+import clairexie2 from '../assets/images/speakers/popup/clairexie2.png';
 
 
 
@@ -1096,6 +1100,26 @@ const speaker = [
     twitter: 'https://twitter.com/AlekhJindal',
     linkedin: 'https://www.linkedin.com/in/alekhjindal/',
     detail: alekhjindal2,
+  },
+  {
+    name: 'Monica Zou',
+    job: 'CMO',
+    tip: 'DEKUBE',
+    image: monicazou,
+    website: '',
+    twitter: 'https://twitter.com/MZCrypto3',
+    linkedin: 'https://www.linkedin.com/in/zhixin-monica-zou/',
+    detail: monicazou2,
+  },
+  {
+    name: 'Claire Xie',
+    job: 'Founder & CEO',
+    tip: 'Clink AI',
+    image: clairexie,
+    website: '',
+    twitter: 'https://twitter.com/claire_xiee',
+    linkedin: 'https://www.linkedin.com/in/clairexiee/',
+    detail: clairexie2,
   },
 ];
 

@@ -84,7 +84,8 @@ import jon from '../assets/images/speakers/jon.png';
 import geraldparloiu from '../assets/images/speakers/geraldparloiu.jpg';
 import londonbreed from '../assets/images/speakers/londonbreed.jpg';
 import bhavinshah from '../assets/images/speakers/bhavinshah.jpg';
-
+import monicazou from '../assets/images/speakers/monicazou.jpg';
+import clairexie from '../assets/images/speakers/clairexie.jpg';
 
 
 
@@ -172,11 +173,32 @@ import jon2 from '../assets/images/speakers/popup/jon.png';
 import geraldparloiu2 from '../assets/images/speakers/popup/geraldparloiu2.png';
 import londonbreed2 from '../assets/images/speakers/popup/londonbreed2.png';
 import bhavinshah2 from '../assets/images/speakers/popup/bhavinshah2.png';
+import monicazou2 from '../assets/images/speakers/popup/monicazou2.png';
+import clairexie2 from '../assets/images/speakers/popup/clairexie2.png';
 
 
 const speakerNewly = [
-      
-    {
+  {
+    name: 'Claire Xie',
+    job: 'Founder & CEO',
+    tip: 'Clink AI',
+    image: clairexie,
+    website: '',
+    twitter: 'https://twitter.com/claire_xiee',
+    linkedin: 'https://www.linkedin.com/in/clairexiee/',
+    detail: clairexie2,
+  },
+  {
+    name: 'Monica Zou',
+    job: 'CMO',
+    tip: 'DEKUBE',
+    image: monicazou,
+    website: '',
+    twitter: 'https://twitter.com/MZCrypto3',
+    linkedin: 'https://www.linkedin.com/in/zhixin-monica-zou/',
+    detail: monicazou2,
+  },
+  {
     name: 'Bhavin Shah',
     job: 'CEO & Founder',
     tip: 'Moveworks',

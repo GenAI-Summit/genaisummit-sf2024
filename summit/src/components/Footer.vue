@@ -16,8 +16,8 @@
           <div class="list">We sincerely invite you to join us, bring your creativity and ideas, and explore the future of generative AI together. Please contact us for more information.</div>
           <div class="list">
             <img class="icon" @click="openUrl('https://www.gptdao.ai/')" src="../assets/images/site_icon.png" alt="">
-            <img class="icon" @click="openUrl('https://twitter.com/GPTDAOGLOBAL')" src="../assets/images/x_icon.png" alt="">
-            <img class="icon" @click="openUrl('https://www.linkedin.com/company/92606371/admin/feed/posts/')" src="../assets/images/linkedin_icon.png" alt="">
+            <img class="icon" @click="openUrl('https://twitter.com/genaisummitsf')" src="../assets/images/x_icon.png" alt="">
+            <img class="icon" @click="openUrl('https://www.linkedin.com/company/gptdao/posts/?feedView=all')" src="../assets/images/linkedin_icon.png" alt="">
             <img class="icon" @click="openUrl('https://www.facebook.com/gptdaoai/')" src="../assets/images/fb_icon.png" alt="">
             <img class="icon" @click="openUrl('https://www.instagram.com/genaisummit.xyz')" src="../assets/images/ig_icon.png" alt="">
           </div>

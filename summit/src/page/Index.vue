@@ -167,8 +167,8 @@
               class="list"
               @click="openUrl('https://www.ibm.com/us-en/')"
             >
-              <img class="d" src="../assets/images/sponsors/IBM_temp.jpg" alt="" />
-              <img class="a" src="../assets/images/sponsors/IBM_temp.jpg" alt="" />
+              <img class="d" src="../assets/images/sponsors/IBM_temp.png" alt="" />
+              <img class="a" src="../assets/images/sponsors/IBM_temp.png" alt="" />
             </div>
 
             <div

@@ -144,7 +144,7 @@
           <div class="right">
             <div
               class="list"
-              @click="openUrl('https://aws.amazon.com/startups?lang=en-US')"
+              @click="openUrl('https://www.amazon.com/')"
             >
               <img class="d" src="../assets/images/sponsors/amazon.png" alt="" />
               <img class="a" src="../assets/images/sponsors/amazon.png" alt="" />
@@ -429,10 +429,10 @@
             </div>
             <div
               class="list"
-              @click="openUrl('https://aws.amazon.com/startups?lang=en-US')"
+              @click="openUrl('https://www.amazon.com/')"
             >
-              <img class="d" src="../assets/images/sponsors/aws.png" alt="" />
-              <img class="a" src="../assets/images/sponsors/aws.png" alt="" />
+              <img class="d" src="../assets/images/sponsors/amazon.png" alt="" />
+              <img class="a" src="../assets/images/sponsors/amazon.png" alt="" />
             </div>
 
           </div>
@@ -1808,10 +1808,10 @@ export default {
       },
       {
         img: new URL(
-          `../assets/images/sponsors/aws.png`,
+          `../assets/images/sponsors/amazon.png`,
           import.meta.url
         ).href,
-        url: "https://aws.amazon.com/startups?lang=en-US",
+        url: "https://www.amazon.com/",
       },
       {
         img: new URL(
@@ -2835,7 +2835,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    margin-top: 0;
+    margin-top: 0.1rem;
     .left {
       width: 20%;
 
@@ -3134,11 +3134,11 @@ section {
         z-index: -1;
         &.d {
           display: block;
-          border-radius: 1.5rem;
+          /*border-radius: 1.5rem;*/
         }
         &.a {
           display: none;
-          border-radius: 1.5rem;
+          /*border-radius: 1.5rem;*/
         }
       }
       &:hover {

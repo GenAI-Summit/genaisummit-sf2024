@@ -112,6 +112,7 @@
       </div>
 
       <!-- diamond -->
+      <!--
       <div class="office_content">
         <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
           <div class="left">
@@ -130,6 +131,7 @@
           </div>
         </div>
       </div>
+      -->
 
       <!-- platinum -->
       <div class="office_content">
@@ -144,8 +146,8 @@
               class="list"
               @click="openUrl('https://aws.amazon.com/startups?lang=en-US')"
             >
-              <img class="d" src="../assets/images/sponsors/aws.png" alt="" />
-              <img class="a" src="../assets/images/sponsors/aws.png" alt="" />
+              <img class="d" src="../assets/images/sponsors/amazon.png" alt="" />
+              <img class="a" src="../assets/images/sponsors/amazon.png" alt="" />
             </div>
           </div>
         </div>
@@ -473,31 +475,31 @@
             </div>
             <div
               class="list"
-            
             >
-              <img class="d" src="../assets/images/sponsors/play.png" alt="" />
-              <img class="a" src="../assets/images/sponsors/play.png" alt="" />
+              <img class="d" src="../assets/images/sponsors/jobfair.png" alt="" />
+              <img class="a" src="../assets/images/sponsors/jobfair.png" alt="" />
             </div>
 
             
           </div>
         </div>
 
+        <!--
         <div class="office_content">
           <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
             
-            <!-- <div class="list" @click="openUrl('https://cloud.google.com/')">
+            <div class="list" @click="openUrl('https://cloud.google.com/')">
               <img class="d" src="../assets/images/ico_logo_g2.png" alt="" />
               <img class="a" src="../assets/images/ico_logo_g1.png" alt="" />
-            </div> -->
+            </div> 
+
             <div
               class="list"
-             
+            
             >
-              <img class="d" src="../assets/images/sponsors/jobfair.png" alt="" />
-              <img class="a" src="../assets/images/sponsors/jobfair.png" alt="" />
+              <img class="d" src="../assets/images/sponsors/play.png" alt="" />
+              <img class="a" src="../assets/images/sponsors/play.png" alt="" />
             </div>
-
             <div
               class="list"
             >
@@ -508,6 +510,7 @@
             
           </div>
         </div>
+        -->
       </section>
       <!-- section5 end -->
 

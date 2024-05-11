@@ -210,7 +210,7 @@ export default {
             <br/><br/><br/>
           7. Panel Discussion 14:30-15:15: Identifying Unicorns: How can VCs spot the next big thing in GenAI?
             <br/><br/>&nbsp&nbsp 
-            - (Huang @IOBC), (Jon Shalowitz, Managing Partner @Obvious Ventures) | (Ed Roman, Managing Partner @Hack VC)
+            - (Jingsheng Huang, Director @Yiren Digital), (Jon Shalowitz, Managing Partner @Obvious Ventures) | (Ed Roman, Managing Partner @Hack VC) | (Matthew Stepka, Founder & Managing Partner @Machina Ventures)
             <br/><br/><br/>
           8. Panel Discussion 16:00-16:45: From Sci-Fi Dreams to Sustainable Solutions: GenAI for a Better World
         `,

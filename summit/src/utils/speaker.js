@@ -656,7 +656,7 @@ const speaker = [
     twitter: 'https://twitter.com/comet_ai',
     linkedin: 'https://www.linkedin.com/in/gideon-mendels/',
     detail: gideon2,
-    description: `Gideon Mendels, Co-Founder & CEO of Comet ML, developed the platform to transform machine learning by improving efficiency, transparency, and reproducibility from training to production. Previously a data scientist specializing in NLP at Columbia, Groupwize, and Google, he founded Comet after experiencing challenges with undocumented models. Comet has raised $70 million.`,
+    description: `Gideon Mendels is the Co-Founder & CEO of Comet ML, a platform transforming machine learning similar to how GitHub revolutionized code management. Prior to Comet, he was a data scientist at Columbia University, Groupwize, and Google, primarily working on NLP tasks such as document classification and language modeling. He often faced challenges with machine learning projects lacking documentation on prior models, which led to the inspiration for Comet. Comet ML has raised $70 million in funding to enhance efficiency, transparency, and reproducibility from training to production in machine learning workflows.`,
   },
   {
     name: 'Sharan Narang',
@@ -986,7 +986,7 @@ const speaker = [
     twitter: 'https://twitter.com/gregtanaka?lang=en',
     linkedin: 'https://www.linkedin.com/in/gltanaka/',
     detail: greg2,
-    description: `Councilmember Greg Tanaka, a 15-year veteran in Palo Alto politics, is known for his commitment to Silicon Valley's innovative spirit and community service. Elected to the City Council in 2016, he advocates for business-friendly and financially sound policies. Recognized for his ‘office hours’ with constituents, Tanaka emphasizes transparency and public input. During the pandemic, he focused on revitalizing the local economy. His inclusive governance approach, which garnered 400 endorsements in his 2020 re-election, reflects his ambition to represent Silicon Valley in Congress.`,
+    description: `Greg Tanaka, a 15-year veteran in Palo Alto politics, is known for his commitment to Silicon Valley's innovative spirit and community service. Elected to the City Council in 2016, he advocates for business-friendly and financially sound policies. Recognized for his ‘office hours’ with constituents, Tanaka emphasizes transparency and public input. During the pandemic, he focused on revitalizing the local economy. His inclusive governance approach, which garnered 400 endorsements in his 2020 re-election, reflects his ambition to represent Silicon Valley in Congress.`,
   },
   {
     name: 'Joona Rahko',
@@ -997,7 +997,7 @@ const speaker = [
     twitter: '',
     linkedin: 'https://www.linkedin.com/in/joona-rahko-82757794/',
     detail: joonarahko2,
-    description: `Councilmember Greg Tanaka, with 15 years in Palo Alto politics, advocates for business-friendly policies on the City Council since 2016. Known for his constituent ‘office hours,’ he emphasizes transparency and public input. During the pandemic, he focused on economic revitalization, earning 400 endorsements in his 2020 re-election bid for Congress.`,
+    description: `Joona leads development at Layer AI, focusing on compliant gen-AI for game studios. Previously a Principal Engineer at Unity, he launched Unity Cloud and Gaming Services. Joona, a former entrepreneur and professional athlete, now helps game developers enhance art pipelines, scale content, and cut production time.`,
   },
   {
     name: 'Kathryn Wu',

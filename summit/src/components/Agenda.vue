@@ -145,29 +145,26 @@ export default {
             <br/><br/>&nbsp&nbsp
             - (Jim Fan, Research Manager & Lead of Embodied AI @NVIDIA)
             <br/><br/><br/>
-          2. Keynote 09:45-10:30: How Far is Grok towards the Understanding of the Universe
-            <br/><br/>&nbsp&nbsp 
-            - (Dr. Yuhuai Wu, Co-Founder @xAI)
+          2. Keynote 09:45-10:30: Transforming Business Processes with LLM: Opportunities and Challenges
+          3. Panel Discussion 11:00-11:45: A Deep Dive into the State-of-the-Art LLMs
+            <br/><br/>&nbsp&nbsp
+            - (Devendra Chaplot, AI Research Scientist @Mistral AI) | (Sharan Narang, Co-Author @LLAMA3 & 2) | (Yuhuai Wu, Co-Founder @xAI)
             <br/><br/><br/>
-          3. Keynote 10:30-11:15: Optimizing Enterprise Systems through Integration of LLM
+          4. Keynote 13:00-13:45: Optimizing Enterprise Systems through Integration of LLM
             <br/><br/>&nbsp&nbsp 
             - (Arvind Jain, CEO @Glean)
             <br/><br/><br/>
-          4. Panel Discussion 13:00-13:45: A Deep Dive into the State-of-the-Art LLMs
-            <br/><br/>&nbsp&nbsp
-            - (Devendra Chaplot, AI Research Scientist @Mistral AI) | (Sharan Narang, Co-Author @LLAMA3 & 2)
-            <br/><br/><br/>
           5. Panel Discussion 13:45-14:30: Conversational AI in Sales and Marketing
             <br/><br/>&nbsp&nbsp 
-            - (Jim Palmer, Chief AI Officer @Dialpad) | (Yaniv Makover, CEO @Anyword) | (Chen Xi, Professor @NYU) | (Prof Andreas Ramos @Arcticider.ai)
+            - (Jim Palmer, Chief AI Officer @Dialpad) | (Yaniv Makover, CEO @Anyword) | (Prof. Chen Xi, Professor @NYU) | (Prof. Andreas Ramos, Advisor@ArcticEider.ai)
             <br/><br/><br/>
           6. Panel Discussion 14:30-15:15: How AI Is Reshaping the Service in Medicine and Healthcare
             <br/><br/>&nbsp&nbsp 
-            - (Shiv Rao, CEO @Abridge) | (Zack Lipton, CTO @Abridge), (Ankit Jain, CEO @Infinitus), (Movework)
+            - (Zachary Lipton, CTO @Abridge), (Ankit Jain, CEO @Infinitus)
             <br/><br/><br/>
-          7. Panel Discussion 15:15-16:00: A New Renaissance in Art & Design
+          7. Fireside Chat 15:15-16:00: A New Renaissance in Art & Design
             <br/><br/>&nbsp&nbsp 
-            - (Tony Beltramelli, CEO @UIzard Technolog) | (Colin Zhao @Google)
+            - (Tony Beltramelli, CEO @UIzard Technolog) | (Colin Zhao, Director@Google)
             <br/><br/><br/>
           8. Panel Discussion 16:00-16:45: The Impact of AI on Privacy and Data Security
         `,
@@ -258,21 +255,24 @@ export default {
             <br/><br/><br/>
           6. Panel Discussion 13:00-13:45: AI for Good: Social and Humanitarian Applications 
             <br/><br/>&nbsp&nbsp 
-            - (Muddu Sudhakar, CEO @CEAISERA) | (Eddie Aftandilian, Principal Researcher @Github), (Kevin Moody, CEO @Mem Labs)
+            - (Muddu Sudhakar, CEO @CEAISERA) | (Bhavin Shah, CEO & Founder @Moveworks), (Kevin Moody, CEO @Mem Labs)
             <br/><br/><br/>
           7. Panel Discussion 13:45-14:30: Pioneering Women in Generative AI 
             <br/><br/>&nbsp&nbsp 
-            - (Rashmi Misra, Chief AI Officer @Analog Device)
+            - (Rashmi Misra, Chief AI Officer @Analog Device) | (Jia Li, Co-Founder, Chief AI Officer & President@LiveX.AI) | (Prof. Raluca Ada Popa, Professor @UC Berkeley) | (Rochelle Mattern, Director of Solutions Engineering @SambaNova)
             <br/><br/><br/>
           8. Panel Discussion 14:30-15:15: The World of Customer Support with AI Agents
             <br/><br/>&nbsp&nbsp 
-            - (Jia Li, Co-Founder, CAIO & President @LiveX.AI) | (Swapnil Jain, CEO @Observe.ai) | (Tim Shi, CTO @Cresta.AI), (Henry Peter, CTO & Co-Founder @Ushur)
+            - (Jia Li, Co-Founder, Chief AI Officer & President@LiveX.AI) | (Swapnil Jain, CEO @Observe.ai) | (Tim Shi, CTO @Cresta.AI), (Henry Peter, CTO & Co-Founder @Ushur)
             <br/><br/><br/>
           9. Panel Discussion 15:15-16:00: LLM Safety and Security 
             <br/><br/>&nbsp&nbsp 
-            - (Yaron Singer, CEO @Robust Intelligence), (Raluca Ada Popa, Professor @UC Berkeley), (Soumya Batra, Co-Author @LLAMA2)
+            - (Yaron Singer, CEO @Robust Intelligence), (Prof. Raluca Ada Popa, Professor @UC Berkeley), (Soumya Batra, Co-Author @LLAMA2)
             <br/><br/><br/>
           10. Panel Discussion 16:00-16:45: AI-Powered Personalization
+            <br/><br/>&nbsp&nbsp 
+            (Yichong Xu, AI Researcher @character.ai) | (Jack J. McCauley, Former Co-Founder & Engineer @Oculus VR))
+            <br/><br/><br/>
         `,
       },
       {
@@ -335,27 +335,30 @@ export default {
       {
         title: "Theater",
         content: `
-          1. Keynote 09:00-09:45: Lightning Speed AI Inference to understand profoundly and intuitively 
+          1. Keynote 09:00-09:45: Will be provided by Speaker soon 
+            <br/><br/>&nbsp&nbsp 
+            - (Joel Hellermark, Founder and CEO @Sana)
             <br/><br/><br/>
-          2. Keynote 09:45-10:30: Will be provided by Speaker soon 
+          2. Keynote 09:45-10:30: Lightning Speed AI Inference to understand profoundly and intuitively
             <br/><br/><br/>
-          3. Keynote 10:30-11:15: AI in Manufacturing: Automation and Efficiency 
-            <br/><br/><br/>
-          4. Keynote 11:15-12:00: AI in Education: Enhancing Learning Experiences 
+          3. Keynote 10:30-11:15: Will be provided by Speaker soon 
+             - (Sharan Narang, Co-author @Llama3 & 2)
             <br/><br/><br/>
           5. Panel Discussion 13:00-13:45: AI and the Future of Human Work 
             <br/><br/>&nbsp&nbsp 
-            - (Pankaj Dugar, SVP @AI21 Labs) | (George Sivulka, CEO @Hebbia.ai) | (Philip Rathle, CTO @Neo4j) | (Mike Murchison, CEO @Ada)
+            - (Philip Rathle, CTO @Neo4j) | (Mike Murchison, CEO @Ada) | (Ahmed Mo, CEO & Co-Founder @Dapi.com)
             <br/><br/><br/>
           6. Panel Discussion 13:45-14:30: Synthesizing Data Generation 
             <br/><br/>&nbsp&nbsp 
-            - (Kevin McNamara, CEO @Parallel Domain) | (Emrah Gultekin, Chairman & Co-Founder @Chooch) | (Yashar Behzadi, CEO @Synthesis AI) | (Dr. Irene Huang, Senior Director @TaskUs)
+            - (Kevin McNamara, CEO @Parallel Domain) | (Emrah Gultekin, Chairman & Co-Founder @Chooch) | (Dr. Irene Huang, Senior Director @TaskUs)
             <br/><br/><br/>
           7. Panel Discussion 14:30-15:15: AI and Intellectual Property: Navigating the New Landscape 
             <br/><br/>&nbsp&nbsp 
-            - (Jake Heller, CEO & Founder @CaseText) | (Brooke Jenkins, 30th District Attorney of San Francisco)
+            - (Jake Heller, CEO & Founder @CaseText) | (Brooke Jenkins, 30th District Attorney of San Francisco) | (Jiarui Liu, Partner @BitLex & Fellow @Stanford Center for Internet and Society)
             <br/><br/><br/>
           8. Panel Discussion 15:15-16:00: Building the Future Classroom 
+            <br/><br/>&nbsp&nbsp 
+             - (Bryan Talebi, CEO & Co-founder @Ahura AI)
             <br/><br/><br/>
           9. Panel Discussion 16:00-16:45: Cross-Industry Collaboration in AI Development
         `,

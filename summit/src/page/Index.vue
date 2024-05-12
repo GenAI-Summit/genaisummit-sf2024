@@ -234,7 +234,42 @@
           </div>
         </div>
       </div>
+
+ <!-- Special Sponsor -->
+
+      <div class="office_content">
+        <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+          <div class="left">
+            <div class="title_img">
+              <img src="../assets/images/special-sponsor.png" alt="" />
+            </div>
+          </div>
+          <div class="right">
+            <div
+              class="list"
+              @click="openUrl('https://you.com/')"
+            >
+              <img class="d" src="../assets/images/sponsors/youcom.png" alt="" />
+              <img class="a" src="../assets/images/sponsors/youcom.png" alt="" />
+            </div>
+
+            <div
+              class="list"
+              @click="openUrl('https://www.taskus.com/')"
+            >
+              <img class="d" src="../assets/images/sponsors/taskus.png" alt="" />
+              <img class="a" src="../assets/images/sponsors/taskus.png" alt="" />
+            </div>
+
+        
+          </div>
+        </div>
+      </div>
     </section>
+
+   
+
+   
     <!-- sponsor section end -->
 
 

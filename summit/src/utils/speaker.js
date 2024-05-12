@@ -958,6 +958,16 @@ const speaker = [
     linkedin: 'https://www.linkedin.com/in/yichong-xu-46618383/',
     detail: yichong2,
   },
+  {
+    name: 'Monica Zou',
+    job: 'CMO',
+    tip: 'DEKUBE',
+    image: monicazou,
+    website: '',
+    twitter: 'https://twitter.com/MZCrypto3',
+    linkedin: 'https://www.linkedin.com/in/zhixin-monica-zou/',
+    detail: monicazou2,
+  },
   // {
   //   name: 'Dr. Simon Suo',
   //   job: 'Co-Founder & CTO',
@@ -1100,16 +1110,6 @@ const speaker = [
     twitter: 'https://twitter.com/AlekhJindal',
     linkedin: 'https://www.linkedin.com/in/alekhjindal/',
     detail: alekhjindal2,
-  },
-  {
-    name: 'Monica Zou',
-    job: 'CMO',
-    tip: 'DEKUBE',
-    image: monicazou,
-    website: '',
-    twitter: 'https://twitter.com/MZCrypto3',
-    linkedin: 'https://www.linkedin.com/in/zhixin-monica-zou/',
-    detail: monicazou2,
   },
   {
     name: 'Claire Xie',

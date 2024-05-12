@@ -2466,7 +2466,7 @@ section {
           font-size: 0.75rem;
         }
         .tip {
-          font-size: 0.37rem;
+          font-size: 0.32rem;
         }
       }
       padding-bottom: 1rem;
@@ -2901,8 +2901,7 @@ section {
         flex-wrap: wrap;
 
         .list {
-          width: 25%;
-          max-width: 30%;
+          width: 40%;
           margin-bottom: 0.3rem;
           height: 100%;
           margin-left: 0.1rem;
@@ -3110,32 +3109,18 @@ section {
   .office {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 0.5rem;
     align-items: center;
+    margin-top: 0.5rem;
     &.mb {
       .list {
-        width: 30%;
-        max-width: 30%;
+        width: 48%;
         margin-bottom: 0.3rem;
         height: 100%;
         margin-left: 0.1rem;
         img {
-          width: 100%;
+          width: 90%;
           height: auto;
         }
-      }
-      .title_img {
-        width: 30%;
-        margin-bottom: 0.3rem;
-        img {
-          width: 100%;
-        }
-      }
-    }
-    .title_img {
-      margin-right: 0.4rem;
-      img {
-        width: 4rem;
       }
     }
     .list {

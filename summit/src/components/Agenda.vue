@@ -267,7 +267,7 @@ export default {
             <br/><br/><br/>
           10. Panel Discussion 16:00-16:45: AI-Powered Personalization
             <br/><br/>&nbsp&nbsp 
-            (Yichong Xu, AI Researcher @character.ai) | (Jack J. McCauley, Former Co-Founder & Engineer @Oculus VR))
+            - (Yichong Xu, AI Researcher @character.ai) | (Jack J. McCauley, Former Co-Founder & Engineer @Oculus VR))
             <br/><br/><br/>
         `,
       },

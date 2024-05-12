@@ -2466,7 +2466,7 @@ section {
           font-size: 0.75rem;
         }
         .tip {
-          font-size: 0.37rem;
+          font-size: 0.32rem;
         }
       }
       padding-bottom: 1rem;

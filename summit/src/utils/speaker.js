@@ -902,6 +902,7 @@ const speaker = [
     twitter: 'https://twitter.com/MZCrypto3',
     linkedin: 'https://www.linkedin.com/in/zhixin-monica-zou/',
     detail: monicazou2,
+    description: `Monica Zou is the Chief Marketing Officer at DEKUBE, an innovative leader in democratizing AI development by leveraging a vast, distributed network of GPUs to make AI innovation accessible and beneficial for all. At DEKUBE, Monica leads marketing strategies that enhance global awareness and adoption of DEKUBE's platform, which provides crucial GPU power to projects on platforms like Hugging Face and has established partnerships with over 30 AI startups.`,
   },
   // {
   //   name: 'Dr. Simon Suo',
@@ -1054,7 +1055,7 @@ const speaker = [
     twitter: 'https://twitter.com/AlekhJindal',
     linkedin: 'https://www.linkedin.com/in/alekhjindal/',
     detail: alekhjindal2,
-    description: `Alekh is CEO and Co-founder at Tursio, a seed-stage startup to turn databases into Gen AI machines. Previously, he was CTO and Chief Architect at Keebo, and Principal Scientist at Microsoft before that. Alekh did his postdoc at MIT CSAIL, received PhD from Saarland University, master’s from Max Planck, and undergrad from IIT Kanpur. He has published more 70 papers, 15 patents, with best paper awards at CIDR, VLDB, and SIGMOD.`,
+    description: `Alekh is CEO and Co-founder at Tursio, a seed-stage startup to turn databases into Gen AI machines. Previously, he was CTO and Chief Architect at Keebo, and Principal Scientist at Microsoft before that. Alekh did his postdoc at MIT CSAIL, received PhD from Saarland University, master's from Max Planck, and undergrad from IIT Kanpur. He has published more 70 papers, 15 patents, with best paper awards at CIDR, VLDB, and SIGMOD.`,
   },
   {
     name: 'Claire Xie',
@@ -1065,6 +1066,7 @@ const speaker = [
     twitter: 'https://twitter.com/claire_xiee',
     linkedin: 'https://www.linkedin.com/in/clairexiee/',
     detail: clairexie2,
+    description: `Claire Xie is the founder of ClinkAI, an AI startup, and the Women in AI Club, which aims to connect, empower, and elevate founders, builders, and investors in the AI space. Previously, she worked as a lead data scientist at DoorDash and Google, focusing on growth analytics. Xie is passionate about leveraging AI to drive innovation and empowering women in the tech industry.`,
   },
 ];
 

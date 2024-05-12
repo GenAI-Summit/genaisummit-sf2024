@@ -185,6 +185,7 @@ const speakerNewly = [
     twitter: 'https://twitter.com/claire_xiee',
     linkedin: 'https://www.linkedin.com/in/clairexiee/',
     detail: clairexie2,
+    description: `Claire Xie is the founder of ClinkAI, an AI startup, and the Women in AI Club, which aims to connect, empower, and elevate founders, builders, and investors in the AI space. Previously, she worked as a lead data scientist at DoorDash and Google, focusing on growth analytics. Xie is passionate about leveraging AI to drive innovation and empowering women in the tech industry.`,
   },
   {
     name: 'Monica Zou',
@@ -195,6 +196,7 @@ const speakerNewly = [
     twitter: 'https://twitter.com/MZCrypto3',
     linkedin: 'https://www.linkedin.com/in/zhixin-monica-zou/',
     detail: monicazou2,
+    description: `Monica Zou is the Chief Marketing Officer at DEKUBE, an innovative leader in democratizing AI development by leveraging a vast, distributed network of GPUs to make AI innovation accessible and beneficial for all. At DEKUBE, Monica leads marketing strategies that enhance global awareness and adoption of DEKUBE's platform, which provides crucial GPU power to projects on platforms like Hugging Face and has established partnerships with over 30 AI startups.`,
   },
   {
     name: 'Bhavin Shah',
@@ -271,6 +273,7 @@ const speakerNewly = [
     linkedin: 'https://www.linkedin.com/in/cgnorthcutt/',
     twitter: 'https://twitter.com/cgnorthcutt',
     detail: curtis2,
+    description: `Dr. Curtis Northcutt is the co-founder and CEO of Cleanlab.ai, a company that enhances data reliability through automated cleaning solutions. With a funding of $30 million, Cleanlab.ai is a leader in enterprise AI, large language models, and analytical solutions, collaborating with over 10% of Fortune 500 companies, including AWS and Google. Dr. Northcutt, who holds a PhD in Computer Science from MIT, has held significant roles at companies like Google, Meta, and Amazon before founding Cleanlab.ai.`,
   },
   {
     name: 'Tuhin Srivastava',

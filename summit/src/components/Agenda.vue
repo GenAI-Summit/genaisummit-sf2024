@@ -173,7 +173,11 @@ export default {
       {
         title: "Align Stage",
         content: `
-          1. Keynote 14:30-15:15: Navigating the AI Changing Landscape
+          1. Panel Discussion 10:00-11:45: <i>Will be provided by Speaker soon</i>
+            <br/><br/>&nbsp&nbsp
+            - (Yashar Behzadi, CEO & Founder @Synthesis AI)
+            <br/><br/><br/>
+          2. Keynote 14:30-15:15: Navigating the AI Changing Landscape
             <br/><br/>&nbsp&nbsp
             - (Jeremiah Owyang, Venture Capital Investor @Blitzscaling Ventures)
             <br/><br/><br/>
@@ -270,17 +274,23 @@ export default {
       {
         title: "Align Stage",
         content: `
-          1. Keynote 13:00-13:45: GenAI and Crypto Investment
+          1. Panel Discussion 09:00-10:00: <i>Will be provided by Speaker soon</i>
+            <br/><br/>&nbsp&nbsp
+            - (Jack J. McCauley, Former Co-Founder & Engineer @Oculus VR)
             <br/><br/><br/>
-        2. Keynote 13:45-14:30: <i>Will be provided by Speaker soon</i>
+          2. Panel Discussion 10:00-11:00: <i>Will be provided by Speaker soon</i>
+            <br/><br/>&nbsp&nbsp
+            - (Murray Newlands, Investor @Open Future Technology)
+            <br/><br/><br/>
+          3. Keynote 13:45-14:30: <i>Will be provided by Speaker soon</i>
             <br/><br/>&nbsp&nbsp
             - (Prof. Xiaoliang Qi, Professor @Stanford)
             <br/><br/><br/>
-        3. Keynote 14:30-15:15: <i>Will be provided by Speaker soon</i>
+          4. Keynote 14:30-15:15: <i>Will be provided by Speaker soon</i>
             <br/><br/>&nbsp&nbsp
             - (Mengfan, @MountainLion)
             <br/><br/><br/>
-          4. Keynote 15:15-16:00: Knowledge Graphs & GraphRAG: Essential Ingredients for Enterprise GenAI
+          5. Keynote 15:15-16:00: Knowledge Graphs & GraphRAG: Essential Ingredients for Enterprise GenAI
             <br/><br/>&nbsp&nbsp
             - (Philip Rathle, CTO @Neo4j)
             <br/><br/><br/>
@@ -360,11 +370,19 @@ export default {
       {
         title: "Align Stage",
         content: `
-          1. Keynote 13:45-14:30: AI in Education: Enhancing Learning Experiences
+          1. Panel Discussion 09:00-10:00: <i>Will be provided by Speaker soon</i>
+            <br/><br/>&nbsp&nbsp
+            - (Lindsey Spellman, Head of Marketing @Abridge)
+            <br/><br/><br/>
+          2. Panel Discussion 09:00-10:00: <i>Will be provided by Speaker soon</i>
+            <br/><br/>&nbsp&nbsp
+            - (Kathryn Wu, Co-Founder @Openmart)
+            <br/><br/><br/>
+          3. Keynote 13:45-14:30: AI in Education: Enhancing Learning Experiences
             <br/><br/>&nbsp&nbsp
             - (Prof. Hamza Farooq, Founder @traversaal.ai)
             <br/><br/><br/>
-          2. Keynote 15:15-16:00: Minority Culture Preservation and GenAI
+          4. Keynote 15:15-16:00: Minority Culture Preservation and GenAI
             <br/><br/>&nbsp&nbsp
             - (Tiffany Joy Basse, Economic Development Director and Member @Tripanick-Nansemond Indian Tribe)
             <br/><br/><br/>

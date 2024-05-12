@@ -2901,8 +2901,7 @@ section {
         flex-wrap: wrap;
 
         .list {
-          width: 25%;
-          max-width: 30%;
+          width: 35%;
           margin-bottom: 0.3rem;
           height: 100%;
           margin-left: 0.1rem;

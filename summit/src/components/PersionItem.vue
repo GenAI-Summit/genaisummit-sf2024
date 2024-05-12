@@ -2,12 +2,12 @@
   <div class="speaker">
     <img class="per" :src="item.image" alt="">
     <div class="zw">
-        <div class="info">
-            <div class="name">{{ item.name }}</div>
-            <div class="job">{{ item.job }}</div>
-            <div class="job">{{ item.tip }}</div>
-            <button class="Introduction" @click="openDialog(item.detail)">Introduction</button>
-        </div>
+      <div class="info">
+        <div class="name">{{ item.name }}</div>
+        <div class="job">{{ item.job }}</div>
+        <div class="job">{{ item.tip }}</div>
+        <button class="Introduction" @click="openModal(item)">Introduction</button>
+      </div>
     </div>
     <div class="contact" data-aos="fade-up">
         <img v-if="item.website != ''" @click="openUrl(item.website)" src="../assets/images/ico_w.png" alt="">
@@ -19,7 +19,7 @@
 
 <script>
 import { ref, computed, watch } from 'vue';
-import { useStore} from 'vuex'
+import { useStore } from 'vuex'
 import EventBus from "../utils/EventBus.js";
 
 export default {
@@ -31,13 +31,19 @@ export default {
       if(url == '') return
       window.open(url)
     }
+    /*
     const openDialog = (url) => {
       EventBus.$emit("openDialog", url);
     }
+    */
+    const openModal = (item) => {
+      EventBus.$emit("handleModal", item);
+    }
     return {
-        item,
-        openUrl,
-        openDialog,
+      item,
+      openUrl,
+      //openDialog,
+      openModal,
     } 
   },
   components: {

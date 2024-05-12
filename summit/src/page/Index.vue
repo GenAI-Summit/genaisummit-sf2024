@@ -2405,6 +2405,7 @@ section {
   .c {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     padding-bottom: 2.5rem;
 
     .wavs {
@@ -2445,9 +2446,13 @@ section {
 
     &.mb {
       .item {
+        margin-top: 1rem;
         width: 23%;
         .number {
           font-size: 0.75rem;
+        }
+        .tip {
+          font-size: 0.37rem;
         }
       }
       padding-bottom: 1rem;

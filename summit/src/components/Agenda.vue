@@ -149,7 +149,7 @@ export default {
             <br/><br/><br/>
           3. Panel Discussion 11:00-11:45: A Deep Dive into the State-of-the-Art LLMs
             <br/><br/>&nbsp&nbsp
-            - (Devendra Chaplot, AI Research Scientist @Mistral AI) | (Sharan Narang, Co-Author @LLAMA3 & 2) | (Yuhuai Wu, Co-Founder @xAI)
+            - (Devendra Chaplot, AI Research Scientist @Mistral AI) | (Sharan Narang, Co-Author @Llama 3 & Llama 2) | (Yuhuai Wu, Co-Founder @xAI)
             <br/><br/><br/>
           4. Keynote 13:00-13:45: Optimizing Enterprise Systems through Integration of LLM
             <br/><br/>&nbsp&nbsp 
@@ -210,7 +210,7 @@ export default {
             <br/><br/><br/>
           6. Panel Discussion 13:45-14:30: LLM Alignment
             <br/><br/>&nbsp&nbsp
-            - (Chunting Zhou, Senior Research Scientist @Meta AI) | (Sharan Narang, Co-Author @LLAMA3 & 2) | (Yohei Nakajima, Founder @BabyAGI)
+            - (Chunting Zhou, Senior Research Scientist @Meta AI) | (Sharan Narang, Co-Author @Llama 3 & Llama 2) | (Yohei Nakajima, Founder @BabyAGI)
             <br/><br/><br/>
           7. Panel Discussion 14:30-15:15: Identifying Unicorns: How can VCs spot the next big thing in GenAI?
             <br/><br/>&nbsp&nbsp 
@@ -346,7 +346,7 @@ export default {
           2. Keynote 09:45-10:30: Lightning Speed AI Inference to understand profoundly and intuitively
             <br/><br/><br/>
         3. Keynote 10:30-11:15: <i>Will be provided by Speaker soon</i>
-             - (Sharan Narang, Co-author @Llama3 & 2)
+             - (Sharan Narang, Co-author @Llama 3 & Llama 2)
             <br/><br/><br/>
           5. Panel Discussion 13:00-13:45: AI and the Future of Human Work 
             <br/><br/>&nbsp&nbsp 

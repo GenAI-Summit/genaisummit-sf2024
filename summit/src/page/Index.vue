@@ -2407,12 +2407,6 @@ section {
     flex-wrap: wrap;
     padding-bottom: 2.5rem;
 
-    &.mb {
-      .item {
-        width: 50%;
-      }
-      padding-bottom: 1rem;
-    }
     .wavs {
       position: absolute;
       bottom: -55%;
@@ -2421,32 +2415,42 @@ section {
       z-index: 1;
       height: 8rem;
     }
-  }
 
-  .item {
-    width: 14%;
-    text-align: center;
-    margin-top: 2rem;
-    img {
-      width: 0.89rem;
+    .item {
+      width: 14%;
+      text-align: center;
+      margin-top: 2rem;
+      img {
+        width: 0.89rem;
+      }
+      .number {
+        font-family: HarmonyOS Sans SC Bold;
+        font-weight: bold;
+        font-size: 0.74rem;
+        color: #000000;
+        font-style: normal;
+        text-transform: none;
+        margin-top: 0.2rem;
+      }
+      .tip {
+        font-family: HarmonyOS Sans SC Regular;
+        font-weight: 400;
+        font-size: 0.37rem;
+        color: #78808f;
+        font-style: normal;
+        text-transform: none;
+        margin-top: 0.2rem;
+      }
     }
-    .number {
-      font-family: HarmonyOS Sans SC Bold;
-      font-weight: bold;
-      font-size: 0.74rem;
-      color: #000000;
-      font-style: normal;
-      text-transform: none;
-      margin-top: 0.2rem;
-    }
-    .tip {
-      font-family: HarmonyOS Sans SC Regular;
-      font-weight: 400;
-      font-size: 0.37rem;
-      color: #78808f;
-      font-style: normal;
-      text-transform: none;
-      margin-top: 0.2rem;
+
+    &.mb {
+      .item {
+        width: 23%;
+        .number {
+          font-size: 0.75rem;
+        }
+      }
+      padding-bottom: 1rem;
     }
   }
 }

@@ -146,6 +146,7 @@ export default {
             - (Jim Fan, Research Manager & Lead of Embodied AI @NVIDIA)
             <br/><br/><br/>
           2. Keynote 09:45-10:30: Transforming Business Processes with LLM: Opportunities and Challenges
+            <br/><br/><br/>
           3. Panel Discussion 11:00-11:45: A Deep Dive into the State-of-the-Art LLMs
             <br/><br/>&nbsp&nbsp
             - (Devendra Chaplot, AI Research Scientist @Mistral AI) | (Sharan Narang, Co-Author @LLAMA3 & 2) | (Yuhuai Wu, Co-Founder @xAI)
@@ -170,21 +171,12 @@ export default {
         `,
       },
       {
-        title: "Break Out Rooms: Exploration and Learning",
+        title: "Align Stage",
         content: `
-          Rooms 1: Dedicated Microsoft Track
-          <br/><br/><br/>
-          Rooms 2: Dedicated OpenAI Track
-          <br/><br/><br/>
-          Rooms 3-6: Introduction to Industry-specific AI Applications - Workshops and showcases focusing on the applications of AI in their respective industries, for developers, marketers and creators
-          <br/><br/><br/>
-          Room 7: AI Career Fair - Connecting job seekers with recruiters in AI and tech companie
-          <br/><br/><br/>
-          Room 8: AI for Social Impact - Discussions and showcases on how AI is used for social good initiatives
-          <br/><br/><br/>
-          Room 9: Startup Pitch Session - Emerging AI startups present their innovative solutions
-          <br/><br/><br/>
-          Room 10: Beginner's Workshop in AI - A hands-on workshop for those new to AI for text2video, text2audio, text2multimodal, and text2richcontent.
+          1. Keynote 14:30-15:15: Navigating the AI Changing Landscape
+            <br/><br/>&nbsp&nbsp
+            - (Jeremiah Owyang, Venture Capital Investor @Blitzscaling Ventures)
+            <br/><br/><br/>
         `,
       },
     ]);
@@ -202,9 +194,9 @@ export default {
             <br/><br/>&nbsp&nbsp
             - (Denis Yarats, CTO @Perplexity.AI)
             <br/><br/><br/>
-          3. Keynote 10:30-11:15: Challenges and Opportunities in AI Education and Training 
+          3. Keynote 10:30-11:15: Challenges and Opportunities in AI Education and Training
             <br/><br/><br/>
-          4. Fireside Chat 11:15-12:00: Will be provided by Speaker soon
+        4. Fireside Chat 11:15-12:00: <i>Will be provided by Speaker soon</i>
             <br/><br/>&nbsp&nbsp 
             - (Dr. Michael Stewart, Managing Partner @M12) | (Moderated by Nathan Lile, CEO Synth Labs)
             <br/><br/><br/>
@@ -233,7 +225,7 @@ export default {
       {
         title: "Theater",
         content: `
-          1. Keynote 09:00-09:45: Will be provided by Speaker soon 
+        1. Keynote 09:00-09:45: <i>Will be provided by Speaker soon</i>
             <br/><br/>&nbsp&nbsp 
             - (Jason Wei, Researcher @OpenAI)
             <br/><br/><br/>
@@ -276,21 +268,22 @@ export default {
         `,
       },
       {
-        title: "Break Out Rooms: Deep Dives and Networking",
+        title: "Align Stage",
         content: `
-          Rooms 1: Dedicated Microsoft Track
-          <br/><br/><br/>
-          Rooms 2: Dedicated OpenAI Track
-          <br/><br/><br/>
-          Rooms 3-6: Advanced Applications and Challenges - In-depth discussions and showcases on the latest advancements and challenges in AI for different industries, for developers, marketers and creators
-          <br/><br/><br/>
-          Room 7: Mentorship in AI - Networking session connecting attendees with experienced mentors in the AI field
-          <br/><br/><br/>
-          Room 8: AI Ethics Roundtable - A discussion on ethical considerations in AI development
-          <br/><br/><br/>
-          Room 9: Investor Meet & Greet - An opportunity for startups to network with potential investors
-          <br/><br/><br/>
-          Room 10: Intermediate AI Workshop - A workshop focused on more advanced AI concepts and tools.
+          1. Keynote 13:00-13:45: GenAI and Crypto Investment
+            <br/><br/><br/>
+        2. Keynote 13:45-14:30: <i>Will be provided by Speaker soon</i>
+            <br/><br/>&nbsp&nbsp
+            - (Prof. Xiaoliang Qi, Professor @Stanford)
+            <br/><br/><br/>
+        3. Keynote 14:30-15:15: <i>Will be provided by Speaker soon</i>
+            <br/><br/>&nbsp&nbsp
+            - (Mengfan, @MountainLion)
+            <br/><br/><br/>
+          4. Keynote 15:15-16:00: Knowledge Graphs & GraphRAG: Essential Ingredients for Enterprise GenAI
+            <br/><br/>&nbsp&nbsp
+            - (Philip Rathle, CTO @Neo4j)
+            <br/><br/><br/>
         `,
       },
     ]);
@@ -308,7 +301,8 @@ export default {
             <br/><br/>&nbsp&nbsp 
             - (Dr. Yangqing Jia, Founder @Lepton.AI)
             <br/><br/><br/>
-          3. The Evolution of AI Assistants: Shaping the Future of Human-Computer Interaction
+          3. Keynote 10:30-11:15: The Evolution of AI Assistants: Shaping the Future of Human-Computer Interaction
+            <br/><br/><br/>
           4. Keynote 11:15-12:00: Straight Talk on Selling an AI Startup
             <br/><br/>&nbsp&nbsp 
             - (Jon Shalowitz, Managing Partner @Woodside Capital Partners)
@@ -335,13 +329,13 @@ export default {
       {
         title: "Theater",
         content: `
-          1. Keynote 09:00-09:45: Will be provided by Speaker soon 
+        1. Keynote 09:00-09:45: <i>Will be provided by Speaker soon</i>
             <br/><br/>&nbsp&nbsp 
             - (Joel Hellermark, Founder and CEO @Sana)
             <br/><br/><br/>
           2. Keynote 09:45-10:30: Lightning Speed AI Inference to understand profoundly and intuitively
             <br/><br/><br/>
-          3. Keynote 10:30-11:15: Will be provided by Speaker soon 
+        3. Keynote 10:30-11:15: <i>Will be provided by Speaker soon</i>
              - (Sharan Narang, Co-author @Llama3 & 2)
             <br/><br/><br/>
           5. Panel Discussion 13:00-13:45: AI and the Future of Human Work 
@@ -364,20 +358,16 @@ export default {
         `,
       },
       {
-        title: "Break Out Rooms: Integration and Future Trends",
+        title: "Align Stage",
         content: `
-          Rooms 1: Dedicated Microsoft Track 
-          <br/><br/><br/>
-          Rooms 2: Dedicated OpenAI Track 
-          <br/><br/><br/>
-          Rooms 3-6: Integrating AI into Business - Workshops on how to successfully integrate AI solutions into various business operations
-          <br/><br/><br/>
-          Room 7: Career Development Workshops - Sessions focusing on skill development and career progression in the AI industry
-          <br/><br/><br/>
-          Room 8: AI for Environmental Sustainability - Showcasing AI solutions addressing environmental challenges
-          <br/><br/><br/>
-          Room 9: Innovations in AI - Presentations on cutting-edge AI technologies and future trends
-          <br/><br/><br/>Room 10: Advanced AI Workshop - A deep dive into complex AI models and methodologies.
+          1. Keynote 13:45-14:30: AI in Education: Enhancing Learning Experiences
+            <br/><br/>&nbsp&nbsp
+            - (Prof. Hamza Farooq, Founder @traversaal.ai)
+            <br/><br/><br/>
+          2. Keynote 15:15-16:00: Minority Culture Preservation and GenAI
+            <br/><br/>&nbsp&nbsp
+            - (Tiffany Joy Basse, Economic Development Director and Member @Tripanick-Nansemond Indian Tribe)
+            <br/><br/><br/>
         `,
       },
     ]);

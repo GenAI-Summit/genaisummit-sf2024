@@ -113,18 +113,29 @@ export default {
       {
         title: "Main Stage",
         content: `
-          1. Keynote 09:00 - 10:00: The Future of Foundation Models<br/><br/><br/>
-          2. Keynote 10:00-11:00: What's Next Big Moment in Generative AI? <br/><br/>&nbsp&nbsp
-            - (Rodrigo Liang, Co-Founder & CEO @SambaNova)<br/><br/><br/>
-          3. Keynote 11:00-12:00: Enterprise AI Search & Knowledge Discovery <br/><br/><br/>
-          4. Panel Discussion 13:00-13:45: Key Challenges for Providing GenAI Services On Scalable Cloud Infrastructure <br/><br/>&nbsp&nbsp
-            - (Jia Yangqing, @Lepton.AI) | (Ameer Haj-Ali, Founding Eng @Anyscale) | (Tuhin Srivastava, CEO @Baseten) | (Dr. Josh Tobin, Co-Founder @Gantry.io) <br/><br/><br/>
-          5. Keynote 13:45-14:30: Vector Database built for enterprise-grade AI applications <br/><br/>&nbsp&nbsp
-            - (Charles Xie, CEO @Zilliz) <br/><br/><br/>
-          6. Panel Discussion 14:30-15:15: Demystifying AI: Understanding the Basics <br/><br/><br/>
-          7. Panel Discussion 15:15-16:00: Robotics and GenAI <br/><br/>&nbsp&nbsp
-            - (Jim Fan Research Manager & Lead of Embodied AI @NVIDIA) | (Tony Zhao, Author @ALOHA) | (Zipeng Fu, Author @ALOHA) <br/><br/><br/>
-          8. Panel Discussion 16:00-16:45: AI and the Future of Work: What Lies Ahead?
+          1. Keynote 09:00 - 10:00: The Future of Foundation Models
+            <br/><br/><br/>
+          2. Keynote 10:00-11:00: What's Next Big Moment in Generative AI?
+            <br/><br/>&nbsp&nbsp
+            - (Rodrigo Liang, Co-Founder & CEO @SambaNova)
+            <br/><br/><br/>
+          3. Keynote 11:00-12:00: Enterprise AI Search & Knowledge Discovery
+            <br/><br/><br/>
+          4. Panel Discussion 13:00-13:45: Key Challenges for Providing GenAI Services On Scalable Cloud Infrastructure
+            <br/><br/>&nbsp&nbsp
+            - (Jia Yangqing, @Lepton.AI) | (Ameer Haj-Ali, Founding Eng @Anyscale) | (Tuhin Srivastava, CEO @Baseten) | (Dr. Josh Tobin, Co-Founder @Gantry.io)
+            <br/><br/><br/>
+          5. Keynote 13:45-14:30: Vector Database built for enterprise-grade AI applications
+            <br/><br/>&nbsp&nbsp
+            - (Charles Xie, CEO @Zilliz)
+            <br/><br/><br/>
+          6. Panel Discussion 14:30-15:15: The Power of Data in the Era of GenAI
+            <br/><br/><br/>
+          7. Panel Discussion 15:15-16:00: Robotics and GenAI
+            <br/><br/>&nbsp&nbsp
+            - (Jim Fan, Research Manager & Lead of Embodied AI @NVIDIA) | (Tony Zhao, Author @ALOHA) | (Zipeng Fu, Author @ALOHA) | (Cheng Chi, CS PhD @Stanford University)
+            <br/><br/><br/>
+          8. Panel Discussion 16:00-16:45: AI Computing / AI HW - Corporate VC investment strategy & focus
         `,
       },
       {
@@ -134,49 +145,42 @@ export default {
             <br/><br/>&nbsp&nbsp
             - (Jim Fan, Research Manager & Lead of Embodied AI @NVIDIA)
             <br/><br/><br/>
-          2. Keynote 09:45-10:30: How Far is Grok towards the Understanding of the Universe
-            <br/><br/>&nbsp&nbsp 
-            - (Dr. Yuhuai Wu, Co-Founder @xAI)
+          2. Keynote 09:45-10:30: Transforming Business Processes with LLM: Opportunities and Challenges
             <br/><br/><br/>
-          3. Keynote 10:30-11:15: Optimizing Enterprise Systems through Integration of LLM
+          3. Panel Discussion 11:00-11:45: A Deep Dive into the State-of-the-Art LLMs
+            <br/><br/>&nbsp&nbsp
+            - (Devendra Chaplot, AI Research Scientist @Mistral AI) | (Sharan Narang, Co-Author @LLAMA3 & 2) | (Yuhuai Wu, Co-Founder @xAI)
+            <br/><br/><br/>
+          4. Keynote 13:00-13:45: Optimizing Enterprise Systems through Integration of LLM
             <br/><br/>&nbsp&nbsp 
             - (Arvind Jain, CEO @Glean)
             <br/><br/><br/>
-          4. Panel Discussion 13:00-13:45: A Deep Dive into the State-of-the-Art LLMs
-            <br/><br/>&nbsp&nbsp
-            - (Devendra Chaplot, AI Research Scientist @Mistral AI) | (Sharan Narang, Co-Author @LLAMA3 & 2)
-            <br/><br/><br/>
           5. Panel Discussion 13:45-14:30: Conversational AI in Sales and Marketing
             <br/><br/>&nbsp&nbsp 
-            - (Jim Palmer, Chief AI Officer @Dialpad) | (Yaniv Makover, CEO @Anyword) | (Chen Xi, Professor @NYU) | (Prof Andreas Ramos @Arcticider.ai)
+            - (Jim Palmer, Chief AI Officer @Dialpad) | (Yaniv Makover, CEO @Anyword) | (Prof. Chen Xi, Professor @NYU) | (Prof. Andreas Ramos, Advisor@ArcticEider.ai)
             <br/><br/><br/>
           6. Panel Discussion 14:30-15:15: How AI Is Reshaping the Service in Medicine and Healthcare
             <br/><br/>&nbsp&nbsp 
-            - (Shiv Rao, CEO @Abridge) | (Zack Lipton, CTO @Abridge), (Ankit Jain, CEO @Infinitus), (Movework)
+            - (Zachary Lipton, CTO @Abridge), (Ankit Jain, CEO @Infinitus)
             <br/><br/><br/>
-          7. Panel Discussion 15:15-16:00: A New Renaissance in Art & Design
+          7. Fireside Chat 15:15-16:00: A New Renaissance in Art & Design
             <br/><br/>&nbsp&nbsp 
-            - (Tony Beltramelli, CEO @UIzard Technolog) | (Colin Zhao @Google)
+            - (Tony Beltramelli, CEO @UIzard Technolog) | (Colin Zhao, Director@Google)
             <br/><br/><br/>
           8. Panel Discussion 16:00-16:45: The Impact of AI on Privacy and Data Security
         `,
       },
       {
-        title: "Break Out Rooms: Exploration and Learning",
+        title: "Align Stage",
         content: `
-          Rooms 1: Dedicated Microsoft Track
-          <br/><br/><br/>
-          Rooms 2: Dedicated OpenAI Track
-          <br/><br/><br/>
-          Rooms 3-6: Introduction to Industry-specific AI Applications - Workshops and showcases focusing on the applications of AI in their respective industries, for developers, marketers and creators
-          <br/><br/><br/>
-          Room 7: AI Career Fair - Connecting job seekers with recruiters in AI and tech companie
-          <br/><br/><br/>
-          Room 8: AI for Social Impact - Discussions and showcases on how AI is used for social good initiatives
-          <br/><br/><br/>
-          Room 9: Startup Pitch Session - Emerging AI startups present their innovative solutions
-          <br/><br/><br/>
-          Room 10: Beginner's Workshop in AI - A hands-on workshop for those new to AI for text2video, text2audio, text2multimodal, and text2richcontent.
+          1. Panel Discussion 10:00-11:45: <i>Will be provided by Speaker soon</i>
+            <br/><br/>&nbsp&nbsp
+            - (Yashar Behzadi, CEO & Founder @Synthesis AI)
+            <br/><br/><br/>
+          2. Keynote 14:30-15:15: Navigating the AI Changing Landscape
+            <br/><br/>&nbsp&nbsp
+            - (Jeremiah Owyang, Venture Capital Investor @Blitzscaling Ventures)
+            <br/><br/><br/>
         `,
       },
     ]);
@@ -194,9 +198,9 @@ export default {
             <br/><br/>&nbsp&nbsp
             - (Denis Yarats, CTO @Perplexity.AI)
             <br/><br/><br/>
-          3. Keynote 10:30-11:15: Challenges and Opportunities in AI Education and Training 
+          3. Keynote 10:30-11:15: Challenges and Opportunities in AI Education and Training
             <br/><br/><br/>
-          4. Fireside Chat 11:15-12:00: GenAI Venture Investment Landscape 2.0 
+        4. Fireside Chat 11:15-12:00: <i>Will be provided by Speaker soon</i>
             <br/><br/>&nbsp&nbsp 
             - (Dr. Michael Stewart, Managing Partner @M12) | (Moderated by Nathan Lile, CEO Synth Labs)
             <br/><br/><br/>
@@ -210,15 +214,22 @@ export default {
             <br/><br/><br/>
           7. Panel Discussion 14:30-15:15: Identifying Unicorns: How can VCs spot the next big thing in GenAI?
             <br/><br/>&nbsp&nbsp 
-            - (Huang @IOBC), (Jon Shalowitz, Managing Partner @Obvious Ventures) | (Ed Roman, Managing Partner @Hack VC)
+            - (Jingsheng Huang, Director @Yiren Digital), (Jon Shalowitz, Managing Partner @Obvious Ventures) | (Ed Roman, Managing Partner @Hack VC) | (Matthew Stepka, Founder & Managing Partner @Machina Ventures)
             <br/><br/><br/>
-          8. Panel Discussion 16:00-16:45: From Sci-Fi Dreams to Sustainable Solutions: GenAI for a Better World
+          8. Panel Discussion 15:15-16:00: How does LLM Helps to Preserve Minority Culture
+            <br/><br/>&nbsp&nbsp 
+            - (Dinesh Maheshwari, Chief Technology Advisor @Groq) | (Bryan McCann, CTO & Co-Founder @You.com) | (Kasey Roh, Business Development @Upstage) | (Devendra Chaplot, AI Research Scientist @Mistral AI)
+            <br/><br/><br/>
+          9. Panel Discussion 16:00-16:45: Building a Brain for the Copilot: How Infrastructure Enables Powerful GenAI Assistants
+            <br/><br/>&nbsp&nbsp 
+            - (Dmytro Dzhulgakov, Co-Founder & CTO @Fireworks.ai)) | (Eddie Aftandilian, Principal Researcher @GitHub) | (Ram Sriharsha, CTO @Pinecone))
+            <br/><br/><br/>
         `,
       },
       {
         title: "Theater",
         content: `
-          1. Keynote 09:00-09:45: Will be provided by Speaker soon 
+        1. Keynote 09:00-09:45: <i>Will be provided by Speaker soon</i>
             <br/><br/>&nbsp&nbsp 
             - (Jason Wei, Researcher @OpenAI)
             <br/><br/><br/>
@@ -240,39 +251,49 @@ export default {
             <br/><br/><br/>
           6. Panel Discussion 13:00-13:45: AI for Good: Social and Humanitarian Applications 
             <br/><br/>&nbsp&nbsp 
-            - (Muddu Sudhakar, CEO @CEAISERA) | (Eddie Aftandilian, Principal Researcher @Github), (Kevin Moody, CEO @Mem Labs)
+            - (Muddu Sudhakar, CEO @CEAISERA) | (Bhavin Shah, CEO & Founder @Moveworks), (Kevin Moody, CEO @Mem Labs)
             <br/><br/><br/>
           7. Panel Discussion 13:45-14:30: Pioneering Women in Generative AI 
             <br/><br/>&nbsp&nbsp 
-            - (Rashmi Misra, Chief AI Officer @Analog Device)
+            - (Rashmi Misra, Chief AI Officer @Analog Device) | (Jia Li, Co-Founder, Chief AI Officer & President@LiveX.AI) | (Prof. Raluca Ada Popa, Professor @UC Berkeley) | (Rochelle Mattern, Director of Solutions Engineering @SambaNova)
             <br/><br/><br/>
           8. Panel Discussion 14:30-15:15: The World of Customer Support with AI Agents
             <br/><br/>&nbsp&nbsp 
-            - (Jia Li, Co-Founder, CAIO & President @LiveX.AI) | (Swapnil Jain, CEO @Observe.ai) | (Tim Shi, CTO @Cresta.AI), (Henry Peter, CTO & Co-Founder @Ushur)
+            - (Jia Li, Co-Founder, Chief AI Officer & President@LiveX.AI) | (Swapnil Jain, CEO @Observe.ai) | (Tim Shi, CTO @Cresta.AI), (Henry Peter, CTO & Co-Founder @Ushur)
             <br/><br/><br/>
           9. Panel Discussion 15:15-16:00: LLM Safety and Security 
             <br/><br/>&nbsp&nbsp 
-            - (Yaron Singer, CEO @Robust Intelligence), (Raluca Ada Popa, Professor @UC Berkeley), (Soumya Batra, Co-Author @LLAMA2)
+            - (Yaron Singer, CEO @Robust Intelligence), (Prof. Raluca Ada Popa, Professor @UC Berkeley), (Soumya Batra, Co-Author @LLAMA2)
             <br/><br/><br/>
           10. Panel Discussion 16:00-16:45: AI-Powered Personalization
+            <br/><br/>&nbsp&nbsp 
+            (Yichong Xu, AI Researcher @character.ai) | (Jack J. McCauley, Former Co-Founder & Engineer @Oculus VR))
+            <br/><br/><br/>
         `,
       },
       {
-        title: "Break Out Rooms: Deep Dives and Networking",
+        title: "Align Stage",
         content: `
-          Rooms 1: Dedicated Microsoft Track
-          <br/><br/><br/>
-          Rooms 2: Dedicated OpenAI Track
-          <br/><br/><br/>
-          Rooms 3-6: Advanced Applications and Challenges - In-depth discussions and showcases on the latest advancements and challenges in AI for different industries, for developers, marketers and creators
-          <br/><br/><br/>
-          Room 7: Mentorship in AI - Networking session connecting attendees with experienced mentors in the AI field
-          <br/><br/><br/>
-          Room 8: AI Ethics Roundtable - A discussion on ethical considerations in AI development
-          <br/><br/><br/>
-          Room 9: Investor Meet & Greet - An opportunity for startups to network with potential investors
-          <br/><br/><br/>
-          Room 10: Intermediate AI Workshop - A workshop focused on more advanced AI concepts and tools.
+          1. Panel Discussion 09:00-10:00: <i>Will be provided by Speaker soon</i>
+            <br/><br/>&nbsp&nbsp
+            - (Jack J. McCauley, Former Co-Founder & Engineer @Oculus VR)
+            <br/><br/><br/>
+          2. Panel Discussion 10:00-11:00: <i>Will be provided by Speaker soon</i>
+            <br/><br/>&nbsp&nbsp
+            - (Murray Newlands, Investor @Open Future Technology)
+            <br/><br/><br/>
+          3. Keynote 13:45-14:30: <i>Will be provided by Speaker soon</i>
+            <br/><br/>&nbsp&nbsp
+            - (Prof. Xiaoliang Qi, Professor @Stanford)
+            <br/><br/><br/>
+          4. Keynote 14:30-15:15: <i>Will be provided by Speaker soon</i>
+            <br/><br/>&nbsp&nbsp
+            - (Mengfan, @MountainLion)
+            <br/><br/><br/>
+          5. Keynote 15:15-16:00: Knowledge Graphs & GraphRAG: Essential Ingredients for Enterprise GenAI
+            <br/><br/>&nbsp&nbsp
+            - (Philip Rathle, CTO @Neo4j)
+            <br/><br/><br/>
         `,
       },
     ]);
@@ -282,80 +303,89 @@ export default {
       {
         title: "Main Stage",
         content: `
-          1. Keynote 09:00-09:45: Transforming Customer Service with Generative AI 
+          1. Keynote 09:00-09:45: Top 3 Applications of Generative AI in Customer Experience
             <br/><br/>&nbsp&nbsp 
-            - (Deon, CEO @Forethought)
+            - (Deon Nicholas, CEO @Forethought)
             <br/><br/><br/>
           2. Keynote 09:45-10:30: What Does AI Mean for Cloud Infrastructure 
             <br/><br/>&nbsp&nbsp 
             - (Dr. Yangqing Jia, Founder @Lepton.AI)
             <br/><br/><br/>
-          3. Keynote 11:15-12:00: Straight Talk on Selling an AI Startup
-            <br/><br/>&nbsp&nbsp 
-            - (Woodside Capital Partners)
+          3. Keynote 10:30-11:15: The Evolution of AI Assistants: Shaping the Future of Human-Computer Interaction
             <br/><br/><br/>
-          4. Panel Discussion 13:00-13:45: VectorDB 2.0 with Longer Context Window 
+          4. Keynote 11:15-12:00: Straight Talk on Selling an AI Startup
             <br/><br/>&nbsp&nbsp 
-            - (Ram Sriharsha, CTO @Pinecone) | (Alexander Ratner, CEO @SnorkelAI) | (Bob Van Luijt, CEO & Co-Founder @Weaviate) | (Amr Awadallah, CEO @Vectara)
+            - (Jon Shalowitz, Managing Partner @Woodside Capital Partners)
             <br/><br/><br/>
-          5. Panel Discussion 13:45-14:30: Experiment Tracking and Prompt Engineering Practices 
+          5. Panel Discussion 13:00-13:45: VectorDB 2.0 with Longer Context Window 
             <br/><br/>&nbsp&nbsp 
-            - (Jason Kopatecki, CEO @Arize AI) | (Gideon Mendels, Co-Founder & CEO @Comet ML) | (Sri Ambati, CEO @H2O.AI)
+            - (Alexander Ratner, CEO @SnorkelAI) | (Bob Van Luijt, CEO & Co-Founder @Weaviate) | (Amr Awadallah, CEO @Vectara)
             <br/><br/><br/>
-          6. Panel Discussion 14:30-15:15: Building a Responsible AGI: Ethics of AI in Decision-Making 
+          6. Panel Discussion 13:45-14:30: Experiment Tracking and Prompt Engineering Practices 
             <br/><br/>&nbsp&nbsp 
-            - (Yan Zhao, Saratoga Mayor) | (Yashar Behzadi, CEO @Synthesis AI) | (Greg Tanaka, Palo Alto Council Member) | (Rajat Suri, Co-Founde @Lima) 
+            - (Jason Kopatecki, CEO @Arize AI) | (Sri Ambati, CEO @H2O.AI)
             <br/><br/><br/>
-          7. Panel Discussion 15:15-16:00: Video Generation Models: from Research to Production 
+          7. Panel Discussion 14:30-15:15: Building a Responsible AGI: Ethics of AI in Decision-Making 
             <br/><br/>&nbsp&nbsp 
-            - (Jiajun Lu, Founder & CEO @Akool), | (Sunny Rochiramani, Head of Engineering @Descript)
+            - (Yan Zhao, Saratoga Mayor) | (Greg Tanaka, Palo Alto Council Member) | (Rajat Suri, Co-Founde @Lima) | (Matthew Stepka, Founder & Managing Partner @Machina Ventures)
             <br/><br/><br/>
-          8. Panel Discussion 16:00-16:45: AI in Environmental Sustainability
+          8. Panel Discussion 15:15-16:00: Video Generation Models: from Research to Production 
+            <br/><br/>&nbsp&nbsp 
+            - (Sanket Shah, CEO @InVideo) | (Jiajun Lu, Founder & CEO @Akool), | (Sunny Rochiramani, Head of Engineering @Descript)
+            <br/><br/><br/>
+          9. Panel Discussion 16:00-16:45: AI in Environmental Sustainability
         `,
       },
       {
         title: "Theater",
         content: `
-          1. Keynote 09:00-09:45: Lightning Speed AI Inference to understand profoundly and intuitively 
+        1. Keynote 09:00-09:45: <i>Will be provided by Speaker soon</i>
+            <br/><br/>&nbsp&nbsp 
+            - (Joel Hellermark, Founder and CEO @Sana)
             <br/><br/><br/>
-          2. Keynote 09:45-10:30: Will be provided by Speaker soon 
+          2. Keynote 09:45-10:30: Lightning Speed AI Inference to understand profoundly and intuitively
             <br/><br/><br/>
-          3. Keynote 10:30-11:15: AI in Manufacturing: Automation and Efficiency 
-            <br/><br/><br/>
-          4. Keynote 11:15-12:00: AI in Education: Enhancing Learning Experiences 
+        3. Keynote 10:30-11:15: <i>Will be provided by Speaker soon</i>
+             - (Sharan Narang, Co-author @Llama3 & 2)
             <br/><br/><br/>
           5. Panel Discussion 13:00-13:45: AI and the Future of Human Work 
             <br/><br/>&nbsp&nbsp 
-            - (Pankaj Dugar, SVP @AI21 Labs) | (George Sivulka, CEO @Hebbia.ai) | (Philip Rathle, CTO @Neo4j) | (Mike Murchison, CEO @Ada)
+            - (Philip Rathle, CTO @Neo4j) | (Mike Murchison, CEO @Ada) | (Ahmed Mo, CEO & Co-Founder @Dapi.com)
             <br/><br/><br/>
           6. Panel Discussion 13:45-14:30: Synthesizing Data Generation 
             <br/><br/>&nbsp&nbsp 
-            - (Kevin McNamara, CEO @Parallel Domain) | (Emrah Gultekin, Chairman & Co-Founder @Chooch) | (Yashar Behzadi, CEO @Synthesis AI) | (Dr. Irene Huang, Senior Director @TaskUs)
+            - (Kevin McNamara, CEO @Parallel Domain) | (Emrah Gultekin, Chairman & Co-Founder @Chooch) | (Dr. Irene Huang, Senior Director @TaskUs)
             <br/><br/><br/>
           7. Panel Discussion 14:30-15:15: AI and Intellectual Property: Navigating the New Landscape 
             <br/><br/>&nbsp&nbsp 
-            - (Jake Heller, CEO & Founder @CaseText) | (Brooke Jenkins, 30th District Attorney of San Francisco)
+            - (Jake Heller, CEO & Founder @CaseText) | (Brooke Jenkins, 30th District Attorney of San Francisco) | (Jiarui Liu, Partner @BitLex & Fellow @Stanford Center for Internet and Society)
             <br/><br/><br/>
           8. Panel Discussion 15:15-16:00: Building the Future Classroom 
+            <br/><br/>&nbsp&nbsp 
+             - (Bryan Talebi, CEO & Co-founder @Ahura AI)
             <br/><br/><br/>
           9. Panel Discussion 16:00-16:45: Cross-Industry Collaboration in AI Development
         `,
       },
       {
-        title: "Break Out Rooms: Integration and Future Trends",
+        title: "Align Stage",
         content: `
-          Rooms 1: Dedicated Microsoft Track 
-          <br/><br/><br/>
-          Rooms 2: Dedicated OpenAI Track 
-          <br/><br/><br/>
-          Rooms 3-6: Integrating AI into Business - Workshops on how to successfully integrate AI solutions into various business operations
-          <br/><br/><br/>
-          Room 7: Career Development Workshops - Sessions focusing on skill development and career progression in the AI industry
-          <br/><br/><br/>
-          Room 8: AI for Environmental Sustainability - Showcasing AI solutions addressing environmental challenges
-          <br/><br/><br/>
-          Room 9: Innovations in AI - Presentations on cutting-edge AI technologies and future trends
-          <br/><br/><br/>Room 10: Advanced AI Workshop - A deep dive into complex AI models and methodologies.
+          1. Panel Discussion 09:00-10:00: <i>Will be provided by Speaker soon</i>
+            <br/><br/>&nbsp&nbsp
+            - (Lindsey Spellman, Head of Marketing @Abridge)
+            <br/><br/><br/>
+          2. Panel Discussion 09:00-10:00: <i>Will be provided by Speaker soon</i>
+            <br/><br/>&nbsp&nbsp
+            - (Kathryn Wu, Co-Founder @Openmart)
+            <br/><br/><br/>
+          3. Keynote 13:45-14:30: AI in Education: Enhancing Learning Experiences
+            <br/><br/>&nbsp&nbsp
+            - (Prof. Hamza Farooq, Founder @traversaal.ai)
+            <br/><br/><br/>
+          4. Keynote 15:15-16:00: Minority Culture Preservation and GenAI
+            <br/><br/>&nbsp&nbsp
+            - (Tiffany Joy Basse, Economic Development Director and Member @Tripanick-Nansemond Indian Tribe)
+            <br/><br/><br/>
         `,
       },
     ]);

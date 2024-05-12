@@ -89,6 +89,8 @@ import kathrynwu from '../assets/images/speakers/kathrynwu.jpg';
 import londonbreed from '../assets/images/speakers/londonbreed.jpg';
 import bhavinshah from '../assets/images/speakers/bhavinshah.jpg';
 import alekhjindal from '../assets/images/speakers/alekhjindal.jpg';
+import monicazou from '../assets/images/speakers/monicazou.jpg';
+import clairexie from '../assets/images/speakers/clairexie.jpg';
 
 
 
@@ -183,6 +185,8 @@ import kathrynwu2 from '../assets/images/speakers/popup/kathrynwu2.png';
 import londonbreed2 from '../assets/images/speakers/popup/londonbreed2.png';
 import bhavinshah2 from '../assets/images/speakers/popup/bhavinshah2.png';
 import alekhjindal2 from '../assets/images/speakers/popup/alekhjindal2.png';
+import monicazou2 from '../assets/images/speakers/popup/monicazou2.png';
+import clairexie2 from '../assets/images/speakers/popup/clairexie2.png';
 
 
 
@@ -890,6 +894,26 @@ const speaker = [
     description: `Dr. Yichong Xu, Technical Staff Member at Character.AI, focusing on advanced language models. Character.AI, aiming to revolutionize conversational AI, competes with industry leaders like OpenAI, valued at $1 billion, and has successfully raised $150 million in funding to enhance chatbot technology and user interactions.`,
   },
   {
+    name: 'Monica Zou',
+    job: 'CMO',
+    tip: 'DEKUBE',
+    image: monicazou,
+    website: '',
+    twitter: 'https://twitter.com/MZCrypto3',
+    linkedin: 'https://www.linkedin.com/in/zhixin-monica-zou/',
+    detail: monicazou2,
+  },
+  // {
+  //   name: 'Dr. Simon Suo',
+  //   job: 'Co-Founder & CTO',
+  //   tip: 'LlamaIndex',
+  //   image: simon,
+  //   website: '',
+  //   twitter: '',
+  //   linkedin: 'https://www.linkedin.com/in/sdsuo/',
+  //   detail: simon2,
+  // },
+  {
     name: 'Shishir Patil',
     job: 'Creator',
     tip: 'Gorilla LLM',
@@ -1031,6 +1055,16 @@ const speaker = [
     linkedin: 'https://www.linkedin.com/in/alekhjindal/',
     detail: alekhjindal2,
     description: `Alekh is CEO and Co-founder at Tursio, a seed-stage startup to turn databases into Gen AI machines. Previously, he was CTO and Chief Architect at Keebo, and Principal Scientist at Microsoft before that. Alekh did his postdoc at MIT CSAIL, received PhD from Saarland University, master’s from Max Planck, and undergrad from IIT Kanpur. He has published more 70 papers, 15 patents, with best paper awards at CIDR, VLDB, and SIGMOD.`,
+  },
+  {
+    name: 'Claire Xie',
+    job: 'Founder & CEO',
+    tip: 'Clink AI',
+    image: clairexie,
+    website: '',
+    twitter: 'https://twitter.com/claire_xiee',
+    linkedin: 'https://www.linkedin.com/in/clairexiee/',
+    detail: clairexie2,
   },
 ];
 

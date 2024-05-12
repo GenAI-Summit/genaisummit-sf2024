@@ -112,6 +112,7 @@
       </div>
 
       <!-- diamond -->
+      <!--
       <div class="office_content">
         <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
           <div class="left">
@@ -130,6 +131,7 @@
           </div>
         </div>
       </div>
+      -->
 
       <!-- platinum -->
       <div class="office_content">
@@ -142,10 +144,10 @@
           <div class="right">
             <div
               class="list"
-              @click="openUrl('https://aws.amazon.com/startups?lang=en-US')"
+              @click="openUrl('https://www.amazon.com/')"
             >
-              <img class="d" src="../assets/images/sponsors/aws.png" alt="" />
-              <img class="a" src="../assets/images/sponsors/aws.png" alt="" />
+              <img class="d" src="../assets/images/sponsors/amazon2.png" alt="" />
+              <img class="a" src="../assets/images/sponsors/amazon2.png" alt="" />
             </div>
           </div>
         </div>
@@ -165,8 +167,8 @@
               class="list"
               @click="openUrl('https://www.ibm.com/us-en/')"
             >
-              <img class="d" src="../assets/images/sponsors/IBM_temp.jpg" alt="" />
-              <img class="a" src="../assets/images/sponsors/IBM_temp.jpg" alt="" />
+              <img class="d" src="../assets/images/sponsors/IBM_temp.png" alt="" />
+              <img class="a" src="../assets/images/sponsors/IBM_temp.png" alt="" />
             </div>
 
             <div
@@ -427,10 +429,10 @@
             </div>
             <div
               class="list"
-              @click="openUrl('https://aws.amazon.com/startups?lang=en-US')"
+              @click="openUrl('https://www.amazon.com/')"
             >
-              <img class="d" src="../assets/images/sponsors/aws.png" alt="" />
-              <img class="a" src="../assets/images/sponsors/aws.png" alt="" />
+              <img class="d" src="../assets/images/sponsors/amazon.png" alt="" />
+              <img class="a" src="../assets/images/sponsors/amazon.png" alt="" />
             </div>
 
           </div>
@@ -473,31 +475,31 @@
             </div>
             <div
               class="list"
-            
             >
-              <img class="d" src="../assets/images/sponsors/play.png" alt="" />
-              <img class="a" src="../assets/images/sponsors/play.png" alt="" />
+              <img class="d" src="../assets/images/sponsors/jobfair.png" alt="" />
+              <img class="a" src="../assets/images/sponsors/jobfair.png" alt="" />
             </div>
 
             
           </div>
         </div>
 
+        <!--
         <div class="office_content">
           <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
             
-            <!-- <div class="list" @click="openUrl('https://cloud.google.com/')">
+            <div class="list" @click="openUrl('https://cloud.google.com/')">
               <img class="d" src="../assets/images/ico_logo_g2.png" alt="" />
               <img class="a" src="../assets/images/ico_logo_g1.png" alt="" />
-            </div> -->
+            </div> 
+
             <div
               class="list"
-             
+            
             >
-              <img class="d" src="../assets/images/sponsors/jobfair.png" alt="" />
-              <img class="a" src="../assets/images/sponsors/jobfair.png" alt="" />
+              <img class="d" src="../assets/images/sponsors/play.png" alt="" />
+              <img class="a" src="../assets/images/sponsors/play.png" alt="" />
             </div>
-
             <div
               class="list"
             >
@@ -508,6 +510,7 @@
             
           </div>
         </div>
+        -->
       </section>
       <!-- section5 end -->
 
@@ -1817,10 +1820,10 @@ export default {
       },
       {
         img: new URL(
-          `../assets/images/sponsors/aws.png`,
+          `../assets/images/sponsors/amazon.png`,
           import.meta.url
         ).href,
-        url: "https://aws.amazon.com/startups?lang=en-US",
+        url: "https://www.amazon.com/",
       },
       {
         img: new URL(
@@ -2416,14 +2419,9 @@ section {
   .c {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     padding-bottom: 2.5rem;
 
-    &.mb {
-      .item {
-        width: 50%;
-      }
-      padding-bottom: 1rem;
-    }
     .wavs {
       position: absolute;
       bottom: -55%;
@@ -2432,32 +2430,46 @@ section {
       z-index: 1;
       height: 8rem;
     }
-  }
 
-  .item {
-    width: 14%;
-    text-align: center;
-    margin-top: 2rem;
-    img {
-      width: 0.89rem;
+    .item {
+      width: 14%;
+      text-align: center;
+      margin-top: 2rem;
+      img {
+        width: 0.89rem;
+      }
+      .number {
+        font-family: HarmonyOS Sans SC Bold;
+        font-weight: bold;
+        font-size: 0.74rem;
+        color: #000000;
+        font-style: normal;
+        text-transform: none;
+        margin-top: 0.2rem;
+      }
+      .tip {
+        font-family: HarmonyOS Sans SC Regular;
+        font-weight: 400;
+        font-size: 0.37rem;
+        color: #78808f;
+        font-style: normal;
+        text-transform: none;
+        margin-top: 0.2rem;
+      }
     }
-    .number {
-      font-family: HarmonyOS Sans SC Bold;
-      font-weight: bold;
-      font-size: 0.74rem;
-      color: #000000;
-      font-style: normal;
-      text-transform: none;
-      margin-top: 0.2rem;
-    }
-    .tip {
-      font-family: HarmonyOS Sans SC Regular;
-      font-weight: 400;
-      font-size: 0.37rem;
-      color: #78808f;
-      font-style: normal;
-      text-transform: none;
-      margin-top: 0.2rem;
+
+    &.mb {
+      .item {
+        margin-top: 1rem;
+        width: 23%;
+        .number {
+          font-size: 0.75rem;
+        }
+        .tip {
+          font-size: 0.37rem;
+        }
+      }
+      padding-bottom: 1rem;
     }
   }
 }
@@ -2846,7 +2858,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    margin-top: 0;
+    margin-top: 0.1rem;
     .left {
       width: 20%;
 
@@ -3145,11 +3157,11 @@ section {
         z-index: -1;
         &.d {
           display: block;
-          border-radius: 1.5rem;
+          /*border-radius: 1.5rem;*/
         }
         &.a {
           display: none;
-          border-radius: 1.5rem;
+          /*border-radius: 1.5rem;*/
         }
       }
       &:hover {

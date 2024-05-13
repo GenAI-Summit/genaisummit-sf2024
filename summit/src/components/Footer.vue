@@ -17,7 +17,7 @@
           <div class="list">
             <img class="icon" @click="openUrl('https://www.gptdao.ai/')" src="../assets/images/site_icon.png" alt="">
             <img class="icon" @click="openUrl('https://twitter.com/genaisummitsf')" src="../assets/images/x_icon.png" alt="">
-            <img class="icon" @click="openUrl('https://www.linkedin.com/company/gptdao/posts/?feedView=all')" src="../assets/images/linkedin_icon.png" alt="">
+            <img class="icon" @click="openUrl('https://www.linkedin.com/company/gptdao/')" src="../assets/images/linkedin_icon.png" alt="">
             <img class="icon" @click="openUrl('https://www.facebook.com/gptdaoai/')" src="../assets/images/fb_icon.png" alt="">
             <img class="icon" @click="openUrl('https://www.instagram.com/genaisummit.xyz')" src="../assets/images/ig_icon.png" alt="">
           </div>

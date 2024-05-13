@@ -9,9 +9,11 @@ const routes = [
     name: "index",
     component: Index
   }
-]
+];
+
 const router = createRouter({
-    history: createWebHashHistory(),
-    routes: routes
-  })
-  export default router
+  history: createWebHashHistory(),
+  routes: routes
+});
+
+export default router;

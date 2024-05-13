@@ -83,6 +83,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+img {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
 .modal {
   top: 0;
   left: 0;

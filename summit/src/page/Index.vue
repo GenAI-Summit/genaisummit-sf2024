@@ -260,7 +260,21 @@
               <img class="a" src="../assets/images/sponsors/taskus.png" alt="" />
             </div>
 
+            <div
+              class="list"
+              @click="openUrl('https://espeed.capital/')"
+            >
+              <img class="d" src="../assets/images/sponsors/espeed.png" alt="" />
+              <img class="a" src="../assets/images/sponsors/espeed.png" alt="" />
+            </div>
         
+            <div
+              class="list"
+              @click="openUrl('https://metasill.io/')"
+            >
+              <img class="d" src="../assets/images/sponsors/metasill.png" alt="" />
+              <img class="a" src="../assets/images/sponsors/metasill.png" alt="" />
+            </div>
           </div>
         </div>
       </div>

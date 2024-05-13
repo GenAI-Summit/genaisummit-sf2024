@@ -11,66 +11,75 @@
     <div class="nav-list">
       <ul>
         <li v-if="screenWidth > 900">
-          <a
+          <div
+            class="nav-link"
             :to="null"
             @click="scrollToSection('section1')"
             :class="{ active: activeSection === 'section1' }"
-            >HOME</a
           >
+            HOME
+          </div>
         </li>
         <li v-if="screenWidth > 900">
-          <a
+          <div
+            class="nav-link"
+            :to="null"
+            @click="scrollToSection('sponsor_section')"
+            :class="{ active: activeSection === 'sponsor_section' }"
+          >
+            SPONSORS
+          </div>
+        </li>
+        <li v-if="screenWidth > 900">
+          <div
+            class="nav-link"
             :to="null"
             @click="scrollToSection('section2')"
             :class="{ active: activeSection === 'section2' }"
-            >SPEAKERS</a
           >
+            SPEAKERS
+          </div>
         </li>
         <li v-if="screenWidth > 900">
-          <a
+          <div
+            class="nav-link"
             :to="null"
             @click="scrollToSection('section5')"
             :class="{ active: activeSection === 'section5' }"
-            >WORKSHOP</a
           >
+            WORKSHOP
+          </div>
         </li>
         <li v-if="screenWidth > 900">
-          <a
-            :to="null"
-            @click="scrollToSection('section3')"
-            :class="{ active: activeSection === 'section3' }"
-            >SPONSORS</a
-          >
-        </li>
-        <li v-if="screenWidth > 900">
-          <a
+          <div
+            class="nav-link"
             :to="null"
             @click="scrollToSection('section4')"
             :class="{ active: activeSection === 'section4' }"
-            >SCHEDULE</a
           >
+            SCHEDULE
+          </div>
         </li>
-
-       
         <li v-if="screenWidth > 900">
-          <a
+          <div
+            class="nav-link"
             href="https://linktr.ee/gptdao"
             target="_black"
             :class="{ active: activeSection === 'section5' }"
-            >CONTACT</a
           >
+            CONTACT
+          </div>
         </li>
         <li v-if="screenWidth > 900">
-          <a
+          <div
+            class="nav-link"
             href="https://sv2023.genaisummit.ai/"
             target="_black"
             :class="{ active: activeSection === 'section6' }"
-            >PREVIOUS EVENT</a
           >
+            PREVIOUS EVENT
+          </div>
         </li>
-        <!-- <div class="logo">
-              <img src="../assets/images/microsoftAI.png" alt="">
-            </div> -->
         <li class="li-box">
           <button>
             <img src="../assets/images/hot.gif" alt="" />
@@ -100,15 +109,17 @@ export default {
   name: "",
   setup() {
     const sectionList = {
-      section1: "Home",
+      section1: "HOME",
       section2: "SPEAKERS",
-      section3: "SPONSORS",
+      sponsor_section: "SPONSORS",
       section4: "SCHEDULE",
+      section5: "WORKSHOPS",
     };
     const linkList = {
-      Home: "section1",
+      HOME: "section1",
       SPEAKERS: "section2",
-      SPONSORS: "section3",
+      SPONSORS: "sponsor_section",
+      WORKSHOPS: "workshop_section",
       SCHEDULE: "section4",
     };
     const store = useStore();
@@ -128,19 +139,23 @@ export default {
       return couponValue
     }
     const scrollToSection = (sectionId) => {
+      console.log(sectionId);
       const discount = route.query.discount || getLocationParame();
       const coupon = route.query.coupon || getLocationParame1();
       const section = document.getElementById(sectionId);
+      console.log(section);
       let newHash = ''
       if(discount){
         newHash = `?section=` + sectionList[sectionId] + `&discount=` + discount
       }else{
         newHash =  `?section=` + sectionList[sectionId]
+        console.log(newHash);
       }
       if(coupon){
         newHash = newHash + '&coupon=' + coupon
       }
       window.location.hash = newHash;
+      console.log(section);
       if (section) {
         window.scrollTo({
           top: section.offsetTop - 80,
@@ -198,7 +213,6 @@ export default {
       scrollToSection("section3");
     };
     onMounted(() => {
-      console.log(route)
       EventBus.$on("goPageHandle", goPageHandle);
       setTimeout(() => {
         const section = route.query.section;
@@ -313,7 +327,7 @@ export default {
               };
           }
         }
-        a {
+        .nav-link {
           text-decoration: none;
           font-family: HarmonyOS Sans SC Bold;
           font-weight: 400;

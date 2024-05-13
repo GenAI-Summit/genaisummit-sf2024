@@ -235,8 +235,7 @@
         </div>
       </div>
 
- <!-- Special Sponsor -->
-
+      <!-- Special Sponsor -->
       <div class="office_content">
         <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
           <div class="left">
@@ -266,10 +265,6 @@
         </div>
       </div>
     </section>
-
-   
-
-   
     <!-- sponsor section end -->
 
 
@@ -1523,7 +1518,7 @@ export default {
       {
         img: new URL(`../assets/images/sponsors/iobc.png`, import.meta.url)
           .href,
-        url: "https://www.iobc.capital/#/",
+        url: "https://www.iobc.capital/",
       },
       {
         img: new URL(`../assets/images/sponsors/zilliz.png`, import.meta.url)

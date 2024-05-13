@@ -84,7 +84,6 @@ import geraldparloiu from '../assets/images/speakers/geraldparloiu.jpg';
 import londonbreed from '../assets/images/speakers/londonbreed.jpg';
 import bhavinshah from '../assets/images/speakers/bhavinshah.jpg';
 import monicazou from '../assets/images/speakers/monicazou.jpg';
-import clairexie from '../assets/images/speakers/clairexie.jpg';
 
 
 
@@ -172,21 +171,9 @@ import geraldparloiu2 from '../assets/images/speakers/popup/geraldparloiu2.png';
 import londonbreed2 from '../assets/images/speakers/popup/londonbreed2.png';
 import bhavinshah2 from '../assets/images/speakers/popup/bhavinshah2.png';
 import monicazou2 from '../assets/images/speakers/popup/monicazou2.png';
-import clairexie2 from '../assets/images/speakers/popup/clairexie2.png';
 
 
 const speakerNewly = [
-  {
-    name: 'Claire Xie',
-    job: 'Founder & CEO',
-    tip: 'Clink AI',
-    image: clairexie,
-    website: '',
-    twitter: 'https://twitter.com/claire_xiee',
-    linkedin: 'https://www.linkedin.com/in/clairexiee/',
-    detail: clairexie2,
-    description: `Claire Xie is the founder of ClinkAI, an AI startup, and the Women in AI Club, which aims to connect, empower, and elevate founders, builders, and investors in the AI space. Previously, she worked as a lead data scientist at DoorDash and Google, focusing on growth analytics. Xie is passionate about leveraging AI to drive innovation and empowering women in the tech industry.`,
-  },
   {
     name: 'Monica Zou',
     job: 'CMO',

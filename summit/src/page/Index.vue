@@ -1737,6 +1737,12 @@ export default {
       },
 
       {
+        img: new URL(`../assets/images/sponsors/koyeb.png`, import.meta.url)
+          .href,
+        url: "https://www.koyeb.com/",
+      },
+
+      {
         img: new URL(`../assets/images/sponsors/pointable.png`, import.meta.url)
           .href,
         url: "https://www.pointable.ai/",

@@ -971,7 +971,7 @@ const speaker = [
     twitter: 'https://twitter.com/benlevy74?lang=en',
     linkedin: 'https://www.linkedin.com/in/benjamin-levy-415191/',
     detail: benjaminlevy2,
-    description: `Benjamin Levy is the co-founder and general partner of BootstrapLabs, a venture capital firm investing in early-stage applied AI technology companies. BootstrapLabs aims to shape the future by backing startups solving complex and valuable problems through artificial intelligence solutions.`,
+    description: `Mr. Levy co-founded BootstrapLabs, a leading AI-focused venture capital firm. He previously launched two fintech startups and worked as an investment banker advising companies on M&A and financing. Mr. Levy is an AAAI member and frequent speaker on AI, investing, and entrepreneurship.`,
   },
   {
     name: 'Cheng Chi',

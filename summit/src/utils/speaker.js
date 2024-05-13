@@ -91,6 +91,8 @@ import bhavinshah from '../assets/images/speakers/bhavinshah.jpg';
 import alekhjindal from '../assets/images/speakers/alekhjindal.jpg';
 import monicazou from '../assets/images/speakers/monicazou.jpg';
 import clairexie from '../assets/images/speakers/clairexie.jpg';
+import benjaminlevy from '../assets/images/speakers/benjaminlevy.jpg';
+import chengchi from '../assets/images/speakers/chengchi.jpg';
 
 
 
@@ -187,6 +189,8 @@ import bhavinshah2 from '../assets/images/speakers/popup/bhavinshah2.png';
 import alekhjindal2 from '../assets/images/speakers/popup/alekhjindal2.png';
 import monicazou2 from '../assets/images/speakers/popup/monicazou2.png';
 import clairexie2 from '../assets/images/speakers/popup/clairexie2.png';
+import benjaminlevy2 from '../assets/images/speakers/popup/benjaminlevy2.png';
+import chengchi2 from '../assets/images/speakers/popup/chengchi2.png';
 
 
 
@@ -957,6 +961,28 @@ const speaker = [
     linkedin: 'https://www.linkedin.com/in/murraynewlands/',
     detail: newlands2,
     description: `Murray, a celebrated entrepreneur and VC, is a Founding Partner at Open Future Technology, previously influencing Turing.com's growth and advising Draper Nexus. Known from The Huffington Post's Top 10 list, he formerly partnered at OnePiece Labs within Uphonest Capital. Currently, he spearheads a web3 and AI incubator, connecting with Silicon Valley's tech community.`,
+  },
+  {
+    name: 'Benjamin Levy',
+    job: 'Co-Founder',
+    tip: 'BootstrapLabs',
+    image: benjaminlevy,
+    website: '',
+    twitter: 'https://twitter.com/benlevy74?lang=en',
+    linkedin: 'https://www.linkedin.com/in/benjamin-levy-415191/',
+    detail: benjaminlevy2,
+    description: `Benjamin Levy is the co-founder and general partner of BootstrapLabs, a venture capital firm investing in early-stage applied AI technology companies. BootstrapLabs aims to shape the future by backing startups solving complex and valuable problems through artificial intelligence solutions.`,
+  },
+  {
+    name: 'Cheng Chi',
+    job: 'Robotics PhD Student',
+    tip: 'Stanford University',
+    image: chengchi,
+    website: '',
+    twitter: 'https://twitter.com/chichengcc?lang=en',
+    linkedin: 'https://www.linkedin.com/in/cheng-chi-3760a3117/',
+    detail: chengchi2,
+    description: `Cheng Chi is a 4th year CS PhD student at Columbia University, and a EE Student of New Faculty (SNF) at Stanford University, advised by Professor Shuran Song. During his PhD, Cheng work closely with Toyota Research Institute on solving complex robotic manipulation problems, dealing with deformable objects and hard-to-model dynamics. Recently, he is interested in scaling imitation learning for general purpose robotic manipulation.`,
   },
   {
     name: 'Dr. Chunting Zhou',

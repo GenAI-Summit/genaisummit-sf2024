@@ -57,7 +57,7 @@ import tonyb from '../assets/images/speakers/tonyb.png';
 import davit from '../assets/images/speakers/davit.png';
 import popa from '../assets/images/speakers/popa.jpg';
 import amr from '../assets/images/speakers/amr.png';
-import sriharsha from '../assets/images/speakers/sriharsha.png';
+import ramsriharsha from '../assets/images/speakers/ramsriharsha.jpg';
 import orbach from '../assets/images/speakers/orbach.png';
 import karina from '../assets/images/speakers/karina.png';
 import harris from '../assets/images/speakers/harris.png';
@@ -153,7 +153,7 @@ import tonyb2 from '../assets/images/speakers/popup/tonyb.png';
 import davit2 from '../assets/images/speakers/popup/davit.png';
 import popa2 from '../assets/images/speakers/popup/popa.png';
 import amr2 from '../assets/images/speakers/popup/amr.png';
-import sriharsha2 from '../assets/images/speakers/popup/sriharsha.png';
+import ramsriharsha2 from '../assets/images/speakers/popup/ramsriharsha2.png';
 import orbach2 from '../assets/images/speakers/popup/orbach.png';
 import karina2 from '../assets/images/speakers/popup/karina.png';
 import harris2 from '../assets/images/speakers/popup/harris.png';
@@ -511,12 +511,12 @@ const speaker = [
     name: 'Dr. Ram Sriharsha',
     job: 'CTO',
     tip: 'Pinecone',
-    image: sriharsha,
+    image: ramsriharsha,
     website: '',
     linkedin: 'https://www.linkedin.com/in/harsha340/',
     twitter: 'https://twitter.com/halfabrane',
-    detail: sriharsha2,
-    description: `Dr. Ram Sriharsha is the CTO of Pinecone, which has raised $750 million in funding. Pinecone is redefining database technology with its cutting-edge vector database designed for enhancing search and recommendations by effectively managing high-dimensional vector data. This innovation sets Pinecone apart from traditional database leaders like Oracle, IBM and positions it against new entrants like Milvus, focusing on improving data handling and search accuracy.`,
+    detail: ramsriharsha2,
+    description: `Dr. Ram Sriharsha is the CTO at Pinecone. Pinecone created the vector database to help engineers build and scale remarkable AI applications. Vector databases have become a core component of GenAI applications, and Pinecone is the market-leading solution with over 5,000 customers of all types and sizes across all industries. Pinecone has raised $138M in funding from leading investors Andreessen Horowitz, ICONIQ Growth, Menlo Ventures, and Wing Venture Capital, and operates in New York, San Francisco, and Tel Aviv.`,
   },
   {
     name: 'Tuhin Srivastava',

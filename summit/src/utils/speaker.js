@@ -46,7 +46,7 @@ import ross from '../assets/images/speakers/ross.png';
 import jain from '../assets/images/speakers/jain.png';
 import george from '../assets/images/speakers/george.png';
 import tomlee from '../assets/images/speakers/tomlee.png';
-import yaniv from '../assets/images/speakers/yaniv.png';
+import yanivmakover from '../assets/images/speakers/yanivmakover.jpg';
 import moody from '../assets/images/speakers/moody.png';
 import josh from '../assets/images/speakers/josh.png';
 import shiv from '../assets/images/speakers/shiv.png';
@@ -142,7 +142,7 @@ import ross2 from '../assets/images/speakers/popup/ross.png';
 import jain2 from '../assets/images/speakers/popup/jain.png';
 import george2 from '../assets/images/speakers/popup/goerge.png';
 import tomlee2 from '../assets/images/speakers/popup/tomlee.png';
-import yaniv2 from '../assets/images/speakers/popup/yaniv.png';
+import yanivmakover2 from '../assets/images/speakers/popup/yanivmakover2.png';
 import moody2 from '../assets/images/speakers/popup/moody.png';
 import josh2 from '../assets/images/speakers/popup/josh.png';
 import shiv2 from '../assets/images/speakers/popup/shiv.png';
@@ -742,11 +742,11 @@ const speaker = [
     name: 'Yaniv Makover',
     job: 'Co-Founder & CEO',
     tip: 'Anyword',
-    image: yaniv,
+    image: yanivmakover,
     website: '',
     twitter: 'https://twitter.com/YanivMakover',
     linkedin: 'https://www.linkedin.com/in/yaniv-makover-a8590b3/',
-    detail: yaniv2,
+    detail: yanivmakover2,
     description: `Anyword, founded by Yaniv Makover, is an AI writing tool aimed at enhancing enterprise marketing with predictive modeling to improve content quality and effectiveness. It challenges leading AI tools like Copy.ai and Jasper, redefining content strategy in digital marketing. Anyword's goal is to revolutionize how content is created and optimized. It has garnered over $30 million in funding to grow its technology and influence.`,
   },
   {

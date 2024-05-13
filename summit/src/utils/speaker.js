@@ -46,7 +46,7 @@ import ross from '../assets/images/speakers/ross.png';
 import jain from '../assets/images/speakers/jain.png';
 import george from '../assets/images/speakers/george.png';
 import tomlee from '../assets/images/speakers/tomlee.png';
-import yaniv from '../assets/images/speakers/yaniv.png';
+import yanivmakover from '../assets/images/speakers/yanivmakover.jpg';
 import moody from '../assets/images/speakers/moody.png';
 import josh from '../assets/images/speakers/josh.png';
 import shiv from '../assets/images/speakers/shiv.png';
@@ -57,7 +57,7 @@ import tonyb from '../assets/images/speakers/tonyb.png';
 import davit from '../assets/images/speakers/davit.png';
 import popa from '../assets/images/speakers/popa.jpg';
 import amr from '../assets/images/speakers/amr.png';
-import sriharsha from '../assets/images/speakers/sriharsha.png';
+import ramsriharsha from '../assets/images/speakers/ramsriharsha.jpg';
 import orbach from '../assets/images/speakers/orbach.png';
 import karina from '../assets/images/speakers/karina.png';
 import harris from '../assets/images/speakers/harris.png';
@@ -142,7 +142,7 @@ import ross2 from '../assets/images/speakers/popup/ross.png';
 import jain2 from '../assets/images/speakers/popup/jain.png';
 import george2 from '../assets/images/speakers/popup/goerge.png';
 import tomlee2 from '../assets/images/speakers/popup/tomlee.png';
-import yaniv2 from '../assets/images/speakers/popup/yaniv.png';
+import yanivmakover2 from '../assets/images/speakers/popup/yanivmakover2.png';
 import moody2 from '../assets/images/speakers/popup/moody.png';
 import josh2 from '../assets/images/speakers/popup/josh.png';
 import shiv2 from '../assets/images/speakers/popup/shiv.png';
@@ -153,7 +153,7 @@ import tonyb2 from '../assets/images/speakers/popup/tonyb.png';
 import davit2 from '../assets/images/speakers/popup/davit.png';
 import popa2 from '../assets/images/speakers/popup/popa.png';
 import amr2 from '../assets/images/speakers/popup/amr.png';
-import sriharsha2 from '../assets/images/speakers/popup/sriharsha.png';
+import ramsriharsha2 from '../assets/images/speakers/popup/ramsriharsha2.png';
 import orbach2 from '../assets/images/speakers/popup/orbach.png';
 import karina2 from '../assets/images/speakers/popup/karina.png';
 import harris2 from '../assets/images/speakers/popup/harris.png';
@@ -511,12 +511,12 @@ const speaker = [
     name: 'Dr. Ram Sriharsha',
     job: 'CTO',
     tip: 'Pinecone',
-    image: sriharsha,
+    image: ramsriharsha,
     website: '',
     linkedin: 'https://www.linkedin.com/in/harsha340/',
     twitter: 'https://twitter.com/halfabrane',
-    detail: sriharsha2,
-    description: `Dr. Ram Sriharsha is the CTO of Pinecone, which has raised $750 million in funding. Pinecone is redefining database technology with its cutting-edge vector database designed for enhancing search and recommendations by effectively managing high-dimensional vector data. This innovation sets Pinecone apart from traditional database leaders like Oracle, IBM and positions it against new entrants like Milvus, focusing on improving data handling and search accuracy.`,
+    detail: ramsriharsha2,
+    description: `Dr. Ram Sriharsha is the CTO at Pinecone. Pinecone created the vector database to help engineers build and scale remarkable AI applications. Vector databases have become a core component of GenAI applications, and Pinecone is the market-leading solution with over 5,000 customers of all types and sizes across all industries. Pinecone has raised $138M in funding from leading investors Andreessen Horowitz, ICONIQ Growth, Menlo Ventures, and Wing Venture Capital, and operates in New York, San Francisco, and Tel Aviv.`,
   },
   {
     name: 'Tuhin Srivastava',
@@ -742,11 +742,11 @@ const speaker = [
     name: 'Yaniv Makover',
     job: 'Co-Founder & CEO',
     tip: 'Anyword',
-    image: yaniv,
+    image: yanivmakover,
     website: '',
     twitter: 'https://twitter.com/YanivMakover',
     linkedin: 'https://www.linkedin.com/in/yaniv-makover-a8590b3/',
-    detail: yaniv2,
+    detail: yanivmakover2,
     description: `Anyword, founded by Yaniv Makover, is an AI writing tool aimed at enhancing enterprise marketing with predictive modeling to improve content quality and effectiveness. It challenges leading AI tools like Copy.ai and Jasper, redefining content strategy in digital marketing. Anyword's goal is to revolutionize how content is created and optimized. It has garnered over $30 million in funding to grow its technology and influence.`,
   },
   {

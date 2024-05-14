@@ -1684,6 +1684,13 @@ export default {
       },
       {
         img: new URL(
+          `../assets/images/sponsors/gradient.png`,
+          import.meta.url
+        ).href,
+        url: "https://gradient.ai/",
+      },
+      {
+        img: new URL(
           `../assets/images/sponsors/orb.png`,
           import.meta.url
         ).href,
@@ -1805,6 +1812,11 @@ export default {
         img: new URL(`../assets/images/sponsors/deepabacus.png`, import.meta.url)
           .href,
         url: "https://www.deepabacus.com/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/Evaluable.png`, import.meta.url)
+          .href,
+        url: "https://www.evaluable.ai/",
       },
       {
         img: new URL(`../assets/images/sponsors/sider.png`, import.meta.url)

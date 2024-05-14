@@ -530,7 +530,7 @@ const speakerNewly = [
   {
     name: 'Swapnil Jain',
     job: 'CEO & Co-Founder',
-    tip: 'Observe AI',
+    tip: 'Observe.AI',
     image: jain,
     linkedin: 'https://www.linkedin.com/in/conversationintelligence/',
     twitter: 'https://twitter.com/swapnil',

@@ -95,6 +95,7 @@ import rochellemattern from '../assets/images/speakers/rochellemattern.jpg';
 import jingshenghuang from '../assets/images/speakers/jingshenghuang.jpg';
 import ajinkyamalasane from '../assets/images/speakers/ajinkyamalasane.jpg';
 import lancemartin from '../assets/images/speakers/lancemartin.jpg';
+import dmytrodzhulgakov from '../assets/images/speakers/dmytrodzhulgakov.jpg';
 
 
 
@@ -195,6 +196,7 @@ import rochellemattern2 from '../assets/images/speakers/popup/rochellemattern2.p
 import jingshenghuang2 from '../assets/images/speakers/popup/jingshenghuang2.png';
 import ajinkyamalasane2 from '../assets/images/speakers/popup/ajinkyamalasane2.png';
 import lancemartin2 from '../assets/images/speakers/popup/lancemartin2.png';
+import dmytrodzhulgakov2 from '../assets/images/speakers/popup/dmytrodzhulgakov2.png';
 
 
 
@@ -463,7 +465,7 @@ const speaker = [
   {
     name: 'Swapnil Jain',
     job: 'CEO & Co-Founder',
-    tip: 'Observe AI',
+    tip: 'Observe.AI',
     image: jain,
     linkedin: 'https://www.linkedin.com/in/conversationintelligence/',
     twitter: 'https://twitter.com/swapnil',
@@ -781,6 +783,17 @@ const speaker = [
     twitter: 'https://twitter.com/ed_roman',
     detail: roman2,
     description: `Ed Roman is the Managing Partner at Hack VC, specializing in web3 investments with an asset base of over $425 million. His background includes significant roles in growing small businesses, team leadership, game development, and technical writing. Ed's skills extend across various areas such as sales, marketing, software development, and project management. Hack VC, where he leads, is based in New York City and operates globally.`,
+  },
+  {
+    name: 'Dmytro Dzhulgakov',
+    job: 'CTO & Co-Founder',
+    tip: 'Fireworks.ai',
+    image: dmytrodzhulgakov,
+    website: '',
+    linkedin: 'https://www.linkedin.com/in/dzhulgakov/',
+    twitter: 'https://twitter.com/dzhulgakov',
+    detail: dmytrodzhulgakov2,
+    description: `Dmytro (Dima) Dzhulgakov is a co-founder and CTO of Fireworks.ai. Fireworks.ai is a platform for developing and running Generative AI applications at high speed and low cost. Dmytro is one of PyTorch's core maintainers. Previously he helped to bring PyTorch from a research framework to numerous production applications across Meta's AI use cases and broader industry.`
   },
   {
     name: 'Kevin McNamara',

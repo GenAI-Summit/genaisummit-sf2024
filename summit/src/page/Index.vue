@@ -76,7 +76,7 @@
           <div class="show_title">Sponsored by</div>
 
           <div class="item_bg_box">
-            <img src="../assets/images/micro_logo.png" alt="" />
+            <img class="item-img" src="../assets/images/micro_logo.png" alt="" />
             <!--
             <div class="more" @click="goPageHandle">
               more
@@ -2360,6 +2360,15 @@ section {
         }
       }
     }
+  }
+
+  .item-img {
+    height: 1.6rem;
+  }
+
+  .show_title {
+    font-size: 0.5rem;
+    font-family: HarmonyOS Sans SC Regular;
   }
 }
 .section-default {

@@ -1,7 +1,7 @@
 <template>
   <div ref="slick" class="slick-carousel">
     <template v-for="(list,index) in spearkSList" :key="index">
-        <PersionItem2 :item="list"/>
+      <PersionItem2 :item="list"/>
     </template>
   </div>
 </template>

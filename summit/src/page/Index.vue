@@ -468,15 +468,15 @@
               class="list"
               @click="openUrl('https://www.nvidia.com/en-us/')"
             >
-              <img class="d" src="../assets/images/workshop/nvidia.png" alt="" />
-              <img class="a" src="../assets/images/workshop/nvidia.png" alt="" />
+              <img class="d" src="../assets/images/workshop/nvidia.png" alt="" loading="lazy" />
+              <img class="a" src="../assets/images/workshop/nvidia.png" alt="" loading="lazy" />
             </div>
             <div
               class="list"
               @click="openUrl('https://www.amazon.com/')"
             >
-              <img class="d" src="../assets/images/sponsors/amazon.png" alt="" />
-              <img class="a" src="../assets/images/sponsors/amazon.png" alt="" />
+              <img class="d" src="../assets/images/sponsors/amazon.png" alt="" loading="lazy" />
+              <img class="a" src="../assets/images/sponsors/amazon.png" alt="" loading="lazy" />
             </div>
 
           </div>
@@ -489,15 +489,15 @@
               class="list"
               @click="openUrl('https://sambanova.ai/')"
             >
-              <img class="d" src="../assets/images/sponsors/samba.png" alt="" />
-              <img class="a" src="../assets/images/sponsors/samba.png" alt="" />
+              <img class="d" src="../assets/images/sponsors/samba.png" alt="" loading="lazy" />
+              <img class="a" src="../assets/images/sponsors/samba.png" alt="" loading="lazy" />
             </div>
             <div
               class="list"
               @click="openUrl('https://zilliz.com/')"
             >
-              <img class="d" src="../assets/images/sponsors/zilliz.png" alt="" />
-              <img class="a" src="../assets/images/sponsors/zilliz.png" alt="" />
+              <img class="d" src="../assets/images/sponsors/zilliz.png" alt="" loading="lazy" />
+              <img class="a" src="../assets/images/sponsors/zilliz.png" alt="" loading="lazy" />
             </div>
           </div>
         </div>
@@ -513,15 +513,15 @@
               class="list"
               @click="openUrl('https://otter.ai/')"
             >
-              <img class="d" src="../assets/images/sponsors/otter.png" alt="" />
-              <img class="a" src="../assets/images/sponsors/otter.png" alt="" />
+              <img class="d" src="../assets/images/sponsors/otter.png" alt="" loading="lazy" />
+              <img class="a" src="../assets/images/sponsors/otter.png" alt="" loading="lazy" />
               
             </div>
             <div
               class="list"
             >
-              <img class="d" src="../assets/images/sponsors/jobfair.png" alt="" />
-              <img class="a" src="../assets/images/sponsors/jobfair.png" alt="" />
+              <img class="d" src="../assets/images/sponsors/jobfair.png" alt="" loading="lazy" />
+              <img class="a" src="../assets/images/sponsors/jobfair.png" alt="" loading="lazy" />
             </div>
 
             
@@ -603,8 +603,8 @@
                 :class="screenWidth > 600 ? '' : 'mb'"
               >
                 <div class="list" data-aos="zoom-in">
-                  <img class="d" src="../assets/images/k12.jpg" alt="" />
-                  <img class="a" src="../assets/images/k12.jpg" alt="" />
+                  <img class="d" src="../assets/images/k12.jpg" alt="" loading="lazy" />
+                  <img class="a" src="../assets/images/k12.jpg" alt="" loading="lazy" />
                 </div>
                 <div class="list">
                   <iframe
@@ -615,7 +615,9 @@
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerpolicy="strict-origin-when-cross-origin"
-                    allowfullscreen>
+                    allowfullscreen
+                    loading="lazy"
+                  >
                   </iframe>
                 </div>
               </div>
@@ -865,7 +867,7 @@
                 :key="index"
                 data-aos="zoom-in"
               >
-                <img :src="item.img" alt="" />
+                <img :src="item.img" alt="" loading="lazy" />
               </div>
             </div>
 

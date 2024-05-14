@@ -320,17 +320,21 @@ export default {
             <br/><br/>&nbsp&nbsp
             - (Murray Newlands, Investor @Open Future Technology)
             <br/><br/><br/>
-          3. Keynote 13:45-14:30: <i>Will be provided by Speaker soon</i>
+          3. Keynote 13:45-14:30: Quantum AI
             <br/><br/>&nbsp&nbsp
             - (Prof. Xiaoliang Qi, Professor @Stanford)
             <br/><br/><br/>
-          4. Keynote 14:30-15:15: <i>Will be provided by Speaker soon</i>
+          4. Keynote 14:30-15:15: GenAI and Crypto Investment
             <br/><br/>&nbsp&nbsp
             - (Mengfan Zhang, @MountainLion)
             <br/><br/><br/>
           5. Keynote 15:15-16:00: Knowledge Graphs & GraphRAG: Essential Ingredients for Enterprise GenAI
             <br/><br/>&nbsp&nbsp
             - (Philip Rathle, CTO @Neo4j)
+            <br/><br/><br/>
+          6. Keynote 16:00-16:45: Text to Video Editing
+            <br/><br/>&nbsp&nbsp
+            - (Jose Sotelo, Senior AI Researcher @Descript)
             <br/><br/><br/>
         `,
       },
@@ -446,13 +450,13 @@ export default {
             <br/><br/><br/>
           4. Keynote 13:00-13:45: <i>Will be provided by Speaker soon</i>
             <br/><br/>&nbsp&nbsp
-            - (OneGen) | (MountainLion)
+            - (Gerald Parloiu, Lead Lead GTM @Sana.ai)
             <br/><br/><br/>
           5. Keynote 13:45-14:30: AI in Education: Enhancing Learning Experiences
             <br/><br/>&nbsp&nbsp
             - (Prof. Hamza Farooq, Founder @traversaal.ai)
             <br/><br/><br/>
-          6. Panel Discussion 14:30-15:15: <i>Will be provided by Speaker soon</i>
+          6. Panel Discussion 14:30-15:15: Enterprise
             <br/><br/>&nbsp&nbsp
             - (IBM)
             <br/><br/><br/>

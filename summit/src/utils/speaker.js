@@ -73,9 +73,7 @@ import muddu from '../assets/images/speakers/muddu.png';
 import stewart from '../assets/images/speakers/stewart.jfif';
 import rashimi from '../assets/images/speakers/rashimi.jpg';
 import soumya from '../assets/images/speakers/soumya.jfif';
-import gideon from '../assets/images/speakers/gideon.jfif';
 import curtis from '../assets/images/speakers/curtis.jfif';
-import waseem from '../assets/images/speakers/waseem.jpg';
 import tuhin from '../assets/images/speakers/tuhin.jfif';
 import brooke from '../assets/images/speakers/brooke.jfif';
 import huang from '../assets/images/speakers/huang.jfif';
@@ -94,6 +92,8 @@ import clairexie from '../assets/images/speakers/clairexie.jpg';
 import benjaminlevy from '../assets/images/speakers/benjaminlevy.jpg';
 import chengchi from '../assets/images/speakers/chengchi.jpg';
 import darkomatovski from '../assets/images/speakers/darkomatovski.jpg';
+import rochellemattern from '../assets/images/speakers/rochellemattern.jpg';
+import jingshenghuang from '../assets/images/speakers/jingshenghuang.jpg';
 
 
 
@@ -172,9 +172,7 @@ import muddu2 from '../assets/images/speakers/popup/muddu.png';
 import stewart2 from '../assets/images/speakers/popup/stewart.png';
 import rashimi2 from '../assets/images/speakers/popup/rashimi.png';
 import soumya2 from '../assets/images/speakers/popup/soumya.png';
-import gideon2 from '../assets/images/speakers/popup/gideon.png';
 import curtis2 from '../assets/images/speakers/popup/curtis.png';
-import waseem2 from '../assets/images/speakers/popup/waseem.png';
 import tuhin2 from '../assets/images/speakers/popup/tuhin.png';
 import brooke2 from '../assets/images/speakers/popup/brooke.png';
 import huang2 from '../assets/images/speakers/popup/huang.png';
@@ -193,6 +191,8 @@ import clairexie2 from '../assets/images/speakers/popup/clairexie2.png';
 import benjaminlevy2 from '../assets/images/speakers/popup/benjaminlevy2.png';
 import chengchi2 from '../assets/images/speakers/popup/chengchi2.png';
 import darkomatovski2 from '../assets/images/speakers/popup/darkomatovski2.png';
+import rochellemattern2 from '../assets/images/speakers/popup/rochellemattern2.png';
+import jingshenghuang2 from '../assets/images/speakers/popup/jingshenghuang2.png';
 
 
 
@@ -424,18 +424,18 @@ const speaker = [
     detail: ambati2,
     description: `Sri Ambati is the Co-Founder and CEO of H2O.ai since 2011. H2O.ai democratizes AI by building user-friendly tools and fostering collaboratioin to make AI accessible to everyone. H2O.ai has raised a total of $251.1M in funding over 9 rounds. Their latest funding was raised on May 12, 2023 from a secondary market round. H2O.ai focuses on Ease of Use and Accessibility, Automated Machine Learning (AutoML), Scalability and Performance. Currently H2O with a valuation of $1.6 billion.`,
   },
-  {
-    name: 'Dr. Alexander Ratner',
-    job: 'CEO & Co-Founder',
-    tip: 'Snorkel AI',
-    image: ratner,
-    linkedin: 'https://www.linkedin.com/in/alexander-ratner-038ba239/',
-    twitter: 'https://twitter.com/ajratner',
-    website: 'https://councils.forbes.com/profile/Alexander-Ratner-CEO-Co-founder-Snorkel-AI/f1b8b27b-d6ae-40ca-baba-cc2c6c004721',
-    detail: ratner2,
-    description: `Dr. Alex Ratner is the co-founder and CEO at Snorkel AI. Snorkel AI helps Label data way faster the traditional method, helps building high-quality datasets at enterprise scale using programmatic data development and your subject matter experts. Snorkel Flow captures and encodes your domain expertise and automates manual tasks like filtering, curating, labeling, and slicing. Snorkel AI raises $85m Series C at a total of $1b Valuation for Data-Centric AI.`,
-  },
 
+  {
+    name: 'Jingsheng Huang',
+    job: 'Board of Member',
+    tip: 'Yiren Digital',
+    image: jingshenghuang,
+    website: '',
+    twitter: 'https://twitter.com/yirendigital',
+    linkedin: 'https://www.linkedin.com/company/yiren-digital-ltd/',
+    detail: jingshenghuang2,
+    description: `Mr. Jingsheng Huang is the managing executive director at Harvard Center Shanghai. Previously, he was a partner at TPG Growth and RMB Funds, a managing director at Bain Capital LLC, and held positions at SOFTBANK Asia Infrastructure Fund, SuNeVision Ventures, Intel Capital, and GartnerGroup. He has served on boards of China Venture Capital Association and Shanghai Private Equity Association.`,
+  },
   {
     name: 'Dr. Devendra Chaplot',
     job: 'AI Research Scientist',
@@ -468,6 +468,28 @@ const speaker = [
     website: '',
     detail: jain2,
     description: `Observe.AI, co-founded by Swapnil Jain, revolutionizes contact centers with AI to enhance agent performance and automate routine tasks. Observe.AI provides a platform for enhancing the performance of contact centers through artificial intelligence, analyzing customer interactions for insights and automation of workflows to improve service efficiency and effectiveness. The company has successfully raised $213 million.`,
+  },
+  {
+    name: 'Rochelle Mattern',
+    job: 'Director of Solutions Engineering',
+    tip: 'SambaNova Systems',
+    image: rochellemattern,
+    website: '',
+    twitter: 'https://twitter.com/jainarvind',
+    linkedin: 'https://www.linkedin.com/in/rochelle-mattern10/',
+    detail: rochellemattern2,
+    description: `Rochelle is the Director of Worldwide Solutions Engineering at SamabNova Systems. Her and her team support enterprise customers in their journey to adopting generative AI technologies to solve their most challenging business problems and unlock new revenue opportunities. With extensive experience in AI solutions, she has worked at Forethought.ai, Google Cloud, and Cisco Systems, where she has helped merge technical innovations with strategic enterprise objectives. Beyond SambaNova, Rochelle serves on the leadership team of Women in AI Club, striving to connect, elevate, and inspire women founders, leaders, and practitioners in AI.`,
+  },
+  {
+    name: 'Dr. Alexander Ratner',
+    job: 'CEO & Co-Founder',
+    tip: 'Snorkel AI',
+    image: ratner,
+    linkedin: 'https://www.linkedin.com/in/alexander-ratner-038ba239/',
+    twitter: 'https://twitter.com/ajratner',
+    website: 'https://councils.forbes.com/profile/Alexander-Ratner-CEO-Co-founder-Snorkel-AI/f1b8b27b-d6ae-40ca-baba-cc2c6c004721',
+    detail: ratner2,
+    description: `Dr. Alex Ratner is the co-founder and CEO at Snorkel AI. Snorkel AI helps Label data way faster the traditional method, helps building high-quality datasets at enterprise scale using programmatic data development and your subject matter experts. Snorkel Flow captures and encodes your domain expertise and automates manual tasks like filtering, curating, labeling, and slicing. Snorkel AI raises $85m Series C at a total of $1b Valuation for Data-Centric AI.`,
   },
   {
     name: 'Prof. Raluca Popa',
@@ -668,6 +690,7 @@ const speaker = [
     detail: yangqingjia2,
     description: `Dr. Yangqing Jia, as the Founder & CEO of Lepton.ai, spearheads a company that is a leader in AI technology development. His expertise is centered on generative artificial intelligence (GenAI), a key area in AI that involves the creation of new, innovative solutions and data interpretations. Lepton AI is an open-source, cloud-native AI development platform founded by Dr. Yangqing Jia, designed to make AI application development accessible for every developer, particularly those proficient in Python.`,
   },
+  /*
   {
     name: 'Gideon Mendels',
     job: 'Co-Founder & CEO',
@@ -679,6 +702,7 @@ const speaker = [
     detail: gideon2,
     description: `Gideon Mendels is the Co-Founder & CEO of Comet ML, a platform transforming machine learning similar to how GitHub revolutionized code management. Prior to Comet, he was a data scientist at Columbia University, Groupwize, and Google, primarily working on NLP tasks such as document classification and language modeling. He often faced challenges with machine learning projects lacking documentation on prior models, which led to the inspiration for Comet. Comet ML has raised $70 million in funding to enhance efficiency, transparency, and reproducibility from training to production in machine learning workflows.`,
   },
+  */
   {
     name: 'Sharan Narang',
     job: 'Co-Author',

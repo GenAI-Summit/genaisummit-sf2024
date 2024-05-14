@@ -608,8 +608,8 @@
                 </div>
                 <div class="list">
                   <lite-youtube
-                    data-aos="zoom-in"
                     class="k12-video"
+                    data-aos="zoom-in"
                     videoid="km4o5GbSsI8"
                     style="background-image: url('https://i.ytimg.com/vi/km4o5GbSsI8/hqdefault.jpg');"
                   >

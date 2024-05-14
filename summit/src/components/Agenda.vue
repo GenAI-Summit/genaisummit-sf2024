@@ -139,7 +139,7 @@ export default {
             <br/><br/><br/>
           8. Panel Discussion 16:00-16:45: AI Computing / AI HW - Corporate VC investment strategy & focus
             <br/><br/>&nbsp&nbsp
-            - (Xuhui Shao, MD @Foothill Ventures, Moderator) | (Jeff Hennig, Vice President, Corporate Development @AMD Venture), Tushar Gupta, Sr. Director @Qualcomm Venture)
+            - (Xuhui Shao, MD @Foothill Ventures, Moderator) | (Jeff Hennig, Vice President, Corporate Development @AMD Venture) | (Tushar Gupta, Sr. Director @Qualcomm Venture)
             <br/><br/><br/>
         `,
       },
@@ -217,7 +217,7 @@ export default {
             <br/><br/><br/>
           2. Workshop 14:00-15:00: Harnessing LLM for Predictive Analysis in Cryptocurrency Investments
             <br/><br/>&nbsp&nbsp
-            - (Meng Fan, @MountainLion)
+            - (Mengfan Zhang, @MountainLion)
             <br/><br/><br/>
         `,
       },
@@ -256,7 +256,7 @@ export default {
             <br/><br/><br/>
           8. Panel Discussion 15:15-16:00: How does LLM Helps to Preserve Minority Culture
             <br/><br/>&nbsp&nbsp 
-            - (Artur Kiulian, Founder @Radical Philanthropies, Moderator) | (Dinesh Maheshwari, Chief Technology Advisor @Groq) | (Bryan McCann, CTO & Co-Founder @You.com) | (Stan Lee, CTO & Co-founder @Upstage) | (Devendra Chaplot, AI Research Scientist @Mistral AI)
+            - (Artur Kiulian, Founder @Radical Philanthropies, Moderator) | (Dinesh Maheshwari, Chief Technology Advisor @Groq) | (Bryan McCann, CTO & Co-Founder @You.com) | (Stan Lee, CTO & Co-Founder @Upstage) | (Devendra Chaplot, AI Research Scientist @Mistral AI)
             <br/><br/><br/>
           9. Panel Discussion 16:00-16:45: Building a Brain for the Copilot: How Infrastructure Enables Powerful GenAI Assistants
             <br/><br/>&nbsp&nbsp 
@@ -273,7 +273,7 @@ export default {
             <br/><br/><br/>
           2. Keynote 09:45-10:30: Lightning Speed AI Inference to understand profoundly and intuitively 
             <br/><br/>&nbsp&nbsp 
-            - (Jonathon Ross, CEO @Groq)
+            - (Jonathan Ross, CEO @Groq)
             <br/><br/><br/>
           3. Keynote 10:30-11:15: AI for Work: How GenAI Improves the Way We Work and Collaborate 
             <br/><br/>&nbsp&nbsp 
@@ -326,7 +326,7 @@ export default {
             <br/><br/><br/>
           4. Keynote 14:30-15:15: <i>Will be provided by Speaker soon</i>
             <br/><br/>&nbsp&nbsp
-            - (Meng Fan, @MountainLion)
+            - (Mengfan Zhang, @MountainLion)
             <br/><br/><br/>
           5. Keynote 15:15-16:00: Knowledge Graphs & GraphRAG: Essential Ingredients for Enterprise GenAI
             <br/><br/>&nbsp&nbsp
@@ -378,13 +378,13 @@ export default {
             <br/><br/>&nbsp&nbsp 
             - (Eddie Aftandilian, Principal Researcher @GitHub, Moderator) | (Alexander Ratner, CEO @SnorkelAI, Moderator) | (Bob Van Luijt, CEO & Co-Founder @Weaviate) | (Amr Awadallah, CEO @Vectara)
             <br/><br/><br/>
-          6. Keynote 13:45-14:15: <i>Will be provided by Speaker soon</i>
+          6. Keynote 13:45-14:15: Path to Production: LLM Evaluations and Observability
             <br/><br/>&nbsp&nbsp 
             - (Jason Lopatecki, CEO @Arize AI)
             <br/><br/><br/>
           7. Keynote 14:15-14:45: <i>Will be provided by Speaker soon</i>
             <br/><br/>&nbsp&nbsp 
-            - (Sri Ambati, Founder & CEO @H2O.ai)
+            - (Sri Satish Ambati, Founder & CEO @H2O.ai)
             <br/><br/><br/>
           8. Panel Discussion 14:45-15:30: Building a Responsible AGI: Ethics of AI in Decision-Making 
             <br/><br/>&nbsp&nbsp 
@@ -408,6 +408,7 @@ export default {
             - (Dr. Darko Matovski, Co-Founder & CEO @CausaLens)
             <br/><br/><br/>
           2. Keynote 10:30-11:15: <i>Will be provided by Speaker soon</i>
+            <br/><br/>&nbsp&nbsp 
              - (Sharan Narang, Co-Author @Llama 3 & Llama 2)
             <br/><br/><br/>
           3. Panel Discussion 13:00-13:45: AI and the Future of Human Work 

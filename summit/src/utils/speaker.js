@@ -93,6 +93,7 @@ import monicazou from '../assets/images/speakers/monicazou.jpg';
 import clairexie from '../assets/images/speakers/clairexie.jpg';
 import benjaminlevy from '../assets/images/speakers/benjaminlevy.jpg';
 import chengchi from '../assets/images/speakers/chengchi.jpg';
+import darkomatovski from '../assets/images/speakers/darkomatovski.jpg';
 
 
 
@@ -191,6 +192,7 @@ import monicazou2 from '../assets/images/speakers/popup/monicazou2.png';
 import clairexie2 from '../assets/images/speakers/popup/clairexie2.png';
 import benjaminlevy2 from '../assets/images/speakers/popup/benjaminlevy2.png';
 import chengchi2 from '../assets/images/speakers/popup/chengchi2.png';
+import darkomatovski2 from '../assets/images/speakers/popup/darkomatovski2.png';
 
 
 
@@ -510,6 +512,17 @@ const speaker = [
     twitter: 'https://twitter.com/ShivdevRao',
     detail: shiv2,
     description: `Abridge was founded in 2018, co-founded by Dr. Shiv Rao, aims to transform healthcare with its AI platform by converting doctor-patient dialogues into structured clinical notes, allowing doctors to focus more on patient care. The company, which competes with medical systems like Epic, has raised over $180 million to expand its AI medical solutions in U.S. healthcare systems, enhancing efficiency in clinical documentation and reducing doctors' administrative tasks.`,
+  },
+  {
+    name: 'Dr. Darko Matovski',
+    job: 'CEO & Co-Founder',
+    tip: 'causaLens',
+    image: darkomatovski,
+    linkedin: 'https://www.linkedin.com/in/matovski/',
+    twitter: '',
+    website: '',
+    detail: darkomatovski2,
+    description: `Dr. Darko Matovski is a pioneering researcher in Causal AI and co-founder/CEO of causaLens, a $50M venture-backed AI scaleup. He has over a decade of experience at institutions like the UK's National Physical Laboratory and hedge funds. Matovski contributes to ethical AI development as a World Economic Forum Global Innovator and Milken Institute Young Leader, collaborating on global challenges.`,
   },
   {
     name: 'Dr. Ram Sriharsha',

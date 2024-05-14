@@ -73,7 +73,6 @@ import muddu from '../assets/images/speakers/muddu.png';
 import stewart from '../assets/images/speakers/stewart.jfif';
 import rashimi from '../assets/images/speakers/rashimi.jpg';
 import soumya from '../assets/images/speakers/soumya.jfif';
-import gideon from '../assets/images/speakers/gideon.jfif';
 import curtis from '../assets/images/speakers/curtis.jfif';
 import waseem from '../assets/images/speakers/waseem.jpg';
 import tuhin from '../assets/images/speakers/tuhin.jfif';
@@ -160,7 +159,6 @@ import muddu2 from '../assets/images/speakers/popup/muddu.png';
 import stewart2 from '../assets/images/speakers/popup/stewart.png';
 import rashimi2 from '../assets/images/speakers/popup/rashimi.png';
 import soumya2 from '../assets/images/speakers/popup/soumya.png';
-import gideon2 from '../assets/images/speakers/popup/gideon.png';
 import curtis2 from '../assets/images/speakers/popup/curtis.png';
 import waseem2 from '../assets/images/speakers/popup/waseem.png';
 import tuhin2 from '../assets/images/speakers/popup/tuhin.png';
@@ -284,6 +282,7 @@ const speakerNewly = [
     image: rashimi,
     description: `Dr. Rashmi Misra is the Chief AI Officer at Analog Devices, where she leads the company's AI initiatives. Rashmi has spent her career on the cutting edge of AI products, engineering challenges and go-to-market opportunities, and has garnered broad industry influence and recognition. With a PhD in AI, she brings extensive experience in international business development and innovation across various sectors. Dr. Misra holds six international patents and is actively involved in recruiting top talent in cutting-edge technology fields.`,
   },
+  /*
   {
     name: 'Gideon Mendels',
     job: 'Co-Founder & CEO',
@@ -295,6 +294,7 @@ const speakerNewly = [
     detail: gideon2,
     description: `Gideon Mendels is the Co-Founder & CEO of Comet ML, a platform transforming machine learning similar to how GitHub revolutionized code management. Prior to Comet, he was a data scientist at Columbia University, Groupwize, and Google, primarily working on NLP tasks such as document classification and language modeling. He often faced challenges with machine learning projects lacking documentation on prior models, which led to the inspiration for Comet. Comet ML has raised $70 million in funding to enhance efficiency, transparency, and reproducibility from training to production in machine learning workflows.`,
   },
+  */
   {
     name: 'Soumya Batra',
     job: 'Co-Author',

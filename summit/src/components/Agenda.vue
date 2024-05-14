@@ -236,7 +236,7 @@ export default {
             <br/><br/><br/>
           5. Panel Discussion 13:00-13:45: Harnessing the Power of LLM for Super Agents: Capabilities, Challenges, and Future Prospects 
             <br/><br/>&nbsp&nbsp 
-            - (Lance Martin @Langchain) | (Davit Baghdasaryan, CEO @Krisp) | (Curtis Northcutt, CEO @CleanLab)
+            - (Lance Martin, Software / ML @Langchain) | (Davit Baghdasaryan, CEO @Krisp) | (Curtis Northcutt, CEO @CleanLab)
             <br/><br/><br/>
           6. Panel Discussion 13:45-14:30: LLM Alignment
             <br/><br/>&nbsp&nbsp

@@ -96,6 +96,7 @@ import jingshenghuang from '../assets/images/speakers/jingshenghuang.jpg';
 import ajinkyamalasane from '../assets/images/speakers/ajinkyamalasane.jpg';
 import lancemartin from '../assets/images/speakers/lancemartin.jpg';
 import dmytrodzhulgakov from '../assets/images/speakers/dmytrodzhulgakov.jpg';
+import vanessaran from '../assets/images/speakers/vanessaran.jpg';
 
 
 
@@ -197,6 +198,7 @@ import jingshenghuang2 from '../assets/images/speakers/popup/jingshenghuang2.png
 import ajinkyamalasane2 from '../assets/images/speakers/popup/ajinkyamalasane2.png';
 import lancemartin2 from '../assets/images/speakers/popup/lancemartin2.png';
 import dmytrodzhulgakov2 from '../assets/images/speakers/popup/dmytrodzhulgakov2.png';
+import vanessaran2 from '../assets/images/speakers/popup/vanessaran2.png';
 
 
 
@@ -1146,6 +1148,17 @@ const speaker = [
     linkedin: 'https://www.linkedin.com/in/alekhjindal/',
     detail: alekhjindal2,
     description: `Alekh is CEO and Co-founder at Tursio, a seed-stage startup to turn databases into Gen AI machines. Previously, he was CTO and Chief Architect at Keebo, and Principal Scientist at Microsoft before that. Alekh did his postdoc at MIT CSAIL, received PhD from Saarland University, master's from Max Planck, and undergrad from IIT Kanpur. He has published more 70 papers, 15 patents, with best paper awards at CIDR, VLDB, and SIGMOD.`,
+  },
+  {
+    name: 'Vanessa Ran',
+    job: 'Co-founder and President',
+    tip: 'GenAI K12 Initialtive',
+    image: vanessaran,
+    website: '',
+    twitter: '',
+    linkedin: '',
+    detail: vanessaran2,
+    description: `Vanessa Ran, Co-founder and President of GenAI K12 Initiative, is a student at Monta Vista High School. Passionate about education and technology, she leads initiatives to empower K-12 students with AI education. AI is promising to transform the world in ways that don’t necessarily seem for the better for young generation: killing jobs, supercharging disinformation. She is leading the efforts to offer an accessible history and resource of GenAI.`,
   },
   {
     name: 'Claire Xie',

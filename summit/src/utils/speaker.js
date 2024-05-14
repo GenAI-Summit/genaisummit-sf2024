@@ -94,6 +94,8 @@ import chengchi from '../assets/images/speakers/chengchi.jpg';
 import darkomatovski from '../assets/images/speakers/darkomatovski.jpg';
 import rochellemattern from '../assets/images/speakers/rochellemattern.jpg';
 import jingshenghuang from '../assets/images/speakers/jingshenghuang.jpg';
+import ajinkyamalasane from '../assets/images/speakers/ajinkyamalasane.jpg';
+import lancemartin from '../assets/images/speakers/lancemartin.jpg';
 
 
 
@@ -193,6 +195,8 @@ import chengchi2 from '../assets/images/speakers/popup/chengchi2.png';
 import darkomatovski2 from '../assets/images/speakers/popup/darkomatovski2.png';
 import rochellemattern2 from '../assets/images/speakers/popup/rochellemattern2.png';
 import jingshenghuang2 from '../assets/images/speakers/popup/jingshenghuang2.png';
+import ajinkyamalasane2 from '../assets/images/speakers/popup/ajinkyamalasane2.png';
+import lancemartin2 from '../assets/images/speakers/popup/lancemartin2.png';
 
 
 
@@ -748,14 +752,26 @@ const speaker = [
     detail: worldcoin2,
   },
   {
-    name: 'LangChain',
-    job: '',
-    tip: '',
-    image: langchain,
-    website: 'https://python.langchain.com/docs/integrations/providers/twitter',
-    twitter: 'https://twitter.com/LangChainAI',
-    linkedin: 'https://www.linkedin.com/company/langchain/',
-    detail: langchain2,
+    name: 'Lance Martin',
+    job: 'Software / ML',
+    tip: 'LangChain',
+    image: lancemartin,
+    website: '',
+    twitter: 'https://twitter.com/rlancemartin?lang=en',
+    linkedin: 'https://www.linkedin.com/in/lance-martin-64a33b5/',
+    detail: lancemartin2,
+    description: `Dr. Lance Martin is a software engineer with expertise in applied machine learning. He was an early hire at LangChain, where he focused on the Python open-source library. Previously, Martin worked as a tech lead and manager in computer vision for self-driving vehicles at companies like UberATG, Ike, and Nuro. He holds a PhD in applied ML from Stanford.`,
+  },
+  {
+    name: 'Ajinkya Malasane',
+    job: 'Sr. Director of Product Strategy & Marketing',
+    tip: 'TELUS International',
+    image: ajinkyamalasane,
+    website: '',
+    linkedin: 'https://www.linkedin.com/in/ajinkya-malasane/',
+    twitter: 'https://twitter.com/calledasaj?lang=en',
+    detail: ajinkyamalasane2,
+    description: `Ajinkya Malasane is a seasoned AI leader driving the development of high-quality datasets for GenAI, computer vision, and NLP. He co-founded Playment, an AI data labeling startup backed by Y-Combinator & Samsung.  TELUS International AI Data Solutions supports leading AI companies with high-quality datasets for GenAI, Computer Vision, and NLP. We excel in data collection, annotation, and relevance, delivering diverse datasets to hyperscalers and AI pioneers.`,
   },
   {
     name: 'Ed Roman',

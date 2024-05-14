@@ -293,7 +293,7 @@ export default {
             <br/><br/><br/>
           7. Panel Discussion 13:45-14:30: Pioneering Women in Generative AI 
             <br/><br/>&nbsp&nbsp 
-            - (Dr. Marily Nika, AI Product Lead @Google, Moderator) | (Anya Cheng, Founder & CEO @Taelor) | (Rashmi Misra, Chief AI Officer @Analog Device) | (Jia Li, Co-Founder, Chief AI Officer & President@LiveX.AI) | (Prof. Raluca Ada Popa, Professor @UC Berkeley) | (Rochelle Mattern, Director of Solutions Engineering @SambaNova)
+            - (Dr. Marily Nika, AI Product Lead @Google, Moderator) | (Anya Cheng, Founder & CEO @Taelor) | (Rashmi Misra, Chief AI Officer @Analog Device) | (Jia Li, Co-Founder, Chief AI Officer & President@LiveX.AI) | (Rochelle Mattern, Director of Solutions Engineering @SambaNova)
             <br/><br/><br/>
           8. Panel Discussion 14:30-15:15: The World of Customer Support with AI Agents
             <br/><br/>&nbsp&nbsp 
@@ -301,7 +301,7 @@ export default {
             <br/><br/><br/>
           9. Panel Discussion 15:15-16:00: LLM Safety and Security 
             <br/><br/>&nbsp&nbsp 
-            - (Yaron Singer, CEO @Robust Intelligence), (Prof. Raluca Ada Popa, Professor @UC Berkeley), (Soumya Batra, Co-Author @LLAMA2)
+            - (Yaron Singer, CEO @Robust Intelligence) | (Prof. Raluca Ada Popa, Professor @UC Berkeley) | (Soumya Batra, Co-Author @LLAMA2)
             <br/><br/><br/>
           10. Panel Discussion 16:00-16:45: AI-Powered Personalization
             <br/><br/>&nbsp&nbsp 

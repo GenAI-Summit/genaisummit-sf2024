@@ -183,6 +183,36 @@ export default {
             <br/><br/><br/>
         `,
       },
+      {
+        title: "Breakout Room 6",
+        content: `
+          1. Workshop 09:00-11:00: <i>Will be provided by Speaker soon</i>
+            <br/><br/>&nbsp&nbsp
+            - (AWS)
+            <br/><br/><br/>
+          2. Workshop 13:00-15:00: <i>Will be provided by Speaker soon</i>
+            <br/><br/>&nbsp&nbsp
+            - (SambaNova)
+            <br/><br/><br/>
+          3. Workshop 15:00-17:00: <i>Will be provided by Speaker soon</i>
+            <br/><br/>&nbsp&nbsp
+            - (IBM)
+            <br/><br/><br/>
+        `,
+      },
+      {
+        title: "Breakout Room 7",
+        content: `
+        1. Workshop 10:00-11:00: Pitching Your Startup: The Brutal Truth About What VCs Want in AI-First Companies
+            <br/><br/>&nbsp&nbsp
+            - (Managing Partner @Leonis Capital) | (Jenny Xiao, Partner @Leonis Capital)
+            <br/><br/><br/>
+          2. Workshop 14:00-15:00: Harnessing LLM for Predictive Analysis in Cryptocurrency Investments
+            <br/><br/>&nbsp&nbsp
+            - (Meng Fan, @MountainLion)
+            <br/><br/><br/>
+        `,
+      },
     ]);
 
     const OutlineList2 = ref([
@@ -288,11 +318,28 @@ export default {
             <br/><br/><br/>
           4. Keynote 14:30-15:15: <i>Will be provided by Speaker soon</i>
             <br/><br/>&nbsp&nbsp
-            - (Mengfan, @MountainLion)
+            - (Meng Fan, @MountainLion)
             <br/><br/><br/>
           5. Keynote 15:15-16:00: Knowledge Graphs & GraphRAG: Essential Ingredients for Enterprise GenAI
             <br/><br/>&nbsp&nbsp
             - (Philip Rathle, CTO @Neo4j)
+            <br/><br/><br/>
+        `,
+      },
+      {
+        title: "Breakout Room 6",
+        content: `
+          1. Workshop 09:00-11:00: <i>Will be provided by Speaker soon</i>
+            <br/><br/>&nbsp&nbsp
+            - (NVIDIA)
+            <br/><br/><br/>
+          2. Workshop 13:00-15:00: How to Use Otter.AI to Enpower GenAI Productivity at Work
+            <br/><br/>&nbsp&nbsp
+            - (Richard Tasker, Director of Product Management @Otter.AI)
+            <br/><br/><br/>
+          3. Workshop 15:00-17:00: <i>Will be provided by Speaker soon</i>
+            <br/><br/>&nbsp&nbsp
+            - (Zilliz)
             <br/><br/><br/>
         `,
       },
@@ -385,6 +432,15 @@ export default {
           4. Keynote 15:15-16:00: Minority Culture Preservation and GenAI
             <br/><br/>&nbsp&nbsp
             - (Tiffany Joy Basse, Economic Development Director and Member @Tripanick-Nansemond Indian Tribe)
+            <br/><br/><br/>
+        `,
+      },
+      {
+        title: "Breakout Room 6",
+        content: `
+          1. Workshop 09:00-11:00: <i>Will be provided by Speaker soon</i>
+            <br/><br/>&nbsp&nbsp
+            - (Pinecone)
             <br/><br/><br/>
         `,
       },

@@ -61,24 +61,24 @@
           </div>
         </li>
         <li v-if="screenWidth > 900">
-          <div
+          <a
             class="nav-link"
             href="https://linktr.ee/gptdao"
             target="_black"
             :class="{ active: activeSection === 'section5' }"
           >
             CONTACT
-          </div>
+          </a>
         </li>
         <li v-if="screenWidth > 900">
-          <div
+          <a
             class="nav-link"
             href="https://sv2023.genaisummit.ai/"
             target="_black"
             :class="{ active: activeSection === 'section6' }"
           >
             PREVIOUS EVENT
-          </div>
+          </a>
         </li>
         <li class="li-box">
           <button>

@@ -61,24 +61,22 @@
           </div>
         </li>
         <li v-if="screenWidth > 900">
-          <a
+          <div
             class="nav-link"
-            href="https://linktr.ee/gptdao"
-            target="_black"
+            @click="openLink('https://linktr.ee/gptdao')"
             :class="{ active: activeSection === 'section5' }"
           >
             CONTACT
-          </a>
+          </div>
         </li>
         <li v-if="screenWidth > 900">
-          <a
+          <div
             class="nav-link"
-            href="https://sv2023.genaisummit.ai/"
-            target="_black"
+            @click="openLink('https://sv2023.genaisummit.ai/')"
             :class="{ active: activeSection === 'section6' }"
           >
             PREVIOUS EVENT
-          </a>
+          </div>
         </li>
         <li class="li-box">
           <button>
@@ -178,6 +176,10 @@ export default {
       });
     };
 
+    const openLink = (url) => {
+      window.open(url);
+    };
+
     window.addEventListener("scroll", handleScroll);
     const BuyTickets = () => {
       const discount = route.query.discount || getLocationParame()
@@ -230,6 +232,7 @@ export default {
       BuyTickets,
       screenWidth,
       BuyTicketsLuma,
+      openLink,
     };
   },
   components: {},

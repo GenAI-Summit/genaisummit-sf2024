@@ -231,6 +231,13 @@
               <img class="d" src="../assets/images/sponsors/zilliz.png" alt="" />
               <img class="a" src="../assets/images/sponsors/zilliz.png" alt="" />
             </div>
+            <div
+              class="list"
+              @click="openUrl('https://espeed.capital/')"
+            >
+              <img class="d" src="../assets/images/sponsors/espeed.png" alt="" />
+              <img class="a" src="../assets/images/sponsors/espeed.png" alt="" />
+            </div>
           </div>
         </div>
       </div>
@@ -260,13 +267,6 @@
               <img class="a" src="../assets/images/sponsors/taskus.png" alt="" />
             </div>
 
-            <div
-              class="list"
-              @click="openUrl('https://espeed.capital/')"
-            >
-              <img class="d" src="../assets/images/sponsors/espeed.png" alt="" />
-              <img class="a" src="../assets/images/sponsors/espeed.png" alt="" />
-            </div>
         
             <div
               class="list"
@@ -607,6 +607,19 @@
                   <img class="a" src="../assets/images/k12.jpg" alt="" />
                 </div>
                 <div class="list">
+                  <lite-youtube
+                    data-aos="zoom-in"
+                    class="k12-video"
+                    videoid="km4o5GbSsI8"
+                    style="background-image: url('https://i.ytimg.com/vi/km4o5GbSsI8/hqdefault.jpg');"
+                  >
+                    <!--
+                    <a href="https://youtube.com/watch?v=km4o5GbSsI8" class="lty-playbtn" title="Play K12 Video">
+                      <span class="lyt-visually-hidden">K12 AI Initiative Launched @ GenAI Summit Silicon Valley 2023</span>
+                    </a>
+                    -->
+                  </lite-youtube>
+                  <!--
                   <iframe
                     data-aos="zoom-in"
                     class="k12-video"
@@ -617,6 +630,7 @@
                     referrerpolicy="strict-origin-when-cross-origin"
                     allowfullscreen>
                   </iframe>
+                  -->
                 </div>
               </div>
             </div>
@@ -1429,7 +1443,7 @@ export default {
     if (screenWidth.value < 700) {
       style.value.width = "100%";
     }
-    // TODO
+
     const heightStyle = ref({
       height: "16rem",
     });
@@ -1928,6 +1942,7 @@ export default {
       'Women in GenAI','Sustainability of GenAI','Safety and Ethnicity of LLM','Policy and Public Good with LLM','Data Privacy','Text to Video','VectorDB','AI Agents',
       'AI companions','Law and LLM','Healthcare and AI','Education and GenAI','Marketing and GenAI'
     ])
+
     return {
       tipList,
       showAllExhibition,

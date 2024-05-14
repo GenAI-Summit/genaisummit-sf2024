@@ -17,6 +17,7 @@
     "install": "^0.13.0",
     "jquery": "^3.7.1",
     "lib-flexible": "^0.3.2",
+    "lite-youtube-embed": "^0.3.2",
     "lodash": "^4.17.21",
     "marked": "^7.0.5",
     "node-loader": "^2.0.0",

@@ -62,7 +62,7 @@ import orbach from '../assets/images/speakers/orbach.png';
 import karina from '../assets/images/speakers/karina.png';
 import harris from '../assets/images/speakers/harris.png';
 import gade from '../assets/images/speakers/gade.png';
-import eddie from '../assets/images/speakers/eddie.png';
+import eddieaftandilian from '../assets/images/speakers/eddieaftandilian.jpg';
 import shah from '../assets/images/speakers/shah.png';
 import lijia from '../assets/images/speakers/lijia.png';
 import fiona from '../assets/images/speakers/fiona.png';
@@ -149,7 +149,7 @@ import orbach2 from '../assets/images/speakers/popup/orbach.png';
 import karina2 from '../assets/images/speakers/popup/karina.png';
 import harris2 from '../assets/images/speakers/popup/harris.png';
 import gade2 from '../assets/images/speakers/popup/gade.png';
-import eddie2 from '../assets/images/speakers/popup/eddie.png';
+import eddieaftandilian2 from '../assets/images/speakers/popup/eddieaftandilian2.png';
 import shah2 from '../assets/images/speakers/popup/shah.png';
 import lijia2 from '../assets/images/speakers/popup/lijia.png';
 import fiona2 from '../assets/images/speakers/popup/fiona.png';
@@ -388,11 +388,11 @@ const speakerNewly = [
     name: 'Dr. Eddie Aftandilian',
     job: 'Principal Researcher',
     tip: 'Github',
-    image: eddie,
+    image: eddieaftandilian,
     website: 'https://eaftan.github.io/about/',
     linkedin: 'https://www.linkedin.com/in/eddie-aftandilian-772b267/',
     twitter: 'https://twitter.com/eaftandilian',
-    detail: eddie2,
+    detail: eddieaftandilian2,
     description: `Dr. Eddie Aftandilian is a Principal Researcher for GitHub Next, GitHub's applied R&D lab. He was a member of the original GitHub Copilot team and currently leads the Copilot Workspace project. Previously, he led Google’s Java Tools Team and worked with Google Brain to develop machine-learning-powered developer tools for Google developers. He aims to make software developers happier and more productive by applying AI to build the next generation of developer tools.`,
   },
   {

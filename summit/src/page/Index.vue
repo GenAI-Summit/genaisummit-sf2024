@@ -76,7 +76,7 @@
           <div class="show_title">Sponsored by</div>
 
           <div class="item_bg_box">
-            <img class="item-img" src="../assets/images/micro_logo.png" alt="" />
+            <img class="item-img" src="../assets/images/MicrosoftLab.png" alt="" />
             <!--
             <div class="more" @click="goPageHandle">
               more
@@ -607,22 +607,10 @@
                   <img class="a" src="../assets/images/k12.jpg" alt="" />
                 </div>
                 <div class="list">
-                    <!--
-                  <lite-youtube
-                    class="k12-video"
-                    data-aos="zoom-in"
-                    videoid="km4o5GbSsI8"
-                    style="background-image: url('https://i.ytimg.com/vi/km4o5GbSsI8/hqdefault.jpg');"
-                  >
-                    <a href="https://youtube.com/watch?v=km4o5GbSsI8" class="lty-playbtn" title="Play K12 Video">
-                      <span class="lyt-visually-hidden">K12 AI Initiative Launched @ GenAI Summit Silicon Valley 2023</span>
-                    </a>
-                  </lite-youtube>
-                    -->
                   <iframe
                     data-aos="zoom-in"
                     class="k12-video"
-                    src="https://www.youtube.com/embed/km4o5GbSsI8"
+                    src="https://www.youtube-nocookie.com/embed/km4o5GbSsI8"
                     title="K12 AI Initiative Launched @ GenAI Summit Silicon Valley 2023"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -2362,9 +2350,14 @@ section {
     }
   }
 
+  .item_bg_box {
+    width: 6rem;
+  }
+
   .item-img {
     height: 1.6rem;
   }
+
 
   .show_title {
     font-size: 0.5rem;

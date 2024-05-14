@@ -380,7 +380,7 @@ export default {
             <br/><br/><br/>
           6. Keynote 13:45-14:15: <i>Will be provided by Speaker soon</i>
             <br/><br/>&nbsp&nbsp 
-            - (Jason Kopatecki, CEO @Arize AI)
+            - (Jason Lopatecki, CEO @Arize AI)
             <br/><br/><br/>
           7. Keynote 14:15-14:45: <i>Will be provided by Speaker soon</i>
             <br/><br/>&nbsp&nbsp 

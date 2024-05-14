@@ -127,6 +127,7 @@
            </div>
         </div>
 
+        <!--
         <div>
            <div class="swiper-box img1" :class="screenWidth > 600 ? '' : 'mb'">
                 <div class="img_content">
@@ -167,6 +168,7 @@
                 </div>
            </div>
         </div>
+        -->
 
         <!-- <div>
            <div class="swiper-box img1" :class="screenWidth > 600 ? '' : 'mb'">
@@ -233,7 +235,7 @@
       });
       const pageSize = ref(1)
       const nowPage = ref(1)
-      const total = 4
+      const total = 3
       const pages = ref(Math.ceil(total/pageSize.value))
       const options = {
           autoplaySpeed: 5000,

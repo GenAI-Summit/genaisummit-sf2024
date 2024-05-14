@@ -202,7 +202,7 @@ export default {
             <br/><br/><br/>
         4. Fireside Chat 11:15-12:00: <i>Will be provided by Speaker soon</i>
             <br/><br/>&nbsp&nbsp 
-            - (Dr. Michael Stewart, Managing Partner @M12) | (Moderated by Nathan Lile, CEO Synth Labs)
+            - (Moderated by Nathan Lile, CEO Synth Labs) | (Dr. Michael Stewart, Managing Partner @M12)
             <br/><br/><br/>
           5. Panel Discussion 13:00-13:45: Harnessing the Power of LLM for Super Agents: Capabilities, Challenges, and Future Prospects 
             <br/><br/>&nbsp&nbsp 
@@ -218,7 +218,7 @@ export default {
             <br/><br/><br/>
           8. Panel Discussion 15:15-16:00: How does LLM Helps to Preserve Minority Culture
             <br/><br/>&nbsp&nbsp 
-            - (Dinesh Maheshwari, Chief Technology Advisor @Groq) | (Bryan McCann, CTO & Co-Founder @You.com) | (Kasey Roh, Business Development @Upstage) | (Devendra Chaplot, AI Research Scientist @Mistral AI)
+            - (Moderated by Artur Kiulian, Founder @Radical Philanthropies) | (Dinesh Maheshwari, Chief Technology Advisor @Groq) | (Bryan McCann, CTO & Co-Founder @You.com) | (Stan Lee, CTO & Co-founder @Upstage) | (Kasey Roh, Business Development @Upstage) | (Devendra Chaplot, AI Research Scientist @Mistral AI)
             <br/><br/><br/>
           9. Panel Discussion 16:00-16:45: Building a Brain for the Copilot: How Infrastructure Enables Powerful GenAI Assistants
             <br/><br/>&nbsp&nbsp 

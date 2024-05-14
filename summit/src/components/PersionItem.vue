@@ -1,6 +1,6 @@
 <template>
   <div class="speaker">
-    <img class="per" :src="item.image" alt="">
+    <img class="per" :src="item.image" alt="" loading="lazy">
     <div class="zw">
       <div class="info">
         <div class="name">{{ item.name }}</div>
@@ -10,9 +10,9 @@
       </div>
     </div>
     <div class="contact" data-aos="fade-up">
-        <img v-if="item.website != ''" @click="openUrl(item.website)" src="../assets/images/ico_w.png" alt="">
-        <img v-if="item.twitter != ''" @click="openUrl(item.twitter)" src="../assets/images/ico_x.png" alt="">
-        <img v-if="item.linkedin != ''" @click="openUrl(item.linkedin)" src="../assets/images/ico_in.png" alt="">
+        <img v-if="item.website != ''" @click="openUrl(item.website)" src="../assets/images/ico_w.png" alt="" loading="lazy">
+        <img v-if="item.twitter != ''" @click="openUrl(item.twitter)" src="../assets/images/ico_x.png" alt="" loading="lazy">
+        <img v-if="item.linkedin != ''" @click="openUrl(item.linkedin)" src="../assets/images/ico_in.png" alt="" loading="lazy">
     </div>
   </div>
 </template>

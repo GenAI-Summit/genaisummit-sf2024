@@ -607,19 +607,18 @@
                   <img class="a" src="../assets/images/k12.jpg" alt="" />
                 </div>
                 <div class="list">
+                    <!--
                   <lite-youtube
                     class="k12-video"
                     data-aos="zoom-in"
                     videoid="km4o5GbSsI8"
                     style="background-image: url('https://i.ytimg.com/vi/km4o5GbSsI8/hqdefault.jpg');"
                   >
-                    <!--
                     <a href="https://youtube.com/watch?v=km4o5GbSsI8" class="lty-playbtn" title="Play K12 Video">
                       <span class="lyt-visually-hidden">K12 AI Initiative Launched @ GenAI Summit Silicon Valley 2023</span>
                     </a>
-                    -->
                   </lite-youtube>
-                  <!--
+                    -->
                   <iframe
                     data-aos="zoom-in"
                     class="k12-video"
@@ -630,7 +629,6 @@
                     referrerpolicy="strict-origin-when-cross-origin"
                     allowfullscreen>
                   </iframe>
-                  -->
                 </div>
               </div>
             </div>

@@ -64,89 +64,90 @@ export default {
 <style scoped lang='scss'>
 
 .speaker{
-    padding: 0;
+  padding: 0;
+  background: #FFFFFF;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #FFFFFF;
+  &:hover {
+    border: 2px solid #008AFF;
+    .info {
+      animation: slideOut .5s forwards;
+    }
+    .contact {
+      display: flex;
+      animation: slideIn 1s forwards;
+    }
+  }
+  .contact {
+    position: absolute;
+    right: .5rem;
+    top: .5rem;
+    flex-direction: column;
+    display: none;
+    img{
+      width: .63rem;
+      cursor: pointer;
+      margin-bottom: .1rem;
+    }
+  }
+  .per {
+    width: 100%;
+  }
+  .zw {
+    width: 100%;
     background: #FFFFFF;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-    border: 2px solid #FFFFFF;
-    &:hover{
-        border: 2px solid #008AFF;
-        .info{
-            animation: slideOut .5s forwards;
-        }
-        .contact{
-            display: flex;
-            animation: slideIn 1s forwards;
-        }
-    }
-    .contact{
-        position: absolute;
-        right: .5rem;
-        top: .5rem;
-        flex-direction: column;
-        display: none;
-        img{
-            width: .63rem;
-            cursor: pointer;
-            margin-bottom: .1rem;
-        }
-    }
-    .per{
-        width: 100%;
-    }
-    .zw{
-        width: 100%;
-        background: #FFFFFF;
-        height: 1.4rem;
-    }
-    .info{
-        background: #FFFFFF;
-        text-align: center;
-        position: absolute;
-        bottom: -.7rem;
-        left: 0;
-        width: 100%;
-        padding-top: .08rem;
-        
-        .name{
-            font-family: HarmonyOS Sans SC Bold;
-            font-weight: bold;
-            font-size: .25rem;
-            color: #1D2A42;
-            line-height: .3rem;
-            font-style: normal;
-            text-transform: none;
-        }
-        .job{
-            font-family: HarmonyOS Sans SC Regular;
-            font-weight: 400;
-            font-size: .188rem;
-            color: #78808F;
-            line-height: .38rem;
-            text-align: center;
-            font-style: normal;
-        }
-        .Introduction{
-            width: 80%;
-            height: .67rem;
-            background: #008AFF;
-            border-radius: 0px 0px 0px 0px;
-            font-family: HarmonyOS Sans SC Regular;
-            font-weight: 400;
-            font-size: .2rem;
-            color: #FFFFFF;
-            font-style: normal;
-            border: none;
-            cursor: pointer;
-            margin: 0 auto;
-        }
-    }
+    height: 1.1rem;
+  }
+  .info {
+    background: #FFFFFF;
+    text-align: center;
+    position: absolute;
+    bottom: -.6rem;
+    left: 0;
+    width: 100%;
     
+    .name {
+      margin-top: .08rem;
+      font-family: HarmonyOS Sans SC Bold;
+      font-weight: bold;
+      font-size: .25rem;
+      color: #1D2A42;
+      line-height: .25rem;
+      font-style: normal;
+      text-transform: none;
+    }
+    .job {
+      font-family: HarmonyOS Sans SC Regular;
+      font-weight: 400;
+      font-size: .188rem;
+      color: #78808F;
+      line-height: .3rem;
+      text-align: center;
+      font-style: normal;
+    }
+    .Introduction {
+      margin-top: .1rem;
+      width: 70%;
+      height: .55rem;
+      background: #008AFF;
+      border-radius: 0px 0px 0px 0px;
+      font-family: HarmonyOS Sans SC Regular;
+      font-weight: 400;
+      font-size: .2rem;
+      color: #FFFFFF;
+      font-style: normal;
+      border: none;
+      cursor: pointer;
+      text-align: center;
+    }
+  }
+  
 }
 @keyframes slideOut {
   from {
-    bottom: -.7rem;
+    bottom: -.6rem;
   }
   to {
     bottom: .2rem;

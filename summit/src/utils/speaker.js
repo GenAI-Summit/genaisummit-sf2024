@@ -102,6 +102,8 @@ import jiangchen from '../assets/images/speakers/jiangchen.jpg';
 import frankliu from '../assets/images/speakers/frankliu.jpg';
 import dineshmaheshwari from '../assets/images/speakers/dineshmaheshwari.jpg';
 import jiajunlu from '../assets/images/speakers/jiajunlu.jpg';
+import shaileshmanjrekar from '../assets/images/speakers/shaileshmanjrekar.jpg';
+import hepingliu from '../assets/images/speakers/hepingliu.jpg';
 
 
 
@@ -209,6 +211,8 @@ import jiangchen2 from '../assets/images/speakers/popup/jiangchen2.png';
 import frankliu2 from '../assets/images/speakers/popup/frankliu2.png';
 import dineshmaheshwari2 from '../assets/images/speakers/popup/dineshmaheshwari2.png';
 import jiajunlu2 from '../assets/images/speakers/popup/jiajunlu2.png';
+import shaileshmanjrekar2 from '../assets/images/speakers/popup/shaileshmanjrekar2.png';
+import hepingliu2 from '../assets/images/speakers/popup/hepingliu2.png';
 
 
 
@@ -1105,6 +1109,17 @@ const speaker = [
     description: `Frank Liu is Head of AI & ML at Zilliz, with over eight years of industry experience in machine learning and hardware engineering. Before joining Zilliz, Frank co-founded Orion Innovations, an IoT startup based in Shanghai, and worked as an ML Software Engineer at Yahoo in San Francisco. He presents at major industry events like the Open Source Summit and writes tech content for leading publications such as Towards Data Science, The New Stack, the Sequence, and DZone. His passion for ML extends beyond the workplace; in his free time, he trains ML models and experiments with unique architectures. Frank holds MS and BS degrees in Electrical Engineering from Stanford University.`,
   },
   {
+    name: 'Shailesh Manjrekar',
+    job: 'Chief Marketing Officer',
+    tip: 'CloudFabrix',
+    image: shaileshmanjrekar,
+    website: '',
+    twitter: 'https://twitter.com/shail_manjrekar?lang=en',
+    linkedin: 'https://www.linkedin.com/in/shaileshmanjrekar/',
+    detail: shaileshmanjrekar2,
+    description: `Shailesh Manjrekar, is the Chief Marketing Officer at CloudFabrix. He is responsible for CloudFabrix's AI and SaaS Product thought leadership, Marketing, and Go To Market strategy for Observability and AIOps market. Shailesh Manjrekar is a seasoned IT professional who has over two decades of experience in building and managing emerging global businesses. He brings an established background in product management and solutions marketing, strategic alliances spanning AI and Deep Learning, FinTech, Lifesciences SaaS solutions and has been part of 6 successful exits. Manjrekar is an avid speaker at NVIDIA GTC and Storage Developer Conference and a Forbes Technology Council contributor since 2020.`,
+  },
+  {
     name: 'Cheng Chi',
     job: 'Robotics PhD Student',
     tip: 'Stanford University',
@@ -1235,6 +1250,17 @@ const speaker = [
     linkedin: 'https://www.linkedin.com/in/clairexiee/',
     detail: clairexie2,
     description: `Claire Xie is the founder of ClinkAI, an AI startup, and the Women in AI Club, which aims to connect, empower, and elevate founders, builders, and investors in the AI space. Previously, she worked as a lead data scientist at DoorDash and Google, focusing on growth analytics. Xie is passionate about leveraging AI to drive innovation and empowering women in the tech industry.`,
+  },
+  {
+    name: 'Heping Liu',
+    job: 'Senior Principal',
+    tip: 'Workday',
+    image: hepingliu,
+    website: '',
+    twitter: '',
+    linkedin: 'https://www.linkedin.com/in/heping-liu-92b39211/',
+    detail: hepingliu2,
+    description: `Heping Liu is a Senior Principal Machine Learning Engineer at Workday, where he has led the development of forecasting and optimization products using ML. He spearheaded the design of next-gen platform architecture, disaster recovery strategies, and open-source software management. Previously, he co-founded and served as CEO of Beijing Unigroup AI Technologies Inc. Liu holds a Ph.D. and has authored around 20 papers in top journals. His research interests include forecasting, optimization, AI/ML algorithms, LLM, big data, and analytics.`,
   },
 ];
 

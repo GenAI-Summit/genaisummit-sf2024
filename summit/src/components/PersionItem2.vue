@@ -112,7 +112,7 @@ export default {
         .name{
             font-family: HarmonyOS Sans SC Bold;
             font-weight: bold;
-            font-size: .37rem;
+            font-size: .4rem;
             color: #1D2A42;
             line-height: .5rem;
             font-style: normal;
@@ -121,7 +121,7 @@ export default {
         .job{
             font-family: HarmonyOS Sans SC Regular;
             font-weight: 400;
-            font-size: .296rem;
+            font-size: .3rem;
             color: #78808F;
             line-height: .5rem;
             text-align: center;

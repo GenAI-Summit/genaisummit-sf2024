@@ -3558,19 +3558,24 @@ section {
   }
 }
 .pantners {
+  width: 100%;
   .pantnersList {
+    overflow: hidden;
+    transition: all linear 0.5s ease-in-out;
     display: flex;
     flex-flow: wrap;
-    gap: 1%;
+    align-items: center;
     .pantnersItem {
+      cursor: pointer;
+      margin-top: 0.5rem;
+      width: 23%;
+      margin-left: 0.5%;
+      margin-right: 0.5%;
+      margin-bottom: 0.5rem;
+      transition: all linear 0.3s;
       display: flex;
       align-items: center;
       justify-content: center;
-      cursor: pointer;
-      width: 24%;
-      height: 2rem;
-      transition: all linear 0.5s;
-      margin-top: 0.5rem;
       color: #afbace;
       font-size: 0.37rem;
       border-radius: 1rem;
@@ -3582,7 +3587,6 @@ section {
       }
       img {
         width: 80%;
-        height: 100%;
       }
     }
   }

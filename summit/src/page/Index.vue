@@ -1598,6 +1598,11 @@ export default {
         url: "https://1gen.ai/",
       },
       {
+        img: new URL(`../assets/images/sponsors/espeed.png`, import.meta.url)
+          .href,
+        url: "https://espeed.capital/",
+      },
+      {
         img: new URL(`../assets/images/sponsors/upmarket.png`, import.meta.url)
           .href,
         url: "https://www.upmarket.co/",
@@ -1644,6 +1649,11 @@ export default {
         img: new URL(`../assets/images/sponsors/vimmerse.png`, import.meta.url)
           .href,
         url: "https://www.vimmerse.net/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/cloudfabrix.png`, import.meta.url)
+          .href,
+        url: "https://www.cloudfabrix.com/",
       },
       {
         img: new URL(`../assets/images/sponsors/ayraa.png`, import.meta.url)

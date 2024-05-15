@@ -97,6 +97,9 @@ import ajinkyamalasane from '../assets/images/speakers/ajinkyamalasane.jpg';
 import lancemartin from '../assets/images/speakers/lancemartin.jpg';
 import dmytrodzhulgakov from '../assets/images/speakers/dmytrodzhulgakov.jpg';
 import vanessaran from '../assets/images/speakers/vanessaran.jpg';
+import charlesxie from '../assets/images/speakers/charlesxie.jpg';
+import jiangchen from '../assets/images/speakers/jiangchen.jpg';
+import frankliu from '../assets/images/speakers/frankliu.jpg';
 
 
 
@@ -199,6 +202,9 @@ import ajinkyamalasane2 from '../assets/images/speakers/popup/ajinkyamalasane2.p
 import lancemartin2 from '../assets/images/speakers/popup/lancemartin2.png';
 import dmytrodzhulgakov2 from '../assets/images/speakers/popup/dmytrodzhulgakov2.png';
 import vanessaran2 from '../assets/images/speakers/popup/vanessaran2.png';
+import charlesxie2 from '../assets/images/speakers/popup/charlesxie2.png';
+import jiangchen2 from '../assets/images/speakers/popup/jiangchen2.png';
+import frankliu2 from '../assets/images/speakers/popup/frankliu2.png';
 
 
 
@@ -552,6 +558,41 @@ const speaker = [
     detail: darkomatovski2,
     description: `Dr. Darko Matovski is a pioneering researcher in Causal AI and co-founder/CEO of causaLens, a $50M venture-backed AI scaleup. He has over a decade of experience at institutions like the UK's National Physical Laboratory and hedge funds. Matovski contributes to ethical AI development as a World Economic Forum Global Innovator and Milken Institute Young Leader, collaborating on global challenges.`,
   },
+  {
+    name: 'Charles Xie',
+    job: 'Founder & CEO',
+    tip: 'Zilliz',
+    image: charlesxie,
+    website: '',
+    linkedin: 'https://www.linkedin.com/in/chaoxie/',
+    twitter: 'https://twitter.com/starlordxie',
+    detail: charlesxie2,
+    description: `Charles Xie is the founder and CEO of Zilliz, a company dedicated to developing a cutting-edge unstructured data platform for AI applications. He is the creator of Milvus, a leading open-source vector database that is used by over 5,000 enterprises worldwide. In addition to his role at Zilliz, Charles has been actively involved with the LF AI & Data Foundation, serving as a board member and as the chairperson from 2020 to 2021. Before founding Zilliz, he was one of the founding engineers behind Oracle's 12c cloud database project. Charles holds a Master's degree in Computer Science from the University of Wisconsin-Madison.`,
+  },
+  /*
+  {
+    name: 'Jiang Chen',
+    job: 'Head of Ecosystem & AI Platform',
+    tip: 'Zilliz',
+    image: jiangchen,
+    website: '',
+    linkedin: 'https://www.linkedin.com/in/jiang-0616/',
+    twitter: 'https://twitter.com/jiangc1010',
+    detail: jiangchen2,
+    description: `With extensive experience in data infrastructure and information retrieval, Jiang leads the development, research, and advocacy of AI-powered search at Zilliz. He oversees collaborations with partners and open-source communities to build the seamless integration of the Milvus vector database with LLM application frameworks. Previously, Jiang served as a tech lead and product manager for Search Indexing at Google.`,
+  },
+  {
+    name: 'Frank Liu',
+    job: 'Head of AI & ML',
+    tip: 'Zilliz',
+    image: frankliu,
+    website: '',
+    linkedin: 'https://www.linkedin.com/in/fzliu/',
+    twitter: 'https://twitter.com/frankzliu',
+    detail: frankliu2,
+    description: `Frank Liu is Head of AI & ML at Zilliz, with over eight years of industry experience in machine learning and hardware engineering. Before joining Zilliz, Frank co-founded Orion Innovations, an IoT startup based in Shanghai, and worked as an ML Software Engineer at Yahoo in San Francisco. He presents at major industry events like the Open Source Summit and writes tech content for leading publications such as Towards Data Science, The New Stack, the Sequence, and DZone. His passion for ML extends beyond the workplace; in his free time, he trains ML models and experiments with unique architectures. Frank holds MS and BS degrees in Electrical Engineering from Stanford University.`,
+  },
+  */
   {
     name: 'Dr. Ram Sriharsha',
     job: 'CTO',

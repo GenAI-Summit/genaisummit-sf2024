@@ -83,6 +83,7 @@ import geraldparloiu from '../assets/images/speakers/geraldparloiu.jpg';
 import londonbreed from '../assets/images/speakers/londonbreed.jpg';
 import bhavinshah from '../assets/images/speakers/bhavinshah.jpg';
 import monicazou from '../assets/images/speakers/monicazou.jpg';
+import charlesxie from '../assets/images/speakers/charlesxie.jpg';
 
 
 
@@ -169,9 +170,21 @@ import geraldparloiu2 from '../assets/images/speakers/popup/geraldparloiu2.png';
 import londonbreed2 from '../assets/images/speakers/popup/londonbreed2.png';
 import bhavinshah2 from '../assets/images/speakers/popup/bhavinshah2.png';
 import monicazou2 from '../assets/images/speakers/popup/monicazou2.png';
+import charlesxie2 from '../assets/images/speakers/popup/charlesxie2.png';
 
 
 const speakerNewly = [
+  {
+    name: 'Charles Xie',
+    job: 'Founder & CEO',
+    tip: 'Zilliz',
+    image: charlesxie,
+    website: '',
+    twitter: 'https://twitter.com/starlordxie',
+    linkedin: 'https://www.linkedin.com/in/chaoxie/',
+    detail: charlesxie2,
+    description: `Charles Xie is the founder and CEO of Zilliz, a company dedicated to developing a cutting-edge unstructured data platform for AI applications. He is the creator of Milvus, a leading open-source vector database that is used by over 5,000 enterprises worldwide. In addition to his role at Zilliz, Charles has been actively involved with the LF AI & Data Foundation, serving as a board member and as the chairperson from 2020 to 2021. Before founding Zilliz, he was one of the founding engineers behind Oracle's 12c cloud database project. Charles holds a Master's degree in Computer Science from the University of Wisconsin-Madison.`,
+  },
   {
     name: 'Monica Zou',
     job: 'CMO',

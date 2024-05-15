@@ -154,7 +154,7 @@ export default {
             <br/><br/><br/>
           3. Panel Discussion 11:00-11:45: A Deep Dive into the State-of-the-Art LLMs
             <br/><br/>&nbsp&nbsp
-            - (Minfa Wang, Senior Machine Learning Engineer @Waymo, Moderator) | (Devendra Chaplot, AI Research Scientist @Mistral AI) | (Sharan Narang, Co-Author @Llama 3 & Llama 2) | (Shishir Patil, Creater @Gorilla LLM) |  (Yuhuai Wu, Co-Founder @xAI)
+            - (Minfa Wang, Senior Machine Learning Engineer @Waymo, Moderator) | (Devendra Chaplot, AI Research Scientist @Mistral AI) | (Sharan Narang, Co-Author @Llama 3 & Llama 2) | (Shishir Patil, Creater @Gorilla LLM) |  (Tony Wu, Co-Founder @xAI)
             <br/><br/><br/>
           4. Keynote 13:00-13:45: Optimizing Enterprise Systems through Integration of LLM
             <br/><br/>&nbsp&nbsp 
@@ -400,7 +400,7 @@ export default {
             <br/><br/><br/>
           10. Fireside Chat 16:15-17:00: <i>Will be provided by Speaker soon</i>
             <br/><br/>&nbsp&nbsp 
-            - (Andy Hock, Senior Vice President, Product & Strategy @Cerebras Systems)
+            - (Andy Hock, SVP, Product & Strategy @Cerebras Systems)
             <br/><br/><br/>
         `,
       },
@@ -429,7 +429,7 @@ export default {
             <br/><br/><br/>
           6. Panel Discussion 15:15-16:00: Building the Future Classroom 
             <br/><br/>&nbsp&nbsp 
-             - (Prof. Hamza Farooq, Founder @traversaal.ai, Moderator) | (Bryan Talebi, CEO & Co-founder @Ahura AI)
+             - (Prof. Hamza Farooq, Founder @traversaal.ai, Moderator) | (Bryan Talebi, CEO & Co-Founder @Ahura AI)
             <br/><br/><br/>
         `,
       },

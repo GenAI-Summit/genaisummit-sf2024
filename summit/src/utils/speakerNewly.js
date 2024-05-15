@@ -322,7 +322,7 @@ const speakerNewly = [
   {
     name: 'Dr. Michael Stewart',
     job: 'Managing Partner',
-    tip: "M12, Microsoft's Venture Fund",
+    tip: "M12",
     linkedin: 'https://www.linkedin.com/in/mpstewart/',
     twitter: 'https://twitter.com/mps_vc',
     website: '',

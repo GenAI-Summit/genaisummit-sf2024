@@ -100,6 +100,8 @@ import vanessaran from '../assets/images/speakers/vanessaran.jpg';
 import charlesxie from '../assets/images/speakers/charlesxie.jpg';
 import jiangchen from '../assets/images/speakers/jiangchen.jpg';
 import frankliu from '../assets/images/speakers/frankliu.jpg';
+import dineshmaheshwari from '../assets/images/speakers/dineshmaheshwari.jpg';
+import jiajunlu from '../assets/images/speakers/jiajunlu.jpg';
 
 
 
@@ -205,6 +207,8 @@ import vanessaran2 from '../assets/images/speakers/popup/vanessaran2.png';
 import charlesxie2 from '../assets/images/speakers/popup/charlesxie2.png';
 import jiangchen2 from '../assets/images/speakers/popup/jiangchen2.png';
 import frankliu2 from '../assets/images/speakers/popup/frankliu2.png';
+import dineshmaheshwari2 from '../assets/images/speakers/popup/dineshmaheshwari2.png';
+import jiajunlu2 from '../assets/images/speakers/popup/jiajunlu2.png';
 
 
 
@@ -223,7 +227,7 @@ const speaker = [
   {
     name: 'Dr. Michael Stewart',
     job: 'Managing Partner',
-    tip: "M12, Microsoft's Venture Fund",
+    tip: "M12",
     linkedin: 'https://www.linkedin.com/in/mpstewart/',
     twitter: 'https://twitter.com/mps_vc',
     website: '',
@@ -614,6 +618,17 @@ const speaker = [
     description: `Dr. Curtis Northcutt is the co-founder and CEO of Cleanlab.ai, a company that enhances data reliability through automated cleaning solutions. With a funding of $30 million, Cleanlab.ai is a leader in enterprise AI, large language models, and analytical solutions, collaborating with over 10% of Fortune 500 companies, including AWS and Google. Dr. Northcutt, who holds a PhD in Computer Science from MIT, has held significant roles at companies like Google, Meta, and Amazon before founding Cleanlab.ai.`,
   },
   {
+    name: 'Jiajun Lu',
+    job: 'Founder & CEO',
+    tip: 'AKOOL',
+    image: jiajunlu,
+    website: 'https://www.jiajunlu.com/',
+    twitter: 'https://twitter.com/Jiajun3423',
+    linkedin: 'https://www.linkedin.com/in/lujiajun/',
+    detail: jiajunlu2,
+    description: `Jiajun Lu is a global leader in artificial intelligence and computer vision with over a decade of experience. He has led teams and startups to deliver successful products, published the book "Enhanced Human," and won awards like Top 10 Pioneering CEOs and Top 50 CEOs of AI companies. Currently, Lu is building Akool, a company focused on personalized visual marketing using generative AI for videos, images, and avatars.`,
+  },
+  {
     name: 'Dr. Eddie Aftandilian',
     job: 'Principal Researcher',
     tip: 'Github',
@@ -1001,6 +1016,17 @@ const speaker = [
     linkedin: 'https://www.linkedin.com/in/zhixin-monica-zou/',
     detail: monicazou2,
     description: `Monica Zou is the Chief Marketing Officer at DEKUBE, an innovative leader in democratizing AI development by leveraging a vast, distributed network of GPUs to make AI innovation accessible and beneficial for all. At DEKUBE, Monica leads marketing strategies that enhance global awareness and adoption of DEKUBE's platform, which provides crucial GPU power to projects on platforms like Hugging Face and has established partnerships with over 30 AI startups.`,
+  },
+  {
+    name: 'Dinesh Maheshwari',
+    job: 'Chief Technology Advisor',
+    tip: 'Groq',
+    image: dineshmaheshwari,
+    website: '',
+    twitter: '',
+    linkedin: 'https://www.linkedin.com/in/dineshmaheshwari/',
+    detail: dineshmaheshwari2,
+    description: `Dinesh Maheshwari is an accomplished C-level executive with over 30 years of experience in semiconductors, systems, and software industries. He currently serves as the CTO at Groq, a machine learning startup, and is a partner at SiliconCatalyst, focusing on due diligence and mentoring startups. Maheshwari has played various roles as a strategist, technologist, and entrepreneur, contributing to revolutions in multi-processor systems, EDA, optical communications, and networking. He holds 58 US patents and a Bachelor's degree from IIT Delhi.`,
   },
   // {
   //   name: 'Dr. Simon Suo',

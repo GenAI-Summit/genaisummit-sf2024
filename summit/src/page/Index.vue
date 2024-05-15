@@ -1027,7 +1027,7 @@
       <!-- section4 end -->
 
       <!-- Event Partners -->
-      <div class="pantners">
+      <section class="pantners">
         <div class="cointainer">
           <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
             <div
@@ -1056,7 +1056,7 @@
             -->
           </div>
         </div>
-      </div>
+      </section>
 
 
       <div class="dialog" v-if="showDialog" @click="closeDialog">
@@ -3062,26 +3062,6 @@ section {
     /*flex-wrap: wrap;*/
     margin-top: 0.5rem;
     align-items: center;
-    &.mb {
-      .list {
-        width: 25%;
-        max-width: 30%;
-        margin-bottom: 0.3rem;
-        height: 100%;
-        margin-left: 0.1rem;
-        img {
-          width: 100%;
-          height: auto;
-        }
-      }
-      .title_img {
-        width: 20%;
-        margin-bottom: 0.3rem;
-        img {
-          width: 100%;
-        }
-      }
-    }
     .title_img {
       margin-right: 0.4rem;
       img {
@@ -3124,6 +3104,26 @@ section {
           &.d {
             display: none;
           }
+        }
+      }
+    }
+    &.mb {
+      .list {
+        width: 25%;
+        max-width: 30%;
+        margin-bottom: 0.3rem;
+        height: 100%;
+        margin-left: 0.1rem;
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+      .title_img {
+        width: 20%;
+        margin-bottom: 0.3rem;
+        img {
+          width: 100%;
         }
       }
     }
@@ -3558,36 +3558,31 @@ section {
   }
 }
 .pantners {
-  width: 100%;
   .pantnersList {
     display: flex;
     flex-flow: wrap;
     gap: 1%;
     .pantnersItem {
-      cursor: pointer;
-      margin-top: 0.5rem;
-      width: 24%;
-      // height: ;
-      margin-bottom: 0.2222rem;
-      transition: all linear 0.5s;
       display: flex;
       align-items: center;
       justify-content: center;
+      cursor: pointer;
+      width: 24%;
+      height: 2rem;
+      transition: all linear 0.5s;
+      margin-top: 0.5rem;
       color: #afbace;
       font-size: 0.37rem;
+      border-radius: 1rem;
       &.mb {
-        width: 32%;
-        &.f1 {
-          width: 100%;
-        }
+        width: 48%;
       }
       &:hover {
-        background: #ffffff;
+        background: #008aff;
       }
       img {
         width: 80%;
         height: 100%;
-        margin-left: 10%;
       }
     }
   }

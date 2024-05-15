@@ -183,7 +183,7 @@ const speakerNewly = [
     twitter: 'https://twitter.com/starlordxie',
     linkedin: 'https://www.linkedin.com/in/chaoxie/',
     detail: charlesxie2,
-    description: `Charles Xie is the founder and CEO of Zilliz, a company building next-generation database and search technologies for AI applications. At Zilliz, he invented Milvus, the world's most popular open-source vector database for production-ready AI. Xie is dedicated to advancing AI infrastructure and enabling efficient data management for AI use cases.`,
+    description: `Charles Xie is the founder and CEO of Zilliz, a company dedicated to developing a cutting-edge unstructured data platform for AI applications. He is the creator of Milvus, a leading open-source vector database that is used by over 5,000 enterprises worldwide. In addition to his role at Zilliz, Charles has been actively involved with the LF AI & Data Foundation, serving as a board member and as the chairperson from 2020 to 2021. Before founding Zilliz, he was one of the founding engineers behind Oracle's 12c cloud database project. Charles holds a Master's degree in Computer Science from the University of Wisconsin-Madison.`,
   },
   {
     name: 'Monica Zou',

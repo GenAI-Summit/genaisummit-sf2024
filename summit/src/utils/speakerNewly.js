@@ -83,6 +83,7 @@ import geraldparloiu from '../assets/images/speakers/geraldparloiu.jpg';
 import londonbreed from '../assets/images/speakers/londonbreed.jpg';
 import bhavinshah from '../assets/images/speakers/bhavinshah.jpg';
 import monicazou from '../assets/images/speakers/monicazou.jpg';
+import charlesxie from '../assets/images/speakers/charlesxie.jpg';
 
 
 
@@ -169,9 +170,21 @@ import geraldparloiu2 from '../assets/images/speakers/popup/geraldparloiu2.png';
 import londonbreed2 from '../assets/images/speakers/popup/londonbreed2.png';
 import bhavinshah2 from '../assets/images/speakers/popup/bhavinshah2.png';
 import monicazou2 from '../assets/images/speakers/popup/monicazou2.png';
+import charlesxie2 from '../assets/images/speakers/popup/charlesxie2.png';
 
 
 const speakerNewly = [
+  {
+    name: 'Charles Xie',
+    job: 'Founder & CEO',
+    tip: 'Zilliz',
+    image: charlesxie,
+    website: '',
+    twitter: 'https://twitter.com/starlordxie',
+    linkedin: 'https://www.linkedin.com/in/chaoxie/',
+    detail: charlesxie2,
+    description: `Charles Xie is the founder and CEO of Zilliz, a company building next-generation database and search technologies for AI applications. At Zilliz, he invented Milvus, the world's most popular open-source vector database for production-ready AI. Xie is dedicated to advancing AI infrastructure and enabling efficient data management for AI use cases.`,
+  },
   {
     name: 'Monica Zou',
     job: 'CMO',

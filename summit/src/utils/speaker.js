@@ -97,6 +97,7 @@ import ajinkyamalasane from '../assets/images/speakers/ajinkyamalasane.jpg';
 import lancemartin from '../assets/images/speakers/lancemartin.jpg';
 import dmytrodzhulgakov from '../assets/images/speakers/dmytrodzhulgakov.jpg';
 import vanessaran from '../assets/images/speakers/vanessaran.jpg';
+import charlesxie from '../assets/images/speakers/charlesxie.jpg';
 
 
 
@@ -199,6 +200,7 @@ import ajinkyamalasane2 from '../assets/images/speakers/popup/ajinkyamalasane2.p
 import lancemartin2 from '../assets/images/speakers/popup/lancemartin2.png';
 import dmytrodzhulgakov2 from '../assets/images/speakers/popup/dmytrodzhulgakov2.png';
 import vanessaran2 from '../assets/images/speakers/popup/vanessaran2.png';
+import charlesxie2 from '../assets/images/speakers/popup/charlesxie2.png';
 
 
 
@@ -551,6 +553,17 @@ const speaker = [
     website: '',
     detail: darkomatovski2,
     description: `Dr. Darko Matovski is a pioneering researcher in Causal AI and co-founder/CEO of causaLens, a $50M venture-backed AI scaleup. He has over a decade of experience at institutions like the UK's National Physical Laboratory and hedge funds. Matovski contributes to ethical AI development as a World Economic Forum Global Innovator and Milken Institute Young Leader, collaborating on global challenges.`,
+  },
+  {
+    name: 'Charles Xie',
+    job: 'Founder & CEO',
+    tip: 'Zilliz',
+    image: charlesxie,
+    website: '',
+    linkedin: 'https://www.linkedin.com/in/chaoxie/',
+    twitter: 'https://twitter.com/starlordxie',
+    detail: charlesxie2,
+    description: `Charles Xie is the founder and CEO of Zilliz, a company building next-generation database and search technologies for AI applications. At Zilliz, he invented Milvus, the world's most popular open-source vector database for production-ready AI. Xie is dedicated to advancing AI infrastructure and enabling efficient data management for AI use cases.`,
   },
   {
     name: 'Dr. Ram Sriharsha',

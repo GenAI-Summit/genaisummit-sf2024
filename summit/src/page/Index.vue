@@ -1646,6 +1646,11 @@ export default {
         url: "https://www.vimmerse.net/",
       },
       {
+        img: new URL(`../assets/images/sponsors/cloudfabrix.png`, import.meta.url)
+          .href,
+        url: "https://www.cloudfabrix.com/",
+      },
+      {
         img: new URL(`../assets/images/sponsors/ayraa.png`, import.meta.url)
           .href,
         url: "https://www.ayraa.io/",

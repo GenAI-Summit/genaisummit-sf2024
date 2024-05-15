@@ -154,7 +154,7 @@ export default {
             <br/><br/><br/>
           3. Panel Discussion 11:00-11:45: A Deep Dive into the State-of-the-Art LLMs
             <br/><br/>&nbsp&nbsp
-            - (Minfa Wang, Senior Machine Learning Engineer @Waymo, Moderator) | (Devendra Chaplot, AI Research Scientist @Mistral AI) | (Sharan Narang, Co-Author @Llama 3 & Llama 2) | (Shishir Patil, Creater @Gorilla LLM) |  (Yuhuai Wu, Co-Founder @xAI)
+            - (Minfa Wang, Senior Machine Learning Engineer @Waymo, Moderator) | (Devendra Chaplot, AI Research Scientist @Mistral AI) | (Sharan Narang, Co-Author @Llama 3 & Llama 2) | (Shishir Patil, Creater @Gorilla LLM) |  (Tony Wu, Co-Founder @xAI)
             <br/><br/><br/>
           4. Keynote 13:00-13:45: Optimizing Enterprise Systems through Integration of LLM
             <br/><br/>&nbsp&nbsp 

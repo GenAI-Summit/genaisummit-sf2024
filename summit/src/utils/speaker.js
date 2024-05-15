@@ -100,6 +100,8 @@ import vanessaran from '../assets/images/speakers/vanessaran.jpg';
 import charlesxie from '../assets/images/speakers/charlesxie.jpg';
 import jiangchen from '../assets/images/speakers/jiangchen.jpg';
 import frankliu from '../assets/images/speakers/frankliu.jpg';
+import dineshmaheshwari from '../assets/images/speakers/dineshmaheshwari.jpg';
+import jiajunlu from '../assets/images/speakers/jiajunlu.jpg';
 
 
 
@@ -205,6 +207,8 @@ import vanessaran2 from '../assets/images/speakers/popup/vanessaran2.png';
 import charlesxie2 from '../assets/images/speakers/popup/charlesxie2.png';
 import jiangchen2 from '../assets/images/speakers/popup/jiangchen2.png';
 import frankliu2 from '../assets/images/speakers/popup/frankliu2.png';
+import dineshmaheshwari2 from '../assets/images/speakers/popup/dineshmaheshwari2.png';
+import jiajunlu2 from '../assets/images/speakers/popup/jiajunlu2.png';
 
 
 
@@ -223,7 +227,7 @@ const speaker = [
   {
     name: 'Dr. Michael Stewart',
     job: 'Managing Partner',
-    tip: "M12, Microsoft's Venture Fund",
+    tip: "M12",
     linkedin: 'https://www.linkedin.com/in/mpstewart/',
     twitter: 'https://twitter.com/mps_vc',
     website: '',
@@ -482,6 +486,17 @@ const speaker = [
     description: `Observe.AI, co-founded by Swapnil Jain, revolutionizes contact centers with AI to enhance agent performance and automate routine tasks. Observe.AI provides a platform for enhancing the performance of contact centers through artificial intelligence, analyzing customer interactions for insights and automation of workflows to improve service efficiency and effectiveness. The company has successfully raised $213 million.`,
   },
   {
+    name: 'Charles Xie',
+    job: 'Founder & CEO',
+    tip: 'Zilliz',
+    image: charlesxie,
+    website: '',
+    linkedin: 'https://www.linkedin.com/in/chaoxie/',
+    twitter: 'https://twitter.com/starlordxie',
+    detail: charlesxie2,
+    description: `Charles Xie is the founder and CEO of Zilliz, a company dedicated to developing a cutting-edge unstructured data platform for AI applications. He is the creator of Milvus, a leading open-source vector database that is used by over 5,000 enterprises worldwide. In addition to his role at Zilliz, Charles has been actively involved with the LF AI & Data Foundation, serving as a board member and as the chairperson from 2020 to 2021. Before founding Zilliz, he was one of the founding engineers behind Oracle's 12c cloud database project. Charles holds a Master's degree in Computer Science from the University of Wisconsin-Madison.`,
+  },
+  {
     name: 'Rochelle Mattern',
     job: 'Director of Solutions Engineering',
     tip: 'SambaNova Systems',
@@ -559,41 +574,6 @@ const speaker = [
     description: `Dr. Darko Matovski is a pioneering researcher in Causal AI and co-founder/CEO of causaLens, a $50M venture-backed AI scaleup. He has over a decade of experience at institutions like the UK's National Physical Laboratory and hedge funds. Matovski contributes to ethical AI development as a World Economic Forum Global Innovator and Milken Institute Young Leader, collaborating on global challenges.`,
   },
   {
-    name: 'Charles Xie',
-    job: 'Founder & CEO',
-    tip: 'Zilliz',
-    image: charlesxie,
-    website: '',
-    linkedin: 'https://www.linkedin.com/in/chaoxie/',
-    twitter: 'https://twitter.com/starlordxie',
-    detail: charlesxie2,
-    description: `Charles Xie is the founder and CEO of Zilliz, a company dedicated to developing a cutting-edge unstructured data platform for AI applications. He is the creator of Milvus, a leading open-source vector database that is used by over 5,000 enterprises worldwide. In addition to his role at Zilliz, Charles has been actively involved with the LF AI & Data Foundation, serving as a board member and as the chairperson from 2020 to 2021. Before founding Zilliz, he was one of the founding engineers behind Oracle's 12c cloud database project. Charles holds a Master's degree in Computer Science from the University of Wisconsin-Madison.`,
-  },
-  /*
-  {
-    name: 'Jiang Chen',
-    job: 'Head of Ecosystem & AI Platform',
-    tip: 'Zilliz',
-    image: jiangchen,
-    website: '',
-    linkedin: 'https://www.linkedin.com/in/jiang-0616/',
-    twitter: 'https://twitter.com/jiangc1010',
-    detail: jiangchen2,
-    description: `With extensive experience in data infrastructure and information retrieval, Jiang leads the development, research, and advocacy of AI-powered search at Zilliz. He oversees collaborations with partners and open-source communities to build the seamless integration of the Milvus vector database with LLM application frameworks. Previously, Jiang served as a tech lead and product manager for Search Indexing at Google.`,
-  },
-  {
-    name: 'Frank Liu',
-    job: 'Head of AI & ML',
-    tip: 'Zilliz',
-    image: frankliu,
-    website: '',
-    linkedin: 'https://www.linkedin.com/in/fzliu/',
-    twitter: 'https://twitter.com/frankzliu',
-    detail: frankliu2,
-    description: `Frank Liu is Head of AI & ML at Zilliz, with over eight years of industry experience in machine learning and hardware engineering. Before joining Zilliz, Frank co-founded Orion Innovations, an IoT startup based in Shanghai, and worked as an ML Software Engineer at Yahoo in San Francisco. He presents at major industry events like the Open Source Summit and writes tech content for leading publications such as Towards Data Science, The New Stack, the Sequence, and DZone. His passion for ML extends beyond the workplace; in his free time, he trains ML models and experiments with unique architectures. Frank holds MS and BS degrees in Electrical Engineering from Stanford University.`,
-  },
-  */
-  {
     name: 'Dr. Ram Sriharsha',
     job: 'CTO',
     tip: 'Pinecone',
@@ -636,6 +616,17 @@ const speaker = [
     twitter: 'https://twitter.com/cgnorthcutt',
     detail: curtis2,
     description: `Dr. Curtis Northcutt is the co-founder and CEO of Cleanlab.ai, a company that enhances data reliability through automated cleaning solutions. With a funding of $30 million, Cleanlab.ai is a leader in enterprise AI, large language models, and analytical solutions, collaborating with over 10% of Fortune 500 companies, including AWS and Google. Dr. Northcutt, who holds a PhD in Computer Science from MIT, has held significant roles at companies like Google, Meta, and Amazon before founding Cleanlab.ai.`,
+  },
+  {
+    name: 'Jiajun Lu',
+    job: 'Founder & CEO',
+    tip: 'AKOOL',
+    image: jiajunlu,
+    website: 'https://www.jiajunlu.com/',
+    twitter: 'https://twitter.com/Jiajun3423',
+    linkedin: 'https://www.linkedin.com/in/lujiajun/',
+    detail: jiajunlu2,
+    description: `Jiajun Lu is a global leader in artificial intelligence and computer vision with over a decade of experience. He has led teams and startups to deliver successful products, published the book "Enhanced Human," and won awards like Top 10 Pioneering CEOs and Top 50 CEOs of AI companies. Currently, Lu is building Akool, a company focused on personalized visual marketing using generative AI for videos, images, and avatars.`,
   },
   {
     name: 'Dr. Eddie Aftandilian',
@@ -1005,6 +996,17 @@ const speaker = [
     description: `Dr. Yichong Xu, Technical Staff Member at Character.AI, focusing on advanced language models. Character.AI, aiming to revolutionize conversational AI, competes with industry leaders like OpenAI, valued at $1 billion, and has successfully raised $150 million in funding to enhance chatbot technology and user interactions.`,
   },
   {
+    name: 'Jiang Chen',
+    job: 'Head of Ecosystem & AI Platform',
+    tip: 'Zilliz',
+    image: jiangchen,
+    website: '',
+    linkedin: 'https://www.linkedin.com/in/jiang-0616/',
+    twitter: 'https://twitter.com/jiangc1010',
+    detail: jiangchen2,
+    description: `With extensive experience in data infrastructure and information retrieval, Jiang leads the development, research, and advocacy of AI-powered search at Zilliz. He oversees collaborations with partners and open-source communities to build the seamless integration of the Milvus vector database with LLM application frameworks. Previously, Jiang served as a tech lead and product manager for Search Indexing at Google.`,
+  },
+  {
     name: 'Monica Zou',
     job: 'CMO',
     tip: 'DEKUBE',
@@ -1014,6 +1016,17 @@ const speaker = [
     linkedin: 'https://www.linkedin.com/in/zhixin-monica-zou/',
     detail: monicazou2,
     description: `Monica Zou is the Chief Marketing Officer at DEKUBE, an innovative leader in democratizing AI development by leveraging a vast, distributed network of GPUs to make AI innovation accessible and beneficial for all. At DEKUBE, Monica leads marketing strategies that enhance global awareness and adoption of DEKUBE's platform, which provides crucial GPU power to projects on platforms like Hugging Face and has established partnerships with over 30 AI startups.`,
+  },
+  {
+    name: 'Dinesh Maheshwari',
+    job: 'Chief Technology Advisor',
+    tip: 'Groq',
+    image: dineshmaheshwari,
+    website: '',
+    twitter: '',
+    linkedin: 'https://www.linkedin.com/in/dineshmaheshwari/',
+    detail: dineshmaheshwari2,
+    description: `Dinesh Maheshwari is an accomplished C-level executive with over 30 years of experience in semiconductors, systems, and software industries. He currently serves as the CTO at Groq, a machine learning startup, and is a partner at SiliconCatalyst, focusing on due diligence and mentoring startups. Maheshwari has played various roles as a strategist, technologist, and entrepreneur, contributing to revolutions in multi-processor systems, EDA, optical communications, and networking. He holds 58 US patents and a Bachelor's degree from IIT Delhi.`,
   },
   // {
   //   name: 'Dr. Simon Suo',
@@ -1079,6 +1092,17 @@ const speaker = [
     linkedin: 'https://www.linkedin.com/in/benjamin-levy-415191/',
     detail: benjaminlevy2,
     description: `Mr. Levy co-founded BootstrapLabs, a leading AI-focused venture capital firm. He previously launched two fintech startups and worked as an investment banker advising companies on M&A and financing. Mr. Levy is an AAAI member and frequent speaker on AI, investing, and entrepreneurship.`,
+  },
+  {
+    name: 'Frank Liu',
+    job: 'Head of AI & ML',
+    tip: 'Zilliz',
+    image: frankliu,
+    website: '',
+    linkedin: 'https://www.linkedin.com/in/fzliu/',
+    twitter: 'https://twitter.com/frankzliu',
+    detail: frankliu2,
+    description: `Frank Liu is Head of AI & ML at Zilliz, with over eight years of industry experience in machine learning and hardware engineering. Before joining Zilliz, Frank co-founded Orion Innovations, an IoT startup based in Shanghai, and worked as an ML Software Engineer at Yahoo in San Francisco. He presents at major industry events like the Open Source Summit and writes tech content for leading publications such as Towards Data Science, The New Stack, the Sequence, and DZone. His passion for ML extends beyond the workplace; in his free time, he trains ML models and experiments with unique architectures. Frank holds MS and BS degrees in Electrical Engineering from Stanford University.`,
   },
   {
     name: 'Cheng Chi',

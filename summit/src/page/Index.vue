@@ -2950,11 +2950,12 @@ section {
     margin-top: 0.1rem;
     .left {
       width: 20%;
+      margin-top: 0.2rem;
 
       .title_img {
         margin-right: 0.4rem;
         img {
-          width: 4rem;
+          width: 100%;
         }
       }
     }
@@ -2966,8 +2967,15 @@ section {
       flex-wrap: wrap;
 
       .list {
+        width: 30%;
+        margin-top: 0.1rem;
         margin-left: 0rem;
         margin-right: 0.4rem;
+
+        img {
+          width: 100%;
+          height: auto;
+        }
       }
     }
 
@@ -3000,7 +3008,6 @@ section {
           }
         }
 
-
       }
     }
 
@@ -3009,17 +3016,18 @@ section {
       background: #ffffff;
       text-align: center;
       cursor: pointer;
-      height: 1.8rem;
+      /*height: 1.8rem;*/
       z-index: 2;
       display: flex;
       justify-content: flex-start;
       border-radius: 1rem;
       margin-left: 0.4rem;
+      transition: all linear 0.3s;
       &:first-child {
         margin-left: 0;
       }
       img {
-        height: 1.8rem;
+        /*height: 1.8rem;*/
         z-index: -1;
         &.d {
           display: block;
@@ -3032,6 +3040,7 @@ section {
       }
       &:hover {
         background: #008aff;
+        /*
         height: 100%;
         img {
           &.a {
@@ -3041,6 +3050,7 @@ section {
             display: none;
           }
         }
+        */
       }
     }
 
@@ -3223,6 +3233,7 @@ section {
       justify-content: center;
       border-radius: 1.5rem;
       margin-left: 0.4rem;
+      transition: all linear 0.3s;
       &:first-child {
         margin-left: 0;
       }
@@ -3596,12 +3607,15 @@ section {
       margin-top: 0.5rem;
       width: 19%;
       margin-bottom: 0.5rem;
-      transition: all linear 0.5s;
+      transition: all linear 0.3s;
       display: flex;
       align-items: center;
       justify-content: center;
       color: #3d3d3d;
       font-size: 0.37rem;
+      border-radius: 1rem;
+      margin-left: 0.5%;
+      margin-right: 0.5%;
       &.mb {
         width: 32%;
         &.f1 {
@@ -3609,11 +3623,10 @@ section {
         }
       }
       &:hover {
-        background: #ffffff;
+        background: #008aff;
       }
       img {
         width: 80%;
-        margin-left: 10%;
       }
     }
   }

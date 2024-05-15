@@ -1015,7 +1015,7 @@
           MAXIMIZE YOUR JOURNEY AT THE AI SUMMIT - Live Captioning by Otter.ai: the Exclusive GenAI Meeting Assistant Sponsor
         </div>
         <div class="ss-title2" data-aos="flip-up">
-          (Note: Tentative Agenda, update weekly)
+          (Note: Tentative Agenda, update daily)
         </div>
         <div class="tab-tip-box">
           <div class="tip-list" v-for="(list,index) in tipList" :key="index">

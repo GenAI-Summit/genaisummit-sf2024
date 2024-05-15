@@ -108,7 +108,7 @@ export default {
     left: 0;
     width: 100%;
     
-    .name{
+    .name {
       margin-top: .08rem;
       font-family: HarmonyOS Sans SC Bold;
       font-weight: bold;
@@ -118,7 +118,7 @@ export default {
       font-style: normal;
       text-transform: none;
     }
-    .job{
+    .job {
       font-family: HarmonyOS Sans SC Regular;
       font-weight: 400;
       font-size: .188rem;
@@ -127,14 +127,15 @@ export default {
       text-align: center;
       font-style: normal;
     }
-    .Introduction{
+    .Introduction {
+      margin-top: .1rem;
       width: 70%;
       height: .55rem;
       background: #008AFF;
       border-radius: 0px 0px 0px 0px;
       font-family: HarmonyOS Sans SC Regular;
       font-weight: 400;
-      font-size: .22rem;
+      font-size: .2rem;
       color: #FFFFFF;
       font-style: normal;
       border: none;
@@ -146,7 +147,7 @@ export default {
 }
 @keyframes slideOut {
   from {
-    bottom: -.7rem;
+    bottom: -.6rem;
   }
   to {
     bottom: .2rem;

@@ -1598,6 +1598,11 @@ export default {
         url: "https://1gen.ai/",
       },
       {
+        img: new URL(`../assets/images/sponsors/espeed.png`, import.meta.url)
+          .href,
+        url: "https://espeed.capital/",
+      },
+      {
         img: new URL(`../assets/images/sponsors/upmarket.png`, import.meta.url)
           .href,
         url: "https://www.upmarket.co/",

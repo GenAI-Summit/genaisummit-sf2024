@@ -569,6 +569,7 @@ const speaker = [
     detail: charlesxie2,
     description: `Charles Xie is the founder and CEO of Zilliz, a company dedicated to developing a cutting-edge unstructured data platform for AI applications. He is the creator of Milvus, a leading open-source vector database that is used by over 5,000 enterprises worldwide. In addition to his role at Zilliz, Charles has been actively involved with the LF AI & Data Foundation, serving as a board member and as the chairperson from 2020 to 2021. Before founding Zilliz, he was one of the founding engineers behind Oracle's 12c cloud database project. Charles holds a Master's degree in Computer Science from the University of Wisconsin-Madison.`,
   },
+  /*
   {
     name: 'Jiang Chen',
     job: 'Head of Ecosystem & AI Platform',
@@ -591,6 +592,7 @@ const speaker = [
     detail: frankliu2,
     description: `Frank Liu is Head of AI & ML at Zilliz, with over eight years of industry experience in machine learning and hardware engineering. Before joining Zilliz, Frank co-founded Orion Innovations, an IoT startup based in Shanghai, and worked as an ML Software Engineer at Yahoo in San Francisco. He presents at major industry events like the Open Source Summit and writes tech content for leading publications such as Towards Data Science, The New Stack, the Sequence, and DZone. His passion for ML extends beyond the workplace; in his free time, he trains ML models and experiments with unique architectures. Frank holds MS and BS degrees in Electrical Engineering from Stanford University.`,
   },
+  */
   {
     name: 'Dr. Ram Sriharsha',
     job: 'CTO',

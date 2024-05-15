@@ -400,7 +400,7 @@ export default {
             <br/><br/><br/>
           10. Fireside Chat 16:15-17:00: <i>Will be provided by Speaker soon</i>
             <br/><br/>&nbsp&nbsp 
-            - (Andy Hock, Senior Vice President, Product & Strategy @Cerebras Systems)
+            - (Andy Hock, SVP, Product & Strategy @Cerebras Systems)
             <br/><br/><br/>
         `,
       },
@@ -429,7 +429,7 @@ export default {
             <br/><br/><br/>
           6. Panel Discussion 15:15-16:00: Building the Future Classroom 
             <br/><br/>&nbsp&nbsp 
-             - (Prof. Hamza Farooq, Founder @traversaal.ai, Moderator) | (Bryan Talebi, CEO & Co-founder @Ahura AI)
+             - (Prof. Hamza Farooq, Founder @traversaal.ai, Moderator) | (Bryan Talebi, CEO & Co-Founder @Ahura AI)
             <br/><br/><br/>
         `,
       },

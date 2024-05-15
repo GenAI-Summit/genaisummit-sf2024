@@ -1593,6 +1593,11 @@ export default {
         url: "https://www.taskus.com/en-us/",
       },
       {
+        img: new URL(`../assets/images/sponsors/agnostiq.png`, import.meta.url)
+          .href,
+        url: "https://agnostiq.ai/",
+      },
+      {
         img: new URL(`../assets/images/sponsors/1gen.png`, import.meta.url)
           .href,
         url: "https://1gen.ai/",
@@ -1646,6 +1651,11 @@ export default {
         url: "https://www.fivetran.com/",
       },
       {
+        img: new URL(`../assets/images/sponsors/valory.png`, import.meta.url)
+          .href,
+        url: "https://www.valory.xyz/",
+      },
+      {
         img: new URL(`../assets/images/sponsors/vimmerse.png`, import.meta.url)
           .href,
         url: "https://www.vimmerse.net/",
@@ -1691,6 +1701,13 @@ export default {
           import.meta.url
         ).href,
         url: "https://www.zuora.com/",
+      },
+      {
+        img: new URL(
+          `../assets/images/sponsors/finalize.png`,
+          import.meta.url
+        ).href,
+        url: "https://finalize.ai/",
       },
       {
         img: new URL(
@@ -1822,6 +1839,11 @@ export default {
         img: new URL(`../assets/images/sponsors/deepabacus.png`, import.meta.url)
           .href,
         url: "https://www.deepabacus.com/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/squidcloud.png`, import.meta.url)
+          .href,
+        url: "https://squid.cloud/",
       },
       {
         img: new URL(`../assets/images/sponsors/Evaluable.png`, import.meta.url)

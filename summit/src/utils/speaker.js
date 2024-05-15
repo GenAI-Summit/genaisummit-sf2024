@@ -104,6 +104,8 @@ import dineshmaheshwari from '../assets/images/speakers/dineshmaheshwari.jpg';
 import jiajunlu from '../assets/images/speakers/jiajunlu.jpg';
 import shaileshmanjrekar from '../assets/images/speakers/shaileshmanjrekar.jpg';
 import hepingliu from '../assets/images/speakers/hepingliu.jpg';
+import ahmedaj from '../assets/images/speakers/ahmedaj.jpg';
+import davidminarsch from '../assets/images/speakers/davidminarsch.jpg';
 
 
 
@@ -213,6 +215,8 @@ import dineshmaheshwari2 from '../assets/images/speakers/popup/dineshmaheshwari2
 import jiajunlu2 from '../assets/images/speakers/popup/jiajunlu2.png';
 import shaileshmanjrekar2 from '../assets/images/speakers/popup/shaileshmanjrekar2.png';
 import hepingliu2 from '../assets/images/speakers/popup/hepingliu2.png';
+import ahmedaj2 from '../assets/images/speakers/popup/ahmedaj2.png';
+import davidminarsch2 from '../assets/images/speakers/popup/davidminarsch2.png';
 
 
 
@@ -1261,6 +1265,28 @@ const speaker = [
     linkedin: 'https://www.linkedin.com/in/heping-liu-92b39211/',
     detail: hepingliu2,
     description: `Heping Liu is a Senior Principal Machine Learning Engineer at Workday, where he has led the development of forecasting and optimization products using ML. He spearheaded the design of next-gen platform architecture, disaster recovery strategies, and open-source software management. Previously, he co-founded and served as CEO of Beijing Unigroup AI Technologies Inc. Liu holds a Ph.D. and has authored around 20 papers in top journals. His research interests include forecasting, optimization, AI/ML algorithms, LLM, big data, and analytics.`,
+  },
+  {
+    name: 'Ahmed AJ',
+    job: 'Co-Founder',
+    tip: 'Logicrite',
+    image: ahmedaj,
+    website: '',
+    twitter: '',
+    linkedin: '',
+    detail: ahmedaj2,
+    description: `Ahmed AJ is the Co-Founder of Logicrite, a pioneering company specializing in building AI agents. He also founded Dapi, a global open banking aggregator backed by Y Combinator. Ahmed is an Entrepreneur with extensive operational experience in product development, no-code platforms, fintech, and blockchain technology.`,
+  },
+  {
+    name: 'Dr. David Minarsch',
+    job: 'Co-Founder & CEO',
+    tip: 'Valory',
+    image: davidminarsch,
+    website: '',
+    twitter: '',
+    linkedin: '',
+    detail: davidminarsch2,
+    description: `David Minarsch holds a Ph.D. in Applied Game Theory from the University of Cambridge. He is the creator of the first multi-agent system framework with native support for distributed ledger technologies (aea.dev) and a co-founder/CEO at Valory. Minarsch has conducted research on the economics of networks, strategy, political competition, and multi-agent systems. He has successfully taken projects from concept to production at companies like Yoyo Wallet and Fetch.ai.`,
   },
 ];
 

@@ -137,7 +137,10 @@
       <div class="office_content">
         <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
           <div class="left">
-            <div class="title_img">
+            <div
+              class="title_img"
+              data-aos="zoom-in"
+            >
               <img src="../assets/images/plat.png" alt="" />
             </div>
           </div>
@@ -145,6 +148,7 @@
             <div
               class="list"
               @click="openUrl('https://www.amazon.com/')"
+              data-aos="zoom-in"
             >
               <img class="d" src="../assets/images/sponsors/amazon2.png" alt="" />
             </div>
@@ -157,7 +161,10 @@
       <div class="office_content">
         <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
           <div class="left">
-            <div class="title_img">
+            <div
+              class="title_img"
+              data-aos="zoom-in"
+            >
               <img src="../assets/images/gold.png" alt="" />
             </div>
           </div>
@@ -165,12 +172,14 @@
             <div
               class="list"
               @click="openUrl('https://www.ibm.com/us-en/')"
+              data-aos="zoom-in"
             >
-              <img class="d" src="../assets/images/sponsors/IBM_temp.png" alt="" />
+              <img class="d" data-aos="zoom-in" src="../assets/images/sponsors/IBM_temp.png" alt="" />
             </div>
 
             <div
               class="list"
+              data-aos="zoom-in"
               @click="openUrl('https://www.iobc.capital/#/')"
             >
               <img class="d" src="../assets/images/sponsors/iobc.png" alt="" />
@@ -184,13 +193,17 @@
       <div class="office_content">
         <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
           <div class="left">
-            <div class="title_img">
+            <div
+              class="title_img"
+              data-aos="zoom-in"
+            >
               <img src="../assets/images/silver.png" alt="" />
             </div>
           </div>
           <div class="right">
             <div
               class="list"
+              data-aos="zoom-in"
               @click="openUrl('https://sambanova.ai/')"
             >
               <img class="d" src="../assets/images/sponsors/samba.png" alt="" />
@@ -198,6 +211,7 @@
 
             <div
               class="list"
+              data-aos="zoom-in"
               @click="openUrl('https://otter.ai/')"
             >
               <img class="d" src="../assets/images/sponsors/otter2.jpg" alt="" />
@@ -205,6 +219,7 @@
 
             <div
               class="list"
+              data-aos="zoom-in"
               @click="openUrl('https://iren.com/')"
             >
               <img class="d" src="../assets/images/sponsors/iren.png" alt="" />
@@ -212,6 +227,7 @@
 
             <div
               class="list"
+              data-aos="zoom-in"
               @click="openUrl('https://ir.yiren.com/')"
             >
               <img class="d" src="../assets/images/sponsors/yiren.png" alt="" />
@@ -219,12 +235,14 @@
 
             <div
               class="list"
+              data-aos="zoom-in"
               @click="openUrl('https://zilliz.com/')"
             >
               <img class="d" src="../assets/images/sponsors/zilliz.png" alt="" />
             </div>
             <div
               class="list"
+              data-aos="zoom-in"
               @click="openUrl('https://espeed.capital/')"
             >
               <img class="d" src="../assets/images/sponsors/espeed.png" alt="" />
@@ -237,13 +255,17 @@
       <div class="office_content">
         <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
           <div class="left">
-            <div class="title_img">
+            <div
+              class="title_img"
+              data-aos="zoom-in"
+            >
               <img src="../assets/images/special-sponsor.png" alt="" />
             </div>
           </div>
           <div class="right">
             <div
               class="list"
+              data-aos="zoom-in"
               @click="openUrl('https://you.com/')"
             >
               <img class="d" src="../assets/images/sponsors/youcom.png" alt="" />
@@ -251,6 +273,7 @@
 
             <div
               class="list"
+              data-aos="zoom-in"
               @click="openUrl('https://www.taskus.com/')"
             >
               <img class="d" src="../assets/images/sponsors/taskus.png" alt="" />
@@ -259,6 +282,7 @@
         
             <div
               class="list"
+              data-aos="zoom-in"
               @click="openUrl('https://metasill.io/')"
             >
               <img class="d" src="../assets/images/sponsors/metasill.png" alt="" />

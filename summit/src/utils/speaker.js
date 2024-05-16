@@ -96,6 +96,8 @@ import shaileshmanjrekar from '../assets/images/speakers/shaileshmanjrekar.jpg';
 import hepingliu from '../assets/images/speakers/hepingliu.jpg';
 import ahmedaj from '../assets/images/speakers/ahmedaj.jpg';
 import davidminarsch from '../assets/images/speakers/davidminarsch.jpg';
+import stanlee from '../assets/images/speakers/stanlee.jpg';
+import bryanmccann from '../assets/images/speakers/bryanmccann.jpg';
 
 
 
@@ -197,6 +199,8 @@ import shaileshmanjrekar2 from '../assets/images/speakers/popup/shaileshmanjreka
 import hepingliu2 from '../assets/images/speakers/popup/hepingliu2.png';
 import ahmedaj2 from '../assets/images/speakers/popup/ahmedaj2.png';
 import davidminarsch2 from '../assets/images/speakers/popup/davidminarsch2.png';
+import stanlee2 from '../assets/images/speakers/popup/stanlee2.png';
+import bryanmccann2 from '../assets/images/speakers/popup/bryanmccann2.png';
 
 
 
@@ -1246,6 +1250,28 @@ const speaker = [
     linkedin: 'https://www.linkedin.com/in/davidminarsch/',
     detail: davidminarsch2,
     description: `David Minarsch holds a Ph.D. in Applied Game Theory from the University of Cambridge. He is the creator of the first multi-agent system framework with native support for distributed ledger technologies (aea.dev) and a co-founder/CEO at Valory. Minarsch has conducted research on the economics of networks, strategy, political competition, and multi-agent systems. He has successfully taken projects from concept to production at companies like Yoyo Wallet and Fetch.ai.`,
+  },
+  {
+    name: 'Stan Lee',
+    job: 'Co-Founder & CTO',
+    tip: 'Upstage',
+    image: stanlee,
+    website: '',
+    twitter: '',
+    linkedin: 'https://www.linkedin.com/in/upstage-stan/',
+    detail: stanlee2,
+    description: `Stan Lee is the Co-Founder and CTO of Upstage AI. He has over 15 years of experience in computer vision and AI, previously leading NAVER's Clova OCR team. Lee has published numerous OCR papers and his technologies are used by various companies. At Upstage, he leads the LLM Model & Applications team, developing high-performance private LLM engines cost-effectively and securely.`,
+  },
+  {
+    name: 'Bryan McCann',
+    job: 'Co-Founder & CTO',
+    tip: 'you.com',
+    image: bryanmccann,
+    website: 'https://www.bryanmccann.org/',
+    twitter: 'https://twitter.com/bmarcusmccann/',
+    linkedin: 'https://www.linkedin.com/in/bmarcusmccann/',
+    detail: bryanmccann2,
+    description: `Bryan McCann is the Co-Founder and CTO of you.com, focused on advancing human-AI collaboration. He previously led AI research in NLP at Salesforce, with his work being highly cited. McCann aims to use AI to inspire creativity and develop tools for more fulfilling lives. He advises AI startups, pursues interests like poetry and painting, and holds degrees from Stanford in CS, AI, and Philosophy.`,
   },
 ];
 

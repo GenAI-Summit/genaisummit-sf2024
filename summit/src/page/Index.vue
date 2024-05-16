@@ -147,7 +147,6 @@
               @click="openUrl('https://www.amazon.com/')"
             >
               <img class="d" src="../assets/images/sponsors/amazon2.png" alt="" />
-              <img class="a" src="../assets/images/sponsors/amazon2.png" alt="" />
             </div>
           </div>
         </div>
@@ -168,7 +167,6 @@
               @click="openUrl('https://www.ibm.com/us-en/')"
             >
               <img class="d" src="../assets/images/sponsors/IBM_temp.png" alt="" />
-              <img class="a" src="../assets/images/sponsors/IBM_temp.png" alt="" />
             </div>
 
             <div
@@ -176,7 +174,6 @@
               @click="openUrl('https://www.iobc.capital/#/')"
             >
               <img class="d" src="../assets/images/sponsors/iobc.png" alt="" />
-              <img class="a" src="../assets/images/sponsors/iobc.png" alt="" />
             </div>
           </div>
         </div>
@@ -197,7 +194,6 @@
               @click="openUrl('https://sambanova.ai/')"
             >
               <img class="d" src="../assets/images/sponsors/samba.png" alt="" />
-              <img class="a" src="../assets/images/sponsors/samba.png" alt="" />
             </div>
 
             <div
@@ -205,7 +201,6 @@
               @click="openUrl('https://otter.ai/')"
             >
               <img class="d" src="../assets/images/sponsors/otter2.jpg" alt="" />
-              <img class="a" src="../assets/images/sponsors/otter2.jpg" alt="" />
             </div>
 
             <div
@@ -213,7 +208,6 @@
               @click="openUrl('https://iren.com/')"
             >
               <img class="d" src="../assets/images/sponsors/iren.png" alt="" />
-              <img class="a" src="../assets/images/sponsors/iren.png" alt="" />
             </div>
 
             <div
@@ -221,7 +215,6 @@
               @click="openUrl('https://ir.yiren.com/')"
             >
               <img class="d" src="../assets/images/sponsors/yiren.png" alt="" />
-              <img class="a" src="../assets/images/sponsors/yiren.png" alt="" />
             </div>
 
             <div
@@ -229,14 +222,12 @@
               @click="openUrl('https://zilliz.com/')"
             >
               <img class="d" src="../assets/images/sponsors/zilliz.png" alt="" />
-              <img class="a" src="../assets/images/sponsors/zilliz.png" alt="" />
             </div>
             <div
               class="list"
               @click="openUrl('https://espeed.capital/')"
             >
               <img class="d" src="../assets/images/sponsors/espeed.png" alt="" />
-              <img class="a" src="../assets/images/sponsors/espeed.png" alt="" />
             </div>
           </div>
         </div>
@@ -256,7 +247,6 @@
               @click="openUrl('https://you.com/')"
             >
               <img class="d" src="../assets/images/sponsors/youcom.png" alt="" />
-              <img class="a" src="../assets/images/sponsors/youcom.png" alt="" />
             </div>
 
             <div
@@ -264,7 +254,6 @@
               @click="openUrl('https://www.taskus.com/')"
             >
               <img class="d" src="../assets/images/sponsors/taskus.png" alt="" />
-              <img class="a" src="../assets/images/sponsors/taskus.png" alt="" />
             </div>
 
         
@@ -273,7 +262,6 @@
               @click="openUrl('https://metasill.io/')"
             >
               <img class="d" src="../assets/images/sponsors/metasill.png" alt="" />
-              <img class="a" src="../assets/images/sponsors/metasill.png" alt="" />
             </div>
           </div>
         </div>
@@ -1593,6 +1581,11 @@ export default {
         url: "https://www.taskus.com/en-us/",
       },
       {
+        img: new URL(`../assets/images/sponsors/agnostiq.png`, import.meta.url)
+          .href,
+        url: "https://agnostiq.ai/",
+      },
+      {
         img: new URL(`../assets/images/sponsors/1gen.png`, import.meta.url)
           .href,
         url: "https://1gen.ai/",
@@ -1646,6 +1639,11 @@ export default {
         url: "https://www.fivetran.com/",
       },
       {
+        img: new URL(`../assets/images/sponsors/valory.png`, import.meta.url)
+          .href,
+        url: "https://www.valory.xyz/",
+      },
+      {
         img: new URL(`../assets/images/sponsors/vimmerse.png`, import.meta.url)
           .href,
         url: "https://www.vimmerse.net/",
@@ -1694,6 +1692,13 @@ export default {
       },
       {
         img: new URL(
+          `../assets/images/sponsors/finalize.png`,
+          import.meta.url
+        ).href,
+        url: "https://finalize.ai/",
+      },
+      {
+        img: new URL(
           `../assets/images/sponsors/gradient.png`,
           import.meta.url
         ).href,
@@ -1710,6 +1715,11 @@ export default {
         img: new URL(`../assets/images/sponsors/upbeat.png`, import.meta.url)
           .href,
         url: "https://www.upbeat.chat/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/swarmone.png`, import.meta.url)
+          .href,
+        url: "https://swarmone.ai/",
       },
       {
         img: new URL(`../assets/images/sponsors/aizip.png`, import.meta.url)
@@ -1822,6 +1832,11 @@ export default {
         img: new URL(`../assets/images/sponsors/deepabacus.png`, import.meta.url)
           .href,
         url: "https://www.deepabacus.com/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/squidcloud.png`, import.meta.url)
+          .href,
+        url: "https://squid.cloud/",
       },
       {
         img: new URL(`../assets/images/sponsors/Evaluable.png`, import.meta.url)
@@ -2942,17 +2957,22 @@ section {
     text-transform: none;
   }
 }
+
 #sponsor_section {
+  transition: height 0.5s ease-in-out;
   .office {
     display: flex;
-    flex-wrap: wrap;
     align-items: flex-start;
     margin-top: 0.1rem;
+    transition: height 0.3s ease-in-out;
     .left {
       width: 20%;
-      margin-top: 0.2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
 
       .title_img {
+        margin-top: 0.1rem;
         margin-right: 0.4rem;
         img {
           width: 100%;
@@ -2967,21 +2987,34 @@ section {
       flex-wrap: wrap;
 
       .list {
+        display: flex;
+        cursor: pointer;
+        transition: all linear 0.3s;
+        border-radius: 1rem;
         width: 30%;
         margin-top: 0.1rem;
         margin-left: 0rem;
-        margin-right: 0.4rem;
+        margin-right: 1%;
+        z-index: 2;
+
+        align-items: center;
+        justify-content: center;
 
         img {
-          width: 100%;
+          margin-left: 10%;
+          width: 80%;
           height: auto;
+        }
+
+        &:hover {
+          background: #008aff;
         }
       }
     }
 
     &.mb {
       .left {
-        width: 20%;
+        width: 30%;
 
         .title_img {
           width: 100%;
@@ -2992,65 +3025,19 @@ section {
         }
       }
       .right {
-        margin-left: 0.4rem;
-        width: 75%;
-        display: flex;
-        flex-wrap: wrap;
+        margin-left: 0.1rem;
+        width: 65%;
 
         .list {
-          width: 40%;
-          margin-bottom: 0.3rem;
-          height: 100%;
-          margin-left: 0.1rem;
+          width: 48%;
+          border-radius: 1rem;
           img {
-            width: 100%;
+            width: 80%;
             height: auto;
+            z-index: -1;
           }
         }
 
-      }
-    }
-
-
-    .list {
-      background: #ffffff;
-      text-align: center;
-      cursor: pointer;
-      /*height: 1.8rem;*/
-      z-index: 2;
-      display: flex;
-      justify-content: flex-start;
-      border-radius: 1rem;
-      margin-left: 0.4rem;
-      transition: all linear 0.3s;
-      &:first-child {
-        margin-left: 0;
-      }
-      img {
-        /*height: 1.8rem;*/
-        z-index: -1;
-        &.d {
-          display: block;
-          border-radius: 0rem;
-        }
-        &.a {
-          display: none;
-          border-radius: 0rem;
-        }
-      }
-      &:hover {
-        background: #008aff;
-        /*
-        height: 100%;
-        img {
-          &.a {
-            display: block;
-          }
-          &.d {
-            display: none;
-          }
-        }
-        */
       }
     }
 
@@ -3561,7 +3548,6 @@ section {
   width: 100%;
   .pantnersList {
     overflow: hidden;
-    transition: all linear 0.5s ease-in-out;
     display: flex;
     flex-flow: wrap;
     align-items: center;

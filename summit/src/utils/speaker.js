@@ -4,26 +4,21 @@ import arvind from '../assets/images/speakers/arvind_jain.jpg';
 import jimfan from '../assets/images/speakers/jim_fan.jpeg';
 import jasonwei from '../assets/images/speakers/jason_wei.jpeg';
 import bob from '../assets/images/speakers/bob.jpg';
-import clarence from '../assets/images/speakers/clarence.png';
 import deon from '../assets/images/speakers/deon.jpg';
 import devendra from '../assets/images/speakers/devendra.jpg';
 import samliang from '../assets/images/speakers/samliang.jpg';
 import craig from '../assets/images/speakers/craig.jpg';
 import yaron from '../assets/images/speakers/yaron.jpg';
 import yohei from '../assets/images/speakers/yohei.png';
-import jerryliu from '../assets/images/speakers/jerryliu.jpeg';
 import jason_l from '../assets/images/speakers/jason_l.webp';
 import worldcoin from '../assets/images/speakers/worldcoin.png';
-import ganapathy from '../assets/images/speakers/ganapathy.jpg';
 import kevin from '../assets/images/speakers/kevin.jpg';
 import jake from '../assets/images/speakers/jake.jpg';
 import owyang from '../assets/images/speakers/owyang.jpeg';
 import ameer from '../assets/images/speakers/ameer.jpg';
 import yangqingjia from '../assets/images/speakers/yangqingjia.jpeg';
 import chenxi from '../assets/images/speakers/chenxi.png';
-import xinyun from '../assets/images/speakers/xinyun.jpeg';
 import yichong from '../assets/images/speakers/yichong.jpg';
-import simon from '../assets/images/speakers/simon.png';
 import patil from '../assets/images/speakers/patil.jpg';
 import rajat from '../assets/images/speakers/rajat.jpg';
 import andreas from '../assets/images/speakers/andreas.png';
@@ -57,10 +52,6 @@ import davit from '../assets/images/speakers/davit.png';
 import popa from '../assets/images/speakers/popa.jpg';
 import amr from '../assets/images/speakers/amr.png';
 import ramsriharsha from '../assets/images/speakers/ramsriharsha.jpg';
-import orbach from '../assets/images/speakers/orbach.png';
-import karina from '../assets/images/speakers/karina.png';
-import harris from '../assets/images/speakers/harris.png';
-import gade from '../assets/images/speakers/gade.png';
 import eddieaftandilian from '../assets/images/speakers/eddieaftandilian.jpg';
 import shah from '../assets/images/speakers/shah.png';
 import lijia from '../assets/images/speakers/lijia.png';
@@ -104,6 +95,8 @@ import dineshmaheshwari from '../assets/images/speakers/dineshmaheshwari.jpg';
 import jiajunlu from '../assets/images/speakers/jiajunlu.jpg';
 import shaileshmanjrekar from '../assets/images/speakers/shaileshmanjrekar.jpg';
 import hepingliu from '../assets/images/speakers/hepingliu.jpg';
+import ahmedaj from '../assets/images/speakers/ahmedaj.jpg';
+import davidminarsch from '../assets/images/speakers/davidminarsch.jpg';
 
 
 
@@ -114,26 +107,21 @@ import arvind2 from '../assets/images/speakers/popup/arvind.png';
 import jimfan2 from '../assets/images/speakers/popup/jimfan.png';
 import jasonwei2 from '../assets/images/speakers/popup/jasonwei.png';
 import bob2 from '../assets/images/speakers/popup/bob.png';
-import clarence2 from '../assets/images/speakers/popup/clarence.png';
 import deon2 from '../assets/images/speakers/popup/deon.png';
 import devendra2 from '../assets/images/speakers/popup/devendra.png';
 import samliang2 from '../assets/images/speakers/popup/samliang.png';
 import craig2 from '../assets/images/speakers/popup/craig.png';
 import yaron2 from '../assets/images/speakers/popup/yaron.png';
 import yohei2 from '../assets/images/speakers/popup/yohei.png';
-import jerryliu2 from '../assets/images/speakers/popup/jerry.png';
 import jason_l2 from '../assets/images/speakers/popup/jason.png';
 import worldcoin2 from '../assets/images/speakers/popup/worldcoin2.png';
-import ganapathy2 from '../assets/images/speakers/popup/ganapathy.png';
 import kevin2 from '../assets/images/speakers/popup/kevin.png';
 import jake2 from '../assets/images/speakers/popup/jake.png';
 import owyang2 from '../assets/images/speakers/popup/owyang.png';
 import ameer2 from '../assets/images/speakers/popup/ameer.png';
 import yangqingjia2 from '../assets/images/speakers/popup/yangqing.png';
 import chenxi2 from '../assets/images/speakers/popup/chenxi.png';
-import xinyun2 from '../assets/images/speakers/popup/xinyun.png';
 import yichong2 from '../assets/images/speakers/popup/yichong.png';
-import simon2 from '../assets/images/speakers/popup/simon.png';
 import patil2 from '../assets/images/speakers/popup/shishir.png';
 import rajat2 from '../assets/images/speakers/popup/rajat.png';
 import andreas2 from '../assets/images/speakers/popup/andreas.png';
@@ -166,10 +154,6 @@ import davit2 from '../assets/images/speakers/popup/davit.png';
 import popa2 from '../assets/images/speakers/popup/popa.png';
 import amr2 from '../assets/images/speakers/popup/amr.png';
 import ramsriharsha2 from '../assets/images/speakers/popup/ramsriharsha2.png';
-import orbach2 from '../assets/images/speakers/popup/orbach.png';
-import karina2 from '../assets/images/speakers/popup/karina.png';
-import harris2 from '../assets/images/speakers/popup/harris.png';
-import gade2 from '../assets/images/speakers/popup/gade.png';
 import eddieaftandilian2 from '../assets/images/speakers/popup/eddieaftandilian2.png';
 import shah2 from '../assets/images/speakers/popup/shah.png';
 import lijia2 from '../assets/images/speakers/popup/lijia.png';
@@ -213,6 +197,8 @@ import dineshmaheshwari2 from '../assets/images/speakers/popup/dineshmaheshwari2
 import jiajunlu2 from '../assets/images/speakers/popup/jiajunlu2.png';
 import shaileshmanjrekar2 from '../assets/images/speakers/popup/shaileshmanjrekar2.png';
 import hepingliu2 from '../assets/images/speakers/popup/hepingliu2.png';
+import ahmedaj2 from '../assets/images/speakers/popup/ahmedaj2.png';
+import davidminarsch2 from '../assets/images/speakers/popup/davidminarsch2.png';
 
 
 
@@ -506,7 +492,7 @@ const speaker = [
     tip: 'SambaNova Systems',
     image: rochellemattern,
     website: '',
-    twitter: 'https://twitter.com/jainarvind',
+    twitter: 'https://twitter.com/ro_mattern?lang=en',
     linkedin: 'https://www.linkedin.com/in/rochelle-mattern10/',
     detail: rochellemattern2,
     description: `Rochelle is the Director of Worldwide Solutions Engineering at SamabNova Systems. Her and her team support enterprise customers in their journey to adopting generative AI technologies to solve their most challenging business problems and unlock new revenue opportunities. With extensive experience in AI solutions, she has worked at Forethought.ai, Google Cloud, and Cisco Systems, where she has helped merge technical innovations with strategic enterprise objectives. Beyond SambaNova, Rochelle serves on the leadership team of Women in AI Club, striving to connect, elevate, and inspire women founders, leaders, and practitioners in AI.`,
@@ -1032,16 +1018,6 @@ const speaker = [
     detail: dineshmaheshwari2,
     description: `Dinesh Maheshwari is an accomplished C-level executive with over 30 years of experience in semiconductors, systems, and software industries. He currently serves as the CTO at Groq, a machine learning startup, and is a partner at SiliconCatalyst, focusing on due diligence and mentoring startups. Maheshwari has played various roles as a strategist, technologist, and entrepreneur, contributing to revolutions in multi-processor systems, EDA, optical communications, and networking. He holds 58 US patents and a Bachelor's degree from IIT Delhi.`,
   },
-  // {
-  //   name: 'Dr. Simon Suo',
-  //   job: 'Co-Founder & CTO',
-  //   tip: 'LlamaIndex',
-  //   image: simon,
-  //   website: '',
-  //   twitter: '',
-  //   linkedin: 'https://www.linkedin.com/in/sdsuo/',
-  //   detail: simon2,
-  // },
   {
     name: 'Shishir Patil',
     job: 'Creator',
@@ -1261,6 +1237,28 @@ const speaker = [
     linkedin: 'https://www.linkedin.com/in/heping-liu-92b39211/',
     detail: hepingliu2,
     description: `Heping Liu is a Senior Principal Machine Learning Engineer at Workday, where he has led the development of forecasting and optimization products using ML. He spearheaded the design of next-gen platform architecture, disaster recovery strategies, and open-source software management. Previously, he co-founded and served as CEO of Beijing Unigroup AI Technologies Inc. Liu holds a Ph.D. and has authored around 20 papers in top journals. His research interests include forecasting, optimization, AI/ML algorithms, LLM, big data, and analytics.`,
+  },
+  {
+    name: 'Ahmed AJ',
+    job: 'Co-Founder',
+    tip: 'Logicrite',
+    image: ahmedaj,
+    website: '',
+    twitter: '',
+    linkedin: '',
+    detail: ahmedaj2,
+    description: `Ahmed AJ is the Co-Founder of Logicrite, a pioneering company specializing in building AI agents. He also founded Dapi, a global open banking aggregator backed by Y Combinator. Ahmed is an Entrepreneur with extensive operational experience in product development, no-code platforms, fintech, and blockchain technology.`,
+  },
+  {
+    name: 'Dr. David Minarsch',
+    job: 'Co-Founder & CEO',
+    tip: 'Valory',
+    image: davidminarsch,
+    website: '',
+    twitter: 'https://twitter.com/david_enim',
+    linkedin: 'https://www.linkedin.com/in/davidminarsch/',
+    detail: davidminarsch2,
+    description: `David Minarsch holds a Ph.D. in Applied Game Theory from the University of Cambridge. He is the creator of the first multi-agent system framework with native support for distributed ledger technologies (aea.dev) and a co-founder/CEO at Valory. Minarsch has conducted research on the economics of networks, strategy, political competition, and multi-agent systems. He has successfully taken projects from concept to production at companies like Yoyo Wallet and Fetch.ai.`,
   },
 ];
 

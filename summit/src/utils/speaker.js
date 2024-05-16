@@ -26,7 +26,6 @@ import newlands from '../assets/images/speakers/newlands.png';
 import chuntingzhou from '../assets/images/speakers/chuntingzhou.jpeg';
 import tony from '../assets/images/speakers/tony.jpg';
 import zipeng from '../assets/images/speakers/zipeng.jpg';
-import zhaoyan from '../assets/images/speakers/zhaoyan.jpg';
 import greg from '../assets/images/speakers/greg.jpg';
 import henry from '../assets/images/speakers/henry.jpg';
 import sharannarang from '../assets/images/speakers/sharannarang.jpg';
@@ -129,7 +128,6 @@ import newlands2 from '../assets/images/speakers/popup/murray.png';
 import chuntingzhou2 from '../assets/images/speakers/popup/chunting.png';
 import tony2 from '../assets/images/speakers/popup/tony.png';
 import zipeng2 from '../assets/images/speakers/popup/zipeng.png';
-import zhaoyan2 from '../assets/images/speakers/popup/zhaoyan.png';
 import greg2 from '../assets/images/speakers/popup/greg.png';
 import henry2 from '../assets/images/speakers/popup/henry.png';
 import sharannarang2 from '../assets/images/speakers/popup/sharannarang2.png';
@@ -1138,17 +1136,6 @@ const speaker = [
     linkedin: 'https://www.linkedin.com/in/zipengfu/',
     detail: zipeng2,
     description: `Zipeng Fu is the creator and author of ALOHA Robot. He is now a CS PhD student at Stanford AI Lab, advised by Chelsea Finn. His research focuses on deployable robot systems and learning in the unstructured open world. His representative work includes Mobile Aloha, Robot Parkour Learning, and RMA. Mobile Aloha is a humanoid robot that can be remote operated by a user and perform autonomously by imitation learning.`,
-  },
-  {
-    name: 'Yan Zhao',
-    job: 'Mayor',
-    tip: 'City of Saratoga',
-    image: zhaoyan,
-    website: 'https://www.saratoga.ca.us/443/Yan-Zhao',
-    twitter: '',
-    linkedin: 'https://www.linkedin.com/in/yan-zhao-92a3328/',
-    detail: zhaoyan2,
-    description: `Yan Zhao, elected to Saratoga City Council in 2018 and Mayor in 2021 and 2024, previously chaired the Saratoga Madronia Cemetery District and the Planning Commission. With degrees in Electrical Engineering from UC Berkeley and Santa Clara University, she has over 23 years in the semiconductor industry, spanning design to sales.`,
   },
   {
     name: 'Greg Tanaka',

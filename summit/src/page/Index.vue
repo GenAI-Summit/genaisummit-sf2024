@@ -1034,9 +1034,27 @@
             {{ list }}
           </div>
         </div>
-        <Agenda/>
+        <Agenda />
       </section>
       <!-- section4 end -->
+
+      <!-- resource section start -->
+      <section id="resource_section" class="cointainer">
+        <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
+          <div
+            class="left-title before"
+            :class="screenWidth > 600 ? '' : 'mb'"
+            data-aos="flip-up"
+          >
+            Resources
+          </div>
+        </div>
+        <div class="ss-title" data-aos="flip-up">
+          YOU CAN FINE THE RESOURCES OF THE EVENT HERE
+        </div>
+        <Resources :screenWidth="screenWidth" />
+      </section>
+      <!-- resource section end -->
 
       <!-- Event Partners -->
       <section class="pantners">
@@ -1133,6 +1151,7 @@ import Swiper from "../components/Swiper.vue";
 import Exhibition from "../components/Exhibition.vue";
 import StarBackground from "../components/StarBackground.vue";
 import Agenda from "../components/Agenda.vue";
+import Resources from "../components/Resources.vue";
 import SpeakerModal from "../components/SpeakerModal.vue";
 
 import speakers from "../utils/speaker";
@@ -2065,6 +2084,7 @@ export default {
     StarBackground,
     Agenda,
     SpeakerModal,
+    Resources,
   },
   methods: {},
   mounted() {},

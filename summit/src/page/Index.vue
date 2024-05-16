@@ -1867,6 +1867,11 @@ export default {
         url: "https://livex.ai/",
       },
       {
+        img: new URL(`../assets/images/sponsors/dmatrix.png`, import.meta.url)
+          .href,
+        url: "https://www.d-matrix.ai/",
+      },
+      {
         img: new URL(`../assets/images/sponsors/deepcheck.png`, import.meta.url)
           .href,
         url: "https://www.deepchecks.com",

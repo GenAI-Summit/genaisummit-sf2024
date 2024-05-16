@@ -133,7 +133,7 @@ export default {
             <br/><br/><br/>
           6. Panel Discussion 14:30-15:15: The Power of Data in the Era of GenAI
             <br/><br/>&nbsp&nbsp
-            - (Amazon L8) | (Ajinkya Malasane, Sr. Director, Product Strategy & Marketing @TELUS International) | (Zuora)
+            - (Amazon L8) | (Ajinkya Malasane, Sr. Director, Product Strategy & Marketing @TELUS International) | (Zuora) | (Shir Chorev, Co-Founder & CTO @Deepchecks)
             <br/><br/><br/>
           7. Panel Discussion 15:15-16:00: Robotics and GenAI
             <br/><br/>&nbsp&nbsp
@@ -440,7 +440,7 @@ export default {
             <br/><br/><br/>
           7. Panel Discussion 14:30-15:15: AI and Intellectual Property: Navigating the New Landscape 
             <br/><br/>&nbsp&nbsp 
-            - (Shawn Flynn, Principal @Global Capital Markets, Moderator) | (Jake Heller, CEO & Founder @CaseText) | (Brooke Jenkins, 30th District Attorney of San Francisco) | (Jiarui Liu, Partner @BitLex & Fellow @Stanford Center for Internet and Society)
+            - (Shawn Flynn, Principal @Global Capital Markets, Moderator) | (Jake Heller, CEO & Founder @CaseText) | (Jiarui Liu, Partner @BitLex & Fellow @Stanford Center for Internet and Society)
             <br/><br/><br/>
           8. Panel Discussion 15:15-16:00: LLM Safety and Security
             <br/><br/>&nbsp&nbsp 

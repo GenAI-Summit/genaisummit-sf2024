@@ -64,10 +64,9 @@ import rashimi from '../assets/images/speakers/rashimi.jpg';
 import soumya from '../assets/images/speakers/soumya.jfif';
 import curtis from '../assets/images/speakers/curtis.jfif';
 import tuhin from '../assets/images/speakers/tuhin.jfif';
-// import brooke from '../assets/images/speakers/brooke.jfif';
+import brooke from '../assets/images/speakers/brooke.jfif';
 import huang from '../assets/images/speakers/huang.jfif';
 import jon from '../assets/images/speakers/jon.png';
-import mccauley from '../assets/images/speakers/Mccauley.jpg';
 import rodrigoliang from '../assets/images/speakers/rodrigoliang.jpg';
 import geraldparloiu from '../assets/images/speakers/geraldparloiu.jpg';
 import joonarahko from '../assets/images/speakers/joonarahko.jpg';
@@ -170,10 +169,9 @@ import rashimi2 from '../assets/images/speakers/popup/rashimi.png';
 import soumya2 from '../assets/images/speakers/popup/soumya.png';
 import curtis2 from '../assets/images/speakers/popup/curtis.png';
 import tuhin2 from '../assets/images/speakers/popup/tuhin.png';
-// import brooke2 from '../assets/images/speakers/popup/brooke.png';
+import brooke2 from '../assets/images/speakers/popup/brooke.png';
 import huang2 from '../assets/images/speakers/popup/huang.png';
 import jon2 from '../assets/images/speakers/popup/jon.png';
-import mccauley2  from '../assets/images/speakers/popup/Mccauley2.png';
 import rodrigoliang2 from '../assets/images/speakers/popup/rodrigoliang2.png';
 import geraldparloiu2 from '../assets/images/speakers/popup/geraldparloiu2.png';
 import joonarahko2 from '../assets/images/speakers/popup/joonarahko2.png';
@@ -370,7 +368,6 @@ const speaker = [
     description: `Jason Wei currently works at OpenAI as a member of the technical staff. Jason graduated from Dartmouth College. He was a senior research scientist at Google Brain. He popularized some key ideas in large language models: chain-of-thought prompting, instruction tuning, and emergent phenomena.`,
   },
 
-  /*
   {
     name: 'Brooke Jenkins J.D.',
     job: 'District Attorney',
@@ -382,7 +379,6 @@ const speaker = [
     detail: brooke2,
     description: `Brooke Jenkins was sworn in as San Francisco's 31st District Attorney on January 8, 2023. A Bay Area native, she is deeply committed to justice reform and public safety. Jenkins has extensive experience in the San Francisco District Attorney’s Office, handling cases across Hate Crimes, Sexual Assault, and Homicide Units. Her career is marked by advocacy for victims and a drive to implement fair and responsible criminal justice reforms.`,
   },
-  */
 
   {
     name: 'Bhavin Shah',
@@ -406,17 +402,6 @@ const speaker = [
     linkedin: 'https://www.linkedin.com/in/lijiali/',
     detail: lijia2,
     description: `Jia is the Co-Founder and President of LiveX AI, with roles including IEEE Fellow for AI leadership, co-instructor of Stanford's Generative AI and Medicine course, and past Global Head of R&D at Google Cloud AI. LiveX AI is an AI sales and support assistant that leverages advanced machine learning algorithms to interact with customers with the tone and knowledge of one of your most effective and efficient employees.`,
-  },
-  {
-    name: 'Jack J. Mccauley',
-    job: 'Co-Founder',
-    tip: 'Oculus',
-    image: mccauley,
-    linkedin: 'https://www.linkedin.com/in/jack-j-mccauley-9237bb5/',
-    twitter: 'https://twitter.com/jackmccauley1',
-    website: '',
-    detail: mccauley2,
-    description: `Jack McCauley, the co-founder of Oculus, is confirmed to attend and speak at the GenAI Summit in San Francisco in 2024. This summit is a significant event in the AI industry, scheduled to take place from May 29th to May 31st, and will host numerous speakers from various sectors within the technology and AI fields.`,
   },
   {
     name: 'Philip Rathle',

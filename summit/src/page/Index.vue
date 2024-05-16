@@ -1609,6 +1609,11 @@ export default {
         url: "https://www.exabits.ai/",
       },
       {
+        img: new URL(`../assets/images/sponsors/espeed.png`, import.meta.url)
+          .href,
+        url: "https://espeed.capital/",
+      },
+      {
         img: new URL(`../assets/images/sponsors/94ai.png`, import.meta.url)
           .href,
         url: "https://cn.94ai.com/",
@@ -1624,19 +1629,14 @@ export default {
         url: "https://www.taskus.com/en-us/",
       },
       {
-        img: new URL(`../assets/images/sponsors/agnostiq.png`, import.meta.url)
-          .href,
-        url: "https://agnostiq.ai/",
-      },
-      {
         img: new URL(`../assets/images/sponsors/1gen.png`, import.meta.url)
           .href,
         url: "https://1gen.ai/",
       },
       {
-        img: new URL(`../assets/images/sponsors/espeed.png`, import.meta.url)
+        img: new URL(`../assets/images/sponsors/agnostiq.png`, import.meta.url)
           .href,
-        url: "https://espeed.capital/",
+        url: "https://agnostiq.ai/",
       },
       {
         img: new URL(`../assets/images/sponsors/upmarket.png`, import.meta.url)

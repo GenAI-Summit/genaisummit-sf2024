@@ -64,7 +64,7 @@ import rashimi from '../assets/images/speakers/rashimi.jpg';
 import soumya from '../assets/images/speakers/soumya.jfif';
 import curtis from '../assets/images/speakers/curtis.jfif';
 import tuhin from '../assets/images/speakers/tuhin.jfif';
-import brooke from '../assets/images/speakers/brooke.jfif';
+// import brooke from '../assets/images/speakers/brooke.jfif';
 import huang from '../assets/images/speakers/huang.jfif';
 import jon from '../assets/images/speakers/jon.png';
 import mccauley from '../assets/images/speakers/Mccauley.jpg';
@@ -98,6 +98,9 @@ import ahmedaj from '../assets/images/speakers/ahmedaj.jpg';
 import davidminarsch from '../assets/images/speakers/davidminarsch.jpg';
 import stanlee from '../assets/images/speakers/stanlee.jpg';
 import bryanmccann from '../assets/images/speakers/bryanmccann.jpg';
+import jayzhao from '../assets/images/speakers/jayzhao.jpg';
+import shirchorev from '../assets/images/speakers/shirchorev.jpg';
+import jennyxiao from '../assets/images/speakers/jennyxiao.jpg';
 
 
 
@@ -167,7 +170,7 @@ import rashimi2 from '../assets/images/speakers/popup/rashimi.png';
 import soumya2 from '../assets/images/speakers/popup/soumya.png';
 import curtis2 from '../assets/images/speakers/popup/curtis.png';
 import tuhin2 from '../assets/images/speakers/popup/tuhin.png';
-import brooke2 from '../assets/images/speakers/popup/brooke.png';
+// import brooke2 from '../assets/images/speakers/popup/brooke.png';
 import huang2 from '../assets/images/speakers/popup/huang.png';
 import jon2 from '../assets/images/speakers/popup/jon.png';
 import mccauley2  from '../assets/images/speakers/popup/Mccauley2.png';
@@ -201,6 +204,9 @@ import ahmedaj2 from '../assets/images/speakers/popup/ahmedaj2.png';
 import davidminarsch2 from '../assets/images/speakers/popup/davidminarsch2.png';
 import stanlee2 from '../assets/images/speakers/popup/stanlee2.png';
 import bryanmccann2 from '../assets/images/speakers/popup/bryanmccann2.png';
+import jayzhao2 from '../assets/images/speakers/popup/jayzhao2.png';
+import shirchorev2 from '../assets/images/speakers/popup/shirchorev2.png';
+import jennyxiao2 from '../assets/images/speakers/popup/jennyxiao2.png';
 
 
 
@@ -364,6 +370,7 @@ const speaker = [
     description: `Jason Wei currently works at OpenAI as a member of the technical staff. Jason graduated from Dartmouth College. He was a senior research scientist at Google Brain. He popularized some key ideas in large language models: chain-of-thought prompting, instruction tuning, and emergent phenomena.`,
   },
 
+  /*
   {
     name: 'Brooke Jenkins J.D.',
     job: 'District Attorney',
@@ -375,6 +382,7 @@ const speaker = [
     detail: brooke2,
     description: `Brooke Jenkins was sworn in as San Francisco's 31st District Attorney on January 8, 2023. A Bay Area native, she is deeply committed to justice reform and public safety. Jenkins has extensive experience in the San Francisco District Attorney’s Office, handling cases across Hate Crimes, Sexual Assault, and Homicide Units. Her career is marked by advocacy for victims and a drive to implement fair and responsible criminal justice reforms.`,
   },
+  */
 
   {
     name: 'Bhavin Shah',
@@ -1272,6 +1280,39 @@ const speaker = [
     linkedin: 'https://www.linkedin.com/in/bmarcusmccann/',
     detail: bryanmccann2,
     description: `Bryan McCann is the Co-Founder and CTO of you.com, focused on advancing human-AI collaboration. He previously led AI research in NLP at Salesforce, with his work being highly cited. McCann aims to use AI to inspire creativity and develop tools for more fulfilling lives. He advises AI startups, pursues interests like poetry and painting, and holds degrees from Stanford in CS, AI, and Philosophy.`,
+  },
+  {
+    name: 'Jay Zhao',
+    job: 'Managing Partner',
+    tip: 'Leonis Capital',
+    image: jayzhao,
+    website: 'https://www.leoniscap.com/jay-zhao',
+    twitter: 'https://twitter.com/jzhaos?lang=en',
+    linkedin: 'https://www.linkedin.com/in/jayzhaolinkedin/',
+    detail: jayzhao2,
+    description: `Jay Zhao is a Managing Partner at Leonis Capital, a VC fund investing in AI-powered tech companies. He has led investments and served on the boards of companies like Marqeta, HireVue, and Mixamo. Previously, Zhao co-founded T Fund, was a Senior Director at Walden Venture Capital, and a Principal at Granite Ventures. He is an active mentor and contributor to media outlets.`,
+  },
+  {
+    name: 'Shir Chorev',
+    job: 'Co-Founder & CTO',
+    tip: 'Deepchecks',
+    image: shirchorev,
+    website: '',
+    twitter: '',
+    linkedin: 'https://www.linkedin.com/in/shirchorev/',
+    detail: shirchorev2,
+    description: `Shir Chorev is a passionate and experienced data scientist skilled in machine learning and algorithmic research. He is a graduate of the Talpiot Excellence Program and holds an M.Sc. in Electrical Engineering from Tel Aviv University, focusing on algorithms and machine learning. Chorev has previous experience leading and conducting cyber-related projects and low-level research.`,
+  },
+  {
+    name: 'Jenny Xiao',
+    job: 'Partner',
+    tip: 'Leonis Capital',
+    image: jennyxiao,
+    website: 'https://www.leoniscap.com/jenny-xiao',
+    twitter: 'https://twitter.com/jennywxiao?lang=en',
+    linkedin: 'https://www.linkedin.com/in/jenny-xiao-883952150/',
+    detail: jennyxiao2,
+    description: `Jenny Xiao is an early-stage AI investor at Leonis Capital, a research-focused venture capital fund. With an academic background, she transitioned to VC and aims to partner with technical founders to build AI-first companies. Xiao is passionate about leveraging research to drive innovation in the AI space.`,
   },
 ];
 

@@ -42,7 +42,7 @@ import rashimi from '../assets/images/speakers/rashimi.jpg';
 import soumya from '../assets/images/speakers/soumya.jfif';
 import curtis from '../assets/images/speakers/curtis.jfif';
 import tuhin from '../assets/images/speakers/tuhin.jfif';
-// import brooke from '../assets/images/speakers/brooke.jfif';
+import brooke from '../assets/images/speakers/brooke.jfif';
 import huang from '../assets/images/speakers/huang.jfif';
 import jon from '../assets/images/speakers/jon.png';
 import geraldparloiu from '../assets/images/speakers/geraldparloiu.jpg';
@@ -97,7 +97,7 @@ import rashimi2 from '../assets/images/speakers/popup/rashimi.png';
 import soumya2 from '../assets/images/speakers/popup/soumya.png';
 import curtis2 from '../assets/images/speakers/popup/curtis.png';
 import tuhin2 from '../assets/images/speakers/popup/tuhin.png';
-// import brooke2 from '../assets/images/speakers/popup/brooke.png';
+import brooke2 from '../assets/images/speakers/popup/brooke.png';
 import huang2 from '../assets/images/speakers/popup/huang.png';
 import jon2 from '../assets/images/speakers/popup/jon.png';
 import geraldparloiu2 from '../assets/images/speakers/popup/geraldparloiu2.png';
@@ -185,7 +185,6 @@ const speakerNewly = [
     detail: huang2,
     description: `Dr. Irene Huang is the Senior Director of Wellness + Resiliency at TaskUs, a company specializing in customer experience and digital outsourcing solutions. A trained clinical psychologist and data scientist, Dr. Huang applies her expertise in mixed-method research to enhance strategic business decisions. TaskUs, a leader in the tech industry, has successfully raised a total of $279 million, underscoring its commitment to innovation and quality.`,
   },
-  /*
   {
     name: 'Brooke Jenkins J.D.',
     job: 'District Attorney',
@@ -197,7 +196,6 @@ const speakerNewly = [
     detail: brooke2,
     description: `Brooke Jenkins was sworn in as San Francisco's 31st District Attorney on January 8, 2023. A Bay Area native, she is deeply committed to justice reform and public safety. Jenkins has extensive experience in the San Francisco District Attorney’s Office, handling cases across Hate Crimes, Sexual Assault, and Homicide Units. Her career is marked by advocacy for victims and a drive to implement fair and responsible criminal justice reforms.`,
   },
-  */
   {
     name: 'Dr. Curtis Northcutt',
     job: 'Co-Founder & CEO',

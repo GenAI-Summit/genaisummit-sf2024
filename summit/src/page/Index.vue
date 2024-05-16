@@ -1717,6 +1717,11 @@ export default {
         url: "https://www.upbeat.chat/",
       },
       {
+        img: new URL(`../assets/images/sponsors/swarmone.png`, import.meta.url)
+          .href,
+        url: "https://swarmone.ai/",
+      },
+      {
         img: new URL(`../assets/images/sponsors/aizip.png`, import.meta.url)
           .href,
         url: "https://aizip.ai/",

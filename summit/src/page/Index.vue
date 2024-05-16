@@ -1539,7 +1539,7 @@ export default {
         url: "../assets/images/diam.png",
       },
       {
-        img: new URL(`../assets/images/sponsors/IBM.png`, import.meta.url).href,
+        img: new URL(`../assets/images/sponsors/IBM2.jpg`, import.meta.url).href,
         url: "https://www.ibm.com/us-en",
       },
 
@@ -3025,7 +3025,6 @@ section {
         justify-content: center;
 
         img {
-          margin-left: 10%;
           width: 80%;
           height: auto;
         }

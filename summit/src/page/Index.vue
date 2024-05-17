@@ -1673,6 +1673,10 @@ export default {
         url: "../assets/images/diam.png",
       },
       {
+        img: new URL(`../assets/images/sponsors/amazon.png`, import.meta.url).href,
+        url: "https://www.amazon.com/",
+      },
+      {
         img: new URL(`../assets/images/sponsors/IBM2.jpg`, import.meta.url).href,
         url: "https://www.ibm.com/us-en",
       },
@@ -1987,6 +1991,11 @@ export default {
         img: new URL(`../assets/images/sponsors/ushur.png`, import.meta.url)
           .href,
         url: "https://ushur.com/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/atlas.png`, import.meta.url)
+          .href,
+        url: "https://joinatlas.ai/",
       },
       {
         img: new URL(`../assets/images/sponsors/livex.png`, import.meta.url)

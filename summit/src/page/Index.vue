@@ -1949,6 +1949,11 @@ export default {
           .href,
         url: "https://www.koyeb.com/",
       },
+      {
+        img: new URL(`../assets/images/sponsors/motivitylabs.png`, import.meta.url)
+          .href,
+        url: "https://motivitylabs.com/",
+      },
 
       {
         img: new URL(`../assets/images/sponsors/pointable.png`, import.meta.url)

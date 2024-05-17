@@ -115,11 +115,11 @@ export default {
         content: `
           1. Keynote 09:00 - 10:00: The Future of Foundation Models
             <br/><br/><br/>
-          2. Keynote 10:00-11:00: Enterprise AI Search & Knowledge Discovery
+          2. Keynote 10:00-10:45: Enterprise AI Search & Knowledge Discovery
             <br/><br/>&nbsp&nbsp
             - (Amazon)
             <br/><br/><br/>
-          3. Keynote 11:00-12:00: What's Next Big Moment in Generative AI?
+          3. Keynote 10:45-11:45: What's Next Big Moment in Generative AI?
             <br/><br/>&nbsp&nbsp
             - (Rodrigo Liang, Co-Founder & CEO @SambaNova)
             <br/><br/><br/>
@@ -170,7 +170,7 @@ export default {
             <br/><br/>&nbsp&nbsp
             - (Minfa Wang, Senior Machine Learning Engineer @Waymo, Moderator) | (Devendra Chaplot, AI Research Scientist @Mistral AI) | (Sharan Narang, Co-Author @Llama 3 & Llama 2) | (Tony Wu, Co-Founder @xAI)
             <br/><br/><br/>
-          7. Panel Discussion 16:15-17:45: Innovating Infrastructure for LLM
+          7. Panel Discussion 16:15-17:00: Innovating Infrastructure for LLM
             <br/><br/>&nbsp&nbsp 
             - (Monica Zou, CMO @Dekube.ai) | (OneSource Cloud)
             <br/><br/><br/>

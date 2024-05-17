@@ -100,6 +100,14 @@ import bryanmccann from '../assets/images/speakers/bryanmccann.jpg';
 import jayzhao from '../assets/images/speakers/jayzhao.jpg';
 import shirchorev from '../assets/images/speakers/shirchorev.jpg';
 import jennyxiao from '../assets/images/speakers/jennyxiao.jpg';
+import arturkiulian from '../assets/images/speakers/arturkiulian.jpg';
+import marilynika from '../assets/images/speakers/marilynika.jpg';
+import anyacheng from '../assets/images/speakers/anyacheng.jpg';
+import matthewstepka from '../assets/images/speakers/matthewstepka.jpg';
+import andyhock from '../assets/images/speakers/andyhock.jpg';
+import sunnyrochiramani from '../assets/images/speakers/sunnyrochiramani.jpg';
+import shawnflynn from '../assets/images/speakers/shawnflynn.jpg';
+import jiaruiliu from '../assets/images/speakers/jiaruiliu.jpg';
 
 
 
@@ -205,6 +213,14 @@ import bryanmccann2 from '../assets/images/speakers/popup/bryanmccann2.png';
 import jayzhao2 from '../assets/images/speakers/popup/jayzhao2.png';
 import shirchorev2 from '../assets/images/speakers/popup/shirchorev2.png';
 import jennyxiao2 from '../assets/images/speakers/popup/jennyxiao2.png';
+import arturkiulian2 from '../assets/images/speakers/popup/arturkiulian2.png';
+import marilynika2 from '../assets/images/speakers/popup/marilynika2.png';
+import anyacheng2 from '../assets/images/speakers/popup/anyacheng2.png';
+import matthewstepka2 from '../assets/images/speakers/popup/matthewstepka2.png';
+import andyhock2 from '../assets/images/speakers/popup/andyhock2.png';
+import sunnyrochiramani2 from '../assets/images/speakers/popup/sunnyrochiramani2.png';
+import shawnflynn2 from '../assets/images/speakers/popup/shawnflynn2.png';
+import jiaruiliu2 from '../assets/images/speakers/popup/jiaruiliu2.png';
 
 
 
@@ -428,7 +444,7 @@ const speaker = [
 
   {
     name: 'Jingsheng Huang',
-    job: 'Board of Member',
+    job: 'Director of Board',
     tip: 'Yiren Digital',
     image: jingshenghuang,
     website: '',
@@ -860,8 +876,8 @@ const speaker = [
   },
   {
     name: 'Jake Heller, JD',
-    job: 'CEO & Founder',
-    tip: 'Casetext',
+    job: 'Head of Product, CoCounsel',
+    tip: 'Thomson Reuters',
     image: jake,
     website: 'https://casetext.com/about/',
     twitter: 'https://twitter.com/Jacob_Heller',
@@ -1298,6 +1314,94 @@ const speaker = [
     linkedin: 'https://www.linkedin.com/in/jenny-xiao-883952150/',
     detail: jennyxiao2,
     description: `Jenny Xiao is an early-stage AI investor at Leonis Capital, a research-focused venture capital fund. With an academic background, she transitioned to VC and aims to partner with technical founders to build AI-first companies. Xiao is passionate about leveraging research to drive innovation in the AI space.`,
+  },
+  {
+    name: 'Artur Kiulian',
+    job: 'Founder',
+    tip: 'Radical Philanthropies',
+    image: arturkiulian,
+    website: '',
+    twitter: 'https://twitter.com/arturkiulian?lang=en',
+    linkedin: 'https://www.linkedin.com/in/artur-kiulian/',
+    detail: arturkiulian2,
+    description: `Artur Kiulian is the founder of Radical Philanthropies, an organization empowering entrepreneurs to solve global challenges through transparency and knowledge sharing. He previously ran a venture studio focused on AI and machine learning, authoring the book "Robot Is The Boss: How To Do Business with Artificial Intelligence." Kiulian is a member of the Young Entrepreneur Council and holds a Master's degree in Artificial Intelligence Systems.`,
+  },
+  {
+    name: 'Dr. Marily Nika',
+    job: 'Gen AI Product Lead',
+    tip: 'Google',
+    image: marilynika,
+    website: 'https://www.marilynika.me/',
+    twitter: 'https://twitter.com/marilynika?lang=en',
+    linkedin: 'https://www.linkedin.com/in/marilynika/',
+    detail: marilynika2,
+    description: `Dr. Marily Nika is an award-winning AI Product Management leader with over 10 years of experience at Google and Meta. She holds a Ph.D. in Computer Science and is recognized as one of the world's top AI educators. Nika created the #1 AI Product Management Bootcamp, writes educational content on AI and product management, and is an Executive Fellow at Harvard Business School teaching AI PM.`,
+  },
+  {
+    name: 'Anya Cheng',
+    job: 'Founder & CEO',
+    tip: 'Taelor',
+    image: anyacheng,
+    website: '',
+    twitter: 'https://twitter.com/anyacheng?lang=en',
+    linkedin: 'https://www.linkedin.com/in/anyacheng/',
+    detail: anyacheng2,
+    description: `Anya Cheng is an accomplished and award-winning Product Head with extensive experience overseeing product initiatives for leading technology, eCommerce, food-delivery, and retail organizations. She is the founder and CEO of Taelor.style. Cheng has expertise in creating product vision, strategy, and roadmaps, building high-performing teams, and managing stakeholders. She is a TEDx speaker and has won over 20 awards, including Girls in Tech "40 Under 40" and Webby Award Best App of the Year.`,
+  },
+  {
+    name: 'Matthew Stepka',
+    job: 'Managing Partner',
+    tip: 'Machina Ventures',
+    image: matthewstepka,
+    website: 'https://machina-ventures.com/team',
+    twitter: 'https://twitter.com/mstepka?lang=en',
+    linkedin: 'https://www.linkedin.com/in/mstepka/',
+    detail: matthewstepka2,
+    description: `Matthew Stepka is the Managing Partner of Machina Ventures, an investment firm focused on early-stage AI and data science companies. He is also a Lecturer at UC Berkeley's Haas School of Business and serves as a Director on the Board of the cybersecurity company Family Zone. Previously, Stepka was a Vice President at Google, leading strategic initiatives with high social impact across various domains like internet access, clean energy, and robotics.`,
+  },
+  {
+    name: 'Sunny Rochiramani',
+    job: 'VP of Engineering',
+    tip: 'Descript',
+    image: sunnyrochiramani,
+    website: '',
+    twitter: 'https://twitter.com/srochiramani?lang=en',
+    linkedin: 'https://www.linkedin.com/in/sunnybr/',
+    detail: sunnyrochiramani2,
+    description: `Sunny Rochiramani is the VP of Engineering at Descript, a startup that provides innovative audio and video editing software powered by AI. Descript's tools leverage machine learning for tasks like transcription, overdubbing, and audio editing. Rochiramani has over 15 years of experience in software engineering.`,
+  },
+  {
+    name: 'Dr. Andy Hock',
+    job: 'Senior Vice President, Product & Strategy',
+    tip: 'Cerebras Systems',
+    image: andyhock,
+    website: '',
+    twitter: '',
+    linkedin: 'https://www.linkedin.com/in/andyhock/',
+    detail: andyhock2,
+    description: `Dr. Andy Hock leads product and strategy at Cerebras Systems, an AI hardware startup aiming to accelerate deep learning. He has over 15 years of experience in product management, technical program management, and enterprise business development, with 9 years focused on applied machine learning and AI. Previously, Hock led the development of ML-powered data products from satellite imagery at Google's Terra Bella. He holds a Ph.D. in Geophysics and Space Physics from UCLA.`,
+  },
+  {
+    name: 'Shawn Flynn',
+    job: 'Principal',
+    tip: 'Global Capital Markets',
+    image: shawnflynn,
+    website: '',
+    twitter: 'https://twitter.com/ShawnFlynnSV',
+    linkedin: 'https://www.linkedin.com/in/shawnpflynn/',
+    detail: shawnflynn2,
+    description: `Shawn Flynn is a Principal at Global Capital Markets, a premier middle-market investment bank, bringing international experience working with companies across stages and sectors. He previously founded and exited a company in Beijing. Flynn holds a B.S. in Mechanical Engineering from UCSD, speaks multiple languages, and is a frequent speaker on entrepreneurship and innovation. He has been interviewed for the book "Working with Americans: How to Build Profitable Business Relationships."`,
+  },
+  {
+    name: 'Dr. Jiarui Liu',
+    job: 'Fellow',
+    tip: 'Stanford Center for Internet and Society',
+    image: jiaruiliu,
+    website: '',
+    twitter: '',
+    linkedin: 'https://www.linkedin.com/in/jiarui-liu-b117468/',
+    detail: jiaruiliu2,
+    description: `Dr. Jiarui Liu, is a fellow at Stanford Law School's Center for Internet and Society and a former director of IP programs at the University of San Francisco School of Law. He has published over 40 articles in prestigious law reviews and is regularly invited by the U.S. Copyright Office, USPTO, and foreign governments as a speaker. Liu has worked for top law firms like Baker McKenzie and Jones Day, representing major companies in high-profile IP cases and negotiations.`,
   },
 ];
 

@@ -111,7 +111,7 @@ export default {
     const OutlineList = ref([
 
       {
-        title: "GPT Stage",
+        title: "GPT Stage (Palace Of Fine Arts)",
         content: `
           1. Keynote 09:00 - 10:00: The Future of Foundation Models
             <br/><br/><br/>
@@ -146,7 +146,7 @@ export default {
         `,
       },
       {
-        title: "AGI Stage",
+        title: "AGI Stage (Palace Of Fine Arts Theatre)",
         content: `
           1. Keynote 09:00-09:45: Advancements in Embodied AI: Key Technologies, Applications, and Future Trends
             <br/><br/>&nbsp&nbsp
@@ -228,7 +228,7 @@ export default {
     const OutlineList2 = ref([
       
       {
-        title: "GPT Stage",
+        title: "GPT Stage (Palace Of Fine Arts)",
         content: `
           1. Keynote 09:00-09:45: The Role of Generative AI in Advancing Industrial Automation and Smart Manufacturing
             <br/><br/>&nbsp&nbsp
@@ -256,7 +256,7 @@ export default {
             <br/><br/><br/>
           7. Panel Discussion 14:30-15:15: Identifying Unicorns: How can VCs spot the next big thing in GenAI?
             <br/><br/>&nbsp&nbsp 
-            - (Matthew Stepka, Founder & Managing Partner @Machina Ventures, Moderator) | (Jingsheng Huang, Director @Yiren Digital), (Jon Shalowitz, Managing Partner @Obvious Ventures) | (Ed Roman, Managing Partner @Hack VC) | (Nan Zhou, Director @Qualcomm Ventures) 
+            - (Matthew Stepka, Founder & Managing Partner @Machina Ventures, Moderator) | (Jingsheng Huang, Director of Board @Yiren Digital), (Obvious Ventures) | (Ed Roman, Managing Partner @Hack VC) | (Nan Zhou, Director @Qualcomm Ventures) 
             <br/><br/><br/>
           8. Panel Discussion 15:15-16:00: How does LLM Helps to Preserve Minority Culture
             <br/><br/>&nbsp&nbsp 
@@ -269,7 +269,7 @@ export default {
         `,
       },
       {
-        title: "AGI Stage",
+        title: "AGI Stage (Palace Of Fine Arts Theatre)",
         content: `
           1. Keynote 09:00-09:45: <i>Will be provided by Speaker soon</i>
             <br/><br/>&nbsp&nbsp 
@@ -367,7 +367,7 @@ export default {
     const OutlineList3 = ref([
       
       {
-        title: "GPT Stage",
+        title: "GPT Stage (Palace Of Fine Arts)",
         content: `
           1. Keynote 09:00-09:45: Top 3 Applications of Generative AI in Customer Experience
             <br/><br/>&nbsp&nbsp 
@@ -412,7 +412,7 @@ export default {
         `,
       },
       {
-        title: "AGI Stage",
+        title: "AGI Stage (Palace Of Fine Arts Theatre)",
         content: `
           1. Keynote 09:00-09:45: Unleashing the Power of Causal AI: Transforming Insights into Actionable Knowledge
             <br/><br/>&nbsp&nbsp 
@@ -440,7 +440,7 @@ export default {
             <br/><br/><br/>
           7. Panel Discussion 14:30-15:15: AI and Intellectual Property: Navigating the New Landscape 
             <br/><br/>&nbsp&nbsp 
-            - (Shawn Flynn, Principal @Global Capital Markets, Moderator) | (Jake Heller, CEO & Founder @CaseText) | (Jiarui Liu, Partner @BitLex & Fellow @Stanford Center for Internet and Society)
+            - (Shawn Flynn, Principal @Global Capital Markets, Moderator) | (Jake Heller, CEO @CaseText, Head of Product, CoCounsel @Thomson Reuters) | (Jiarui Liu, Partner @BitLex & Fellow @Stanford Center for Internet and Society)
             <br/><br/><br/>
           8. Panel Discussion 15:15-16:00: LLM Safety and Security
             <br/><br/>&nbsp&nbsp 

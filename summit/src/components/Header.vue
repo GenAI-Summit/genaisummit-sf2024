@@ -86,6 +86,7 @@
           <div class="buy-listBox">
             <div class="list" @click="BuyTicketsLuma">
               <img class="luma" src="../assets/images/luma.png" alt="" />
+              <img class="discount" src="../assets/images/luma_discount.png" alt="" />
             </div>
             <div class="list" @click="BuyTickets">
               <img class="event" src="../assets/images/event.png" alt="" />
@@ -306,28 +307,34 @@ export default {
             box-shadow: 0px 4px 20px -6px rgba(0, 0, 0, 0.15) !important;
             border-radius: 13px 13px 13px 13px;
             top: 0.9rem;
-            z-index: 9999;
+            z-index: 9000;
             display: none;
-            .list{
-                width: 100%;
-                text-align: center;
-                padding: .1rem 0;
-                border: 1px solid transparent;
-                margin: 0 auto;
-                border-radius: 100px;
-                &:hover{
-                  border: 1px solid #000000;
-                }
+            .list {
+              position: relative;
+              margin-top: 0.12rem;
+              width: 100%;
+              text-align: center;
+              border: 1px solid transparent;
+              border-radius: 100px;
+              &:hover{
+                border: 1px solid #000000;
               }
-              img{
-                &.luma{
-                  width: 1.3rem;
-                }
-                &.event{
-                  margin-top: 4px;
-                  width: 1.6rem;
-                }
-              };
+            }
+            img{
+              &.luma {
+                width: 72%;
+              }
+              &.event {
+                padding: 0.1rem;
+                width: 95%;
+              }
+              &.discount {
+                width: 70%;
+                position: absolute;
+                top: -0.44rem;
+                left: 1rem;
+              }
+            };
           }
         }
         .nav-link {

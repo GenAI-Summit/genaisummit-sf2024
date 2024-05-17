@@ -111,7 +111,7 @@ export default {
     const OutlineList = ref([
 
       {
-        title: "GPT Stage",
+        title: "GPT Stage (Palace Of Fine Arts)",
         content: `
           1. Keynote 09:00 - 10:00: The Future of Foundation Models
             <br/><br/><br/>
@@ -146,7 +146,7 @@ export default {
         `,
       },
       {
-        title: "AGI Stage",
+        title: "AGI Stage (Palace Of Fine Arts Theatre)",
         content: `
           1. Keynote 09:00-09:45: Advancements in Embodied AI: Key Technologies, Applications, and Future Trends
             <br/><br/>&nbsp&nbsp
@@ -228,7 +228,7 @@ export default {
     const OutlineList2 = ref([
       
       {
-        title: "GPT Stage",
+        title: "GPT Stage (Palace Of Fine Arts)",
         content: `
           1. Keynote 09:00-09:45: The Role of Generative AI in Advancing Industrial Automation and Smart Manufacturing
             <br/><br/>&nbsp&nbsp
@@ -269,7 +269,7 @@ export default {
         `,
       },
       {
-        title: "AGI Stage",
+        title: "AGI Stage (Palace Of Fine Arts Theatre)",
         content: `
           1. Keynote 09:00-09:45: <i>Will be provided by Speaker soon</i>
             <br/><br/>&nbsp&nbsp 
@@ -367,7 +367,7 @@ export default {
     const OutlineList3 = ref([
       
       {
-        title: "GPT Stage",
+        title: "GPT Stage (Palace Of Fine Arts)",
         content: `
           1. Keynote 09:00-09:45: Top 3 Applications of Generative AI in Customer Experience
             <br/><br/>&nbsp&nbsp 
@@ -412,7 +412,7 @@ export default {
         `,
       },
       {
-        title: "AGI Stage",
+        title: "AGI Stage (Palace Of Fine Arts Theatre)",
         content: `
           1. Keynote 09:00-09:45: Unleashing the Power of Causal AI: Transforming Insights into Actionable Knowledge
             <br/><br/>&nbsp&nbsp 

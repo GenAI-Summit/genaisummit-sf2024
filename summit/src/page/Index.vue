@@ -41,6 +41,7 @@
                 <div class="buy-listBox">
                   <div class="list" @click="BuyTicketsLuma">
                     <img class="luma" src="../assets/images/luma.png" alt="" />
+                    <img class="discount" src="../assets/images/luma_discount.png" alt="" />
                   </div>
                   <div class="list" @click="BuyTickets">
                     <img
@@ -290,8 +291,118 @@
           </div>
         </div>
       </div>
+
+      <!-- Media -->
+      <div class="office_content">
+        <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+          <div class="left">
+            <div
+              class="title_img"
+              data-aos="zoom-in"
+            >
+              <img src="../assets/images/media.png" alt="" />
+            </div>
+          </div>
+          <div class="right">
+            <div
+              class="list media"
+              data-aos="zoom-in"
+              @click="openUrl('https://www.bloomberg.com/')"
+            >
+              <img class="d" src="../assets/images/media/bloomberg.png" alt="" />
+            </div>
+            <div
+              class="list media"
+              data-aos="zoom-in"
+              @click="openUrl('https://www.nbcnews.com/')"
+            >
+              <img class="d" src="../assets/images/media/nbcnews.png" alt="" />
+            </div>
+
+            <div
+              class="list media"
+              data-aos="zoom-in"
+              @click="openUrl('https://techcrunch.com/')"
+            >
+              <img class="d" src="../assets/images/media/techcrunch.png" alt="" />
+            </div>
+
+            <div
+              class="list media"
+              data-aos="zoom-in"
+              @click="openUrl('http://www.davidpaulmorris.com/')"
+            >
+              <img class="d" src="../assets/images/media/davidpaulmirrors.png" alt="" />
+            </div>
+            <div
+              class="list media"
+              data-aos="zoom-in"
+              @click="openUrl('https://www.teleinfotoday.com/')"
+            >
+              <img class="d" src="../assets/images/media/teleinfotoday.png" alt="" />
+            </div>
+            <div
+              class="list media"
+              data-aos="zoom-in"
+              @click="openUrl('https://www.cyberdefensemagazine.com/')"
+            >
+              <img class="d" src="../assets/images/media/cyberdefensemagazine.png" alt="" />
+            </div>
+            <div
+              class="list media"
+              data-aos="zoom-in"
+              @click="openUrl('https://www.theregister.com/')"
+            >
+              <img class="d" src="../assets/images/media/theregister.png" alt="" />
+            </div>
+            <div
+              class="list media"
+              data-aos="zoom-in"
+              @click="openUrl('https://www.sfgate.com/')"
+            >
+              <img class="d" src="../assets/images/media/sfgate.png" alt="" />
+            </div>
+            <div
+              class="list media"
+              data-aos="zoom-in"
+              @click="openUrl('https://www.sfchronicle.com/')"
+            >
+              <img class="d" src="../assets/images/media/sfchronicle.png" alt="" />
+            </div>
+            <div
+              class="list media"
+              data-aos="zoom-in"
+              @click="openUrl('https://avazona.com/')"
+            >
+              <img class="d" src="../assets/images/media/avazona.png" alt="" />
+            </div>
+            <div
+              class="list media"
+              data-aos="zoom-in"
+              @click="openUrl('https://www.cgtn.com/')"
+            >
+              <img class="d" src="../assets/images/media/cgtn.png" alt="" />
+            </div>
+            <div
+              class="list media"
+              data-aos="zoom-in"
+              @click="openUrl('https://www.gettyimages.com/')"
+            >
+              <img class="d" src="../assets/images/media/gettyimages.png" alt="" />
+            </div>
+            <div
+              class="list media"
+              data-aos="zoom-in"
+              @click="openUrl('https://www.ktsf.com/')"
+            >
+              <img class="d" src="../assets/images/media/ktsf26.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- sponsor section end -->
+
 
 
     <div class="bg">
@@ -932,6 +1043,7 @@
             <div class="buy-listBox">
               <div class="list" @click="BuyTicketsLuma">
                 <img class="luma" src="../assets/images/luma.png" alt="" />
+                <img class="luma" src="../assets/images/luma_discount.png" alt="" />
               </div>
               <div class="list" @click="BuyTickets">
                 <img class="event" src="../assets/images/event.png" alt="" />
@@ -1122,6 +1234,7 @@
               <div class="buy-listBox">
                 <div class="list" @click="BuyTicketsLuma">
                   <img class="luma" src="../assets/images/luma.png" alt="" />
+                  <img class="discount" src="../assets/images/luma_discount.png" alt="" />
                 </div>
                 <div class="list" @click="BuyTickets">
                   <img class="event" src="../assets/images/event.png" alt="" />
@@ -1892,6 +2005,13 @@ export default {
         url: "https://www.evaluable.ai/",
       },
       {
+        img: new URL(
+          `../assets/images/sponsors/network3.png`,
+          import.meta.url
+        ).href,
+        url: "https://network3.io/",
+      },
+      {
         img: new URL(`../assets/images/sponsors/sider.png`, import.meta.url)
           .href,
         url: "https://sider.ai/en/",
@@ -2315,7 +2435,7 @@ section {
           box-shadow: 0px 4px 20px -6px rgba(0, 0, 0, 0.15) !important;
           border-radius: 13px 13px 13px 13px;
           top: 0.9rem;
-          z-index: 9999;
+          z-index: 9000;
           display: none;
           .list {
             width: 100%;
@@ -2330,11 +2450,17 @@ section {
           }
           img {
             &.luma {
-              width: 1.3rem;
+              width: 60%;
             }
             &.event {
-              margin-top: 4px;
-              width: 1.6rem;
+              padding: 0.1rem;
+              width: 65%;
+            }
+            &.discount {
+              width: 55%;
+              position: absolute;
+              top: -0.22rem;
+              left: 1.2rem;
             }
           }
         }
@@ -3058,6 +3184,10 @@ section {
           background: #008aff;
         }
       }
+
+      .media {
+        width: 22%;
+      }
     }
 
     &.mb {
@@ -3084,6 +3214,10 @@ section {
             height: auto;
             z-index: -1;
           }
+        }
+
+        .media {
+          width: 30%;
         }
 
       }
@@ -3401,7 +3535,7 @@ section {
     box-shadow: 0px 4px 20px -6px rgba(0, 0, 0, 0.15) !important;
     border-radius: 13px 13px 13px 13px;
     top: 0.7rem;
-    z-index: 9999;
+    z-index: 9000;
     display: none;
     .list {
       width: 100%;
@@ -3416,11 +3550,17 @@ section {
     }
     img {
       &.luma {
-        width: 1.3rem;
+        width: 60%;
       }
       &.event {
-        margin-top: 4px;
-        width: 1.6rem;
+        padding-top: 0.12rem;
+        width: 95%;
+      }
+      &.discount {
+        width: 65%;
+        position: absolute;
+        top: -0.14rem;
+        left: 35%;
       }
     }
   }
@@ -3503,7 +3643,7 @@ section {
   position: fixed;
   bottom: 0;
   width: 100%;
-  z-index: 900;
+  z-index: 9000;
   .innerTickets {
     background-color: #fff;
     border: 1px solid #eeedf2;
@@ -3536,7 +3676,7 @@ section {
       color: #ffffff;
       display: flex;
       justify-content: space-between;
-      padding: 0 0.2963rem;
+      padding: 0;
       .ticketsBtnText {
         font-size: 0.4444rem;
         width: 5rem;
@@ -3552,7 +3692,6 @@ section {
           }
         }
         .buy-listBox {
-          padding: 10px;
           cursor: pointer;
           position: absolute;
           width: 100%;
@@ -3561,14 +3700,13 @@ section {
           box-shadow: 0px 4px 20px -6px rgba(0, 0, 0, 0.15) !important;
           border-radius: 13px 13px 13px 13px;
           bottom: 1.5rem;
-          z-index: 9999;
+          z-index: 9000;
           display: none;
           .list {
             width: 100%;
             text-align: center;
-            padding: 0.1rem 0;
             border: 1px solid transparent;
-            margin: 0 auto;
+            margin: 0;
             border-radius: 100px;
             &:hover {
               border: 1px solid #000000;
@@ -3576,17 +3714,19 @@ section {
           }
           img {
             &.luma {
-              width: 1.3rem;
+              width: 70%;
             }
             &.event {
-              margin-top: 4px;
-              width: 1.6rem;
+              padding: 0.1rem;
+              width: 85%;
+            }
+            &.discount {
+              width: 65%;
+              position: absolute;
+              top: -0.28rem;
+              left: 0.95rem;
             }
           }
-        }
-        img {
-          width: 30px;
-          margin-right: 0.3rem;
         }
       }
     }

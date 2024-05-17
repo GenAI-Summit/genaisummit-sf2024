@@ -133,7 +133,7 @@ export default {
             <br/><br/><br/>
           6. Panel Discussion 14:30-15:15: The Power of Data in the Era of GenAI
             <br/><br/>&nbsp&nbsp
-            - (Amazon L8) | (Ajinkya Malasane, Sr. Director, Product Strategy & Marketing @TELUS International) | (Zuora) | (Shir Chorev, Co-Founder & CTO @Deepchecks)
+            - (Amazon) | (Ajinkya Malasane, Sr. Director, Product Strategy & Marketing @TELUS International) | (Zuora) | (Shir Chorev, Co-Founder & CTO @Deepchecks)
             <br/><br/><br/>
           7. Panel Discussion 15:15-16:00: Robotics and GenAI
             <br/><br/>&nbsp&nbsp
@@ -382,7 +382,7 @@ export default {
             <br/><br/><br/>
           3. Keynote 10:30-11:15: The Evolution of AI Assistants: Shaping the Future of Human-Computer Interaction
             <br/><br/>&nbsp&nbsp 
-            - (Amazon L10)
+            - (Amazon)
             <br/><br/><br/>
           4. Keynote 11:15-12:00: Straight Talk on Selling an AI Startup
             <br/><br/>&nbsp&nbsp 

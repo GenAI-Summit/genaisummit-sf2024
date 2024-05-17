@@ -3754,7 +3754,7 @@ section {
     .pantnersItem {
       cursor: pointer;
       margin-top: 0.5rem;
-      width: 23%;
+      width: 11.5%;
       margin-left: 0.5%;
       margin-right: 0.5%;
       margin-bottom: 0.5rem;
@@ -3766,7 +3766,7 @@ section {
       font-size: 0.37rem;
       border-radius: 1rem;
       &.mb {
-        width: 48%;
+        width: 23%;
       }
       &:hover {
         background: #008aff;

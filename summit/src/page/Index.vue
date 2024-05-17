@@ -337,6 +337,27 @@
             <div
               class="list media"
               data-aos="zoom-in"
+              @click="openUrl('https://www.sfchronicle.com/')"
+            >
+              <img class="d" src="../assets/images/media/sfchronicle.png" alt="" />
+            </div>
+            <div
+              class="list media"
+              data-aos="zoom-in"
+              @click="openUrl('https://www.sfgate.com/')"
+            >
+              <img class="d" src="../assets/images/media/sfgate.png" alt="" />
+            </div>
+            <div
+              class="list media"
+              data-aos="zoom-in"
+              @click="openUrl('https://www.gettyimages.com/')"
+            >
+              <img class="d" src="../assets/images/media/gettyimages.png" alt="" />
+            </div>
+            <div
+              class="list media"
+              data-aos="zoom-in"
               @click="openUrl('https://www.teleinfotoday.com/')"
             >
               <img class="d" src="../assets/images/media/teleinfotoday.png" alt="" />
@@ -358,20 +379,6 @@
             <div
               class="list media"
               data-aos="zoom-in"
-              @click="openUrl('https://www.sfgate.com/')"
-            >
-              <img class="d" src="../assets/images/media/sfgate.png" alt="" />
-            </div>
-            <div
-              class="list media"
-              data-aos="zoom-in"
-              @click="openUrl('https://www.sfchronicle.com/')"
-            >
-              <img class="d" src="../assets/images/media/sfchronicle.png" alt="" />
-            </div>
-            <div
-              class="list media"
-              data-aos="zoom-in"
               @click="openUrl('https://avazona.com/')"
             >
               <img class="d" src="../assets/images/media/avazona.png" alt="" />
@@ -382,13 +389,6 @@
               @click="openUrl('https://www.cgtn.com/')"
             >
               <img class="d" src="../assets/images/media/cgtn.png" alt="" />
-            </div>
-            <div
-              class="list media"
-              data-aos="zoom-in"
-              @click="openUrl('https://www.gettyimages.com/')"
-            >
-              <img class="d" src="../assets/images/media/gettyimages.png" alt="" />
             </div>
             <div
               class="list media"

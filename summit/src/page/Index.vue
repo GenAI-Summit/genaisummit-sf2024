@@ -1151,6 +1151,7 @@
       <!-- section4 end -->
 
       <!-- resource section start -->
+      <!--
       <section id="resource_section" class="cointainer">
         <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
           <div
@@ -1166,6 +1167,7 @@
         </div>
         <Resources :screenWidth="screenWidth" />
       </section>
+      -->
       <!-- resource section end -->
 
       <!-- Event Partners -->

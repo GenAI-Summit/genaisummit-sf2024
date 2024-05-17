@@ -1844,7 +1844,7 @@ export default {
           `../assets/images/sponsors/zuora.png`,
           import.meta.url
         ).href,
-        url: "https://www.zuora.com/",
+        url: "https://www.zuora.com/solutions/accurately-capture-meter-usage/",
       },
       {
         img: new URL(
@@ -1852,6 +1852,13 @@ export default {
           import.meta.url
         ).href,
         url: "https://finalize.ai/",
+      },
+      {
+        img: new URL(
+          `../assets/images/sponsors/capsico.png`,
+          import.meta.url
+        ).href,
+        url: "www.capsicohealth.com",
       },
       {
         img: new URL(

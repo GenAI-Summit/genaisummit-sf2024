@@ -71,18 +71,12 @@ export default {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
-    width: 19%;
     height: 0.8rem;
-    margin-right: 1%;
     margin-top: 0.15rem;
     text-align: center;
     border-radius: 1rem;
     color: #008aff;
-  
-    &.mb {
-      width: 48%;
-      color: red;
-    }
+    padding: 0.1rem 0.2rem;
   
     .resource-name {
       font-size: 0.3rem;

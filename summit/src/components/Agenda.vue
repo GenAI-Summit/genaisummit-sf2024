@@ -168,11 +168,11 @@ export default {
             <br/><br/><br/>
           6. Panel Discussion 15:15-16:15: A Deep Dive into the State-of-the-Art LLMs
             <br/><br/>&nbsp&nbsp
-            - (Minfa Wang, Senior Machine Learning Engineer @Waymo, Moderator) | (Devendra Chaplot, AI Research Scientist @Mistral AI) | (Sharan Narang, Co-Author @Llama 3 & Llama 2) | (Shishir Patil, Creater @Gorilla LLM) |  (Tony Wu, Co-Founder @xAI)
+            - (Minfa Wang, Senior Machine Learning Engineer @Waymo, Moderator) | (Devendra Chaplot, AI Research Scientist @Mistral AI) | (Sharan Narang, Co-Author @Llama 3 & Llama 2) | (Tony Wu, Co-Founder @xAI)
             <br/><br/><br/>
           7. Panel Discussion 16:15-17:45: Innovating Infrastructure for LLM
             <br/><br/>&nbsp&nbsp 
-            - (Denis Skrinnikoff, Chief Technology Officer @IREN) | (Monica Zou, CMO @Dekube.ai)
+            - (Monica Zou, CMO @Dekube.ai) | (OneSource Cloud)
             <br/><br/><br/>
         `,
       },
@@ -180,14 +180,20 @@ export default {
         title: "Align Stage",
         content: `
           1. Panel Discussion 09:00-10:00: VC
+            <br/><br/>&nbsp&nbsp 
+            - (Kelvin Mu, Principal @Translink Capital, Moderator)
             <br/><br/><br/>
           2. Panel Discussion 10:00-11:00: Data Synthesis
             <br/><br/><br/>
-          3. Panel Discussion 11:00-12:00: Web3 in AI
+          3. Panel Discussion 11:00-12:00: Computing Resource for LLM 
             <br/><br/>&nbsp&nbsp 
-            - (Monica Zou, CMO @Dekube.ai)
+            - (Nikunj Bajaj, Co-Founder & CEO @TrueFoundry)
             <br/><br/><br/>
-          4. Keynote 14:30-15:15: Navigating the AI Changing Landscape
+          4. Panel Discussion 13:00-13:45: Revolutionizing Healthcare with Generative AI in
+            <br/><br/>&nbsp&nbsp 
+            - (Capsico Health)
+            <br/><br/><br/>
+          5. Keynote 14:30-15:15: Navigating the AI Changing Landscape
             <br/><br/>&nbsp&nbsp 
             - (Jeremiah Owyang, Venture Capital Investor @Blitzscaling Ventures)
             <br/><br/><br/>
@@ -196,9 +202,9 @@ export default {
       {
         title: "Breakout Room 6",
         content: `
-          1. Workshop 09:00-11:00: <i>Will be provided by Speaker soon</i>
+          1. Workshop 09:00-11:00: Build an advanced Retrieval Augmented Generation (RAG) assistant with Amazon Bedrock
             <br/><br/>&nbsp&nbsp
-            - (AWS)
+            - (Vidya Sagar, Applied Science Manager @AWS AI)
             <br/><br/><br/>
           2. Workshop 13:00-15:00: <i>Will be provided by Speaker soon</i>
             <br/><br/>&nbsp&nbsp
@@ -221,12 +227,15 @@ export default {
             <br/><br/>&nbsp&nbsp
             - (Mengfan Zhang, @MountainLion)
             <br/><br/><br/>
+          3. Keynote 16:00-16:30: Proof of Learning for Decentralized AI
+            <br/><br/>&nbsp&nbsp
+            - (Prof. Chen Xi, Professor @NYU)
+            <br/><br/><br/>
         `,
       },
     ]);
 
     const OutlineList2 = ref([
-      
       {
         title: "GPT Stage (Palace Of Fine Arts)",
         content: `
@@ -240,7 +249,7 @@ export default {
             <br/><br/><br/>
           3. Keynote 10:30-11:15: How To Shape the Future of Enterprise using GenAI
             <br/><br/>&nbsp&nbsp
-            - (IBM)
+            - (Armand Ruiz, VP of Product - AI Platform @IBM)
             <br/><br/><br/>
           4. Fireside Chat 11:15-12:00: <i>Will be provided by Speaker soon</i>
             <br/><br/>&nbsp&nbsp 
@@ -248,9 +257,9 @@ export default {
             <br/><br/><br/>
           5. Panel Discussion 13:00-13:45: Harnessing the Power of LLM for Super Agents: Capabilities, Challenges, and Future Prospects 
             <br/><br/>&nbsp&nbsp 
-            - (Yohei Nakajima, Founder @BabyAGI, Moderator) | (Jiang Chen, Head of Ecosystem & AI Platform @Zilliz) | (Lance Martin, Software / ML @Langchain) | (Davit Baghdasaryan, CEO @Krisp) | (Curtis Northcutt, CEO @CleanLab)
+            - (Yohei Nakajima, Founder @BabyAGI, Moderator) | (Jiang Chen, Head of Ecosystem & AI Platform @Zilliz) | (Davit Baghdasaryan, CEO @Krisp) | (Curtis Northcutt, CEO @CleanLab) | (Lance Martin, Software / ML @Langchain)
             <br/><br/><br/>
-          6. Panel Discussion 13:45-14:30: <i>Will be provided by Speaker soon</i>
+          6. Panel Discussion 13:45-14:30: LLM Alignment: Ensuring Ethical and Safe of LLM
             <br/><br/>&nbsp&nbsp
             - (Lance Martin, Software / ML @Langchain, Moderator) | (Chunting Zhou, Senior Research Scientist @Meta AI) | (Yohei Nakajima, Founder @BabyAGI) | (Shishir Patil, Creater @Gorilla LLM) | (Soumya Batra, Co-Author @LLAMA2)
             <br/><br/><br/>
@@ -287,9 +296,9 @@ export default {
             <br/><br/>&nbsp&nbsp 
             - (Fiona Ma, State Treasurer @State Treasurer's Office)
             <br/><br/><br/>
-          5. Panel Discussion 13:00-13:45: AI-Powered Enterprise Copilot
+          5. Panel Discussion 13:00-13:45: The Future and Challenges of AI-Powered Enterprise Copilot
             <br/><br/>&nbsp&nbsp 
-            - (Muddu Sudhakar, CEO & Co-Founder @Aisera) | (Bhavin Shah, CEO & Founder @Moveworks), (Kevin Moody, CEO @Mem Labs)
+            - (Bhavin Shah, CEO & Founder @Moveworks), (Kevin Moody, CEO @Mem Labs)
             <br/><br/><br/>
           6. Panel Discussion 13:45-14:30: Pioneering Women in Generative AI 
             <br/><br/>&nbsp&nbsp 
@@ -299,38 +308,32 @@ export default {
             <br/><br/>&nbsp&nbsp 
             - (Jia Li, Co-Founder, Chief AI Officer & President@LiveX.AI) | (Swapnil Jain, CEO @Observe.ai) | (Tim Shi, CTO @Cresta.AI), (Henry Peter, CTO & Co-Founder @Ushur)
             <br/><br/><br/>
-          8. Panel Discussion 15:15-16:00: LLM Safety and Security 
-            <br/><br/><br/>
-          9. Fireside Chat 16:00-16:45: AI-Powered Personalization
+          8. Fireside Chat 16:00-16:45: AI-Powered Personalization
             <br/><br/>&nbsp&nbsp 
-            - (Yichong Xu, AI Researcher @character.ai) | (Jack J. McCauley, Former Co-Founder & Engineer @Oculus VR)
+            - (Yichong Xu, AI Researcher @character.ai)
             <br/><br/><br/>
         `,
       },
       {
         title: "Align Stage",
         content: `
-          1. Panel Discussion 09:00-10:00: VC
-            <br/><br/>&nbsp&nbsp
-            - (Jack J. McCauley, Former Co-Founder & Engineer @Oculus VR)
-            <br/><br/><br/>
-          2. Panel Discussion 10:00-11:00: VC
+          1. Panel Discussion 10:00-11:00: VC
             <br/><br/>&nbsp&nbsp
             - (Murray Newlands, Investor @Open Future Technology)
             <br/><br/><br/>
-          3. Panel Discussion 11:00-12:00: VR
+          2. Panel Discussion 11:00-12:00: VC
             <br/><br/>&nbsp&nbsp
             - (Benjamin Levy, Co-Founder & General Partner @BootstrapLabs)
             <br/><br/><br/>
-          4. Keynote 14:30-15:15: GenAI and Crypto Investment
+          3. Keynote 14:30-15:15: GenAI and Crypto Investment
             <br/><br/>&nbsp&nbsp
             - (Mengfan Zhang, @MountainLion)
             <br/><br/><br/>
-          5. Keynote 15:15-16:00: Knowledge Graphs & GraphRAG: Essential Ingredients for Enterprise GenAI
+          4. Keynote 15:15-16:00: Knowledge Graphs & GraphRAG: Essential Ingredients for Enterprise GenAI
             <br/><br/>&nbsp&nbsp
             - (Philip Rathle, CTO @Neo4j)
             <br/><br/><br/>
-          6. Keynote 16:00-16:45: Text to Video Editing
+          5. Keynote 16:00-16:45: Text to Video Editing
             <br/><br/>&nbsp&nbsp
             - (Jose Sotelo, Senior AI Researcher @Descript)
             <br/><br/><br/>
@@ -341,7 +344,7 @@ export default {
         content: `
           1. Workshop 09:00-11:00: <i>Will be provided by Speaker soon</i>
             <br/><br/>&nbsp&nbsp
-            - (NVIDIA)
+            - (Nik Spirin, Director for Generative AI and LLMOps Platform @NVIDIA)
             <br/><br/><br/>
           2. Workshop 13:00-15:00: How to Use Otter.AI to Enpower GenAI Productivity at Work
             <br/><br/>&nbsp&nbsp
@@ -407,7 +410,7 @@ export default {
             <br/><br/><br/>
           10. Fireside Chat 16:15-17:00: <i>Will be provided by Speaker soon</i>
             <br/><br/>&nbsp&nbsp 
-            - (Nan Zhou, Director @Qualcomm Ventures, Moderator) | (Andy Hock, SVP, Product & Strategy @Cerebras Systems) 
+            - (Andy Hock, SVP, Product & Strategy @Cerebras Systems) 
             <br/><br/><br/>
         `,
       },
@@ -432,7 +435,7 @@ export default {
             <br/><br/><br/>
           5. Panel Discussion 13:00-13:45: AI and the Future of Human Work 
             <br/><br/>&nbsp&nbsp 
-            - (Yangqing Jia, Founder @Lepton AI, Moderator) | (Philip Rathle, CTO @Neo4j) | (Mike Murchison, CEO @Ada) | (Ahmed Mo, CEO & Co-Founder @Dapi.com)
+            - (Philip Rathle, CTO @Neo4j) | (Mike Murchison, CEO @Ada) | (Ahmed Mo, CEO & Co-Founder @Dapi.com)
             <br/><br/><br/>
           6. Panel Discussion 13:45-14:30: Synthesizing Data Generation 
             <br/><br/>&nbsp&nbsp 
@@ -457,11 +460,11 @@ export default {
         content: `
           1. Panel Discussion 09:00-10:00: AI and Healthcare
             <br/><br/>&nbsp&nbsp
-            - (Lindsey Spellman, Head of Marketing @Abridge)
+            - (Lindsey Spellman, Head of Marketing @Abridge) | (IBM)
             <br/><br/><br/>
           2. Panel Discussion 10:00-11:00: How to use data to enpower your business
             <br/><br/>&nbsp&nbsp
-            - (Shawn Flynn, Principal @Global Capital Markets, Moderator) | (Kathryn Wu, Co-Founder @Openmart) | (Telus International)
+            - (Shawn Flynn, Principal @Global Capital Markets, Moderator) | (Kathryn Wu, Co-Founder @Openmart) | (Telus International) | (Zuora) | (Streetbeat)
             <br/><br/><br/>
           3. Panel Discussion 11:00-12:00: GenAI with Crypto World
             <br/><br/>&nbsp&nbsp

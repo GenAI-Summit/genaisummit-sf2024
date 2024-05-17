@@ -87,7 +87,7 @@ import amr2 from '../assets/images/speakers/popup/amr.png';
 import ramsriharsha2 from '../assets/images/speakers/popup/ramsriharsha2.png';
 import eddieaftandilian2 from '../assets/images/speakers/popup/eddieaftandilian2.png';
 import shah2 from '../assets/images/speakers/popup/shah.png';
-import lijia2 from '../assets/images/speakers/popup/lijia.png';
+import lijia2 from '../assets/images/speakers/popup/lijia2.png';
 import fiona2 from '../assets/images/speakers/popup/fiona.png';
 import ambati2 from '../assets/images/speakers/popup/ambati.png';
 import philip2 from '../assets/images/speakers/popup/philip.png';
@@ -318,7 +318,7 @@ const speakerNewly = [
     twitter: 'https://twitter.com/lijiali_vision',
     linkedin: 'https://www.linkedin.com/in/lijiali/',
     detail: lijia2,
-    description: `Jia is the Co-Founder and President of LiveX AI, with roles including IEEE Fellow for AI leadership, co-instructor of Stanford's Generative AI and Medicine course, and past Global Head of R&D at Google Cloud AI. LiveX AI is an AI sales and support assistant that leverages advanced machine learning algorithms to interact with customers with the tone and knowledge of one of your most effective and efficient employees.`,
+    description: `Jia is the Co-Founder and President of LiveX AI, with roles including IEEE Fellow for AI leadership, co-instructor of Stanford's Generative AI and Medicine course. LiveX AI is a cutting-edge AI Agent, poised to act as a digital extension of your business—your AI Assistant—enhancing customer engagement, support, and sales operations. It uses advanced AI to deliver human-like interactions that mirror your brand’s voice and tone across all forms of communication, including text, email, and voice, whether through the web or smartphones. Businesses that integrate LiveX AI can quickly experience a host of benefits: increased sales, reduced returns, happier customers, and richer insights from customer data.`,
   },
   {
     name: 'Sanket Shah',

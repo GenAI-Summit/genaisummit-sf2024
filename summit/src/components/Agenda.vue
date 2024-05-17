@@ -227,7 +227,7 @@ export default {
             <br/><br/>&nbsp&nbsp
             - (Mengfan Zhang, @MountainLion)
             <br/><br/><br/>
-          3. Keynote 16:00-16:20: Proof of Learning for Decentralized AI
+          3. Keynote 16:00-16:30: Proof of Learning for Decentralized AI
             <br/><br/>&nbsp&nbsp
             - (Prof. Chen Xi, Professor @NYU)
             <br/><br/><br/>

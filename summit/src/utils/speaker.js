@@ -7,7 +7,6 @@ import bob from '../assets/images/speakers/bob.jpg';
 import deon from '../assets/images/speakers/deon.jpg';
 import devendra from '../assets/images/speakers/devendra.jpg';
 import samliang from '../assets/images/speakers/samliang.jpg';
-import craig from '../assets/images/speakers/craig.jpg';
 import yaron from '../assets/images/speakers/yaron.jpg';
 import yohei from '../assets/images/speakers/yohei.png';
 import jason_l from '../assets/images/speakers/jason_l.webp';
@@ -109,6 +108,12 @@ import sunnyrochiramani from '../assets/images/speakers/sunnyrochiramani.jpg';
 import shawnflynn from '../assets/images/speakers/shawnflynn.jpg';
 import jiaruiliu from '../assets/images/speakers/jiaruiliu.jpg';
 import hamzafarooq from '../assets/images/speakers/hamzafarooq.jpg';
+import yangxinchen from '../assets/images/speakers/yangxinchen.jpg';
+import armandruiz from '../assets/images/speakers/armandruiz.jpg';
+import arunraman from '../assets/images/speakers/arunraman.jpg';
+import nealvaidya from '../assets/images/speakers/nealvaidya.jpg';
+import nikspirin from '../assets/images/speakers/nikspirin.jpg';
+import jimpalmer from '../assets/images/speakers/jimpalmer.jpg';
 
 
 
@@ -122,7 +127,6 @@ import bob2 from '../assets/images/speakers/popup/bob.png';
 import deon2 from '../assets/images/speakers/popup/deon.png';
 import devendra2 from '../assets/images/speakers/popup/devendra.png';
 import samliang2 from '../assets/images/speakers/popup/samliang.png';
-import craig2 from '../assets/images/speakers/popup/craig.png';
 import yaron2 from '../assets/images/speakers/popup/yaron.png';
 import yohei2 from '../assets/images/speakers/popup/yohei.png';
 import jason_l2 from '../assets/images/speakers/popup/jason.png';
@@ -223,6 +227,12 @@ import sunnyrochiramani2 from '../assets/images/speakers/popup/sunnyrochiramani2
 import shawnflynn2 from '../assets/images/speakers/popup/shawnflynn2.png';
 import jiaruiliu2 from '../assets/images/speakers/popup/jiaruiliu2.png';
 import hamzafarooq2 from '../assets/images/speakers/popup/hamzafarooq2.png';
+import yangxinchen2 from '../assets/images/speakers/popup/yangxinchen2.png';
+import armandruiz2 from '../assets/images/speakers/popup/armandruiz2.png';
+import arunraman2 from '../assets/images/speakers/popup/arunraman2.png';
+import nealvaidya2 from '../assets/images/speakers/popup/nealvaidya2.png';
+import nikspirin2 from '../assets/images/speakers/popup/nikspirin2.png';
+import jimpalmer2 from '../assets/images/speakers/popup/jimpalmer2.png';
 
 
 
@@ -250,6 +260,17 @@ const speaker = [
     description: `Michael Stewart is the Managing Partner at M12, where he spearheads investment theses in generative AI, gaming, web3, and other deep technology domains. Holding both a PhD and an MBA, Michael brings over two decades of expertise in semiconductor and hard technology products, as well as in investment. His career is distinguished by his roles in founding two startups and securing over 40 patents, marking him as a leading figure in the field of technology innovation and venture capital.`,
   },
   {
+    name: 'Armand Ruiz',
+    job: 'VP of Product - AI Platform',
+    tip: "IBM",
+    linkedin: 'https://www.linkedin.com/in/armand-ruiz/',
+    twitter: 'https://x.com/armand_ruiz',
+    website: 'https://www.ibm.com/blog/author/armand-ruizus-ibm-com/',
+    detail: armandruiz2,
+    image: armandruiz,
+    description: `Michael Stewart is the Managing Partner at M12, where he spearheads investment theses in generative AI, gaming, web3, and other deep technology domains. Holding both a PhD and an MBA, Michael brings over two decades of expertise in semiconductor and hard technology products, as well as in investment. His career is distinguished by his roles in founding two startups and securing over 40 patents, marking him as a leading figure in the field of technology innovation and venture capital.`,
+  },
+  {
     name: 'Dr. Sam Liang',
     job: 'CEO & Founder',
     tip: 'OTTER AI',
@@ -259,18 +280,6 @@ const speaker = [
     website: '',
     detail: samliang2,
     description: `Dr. Sam Liang is the CEO and founder of Otter.ai. He holds a PhD from Stanford. Otter.ai provides Collaborative Generative AI for live meeting notes, summaries, chat for team collaboration. It is a WSJ Top 10 AI App. So far, Otter AI has raised a total of $73 million in funding.`,
-  },
-  {
-    name: 'Arvind Jain',
-    job: 'Founder & CEO',
-    tip: 'Glean',
-    website: 'https://www.glean.com/',
-    twitter: 'https://twitter.com/jainarvind',
-
-    linkedin: 'https://www.linkedin.com/in/arvind-jain-5935161/',
-    detail: arvind2,
-    image: arvind,
-    description: `Founded by Arvind Jain, Glean is revolutionizing internal information retrieval and management with its AI-powered work assistant software, aimed at enhancing employee efficiency. The company has raised $200 million in its Series C funding round and another $200 million in its Series D, reaching a valuation of $2.2 billion. Competing against traditional solution providers like Hammerspace, Glean is committed to radically transforming data retrieval and management in enterprises`,
   },
   {
     name: 'Rodrigo Liang',
@@ -316,8 +325,18 @@ const speaker = [
     image: ross,
     description: `Jonathan Ross, CEO and founder of Groq Inc., Groq's core product is a unique processor designed for efficient computation in machine learning and artificial intelligence applications. Often described as Tensor Processing Units (TPUs) or specific accelerators, Groq's processors emphasize simplified interaction between hardware and software, along with enhanced data processing speed and efficiency. Groq is now raising a new funding round, current valued at around $3B. Before Groq, Ross contributed to Google’s Tensor Processing Unit (TPU) and was part of Google X's Rapid Eval Team, initiating projects for Alphabet.`,
   },
+  {
+    name: 'Arvind Jain',
+    job: 'Founder & CEO',
+    tip: 'Glean',
+    website: 'https://www.glean.com/',
+    twitter: 'https://twitter.com/jainarvind',
 
-
+    linkedin: 'https://www.linkedin.com/in/arvind-jain-5935161/',
+    detail: arvind2,
+    image: arvind,
+    description: `Founded by Arvind Jain, Glean is revolutionizing internal information retrieval and management with its AI-powered work assistant software, aimed at enhancing employee efficiency. The company has raised $200 million in its Series C funding round and another $200 million in its Series D, reaching a valuation of $2.2 billion. Competing against traditional solution providers like Hammerspace, Glean is committed to radically transforming data retrieval and management in enterprises`,
+  },
   {
     name: 'Fiona Ma',
     job: 'State Treasurer',
@@ -422,15 +441,15 @@ const speaker = [
     description: `Jia is the Co-Founder and President of LiveX AI, with roles including IEEE Fellow for AI leadership, co-instructor of Stanford's Generative AI and Medicine course. LiveX AI is a cutting-edge AI Agent, poised to act as a digital extension of your business—your AI Assistant—enhancing customer engagement, support, and sales operations. It uses advanced AI to deliver human-like interactions that mirror your brand’s voice and tone across all forms of communication, including text, email, and voice, whether through the web or smartphones. Businesses that integrate LiveX AI can quickly experience a host of benefits: increased sales, reduced returns, happier customers, and richer insights from customer data.`,
   },
   {
-    name: 'Philip Rathle',
-    job: 'CTO',
-    tip: 'Neo4j',
-    image: philip,
-    linkedin: 'https://www.linkedin.com/in/prathle/',
-    twitter: 'https://twitter.com/prathle',
-    website: 'https://board.fastcompany.com/profile/Philip-Rathle-CTO-Neo4j/833d03ca-d8dd-42a2-a4c0-6cc3baef452d',
-    detail: philip2,
-    description: `Philip Rathle is CTO of Neo4j, the graph database and analytics leader that enabled the ICIJ to crack the Panama Papers, and NASA to get to Mars two years faster. Neo4j enables thousands of organizations worldwide-- including most of the Fortune 500-- to solve their most pressing & valuable problems through the power of the connections in data. Neo4j has raised a total funding of $581M over 9 rounds from 21 investors, leading the Company's valuation to over $2 billion`,
+    name: 'Charles Xie',
+    job: 'Founder & CEO',
+    tip: 'Zilliz',
+    image: charlesxie,
+    website: '',
+    linkedin: 'https://www.linkedin.com/in/chaoxie/',
+    twitter: 'https://twitter.com/starlordxie',
+    detail: charlesxie2,
+    description: `Charles Xie is the founder and CEO of Zilliz, a company dedicated to developing a cutting-edge unstructured data platform for AI applications. He is the creator of Milvus, a leading open-source vector database that is used by over 5,000 enterprises worldwide. In addition to his role at Zilliz, Charles has been actively involved with the LF AI & Data Foundation, serving as a board member and as the chairperson from 2020 to 2021. Before founding Zilliz, he was one of the founding engineers behind Oracle's 12c cloud database project. Charles holds a Master's degree in Computer Science from the University of Wisconsin-Madison.`,
   },
   {
     name: 'Sri Satish Ambati',
@@ -478,6 +497,17 @@ const speaker = [
     description: `Bob van Luijt, as the CEO and co-founder of Weaviate, stands out in the technology industry with his expertise in artificial intelligence. His leadership at Weaviate, an innovative open-source vector database, demonstrates his profound knowledge and entrepreneurial skills. Prior to his current role, van Luijt was involved in various technology projects and startups, showing his capability and versatility in the field. Under his direction, Weaviate, operated by SeMI Technologies, has successfully raised a total funding of $67 Million.`,
   },
   {
+    name: 'Dr. Muddu Sudhakar',
+    job: 'Co-Founder & CEO',
+    tip: 'Aisera',
+    image: muddu,
+    website: 'https://aisera.com/company/',
+    linkedin: 'https://www.linkedin.com/in/muddusudhakar/',
+    twitter: 'https://twitter.com/smuddu?lang=en',
+    detail: muddu2,
+    description: `Dr. Muddu Sudhakar, a Silicon Valley entrepreneur and EY Entrepreneur of the Year 2023, has founded several AI companies acquired by major firms like EMC, ServiceNow, and Splunk. His company Aisera is among America's fastest-growing, serving over 100 million users at F1000 companies. He holds a Ph.D. from UCLA and owns over 40 patents.`,
+  },
+  {
     name: 'Swapnil Jain',
     job: 'CEO & Co-Founder',
     tip: 'Observe.AI',
@@ -498,6 +528,17 @@ const speaker = [
     twitter: 'https://twitter.com/starlordxie',
     detail: charlesxie2,
     description: `Charles Xie is the founder and CEO of Zilliz, a company dedicated to developing a cutting-edge unstructured data platform for AI applications. He is the creator of Milvus, a leading open-source vector database that is used by over 5,000 enterprises worldwide. In addition to his role at Zilliz, Charles has been actively involved with the LF AI & Data Foundation, serving as a board member and as the chairperson from 2020 to 2021. Before founding Zilliz, he was one of the founding engineers behind Oracle's 12c cloud database project. Charles holds a Master's degree in Computer Science from the University of Wisconsin-Madison.`,
+  },
+  {
+    name: 'Philip Rathle',
+    job: 'CTO',
+    tip: 'Neo4j',
+    image: philip,
+    linkedin: 'https://www.linkedin.com/in/prathle/',
+    twitter: 'https://twitter.com/prathle',
+    website: 'https://board.fastcompany.com/profile/Philip-Rathle-CTO-Neo4j/833d03ca-d8dd-42a2-a4c0-6cc3baef452d',
+    detail: philip2,
+    description: `Philip Rathle is CTO of Neo4j, the graph database and analytics leader that enabled the ICIJ to crack the Panama Papers, and NASA to get to Mars two years faster. Neo4j enables thousands of organizations worldwide-- including most of the Fortune 500-- to solve their most pressing & valuable problems through the power of the connections in data. Neo4j has raised a total funding of $581M over 9 rounds from 21 investors, leading the Company's valuation to over $2 billion`,
   },
   {
     name: 'Rochelle Mattern',
@@ -544,6 +585,18 @@ const speaker = [
     description: `Gerald is the Lead GTM for Sana AI. Prior to joining Sana Gerald led over 25 investments for Global Founders Capital and sat on numerous boards. Throughout his career he has also worked at Bain & Co and Morgan Stanley, after having graduated from the Wharton School at the University of Pennsylvania. Sana has raised over $80mn in venture funding and through Sana AI enterprise employees can easily access all their company data. The Knowledge Assistant includes chat, search, a meeting notetaker and workflow automation via AI agents.`,
   },
   {
+    name: 'Jim Palmer',
+    job: 'Chief AI Officer',
+    tip: 'Dialpad',
+    image: jimpalmer,
+    website: 'https://www.dialpad.com/leadership/',
+    linkedin: 'https://www.linkedin.com/in/jimbob/',
+    twitter: '',
+    detail: jimpalmer2,
+    description: `Jim Palmer is a startup founder with experience as a first engineer, team builder, and sustainer. He has worked as an engineer and manager at public companies, with expertise in backend, frontend, full-stack engineering, DevOps, and managing teams focused on NLP, ASR, data engineering, and various AI initiatives. Jim has a strong track record of building and leading engineering teams, and he has a passion for building products that solve real-world problems.`,
+  },
+  /*
+  {
     name: 'Craig Walker',
     job: 'CEO & Founder',
     tip: 'Dialpad',
@@ -554,6 +607,7 @@ const speaker = [
     detail: craig2,
     description: `Craig Walker, founder and CEO of Dialpad, formerly led GrandCentral Communications (now Google Voice) and was Senior Director of VoIP at Yahoo! Dialpad, an AI-powered platform, offers solutions like AI Sales and AI Voice for over 30,000 brands, including WeWork and Uber, enhancing productivity and customer satisfaction. Backed by investors like Andreessen Horowitz and Softbank, Dialpad has secured $450M in funding.`,
   },
+  */
   {
     name: 'Dr. Shiv Rao',
     job: 'Co-Founder & CEO',
@@ -652,17 +706,6 @@ const speaker = [
     twitter: 'https://twitter.com/yaronsinger?lang=en',
     detail: yaron2,
     description: `Dr. Yaron Singer is the CEO at Robust Intelligence. He was a tenure Professor of Computer Science at Harvard University and ex Google AI. He holds a PhD from UC Berkeley and BS from Tel Aviv University. Robust Intelligence is building the AI Firewall, a piece of software that wraps around an AI model to protect it from making mistakes. It has raised more than 45 million VC funds.`,
-  },
-  {
-    name: 'Dr. Muddu Sudhakar',
-    job: 'Co-Founder & CEO',
-    tip: 'Aisera',
-    image: muddu,
-    website: 'https://aisera.com/company/',
-    linkedin: 'https://www.linkedin.com/in/muddusudhakar/',
-    twitter: 'https://twitter.com/smuddu?lang=en',
-    detail: muddu2,
-    description: `Dr. Muddu Sudhakar, a Silicon Valley entrepreneur and EY Entrepreneur of the Year 2023, has founded several AI companies acquired by major firms like EMC, ServiceNow, and Splunk. His company Aisera is among America's fastest-growing, serving over 100 million users at F1000 companies. He holds a Ph.D. from UCLA and owns over 40 patents.`,
   },
 
   {
@@ -787,6 +830,17 @@ const speaker = [
     twitter: 'https://twitter.com/worldcoin',
     linkedin: 'https://www.linkedin.com/company/worldcoinfoundation/',
     detail: worldcoin2,
+  },
+  {
+    name: 'Arun Raman',
+    job: 'Deep Learning Solutions Architect',
+    tip: 'NVIDIA',
+    image: arunraman,
+    website: 'https://developer.nvidia.com/blog/author/arunraman/',
+    twitter: '',
+    linkedin: 'https://www.linkedin.com/in/arunsraman/',
+    detail: arunraman2,
+    description: `Arun Raman is an AI solution architect at NVIDIA, adept at navigating the intricate challenges of deploying AI applications across edge, cloud, and on-premises environments within the consumer Internet industry. In his current role, he works on the design of end-to-end accelerated AI pipelines, for consumer internet customers meticulously addressing preprocessing, training, and inference optimizations. His experience extends beyond AI, having worked with distributed systems and multi-cloud infrastructure. He shares practical strategies and real-world experiences, empowering organizations to leverage AI effectively.`,
   },
   {
     name: 'Lance Martin',
@@ -932,6 +986,17 @@ const speaker = [
     description: `Dr. Irene Huang is the Senior Director of Wellness + Resiliency at TaskUs, a company specializing in customer experience and digital outsourcing solutions. A trained clinical psychologist and data scientist, Dr. Huang applies her expertise in mixed-method research to enhance strategic business decisions. TaskUs, a leader in the tech industry, has successfully raised a total of $279 million, underscoring its commitment to innovation and quality.`,
   },
  
+  {
+    name: 'Neal Vaidya',
+    job: 'Technical Marketing Engineer',
+    tip: 'NVIDIA',
+    image: nealvaidya,
+    website: 'https://developer.nvidia.com/blog/author/nealv/',
+    twitter: 'https://x.com/nealvaidya?lang=en',
+    linkedin: 'https://www.linkedin.com/in/neal-vaidya/',
+    detail: nealvaidya2,
+    description: `Neal Vaidya is a developer advocate for deep learning software at NVIDIA. He is responsible for developing and presenting developer-focused content on deep learning frameworks and inference solutions. He holds a bachelor's degree in statistics from Duke University.`,
+  },
   {
     name: 'Emrah Gultekin',
     job: 'Chairman & Co-Founder',
@@ -1175,6 +1240,17 @@ const speaker = [
     description: `Joona leads development at Layer AI, focusing on compliant gen-AI for game studios. Previously a Principal Engineer at Unity, he launched Unity Cloud and Gaming Services. Joona, a former entrepreneur and professional athlete, now helps game developers enhance art pipelines, scale content, and cut production time.`,
   },
   {
+    name: 'Nik Spirin',
+    job: 'Director for GenAI/LLMOps',
+    tip: 'NVIDIA',
+    image: nikspirin,
+    website: 'https://developer.nvidia.com/blog/author/nspirin/',
+    twitter: 'https://x.com/spirinus?lang=en',
+    linkedin: 'https://www.linkedin.com/in/nikitavspirin/',
+    detail: nikspirin2,
+    description: `Nik Spirin is a director for GenAI/LLMOps at NVIDIA. He leads the development of tools and workflows to enable end-to-end GenAI/LLM lifecycles, including model training, evaluation, and optimization, among others. He has 15+ years of experience working on AI/ML as a researcher, engineer, product manager, and founder. He holds a CS PhD degree from the University of Illinois at Urbana-Champaign.`,
+  },
+  {
     name: 'Kathryn Wu',
     job: 'Co-Founder',
     tip: 'Openmart',
@@ -1415,6 +1491,17 @@ const speaker = [
     linkedin: 'https://www.linkedin.com/in/hamzafarooq/',
     detail: hamzafarooq2,
     description: `Hamza Farooq is a founder and professor working in the realm of NLP and multi-modal systems. He co-created Traversaal.ai, a company providing scalable LLM products for enterprises. Farooq has over 15 years of experience leading data science and machine learning teams across various industries and regions. He is an adjunct professor at Stanford and UCLA, teaching courses on large language models and their applications. Farooq is also a frequent speaker at AI conferences and holds a patent related to retail product management.`,
+  },
+  {
+    name: 'Yangxin Chen',
+    job: 'Chief AI Official',
+    tip: '1Gen Labs',
+    image: yangxinchen,
+    website: '',
+    twitter: '',
+    linkedin: '',
+    detail: yangxinchen2,
+    description: `Yangxin Chen is the Chief AI Official of 1Gen Labs. He has a MS from the University of California, Berkeley. He has worked in Apple, leading the development of iPhone 4 as PD. Chen is a celebrated digital artist whose high-value artworks have been exhibited in influential art shows and collected by renowned collectors. 1Gen is building an anime multimodal LLM with top rank in Civitai.`,
   },
 ];
 

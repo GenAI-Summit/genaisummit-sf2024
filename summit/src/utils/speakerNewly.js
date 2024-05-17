@@ -4,7 +4,6 @@ import jimfan from '../assets/images/speakers/jim_fan.jpeg';
 import bob from '../assets/images/speakers/bob.jpg';
 import deon from '../assets/images/speakers/deon.jpg';
 import devendra from '../assets/images/speakers/devendra.jpg';
-import craig from '../assets/images/speakers/craig.jpg';
 import yaron from '../assets/images/speakers/yaron.jpg';
 import yohei from '../assets/images/speakers/yohei.png';
 import kevin from '../assets/images/speakers/kevin.jpg';
@@ -59,7 +58,6 @@ import jimfan2 from '../assets/images/speakers/popup/jimfan.png';
 import bob2 from '../assets/images/speakers/popup/bob.png';
 import deon2 from '../assets/images/speakers/popup/deon.png';
 import devendra2 from '../assets/images/speakers/popup/devendra.png';
-import craig2 from '../assets/images/speakers/popup/craig.png';
 import yaron2 from '../assets/images/speakers/popup/yaron.png';
 import yohei2 from '../assets/images/speakers/popup/yohei.png';
 import kevin2 from '../assets/images/speakers/popup/kevin.png';
@@ -606,17 +604,6 @@ const speakerNewly = [
     linkedin: 'https://www.linkedin.com/in/jakeheller/',
     detail: jake2,
     description: `Jake Heller, J.D., CEO of Casetext, a legal tech company, is a Stanford Law School graduate and former president of the Stanford Law Review. Casetext, known for leveraging AI and natural language processing to assist lawyers in research, attracted partners like Salesforce and Google Cloud, plus Fortune 500 clients. Recently acquired by Thomson Reuters for $650 million, Casetext had previously raised a $100 million Series B round led by Thomson Reuters, valuing the company at $1 billion, bringing total funding to $165 million.`,
-  },
-  {
-    name: 'Craig Walker',
-    job: 'CEO & Founder',
-    tip: 'Dialpad',
-    image: craig,
-    website: '',
-    linkedin: 'https://www.linkedin.com/in/cwalker123/',
-    twitter: 'https://twitter.com/cwalker123?lang=en',
-    detail: craig2,
-    description: `Craig Walker, founder and CEO of Dialpad, formerly led GrandCentral Communications (now Google Voice) and was Senior Director of VoIP at Yahoo! Dialpad, an AI-powered platform, offers solutions like AI Sales and AI Voice for over 30,000 brands, including WeWork and Uber, enhancing productivity and customer satisfaction. Backed by investors like Andreessen Horowitz and Softbank, Dialpad has secured $450M in funding.`,
   },
   {
     name: 'Yaron Singer',

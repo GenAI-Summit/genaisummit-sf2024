@@ -108,6 +108,7 @@ import andyhock from '../assets/images/speakers/andyhock.jpg';
 import sunnyrochiramani from '../assets/images/speakers/sunnyrochiramani.jpg';
 import shawnflynn from '../assets/images/speakers/shawnflynn.jpg';
 import jiaruiliu from '../assets/images/speakers/jiaruiliu.jpg';
+import hamzafarooq from '../assets/images/speakers/hamzafarooq.jpg';
 
 
 
@@ -166,7 +167,7 @@ import amr2 from '../assets/images/speakers/popup/amr.png';
 import ramsriharsha2 from '../assets/images/speakers/popup/ramsriharsha2.png';
 import eddieaftandilian2 from '../assets/images/speakers/popup/eddieaftandilian2.png';
 import shah2 from '../assets/images/speakers/popup/shah.png';
-import lijia2 from '../assets/images/speakers/popup/lijia.png';
+import lijia2 from '../assets/images/speakers/popup/lijia2.png';
 import fiona2 from '../assets/images/speakers/popup/fiona.png';
 import ambati2 from '../assets/images/speakers/popup/ambati.png';
 import philip2 from '../assets/images/speakers/popup/philip.png';
@@ -221,6 +222,7 @@ import andyhock2 from '../assets/images/speakers/popup/andyhock2.png';
 import sunnyrochiramani2 from '../assets/images/speakers/popup/sunnyrochiramani2.png';
 import shawnflynn2 from '../assets/images/speakers/popup/shawnflynn2.png';
 import jiaruiliu2 from '../assets/images/speakers/popup/jiaruiliu2.png';
+import hamzafarooq2 from '../assets/images/speakers/popup/hamzafarooq2.png';
 
 
 
@@ -417,7 +419,7 @@ const speaker = [
     twitter: 'https://twitter.com/lijiali_vision',
     linkedin: 'https://www.linkedin.com/in/lijiali/',
     detail: lijia2,
-    description: `Jia is the Co-Founder and President of LiveX AI, with roles including IEEE Fellow for AI leadership, co-instructor of Stanford's Generative AI and Medicine course, and past Global Head of R&D at Google Cloud AI. LiveX AI is an AI sales and support assistant that leverages advanced machine learning algorithms to interact with customers with the tone and knowledge of one of your most effective and efficient employees.`,
+    description: `Jia is the Co-Founder and President of LiveX AI, with roles including IEEE Fellow for AI leadership, co-instructor of Stanford's Generative AI and Medicine course. LiveX AI is a cutting-edge AI Agent, poised to act as a digital extension of your business—your AI Assistant—enhancing customer engagement, support, and sales operations. It uses advanced AI to deliver human-like interactions that mirror your brand’s voice and tone across all forms of communication, including text, email, and voice, whether through the web or smartphones. Businesses that integrate LiveX AI can quickly experience a host of benefits: increased sales, reduced returns, happier customers, and richer insights from customer data.`,
   },
   {
     name: 'Philip Rathle',
@@ -1402,6 +1404,17 @@ const speaker = [
     linkedin: 'https://www.linkedin.com/in/jiarui-liu-b117468/',
     detail: jiaruiliu2,
     description: `Dr. Jiarui Liu, is a fellow at Stanford Law School's Center for Internet and Society and a former director of IP programs at the University of San Francisco School of Law. He has published over 40 articles in prestigious law reviews and is regularly invited by the U.S. Copyright Office, USPTO, and foreign governments as a speaker. Liu has worked for top law firms like Baker McKenzie and Jones Day, representing major companies in high-profile IP cases and negotiations.`,
+  },
+  {
+    name: 'Prof. Hamza Farooq',
+    job: 'Founder',
+    tip: 'traversaal.ai',
+    image: hamzafarooq,
+    website: '',
+    twitter: '',
+    linkedin: 'https://www.linkedin.com/in/hamzafarooq/',
+    detail: hamzafarooq2,
+    description: `Hamza Farooq is a founder and professor working in the realm of NLP and multi-modal systems. He co-created Traversaal.ai, a company providing scalable LLM products for enterprises. Farooq has over 15 years of experience leading data science and machine learning teams across various industries and regions. He is an adjunct professor at Stanford and UCLA, teaching courses on large language models and their applications. Farooq is also a frequent speaker at AI conferences and holds a patent related to retail product management.`,
   },
 ];
 

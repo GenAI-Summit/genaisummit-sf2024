@@ -54,10 +54,30 @@
           <div
             class="nav-link"
             :to="null"
+            @click="scrollToSection('section6')"
+            :class="{ active: activeSection === 'section6' }"
+          >
+            K12 AI INITIATIVE
+          </div>
+        </li>
+        <li v-if="screenWidth > 900">
+          <div
+            class="nav-link"
+            :to="null"
+            @click="scrollToSection('section3')"
+            :class="{ active: activeSection === 'section3' }"
+          >
+            EXHIBITION
+          </div>
+        </li>
+        <li v-if="screenWidth > 900">
+          <div
+            class="nav-link"
+            :to="null"
             @click="scrollToSection('section4')"
             :class="{ active: activeSection === 'section4' }"
           >
-            SCHEDULE
+            AGENDA
           </div>
         </li>
         <li v-if="screenWidth > 900">
@@ -111,15 +131,19 @@ export default {
       section1: "HOME",
       section2: "SPEAKERS",
       sponsor_section: "SPONSORS",
-      section4: "SCHEDULE",
+      section3: "EXHIBITION",
+      section4: "AGENDA",
       section5: "WORKSHOPS",
+      section6: "K12 INITIATIVE",
     };
     const linkList = {
       HOME: "section1",
       SPEAKERS: "section2",
       SPONSORS: "sponsor_section",
       WORKSHOPS: "workshop_section",
-      SCHEDULE: "section4",
+      EXHIBITION: "section3",
+      AGENDA: "section4",
+      "K12 INITIATIVE": "section6",
     };
     const store = useStore();
 
@@ -142,7 +166,7 @@ export default {
       const discount = route.query.discount || getLocationParame();
       const coupon = route.query.coupon || getLocationParame1();
       const section = document.getElementById(sectionId);
-      console.log(section);
+      // console.log(section);
       let newHash = ''
       if(discount){
         newHash = `?section=` + sectionList[sectionId] + `&discount=` + discount
@@ -252,24 +276,24 @@ export default {
   width: 100%;
   margin: 0 auto;
   max-width: 1500px;
-  padding: 0 0.5rem;
+  padding: 0 0.12rem;
   .logo-content {
     display: flex;
     align-items: center;
   }
   .logo2 {
     img {
-      width: 1rem;
+      width: 0.8rem;
     }
   }
   .logo3 {
     img {
-      width: 5rem;
+      width: 4rem;
     }
   }
   .logo {
     img {
-      width: 3rem;
+      width: .25rem;
     }
   }
   .text {
@@ -278,18 +302,19 @@ export default {
   }
 
   .nav-list {
+    padding: 0;
     ul {
       display: flex;
       align-items: center;
+      padding-inline-start: 0.2rem;
       li {
         list-style: none;
-        margin-left: 0.6rem;
+        margin-left: 0.2rem;
         &.li-box {
           position: relative;
           &:hover{
             .buy-listBox{
               display: block;
-             
             }
             button{
               &::before {
@@ -341,7 +366,7 @@ export default {
           text-decoration: none;
           font-family: HarmonyOS Sans SC Bold;
           font-weight: 400;
-          font-size: 0.259rem;
+          font-size: 0.25rem;
           color: #78808f;
           text-align: left;
           font-style: normal;

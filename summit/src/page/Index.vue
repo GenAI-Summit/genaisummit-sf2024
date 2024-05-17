@@ -2287,7 +2287,7 @@ section {
   padding: 0 0.5rem;
 }
 #section1 {
-  padding: calc(1.1rem + 80px) 0 1.1rem;
+  padding: calc(1.1rem + 80px) 0 3.3rem;
   position: relative;
   overflow: hidden;
   height: calc(75vh);
@@ -3607,7 +3607,7 @@ section {
 .dialog {
   top: 0;
   left: 0;
-  z-index: 9999;
+  z-index: 9000;
   position: fixed;
   width: 100vw;
   height: 100vh;

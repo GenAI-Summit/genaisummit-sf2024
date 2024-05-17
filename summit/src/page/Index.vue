@@ -2438,11 +2438,11 @@ section {
           z-index: 9000;
           display: none;
           .list {
+            position: relative;
+            margin-top: 0.08rem;
             width: 100%;
             text-align: center;
-            padding: 0.1rem 0;
             border: 1px solid transparent;
-            margin: 0 auto;
             border-radius: 100px;
             &:hover {
               border: 1px solid #000000;
@@ -2450,17 +2450,17 @@ section {
           }
           img {
             &.luma {
-              width: 60%;
+              width: 72%;
             }
             &.event {
               padding: 0.1rem;
-              width: 65%;
+              width: 95%;
             }
             &.discount {
-              width: 55%;
+              width: 70%;
               position: absolute;
-              top: -0.22rem;
-              left: 1.2rem;
+              top: -0.44rem;
+              left: 1rem;
             }
           }
         }
@@ -3538,11 +3538,12 @@ section {
     z-index: 9000;
     display: none;
     .list {
+      position: relative;
+      margin-top: 0.1rem;
       width: 100%;
       text-align: center;
       padding: 0.1rem 0;
       border: 1px solid transparent;
-      margin: 0 auto;
       border-radius: 100px;
       &:hover {
         border: 1px solid #000000;
@@ -3669,7 +3670,7 @@ section {
       font-size: 0.4444rem;
       -webkit-box-sizing: border-box;
       box-sizing: border-box;
-      line-height: 1.5rem;
+      /*line-height: 1.5rem;*/
       width: 100%;
       height: 1.5rem;
 
@@ -3692,6 +3693,7 @@ section {
           }
         }
         .buy-listBox {
+          padding: 10px;
           cursor: pointer;
           position: absolute;
           width: 100%;
@@ -3703,10 +3705,11 @@ section {
           z-index: 9000;
           display: none;
           .list {
+            position: relative;
+            margin-bottom: 0.2rem;
             width: 100%;
             text-align: center;
             border: 1px solid transparent;
-            margin: 0;
             border-radius: 100px;
             &:hover {
               border: 1px solid #000000;
@@ -3721,10 +3724,10 @@ section {
               width: 85%;
             }
             &.discount {
-              width: 65%;
               position: absolute;
-              top: -0.28rem;
-              left: 0.95rem;
+              width: 70%;
+              top: -0.75rem;
+              left: 1.5rem;
             }
           }
         }

@@ -309,31 +309,32 @@ export default {
             top: 0.9rem;
             z-index: 9000;
             display: none;
-            .list{
-                width: 100%;
-                text-align: center;
-                border: 1px solid transparent;
-                margin: 0 auto;
-                border-radius: 100px;
-                &:hover{
-                  border: 1px solid #000000;
-                }
+            .list {
+              position: relative;
+              margin-top: 0.12rem;
+              width: 100%;
+              text-align: center;
+              border: 1px solid transparent;
+              border-radius: 100px;
+              &:hover{
+                border: 1px solid #000000;
               }
-              img{
-                &.luma {
-                  width: 70%;
-                }
-                &.event {
-                  padding: 0.1rem;
-                  width: 95%;
-                }
-                &.discount {
-                  width: 65%;
-                  position: absolute;
-                  top: -0.28rem;
-                  left: 0.95rem;
-                }
-              };
+            }
+            img{
+              &.luma {
+                width: 72%;
+              }
+              &.event {
+                padding: 0.1rem;
+                width: 95%;
+              }
+              &.discount {
+                width: 70%;
+                position: absolute;
+                top: -0.44rem;
+                left: 1rem;
+              }
+            };
           }
         }
         .nav-link {

@@ -269,7 +269,7 @@ export default {
             <br/><br/><br/>
           8. Panel Discussion 15:15-16:00: How does LLM Helps to Preserve Minority Culture
             <br/><br/>&nbsp&nbsp 
-            - (Artur Kiulian, Founder @Radical Philanthropies, Moderator) | (Dinesh Maheshwari, Chief Technology Advisor @Groq) | (Bryan McCann, CTO & Co-Founder @You.com) | (Stan Lee, CTO & Co-Founder @Upstage) | (Devendra Chaplot, AI Research Scientist @Mistral AI)
+            - (Artur Kiulian, Founder @Radical Philanthropies, Moderator) | (Dinesh Maheshwari, Humanist Entrepreneur, Startup Advisor, Chief Technology Advisor @Groq) | (Bryan McCann, CTO & Co-Founder @You.com) | (Stan Lee, CTO & Co-Founder @Upstage) | (Devendra Chaplot, AI Research Scientist @Mistral AI)
             <br/><br/><br/>
           9. Panel Discussion 16:00-16:45: Building a Brain for the Copilot: How Infrastructure Enables Powerful GenAI Assistants
             <br/><br/>&nbsp&nbsp 

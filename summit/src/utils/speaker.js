@@ -41,7 +41,6 @@ import tomlee from '../assets/images/speakers/tomlee.png';
 import yanivmakover from '../assets/images/speakers/yanivmakover.jpg';
 import moody from '../assets/images/speakers/moody.png';
 import josh from '../assets/images/speakers/josh.png';
-import shiv from '../assets/images/speakers/shiv.png';
 import rob from '../assets/images/speakers/rob.png';
 import emrah from '../assets/images/speakers/emrah.png';
 import yashar from '../assets/images/speakers/yashar.png';
@@ -175,7 +174,6 @@ import tomlee2 from '../assets/images/speakers/popup/tomlee.png';
 import yanivmakover2 from '../assets/images/speakers/popup/yanivmakover2.png';
 import moody2 from '../assets/images/speakers/popup/moody.png';
 import josh2 from '../assets/images/speakers/popup/josh.png';
-import shiv2 from '../assets/images/speakers/popup/shiv.png';
 import rob2 from '../assets/images/speakers/popup/rob.png';
 import emrah2 from '../assets/images/speakers/popup/emrah.png';
 import yashar2 from '../assets/images/speakers/popup/yashar.png';
@@ -628,15 +626,15 @@ const speaker = [
   },
   */
   {
-    name: 'Dr. Shiv Rao',
-    job: 'Co-Founder & CEO',
+    name: 'Zachary Lipton',
+    job: 'CTO & CSO',
     tip: 'Abridge',
-    image: shiv,
-    website: 'https://www.abridge.com/author/shiv-rao',
-    linkedin: 'https://www.linkedin.com/in/shivdevrao/',
-    twitter: 'https://twitter.com/ShivdevRao',
-    detail: shiv2,
-    description: `Abridge was founded in 2018, co-founded by Dr. Shiv Rao, aims to transform healthcare with its AI platform by converting doctor-patient dialogues into structured clinical notes, allowing doctors to focus more on patient care. The company, which competes with medical systems like Epic, has raised over $180 million to expand its AI medical solutions in U.S. healthcare systems, enhancing efficiency in clinical documentation and reducing doctors' administrative tasks.`,
+    image: zacharylipton,
+    website: 'https://www.approximatelycorrect.com/author/zack/',
+    twitter: 'https://x.com/zacharylipton',
+    linkedin: 'https://www.linkedin.com/in/zacharylipton/',
+    detail: zacharylipton2,
+    description: `Zachary Lipton is an Assistant Professor of Machine Learning at Carnegie Mellon University and the Chief Scientific Officer at Abridge. He leads the Approximately Correct Machine Intelligence (ACMI) lab, focusing on robust and adaptive machine learning algorithms, applications in clinical medicine and NLP, and the societal impact of ML systems. Lipton co-authored the interactive book "Dive into Deep Learning" and founded the blog "Approximately Correct".`,
   },
   {
     name: 'Dr. Darko Matovski',
@@ -1620,17 +1618,6 @@ const speaker = [
     linkedin: 'https://www.linkedin.com/in/siqilin/',
     detail: siqilin2,
     description: `Siqi Lin is the Head of Campaign at Cresta, a Stanford-based AI company. She is a Stanford Fellowship recipient and has expertise in strategic marketing campaigns. Lin's professional experience spans across various roles, showcasing her versatility and leadership skills in driving impactful initiatives.`,
-  },
-  {
-    name: 'Zachary Lipton',
-    job: 'CTO & CSO',
-    tip: 'Abridge',
-    image: zacharylipton,
-    website: 'https://www.approximatelycorrect.com/author/zack/',
-    twitter: 'https://x.com/zacharylipton',
-    linkedin: 'https://www.linkedin.com/in/zacharylipton/',
-    detail: zacharylipton2,
-    description: `Zachary Lipton is an Assistant Professor of Machine Learning at Carnegie Mellon University and the Chief Scientific Officer at Abridge. He leads the Approximately Correct Machine Intelligence (ACMI) lab, focusing on robust and adaptive machine learning algorithms, applications in clinical medicine and NLP, and the societal impact of ML systems. Lipton co-authored the interactive book "Dive into Deep Learning" and founded the blog "Approximately Correct".`,
   },
   {
     name: 'Jose Sotelo',

@@ -20,7 +20,6 @@ import jain from '../assets/images/speakers/jain.png';
 import yanivmakover from '../assets/images/speakers/yanivmakover.jpg';
 import moody from '../assets/images/speakers/moody.png';
 import josh from '../assets/images/speakers/josh.png';
-import shiv from '../assets/images/speakers/shiv.png';
 import rob from '../assets/images/speakers/rob.png';
 import emrah from '../assets/images/speakers/emrah.png';
 import yashar from '../assets/images/speakers/yashar.png';
@@ -74,7 +73,6 @@ import jain2 from '../assets/images/speakers/popup/jain.png';
 import yanivmakover2 from '../assets/images/speakers/popup/yanivmakover2.png';
 import moody2 from '../assets/images/speakers/popup/moody.png';
 import josh2 from '../assets/images/speakers/popup/josh.png';
-import shiv2 from '../assets/images/speakers/popup/shiv.png';
 import rob2 from '../assets/images/speakers/popup/rob.png';
 import emrah2 from '../assets/images/speakers/popup/emrah.png';
 import yashar2 from '../assets/images/speakers/popup/yashar.png';
@@ -427,17 +425,6 @@ const speakerNewly = [
     linkedin: 'https://www.linkedin.com/in/robmeadows/',
     detail: rob2,
     description: `AI Foundation, founded in 2017, focuses on advancing society with personalized AI, ensuring AI is used safely and responsibly. Co-founded by Rob Meadows, a former researcher at OpenAI and tech startup advisor and CTO, the company aims to create intelligent agents to enhance human-AI interaction. Under Rob Meadows' leadership, AI Foundation strives to be a pioneer in the AI space, leveraging his expertise in artificial intelligence.`,
-  },
-  {
-    name: 'Dr. Shiv Rao',
-    job: 'Co-Founder & CEO',
-    tip: 'Abridge',
-    image: shiv,
-    website: 'https://www.abridge.com/author/shiv-rao',
-    linkedin: 'https://www.linkedin.com/in/shivdevrao/',
-    twitter: 'https://twitter.com/ShivdevRao',
-    detail: shiv2,
-    description: `Abridge was founded in 2018, co-founded by Dr. Shiv Rao, aims to transform healthcare with its AI platform by converting doctor-patient dialogues into structured clinical notes, allowing doctors to focus more on patient care. The company, which competes with medical systems like Epic, has raised over $180 million to expand its AI medical solutions in U.S. healthcare systems, enhancing efficiency in clinical documentation and reducing doctors' administrative tasks.`,
   },
   {
     name: 'Kevin Moody',

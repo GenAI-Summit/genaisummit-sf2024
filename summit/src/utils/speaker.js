@@ -549,17 +549,6 @@ const speaker = [
     description: `Observe.AI, co-founded by Swapnil Jain, revolutionizes contact centers with AI to enhance agent performance and automate routine tasks. Observe.AI provides a platform for enhancing the performance of contact centers through artificial intelligence, analyzing customer interactions for insights and automation of workflows to improve service efficiency and effectiveness. The company has successfully raised $213 million.`,
   },
   {
-    name: 'Charles Xie',
-    job: 'Founder & CEO',
-    tip: 'Zilliz',
-    image: charlesxie,
-    website: '',
-    linkedin: 'https://www.linkedin.com/in/chaoxie/',
-    twitter: 'https://twitter.com/starlordxie',
-    detail: charlesxie2,
-    description: `Charles Xie is the founder and CEO of Zilliz, a company dedicated to developing a cutting-edge unstructured data platform for AI applications. He is the creator of Milvus, a leading open-source vector database that is used by over 5,000 enterprises worldwide. In addition to his role at Zilliz, Charles has been actively involved with the LF AI & Data Foundation, serving as a board member and as the chairperson from 2020 to 2021. Before founding Zilliz, he was one of the founding engineers behind Oracle's 12c cloud database project. Charles holds a Master's degree in Computer Science from the University of Wisconsin-Madison.`,
-  },
-  {
     name: 'Philip Rathle',
     job: 'CTO',
     tip: 'Neo4j',
@@ -1117,7 +1106,7 @@ const speaker = [
   },
   {
     name: 'Dinesh Maheshwari',
-    job: 'Chief Technology Advisor',
+    job: 'Humanist Entrepreneur, Startup Advisor, Chief Technology Advisor',
     tip: 'Groq',
     image: dineshmaheshwari,
     website: '',

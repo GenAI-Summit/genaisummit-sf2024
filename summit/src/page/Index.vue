@@ -1673,6 +1673,10 @@ export default {
         url: "../assets/images/diam.png",
       },
       {
+        img: new URL(`../assets/images/sponsors/amazon.png`, import.meta.url).href,
+        url: "https://www.amazon.com/",
+      },
+      {
         img: new URL(`../assets/images/sponsors/IBM2.jpg`, import.meta.url).href,
         url: "https://www.ibm.com/us-en",
       },
@@ -1864,6 +1868,13 @@ export default {
       },
       {
         img: new URL(
+          `../assets/images/sponsors/privacera.png`,
+          import.meta.url
+        ).href,
+        url: "https://privacera.com/",
+      },
+      {
+        img: new URL(
           `../assets/images/sponsors/gradient.png`,
           import.meta.url
         ).href,
@@ -1900,6 +1911,16 @@ export default {
         img: new URL(`../assets/images/sponsors/ivymax.png`, import.meta.url)
           .href,
         url: "https://www.ivymax.com/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/atlas.png`, import.meta.url)
+          .href,
+        url: "https://joinatlas.ai/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/moveworks.png`, import.meta.url)
+          .href,
+        url: "https://www.moveworks.com/",
       },
       {
         img: new URL(
@@ -1948,6 +1969,11 @@ export default {
         img: new URL(`../assets/images/sponsors/koyeb.png`, import.meta.url)
           .href,
         url: "https://www.koyeb.com/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/motivitylabs.png`, import.meta.url)
+          .href,
+        url: "https://motivitylabs.com/",
       },
 
       {

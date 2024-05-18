@@ -326,12 +326,13 @@ export default {
             padding: 10px;
             cursor: pointer;
             position: absolute;
-            width: 100%;
+            top: 1rem;
+            left: -1.2rem;
+            width: 4rem;
             background: rgba(255, 255, 255, 1);
             border: 1px solid rgba(0, 0, 0, 0.15);
             box-shadow: 0px 4px 20px -6px rgba(0, 0, 0, 0.15) !important;
             border-radius: 13px 13px 13px 13px;
-            top: 0.9rem;
             z-index: 9000;
             display: none;
             .list {
@@ -354,10 +355,10 @@ export default {
                 width: 95%;
               }
               &.discount {
-                width: 70%;
+                width: 80%;
                 position: absolute;
-                top: -0.44rem;
-                left: 1rem;
+                top: -0.7rem;
+                left: 0.95rem;
               }
             };
           }

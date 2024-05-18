@@ -612,15 +612,15 @@
               class="list"
               @click="openUrl('https://sambanova.ai/')"
             >
-              <img class="d" src="../assets/images/sponsors/samba.png" alt="" loading="lazy" />
-              <img class="a" src="../assets/images/sponsors/samba.png" alt="" loading="lazy" />
+              <img class="d" src="../assets/images/sponsors/IBM2.jpg" alt="" loading="lazy" />
+              <img class="a" src="../assets/images/sponsors/IBM2.jpg" alt="" loading="lazy" />
             </div>
             <div
               class="list"
               @click="openUrl('https://zilliz.com/')"
             >
-              <img class="d" src="../assets/images/sponsors/zilliz.png" alt="" loading="lazy" />
-              <img class="a" src="../assets/images/sponsors/zilliz.png" alt="" loading="lazy" />
+              <img class="d" src="../assets/images/sponsors/samba.png" alt="" loading="lazy" />
+              <img class="a" src="../assets/images/sponsors/samba.png" alt="" loading="lazy" />
             </div>
           </div>
         </div>
@@ -636,17 +636,58 @@
               class="list"
               @click="openUrl('https://otter.ai/')"
             >
-              <img class="d" src="../assets/images/sponsors/otter.png" alt="" loading="lazy" />
-              <img class="a" src="../assets/images/sponsors/otter.png" alt="" loading="lazy" />
+              <img class="d" src="../assets/images/sponsors/zilliz.png" alt="" loading="lazy" />
+              <img class="a" src="../assets/images/sponsors/zilliz.png" alt="" loading="lazy" />
               
             </div>
             <div
               class="list"
             >
-              <img class="d" src="../assets/images/sponsors/jobfair.png" alt="" loading="lazy" />
-              <img class="a" src="../assets/images/sponsors/jobfair.png" alt="" loading="lazy" />
+              <img class="d" src="../assets/images/sponsors/otter.png" alt="" loading="lazy" />
+              <img class="a" src="../assets/images/sponsors/otter.png" alt="" loading="lazy" />
             </div>
 
+            
+          </div>
+        </div>
+
+        <div class="office_content">
+          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+            
+            <!-- <div class="list" @click="openUrl('https://cloud.google.com/')">
+              <img class="d" src="../assets/images/ico_logo_g2.png" alt="" />
+              <img class="a" src="../assets/images/ico_logo_g1.png" alt="" />
+            </div> -->
+            <div
+              class="list"
+              @click="openUrl('https://otter.ai/')"
+            >
+              <img class="d" src="../assets/images/sponsors/pinecone.png" alt="" loading="lazy" />
+              <img class="a" src="../assets/images/sponsors/pinecone.png" alt="" loading="lazy" />
+              
+            </div>
+            <div
+              class="list"
+            >
+              <img class="d" src="../assets/images/sponsors/ushur.png" alt="" loading="lazy" />
+              <img class="a" src="../assets/images/sponsors/ushur.png" alt="" loading="lazy" />
+            </div>
+
+            
+          </div>
+        </div>
+
+        <div class="office_content">
+          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+            
+            <div
+              class="list"
+              @click="openUrl('https://otter.ai/')"
+            >
+              <img class="d" src="../assets/images/sponsors/jobfair.png" alt="" loading="lazy" />
+              <img class="a" src="../assets/images/sponsors/jobfair.png" alt="" loading="lazy" />
+              
+            </div>
             
           </div>
         </div>

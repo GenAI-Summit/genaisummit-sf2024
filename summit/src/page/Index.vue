@@ -1868,6 +1868,13 @@ export default {
       },
       {
         img: new URL(
+          `../assets/images/sponsors/privacera.png`,
+          import.meta.url
+        ).href,
+        url: "https://privacera.com/",
+      },
+      {
+        img: new URL(
           `../assets/images/sponsors/gradient.png`,
           import.meta.url
         ).href,
@@ -1904,6 +1911,16 @@ export default {
         img: new URL(`../assets/images/sponsors/ivymax.png`, import.meta.url)
           .href,
         url: "https://www.ivymax.com/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/atlas.png`, import.meta.url)
+          .href,
+        url: "https://joinatlas.ai/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/moveworks.png`, import.meta.url)
+          .href,
+        url: "https://www.moveworks.com/",
       },
       {
         img: new URL(
@@ -1991,11 +2008,6 @@ export default {
         img: new URL(`../assets/images/sponsors/ushur.png`, import.meta.url)
           .href,
         url: "https://ushur.com/",
-      },
-      {
-        img: new URL(`../assets/images/sponsors/atlas.png`, import.meta.url)
-          .href,
-        url: "https://joinatlas.ai/",
       },
       {
         img: new URL(`../assets/images/sponsors/livex.png`, import.meta.url)

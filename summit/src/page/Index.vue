@@ -2143,6 +2143,13 @@ export default {
         ).href,
         url: "https://www.arcticeider.ai/",
       },
+      {
+        img: new URL(
+          `../assets/images/sponsors/magikid.png`,
+          import.meta.url
+        ).href,
+        url: "https://magikidlab.com/",
+      },
 
 
     ]);

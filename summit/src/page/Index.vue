@@ -1831,6 +1831,11 @@ export default {
         url: "https://dekube.ai/",
       },
       {
+        img: new URL(`../assets/images/sponsors/digitate.png`, import.meta.url)
+          .href,
+        url: "https://digitate.com/",
+      },
+      {
         img: new URL(`../assets/images/sponsors/magstone.png`, import.meta.url)
           .href,
         url: "https://www.magstonelaw.com/",

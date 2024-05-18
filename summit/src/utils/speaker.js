@@ -114,6 +114,21 @@ import arunraman from '../assets/images/speakers/arunraman.jpg';
 import nealvaidya from '../assets/images/speakers/nealvaidya.jpg';
 import nikspirin from '../assets/images/speakers/nikspirin.jpg';
 import jimpalmer from '../assets/images/speakers/jimpalmer.jpg';
+import bryantalebi from '../assets/images/speakers/bryantalebi.jpg';
+import lindseyspellman from '../assets/images/speakers/lindseyspellman.jpg';
+import xuhuishao from '../assets/images/speakers/xuhuishao.jpg';
+import jeffhennig from '../assets/images/speakers/jeffhennig.jpg';
+import tushargupta from '../assets/images/speakers/tushargupta.jpg';
+import minfawang from '../assets/images/speakers/minfawang.jpg';
+import siqilin from '../assets/images/speakers/siqilin.jpg';
+import ankitjain from '../assets/images/speakers/ankitjain.jpg';
+import nathanlile from '../assets/images/speakers/nathanlile.jpg';
+import zacharylipton from '../assets/images/speakers/zacharylipton.jpg';
+import josesotelo from '../assets/images/speakers/josesotelo.jpg';
+import denisskrinnikoff from '../assets/images/speakers/denisskrinnikoff.jpg';
+import yaodu from '../assets/images/speakers/yaodu.jpg';
+import jenniferlistgarten from '../assets/images/speakers/jenniferlistgarten.jpg';
+import andychen from '../assets/images/speakers/andychen.jpg';
 
 
 
@@ -233,6 +248,21 @@ import arunraman2 from '../assets/images/speakers/popup/arunraman2.png';
 import nealvaidya2 from '../assets/images/speakers/popup/nealvaidya2.png';
 import nikspirin2 from '../assets/images/speakers/popup/nikspirin2.png';
 import jimpalmer2 from '../assets/images/speakers/popup/jimpalmer2.png';
+import bryantalebi2 from '../assets/images/speakers/popup/bryantalebi2.png';
+import lindseyspellman2 from '../assets/images/speakers/popup/lindseyspellman2.png';
+import xuhuishao2 from '../assets/images/speakers/popup/xuhuishao2.png';
+import jeffhennig2 from '../assets/images/speakers/popup/jeffhennig2.png';
+import tushargupta2 from '../assets/images/speakers/popup/tushargupta2.png';
+import minfawang2 from '../assets/images/speakers/popup/minfawang2.png';
+import siqilin2 from '../assets/images/speakers/popup/siqilin2.png';
+import ankitjain2 from '../assets/images/speakers/popup/ankitjain2.png';
+import nathanlile2 from '../assets/images/speakers/popup/nathanlile2.png';
+import zacharylipton2 from '../assets/images/speakers/popup/zacharylipton2.png';
+import josesotelo2 from '../assets/images/speakers/popup/josesotelo2.png';
+import denisskrinnikoff2 from '../assets/images/speakers/popup/denisskrinnikoff2.png';
+import yaodu2 from '../assets/images/speakers/popup/yaodu2.png';
+import jenniferlistgarten2 from '../assets/images/speakers/popup/jenniferlistgarten2.png';
+import andychen2 from '../assets/images/speakers/popup/andychen2.png';
 
 
 
@@ -1502,6 +1532,171 @@ const speaker = [
     linkedin: '',
     detail: yangxinchen2,
     description: `Yangxin Chen is the Chief AI Official of 1Gen Labs. He has a MS from the University of California, Berkeley. He has worked in Apple, leading the development of iPhone 4 as PD. Chen is a celebrated digital artist whose high-value artworks have been exhibited in influential art shows and collected by renowned collectors. 1Gen is building an anime multimodal LLM with top rank in Civitai.`,
+  },
+  {
+    name: 'Bryan Talebi',
+    job: 'CEO and Co-Founder',
+    tip: 'Ahura AI',
+    image: bryantalebi,
+    website: 'https://ahuraai.com/team/bryan-talebi/',
+    twitter: 'https://x.com/BryanTalebi3D',
+    linkedin: 'https://www.linkedin.com/in/bryantalebi/',
+    detail: bryantalebi2,
+    description: `Bryan Talebi is a data-driven leader dedicated to scaling innovative businesses and empowering salespeople. He has founded, built, or led tech companies with a current valuation over $3.1 billion. Talebi brings expertise in sales, sales management, emerging technology, and execution. He is currently focused on integrating AI to accelerate learning and make quality education more accessible through his company Ahura AI.`,
+  },
+  {
+    name: 'Lindsey Spellman',
+    job: 'Head of Marketing',
+    tip: 'Abridge',
+    image: lindseyspellman,
+    website: '',
+    twitter: '',
+    linkedin: 'https://www.linkedin.com/in/lindseyspellman/',
+    detail: lindseyspellman2,
+    description: `Lindsey Spellman is the head of marketing of Abridge, a company founded in 2018 with the mission of powering deeper understanding in healthcare through AI-powered technology. Abridge's platform transforms medical conversations into structured clinical notes in real-time, with deep EMR integrations. As pioneers in generative AI for healthcare, Abridge is setting industry standards for responsible AI deployment across health systems.`,
+  },
+  {
+    name: 'Xuhui Shao',
+    job: 'Managing Partner',
+    tip: 'Foothill Ventures',
+    image: xuhuishao,
+    website: 'https://www.foothill.ventures/team/xuhui-shao',
+    twitter: 'https://x.com/shaoxuhui',
+    linkedin: 'https://www.linkedin.com/in/xuhuishao/',
+    detail: xuhuishao2,
+    description: `Xuhui Shao is a Managing Partner at Foothill Ventures, focusing on early-stage tech startups in the US. With over seven years in venture capital, Xuhui uses his extensive operating experience and technical expertise to support innovative entrepreneurs shaping the future of technology.`,
+  },
+  {
+    name: 'Jeff Hennig',
+    job: 'Vice President, Corporate Development',
+    tip: 'AMD',
+    image: jeffhennig,
+    website: '',
+    twitter: '',
+    linkedin: 'https://www.linkedin.com/in/jeff-hennig-30b6892/',
+    detail: xuhuishao2,
+    description: `Jeff Hennig is the Vice President of Corporate Development at AMD Ventures, AMD's corporate venture capital arm. He oversees investment strategy, deal sourcing, and portfolio management, focusing on startups in AI, data centers, and emerging technologies that align with AMD's strategic priorities and can drive adoption of their products.`,
+  },
+  {
+    name: 'Tushar Gupta',
+    job: 'Sr. Director',
+    tip: 'AMD',
+    image: tushargupta,
+    website: 'https://www.qualcommventures.com/team/tushar-gupta/',
+    twitter: '',
+    linkedin: 'https://www.linkedin.com/in/tusharg/',
+    detail: tushargupta2,
+    description: `Tushar Gupta is a seasoned venture capital investor at Qualcomm Ventures, specializing in AI, deep tech, frontier tech, and IoT startups. His portfolio includes leading firms like Hugging Face and Weights & Biases. Prior to this role, he held strategic positions at Qualcomm, focusing on smart cameras, machine learning partnerships, and software development.`,
+  },
+  {
+    name: 'Minfa Wang',
+    job: 'Senior Machine Learning Engineer',
+    tip: 'Waymo',
+    image: minfawang,
+    website: '',
+    twitter: '',
+    linkedin: 'https://www.linkedin.com/in/minfa-wang-a2b99095/',
+    detail: minfawang2,
+    description: `Minfa Wang is a Senior Machine Learning Engineer at Waymo, where he leverages advanced ML techniques to enhance autonomous driving technologies. With a deep focus on innovation and safety, Minfa plays a crucial role in developing systems that improve the reliability and efficiency of Waymo's self-driving vehicles.`,
+  },
+  {
+    name: 'Ankit Jain',
+    job: 'Founder & Company Lead',
+    tip: 'Infinitus',
+    image: ankitjain,
+    website: '',
+    twitter: '',
+    linkedin: 'https://www.linkedin.com/in/jainankit/',
+    detail: ankitjain2,
+    description: `Ankit Jain is a seasoned entrepreneur and technology leader. He is the co-founder and CEO of Infinitus Systems, an AI-powered healthcare automation company. Prior to Infinitus, Ankit was a founding partner at Gradient Ventures, Google's AI-focused venture fund, and a director of engineering at Google. He has also co-founded and led other successful startups like Quettra, which was acquired by SimilarWeb, and Cuil, which was acquired by Google. Ankit has extensive experience in areas such as search, mobile analytics, and artificial intelligence.`,
+  },
+  {
+    name: 'Nathan Lile',
+    job: 'Co-Founder & CEO',
+    tip: 'SynthLabs.AI',
+    image: nathanlile,
+    website: '',
+    twitter: 'https://x.com/NathanThinks',
+    linkedin: 'https://www.linkedin.com/in/nathanwangerinlile/',
+    detail: nathanlile2,
+    description: `Nathan Lile is the Co-Founder and CEO of SynthLabs.AI, a startup focused on developing transparent and auditable AI alignment platforms. Prior to SynthLabs, Nathan served as the Chief of Staff at Stability AI, where he led enterprise projects and partnerships. He was also a top-ranked professional swimmer, competing twice in the Olympic Trials, and was the valedictorian of his university.`,
+  },
+  {
+    name: 'Siqi Lin',
+    job: 'Head of Campaign',
+    tip: 'Cresta',
+    image: siqilin,
+    website: '',
+    twitter: '',
+    linkedin: 'https://www.linkedin.com/in/siqilin/',
+    detail: siqilin2,
+    description: `Siqi Lin is the Head of Campaign at Cresta, a Stanford-based AI company. She is a Stanford Fellowship recipient and has expertise in strategic marketing campaigns. Lin's professional experience spans across various roles, showcasing her versatility and leadership skills in driving impactful initiatives.`,
+  },
+  {
+    name: 'Zachary Lipton',
+    job: 'CTO & CSO',
+    tip: 'Abridge',
+    image: zacharylipton,
+    website: 'https://www.approximatelycorrect.com/author/zack/',
+    twitter: 'https://x.com/zacharylipton',
+    linkedin: 'https://www.linkedin.com/in/zacharylipton/',
+    detail: zacharylipton2,
+    description: `Zachary Lipton is an Assistant Professor of Machine Learning at Carnegie Mellon University and the Chief Scientific Officer at Abridge. He leads the Approximately Correct Machine Intelligence (ACMI) lab, focusing on robust and adaptive machine learning algorithms, applications in clinical medicine and NLP, and the societal impact of ML systems. Lipton co-authored the interactive book "Dive into Deep Learning" and founded the blog "Approximately Correct".`,
+  },
+  {
+    name: 'Jose Sotelo',
+    job: 'Senior AI Researcher',
+    tip: 'Descript',
+    image: josesotelo,
+    website: '',
+    twitter: '',
+    linkedin: 'https://www.linkedin.com/in/jose-sotelo-02496a50/',
+    detail: josesotelo2,
+    description: `Jose Sotelo is a Senior AI Researcher at Descript, a company that specializes in AI-powered audio and video editing tools. He has extensive experience in natural language processing, machine learning, and AI research. At Descript, Sotelo leads the development of cutting-edge AI technologies to enhance audio and video editing capabilities, making the process more efficient and user-friendly.`,
+  },
+  {
+    name: 'Denis Skrinnikoff',
+    job: 'CTO',
+    tip: 'Iris Energy',
+    image: denisskrinnikoff,
+    website: '',
+    twitter: '',
+    linkedin: 'https://www.linkedin.com/in/denis-skrinnikoff/',
+    detail: denisskrinnikoff2,
+    description: `Denis Skrinnikoff is a seasoned technologist with over 15 years of experience in the cloud and data center service provider industry. He has an extensive background in networking, enterprise architecture, and operating fiber networks. Skrinnikoff has been involved in designing, constructing, and managing Tier 3 data centers, as well as overseeing acquisitions, mergers, and business units. He previously held senior leadership roles at TeraGo and RackForce Networks.`,
+  },
+  {
+    name: 'Dr. Yao Du',
+    job: 'Clinical Assistant Professor',
+    tip: 'Keck School of Medicine',
+    image: yaodu,
+    website: 'https://keck.usc.edu/faculty-search/yao-du/',
+    twitter: '',
+    linkedin: 'https://www.linkedin.com/in/yaodu/',
+    detail: yaodu2,
+    description: `Dr. Yao Du is a Clinical Assistant Professor at the Keck School of Medicine, University of Southern California, combining expertise in speech-language pathology and user experience research to design and evaluate assistive technology for people with disabilities. With over 10 years of experience in teaching, supervising, and mentoring, she provides consultation to digital health startups and offers online accent coaching and autism parent training services.`,
+  },
+  {
+    name: 'Prof. Jennifer Listgarten',
+    job: 'Professor',
+    tip: 'UC Berkeley',
+    image: jenniferlistgarten,
+    website: 'https://vcresearch.berkeley.edu/faculty/jennifer-listgarten',
+    twitter: 'https://x.com/jlistgarten?lang=en',
+    linkedin: 'https://www.linkedin.com/in/jenniferlistgarten/',
+    detail: jenniferlistgarten2,
+    description: `Jennifer Listgarten is a Professor in UC Berkeley's EECS department and Center for Computational Biology. She has expertise in machine learning, applied statistics, and computational biology, working on methods development and applications to enable insights into biology and medicine. Her research interests include protein design, molecule design, drug discovery, genetic association studies, and machine learning methods at the intersection of graphical models, neural networks, and variational inference.`,
+  },
+  {
+    name: 'Andy Chen',
+    job: 'Expert',
+    tip: 'Primary Venture Partners',
+    image: andychen,
+    website: '',
+    twitter: '',
+    linkedin: 'https://www.linkedin.com/in/andy-chen-md/',
+    detail: andychen2,
+    description: `Andy Huai-Ping Chen is a physician-turned-investment professional at Primary Venture Partners, a healthcare-focused venture capital firm. With a background in medicine and a passion for improving healthcare, Chen leverages his expertise to identify and invest in promising healthcare startups and technologies.`,
   },
 ];
 

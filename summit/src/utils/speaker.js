@@ -555,7 +555,7 @@ const speaker = [
     twitter: 'https://twitter.com/prathle',
     website: 'https://board.fastcompany.com/profile/Philip-Rathle-CTO-Neo4j/833d03ca-d8dd-42a2-a4c0-6cc3baef452d',
     detail: philip2,
-    description: `Philip Rathle is CTO of Neo4j, the graph database and analytics leader that enabled the ICIJ to crack the Panama Papers, and NASA to get to Mars two years faster. Neo4j enables thousands of organizations worldwide-- including most of the Fortune 500-- to solve their most pressing & valuable problems through the power of the connections in data. Neo4j has raised a total funding of $581M over 9 rounds from 21 investors, leading the Company's valuation to over $2 billion`,
+    description: `Philip Rathle is CTO of Neo4j, the graph database and analytics leader that enabled the ICIJ to crack the Panama Papers, and NASA to get to Mars two years faster. Neo4j enables thousands of organizations worldwide-- including most of the Fortune 500-- to solve their most pressing & valuable problems through the power of the connections in data. Neo4j has raised a total funding of $581M over 9 rounds from 21 investors, leading the Company's valuation to over $2 billion.`,
   },
   {
     name: 'Rochelle Mattern',

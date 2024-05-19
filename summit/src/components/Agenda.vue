@@ -363,6 +363,10 @@ export default {
             <br/><br/>&nbsp&nbsp
             - (Ushur)
             <br/><br/><br/>
+          2. Keynote 16:00-17:00: <i>Will be provided by Speaker soon</i>
+            <br/><br/>&nbsp&nbsp
+            - (Rocky Yu, Founder & CEO @AGI House)
+            <br/><br/><br/>
         `,
       },
     ]);

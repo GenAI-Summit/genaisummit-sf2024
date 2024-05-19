@@ -559,7 +559,162 @@
       </section>
       <!-- section2 end -->
 
+            <!-- section5 start -->
+      <section id="section5" class="cointainer">
+        <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
+          <div
+            class="left-title before"
+            :class="screenWidth > 600 ? '' : 'mb'"
+            data-aos="flip-up"
+          >
+            WorkShops
+          </div>
+          <div class="open-btn">
+            <button @click="openUrl('https://forms.gle/9pTcvfZcVEVRzmQZ8')">
+              WorkShop Application
+              <img src="../assets/images/general_return.png" alt="" />
+            </button>
+          </div>
+        </div>
+        <div class="ss-title" data-aos="flip-up">
+          INSIDE OF LESSONS TO LEARN NEW TECHNOLOGY!
+        </div>
+        <div class="sss-title" data-aos="flip-up">
+          Applied Generative AI Workshops offer a comprehensive solution that equips both technical and non-technical attendees from all age groups with essential skills in just 60 minutes.
+          Here are a few highlighted sessions (Updated weekly, <i>please bring your labtop</i>):
+        </div>
+
+        <div class="office_content">
+          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+
+            <div
+              class="list"
+              @click="openUrl('https://www.nvidia.com/en-us/')"
+            >
+              <img class="d" src="../assets/images/workshop/nvidia.png" alt="" loading="lazy" />
+            </div>
+            <div
+              class="list"
+              @click="openUrl('https://www.amazon.com/')"
+            >
+              <img class="d" src="../assets/images/sponsors/amazon.png" alt="" loading="lazy" />
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="office_content">
+          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+            <div
+              class="list"
+              @click="openUrl('https://sambanova.ai/')"
+            >
+              <img class="d" src="../assets/images/sponsors/IBM2.jpg" alt="" loading="lazy" />
+            </div>
+            <div
+              class="list"
+              @click="openUrl('https://zilliz.com/')"
+            >
+              <img class="d" src="../assets/images/sponsors/samba.png" alt="" loading="lazy" />
+            </div>
+          </div>
+        </div>
+
+        <div class="office_content">
+          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+
+            <!-- <div class="list" @click="openUrl('https://cloud.google.com/')">
+              <img class="d" src="../assets/images/ico_logo_g2.png" alt="" />
+              <img class="a" src="../assets/images/ico_logo_g1.png" alt="" />
+            </div> -->
+            <div
+              class="list"
+              @click="openUrl('https://otter.ai/')"
+            >
+              <img class="d" src="../assets/images/sponsors/zilliz.png" alt="" loading="lazy" />
+
+            </div>
+            <div
+              class="list"
+            >
+              <img class="d" src="../assets/images/sponsors/otter.png" alt="" loading="lazy" />
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="office_content">
+          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+
+            <!-- <div class="list" @click="openUrl('https://cloud.google.com/')">
+              <img class="d" src="../assets/images/ico_logo_g2.png" alt="" />
+              <img class="a" src="../assets/images/ico_logo_g1.png" alt="" />
+            </div> -->
+            <div
+              class="list"
+              @click="openUrl('https://otter.ai/')"
+            >
+              <img class="d" src="../assets/images/sponsors/pinecone.png" alt="" loading="lazy" />
+
+            </div>
+            <div
+              class="list"
+            >
+              <img class="d" src="../assets/images/sponsors/ushur.png" alt="" loading="lazy" />
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="office_content">
+          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+
+            <div
+              class="list"
+              @click="openUrl('https://otter.ai/')"
+            >
+              <img class="d" src="../assets/images/sponsors/jobfair.png" alt="" loading="lazy" />
+
+            </div>
+
+          </div>
+        </div>
+
+        <!--
+        <div class="office_content">
+          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+
+            <div class="list" @click="openUrl('https://cloud.google.com/')">
+              <img class="d" src="../assets/images/ico_logo_g2.png" alt="" />
+              <img class="a" src="../assets/images/ico_logo_g1.png" alt="" />
+            </div>
+
+            <div
+              class="list"
+
+            >
+              <img class="d" src="../assets/images/sponsors/play.png" alt="" />
+              <img class="a" src="../assets/images/sponsors/play.png" alt="" />
+            </div>
+            <div
+              class="list"
+            >
+              <img class="d" src="../assets/images/sponsors/playk12.png" alt="" />
+              <img class="a" src="../assets/images/sponsors/playk12.png" alt="" />
+            </div>
+
+
+          </div>
+        </div>
+        -->
+      </section>
+      <!-- section5 end -->
+
       <!-- section5 start -->
+      <!--
       <section id="section5" class="cointainer">
         <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
           <div
@@ -592,14 +747,36 @@
               @click="openUrl('https://www.nvidia.com/en-us/')"
             >
               <img class="d" src="../assets/images/workshop/nvidia.png" alt="" loading="lazy" />
-              <img class="a" src="../assets/images/workshop/nvidia.png" alt="" loading="lazy" />
             </div>
+
+            <div class="content">
+              <p class="top">
+                <span class="tag">Topic:</span>
+                Build an advanced Retrieval Augmented Generation (RAG) assistant with Amazon Bedrock
+              </p>
+              <span>
+                This session will guide you through building an advanced generative AI assistant utilizing an advanced Retrieval Augmented Generation (RAG) technique powered by Anthropic Claude 3 on Amazon Bedrock. We will explore how to use Knowledge Bases for Amazon Bedrock for storing, and searching embeddings and how to use Agents for Amazon Bedrock to execute the tasks involved in this process. You will learn how to save time and resources by implementing an efficient and scalable system while ensuring data security throughout the process.
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="office_content">
+          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
             <div
               class="list"
               @click="openUrl('https://www.amazon.com/')"
             >
               <img class="d" src="../assets/images/sponsors/amazon.png" alt="" loading="lazy" />
-              <img class="a" src="../assets/images/sponsors/amazon.png" alt="" loading="lazy" />
+            </div>
+            <div class="content">
+              <p class="top">
+                <span class="tag">Topic:</span>
+                Build an advanced Retrieval Augmented Generation (RAG) assistant with Amazon Bedrock
+              </p>
+              <span>
+                This session will guide you through building an advanced generative AI assistant utilizing an advanced Retrieval Augmented Generation (RAG) technique powered by Anthropic Claude 3 on Amazon Bedrock. We will explore how to use Knowledge Bases for Amazon Bedrock for storing, and searching embeddings and how to use Agents for Amazon Bedrock to execute the tasks involved in this process. You will learn how to save time and resources by implementing an efficient and scalable system while ensuring data security throughout the process.
+              </span>
             </div>
 
           </div>
@@ -613,14 +790,26 @@
               @click="openUrl('https://sambanova.ai/')"
             >
               <img class="d" src="../assets/images/sponsors/IBM2.jpg" alt="" loading="lazy" />
-              <img class="a" src="../assets/images/sponsors/IBM2.jpg" alt="" loading="lazy" />
             </div>
+            <div class="content">
+              <p class="top">
+                <span class="tag">Topic:</span>
+                Build an advanced Retrieval Augmented Generation (RAG) assistant with Amazon Bedrock
+              </p>
+              <span>
+                This session will guide you through building an advanced generative AI assistant utilizing an advanced Retrieval Augmented Generation (RAG) technique powered by Anthropic Claude 3 on Amazon Bedrock. We will explore how to use Knowledge Bases for Amazon Bedrock for storing, and searching embeddings and how to use Agents for Amazon Bedrock to execute the tasks involved in this process. You will learn how to save time and resources by implementing an efficient and scalable system while ensuring data security throughout the process.
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="office_content">
+          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
             <div
               class="list"
               @click="openUrl('https://zilliz.com/')"
             >
               <img class="d" src="../assets/images/sponsors/samba.png" alt="" loading="lazy" />
-              <img class="a" src="../assets/images/sponsors/samba.png" alt="" loading="lazy" />
             </div>
           </div>
         </div>
@@ -628,23 +817,22 @@
         <div class="office_content">
           <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
             
-            <!-- <div class="list" @click="openUrl('https://cloud.google.com/')">
-              <img class="d" src="../assets/images/ico_logo_g2.png" alt="" />
-              <img class="a" src="../assets/images/ico_logo_g1.png" alt="" />
-            </div> -->
             <div
               class="list"
               @click="openUrl('https://otter.ai/')"
             >
               <img class="d" src="../assets/images/sponsors/zilliz.png" alt="" loading="lazy" />
-              <img class="a" src="../assets/images/sponsors/zilliz.png" alt="" loading="lazy" />
-              
             </div>
+          </div>
+        </div>
+
+
+        <div class="office_content">
+          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
             <div
               class="list"
             >
               <img class="d" src="../assets/images/sponsors/otter.png" alt="" loading="lazy" />
-              <img class="a" src="../assets/images/sponsors/otter.png" alt="" loading="lazy" />
             </div>
 
             
@@ -654,23 +842,23 @@
         <div class="office_content">
           <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
             
-            <!-- <div class="list" @click="openUrl('https://cloud.google.com/')">
-              <img class="d" src="../assets/images/ico_logo_g2.png" alt="" />
-              <img class="a" src="../assets/images/ico_logo_g1.png" alt="" />
-            </div> -->
             <div
               class="list"
               @click="openUrl('https://otter.ai/')"
             >
               <img class="d" src="../assets/images/sponsors/pinecone.png" alt="" loading="lazy" />
-              <img class="a" src="../assets/images/sponsors/pinecone.png" alt="" loading="lazy" />
               
             </div>
+          </div>
+        </div>
+
+        <div class="office_content">
+          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
             <div
               class="list"
+              @click="openUrl('https://ushur.com/')"
             >
               <img class="d" src="../assets/images/sponsors/ushur.png" alt="" loading="lazy" />
-              <img class="a" src="../assets/images/sponsors/ushur.png" alt="" loading="lazy" />
             </div>
 
             
@@ -685,41 +873,15 @@
               @click="openUrl('https://otter.ai/')"
             >
               <img class="d" src="../assets/images/sponsors/jobfair.png" alt="" loading="lazy" />
-              <img class="a" src="../assets/images/sponsors/jobfair.png" alt="" loading="lazy" />
               
             </div>
-            
-          </div>
-        </div>
-
-        <!--
-        <div class="office_content">
-          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
-            
-            <div class="list" @click="openUrl('https://cloud.google.com/')">
-              <img class="d" src="../assets/images/ico_logo_g2.png" alt="" />
-              <img class="a" src="../assets/images/ico_logo_g1.png" alt="" />
-            </div> 
-
-            <div
-              class="list"
-            
-            >
-              <img class="d" src="../assets/images/sponsors/play.png" alt="" />
-              <img class="a" src="../assets/images/sponsors/play.png" alt="" />
-            </div>
-            <div
-              class="list"
-            >
-              <img class="d" src="../assets/images/sponsors/playk12.png" alt="" />
-              <img class="a" src="../assets/images/sponsors/playk12.png" alt="" />
-            </div>
 
             
           </div>
         </div>
-        -->
+
       </section>
+      -->
       <!-- section5 end -->
 
 
@@ -2947,7 +3109,6 @@ section {
   font-style: normal;
   text-transform: none;
   margin-top: 0.15rem;
-  max-width: 900px;
 }
 .Exhibition {
   margin-top: 0.4rem;
@@ -3464,6 +3625,76 @@ section {
 #section4 {
 }
 
+/*
+#section5 {
+  .office {
+    display: flex;
+    align-items: left;
+    justify-content: space-around;
+    margin-top: 0.5rem;
+    &.mb {
+      .list {
+        margin-bottom: 0.3rem;
+        height: 100%;
+        margin-left: 0.1rem;
+      }
+    }
+    .content {
+      text-align: left;
+      width: 65%;
+      height: 100%;
+      font-family: HarmonyOS Sans SC Regular;
+      border-radius: 0.5rem;
+      background: #ffffff;
+      padding: 0.22rem;
+      font-size: 0.26rem;
+
+      .top {
+        margin-top: 0;
+        margin-bottom: 0.25rem;
+      }
+      .tag {
+        font-family: HarmonyOS Sans SC Bold;
+        font-weight: bold;
+        font-size: 0.37rem;
+        color: #000000;
+        text-align: left;
+        font-style: normal;
+        text-transform: none;
+      }
+    }
+    .list {
+      width: 30%;
+      height: 100%;
+      background: #ffffff;
+      text-align: center;
+      cursor: pointer;
+      z-index: 2;
+      display: flex;
+      justify-content: center;
+      border-radius: 1.5rem;
+      transition: all linear 0.3s;
+
+
+      &:first-child {
+        margin-left: 0;
+      }
+      img {
+        width: 80%;
+        height: auto;
+        z-index: -1;
+        &.d {
+          display: block;
+        }
+      }
+      &:hover {
+        background: #008aff;
+      }
+    }
+  }
+}
+*/
+
 #section5 {
   .office {
     display: flex;
@@ -3502,24 +3733,11 @@ section {
         z-index: -1;
         &.d {
           display: block;
-          /*border-radius: 1.5rem;*/
-        }
-        &.a {
-          display: none;
-          /*border-radius: 1.5rem;*/
         }
       }
       &:hover {
         background: #008aff;
         height: 100%;
-        img {
-          &.a {
-            display: block;
-          }
-          &.d {
-            display: none;
-          }
-        }
       }
     }
   }

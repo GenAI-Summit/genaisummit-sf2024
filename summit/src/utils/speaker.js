@@ -1,3 +1,5 @@
+
+/*
 import dr_yuhuai_wu from '../assets/images/speakers/yuhuai.jpg';
 import dr_denis_yarats from '../assets/images/speakers/denis.jpg';
 import arvind from '../assets/images/speakers/arvind_jain.jpg';
@@ -612,19 +614,6 @@ const speaker = [
     detail: jimpalmer2,
     description: `Jim Palmer is a startup founder with experience as a first engineer, team builder, and sustainer. He has worked as an engineer and manager at public companies, with expertise in backend, frontend, full-stack engineering, DevOps, and managing teams focused on NLP, ASR, data engineering, and various AI initiatives. Jim has a strong track record of building and leading engineering teams, and he has a passion for building products that solve real-world problems.`,
   },
-  /*
-  {
-    name: 'Craig Walker',
-    job: 'CEO & Founder',
-    tip: 'Dialpad',
-    image: craig,
-    website: '',
-    linkedin: 'https://www.linkedin.com/in/cwalker123/',
-    twitter: 'https://twitter.com/cwalker123?lang=en',
-    detail: craig2,
-    description: `Craig Walker, founder and CEO of Dialpad, formerly led GrandCentral Communications (now Google Voice) and was Senior Director of VoIP at Yahoo! Dialpad, an AI-powered platform, offers solutions like AI Sales and AI Voice for over 30,000 brands, including WeWork and Uber, enhancing productivity and customer satisfaction. Backed by investors like Andreessen Horowitz and Softbank, Dialpad has secured $450M in funding.`,
-  },
-  */
   {
     name: 'Zachary Lipton',
     job: 'CTO & CSO',
@@ -791,19 +780,6 @@ const speaker = [
     detail: yangqingjia2,
     description: `Dr. Yangqing Jia, as the Founder & CEO of Lepton.ai, spearheads a company that is a leader in AI technology development. His expertise is centered on generative artificial intelligence (GenAI), a key area in AI that involves the creation of new, innovative solutions and data interpretations. Lepton AI is an open-source, cloud-native AI development platform founded by Dr. Yangqing Jia, designed to make AI application development accessible for every developer, particularly those proficient in Python.`,
   },
-  /*
-  {
-    name: 'Gideon Mendels',
-    job: 'Co-Founder & CEO',
-    tip: 'Comet ML',
-    image: gideon,
-    website: 'https://www.linkedin.com/in/gideon-mendels/recent-activity/all/?trk=public_post_follow-articles',
-    twitter: 'https://twitter.com/comet_ai',
-    linkedin: 'https://www.linkedin.com/in/gideon-mendels/',
-    detail: gideon2,
-    description: `Gideon Mendels is the Co-Founder & CEO of Comet ML, a platform transforming machine learning similar to how GitHub revolutionized code management. Prior to Comet, he was a data scientist at Columbia University, Groupwize, and Google, primarily working on NLP tasks such as document classification and language modeling. He often faced challenges with machine learning projects lacking documentation on prior models, which led to the inspiration for Comet. Comet ML has raised $70 million in funding to enhance efficiency, transparency, and reproducibility from training to production in machine learning workflows.`,
-  },
-  */
   {
     name: 'Sharan Narang',
     job: 'Co-Author',
@@ -1679,3 +1655,4 @@ const speaker = [
 
 
 export default speaker;
+*/

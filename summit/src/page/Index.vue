@@ -483,7 +483,7 @@
           >
             <div
               class="list"
-              v-for="(item, index) in showSpeakersList"
+              v-for="(item, index) in speakersList"
               :key="index"
               data-aos="zoom-in"
             >
@@ -554,7 +554,7 @@
           </div>
         </div>
         <div class="swiper-content">
-          <Swiper ref="SwiperSpeaker" />
+          <Swiper ref="SwiperSpeaker" :newSpeakersList="newSpeakersList" />
         </div>
       </section>
       <!-- section2 end -->
@@ -749,7 +749,7 @@
               >
                 <div
                   class="list"
-                  v-for="(item, index) in showSpeakersK12List"
+                  v-for="(item, index) in speakersK12List"
                   :key="index"
                   data-aos="zoom-in"
                 >
@@ -1310,8 +1310,9 @@ import Agenda from "../components/Agenda.vue";
 import Resources from "../components/Resources.vue";
 import SpeakerModal from "../components/SpeakerModal.vue";
 
-import speakers from "../utils/speaker";
-import speakersK12 from "../utils/speakerK12";
+// import speakers from "../utils/speaker.js";
+import speakers from "../utils/speaker.json";
+import speakersK12 from "../utils/speakerK12.json";
 import EventBus from "../utils/EventBus.js";
 import { useRoute } from "vue-router";
 
@@ -1453,11 +1454,12 @@ export default {
       showAllExhibition.value = false;
       ExhibitionStyle.value.height = "10.2rem";
     };
-    const speakersList = ref(speakers);
-    const showSpeakersList = ref(speakers);
 
+    const speakersList = ref(speakers);
     const speakersK12List = ref(speakersK12);
-    const showSpeakersK12List = ref(speakersK12);
+    const newSpeakersList = computed(() => {
+      return speakersList.value.filter((item) => item.new);
+    });
 
     const targetDate = ref("2024/05/30");
     const timeObj = ref({
@@ -2247,10 +2249,11 @@ export default {
       handleMouseMove,
       numberList,
       openUrl,
+
       speakersList,
-      showSpeakersList,
+      newSpeakersList,
       speakersK12List,
-      showSpeakersK12List,
+
       moreHanle,
       closeHanle,
       calculateTimeRemaining,

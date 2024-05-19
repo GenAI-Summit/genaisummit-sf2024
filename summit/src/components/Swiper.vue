@@ -37,7 +37,6 @@ export default {
     */
     const nowPage = ref(1)
     const total = newSpeakersList.length
-    console.log('total', total)
     const pages = ref(Math.ceil(total/pageSize.value))
     const options = {
       autoplaySpeed: 5000,

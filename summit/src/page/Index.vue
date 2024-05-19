@@ -674,10 +674,16 @@
 
             <div
               class="list"
+              @click="openUrl('https://www.mlion.ai/')"
+            >
+              <img class="d" src="../assets/images/sponsors/mountainlion.png" alt="" loading="lazy" />
+            </div>
+
+            <div
+              class="list"
               @click="openUrl('https://otter.ai/')"
             >
               <img class="d" src="../assets/images/sponsors/jobfair.png" alt="" loading="lazy" />
-
             </div>
 
           </div>

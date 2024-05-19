@@ -225,7 +225,7 @@ export default {
             <br/><br/><br/>
           2. Workshop 14:00-15:00: Harnessing LLM for Predictive Analysis in Cryptocurrency Investments
             <br/><br/>&nbsp&nbsp
-            - (Mengfan Zhang, @MountainLion)
+            - (Mengfan Zhang, CMO @MountainLion)
             <br/><br/><br/>
           3. Keynote 16:00-16:30: Proof of Learning for Decentralized AI
             <br/><br/>&nbsp&nbsp
@@ -327,7 +327,7 @@ export default {
             <br/><br/><br/>
           3. Keynote 14:30-15:15: GenAI and Crypto Investment
             <br/><br/>&nbsp&nbsp
-            - (Mengfan Zhang, @MountainLion)
+            - (Mengfan Zhang, CMO @MountainLion)
             <br/><br/><br/>
           4. Keynote 15:15-16:00: Knowledge Graphs & GraphRAG: Essential Ingredients for Enterprise GenAI
             <br/><br/>&nbsp&nbsp

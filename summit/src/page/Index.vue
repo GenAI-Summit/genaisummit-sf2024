@@ -1406,6 +1406,7 @@
       </section>
 
 
+      <!--
       <div class="dialog" v-if="showDialog" @click="closeDialog">
         <div class="img-content">
           <div class="detail" :style="style" @click.stop>
@@ -1426,6 +1427,7 @@
           </div>
         </div>
       </div>
+      -->
 
       <SpeakerModal ref="speakerModal" />
 
@@ -1497,7 +1499,7 @@ export default {
     const imageRef1 = ref(null);
     const imageRef2 = ref(null);
     const SwiperSpeaker = ref(null);
-    const showDialog = ref(false);
+    // const showDialog = ref(false);
     const showImgUrl = ref("");
     const speakerList = ref(null);
     const speakerK12List = ref(null);
@@ -1661,7 +1663,7 @@ export default {
     let intervalId;
     onMounted(() => {
       EventBus.$on("handleModal", handleModal);
-      EventBus.$on("openDialog", openDialog);
+      // EventBus.$on("openDialog", openDialog);
       EventBus.$on("pageInfo", setPageInfo);
       clearInterval(intervalId);
       intervalId = setInterval(() => {
@@ -1685,7 +1687,7 @@ export default {
     };
     onUnmounted(() => {
       EventBus.$off("pageInfo", setPageInfo);
-      EventBus.$off("openDialog", openDialog);
+      // EventBus.$off("openDialog", openDialog);
       EventBus.$off("handleModal", handleModal);
     });
 
@@ -2399,11 +2401,13 @@ export default {
       heightStyle,
       ExhibitionStyle,
       screenWidth,
-      closeDialog,
       pullAll,
       pullAllStatus,
       style,
-      showDialog,
+
+      // closeDialog,
+      // showDialog,
+
       showImgUrl,
       imageRef,
       imageRef1,
@@ -3913,6 +3917,8 @@ section {
     }
   }
 }
+
+/*
 .dialog {
   top: 0;
   left: 0;
@@ -3922,7 +3928,7 @@ section {
   height: 100vh;
   background: rgba(0, 0, 0, 0.8);
   backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px); /* Safari Support */
+  -webkit-backdrop-filter: blur(10px);
   .img-content {
     width: 100%;
     height: 100%;
@@ -3949,6 +3955,8 @@ section {
     }
   }
 }
+*/
+
 .mbBuyTickets {
   position: fixed;
   bottom: 0;

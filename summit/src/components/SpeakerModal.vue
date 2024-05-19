@@ -19,7 +19,7 @@
             <span class="description-text">{{ speaker.description }}</span>
           </div>
         </div>
-        <img class="info" :src="resolvedDetail(speaker.detail)" alt="" unselectable="on" />
+        <img class="info" :src="getDetail(speaker.detail)" alt="" unselectable="on" />
         <div class="setting">
           <img
             src="../assets/images/close.png"
@@ -49,11 +49,13 @@ export default {
     const store = useStore();
     const screenWidth = computed(() => store.state.screenWidth);
     const style = ref({ width: screenWidth.value < 700 ? "100%" : "50%" });
-    const resolvedDetail = (detail) => `/src/assets/images/speakers/${detail}`;
+    const getDetail = (detail) => {
+       return new URL(`/src/assets/images/speakers/${detail}`, import.meta.url).href;
+    };
     return {
       style,
       screenWidth,
-      resolvedDetail,
+      getDetail,
     };
   },
   data() {

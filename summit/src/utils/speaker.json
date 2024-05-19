@@ -1510,6 +1510,19 @@
     "id": "jeffhennig"
   },
   {
+    "name": "Dr. Jasper Zhang",
+    "job": "Co-Founder & CEO",
+    "tip": "Hyperbolic Labs",
+    "image": "jasperzhang.jpg",
+    "website": "https://www.zhang-yue.com/",
+    "twitter": "https://x.com/zjasper666",
+    "linkedin": "https://www.linkedin.com/in/yuezhang95/",
+    "detail": "jasperzhang2.png",
+    "description": "Dr. Jasper Zhang is the Co-Founder and CEO of Hyperbolic Labs. He completed his Ph.D. in Mathematics at UC Berkeley in just two years and has won multiple gold medals in global mathematics competitions. Hyperbolic Labs is dedicated to ensuring open access to AI for developers and researchers worldwide. They are building a scalable system to aggregate global GPU compute and developing AI services to maximize GPU performance. Additionally, they are implementing novel solutions to guarantee the accuracy and privacy of AI systems.",
+    "new": false,
+    "id": "jasperzhang"
+  },
+  {
     "name": "Tushar Gupta",
     "job": "Sr. Director",
     "tip": "AMD",

@@ -37,6 +37,7 @@ export default {
     }
     */
     const openModal = (item) => {
+      console.log(item)
       EventBus.$emit("handleModal", item);
     }
     const getImage = (image) => {

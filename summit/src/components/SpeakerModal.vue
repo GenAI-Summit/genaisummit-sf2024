@@ -19,7 +19,7 @@
             <span class="description-text">{{ speaker.description }}</span>
           </div>
         </div>
-        <img class="info" :src="speaker.detail" alt="" unselectable="on" />
+        <img class="info" :src="resolvedDetail(speaker.detail)" alt="" unselectable="on" />
         <div class="setting">
           <img
             src="../assets/images/close.png"
@@ -49,9 +49,11 @@ export default {
     const store = useStore();
     const screenWidth = computed(() => store.state.screenWidth);
     const style = ref({ width: screenWidth.value < 700 ? "100%" : "50%" });
+    const resolvedDetail = (detail) => `/src/assets/images/speakers/${detail}`;
     return {
       style,
-      screenWidth 
+      screenWidth,
+      resolvedDetail,
     };
   },
   data() {

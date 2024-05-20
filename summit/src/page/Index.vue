@@ -1912,7 +1912,7 @@ export default {
           `../assets/images/sponsors/microsoft2.png`,
           import.meta.url
         ).href,
-        url: "../assets/images/diam.png",
+        url: "https://www.microsoft.com",
       },
       {
         img: new URL(`../assets/images/sponsors/amazon.png`, import.meta.url).href,

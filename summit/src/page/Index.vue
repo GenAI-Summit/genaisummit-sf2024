@@ -1355,7 +1355,8 @@
             {{ list }}
           </div>
         </div>
-        <Agenda />
+        <!--<Agenda />-->
+        <AgendaCard />
       </section>
       <!-- section4 end -->
 
@@ -1477,6 +1478,7 @@ import Swiper from "../components/Swiper.vue";
 import Exhibition from "../components/Exhibition.vue";
 import StarBackground from "../components/StarBackground.vue";
 import Agenda from "../components/Agenda.vue";
+import AgendaCard from "../components/AgendaCard.vue";
 import Resources from "../components/Resources.vue";
 import SpeakerModal from "../components/SpeakerModal.vue";
 
@@ -1615,6 +1617,13 @@ export default {
       speakerModal.value.openModal(item);
     };
 
+    const handleModalById = (id) => {
+      const item = speakersList.value.find((item) => item.id === id);
+      if (item) {
+        speakerModal.value.openModal(item);
+      }
+    };
+
     const showAllExhibition = ref(false)
     const moreHanleExhibition = () => {
       showAllExhibition.value = true;
@@ -1669,6 +1678,7 @@ export default {
     let intervalId;
     onMounted(() => {
       EventBus.$on("handleModal", handleModal);
+      EventBus.$on("handleModalById", handleModalById);
       // EventBus.$on("openDialog", openDialog);
       EventBus.$on("pageInfo", setPageInfo);
       clearInterval(intervalId);
@@ -1695,6 +1705,7 @@ export default {
       EventBus.$off("pageInfo", setPageInfo);
       // EventBus.$off("openDialog", openDialog);
       EventBus.$off("handleModal", handleModal);
+      EventBus.$off("handleModalById", handleModalById);
     });
 
     const OutlineList = ref([
@@ -1916,9 +1927,9 @@ export default {
       },
 
       {
-        img: new URL(`../assets/images/sponsors/molar.png`, import.meta.url)
+        img: new URL(`../assets/images/sponsors/abaka.png`, import.meta.url)
           .href,
-        url: "https://www.molardata.com/",
+        url: "https://www.abaka.ai/",
       },
       
       {
@@ -1936,14 +1947,14 @@ export default {
         url: "https://www.mlion.ai/",
       },
       {
-        img: new URL(`../assets/images/sponsors/exabits.png`, import.meta.url)
-          .href,
-        url: "https://www.exabits.ai/",
-      },
-      {
         img: new URL(`../assets/images/sponsors/espeed.png`, import.meta.url)
           .href,
         url: "https://espeed.capital/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/exabits.png`, import.meta.url)
+          .href,
+        url: "https://www.exabits.ai/",
       },
       {
         img: new URL(`../assets/images/sponsors/94ai.png`, import.meta.url)
@@ -2238,6 +2249,11 @@ export default {
         url: "https://www.d-matrix.ai/",
       },
       {
+        img: new URL(`../assets/images/sponsors/meii.png`, import.meta.url)
+          .href,
+        url: "https://www.meii.ai/",
+      },
+      {
         img: new URL(`../assets/images/sponsors/deepcheck.png`, import.meta.url)
           .href,
         url: "https://www.deepchecks.com",
@@ -2471,6 +2487,7 @@ export default {
     Exhibition,
     StarBackground,
     Agenda,
+    AgendaCard,
     SpeakerModal,
     Resources,
   },

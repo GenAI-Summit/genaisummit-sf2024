@@ -221,7 +221,7 @@
     "id": "bhavinshah"
   },
   {
-    "name": "Jia Li",
+    "name": "Dr. Jia Li",
     "job": "Co-Founder, CAIO & President",
     "tip": "LiveX AI",
     "image": "jiali.jpg",
@@ -325,17 +325,17 @@
     "id": "swapniljain"
   },
   {
-    "name": "Philip Rathle",
-    "job": "CTO",
-    "tip": "Neo4j",
-    "image": "philiprathle.jpg",
-    "linkedin": "https://www.linkedin.com/in/prathle/",
-    "twitter": "https://twitter.com/prathle",
-    "website": "https://board.fastcompany.com/profile/Philip-Rathle-CTO-Neo4j/833d03ca-d8dd-42a2-a4c0-6cc3baef452d",
-    "detail": "philiprathle2.png",
-    "description": "Philip Rathle is CTO of Neo4j, the graph database and analytics leader that enabled the ICIJ to crack the Panama Papers, and NASA to get to Mars two years faster. Neo4j enables thousands of organizations worldwide-- including most of the Fortune 500-- to solve their most pressing & valuable problems through the power of the connections in data. Neo4j has raised a total funding of $581M over 9 rounds from 21 investors, leading the Company's valuation to over $2 billion.",
-    "new": true,
-    "id": "philiprathle"
+    "name": "Unitree G1 Humanoid agent AI avatar",
+    "job": "",
+    "tip": "Unitree",
+    "image": "unitreeg1.jpg",
+    "website": "https://www.unitree.com/g1/",
+    "twitter": "",
+    "linkedin": "",
+    "detail": "unitreeg12.png",
+    "description": "Unitree G1 is a humanoid agent AI avatar developed by Unitree Robotics, a renowned robotics company. With 23-43 joint motors, it offers flexibility beyond ordinary people. It utilizes imitation and reinforcement learning, has a force-control dexterous hand for precise manipulation, and aims to create a new era of intelligence through its UnifoLM model.",
+    "new": false,
+    "id": "unitreeg1"
   },
   {
     "name": "Rochelle Mattern",
@@ -414,6 +414,19 @@
     "description": "Zachary Lipton is an Assistant Professor of Machine Learning at Carnegie Mellon University and the Chief Scientific Officer at Abridge. He leads the Approximately Correct Machine Intelligence (ACMI) lab, focusing on robust and adaptive machine learning algorithms, applications in clinical medicine and NLP, and the societal impact of ML systems. Lipton co-authored the interactive book \"Dive into Deep Learning\" and founded the blog \"Approximately Correct\".",
     "new": false,
     "id": "zacharylipton"
+  },
+  {
+    "name": "Philip Rathle",
+    "job": "CTO",
+    "tip": "Neo4j",
+    "image": "philiprathle.jpg",
+    "linkedin": "https://www.linkedin.com/in/prathle/",
+    "twitter": "https://twitter.com/prathle",
+    "website": "https://board.fastcompany.com/profile/Philip-Rathle-CTO-Neo4j/833d03ca-d8dd-42a2-a4c0-6cc3baef452d",
+    "detail": "philiprathle2.png",
+    "description": "Philip Rathle is CTO of Neo4j, the graph database and analytics leader that enabled the ICIJ to crack the Panama Papers, and NASA to get to Mars two years faster. Neo4j enables thousands of organizations worldwide-- including most of the Fortune 500-- to solve their most pressing & valuable problems through the power of the connections in data. Neo4j has raised a total funding of $581M over 9 rounds from 21 investors, leading the Company's valuation to over $2 billion.",
+    "new": true,
+    "id": "philiprathle"
   },
   {
     "name": "Dr. Alexander Ratner",
@@ -557,7 +570,7 @@
     "detail": "yoheinakajima2.png",
     "description": "Yohei Nakajima is a venture capitalist, coder, and relentless experimenter. BabyAGI represents a significant stride in the domain of AI-powered task management. By automating and streamlining tasks, BabyAGI not only enhances operational efficiency but also provides insights into the capabilities and future potential of autonomous AI agents. This pioneering project has 18K stars in Github.",
     "new": true,
-    "id": "yohei2"
+    "id": "yoheinakajima"
   },
   {
     "name": "Jason Lopatecki",
@@ -1026,7 +1039,7 @@
     "detail": "murraynewlands2.png",
     "description": "Murray, a celebrated entrepreneur and VC, is a Founding Partner at Open Future Technology, previously influencing Turing.com's growth and advising Draper Nexus. Known from The Huffington Post's Top 10 list, he formerly partnered at OnePiece Labs within Uphonest Capital. Currently, he spearheads a web3 and AI incubator, connecting with Silicon Valley's tech community.",
     "new": false,
-    "id": "murrraynewlands"
+    "id": "murraynewlands"
   },
   {
     "name": "Benjamin Levy",
@@ -1406,19 +1419,6 @@
     "id": "andyhock"
   },
   {
-    "name": "Shawn Flynn",
-    "job": "Principal",
-    "tip": "Global Capital Markets",
-    "image": "shawnflynn.jpg",
-    "website": "",
-    "twitter": "https://twitter.com/ShawnFlynnSV",
-    "linkedin": "https://www.linkedin.com/in/shawnpflynn/",
-    "detail": "shawnflynn2.png",
-    "description": "Shawn Flynn is a Principal at Global Capital Markets, a premier middle-market investment bank, bringing international experience working with companies across stages and sectors. He previously founded and exited a company in Beijing. Flynn holds a B.S. in Mechanical Engineering from UCSD, speaks multiple languages, and is a frequent speaker on entrepreneurship and innovation. He has been interviewed for the book \"Working with Americans: How to Build Profitable Business Relationships\".",
-    "new": false,
-    "id": "shawnflynn"
-  },
-  {
     "name": "Dr. Jiarui Liu",
     "job": "Fellow",
     "tip": "Stanford Center for Internet and Society",
@@ -1625,19 +1625,6 @@
     "description": "Dr. Yao Du is a Clinical Assistant Professor at the Keck School of Medicine, University of Southern California, combining expertise in speech-language pathology and user experience research to design and evaluate assistive technology for people with disabilities. With over 10 years of experience in teaching, supervising, and mentoring, she provides consultation to digital health startups and offers online accent coaching and autism parent training services.",
     "new": false,
     "id": "yaodu"
-  },
-  {
-    "name": "Prof. Jennifer Listgarten",
-    "job": "Professor",
-    "tip": "UC Berkeley",
-    "image": "jenniferlistgarten.jpg",
-    "website": "https://vcresearch.berkeley.edu/faculty/jennifer-listgarten",
-    "twitter": "https://x.com/jlistgarten?lang=en",
-    "linkedin": "https://www.linkedin.com/in/jenniferlistgarten/",
-    "detail": "jenniferlistgarten2.png",
-    "description": "Jennifer Listgarten is a Professor in UC Berkeley's EECS department and Center for Computational Biology. She has expertise in machine learning, applied statistics, and computational biology, working on methods development and applications to enable insights into biology and medicine. Her research interests include protein design, molecule design, drug discovery, genetic association studies, and machine learning methods at the intersection of graphical models, neural networks, and variational inference.",
-    "new": false,
-    "id": "jenniferlistgarten"
   },
   {
     "name": "Andy Chen",

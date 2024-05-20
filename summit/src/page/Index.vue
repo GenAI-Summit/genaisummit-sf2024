@@ -683,7 +683,6 @@
 
             <div
               class="list"
-              @click="openUrl('https://otter.ai/')"
             >
               <img class="d" src="../assets/images/sponsors/jobfair.png" alt="" loading="lazy" />
             </div>

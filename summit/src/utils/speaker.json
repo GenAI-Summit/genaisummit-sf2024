@@ -34,7 +34,7 @@
     "website": "https://www.ibm.com/blog/author/armand-ruizus-ibm-com/",
     "detail": "armandruiz2.png",
     "image": "armandruiz.jpg",
-    "description": "Michael Stewart is the Managing Partner at M12, where he spearheads investment theses in generative AI, gaming, web3, and other deep technology domains. Holding both a PhD and an MBA, Michael brings over two decades of expertise in semiconductor and hard technology products, as well as in investment. His career is distinguished by his roles in founding two startups and securing over 40 patents, marking him as a leading figure in the field of technology innovation and venture capital.",
+    "description": "Armand Ruiz is the Vice President of Product Management for the AI Platform at IBM, where he leads the development of Generative AI products and offerings aimed at businesses. Born in Barcelona and based in the San Francisco Bay Area for the last 10 years working at the heart of innovation in Silicon Valley, Armand has worked with customers worldwide from all industries. He has spent over 13 years working in AI and Machine Learning, developing products and solutions that have reached millions of users. Armand is also the founder of a popular newsletter with more than 50k subscribers and shares his passion for AI with over 90k followers on LinkedIn and X.",
     "new": true,
     "id": "armandruiz"
   },
@@ -221,7 +221,11 @@
     "id": "bhavinshah"
   },
   {
+<<<<<<< HEAD
     "name": "Jia Li",
+=======
+    "name": "Dr. Jia Li",
+>>>>>>> a3721bdcb369524f7fa7489709d8462a6267cf5d
     "job": "Co-Founder, CAIO & President",
     "tip": "LiveX AI",
     "image": "jiali.jpg",
@@ -325,6 +329,7 @@
     "id": "swapniljain"
   },
   {
+<<<<<<< HEAD
     "name": "Philip Rathle",
     "job": "CTO",
     "tip": "Neo4j",
@@ -336,6 +341,19 @@
     "description": "Philip Rathle is CTO of Neo4j, the graph database and analytics leader that enabled the ICIJ to crack the Panama Papers, and NASA to get to Mars two years faster. Neo4j enables thousands of organizations worldwide-- including most of the Fortune 500-- to solve their most pressing & valuable problems through the power of the connections in data. Neo4j has raised a total funding of $581M over 9 rounds from 21 investors, leading the Company's valuation to over $2 billion.",
     "new": true,
     "id": "philiprathle"
+=======
+    "name": "Unitree G1 Humanoid agent AI avatar",
+    "job": "",
+    "tip": "Unitree",
+    "image": "unitreeg1.jpg",
+    "website": "https://www.unitree.com/g1/",
+    "twitter": "",
+    "linkedin": "",
+    "detail": "unitreeg12.png",
+    "description": "Unitree G1 is a humanoid agent AI avatar developed by Unitree Robotics, a renowned robotics company. With 23-43 joint motors, it offers flexibility beyond ordinary people. It utilizes imitation and reinforcement learning, has a force-control dexterous hand for precise manipulation, and aims to create a new era of intelligence through its UnifoLM model.",
+    "new": false,
+    "id": "unitreeg1"
+>>>>>>> a3721bdcb369524f7fa7489709d8462a6267cf5d
   },
   {
     "name": "Rochelle Mattern",
@@ -416,6 +434,22 @@
     "id": "zacharylipton"
   },
   {
+<<<<<<< HEAD
+=======
+    "name": "Philip Rathle",
+    "job": "CTO",
+    "tip": "Neo4j",
+    "image": "philiprathle.jpg",
+    "linkedin": "https://www.linkedin.com/in/prathle/",
+    "twitter": "https://twitter.com/prathle",
+    "website": "https://board.fastcompany.com/profile/Philip-Rathle-CTO-Neo4j/833d03ca-d8dd-42a2-a4c0-6cc3baef452d",
+    "detail": "philiprathle2.png",
+    "description": "Philip Rathle is CTO of Neo4j, the graph database and analytics leader that enabled the ICIJ to crack the Panama Papers, and NASA to get to Mars two years faster. Neo4j enables thousands of organizations worldwide-- including most of the Fortune 500-- to solve their most pressing & valuable problems through the power of the connections in data. Neo4j has raised a total funding of $581M over 9 rounds from 21 investors, leading the Company's valuation to over $2 billion.",
+    "new": true,
+    "id": "philiprathle"
+  },
+  {
+>>>>>>> a3721bdcb369524f7fa7489709d8462a6267cf5d
     "name": "Dr. Alexander Ratner",
     "job": "CEO & Co-Founder",
     "tip": "Snorkel AI",
@@ -557,7 +591,11 @@
     "detail": "yoheinakajima2.png",
     "description": "Yohei Nakajima is a venture capitalist, coder, and relentless experimenter. BabyAGI represents a significant stride in the domain of AI-powered task management. By automating and streamlining tasks, BabyAGI not only enhances operational efficiency but also provides insights into the capabilities and future potential of autonomous AI agents. This pioneering project has 18K stars in Github.",
     "new": true,
+<<<<<<< HEAD
     "id": "yohei2"
+=======
+    "id": "yoheinakajima"
+>>>>>>> a3721bdcb369524f7fa7489709d8462a6267cf5d
   },
   {
     "name": "Jason Lopatecki",
@@ -1026,7 +1064,11 @@
     "detail": "murraynewlands2.png",
     "description": "Murray, a celebrated entrepreneur and VC, is a Founding Partner at Open Future Technology, previously influencing Turing.com's growth and advising Draper Nexus. Known from The Huffington Post's Top 10 list, he formerly partnered at OnePiece Labs within Uphonest Capital. Currently, he spearheads a web3 and AI incubator, connecting with Silicon Valley's tech community.",
     "new": false,
+<<<<<<< HEAD
     "id": "murrraynewlands"
+=======
+    "id": "murraynewlands"
+>>>>>>> a3721bdcb369524f7fa7489709d8462a6267cf5d
   },
   {
     "name": "Benjamin Levy",
@@ -1406,6 +1448,7 @@
     "id": "andyhock"
   },
   {
+<<<<<<< HEAD
     "name": "Shawn Flynn",
     "job": "Principal",
     "tip": "Global Capital Markets",
@@ -1419,6 +1462,8 @@
     "id": "shawnflynn"
   },
   {
+=======
+>>>>>>> a3721bdcb369524f7fa7489709d8462a6267cf5d
     "name": "Dr. Jiarui Liu",
     "job": "Fellow",
     "tip": "Stanford Center for Internet and Society",
@@ -1510,6 +1555,22 @@
     "id": "jeffhennig"
   },
   {
+<<<<<<< HEAD
+=======
+    "name": "Dr. Jasper Zhang",
+    "job": "Co-Founder & CEO",
+    "tip": "Hyperbolic Labs",
+    "image": "jasperzhang.jpg",
+    "website": "https://www.zhang-yue.com/",
+    "twitter": "https://x.com/zjasper666",
+    "linkedin": "https://www.linkedin.com/in/yuezhang95/",
+    "detail": "jasperzhang2.png",
+    "description": "Dr. Jasper Zhang is the Co-Founder and CEO of Hyperbolic Labs. He completed his Ph.D. in Mathematics at UC Berkeley in just two years and has won multiple gold medals in global mathematics competitions. Hyperbolic Labs is dedicated to ensuring open access to AI for developers and researchers worldwide. They are building a scalable system to aggregate global GPU compute and developing AI services to maximize GPU performance. Additionally, they are implementing novel solutions to guarantee the accuracy and privacy of AI systems.",
+    "new": false,
+    "id": "jasperzhang"
+  },
+  {
+>>>>>>> a3721bdcb369524f7fa7489709d8462a6267cf5d
     "name": "Tushar Gupta",
     "job": "Sr. Director",
     "tip": "AMD",
@@ -1614,6 +1675,7 @@
     "id": "yaodu"
   },
   {
+<<<<<<< HEAD
     "name": "Prof. Jennifer Listgarten",
     "job": "Professor",
     "tip": "UC Berkeley",
@@ -1627,6 +1689,8 @@
     "id": "jenniferlistgarten"
   },
   {
+=======
+>>>>>>> a3721bdcb369524f7fa7489709d8462a6267cf5d
     "name": "Andy Chen",
     "job": "Expert",
     "tip": "Primary Venture Partners",

@@ -1,6 +1,6 @@
 <template>
   <div class="speaker">
-    <img class="per" :src="item.image" alt="" loading="lazy">
+    <img class="per" :src="getImage(item.image)" alt="speaker image" loading="lazy">
     <div class="zw">
       <div class="info">
         <div class="name">{{ item.name }}</div>
@@ -37,13 +37,18 @@ export default {
     }
     */
     const openModal = (item) => {
+      console.log(item)
       EventBus.$emit("handleModal", item);
+    }
+    const getImage = (image) => {
+      return new URL(`/src/assets/images/speakers/${image}`, import.meta.url).href
     }
     return {
       item,
       openUrl,
       //openDialog,
       openModal,
+      getImage,
     } 
   },
   components: {

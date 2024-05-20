@@ -1,3 +1,4 @@
+/*
 import dr_yuhuai_wu from '../assets/images/speakers/yuhuai.jpg';
 import dr_denis_yarats from '../assets/images/speakers/denis.jpg';
 import jimfan from '../assets/images/speakers/jim_fan.jpeg';
@@ -225,19 +226,6 @@ const speakerNewly = [
     image: rashimi,
     description: `Dr. Rashmi Misra is the Chief AI Officer at Analog Devices, where she leads the company's AI initiatives. Rashmi has spent her career on the cutting edge of AI products, engineering challenges and go-to-market opportunities, and has garnered broad industry influence and recognition. With a PhD in AI, she brings extensive experience in international business development and innovation across various sectors. Dr. Misra holds six international patents and is actively involved in recruiting top talent in cutting-edge technology fields.`,
   },
-  /*
-  {
-    name: 'Gideon Mendels',
-    job: 'Co-Founder & CEO',
-    tip: 'Comet ML',
-    image: gideon,
-    website: 'https://www.linkedin.com/in/gideon-mendels/recent-activity/all/?trk=public_post_follow-articles',
-    twitter: 'https://twitter.com/comet_ai',
-    linkedin: 'https://www.linkedin.com/in/gideon-mendels/',
-    detail: gideon2,
-    description: `Gideon Mendels is the Co-Founder & CEO of Comet ML, a platform transforming machine learning similar to how GitHub revolutionized code management. Prior to Comet, he was a data scientist at Columbia University, Groupwize, and Google, primarily working on NLP tasks such as document classification and language modeling. He often faced challenges with machine learning projects lacking documentation on prior models, which led to the inspiration for Comet. Comet ML has raised $70 million in funding to enhance efficiency, transparency, and reproducibility from training to production in machine learning workflows.`,
-  },
-  */
   {
     name: 'Soumya Batra',
     job: 'Co-Author',
@@ -661,3 +649,6 @@ const speakerNewly = [
 ];
 
 export default speakerNewly;
+*/
+
+export default [];

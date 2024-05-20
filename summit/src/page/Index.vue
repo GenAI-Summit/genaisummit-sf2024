@@ -483,7 +483,7 @@
           >
             <div
               class="list"
-              v-for="(item, index) in showSpeakersList"
+              v-for="(item, index) in speakersList"
               :key="index"
               data-aos="zoom-in"
             >
@@ -554,12 +554,173 @@
           </div>
         </div>
         <div class="swiper-content">
-          <Swiper ref="SwiperSpeaker" />
+          <Swiper ref="SwiperSpeaker" :newSpeakersList="newSpeakersList" />
         </div>
       </section>
       <!-- section2 end -->
 
       <!-- section5 start -->
+      <section id="section5" class="cointainer">
+        <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
+          <div
+            class="left-title before"
+            :class="screenWidth > 600 ? '' : 'mb'"
+            data-aos="flip-up"
+          >
+            Workshops
+          </div>
+          <div class="open-btn">
+            <button @click="openUrl('https://forms.gle/9pTcvfZcVEVRzmQZ8')">
+              WorkShop Application
+              <img src="../assets/images/general_return.png" alt="" />
+            </button>
+          </div>
+        </div>
+        <div class="ss-title" data-aos="flip-up">
+          INSIDE OF LESSONS TO LEARN NEW TECHNOLOGY!
+        </div>
+        <div class="sss-title" data-aos="flip-up">
+          Applied Generative AI Workshops offer a comprehensive solution that equips both technical and non-technical attendees from all age groups with essential skills in just 60 minutes.
+          Here are a few highlighted sessions (Updated weekly, <i>please bring your labtop</i>):
+        </div>
+
+        <div class="office_content">
+          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+
+            <div
+              class="list"
+              @click="openUrl('https://www.nvidia.com/en-us/')"
+            >
+              <img class="d" src="../assets/images/workshop/nvidia.png" alt="" loading="lazy" />
+            </div>
+            <div
+              class="list"
+              @click="openUrl('https://www.amazon.com/')"
+            >
+              <img class="d" src="../assets/images/sponsors/amazon.png" alt="" loading="lazy" />
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="office_content">
+          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+            <div
+              class="list"
+              @click="openUrl('https://sambanova.ai/')"
+            >
+              <img class="d" src="../assets/images/sponsors/IBM2.jpg" alt="" loading="lazy" />
+            </div>
+            <div
+              class="list"
+              @click="openUrl('https://zilliz.com/')"
+            >
+              <img class="d" src="../assets/images/sponsors/samba.png" alt="" loading="lazy" />
+            </div>
+          </div>
+        </div>
+
+        <div class="office_content">
+          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+
+            <!-- <div class="list" @click="openUrl('https://cloud.google.com/')">
+              <img class="d" src="../assets/images/ico_logo_g2.png" alt="" />
+              <img class="a" src="../assets/images/ico_logo_g1.png" alt="" />
+            </div> -->
+            <div
+              class="list"
+              @click="openUrl('https://otter.ai/')"
+            >
+              <img class="d" src="../assets/images/sponsors/zilliz.png" alt="" loading="lazy" />
+
+            </div>
+            <div
+              class="list"
+            >
+              <img class="d" src="../assets/images/sponsors/otter.png" alt="" loading="lazy" />
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="office_content">
+          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+
+            <!-- <div class="list" @click="openUrl('https://cloud.google.com/')">
+              <img class="d" src="../assets/images/ico_logo_g2.png" alt="" />
+              <img class="a" src="../assets/images/ico_logo_g1.png" alt="" />
+            </div> -->
+            <div
+              class="list"
+              @click="openUrl('https://otter.ai/')"
+            >
+              <img class="d" src="../assets/images/sponsors/pinecone.png" alt="" loading="lazy" />
+
+            </div>
+            <div
+              class="list"
+            >
+              <img class="d" src="../assets/images/sponsors/ushur.png" alt="" loading="lazy" />
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="office_content">
+          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+
+            <div
+              class="list"
+              @click="openUrl('https://www.mlion.ai/')"
+            >
+              <img class="d" src="../assets/images/sponsors/mountainlion.png" alt="" loading="lazy" />
+            </div>
+
+            <div
+              class="list"
+              @click="openUrl('https://otter.ai/')"
+            >
+              <img class="d" src="../assets/images/sponsors/jobfair.png" alt="" loading="lazy" />
+            </div>
+
+          </div>
+        </div>
+
+        <!--
+        <div class="office_content">
+          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+
+            <div class="list" @click="openUrl('https://cloud.google.com/')">
+              <img class="d" src="../assets/images/ico_logo_g2.png" alt="" />
+              <img class="a" src="../assets/images/ico_logo_g1.png" alt="" />
+            </div>
+
+            <div
+              class="list"
+
+            >
+              <img class="d" src="../assets/images/sponsors/play.png" alt="" />
+              <img class="a" src="../assets/images/sponsors/play.png" alt="" />
+            </div>
+            <div
+              class="list"
+            >
+              <img class="d" src="../assets/images/sponsors/playk12.png" alt="" />
+              <img class="a" src="../assets/images/sponsors/playk12.png" alt="" />
+            </div>
+
+
+          </div>
+        </div>
+        -->
+      </section>
+      <!-- section5 end -->
+
+      <!-- section5 start -->
+      <!--
       <section id="section5" class="cointainer">
         <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
           <div
@@ -592,14 +753,36 @@
               @click="openUrl('https://www.nvidia.com/en-us/')"
             >
               <img class="d" src="../assets/images/workshop/nvidia.png" alt="" loading="lazy" />
-              <img class="a" src="../assets/images/workshop/nvidia.png" alt="" loading="lazy" />
             </div>
+
+            <div class="content">
+              <p class="top">
+                <span class="tag">Topic:</span>
+                Build an advanced Retrieval Augmented Generation (RAG) assistant with Amazon Bedrock
+              </p>
+              <span>
+                This session will guide you through building an advanced generative AI assistant utilizing an advanced Retrieval Augmented Generation (RAG) technique powered by Anthropic Claude 3 on Amazon Bedrock. We will explore how to use Knowledge Bases for Amazon Bedrock for storing, and searching embeddings and how to use Agents for Amazon Bedrock to execute the tasks involved in this process. You will learn how to save time and resources by implementing an efficient and scalable system while ensuring data security throughout the process.
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="office_content">
+          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
             <div
               class="list"
               @click="openUrl('https://www.amazon.com/')"
             >
               <img class="d" src="../assets/images/sponsors/amazon.png" alt="" loading="lazy" />
-              <img class="a" src="../assets/images/sponsors/amazon.png" alt="" loading="lazy" />
+            </div>
+            <div class="content">
+              <p class="top">
+                <span class="tag">Topic:</span>
+                Build an advanced Retrieval Augmented Generation (RAG) assistant with Amazon Bedrock
+              </p>
+              <span>
+                This session will guide you through building an advanced generative AI assistant utilizing an advanced Retrieval Augmented Generation (RAG) technique powered by Anthropic Claude 3 on Amazon Bedrock. We will explore how to use Knowledge Bases for Amazon Bedrock for storing, and searching embeddings and how to use Agents for Amazon Bedrock to execute the tasks involved in this process. You will learn how to save time and resources by implementing an efficient and scalable system while ensuring data security throughout the process.
+              </span>
             </div>
 
           </div>
@@ -613,14 +796,26 @@
               @click="openUrl('https://sambanova.ai/')"
             >
               <img class="d" src="../assets/images/sponsors/IBM2.jpg" alt="" loading="lazy" />
-              <img class="a" src="../assets/images/sponsors/IBM2.jpg" alt="" loading="lazy" />
             </div>
+            <div class="content">
+              <p class="top">
+                <span class="tag">Topic:</span>
+                Build an advanced Retrieval Augmented Generation (RAG) assistant with Amazon Bedrock
+              </p>
+              <span>
+                This session will guide you through building an advanced generative AI assistant utilizing an advanced Retrieval Augmented Generation (RAG) technique powered by Anthropic Claude 3 on Amazon Bedrock. We will explore how to use Knowledge Bases for Amazon Bedrock for storing, and searching embeddings and how to use Agents for Amazon Bedrock to execute the tasks involved in this process. You will learn how to save time and resources by implementing an efficient and scalable system while ensuring data security throughout the process.
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="office_content">
+          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
             <div
               class="list"
               @click="openUrl('https://zilliz.com/')"
             >
               <img class="d" src="../assets/images/sponsors/samba.png" alt="" loading="lazy" />
-              <img class="a" src="../assets/images/sponsors/samba.png" alt="" loading="lazy" />
             </div>
           </div>
         </div>
@@ -628,23 +823,22 @@
         <div class="office_content">
           <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
             
-            <!-- <div class="list" @click="openUrl('https://cloud.google.com/')">
-              <img class="d" src="../assets/images/ico_logo_g2.png" alt="" />
-              <img class="a" src="../assets/images/ico_logo_g1.png" alt="" />
-            </div> -->
             <div
               class="list"
               @click="openUrl('https://otter.ai/')"
             >
               <img class="d" src="../assets/images/sponsors/zilliz.png" alt="" loading="lazy" />
-              <img class="a" src="../assets/images/sponsors/zilliz.png" alt="" loading="lazy" />
-              
             </div>
+          </div>
+        </div>
+
+
+        <div class="office_content">
+          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
             <div
               class="list"
             >
               <img class="d" src="../assets/images/sponsors/otter.png" alt="" loading="lazy" />
-              <img class="a" src="../assets/images/sponsors/otter.png" alt="" loading="lazy" />
             </div>
 
             
@@ -654,23 +848,23 @@
         <div class="office_content">
           <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
             
-            <!-- <div class="list" @click="openUrl('https://cloud.google.com/')">
-              <img class="d" src="../assets/images/ico_logo_g2.png" alt="" />
-              <img class="a" src="../assets/images/ico_logo_g1.png" alt="" />
-            </div> -->
             <div
               class="list"
               @click="openUrl('https://otter.ai/')"
             >
               <img class="d" src="../assets/images/sponsors/pinecone.png" alt="" loading="lazy" />
-              <img class="a" src="../assets/images/sponsors/pinecone.png" alt="" loading="lazy" />
               
             </div>
+          </div>
+        </div>
+
+        <div class="office_content">
+          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
             <div
               class="list"
+              @click="openUrl('https://ushur.com/')"
             >
               <img class="d" src="../assets/images/sponsors/ushur.png" alt="" loading="lazy" />
-              <img class="a" src="../assets/images/sponsors/ushur.png" alt="" loading="lazy" />
             </div>
 
             
@@ -685,43 +879,34 @@
               @click="openUrl('https://otter.ai/')"
             >
               <img class="d" src="../assets/images/sponsors/jobfair.png" alt="" loading="lazy" />
-              <img class="a" src="../assets/images/sponsors/jobfair.png" alt="" loading="lazy" />
               
             </div>
-            
-          </div>
-        </div>
-
-        <!--
-        <div class="office_content">
-          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
-            
-            <div class="list" @click="openUrl('https://cloud.google.com/')">
-              <img class="d" src="../assets/images/ico_logo_g2.png" alt="" />
-              <img class="a" src="../assets/images/ico_logo_g1.png" alt="" />
-            </div> 
-
-            <div
-              class="list"
-            
-            >
-              <img class="d" src="../assets/images/sponsors/play.png" alt="" />
-              <img class="a" src="../assets/images/sponsors/play.png" alt="" />
-            </div>
-            <div
-              class="list"
-            >
-              <img class="d" src="../assets/images/sponsors/playk12.png" alt="" />
-              <img class="a" src="../assets/images/sponsors/playk12.png" alt="" />
-            </div>
 
             
           </div>
         </div>
-        -->
+
       </section>
+      -->
       <!-- section5 end -->
 
+      <!--
+      <section id="seminar_section" class="cointainer">
+        <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
+          <div
+            class="left-title before"
+            :class="screenWidth > 600 ? '' : 'mb'"
+            data-aos="flip-up"
+          >
+            Seminars
+          </div>
+        </div>
+        <div class="ss-title" data-aos="flip-up">
+          LEARN FROM THE BEST IN THE INDUSTRY
+        </div>
+        <Seminar />
+      </section>
+      -->
 
       <section id="section6" class="cointainer">
         <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
@@ -749,7 +934,7 @@
               >
                 <div
                   class="list"
-                  v-for="(item, index) in showSpeakersK12List"
+                  v-for="(item, index) in speakersK12List"
                   :key="index"
                   data-aos="zoom-in"
                 >
@@ -1187,7 +1372,8 @@
             {{ list }}
           </div>
         </div>
-        <Agenda />
+        <!--<Agenda />-->
+        <AgendaCard />
       </section>
       <!-- section4 end -->
 
@@ -1244,6 +1430,7 @@
       </section>
 
 
+      <!--
       <div class="dialog" v-if="showDialog" @click="closeDialog">
         <div class="img-content">
           <div class="detail" :style="style" @click.stop>
@@ -1264,6 +1451,7 @@
           </div>
         </div>
       </div>
+      -->
 
       <SpeakerModal ref="speakerModal" />
 
@@ -1306,12 +1494,15 @@ import PersionItem from "../components/PersionItem.vue";
 import Swiper from "../components/Swiper.vue";
 import Exhibition from "../components/Exhibition.vue";
 import StarBackground from "../components/StarBackground.vue";
-import Agenda from "../components/Agenda.vue";
+// import Agenda from "../components/Agenda.vue";
+import AgendaCard from "../components/AgendaCard.vue";
+import Seminar from "../components/Seminar.vue";
 import Resources from "../components/Resources.vue";
 import SpeakerModal from "../components/SpeakerModal.vue";
 
-import speakers from "../utils/speaker";
-import speakersK12 from "../utils/speakerK12";
+// import speakers from "../utils/speaker.js";
+import speakers from "../utils/speaker.json";
+import speakersK12 from "../utils/speakerK12.json";
 import EventBus from "../utils/EventBus.js";
 import { useRoute } from "vue-router";
 
@@ -1334,7 +1525,7 @@ export default {
     const imageRef1 = ref(null);
     const imageRef2 = ref(null);
     const SwiperSpeaker = ref(null);
-    const showDialog = ref(false);
+    // const showDialog = ref(false);
     const showImgUrl = ref("");
     const speakerList = ref(null);
     const speakerK12List = ref(null);
@@ -1444,6 +1635,13 @@ export default {
       speakerModal.value.openModal(item);
     };
 
+    const handleModalById = (id) => {
+      const item = speakersList.value.find((item) => item.id === id);
+      if (item) {
+        speakerModal.value.openModal(item);
+      }
+    };
+
     const showAllExhibition = ref(false)
     const moreHanleExhibition = () => {
       showAllExhibition.value = true;
@@ -1453,11 +1651,12 @@ export default {
       showAllExhibition.value = false;
       ExhibitionStyle.value.height = "10.2rem";
     };
-    const speakersList = ref(speakers);
-    const showSpeakersList = ref(speakers);
 
+    const speakersList = ref(speakers);
     const speakersK12List = ref(speakersK12);
-    const showSpeakersK12List = ref(speakersK12);
+    const newSpeakersList = computed(() => {
+      return speakersList.value.filter((item) => item.new);
+    });
 
     const targetDate = ref("2024/05/30");
     const timeObj = ref({
@@ -1497,7 +1696,8 @@ export default {
     let intervalId;
     onMounted(() => {
       EventBus.$on("handleModal", handleModal);
-      EventBus.$on("openDialog", openDialog);
+      EventBus.$on("handleModalById", handleModalById);
+      // EventBus.$on("openDialog", openDialog);
       EventBus.$on("pageInfo", setPageInfo);
       clearInterval(intervalId);
       intervalId = setInterval(() => {
@@ -1521,8 +1721,9 @@ export default {
     };
     onUnmounted(() => {
       EventBus.$off("pageInfo", setPageInfo);
-      EventBus.$off("openDialog", openDialog);
+      // EventBus.$off("openDialog", openDialog);
       EventBus.$off("handleModal", handleModal);
+      EventBus.$off("handleModalById", handleModalById);
     });
 
     const OutlineList = ref([
@@ -1744,9 +1945,9 @@ export default {
       },
 
       {
-        img: new URL(`../assets/images/sponsors/molar.png`, import.meta.url)
+        img: new URL(`../assets/images/sponsors/abaka.png`, import.meta.url)
           .href,
-        url: "https://www.molardata.com/",
+        url: "https://www.abaka.ai/",
       },
       
       {
@@ -1764,14 +1965,14 @@ export default {
         url: "https://www.mlion.ai/",
       },
       {
-        img: new URL(`../assets/images/sponsors/exabits.png`, import.meta.url)
-          .href,
-        url: "https://www.exabits.ai/",
-      },
-      {
         img: new URL(`../assets/images/sponsors/espeed.png`, import.meta.url)
           .href,
         url: "https://espeed.capital/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/exabits.png`, import.meta.url)
+          .href,
+        url: "https://www.exabits.ai/",
       },
       {
         img: new URL(`../assets/images/sponsors/94ai.png`, import.meta.url)
@@ -2066,6 +2267,11 @@ export default {
         url: "https://www.d-matrix.ai/",
       },
       {
+        img: new URL(`../assets/images/sponsors/meii.png`, import.meta.url)
+          .href,
+        url: "https://www.meii.ai/",
+      },
+      {
         img: new URL(`../assets/images/sponsors/deepcheck.png`, import.meta.url)
           .href,
         url: "https://www.deepchecks.com",
@@ -2235,11 +2441,13 @@ export default {
       heightStyle,
       ExhibitionStyle,
       screenWidth,
-      closeDialog,
       pullAll,
       pullAllStatus,
       style,
-      showDialog,
+
+      // closeDialog,
+      // showDialog,
+
       showImgUrl,
       imageRef,
       imageRef1,
@@ -2247,10 +2455,11 @@ export default {
       handleMouseMove,
       numberList,
       openUrl,
+
       speakersList,
-      showSpeakersList,
+      newSpeakersList,
       speakersK12List,
-      showSpeakersK12List,
+
       moreHanle,
       closeHanle,
       calculateTimeRemaining,
@@ -2295,7 +2504,9 @@ export default {
     Swiper,
     Exhibition,
     StarBackground,
-    Agenda,
+    // Agenda,
+    Seminar,
+    AgendaCard,
     SpeakerModal,
     Resources,
   },
@@ -2944,7 +3155,6 @@ section {
   font-style: normal;
   text-transform: none;
   margin-top: 0.15rem;
-  max-width: 900px;
 }
 .Exhibition {
   margin-top: 0.4rem;
@@ -3461,6 +3671,76 @@ section {
 #section4 {
 }
 
+/*
+#section5 {
+  .office {
+    display: flex;
+    align-items: left;
+    justify-content: space-around;
+    margin-top: 0.5rem;
+    &.mb {
+      .list {
+        margin-bottom: 0.3rem;
+        height: 100%;
+        margin-left: 0.1rem;
+      }
+    }
+    .content {
+      text-align: left;
+      width: 65%;
+      height: 100%;
+      font-family: HarmonyOS Sans SC Regular;
+      border-radius: 0.5rem;
+      background: #ffffff;
+      padding: 0.22rem;
+      font-size: 0.26rem;
+
+      .top {
+        margin-top: 0;
+        margin-bottom: 0.25rem;
+      }
+      .tag {
+        font-family: HarmonyOS Sans SC Bold;
+        font-weight: bold;
+        font-size: 0.37rem;
+        color: #000000;
+        text-align: left;
+        font-style: normal;
+        text-transform: none;
+      }
+    }
+    .list {
+      width: 30%;
+      height: 100%;
+      background: #ffffff;
+      text-align: center;
+      cursor: pointer;
+      z-index: 2;
+      display: flex;
+      justify-content: center;
+      border-radius: 1.5rem;
+      transition: all linear 0.3s;
+
+
+      &:first-child {
+        margin-left: 0;
+      }
+      img {
+        width: 80%;
+        height: auto;
+        z-index: -1;
+        &.d {
+          display: block;
+        }
+      }
+      &:hover {
+        background: #008aff;
+      }
+    }
+  }
+}
+*/
+
 #section5 {
   .office {
     display: flex;
@@ -3480,17 +3760,18 @@ section {
       }
     }
     .list {
+      display: flex;
+      justify-content: center;
       flex: 1;
       background: #ffffff;
       text-align: center;
       cursor: pointer;
       height: 1.8rem;
       z-index: 2;
-      display: flex;
-      justify-content: center;
       border-radius: 1.5rem;
       margin-left: 0.4rem;
       transition: all linear 0.3s;
+
       &:first-child {
         margin-left: 0;
       }
@@ -3499,24 +3780,11 @@ section {
         z-index: -1;
         &.d {
           display: block;
-          /*border-radius: 1.5rem;*/
-        }
-        &.a {
-          display: none;
-          /*border-radius: 1.5rem;*/
         }
       }
       &:hover {
         background: #008aff;
         height: 100%;
-        img {
-          &.a {
-            display: block;
-          }
-          &.d {
-            display: none;
-          }
-        }
       }
     }
   }
@@ -3692,6 +3960,8 @@ section {
     }
   }
 }
+
+/*
 .dialog {
   top: 0;
   left: 0;
@@ -3701,7 +3971,7 @@ section {
   height: 100vh;
   background: rgba(0, 0, 0, 0.8);
   backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px); /* Safari Support */
+  -webkit-backdrop-filter: blur(10px);
   .img-content {
     width: 100%;
     height: 100%;
@@ -3728,6 +3998,8 @@ section {
     }
   }
 }
+*/
+
 .mbBuyTickets {
   position: fixed;
   bottom: 0;
@@ -3823,6 +4095,7 @@ section {
     }
   }
 }
+
 .pantners {
   width: 100%;
   .pantnersList {

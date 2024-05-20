@@ -1,7 +1,1137 @@
 [
-  "day": 1,
-  "room": "GPT Stage (Palace Of Fine Arts)",
-  "time": "09:00 - 10:00",
-  "type": "Keynote",
-  "title": "What's Next Big Moment in Generative AI?"
+  [
+    {
+      "day": 1,
+      "room": "GPT Stage (Palace Of Fine Arts)",
+      "time": "09:00-10:00",
+      "type": "Keynote",
+      "topic": "The Future of Foundation Models",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ]
+    },
+    {
+      "day": 1,
+      "room": "GPT Stage (Palace Of Fine Arts)",
+      "time": "10:00-10:45",
+      "type": "Keynote",
+      "topic": "Enterprise AI Search & Knowledge Discovery",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ]
+    },
+    {
+      "day": 1,
+      "room": "GPT Stage (Palace Of Fine Arts)",
+      "time": "10:45-11:45",
+      "type": "Keynote",
+      "topic": "What's Next Big Moment in Generative AI? | Enterprise AI Search & Knowledge Discovery",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["rodrigoliang", "Rodrigo Liang"]
+      ]
+    },
+    {
+      "day": 1,
+      "room": "GPT Stage (Palace Of Fine Arts)",
+      "time": "11:45-12:15",
+      "type": "Keynote",
+      "topic": "Improving RAG with Retrieval Augmented Fine-Tuning (RAFT) with AI Studio: Practical insights",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["cedricvidal", "Cedric Vidal"]
+      ]
+    },
+    {
+      "day": 1,
+      "room": "GPT Stage (Palace Of Fine Arts)",
+      "time": "13:00-13:45",
+      "type": "Panel Discussion",
+      "topic": "Key Challenges for Providing GenAI Services On Scalable Cloud Infrastructure",
+      "moderators": [
+        ["yasharbehzadi", "Yashar Behzadi"]
+      ],
+      "abstract": "",
+      "speakers": [
+        ["yangqingjia", "Dr. Yangqing Jia"],
+        ["ameerhajali", "Dr. Ameer Haj-Ali"],
+        ["tuhinsrivastava", "Tuhin Srivastava"],
+        ["joshtobin", "Dr. Josh Tobin"],
+        ["jasperzhang", "Dr. Jasper Zhang"]
+      ]
+    },
+    {
+      "day": 1,
+      "room": "GPT Stage (Palace Of Fine Arts)",
+      "time": "13:45-14:30",
+      "type": "Keynote",
+      "topic": "Vector Database built for enterprise-grade AI applications",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["charlesxie", "Charles Xie"]
+      ]
+    },
+    {
+      "day": 1,
+      "room": "GPT Stage (Palace Of Fine Arts)",
+      "time": "14:30-15:15",
+      "type": "Panel Discussion",
+      "topic": "The Power of Data in the Era of GenAI",
+      "moderators": [
+        ["yinazhang", "Yina Zhang"]
+      ],
+      "abstract": "",
+      "speakers": [
+        ["amazon", "Amazon"],
+        ["ajinkyamalasane", "Ajinkya Malasane"],
+        ["jainatarajan", "Jai Natarajan"],
+        ["shirchorev", "Shir Chorev"]
+      ]
+    },
+    {
+      "day": 1,
+      "room": "GPT Stage (Palace Of Fine Arts)",
+      "time": "15:15-16:00",
+      "type": "Panel Discussion",
+      "topic": "Robotics and GenAI",
+      "moderators": [
+        ["jimfan", "Dr. Jim Fan"]
+      ],
+      "abstract": "",
+      "speakers": [
+        ["tonyzhao", "Tony Zhao"],
+        ["zipengfu", "Zipeng Fu"],
+        ["chengchi", "Cheng Chi"]
+      ]
+    },
+    {
+      "day": 1,
+      "room": "GPT Stage (Palace Of Fine Arts)",
+      "time": "16:00-16:45",
+      "type": "Panel Discussion",
+      "topic": "AI Computing / AI HW - Corporate VC investment strategy & focus",
+      "moderators": [
+        ["xuhuishao", "Xuhui Shao"]
+      ],
+      "abstract": "",
+      "speakers": [
+        ["jeffhennig", "Jeff Hennig"],
+        ["tushargupta", "Tushar Gupta"]
+      ]
+    },
+    {
+      "day": 1,
+      "room": "AGI Stage (Palace Of Fine Arts Theatre)",
+      "time": "09:00-9:45",
+      "type": "Keynote",
+      "topic": "Advancements in Embodied AI: Key Technologies, Applications, and Future Trends",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["jimfan", "Dr. Jim Fan"]
+      ]
+    },
+    {
+      "day": 1,
+      "room": "AGI Stage (Palace Of Fine Arts Theatre)",
+      "time": "9:45-10:30",
+      "type": "Keynote",
+      "topic": "Transforming Business Processes with LLM: Opportunities and Challenges",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ]
+    },
+    {
+      "day": 1,
+      "room": "AGI Stage (Palace Of Fine Arts Theatre)",
+      "time": "13:00-13:45",
+      "type": "Keynote",
+      "topic": "Optimizing Enterprise Systems through Integration of LLM",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["arvindjain", "Arvind Jain"]
+      ]
+    },
+    {
+      "day": 1,
+      "room": "AGI Stage (Palace Of Fine Arts Theatre)",
+      "time": "13:45-14:30",
+      "type": "Panel Discussion",
+      "topic": "Conversational AI in Sales and Marketing",
+      "moderators": [
+        ["siqilin", "Siqi Lin"]
+      ],
+      "abstract": "",
+      "speakers": [
+        ["jimpalmer", "Jim Palmer"],
+        ["yanivmakover", "Yaniv Makover"],
+        ["xichen", "Prof. Chen Xi"],
+        ["andreasramos", "Prof. Andreas Ramos"]
+      ]
+    },
+    {
+      "day": 1,
+      "room": "AGI Stage (Palace Of Fine Arts Theatre)",
+      "time": "14:30-15:15",
+      "type": "Panel Discussion",
+      "topic": "Conversational AI in Sales and Marketing",
+      "moderators": [
+        ["yaodu", "Dr. Yao Du"],
+        ["jenniferlistgarten"]
+      ],
+      "abstract": "",
+      "speakers": [
+        ["zacharylipton", "Zachary Lipton"],
+        ["ankitjain", "Ankit Jain"],
+        ["natalievassilieva", "Natalie Vassilieva"],
+        ["tombrady", "Tom Brady"]
+      ]
+    },
+    {
+      "day": 1,
+      "room": "AGI Stage (Palace Of Fine Arts Theatre)",
+      "time": "15:15-16:15",
+      "type": "Panel Discussion",
+      "topic": "A Deep Dive into the State-of-the-Art LLMs",
+      "moderators": [
+        ["minfawang", "Minfa Wang"]
+      ],
+      "abstract": "",
+      "speakers": [
+        ["devendrachaplot", "Dr. Devendra Chaplot"],
+        ["sharannarang", "Sharan Narang"],
+        ["tonywu", "Dr. Tony Wu"]
+      ]
+    },
+    {
+      "day": 1,
+      "room": "AGI Stage (Palace Of Fine Arts Theatre)",
+      "time": "16:15-17:00",
+      "type": "Panel Discussion",
+      "topic": "Innovating Infrastructure for LLM",
+      "moderators": [
+        ["alexwitt", "Alex Witt"]
+      ],
+      "abstract": "",
+      "speakers": [
+        ["monicazou", "Monica Zou"],
+        ["denisskrinnikoff", "Denis Skrinnikoff"],
+        ["onesourcecloud", "OneSource Cloud"]
+      ]
+    },
+    {
+      "day": 1,
+      "room": "Align Stage",
+      "time": "09:00-10:00",
+      "type": "Panel Discussion",
+      "topic": "VC",
+      "moderators": [
+        ["kevinwu", "Kevin Wu"]
+      ],
+      "abstract": "",
+      "speakers": [
+      ]
+    },
+    {
+      "day": 1,
+      "room": "Align Stage",
+      "time": "11:00-12:00",
+      "type": "Panel Discussion",
+      "topic": "Computing Resource for LLM",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["nikunjbajaj", "Nikunj Bajaj"]
+      ]
+    },
+    {
+      "day": 1,
+      "room": "Align Stage",
+      "time": "13:00-13:45",
+      "type": "Panel Discussion",
+      "topic": "Revolutionizing Healthcare with Generative AI in",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ]
+    },
+    {
+      "day": 1,
+      "room": "Align Stage",
+      "time": "13:45-14:00",
+      "type": "Keynote",
+      "topic": "How to help GenAI companies to expand business Internationally",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["idairland", "IDA Ireland"]
+      ]
+    },
+    {
+      "day": 1,
+      "room": "Align Stage",
+      "time": "14:30-15:15",
+      "type": "Keynote",
+      "topic": "Navigating the AI Changing Landscape",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["jeremiahowyang", "Jeremiah Owyang"]
+      ]
+    },
+    {
+      "day": 1,
+      "room": "Workshop Room",
+      "time": "09:00-11:00",
+      "type": "Workshop",
+      "topic": "Build an advanced Retrieval Augmented Generation (RAG) assistant with Amazon Bedrock",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["vidyasagarravipati", "Vidya Sagar Ravipati"]
+      ]
+    },
+    {
+      "day": 1,
+      "room": "Workshop Room",
+      "time": "13:00-15:00",
+      "type": "Workshop",
+      "topic": "Will be provived by speaker soon",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["sambanova", "SambaNova"]
+      ]
+    },
+    {
+      "day": 1,
+      "room": "Workshop Room",
+      "time": "15:00-17:00",
+      "type": "Workshop",
+      "topic": "Will be provived by speaker soon",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["ibm", "IBM"]
+      ]
+    },
+    {
+      "day": 1,
+      "room": "Breakout Room 7",
+      "time": "10:00-11:00",
+      "type": "Seminar",
+      "topic": "Pitching Your Startup: The Brutal Truth About What VCs Want in AI-First Companies",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["jayzhao", "Jay Zhao"],
+        ["jennyxiao", "Jenny Xiao"],
+        ["chrismccann", "Chris McCann"],
+        ["barr", "Barr Yaron"]
+      ]
+    },
+    {
+      "day": 1,
+      "room": "Breakout Room 7",
+      "time": "14:00-15:00",
+      "type": "Seminar",
+      "topic": "Harnessing LLM for Predictive Analysis in Cryptocurrency Investments",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["mengfanzhang", "Mengfan Zhang"]
+      ]
+    }
+  ],
+  [
+    {
+      "day": 2,
+      "room": "GPT Stage (Palace Of Fine Arts)",
+      "time": "09:00-09:45",
+      "type": "Keynote",
+      "topic": "The Role of Generative AI in Advancing Industrial Automation and Smart Manufacturing",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["rashmimisra", "Dr. Rashmi Misra"]
+      ]
+    },
+    {
+      "day": 2,
+      "room": "GPT Stage (Palace Of Fine Arts)",
+      "time": "09:45-10:30",
+      "type": "Fireside Chat",
+      "topic": "Unlocks the Power of Knowledge with Information Discovery and Sharing",
+      "moderators": [
+        ["eddieaftandilian", "Eddie Aftandilian"]
+      ],
+      "abstract": "",
+      "speakers": [
+        ["denisyarats", "Denis Yarats"]
+      ]
+    },
+    {
+      "day": 2,
+      "room": "GPT Stage (Palace Of Fine Arts)",
+      "time": "10:30-11:15",
+      "type": "Keynote",
+      "topic": "How To Shape the Future of Enterprise using GenAI",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["armandruiz", "Armand Ruiz"]
+      ]
+    },
+    {
+      "day": 2,
+      "room": "GPT Stage (Palace Of Fine Arts)",
+      "time": "11:15-12:00",
+      "type": "Fireside Chat",
+      "topic": "Will be provived by speaker soon",
+      "moderators": [
+        ["nathanlile", "Nathan Lile"]
+      ],
+      "abstract": "",
+      "speakers": [
+        ["michaelstewart", "Michael Stewart"]
+      ]
+    },
+    {
+      "day": 2,
+      "room": "GPT Stage (Palace Of Fine Arts)",
+      "time": "13:00-13:45",
+      "type": "Panel Discussion",
+      "topic": "Harnessing the Power of LLM for Super Agents: Capabilities, Challenges, and Future Prospects",
+      "moderators": [
+        ["yoheinakajima", "Yohei Nakajima"]
+      ],
+      "abstract": "",
+      "speakers": [
+        ["jiangchen", "Jiang Chen"],
+        ["davitbaghdasaryan", "Davit Baghdasaryan"],
+        ["curtisnorthcutt", "Curtis Northcutt"],
+        ["lancemartin", "Lance Martin"]
+      ]
+    },
+    {
+      "day": 2,
+      "room": "GPT Stage (Palace Of Fine Arts)",
+      "time": "13:45-14:30",
+      "type": "Panel Discussion",
+      "topic": "LLM Alignment: Ensuring Ethical and Safe of LLM",
+      "moderators": [
+        ["lancemartin", "Lance Martin"]
+      ],
+      "abstract": "",
+      "speakers": [
+        ["chuntingzhou", "Dr. Chunting Zhou"],
+        ["yoheinakajima", "Yohei Nakajima"],
+        ["shishirpatil", "Shishir Patil"],
+        ["soumyabatra", "Soumya Batra"]
+      ]
+    },
+    {
+      "day": 2,
+      "room": "GPT Stage (Palace Of Fine Arts)",
+      "time": "14:30-15:15",
+      "type": "Panel Discussion",
+      "topic": "Identifying Unicorns: How can VCs spot the next big thing in GenAI?",
+      "moderators": [
+        ["matthewstepka", "Matthew Stepka"]
+      ],
+      "abstract": "",
+      "speakers": [
+        ["jingshenghuang", "Jingsheng Huang"],
+        ["obviousventure", "Obvious Venture"],
+        ["edroman", "Ed Roman"],
+        ["rockyyu", "Rocky Yu"]
+      ]
+    },
+    {
+      "day": 2,
+      "room": "GPT Stage (Palace Of Fine Arts)",
+      "time": "15:15-16:00",
+      "type": "Panel Discussion",
+      "topic": "How does LLM Helps to Preserve Minority Culture",
+      "moderators": [
+        ["arturkiulian", "Artur Kiulian"]
+      ],
+      "abstract": "",
+      "speakers": [
+        ["dineshmaheshwari", "Dinesh Maheshwari"],
+        ["bryanmccann", "Bryan McCann"],
+        ["stanlee", "Stan Lee"],
+        ["devendrachaplot", "Dr. Devendra Chaplot"]
+      ]
+    },
+    {
+      "day": 2,
+      "room": "GPT Stage (Palace Of Fine Arts)",
+      "time": "16:00-16:45",
+      "type": "Panel Discussion",
+      "topic": "Building a Brain for the Copilot: How Infrastructure Enables Powerful GenAI Assistants",
+      "moderators": [
+        ["bhavinshah", "Bhavin Shah"]
+      ],
+      "abstract": "",
+      "speakers": [
+        ["dmytrodzhulgakov", "Dmytro Dima Dzhulgakov"],
+        ["eddieaftandilian", "Dr. Eddie Aftandilian"],
+        ["ramsriharsha", "Dr. Ram Sriharsha"]
+      ]
+    },
+    {
+      "day": 2,
+      "room": "AGI Stage (Palace Of Fine Arts Theatre)",
+      "time": "09:00-09:45",
+      "type": "Keynote",
+      "topic": "Will be provived by speaker soon",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["jasonwei", "Jason Wei"]
+      ]
+    },
+    {
+      "day": 2,
+      "room": "AGI Stage (Palace Of Fine Arts Theatre)",
+      "time": "09:45-10:15",
+      "type": "Keynote",
+      "topic": "Lightning Speed AI Inference to Understand Profoundly and Intuitively",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["jonathanross", "Jonathan Ross"]
+      ]
+    },
+    {
+      "day": 2,
+      "room": "AGI Stage (Palace Of Fine Arts Theatre)",
+      "time": "10:15-11:15",
+      "type": "Keynote",
+      "topic": "AI for Work: How GenAI Improves the Way We Work and Collaborate",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["samliang", "Dr. Sam Liang"]
+      ]
+    },
+    {
+      "day": 2,
+      "room": "AGI Stage (Palace Of Fine Arts Theatre)",
+      "time": "11:15-11:45",
+      "type": "Keynote",
+      "topic": "What Makes SF and CA the Capital of AI in the World",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["fionama", "Fiona Ma"]
+      ]
+    },
+    {
+      "day": 2,
+      "room": "AGI Stage (Palace Of Fine Arts Theatre)",
+      "time": "13:00-13:45",
+      "type": "Panel Discussion",
+      "topic": "The Future and Challenges of AI-Powered Enterprise Copilot",
+      "moderators": [
+        ["stephenchin", "Stephen Chin"]
+      ],
+      "abstract": "",
+      "speakers": [
+        ["bhavinshah", "Bhavin Shah"],
+        ["kevinmoody", "Kevin Moody"]
+      ]
+    },
+    {
+      "day": 2,
+      "room": "AGI Stage (Palace Of Fine Arts Theatre)",
+      "time": "13:45-14:30",
+      "type": "Panel Discussion",
+      "topic": "Leadership in Generative AI: Pioneering Women Shaping the Future",
+      "moderators": [
+        ["christiewang", "Christie Wang"]
+      ],
+      "abstract": "",
+      "speakers": [
+        ["rashmimisra", "Dr. Rashmi Misra"],
+        ["jiali", "Dr. Jia Li"],
+        ["rochellemattern", "Rochelle Mattern"],
+        ["clairexie", "Claire Xie"]
+      ]
+    },
+    {
+      "day": 2,
+      "room": "AGI Stage (Palace Of Fine Arts Theatre)",
+      "time": "14:30-15:15",
+      "type": "Panel Discussion",
+      "topic": "The World of Customer Support with AI Agents",
+      "moderators": [
+        ["sonyachen", "Sonya Chen"]
+      ],
+      "abstract": "",
+      "speakers": [
+        ["jiali", "Dr. Jia Li"],
+        ["swapniljain", "Swapnil Jain"],
+        ["timshi", "Tim Shi"],
+        ["henrypeter", "Henry Peter"]
+      ]
+    },
+    {
+      "day": 2,
+      "room": "AGI Stage (Palace Of Fine Arts Theatre)",
+      "time": "16:00-16:45",
+      "type": "Fireside Chat",
+      "topic": "AI-Powered Personalization",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["yichongxu", "Dr. Yichong Xu"]
+      ]
+    },
+    {
+      "day": 2,
+      "room": "Align Stage",
+      "time": "10:00-11:00",
+      "type": "Panel Discussion",
+      "topic": "VC",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["murraynewlands", "Murray Newlands"]
+      ]
+    },
+    {
+      "day": 2,
+      "room": "Align Stage",
+      "time": "11:00-12:00",
+      "type": "Panel Discussion",
+      "topic": "VC",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["benjaminlevy", "Benjamin Levy"],
+        ["austinarensberg", "Austin Arensberg"]
+      ]
+    },
+    {
+      "day": 2,
+      "room": "Align Stage",
+      "time": "13:00-13:30",
+      "type": "Keynote",
+      "topic": "Will be provived by speaker soon",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["geraldparloiu", "Gerald Parloiu"]
+      ]
+    },
+    {
+      "day": 2,
+      "room": "Align Stage",
+      "time": "14:30-15:15",
+      "type": "Keynote",
+      "topic": "Underestimated Potential: The Role of Domain-Specific LLMs in Driving a 500% Productivity Boost Across Industries by 2026",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["mengfanzhang", "Mengfan Zhang"]
+      ]
+    },
+    {
+      "day": 2,
+      "room": "Align Stage",
+      "time": "15:15-16:00",
+      "type": "Keynote",
+      "topic": "Knowledge Graphs & GraphRAG: Essential Ingredients for Enterprise GenAI",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["philiprathle", "Philip Rathle"]
+      ]
+    },
+    {
+      "day": 2,
+      "room": "Align Stage",
+      "time": "16:00-16:45",
+      "type": "Keynote",
+      "topic": "Text to Video Editing",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["josesotelo", "Jose Sotelo"]
+      ]
+    },
+    {
+      "day": 2,
+      "room": "Workshop Room",
+      "time": "09:00-11:00",
+      "type": "Workshop",
+      "topic": "Will be provived by speaker soon",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["nikspirin", "Nik Spirin"]
+      ]
+    },
+    {
+      "day": 2,
+      "room": "Workshop Room",
+      "time": "13:00-15:00",
+      "type": "Workshop",
+      "topic": "How to Use Otter.AI to Enpower GenAI Productivity at Work",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["richardtasker", "Richard Tasker"]
+      ]
+    },
+    {
+      "day": 2,
+      "room": "Workshop Room",
+      "time": "15:00-17:00",
+      "type": "Workshop",
+      "topic": "Will be provived by speaker soon",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["zilliz", "Zilliz"]
+      ]
+    },
+    {
+      "day": 2,
+      "room": "Breakout Room 7",
+      "time": "13:00-15:00",
+      "type": "Workshop",
+      "topic": "Will be provived by speaker soon",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["ushur", "Ushur"]
+      ]
+    },
+    {
+      "day": 2,
+      "room": "Breakout Room 7",
+      "time": "13:00-15:00",
+      "type": "Seminar",
+      "topic": "Will be provived by speaker soon",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["rockyyu", "Rocky Yu"]
+      ]
+    }
+  ],
+  [
+    {
+      "day": 3,
+      "room": "GPT Stage (Palace Of Fine Arts)",
+      "time": "09:00-09:45",
+      "type": "Keynote",
+      "topic": "Top 3 Applications of Generative AI in Customer Experience",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["deonnicholas", "Deon Nicholas"]
+      ]
+    },
+    {
+      "day": 3,
+      "room": "GPT Stage (Palace Of Fine Arts)",
+      "time": "09:45-10:30",
+      "type": "Keynote",
+      "topic": "What Does AI Mean for Cloud Infrastructure",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["yangqingjia", "Dr. Yangqing Jia"]
+      ]
+    },
+    {
+      "day": 3,
+      "room": "GPT Stage (Palace Of Fine Arts)",
+      "time": "10:30-11:15",
+      "type": "Keynote",
+      "topic": "The Evolution of AI Assistants: Shaping the Future of Human-Computer Interaction",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["amazon", "Amazon"]
+      ]
+    },
+    {
+      "day": 3,
+      "room": "GPT Stage (Palace Of Fine Arts)",
+      "time": "11:15-12:00",
+      "type": "Keynote",
+      "topic": "Straight Talk on Selling an AI Startup",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["jonshalowitz", "Jon Shalowitz"]
+      ]
+    },
+    {
+      "day": 3,
+      "room": "GPT Stage (Palace Of Fine Arts)",
+      "time": "13:00-13:45",
+      "type": "Panel Discussion",
+      "topic": "VectorDB 2.0 with Longer Context Window",
+      "moderators": [
+        ["jasonlopatecki", "Jason Lopatecki"]
+      ],
+      "abstract": "",
+      "speakers": [
+        ["alexanderratner", "Alexander Ratner"],
+        ["bobvanluijt", "Bob Van Luijt"],
+        ["amrawadallah", "Amr Awadallah"]
+      ]
+    },
+    {
+      "day": 3,
+      "room": "GPT Stage (Palace Of Fine Arts)",
+      "time": "13:45-14:15",
+      "type": "Keynote",
+      "topic": "Path to Production: LLM Evaluations and Observability",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["jasonlopatecki", "Jason Lopatecki"]
+      ]
+    },
+    {
+      "day": 3,
+      "room": "GPT Stage (Palace Of Fine Arts)",
+      "time": "14:15-14:45",
+      "type": "Keynote",
+      "topic": "Will be provived by speaker soon",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["srisatishambati", "Sri Satish Ambati"]
+      ]
+    },
+    {
+      "day": 3,
+      "room": "GPT Stage (Palace Of Fine Arts)",
+      "time": "14:45-15:30",
+      "type": "Panel Discussion",
+      "topic": "Harnessing AI for Societal Good",
+      "moderators": [
+        ["yaodu", "Dr. Yao Du"]
+      ],
+      "abstract": "",
+      "speakers": [
+        ["gregtanaka", "Greg Tanaka"],
+        ["matthewstepka", "Matthew Stepka"]
+      ]
+    },
+    {
+      "day": 3,
+      "room": "GPT Stage (Palace Of Fine Arts)",
+      "time": "15:30-16:15",
+      "type": "Panel Discussion",
+      "topic": "Video Generation Models: from Research to Production",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["sanketshah", "Sanket Shah"],
+        ["jiajunlu", "Jiajun Lu"],
+        ["sunnyrochiramani", "Sunny Rochiramani"]
+      ]
+    },
+    {
+      "day": 3,
+      "room": "GPT Stage (Palace Of Fine Arts)",
+      "time": "16:15-17:00",
+      "type": "Fireside Chat",
+      "topic": "Will be provived by speaker soon",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["andyhock", "Dr. Andy Hock"]
+      ]
+    },
+    {
+      "day": 3,
+      "room": "AGI Stage (Palace Of Fine Arts Theatre)",
+      "time": "09:00-09:45",
+      "type": "Keynote",
+      "topic": "Unleashing the Power of Causal AI: Transforming Insights into Actionable Knowledge",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["darkomatovski", "Dr. Darko Matovski"]
+      ]
+    },
+    {
+      "day": 3,
+      "room": "AGI Stage (Palace Of Fine Arts Theatre)",
+      "time": "09:45-10:30",
+      "type": "Keynote",
+      "topic": "Will be provived by speaker soon",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["muddusudhakar", "Dr. Muddu Sudhakar"]
+      ]
+    },
+    {
+      "day": 3,
+      "room": "AGI Stage (Palace Of Fine Arts Theatre)",
+      "time": "10:30-11:15",
+      "type": "Keynote",
+      "topic": "Will be provived by speaker soon",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["sharannarang", "Sharan Narang"]
+      ]
+    },
+    {
+      "day": 3,
+      "room": "AGI Stage (Palace Of Fine Arts Theatre)",
+      "time": "13:00-13:45",
+      "type": "Panel Discussion",
+      "topic": "AI and the Future of Human Work",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["philiprathle", "Philip Rathle"],
+        ["mikemurchison", "Mike Murchison"],
+        ["ahmedmo", "Ahmed Mo"],
+        ["dapi", "Dapi.com"]
+      ]
+    },
+    {
+      "day": 3,
+      "room": "AGI Stage (Palace Of Fine Arts Theatre)",
+      "time": "13:45-14:30",
+      "type": "Panel Discussion",
+      "topic": "Synthesizing Data Generation",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["kevinmcnamara", "Kevin McNamara"],
+        ["emrahgultekin", "Emrah Gultekin"],
+        ["irenehuang", "Irene Huang"]
+      ]
+    },
+    {
+      "day": 3,
+      "room": "AGI Stage (Palace Of Fine Arts Theatre)",
+      "time": "14:30-15:15",
+      "type": "Panel Discussion",
+      "topic": "AI and Intellectual Property: Navigating the New Landscape",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["jakeheller", "Jake Heller"],
+        ["jiaruiliu", "Jiarui Liu"]
+      ]
+    },
+    {
+      "day": 3,
+      "room": "AGI Stage (Palace Of Fine Arts Theatre)",
+      "time": "15:15-16:00",
+      "type": "Panel Discussion",
+      "topic": "LLM Safety and Security",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["yaronsinger", "Yaron Singer"],
+        ["ralucapopa", "Prof. Raluca Popa"]
+      ]
+    },
+    {
+      "day": 3,
+      "room": "AGI Stage (Palace Of Fine Arts Theatre)",
+      "time": "16:30-17:00",
+      "type": "Panel Discussion",
+      "topic": "Building the Future Classroom",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["bryantalebi", "Bryan Talebi"]
+      ]
+    },
+    {
+      "day": 3,
+      "room": "Align Stage",
+      "time": "09:00-10:00",
+      "type": "Panel Discussion",
+      "topic": "AI and Healthcare",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["lindseyspellman", "Lindsey Spellman"],
+        ["ibm", "IBM"]
+      ]
+    },
+    {
+      "day": 3,
+      "room": "Align Stage",
+      "time": "10:00-11:00",
+      "type": "Panel Discussion",
+      "topic": "How to use data to enpower your business",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["kathrynwu", "Kathryn Wu"],
+        ["telusinternational", "Telus International"],
+        ["zuora", "Zuora"],
+        ["streetbeat", "Streetbeat"],
+        ["mengfanzhang", "Mengfan Zhang"]
+      ]
+    },
+    {
+      "day": 3,
+      "room": "Align Stage",
+      "time": "11:00-12:00",
+      "type": "Panel Discussion",
+      "topic": "Domain specific LLM",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ]
+    },
+    {
+      "day": 3,
+      "room": "Align Stage",
+      "time": "11:00-12:00",
+      "type": "Panel Discussion",
+      "topic": "Domain specific LLM",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ]
+    },
+    {
+      "day": 3,
+      "room": "Align Stage",
+      "time": "13:45-14:30",
+      "type": "Keynote",
+      "topic": "AI in Education: Enhancing Learning Experiences",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["hamzafarooq", "Hamza Farooq"]
+      ]
+    },
+    {
+      "day": 3,
+      "room": "Align Stage",
+      "time": "14:30-15:15",
+      "type": "Panel Discussion",
+      "topic": "Enterprise",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ]
+    },
+    {
+      "day": 3,
+      "room": "Align Stage",
+      "time": "15:15-15:45",
+      "type": "Keynote",
+      "topic": "Minority Culture Preservation and GenAI",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["tiffanyjoybasse", "Tiffany Joy Basse"]
+      ]
+    },
+    {
+      "day": 3,
+      "room": "Workshop Room",
+      "time": "09:00-11:00",
+      "type": "Workshop",
+      "topic": "Will be provived by speaker soon",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["pinecone", "Pinecone"]
+      ]
+    },
+    {
+      "day": 3,
+      "room": "Breakout Room 7",
+      "time": "13:00-15:00",
+      "type": "Seminar",
+      "topic": "Will be provived by speaker soon",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["sethstephensdavidowitz", "Seth Stephens-Davidowitz"]
+      ]
+    }
+  ]
 ]

@@ -215,7 +215,7 @@ export default {
 .agi-stage { background-color: #ede7f6; }
 .align-stage { background-color: #e0f7fa; }
 .launchpad-stage { background-color: #fff9c4; }
-.workshop-room { background-color: #f1f8e9; }
-.breakout-room-7 { background-color: #ffe0b2; }
+.workshop-room { background-color: #ffe0b2; }
+.breakout-room-7 { background-color: #f1f8e9; }
 
 </style>

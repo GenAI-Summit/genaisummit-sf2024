@@ -608,13 +608,13 @@
           <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
             <div
               class="list"
-              @click="openUrl('https://sambanova.ai/')"
+              @click="openUrl('https://www.ibm.com/')"
             >
               <img class="d" src="../assets/images/sponsors/IBM2.jpg" alt="" loading="lazy" />
             </div>
             <div
               class="list"
-              @click="openUrl('https://zilliz.com/')"
+              @click="openUrl('https://sambanova.ai/')"
             >
               <img class="d" src="../assets/images/sponsors/samba.png" alt="" loading="lazy" />
             </div>
@@ -630,13 +630,14 @@
             </div> -->
             <div
               class="list"
-              @click="openUrl('https://otter.ai/')"
+              @click="openUrl('https://zilliz.com/')"
             >
               <img class="d" src="../assets/images/sponsors/zilliz.png" alt="" loading="lazy" />
 
             </div>
             <div
               class="list"
+              @click="openUrl('https://otter.ai/')"
             >
               <img class="d" src="../assets/images/sponsors/otter.png" alt="" loading="lazy" />
             </div>
@@ -654,13 +655,14 @@
             </div> -->
             <div
               class="list"
-              @click="openUrl('https://otter.ai/')"
+              @click="openUrl('https://www.pinecone.io/')"
             >
               <img class="d" src="../assets/images/sponsors/pinecone.png" alt="" loading="lazy" />
 
             </div>
             <div
               class="list"
+              @click="openUrl('https://ushur.com/')"
             >
               <img class="d" src="../assets/images/sponsors/ushur.png" alt="" loading="lazy" />
             </div>
@@ -793,7 +795,7 @@
           <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
             <div
               class="list"
-              @click="openUrl('https://sambanova.ai/')"
+              @click="openUrl('https://www.ibm.com/us-en')"
             >
               <img class="d" src="../assets/images/sponsors/IBM2.jpg" alt="" loading="lazy" />
             </div>
@@ -867,7 +869,6 @@
               <img class="d" src="../assets/images/sponsors/ushur.png" alt="" loading="lazy" />
             </div>
 
-            
           </div>
         </div>
 

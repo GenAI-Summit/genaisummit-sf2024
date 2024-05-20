@@ -567,7 +567,7 @@
             :class="screenWidth > 600 ? '' : 'mb'"
             data-aos="flip-up"
           >
-            WorkShops
+            Workshops
           </div>
           <div class="open-btn">
             <button @click="openUrl('https://forms.gle/9pTcvfZcVEVRzmQZ8')">
@@ -1477,7 +1477,7 @@ import PersionItem from "../components/PersionItem.vue";
 import Swiper from "../components/Swiper.vue";
 import Exhibition from "../components/Exhibition.vue";
 import StarBackground from "../components/StarBackground.vue";
-import Agenda from "../components/Agenda.vue";
+// import Agenda from "../components/Agenda.vue";
 import AgendaCard from "../components/AgendaCard.vue";
 import Resources from "../components/Resources.vue";
 import SpeakerModal from "../components/SpeakerModal.vue";
@@ -2486,7 +2486,7 @@ export default {
     Swiper,
     Exhibition,
     StarBackground,
-    Agenda,
+    // Agenda,
     AgendaCard,
     SpeakerModal,
     Resources,

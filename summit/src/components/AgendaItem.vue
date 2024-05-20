@@ -18,7 +18,6 @@
     </div>
     <div class="right">
       <div class="people">
-        <!--
         <div v-if="item.moderators.length > 0">
           <span v-if="item.moderators.length > 1" class="strong">
             Moderators:
@@ -35,7 +34,6 @@
             {{ moderator[1] }}
           </span>
         </div>
-        -->
       </div>
       <div class="people">
         <div v-if="item.speakers.length > 0">

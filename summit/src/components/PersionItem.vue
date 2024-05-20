@@ -1,6 +1,6 @@
 <template>
   <div class="speaker">
-    <img class="per" :src="getImage(item.image)" alt="" loading="lazy">
+    <img class="per" :src="getImage(item.image)" alt="speaker image" loading="lazy">
     <div class="zw">
       <div class="info">
         <div class="name">{{ item.name }}</div>

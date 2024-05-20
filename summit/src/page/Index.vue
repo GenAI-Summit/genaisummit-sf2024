@@ -1652,7 +1652,7 @@ export default {
       ExhibitionStyle.value.height = "10.2rem";
     };
 
-    const speakersList = ref(speakers);
+    const speakersList = ref(speakers.filter((item) => !item.hide));
     const speakersK12List = ref(speakersK12);
     const newSpeakersList = computed(() => {
       return speakersList.value.filter((item) => item.new);
@@ -1955,14 +1955,14 @@ export default {
           `../assets/images/sponsors/mountainlion.png`,
           import.meta.url
         ).href,
-        url: "https://www.puffer.fi/",
+        url: "https://www.mlion.ai/",
       },
       {
         img: new URL(
           `../assets/images/sponsors/puffer.png`,
           import.meta.url
         ).href,
-        url: "https://www.mlion.ai/",
+        url: "https://www.puffer.fi/",
       },
       {
         img: new URL(`../assets/images/sponsors/espeed.png`, import.meta.url)
@@ -2048,6 +2048,11 @@ export default {
         url: "https://www.valory.xyz/",
       },
       {
+        img: new URL(`../assets/images/sponsors/hexus.png`, import.meta.url)
+          .href,
+        url: "https://www.hexus.ai/",
+      },
+      {
         img: new URL(`../assets/images/sponsors/vimmerse.png`, import.meta.url)
           .href,
         url: "https://www.vimmerse.net/",
@@ -2056,6 +2061,16 @@ export default {
         img: new URL(`../assets/images/sponsors/cloudfabrix.png`, import.meta.url)
           .href,
         url: "https://www.cloudfabrix.com/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/conversight.png`, import.meta.url)
+          .href,
+        url: "https://conversight.ai/",
+      },
+      {
+        img: new URL(`../assets/images/sponsors/fiddler.png`, import.meta.url)
+          .href,
+        url: "https://www.fiddler.ai/",
       },
       {
         img: new URL(`../assets/images/sponsors/ayraa.png`, import.meta.url)
@@ -2187,11 +2202,6 @@ export default {
         url: "https://www.unitree.com/",
       },
       {
-        img: new URL(`../assets/images/sponsors/conversight.png`, import.meta.url)
-          .href,
-        url: "https://conversight.ai/",
-      },
-      {
         img: new URL(`../assets/images/sponsors/enviate.png`, import.meta.url)
           .href,
         url: "https://enviate.ai/home",
@@ -2228,10 +2238,11 @@ export default {
           .href,
         url: "https://www.pointable.ai/",
       },
-      
-
-
-
+      {
+        img: new URL(`../assets/images/sponsors/rapidsoc2.png`, import.meta.url)
+          .href,
+        url: "https://RapidSOC2.com",
+      },
       {
         img: new URL(`../assets/images/sponsors/teqfocus.png`, import.meta.url)
           .href,

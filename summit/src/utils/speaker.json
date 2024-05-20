@@ -10,6 +10,7 @@
     "detail": "londonbreed2.png",
     "description": "London Nicole Breed is the 45th mayor of the City and County of San Francisco. Mayor Breed is the first African-American woman Mayor in San Francisco's history. Born and raised in San Francisco, Mayor Breed's experiences growing up in Plaza East Public Housing and living in neighborhoods impacted by redevelopment, has lead to her commitment to creating opportunities for all San Franciscans to live and thrive.",
     "new": true,
+    "hide": false,
     "id": "londonbreed"
   },
   {
@@ -23,6 +24,7 @@
     "image": "stewart.jpg",
     "description": "Michael Stewart is the Managing Partner at M12, where he spearheads investment theses in generative AI, gaming, web3, and other deep technology domains. Holding both a PhD and an MBA, Michael brings over two decades of expertise in semiconductor and hard technology products, as well as in investment. His career is distinguished by his roles in founding two startups and securing over 40 patents, marking him as a leading figure in the field of technology innovation and venture capital.",
     "new": false,
+    "hide": false,
     "id": "michaelstewart"
   },
   {
@@ -36,6 +38,7 @@
     "image": "armandruiz.jpg",
     "description": "Armand Ruiz is the Vice President of Product Management for the AI Platform at IBM, where he leads the development of Generative AI products and offerings aimed at businesses. Born in Barcelona and based in the San Francisco Bay Area for the last 10 years working at the heart of innovation in Silicon Valley, Armand has worked with customers worldwide from all industries. He has spent over 13 years working in AI and Machine Learning, developing products and solutions that have reached millions of users. Armand is also the founder of a popular newsletter with more than 50k subscribers and shares his passion for AI with over 90k followers on LinkedIn and X.",
     "new": true,
+    "hide": false,
     "id": "armandruiz"
   },
   {
@@ -49,6 +52,7 @@
     "detail": "samliang2.png",
     "description": "Dr. Sam Liang is the CEO and founder of Otter.ai. He holds a PhD from Stanford. Otter.ai provides Collaborative Generative AI for live meeting notes, summaries, chat for team collaboration. It is a WSJ Top 10 AI App. So far, Otter AI has raised a total of $73 million in funding.",
     "new": false,
+    "hide": false,
     "id": "samliang"
   },
   {
@@ -62,6 +66,7 @@
     "detail": "rodrigoliang2.png",
     "description": "Rodrigo Liang, Co-Founder of SambaNova Systems, has propelled the company to a prominent position in AI tech. Founded in 2017 in Palo Alto, SambaNova has swiftly expanded, securing $1.13 billion in funding across multiple rounds. Their innovative hardware and software advance AI applications, pushing the limits of machine learning capabilities, empowering businesses to fully leverage artificial intelligence.",
     "new": false,
+    "hide": false,
     "id": "rodrigoliang"
   },
   {
@@ -75,6 +80,7 @@
     "image": "rashimi.jpg",
     "description": "Dr. Rashmi Misra is the Chief AI Officer at Analog Devices, where she leads the company's AI initiatives. Rashmi has spent her career on the cutting edge of AI products, engineering challenges and go-to-market opportunities, and has garnered broad industry influence and recognition. With a PhD in AI, she brings extensive experience in international business development and innovation across various sectors. Dr. Misra holds six international patents and is actively involved in recruiting top talent in cutting-edge technology fields.",
     "new": true,
+    "hide": false,
     "id": "rashmimisra"
   },
   {
@@ -88,6 +94,7 @@
     "detail": "tonywu2.png",
     "description": "Dr. Wu is the Co-Founder of xAI. Dr. Wu's primary interest is building machines that can reason. He’s the co-author of Minerva, AlphaGeometry, Autoformalization with LLMs, and the STaR algorithm. xAI is a new company working on building artificial intelligence to accelerate human scientific discovery. xAI is led by Elon Musk, CEO of Tesla and SpaceX. The xAI company — a competitor to OpenAI — is in talks to raise up to $6 billion at a valuation of $20 billion, Financial Times reported.",
     "new": true,
+    "hide": false,
     "id": "tonywu"
   },
   {
@@ -101,6 +108,7 @@
     "image": "ross.jpg",
     "description": "Jonathan Ross, CEO and founder of Groq Inc., Groq's core product is a unique processor designed for efficient computation in machine learning and artificial intelligence applications. Often described as Tensor Processing Units (TPUs) or specific accelerators, Groq's processors emphasize simplified interaction between hardware and software, along with enhanced data processing speed and efficiency. Groq is now raising a new funding round, current valued at around $3B. Before Groq, Ross contributed to Google’s Tensor Processing Unit (TPU) and was part of Google X's Rapid Eval Team, initiating projects for Alphabet.",
     "new": true,
+    "hide": false,
     "id": "jonathanross"
   },
   {
@@ -114,6 +122,7 @@
     "image": "arvindjain.jpg",
     "description": "Founded by Arvind Jain, Glean is revolutionizing internal information retrieval and management with its AI-powered work assistant software, aimed at enhancing employee efficiency. The company has raised $200 million in its Series C funding round and another $200 million in its Series D, reaching a valuation of $2.2 billion. Competing against traditional solution providers like Hammerspace, Glean is committed to radically transforming data retrieval and management in enterprises",
     "new": false,
+    "hide": false,
     "id": "arvindjain"
   },
   {
@@ -127,6 +136,7 @@
     "detail": "fionama2.png",
     "description": "Fiona Ma was the first Asian American woman serve as California Assembly Speaker Pro Tempore. Fiona became the California state treasurer since January 7, 2019. She was previously served as a Chair of the California Board of Equalization, the California State Assembly, and the San Francisco Board of Supervisors.",
     "new": false,
+    "hide": false,
     "id": "fionama"
   },
   {
@@ -140,6 +150,7 @@
     "detail": "deonnicholas2.png",
     "description": "Deon Nicholas is the Co-Founder & CEO of Forethought is the generative customer support AI that will 10X the help desk efficiency over chat and email, cut costs, and ensure a top-tier experience. Helping customers building their customer support functions. Currently total funding raised for Forethought is $92M. Deon was a World Finalist at the ACM International Collegiate Programming Contest and was named to Forbes 30 under 30.",
     "new": true,
+    "hide": false,
     "id": "deonnicholas"
   },
   {
@@ -153,6 +164,7 @@
     "image": "jimfan.jpg",
     "description": "Dr. Jim Fan is a Senior Research Scientist at NVIDIA and leads the AI Agents Initiative, focusing on developing versatile agents for both real and simulated environments. His expertise spans multimodal foundation models, reinforcement learning, and computer vision. With a Ph.D. from Stanford Vision Lab under Prof. Fei-Fei Li, Jim has interned at OpenAI, Baidu AI Labs, and MILA, contributing to AI research alongside leaders like Ilya Sutskever and Yoshua Bengio. As a Columbia University Valedictorian, he was awarded the Illig Medal in 2016.",
     "new": false,
+    "hide": false,
     "id": "jimfan"
   },
   {
@@ -166,6 +178,7 @@
     "detail": "jonshalowitz2.png",
     "description": "Jon advises AI and Cloud Infrastructure & Software companies on M&A and strategic financing. With over 25 years of Silicon Valley experience, he's successfully led exits for startups like LiftIgniter, Badgeville, CloudUp Networks, and XDN. Prior to WCP, he held CEO roles and worked at Internet infrastructure giants like 3Com and NetScreen/Juniper. A Phi Beta Kappa graduate of Duke University and Stanford Graduate School of Business alum.",
     "new": true,
+    "hide": false,
     "id": "jonshalowitz"
   },
   {
@@ -179,6 +192,7 @@
     "detail": "denisyarats2.png",
     "description": "Dr. Denis Yarats, the Co-Founder and CTO of Perplexity AI. Perplexity AI is an AI-powered search engine and chatbot that utilizes advanced technologies such as natural language processing (NLP) and machine learning to provide accurate and comprehensive answers to user queries, which brings the challenges to Google Search. Perplexity AI,secured $100 million in funding, which elevated the company's valuation to a total of $520 million.",
     "new": true,
+    "hide": false,
     "id": "denisyarats"
   },
   {
@@ -192,6 +206,7 @@
     "detail": "jasonwei2.png",
     "description": "Jason Wei currently works at OpenAI as a member of the technical staff. Jason graduated from Dartmouth College. He was a senior research scientist at Google Brain. He popularized some key ideas in large language models: chain-of-thought prompting, instruction tuning, and emergent phenomena.",
     "new": false,
+    "hide": false,
     "id": "jasonwei"
   },
   {
@@ -205,6 +220,7 @@
     "detail": "brookejenkins2.png",
     "description": "Brooke Jenkins was sworn in as San Francisco's 31st District Attorney on January 8, 2023. A Bay Area native, she is deeply committed to justice reform and public safety. Jenkins has extensive experience in the San Francisco District Attorney’s Office, handling cases across Hate Crimes, Sexual Assault, and Homicide Units. Her career is marked by advocacy for victims and a drive to implement fair and responsible criminal justice reforms.",
     "new": true,
+    "hide": false,
     "id": "brookejenkins"
   },
   {
@@ -218,6 +234,7 @@
     "detail": "bhavinshah2.png",
     "description": "Bhavin Shah is the CEO and co-founder of Moveworks, a leading AI copilot for enterprises. Moveworks serves over 300 customers, has raised over $300M, and employs over 450 people. Shah has 25+ years of entrepreneurial experience, including founding Refresh.io, acquired by LinkedIn in 2015.",
     "new": true,
+    "hide": false,
     "id": "bhavinshah"
   },
   {
@@ -231,6 +248,7 @@
     "detail": "jiali2.png",
     "description": "Jia is the Co-Founder and President of LiveX AI, with roles including IEEE Fellow for AI leadership, co-instructor of Stanford's Generative AI and Medicine course. LiveX AI is a cutting-edge AI Agent, poised to act as a digital extension of your business—your AI Assistant—enhancing customer engagement, support, and sales operations. It uses advanced AI to deliver human-like interactions that mirror your brand’s voice and tone across all forms of communication, including text, email, and voice, whether through the web or smartphones. Businesses that integrate LiveX AI can quickly experience a host of benefits: increased sales, reduced returns, happier customers, and richer insights from customer data.",
     "new": true,
+    "hide": false,
     "id": "jiali"
   },
   {
@@ -244,6 +262,7 @@
     "detail": "charlesxie2.png",
     "description": "Charles Xie is the founder and CEO of Zilliz, a company dedicated to developing a cutting-edge unstructured data platform for AI applications. He is the creator of Milvus, a leading open-source vector database that is used by over 5,000 enterprises worldwide. In addition to his role at Zilliz, Charles has been actively involved with the LF AI & Data Foundation, serving as a board member and as the chairperson from 2020 to 2021. Before founding Zilliz, he was one of the founding engineers behind Oracle's 12c cloud database project. Charles holds a Master's degree in Computer Science from the University of Wisconsin-Madison.",
     "new": true,
+    "hide": false,
     "id": "charlesxie"
   },
   {
@@ -257,6 +276,7 @@
     "detail": "srisatishambati2.png",
     "description": "Sri Ambati is the Co-Founder and CEO of H2O.ai since 2011. H2O.ai democratizes AI by building user-friendly tools and fostering collaboratioin to make AI accessible to everyone. H2O.ai has raised a total of $251.1M in funding over 9 rounds. Their latest funding was raised on May 12, 2023 from a secondary market round. H2O.ai focuses on Ease of Use and Accessibility, Automated Machine Learning (AutoML), Scalability and Performance. Currently H2O with a valuation of $1.6 billion.",
     "new": true,
+    "hide": false,
     "id": "srisatishambati"
   },
   {
@@ -270,6 +290,7 @@
     "detail": "jingshenghuang2.png",
     "description": "Mr. Jingsheng Huang is the managing executive director at Harvard Center Shanghai. Previously, he was a partner at TPG Growth and RMB Funds, a managing director at Bain Capital LLC, and held positions at SOFTBANK Asia Infrastructure Fund, SuNeVision Ventures, Intel Capital, and GartnerGroup. He has served on boards of China Venture Capital Association and Shanghai Private Equity Association.",
     "new": false,
+    "hide": false,
     "id": "jingshenghuang"
   },
   {
@@ -283,6 +304,7 @@
     "detail": "devendrachaplot2.png",
     "description": "Dr. Devendra Chaplot is a Research Scientist at Mistral AI working on building the next generation of AI models. Earlier he was a Research Scientist at Facebook AI Research where he worked at the intersection of Computer Vision and Robotics. Mistral AI can grasp the nuances of language, context, and even emotions. For now, Mistral AI is valued at $2 Billion in Funding Round, reported by The New York Times.",
     "new": true,
+    "hide": false,
     "id": "devendrachaplot"
   },
   {
@@ -296,6 +318,7 @@
     "detail": "bobvanluijt2.png",
     "description": "Bob van Luijt, as the CEO and co-founder of Weaviate, stands out in the technology industry with his expertise in artificial intelligence. His leadership at Weaviate, an innovative open-source vector database, demonstrates his profound knowledge and entrepreneurial skills. Prior to his current role, van Luijt was involved in various technology projects and startups, showing his capability and versatility in the field. Under his direction, Weaviate, operated by SeMI Technologies, has successfully raised a total funding of $67 Million.",
     "new": true,
+    "hide": false,
     "id": "bobvanluijt"
   },
   {
@@ -309,6 +332,7 @@
     "detail": "muddusudhakar2.png",
     "description": "Dr. Muddu Sudhakar, a Silicon Valley entrepreneur and EY Entrepreneur of the Year 2023, has founded several AI companies acquired by major firms like EMC, ServiceNow, and Splunk. His company Aisera is among America's fastest-growing, serving over 100 million users at F1000 companies. He holds a Ph.D. from UCLA and owns over 40 patents.",
     "new": true,
+    "hide": false,
     "id": "muddusudhakar"
   },
   {
@@ -322,6 +346,7 @@
     "detail": "swapniljain2.png",
     "description": "Observe.AI, co-founded by Swapnil Jain, revolutionizes contact centers with AI to enhance agent performance and automate routine tasks. Observe.AI provides a platform for enhancing the performance of contact centers through artificial intelligence, analyzing customer interactions for insights and automation of workflows to improve service efficiency and effectiveness. The company has successfully raised $213 million.",
     "new": true,
+    "hide": false,
     "id": "swapniljain"
   },
   {
@@ -335,6 +360,7 @@
     "detail": "unitreeg12.png",
     "description": "Unitree G1 is a humanoid agent AI avatar developed by Unitree Robotics, a renowned robotics company. With 23-43 joint motors, it offers flexibility beyond ordinary people. It utilizes imitation and reinforcement learning, has a force-control dexterous hand for precise manipulation, and aims to create a new era of intelligence through its UnifoLM model.",
     "new": false,
+    "hide": false,
     "id": "unitreeg1"
   },
   {
@@ -348,6 +374,7 @@
     "detail": "rochellemattern2.png",
     "description": "Rochelle is the Director of Worldwide Solutions Engineering at SamabNova Systems. Her and her team support enterprise customers in their journey to adopting generative AI technologies to solve their most challenging business problems and unlock new revenue opportunities. With extensive experience in AI solutions, she has worked at Forethought.ai, Google Cloud, and Cisco Systems, where she has helped merge technical innovations with strategic enterprise objectives. Beyond SambaNova, Rochelle serves on the leadership team of Women in AI Club, striving to connect, elevate, and inspire women founders, leaders, and practitioners in AI.",
     "new": false,
+    "hide": false,
     "id": "rochellemattern"
   },
   {
@@ -361,6 +388,7 @@
     "detail": "ralucapopa2.png",
     "description": "Prof. Raluca Ada Popa, an associate professor at UC Berkeley, specializes in privacy technologies and secure AI. She co-directs RISELab and SkyLab and co-founded Opaque Systems and PreVeil. With a Ph.D. and other degrees from MIT, she's honored with the 2021 ACM Grace Murray Hopper Award, among other accolades, highlighting her contributions to computer science and teaching.",
     "new": true,
+    "hide": false,
     "id": "ralucapopa"
   },
   {
@@ -374,6 +402,7 @@
     "detail": "geraldparloiu2.png",
     "description": "Gerald is the Lead GTM for Sana AI. Prior to joining Sana Gerald led over 25 investments for Global Founders Capital and sat on numerous boards. Throughout his career he has also worked at Bain & Co and Morgan Stanley, after having graduated from the Wharton School at the University of Pennsylvania. Sana has raised over $80mn in venture funding and through Sana AI enterprise employees can easily access all their company data. The Knowledge Assistant includes chat, search, a meeting notetaker and workflow automation via AI agents.",
     "new": true,
+    "hide": false,
     "id": "geraldparloiu"
   },
   {
@@ -387,6 +416,7 @@
     "detail": "rockyyu2.png",
     "description": "Rocky Yu is the founding partner of AGI House Ventures, a pre//seed fund that invests in AI startups that aims to redisgn the digital infrastrucutre for humanity around foundation models. He is also the founder and CEO of AGI House, an AI founder and reseacher community. Before that, he spend more than a decade working in the AI//AR space in slicon valley.",
     "new": false,
+    "hide": false,
     "id": "rockyyu"
   },
   {
@@ -400,6 +430,7 @@
     "detail": "jimpalmer2.png",
     "description": "Jim Palmer is a startup founder with experience as a first engineer, team builder, and sustainer. He has worked as an engineer and manager at public companies, with expertise in backend, frontend, full-stack engineering, DevOps, and managing teams focused on NLP, ASR, data engineering, and various AI initiatives. Jim has a strong track record of building and leading engineering teams, and he has a passion for building products that solve real-world problems.",
     "new": false,
+    "hide": false,
     "id": "jimpalmer"
   },
   {
@@ -413,6 +444,7 @@
     "detail": "zacharylipton2.png",
     "description": "Zachary Lipton is an Assistant Professor of Machine Learning at Carnegie Mellon University and the Chief Scientific Officer at Abridge. He leads the Approximately Correct Machine Intelligence (ACMI) lab, focusing on robust and adaptive machine learning algorithms, applications in clinical medicine and NLP, and the societal impact of ML systems. Lipton co-authored the interactive book \"Dive into Deep Learning\" and founded the blog \"Approximately Correct\".",
     "new": false,
+    "hide": false,
     "id": "zacharylipton"
   },
   {
@@ -426,6 +458,7 @@
     "detail": "philiprathle2.png",
     "description": "Philip Rathle is CTO of Neo4j, the graph database and analytics leader that enabled the ICIJ to crack the Panama Papers, and NASA to get to Mars two years faster. Neo4j enables thousands of organizations worldwide-- including most of the Fortune 500-- to solve their most pressing & valuable problems through the power of the connections in data. Neo4j has raised a total funding of $581M over 9 rounds from 21 investors, leading the Company's valuation to over $2 billion.",
     "new": true,
+    "hide": false,
     "id": "philiprathle"
   },
   {
@@ -439,6 +472,7 @@
     "detail": "alexanderratner2.png",
     "description": "Dr. Alex Ratner is the co-founder and CEO at Snorkel AI. Snorkel AI helps Label data way faster the traditional method, helps building high-quality datasets at enterprise scale using programmatic data development and your subject matter experts. Snorkel Flow captures and encodes your domain expertise and automates manual tasks like filtering, curating, labeling, and slicing. Snorkel AI raises $85m Series C at a total of $1b Valuation for Data-Centric AI.",
     "new": true,
+    "hide": false,
     "id": "alexanderratner"
   },
   {
@@ -452,6 +486,7 @@
     "detail": "darkomatovski2.png",
     "description": "Dr. Darko Matovski is a pioneering researcher in Causal AI and co-founder/CEO of causaLens, a $50M venture-backed AI scaleup. He has over a decade of experience at institutions like the UK's National Physical Laboratory and hedge funds. Matovski contributes to ethical AI development as a World Economic Forum Global Innovator and Milken Institute Young Leader, collaborating on global challenges.",
     "new": false,
+    "hide": false,
     "id": "darkomatovski"
   },
   {
@@ -465,6 +500,7 @@
     "detail": "ramsriharsha2.png",
     "description": "Dr. Ram Sriharsha is the CTO at Pinecone. Pinecone created the vector database to help engineers build and scale remarkable AI applications. Vector databases have become a core component of GenAI applications, and Pinecone is the market-leading solution with over 5,000 customers of all types and sizes across all industries. Pinecone has raised $138M in funding from leading investors Andreessen Horowitz, ICONIQ Growth, Menlo Ventures, and Wing Venture Capital, and operates in New York, San Francisco, and Tel Aviv.",
     "new": true,
+    "hide": false,
     "id": "ramsriharsha"
   },
   {
@@ -478,6 +514,7 @@
     "detail": "tuhinsrivastava2.png",
     "description": "Tuhin Srivastava is the Co-Founder and CEO of Baseten, a company dedicated to simplifying the deployment of machine learning models into production without the need for extensive backend, frontend, or MLOps knowledge. Baseten has raised a total of $60 million in funding and is aligned with companies like DataRobot, Algorithmia, and Tecton in its mission to make machine learning more accessible. The platform aids teams in quickly deploying models and developing both front and backend solutions, thereby enhancing decision-making speed and quality.",
     "new": true,
+    "hide": false,
     "id": "tuhinsrivastava"
   },
   {
@@ -491,6 +528,7 @@
     "detail": "sanketshah2.png",
     "description": "Sanket Shah is the CEO of InVideo, a company established in 2017 that focuses on providing a suite of video creation tools including templates, slideshow makers, AI scripts, and faceless video generators. As of May 2021, InVideo has been valued at $200 million, with total funding reaching $52.5 million. Competing with platforms like Canva, Lumen5, Storyblocks, WeVideo, Vimeo, and Animoto, InVideo offers unique features tailored for publishers, media companies, and brands seeking to enhance audience engagement through videos.",
     "new": true,
+    "hide": false,
     "id": "sanketshah"
   },
   {
@@ -504,6 +542,7 @@
     "detail": "curtisnorthcutt2.png",
     "description": "Dr. Curtis Northcutt is the co-founder and CEO of Cleanlab.ai, a company that enhances data reliability through automated cleaning solutions. With a funding of $30 million, Cleanlab.ai is a leader in enterprise AI, large language models, and analytical solutions, collaborating with over 10% of Fortune 500 companies, including AWS and Google. Dr. Northcutt, who holds a PhD in Computer Science from MIT, has held significant roles at companies like Google, Meta, and Amazon before founding Cleanlab.ai.",
     "new": true,
+    "hide": false,
     "id": "curtisnorthcutt"
   },
   {
@@ -517,6 +556,7 @@
     "detail": "jiajunlu2.png",
     "description": "Jiajun Lu is a global leader in artificial intelligence and computer vision with over a decade of experience. He has led teams and startups to deliver successful products, published the book \"Enhanced Human,\" and won awards like Top 10 Pioneering CEOs and Top 50 CEOs of AI companies. Currently, Lu is building Akool, a company focused on personalized visual marketing using generative AI for videos, images, and avatars.",
     "new": false,
+    "hide": false,
     "id": "jiajunlu"
   },
   {
@@ -530,6 +570,7 @@
     "detail": "eddieaftandilian2.png",
     "description": "Dr. Eddie Aftandilian is a Principal Researcher for GitHub Next, GitHub's applied R&D lab. He was a member of the original GitHub Copilot team and currently leads the Copilot Workspace project. Previously, he led Google's Java Tools Team and worked with Google Brain to develop machine-learning-powered developer tools for Google developers. He aims to make software developers happier and more productive by applying AI to build the next generation of developer tools.",
     "new": true,
+    "hide": false,
     "id": "eddieaftandilian"
   },
   {
@@ -543,6 +584,7 @@
     "detail": "yaronsinger2.png",
     "description": "Dr. Yaron Singer is the CEO at Robust Intelligence. He was a tenure Professor of Computer Science at Harvard University and ex Google AI. He holds a PhD from UC Berkeley and BS from Tel Aviv University. Robust Intelligence is building the AI Firewall, a piece of software that wraps around an AI model to protect it from making mistakes. It has raised more than 45 million VC funds.",
     "new": true,
+    "hide": false,
     "id": "yaronsinger"
   },
 
@@ -557,6 +599,7 @@
     "detail": "amrawadallah2.png",
     "description": "Vectara, co-founded by ex-Google engineers Amr Awadallah, aims to transform data utilization in enterprises with its AI-driven conversational search platform. The company, notable for its high search relevance using neural networks, has secured $28.5 million in funding. Vectara challenges conventional keyword searches by interpreting the real intent behind queries, competing with engines like Amazon Kendra and Microsoft SharePoint Syntex to reshape application and website search technology.",
     "new": true,
+    "hide": false,
     "id": "amrawadallah"
   },
   {
@@ -570,6 +613,7 @@
     "detail": "yoheinakajima2.png",
     "description": "Yohei Nakajima is a venture capitalist, coder, and relentless experimenter. BabyAGI represents a significant stride in the domain of AI-powered task management. By automating and streamlining tasks, BabyAGI not only enhances operational efficiency but also provides insights into the capabilities and future potential of autonomous AI agents. This pioneering project has 18K stars in Github.",
     "new": true,
+    "hide": false,
     "id": "yoheinakajima"
   },
   {
@@ -583,6 +627,7 @@
     "detail": "jasonlopatecki2.png",
     "description": "Jason Lopatecki is the Founder and CEO of Arize AI. Arize AI is reshaping AI observability, challenging traditional manual monitoring methods used in data science. The company focuses on enhancing the monitoring and maintenance of AI systems, moving beyond traditional approaches like Splunk's. Arize AI aims to improve efficiency and understanding in AI system management, targeting the data science sector's need for better analytical tools. Arize AI now have raised total of 200million.",
     "new": false,
+    "hide": false,
     "id": "jasonlopatecki"
   },
   {
@@ -596,6 +641,7 @@
     "detail": "timshi2.png",
     "description": "Tim Shi is the co-founder and CTO of Cresta, a company that specializes in artificial intelligence. Tim has also worked for OpenAI, DJI Research, Dropbox, and Microsoft Research Asia. Cresta analyzes every conversation, uncovers customer insights and behavioral best practices that lead to better business outcomes, and drives powerful results with a single unified platform for AI-native quality assurance, coaching, and real-time agent assistance. In March 2022, Cresta raised an $80 million Series C round led by Tiger Global, with participation from key strategic investors, including Genesys, Five9, and Zoom.",
     "new": true,
+    "hide": false,
     "id": "timshi"
   },
   {
@@ -609,6 +655,7 @@
     "detail": "kevinmoody2.png",
     "description": "Mem Labs, co-founded by Kevin Moody, focuses on AI-driven note-taking, highlighting easy organization and automatic note arrangement. The company's AI technology aims to boost the efficiency of knowledge workers by reducing time spent on searching and organizing information. Mem Labs has raised $23.5 million in funding led by the OpenAI Startup Fund, reaching a total of $29 million with a post-money valuation of $110 million. The company has the potential to disrupt traditional note-taking software, such as Notability and Memo, in the future.",
     "new": true,
+    "hide": false,
     "id": "kevinmoody"
   },
   {
@@ -622,6 +669,7 @@
     "detail": "yangqingjia2.png",
     "description": "Dr. Yangqing Jia, as the Founder & CEO of Lepton.ai, spearheads a company that is a leader in AI technology development. His expertise is centered on generative artificial intelligence (GenAI), a key area in AI that involves the creation of new, innovative solutions and data interpretations. Lepton AI is an open-source, cloud-native AI development platform founded by Dr. Yangqing Jia, designed to make AI application development accessible for every developer, particularly those proficient in Python.",
     "new": false,
+    "hide": false,
     "id": "yangqingjia"
   },
   {
@@ -635,6 +683,7 @@
     "detail": "sharannarang2.png",
     "description": "Sharan is a senior research manager on the Llama team. He is responsible for leading the pretraining effort of the Llama models. Most recently, his team was responsible for pretraining the Llama 3 family of models, which achieved state-of-the-art results across all model sizes. Sharan has 9 years of experience in AI and Deep Learning research. Prior to joining Meta, Sharan was at Google Brain where he led the effort to train multiple LLMs, most notably the Pathways Language Model (PaLM). Sharan also led systems research efforts at Baidu Research for speech recognition models. Prior to that, Sharan was building next generation hardware at Nvidia for 6 years.",
     "new": true,
+    "hide": false,
     "id": "sharannarang"
   },
 
@@ -649,6 +698,7 @@
     "detail": "soumyabatra2.png",
     "description": "Soumya Batra is the Co-Author of Llama2 and has been dedicated to the field of Natural Language Processing (NLP) for the past six years. After graduating from the Language Technologies Institute at Carnegie Mellon University, she embarked on her professional journey. She was focused on natural language generation at Meta. Before Meta, she worked on natural language understanding and dialog modeling at Microsoft. Soumya is particularly driven by a passion to understand the underlying mathematics of models and the reasons behind their specific behaviors.",
     "new": true,
+    "hide": false,
     "id": "soumyabatra"
   },
   {
@@ -662,6 +712,7 @@
     "detail": "henrypeter2.png",
     "description": "Henry Peter, as CTO of Ushur, is at the helm of pioneering the world's first AI-powered Experience Automation (XA) platform, uniquely designed for intelligent automation of enterprise journeys within highly regulated industries, purpose-built to intelligently automate enterprise customer journeys in highly regulated industries. Peter's early career was with AT&T's high-reliability network solutions, and now he brings his extensive expertise to Ushur. The company, having recently secured $50M in Series C funding.",
     "new": true,
+    "hide": false,
     "id": "henrypeter"
   },
   {
@@ -674,6 +725,7 @@
     "linkedin": "https://www.linkedin.com/company/worldcoinfoundation/",
     "detail": "worldcoin2.png",
     "new": false,
+    "hide": false,
     "id": "worldcoin"
   },
   {
@@ -687,6 +739,7 @@
     "detail": "arunraman2.png",
     "description": "Arun Raman is an AI solution architect at NVIDIA, adept at navigating the intricate challenges of deploying AI applications across edge, cloud, and on-premises environments within the consumer Internet industry. In his current role, he works on the design of end-to-end accelerated AI pipelines, for consumer internet customers meticulously addressing preprocessing, training, and inference optimizations. His experience extends beyond AI, having worked with distributed systems and multi-cloud infrastructure. He shares practical strategies and real-world experiences, empowering organizations to leverage AI effectively.",
     "new": false,
+    "hide": false,
     "id": "arunraman"
   },
   {
@@ -700,6 +753,7 @@
     "detail": "lancemartin2.png",
     "description": "Dr. Lance Martin is a software engineer with expertise in applied machine learning. He was an early hire at LangChain, where he focused on the Python open-source library. Previously, Martin worked as a tech lead and manager in computer vision for self-driving vehicles at companies like UberATG, Ike, and Nuro. He holds a PhD in applied ML from Stanford.",
     "new": false,
+    "hide": false,
     "id": "lancemartin"
   },
   {
@@ -713,6 +767,7 @@
     "detail": "ajinkyamalasane2.png",
     "description": "Ajinkya Malasane is a seasoned AI leader driving the development of high-quality datasets for GenAI, computer vision, and NLP. He co-founded Playment, an AI data labeling startup backed by Y-Combinator & Samsung.  TELUS International AI Data Solutions supports leading AI companies with high-quality datasets for GenAI, Computer Vision, and NLP. We excel in data collection, annotation, and relevance, delivering diverse datasets to hyperscalers and AI pioneers.",
     "new": false,
+    "hide": false,
     "id": "ajinkyamalasane"
   },
   {
@@ -726,6 +781,7 @@
     "detail": "edroman2.png",
     "description": "Ed Roman is the Managing Partner at Hack VC, specializing in web3 investments with an asset base of over $425 million. His background includes significant roles in growing small businesses, team leadership, game development, and technical writing. Ed's skills extend across various areas such as sales, marketing, software development, and project management. Hack VC, where he leads, is based in New York City and operates globally.",
     "new": true,
+    "hide": false,
     "id": "edroman"
   },
   {
@@ -739,6 +795,7 @@
     "detail": "dmytrodzhulgakov2.png",
     "description": "Dmytro (Dima) Dzhulgakov is a co-founder and CTO of Fireworks.ai. Fireworks.ai is a platform for developing and running Generative AI applications at high speed and low cost. Dmytro is one of PyTorch's core maintainers. Previously he helped to bring PyTorch from a research framework to numerous production applications across Meta's AI use cases and broader industry.",
     "new": false,
+    "hide": false,
     "id": "dmytrodzhulgakov"
   },
   {
@@ -752,6 +809,7 @@
     "detail": "kevinmcnamara2.png",
     "description": "Kevin McNamara is the Founder & CEO of Parallel Domain. Kevin brings deep computer graphics experience having built and led a team within Apple’s Special Projects Group focused on autonomous systems simulation. Parallel Domain is a synthetic data platform powered by 3D simulation and generative AI. In 2022, Parallel Domain Raises $30 Million Series B to super-train AI.",
     "new": true,
+    "hide": false,
     "id": "kevinmcnamara"
   },
   {
@@ -765,6 +823,7 @@
     "detail": "yanivmakover2.png",
     "description": "Anyword, founded by Yaniv Makover, is an AI writing tool aimed at enhancing enterprise marketing with predictive modeling to improve content quality and effectiveness. It challenges leading AI tools like Copy.ai and Jasper, redefining content strategy in digital marketing. Anyword's goal is to revolutionize how content is created and optimized. It has garnered over $30 million in funding to grow its technology and influence.",
     "new": true,
+    "hide": false,
     "id": "yanivmakover"
   },
   {
@@ -778,6 +837,7 @@
     "detail": "joshtobin2.png",
     "description": "Gantry, co-founded by former OpenAI researcher Dr. Josh Tobin. Gantry AI focuses on offering observability, analytics, and evaluation tools to enhance AI-powered products. Their platform enables companies to capture comprehensive data from their AI models, including user interactions and feedback.  The company has secured a total funding of $28.3 million, including a $23.9 million Series A round and a previously undisclosed $4.4 million seed round.",
     "new": true,
+    "hide": false,
     "id": "joshtobin"
   },
   {
@@ -791,6 +851,7 @@
     "detail": "mikemurchison2.png",
     "description": "Mike Murchison is CEO of Ada, the world's leading customer service AI platform. A serial entrepreneur focused on using AI to transform the conversation between businesses and their customers, he champions the Canadian innovation ecosystem at home and abroad. Before starting Ada, Mike founded several other tech companies, including a social search community and a consulting firm for Fortune 500 clients. Ada raised $30M in its latest funding round, which was Series B round held on Feb 10, 2022.",
     "new": true,
+    "hide": false,
     "id": "mikemurchison"
   },
   {
@@ -804,6 +865,7 @@
     "detail": "jakeheller2.png",
     "description": "Jake Heller, J.D., CEO of Casetext, a legal tech company, is a Stanford Law School graduate and former president of the Stanford Law Review. Casetext, known for leveraging AI and natural language processing to assist lawyers in research, attracted partners like Salesforce and Google Cloud, plus Fortune 500 clients. Recently acquired by Thomson Reuters for $650 million, Casetext had previously raised a $100 million Series B round led by Thomson Reuters, valuing the company at $1 billion, bringing total funding to $165 million.",
     "new": true,
+    "hide": false,
     "id": "jakeheller"
   },
   {
@@ -817,6 +879,7 @@
     "detail": "robmeadows2.png",
     "description": "AI Foundation, founded in 2017, focuses on advancing society with personalized AI, ensuring AI is used safely and responsibly. Co-founded by Rob Meadows, a former researcher at OpenAI and tech startup advisor and CTO, the company aims to create intelligent agents to enhance human-AI interaction. Under Rob Meadows' leadership, AI Foundation strives to be a pioneer in the AI space, leveraging his expertise in artificial intelligence.",
     "new": true,
+    "hide": false,
     "id": "robmeadows"
   },
   {
@@ -830,6 +893,7 @@
     "detail": "jeremiahowyang2.png",
     "description": "Jeremiah Owyang is a Venture Capital Investor and GP at Blitzscaling Ventures. He is also a famous Event host & Conference Speaker. He works in an Airstream. He is a Top Thought Leadership Voice on LinkedIn. Jeremiah Owyang has 251K followers in X.",
     "new": false,
+    "hide": false,
     "id": "jeremiahowyang"
   },
   {
@@ -843,6 +907,7 @@
     "detail": "ameerhajali2.png",
     "description": "Dr. Ameer, at Anyscale, leads the development of AI cloud infrastructure, streamlining AI applications with projects like LLM Serving. Anyscale, a $1.1 billion startup, specializes in a cloud platform for efficient AI deployment, challenging industry giants like AWS and Azure. With significant contributions from Dr. Ameer, including a $99 million Series C funding, Anyscale is democratizing large-scale AI, making it more accessible and cost-effective for developers and enterprises.",
     "new": false,
+    "hide": false,
     "id": "ameerhajali"
   },
   {
@@ -856,6 +921,7 @@
     "detail": "irenehuang2.png",
     "description": "Dr. Irene Huang is the Senior Director of Wellness + Resiliency at TaskUs, a company specializing in customer experience and digital outsourcing solutions. A trained clinical psychologist and data scientist, Dr. Huang applies her expertise in mixed-method research to enhance strategic business decisions. TaskUs, a leader in the tech industry, has successfully raised a total of $279 million, underscoring its commitment to innovation and quality.",
     "new": true,
+    "hide": false,
     "id": "irenehuang"
   },
 
@@ -870,6 +936,7 @@
     "detail": "nealvaidya2.png",
     "description": "Neal Vaidya is a developer advocate for deep learning software at NVIDIA. He is responsible for developing and presenting developer-focused content on deep learning frameworks and inference solutions. He holds a bachelor's degree in statistics from Duke University.",
     "new": false,
+    "hide": false,
     "id": "nealvaidya"
   },
   {
@@ -883,6 +950,7 @@
     "detail": "emrahgultekin2.png",
     "description": "Emrah Gultekin is the Co-Founder & Chairman of Chooch. Chooch is a company revolutionizing conventional computer vision. Leveraging advanced Vision AI, Chooch can detect, process, and instantly analyze visual elements in video streams in nanoseconds, surpassing human capabilities. The company envisions a world where humans focus on what they excel at while leaving technology to handle suitable tasks. To date, Chooch has raised over $25.8 million in funding and is widely used across healthcare, public safety, industrial, media, and geospatial sectors.",
     "new": true,
+    "hide": false,
     "id": "emrahgultekin"
   },
   {
@@ -896,6 +964,7 @@
     "detail": "yasharbehzadi2.png",
     "description": "Synthesis AI, founded by experienced entrepreneur Yashar Behzadi, specializes in advancing more capable and ethical AI through synthetic data technologies. The company is dedicated to transforming the computer vision paradigm by enabling customers to develop better models more quickly and cost-effectively compared to traditional human-annotated methods. As of the latest update, Synthesis AI has raised $17 million in funding.",
     "new": true,
+    "hide": false,
     "id": "yasharbehzadi"
   },
   {
@@ -909,6 +978,7 @@
     "detail": "davitbaghdasaryan2.png",
     "description": "Davit Baghdasaryan is the CEO & Co-Founder of Krisp. Founded in 2017, Krisp is a leader in Real-Time Voice AI. Krisp’s flagship AI Noise Cancellation technology has been deployed on over 200M+ devices and is processing 80B+ mins of conversations every day. Today, Krisp's AI solutions range from Noise Cancellation, Accent Localization to Transcriptions and Meeting Summaries. Prior to Krisp, Davit was the Head of Product Security at Twilio and spent 15+ years various in engineering roles.",
     "new": true,
+    "hide": false,
     "id": "davitbaghdasaryan"
   },
   {
@@ -922,6 +992,7 @@
     "detail": "tonybeltramelli2.png",
     "description": "Uizard Technology, co-founded by Tony Beltramelli, aims to democratize design with its AI-powered tool, enabling non-designers to quickly prototype digital products. The company competes with other design and development platforms, seeking to disrupt the traditional design and development workflow. Uizard has raised a total of $15 million as of its latest funding round.",
     "new": true,
+    "hide": false,
     "id": "tonybeltramelli"
   },
   {
@@ -935,6 +1006,7 @@
     "detail": "xichen2.png",
     "description": "Dr. Xi Chen is a Professor and Andre Meyer Faculty Fellow at NYU Stern, specializing in machine learning applications in various quantitative fields. With a Ph.D. from CMU, he's contributed to operations management and quantitative finance, working with firms like Google and JP Morgan. He's served as an editor for journals such as Management Science. Honors include Forbes 30 Under 30 and Poets & Quants' Best 40 Under 40 MBA Professors.",
     "new": false,
+    "hide": false,
     "id": "xichen"
   },
   {
@@ -948,6 +1020,7 @@
     "detail": "yichongxu2.png",
     "description": "Dr. Yichong Xu, Technical Staff Member at Character.AI, focusing on advanced language models. Character.AI, aiming to revolutionize conversational AI, competes with industry leaders like OpenAI, valued at $1 billion, and has successfully raised $150 million in funding to enhance chatbot technology and user interactions.",
     "new": false,
+    "hide": false,
     "id": "yichongxu"
   },
   {
@@ -961,6 +1034,7 @@
     "detail": "jiangchen2.png",
     "description": "With extensive experience in data infrastructure and information retrieval, Jiang leads the development, research, and advocacy of AI-powered search at Zilliz. He oversees collaborations with partners and open-source communities to build the seamless integration of the Milvus vector database with LLM application frameworks. Previously, Jiang served as a tech lead and product manager for Search Indexing at Google.",
     "new": false,
+    "hide": false,
     "id": "jiangchen"
   },
   {
@@ -974,6 +1048,7 @@
     "detail": "monicazou2.png",
     "description": "Monica Zou is the Chief Marketing Officer at DEKUBE, an innovative leader in democratizing AI development by leveraging a vast, distributed network of GPUs to make AI innovation accessible and beneficial for all. At DEKUBE, Monica leads marketing strategies that enhance global awareness and adoption of DEKUBE's platform, which provides crucial GPU power to projects on platforms like Hugging Face and has established partnerships with over 30 AI startups.",
     "new": true,
+    "hide": false,
     "id": "monicazou"
   },
   {
@@ -987,6 +1062,7 @@
     "detail": "dineshmaheshwari2.png",
     "description": "Dinesh Maheshwari is an accomplished C-level executive with over 30 years of experience in semiconductors, systems, and software industries. He currently serves as the CTO at Groq, a machine learning startup, and is a partner at SiliconCatalyst, focusing on due diligence and mentoring startups. Maheshwari has played various roles as a strategist, technologist, and entrepreneur, contributing to revolutions in multi-processor systems, EDA, optical communications, and networking. He holds 58 US patents and a Bachelor's degree from IIT Delhi.",
     "new": false,
+    "hide": false,
     "id": "dineshmaheshwari"
   },
   {
@@ -1000,6 +1076,7 @@
     "detail": "shishirpatil2.png",
     "description": "Shishir Patil is the creator of Gorilla LLM, a LLM that can provide massive appropriate API calls. Patil is now currently a Ph.D. candidate in Computer Science at UC Berkeley, advised by Joseph Gonzalez and Prabal Dutta. His research focuses on ML-Systems, Large Language Models, and on-device ML, collaborating with the Sky Computing Lab, Lab11, and Berkeley AI Research (BAIR).",
     "new": false,
+    "hide": false,
     "id": "shishirpatil"
   },
   {
@@ -1013,6 +1090,7 @@
     "detail": "rajatsuri2.png",
     "description": "Rajat Suri, as the Co-founder of Lima, is instrumental in steering the company's innovative approach in technology. His role emphasizes the application of AI in unique and groundbreaking ways. Suri, with an educational background that includes an MS and a PhD/MBA program (which he left) at the Massachusetts Institute of Technology, brings a robust academic perspective to his leadership at Lima, a company that helps skilled immigrants achieve their American dreams.",
     "new": false,
+    "hide": false,
     "id": "rajatsuri"
   },
   {
@@ -1026,6 +1104,7 @@
     "detail": "andreasramos2.png",
     "description": "Prof. Andreas Ramos, renowned for his expertise in SEO and digital marketing, has authored over 22 books, including the notable \"Search Engine Marketing\" (published by McGraw-Hill and Tsinghua University, China). He also served as the technical editor for \"Search Engine Marketing, Inc.\" by Mike Moran. Ramos is an adjunct professor at Omnes Education, CSTU in Silicon Valley, and DMAnc, imparting his vast knowledge in digital marketing.",
     "new": false,
+    "hide": false,
     "id": "andreasramos"
   },
   {
@@ -1039,6 +1118,7 @@
     "detail": "murraynewlands2.png",
     "description": "Murray, a celebrated entrepreneur and VC, is a Founding Partner at Open Future Technology, previously influencing Turing.com's growth and advising Draper Nexus. Known from The Huffington Post's Top 10 list, he formerly partnered at OnePiece Labs within Uphonest Capital. Currently, he spearheads a web3 and AI incubator, connecting with Silicon Valley's tech community.",
     "new": false,
+    "hide": false,
     "id": "murraynewlands"
   },
   {
@@ -1052,6 +1132,7 @@
     "detail": "benjaminlevy2.png",
     "description": "Mr. Levy co-founded BootstrapLabs, a leading AI-focused venture capital firm. He previously launched two fintech startups and worked as an investment banker advising companies on M&A and financing. Mr. Levy is an AAAI member and frequent speaker on AI, investing, and entrepreneurship.",
     "new": false,
+    "hide": false,
     "id": "benjaminlevy"
   },
   {
@@ -1065,6 +1146,7 @@
     "detail": "frankliu2.png",
     "description": "Frank Liu is Head of AI & ML at Zilliz, with over eight years of industry experience in machine learning and hardware engineering. Before joining Zilliz, Frank co-founded Orion Innovations, an IoT startup based in Shanghai, and worked as an ML Software Engineer at Yahoo in San Francisco. He presents at major industry events like the Open Source Summit and writes tech content for leading publications such as Towards Data Science, The New Stack, the Sequence, and DZone. His passion for ML extends beyond the workplace; in his free time, he trains ML models and experiments with unique architectures. Frank holds MS and BS degrees in Electrical Engineering from Stanford University.",
     "new": false,
+    "hide": false,
     "id": "frankliu"
   },
   {
@@ -1078,6 +1160,7 @@
     "detail": "shaileshmanjrekar2.png",
     "description": "Shailesh Manjrekar, is the Chief Marketing Officer at CloudFabrix. He is responsible for CloudFabrix's AI and SaaS Product thought leadership, Marketing, and Go To Market strategy for Observability and AIOps market. Shailesh Manjrekar is a seasoned IT professional who has over two decades of experience in building and managing emerging global businesses. He brings an established background in product management and solutions marketing, strategic alliances spanning AI and Deep Learning, FinTech, Lifesciences SaaS solutions and has been part of 6 successful exits. Manjrekar is an avid speaker at NVIDIA GTC and Storage Developer Conference and a Forbes Technology Council contributor since 2020.",
     "new": false,
+    "hide": false,
     "id": "shaileshmanjrekar"
   },
   {
@@ -1091,6 +1174,7 @@
     "detail": "chengchi2.png",
     "description": "Cheng Chi is a 4th year CS PhD student at Columbia University, and a EE Student of New Faculty (SNF) at Stanford University, advised by Professor Shuran Song. During his PhD, Cheng work closely with Toyota Research Institute on solving complex robotic manipulation problems, dealing with deformable objects and hard-to-model dynamics. Recently, he is interested in scaling imitation learning for general purpose robotic manipulation.",
     "new": false,
+    "hide": false,
     "id": "chengchi"
   },
   {
@@ -1104,6 +1188,7 @@
     "detail": "chuntingzhou2.png",
     "description": "Dr. Chunting Zhou, a Senior Research Scientist at Meta AI, plays a pivotal role in advancing machine learning and natural language processing (NLP) technologies. With a PhD in Natural Language Processing and Machine Learning from Carnegie Mellon University, her contributions significantly enhance Meta AI's research capabilities. At Meta AI, part of Meta Platforms valued at $962.39 billion, she leverage their expertise to drive innovation in AI, particularly in the realms of NLP and machine learning.",
     "new": false,
+    "hide": false,
     "id": "chuntingzhou"
   },
   {
@@ -1117,6 +1202,7 @@
     "detail": "tonyzhao2.png",
     "description": "Tony Zhao is the creator and author of Mobile ALOHA. He is now a PhD student at Stanford advised by Chelsea Finn. Tony's research enables robots to autonomously execute intricate manipulation tasks, including the development of new machine learning algorithms as well as hardware platforms like Aloha. Mobile Aloha is a humanoid robot that can be remote operated by a user and perform autonomously by imitation learning.",
     "new": true,
+    "hide": false,
     "id": "tonyzhao"
   },
   {
@@ -1130,6 +1216,7 @@
     "detail": "zipengfu2.png",
     "description": "Zipeng Fu is the creator and author of ALOHA Robot. He is now a CS PhD student at Stanford AI Lab, advised by Chelsea Finn. His research focuses on deployable robot systems and learning in the unstructured open world. His representative work includes Mobile Aloha, Robot Parkour Learning, and RMA. Mobile Aloha is a humanoid robot that can be remote operated by a user and perform autonomously by imitation learning.",
     "new": false,
+    "hide": false,
     "id": "zipengfu"
   },
   {
@@ -1143,6 +1230,7 @@
     "detail": "gregtanaka2.png",
     "description": "Greg Tanaka, a 15-year veteran in Palo Alto politics, is known for his commitment to Silicon Valley's innovative spirit and community service. Elected to the City Council in 2016, he advocates for business-friendly and financially sound policies. Recognized for his ‘office hours’ with constituents, Tanaka emphasizes transparency and public input. During the pandemic, he focused on revitalizing the local economy. His inclusive governance approach, which garnered 400 endorsements in his 2020 re-election, reflects his ambition to represent Silicon Valley in Congress.",
     "new": false,
+    "hide": false,
     "id": "gregtanaka"
   },
   {
@@ -1156,6 +1244,7 @@
     "detail": "joonarahko2.png",
     "description": "Joona leads development at Layer AI, focusing on compliant gen-AI for game studios. Previously a Principal Engineer at Unity, he launched Unity Cloud and Gaming Services. Joona, a former entrepreneur and professional athlete, now helps game developers enhance art pipelines, scale content, and cut production time.",
     "new": false,
+    "hide": false,
     "id": "joonarahko"
   },
   {
@@ -1169,6 +1258,7 @@
     "detail": "nikspirin2.png",
     "description": "Nik Spirin is a director for GenAI/LLMOps at NVIDIA. He leads the development of tools and workflows to enable end-to-end GenAI/LLM lifecycles, including model training, evaluation, and optimization, among others. He has 15+ years of experience working on AI/ML as a researcher, engineer, product manager, and founder. He holds a CS PhD degree from the University of Illinois at Urbana-Champaign.",
     "new": false,
+    "hide": false,
     "id": "nikspirin"
   },
   {
@@ -1182,6 +1272,7 @@
     "detail": "kathrynwu2.png",
     "description": "Kathryn co-founded Openmart, a Y Combinator-backed AI tool challenging ZoomInfo, analyzing unstructured data like websites for sales professionals. Previously at Pinterest and first product lead at Databento, she grew its team and revenue significantly, earning a spot on the 2022 Women in Fintech Power List. Openmart is also supported by Afore Capital and Rebel Fund among others.",
     "new": false,
+    "hide": false,
     "id": "kathrynwu"
   },
   {
@@ -1195,6 +1286,7 @@
     "detail": "tiffanyjoybasse2.png",
     "description": "Tiffany innovates with generative AI through Liferise, an app channeling indigenous elder wisdom into modern tech. It features AI coaching, tailored meditations, spirit animal stories, Earth Wisdom Cards, and sound healing, aimed at personal growth and cultural connection.",
     "new": false,
+    "hide": false,
     "id": "tiffanyjoybasse"
   },
   {
@@ -1208,6 +1300,7 @@
     "detail": "alekhjindal2.png",
     "description": "Alekh is CEO and Co-founder at Tursio, a seed-stage startup to turn databases into Gen AI machines. Previously, he was CTO and Chief Architect at Keebo, and Principal Scientist at Microsoft before that. Alekh did his postdoc at MIT CSAIL, received PhD from Saarland University, master's from Max Planck, and undergrad from IIT Kanpur. He has published more 70 papers, 15 patents, with best paper awards at CIDR, VLDB, and SIGMOD.",
     "new": false,
+    "hide": false,
     "id": "alekhjindal"
   },
   {
@@ -1221,6 +1314,7 @@
     "detail": "vanessaran2.png",
     "description": "Vanessa Ran, Co-founder and President of GenAI K12 Initiative, is a student at Monta Vista High School. Passionate about education and technology, she leads initiatives to empower K-12 students with AI education. AI is promising to transform the world in ways that don't necessarily seem for the better for young generation: killing jobs, supercharging disinformation. She is leading the efforts to offer an accessible history and resource of GenAI.",
     "new": false,
+    "hide": false,
     "id": "vanessaran"
   },
   {
@@ -1234,6 +1328,7 @@
     "detail": "clairexie2.png",
     "description": "Claire Xie is the founder of ClinkAI, an AI startup, and the Women in AI Club, which aims to connect, empower, and elevate founders, builders, and investors in the AI space. Previously, she worked as a lead data scientist at DoorDash and Google, focusing on growth analytics. Xie is passionate about leveraging AI to drive innovation and empowering women in the tech industry.",
     "new": false,
+    "hide": false,
     "id": "clairexie"
   },
   {
@@ -1247,6 +1342,7 @@
     "detail": "hepingliu2.png",
     "description": "Heping Liu is a Senior Principal Machine Learning Engineer at Workday, where he has led the development of forecasting and optimization products using ML. He spearheaded the design of next-gen platform architecture, disaster recovery strategies, and open-source software management. Previously, he co-founded and served as CEO of Beijing Unigroup AI Technologies Inc. Liu holds a Ph.D. and has authored around 20 papers in top journals. His research interests include forecasting, optimization, AI/ML algorithms, LLM, big data, and analytics.",
     "new": false,
+    "hide": false,
     "id": "hepingliu"
   },
   {
@@ -1260,6 +1356,7 @@
     "detail": "ahmedaj2.png",
     "description": "Ahmed AJ is the Co-Founder of Logicrite, a pioneering company specializing in building AI agents. He also founded Dapi, a global open banking aggregator backed by Y Combinator. Ahmed is an Entrepreneur with extensive operational experience in product development, no-code platforms, fintech, and blockchain technology.",
     "new": false,
+    "hide": false,
     "id": "ahmedaj"
   },
   {
@@ -1273,6 +1370,7 @@
     "detail": "davidminarsch2.png",
     "description": "David Minarsch holds a Ph.D. in Applied Game Theory from the University of Cambridge. He is the creator of the first multi-agent system framework with native support for distributed ledger technologies (aea.dev) and a co-founder/CEO at Valory. Minarsch has conducted research on the economics of networks, strategy, political competition, and multi-agent systems. He has successfully taken projects from concept to production at companies like Yoyo Wallet and Fetch.ai.",
     "new": false,
+    "hide": false,
     "id": "davidminarsch"
   },
   {
@@ -1286,6 +1384,7 @@
     "detail": "stanlee2.png",
     "description": "Stan Lee is the Co-Founder and CTO of Upstage AI. He has over 15 years of experience in computer vision and AI, previously leading NAVER's Clova OCR team. Lee has published numerous OCR papers and his technologies are used by various companies. At Upstage, he leads the LLM Model & Applications team, developing high-performance private LLM engines cost-effectively and securely.",
     "new": false,
+    "hide": false,
     "id": "stanlee"
   },
   {
@@ -1299,6 +1398,7 @@
     "detail": "bryanmccann2.png",
     "description": "Bryan McCann is the Co-Founder and CTO of you.com, focused on advancing human-AI collaboration. He previously led AI research in NLP at Salesforce, with his work being highly cited. McCann aims to use AI to inspire creativity and develop tools for more fulfilling lives. He advises AI startups, pursues interests like poetry and painting, and holds degrees from Stanford in CS, AI, and Philosophy.",
     "new": false,
+    "hide": false,
     "id": "bryanmccann"
   },
   {
@@ -1312,6 +1412,7 @@
     "detail": "jayzhao2.png",
     "description": "Jay Zhao is a Managing Partner at Leonis Capital, a VC fund investing in AI-powered tech companies. He has led investments and served on the boards of companies like Marqeta, HireVue, and Mixamo. Previously, Zhao co-founded T Fund, was a Senior Director at Walden Venture Capital, and a Principal at Granite Ventures. He is an active mentor and contributor to media outlets.",
     "new": false,
+    "hide": false,
     "id": "jayzhao"
   },
   {
@@ -1325,6 +1426,7 @@
     "detail": "shirchorev2.png",
     "description": "Shir Chorev is a passionate and experienced data scientist skilled in machine learning and algorithmic research. He is a graduate of the Talpiot Excellence Program and holds an M.Sc. in Electrical Engineering from Tel Aviv University, focusing on algorithms and machine learning. Chorev has previous experience leading and conducting cyber-related projects and low-level research.",
     "new": false,
+    "hide": false,
     "id": "shirchorev"
   },
   {
@@ -1338,6 +1440,7 @@
     "detail": "jennyxiao2.png",
     "description": "Jenny Xiao is an early-stage AI investor at Leonis Capital, a research-focused venture capital fund. With an academic background, she transitioned to VC and aims to partner with technical founders to build AI-first companies. Xiao is passionate about leveraging research to drive innovation in the AI space.",
     "new": false,
+    "hide": false,
     "id": "jennyxiao"
   },
   {
@@ -1351,6 +1454,7 @@
     "detail": "arturkiulian2.png",
     "description": "Artur Kiulian is the founder of Radical Philanthropies, an organization empowering entrepreneurs to solve global challenges through transparency and knowledge sharing. He previously ran a venture studio focused on AI and machine learning, authoring the book \"Robot Is The Boss: How To Do Business with Artificial Intelligence.\" Kiulian is a member of the Young Entrepreneur Council and holds a Master's degree in Artificial Intelligence Systems.",
     "new": false,
+    "hide": false,
     "id": "arturkiulian"
   },
   {
@@ -1364,6 +1468,7 @@
     "detail": "matthewstepka2.png",
     "description": "Matthew Stepka is the Managing Partner of Machina Ventures, an investment firm focused on early-stage AI and data science companies. He is also a Lecturer at UC Berkeley's Haas School of Business and serves as a Director on the Board of the cybersecurity company Family Zone. Previously, Stepka was a Vice President at Google, leading strategic initiatives with high social impact across various domains like internet access, clean energy, and robotics.",
     "new": false,
+    "hide": false,
     "id": "matthewstepka"
   },
   {
@@ -1377,6 +1482,7 @@
     "detail": "sunnyrochiramani2.png",
     "description": "Sunny Rochiramani is the VP of Engineering at Descript, a startup that provides innovative audio and video editing software powered by AI. Descript's tools leverage machine learning for tasks like transcription, overdubbing, and audio editing. Rochiramani has over 15 years of experience in software engineering.",
     "new": false,
+    "hide": false,
     "id": "sunnyrochiramani"
   },
   {
@@ -1390,6 +1496,7 @@
     "detail": "andyhock2.png",
     "description": "Dr. Andy Hock leads product and strategy at Cerebras Systems, an AI hardware startup aiming to accelerate deep learning. He has over 15 years of experience in product management, technical program management, and enterprise business development, with 9 years focused on applied machine learning and AI. Previously, Hock led the development of ML-powered data products from satellite imagery at Google's Terra Bella. He holds a Ph.D. in Geophysics and Space Physics from UCLA.",
     "new": false,
+    "hide": false,
     "id": "andyhock"
   },
   {
@@ -1403,6 +1510,7 @@
     "detail": "jiaruiliu2.png",
     "description": "Dr. Jiarui Liu, is a fellow at Stanford Law School's Center for Internet and Society and a former director of IP programs at the University of San Francisco School of Law. He has published over 40 articles in prestigious law reviews and is regularly invited by the U.S. Copyright Office, USPTO, and foreign governments as a speaker. Liu has worked for top law firms like Baker McKenzie and Jones Day, representing major companies in high-profile IP cases and negotiations.",
     "new": false,
+    "hide": false,
     "id": "jiaruiliu"
   },
   {
@@ -1416,6 +1524,7 @@
     "detail": "yangxinchen2.png",
     "description": "Yangxin Chen is the Chief AI Official of 1Gen Labs. He has a MS from the University of California, Berkeley. He has worked in Apple, leading the development of iPhone 4 as PD. Chen is a celebrated digital artist whose high-value artworks have been exhibited in influential art shows and collected by renowned collectors. 1Gen is building an anime multimodal LLM with top rank in Civitai.",
     "new": false,
+    "hide": false,
     "id": "yangxinchen"
   },
   {
@@ -1429,6 +1538,7 @@
     "detail": "bryantalebi2.png",
     "description": "Bryan Talebi is a data-driven leader dedicated to scaling innovative businesses and empowering salespeople. He has founded, built, or led tech companies with a current valuation over $3.1 billion. Talebi brings expertise in sales, sales management, emerging technology, and execution. He is currently focused on integrating AI to accelerate learning and make quality education more accessible through his company Ahura AI.",
     "new": false,
+    "hide": false,
     "id": "bryantalebi"
   },
   {
@@ -1442,6 +1552,7 @@
     "detail": "lindseyspellman2.png",
     "description": "Lindsey Spellman is the head of marketing of Abridge, a company founded in 2018 with the mission of powering deeper understanding in healthcare through AI-powered technology. Abridge's platform transforms medical conversations into structured clinical notes in real-time, with deep EMR integrations. As pioneers in generative AI for healthcare, Abridge is setting industry standards for responsible AI deployment across health systems.",
     "new": false,
+    "hide": false,
     "id": "lindseyspellman"
   },
   {
@@ -1455,6 +1566,7 @@
     "detail": "xuhuishao2.png",
     "description": "Xuhui Shao is a Managing Partner at Foothill Ventures, focusing on early-stage tech startups in the US. With over seven years in venture capital, Xuhui uses his extensive operating experience and technical expertise to support innovative entrepreneurs shaping the future of technology.",
     "new": false,
+    "hide": false,
     "id": "xuhuishao"
   },
   {
@@ -1468,6 +1580,7 @@
     "detail": "jeffhennig2.png",
     "description": "Jeff Hennig is the Vice President of Corporate Development at AMD Ventures, AMD's corporate venture capital arm. He oversees investment strategy, deal sourcing, and portfolio management, focusing on startups in AI, data centers, and emerging technologies that align with AMD's strategic priorities and can drive adoption of their products.",
     "new": false,
+    "hide": false,
     "id": "jeffhennig"
   },
   {
@@ -1481,6 +1594,7 @@
     "detail": "jasperzhang2.png",
     "description": "Dr. Jasper Zhang is the Co-Founder and CEO of Hyperbolic Labs. He completed his Ph.D. in Mathematics at UC Berkeley in just two years and has won multiple gold medals in global mathematics competitions. Hyperbolic Labs is dedicated to ensuring open access to AI for developers and researchers worldwide. They are building a scalable system to aggregate global GPU compute and developing AI services to maximize GPU performance. Additionally, they are implementing novel solutions to guarantee the accuracy and privacy of AI systems.",
     "new": false,
+    "hide": false,
     "id": "jasperzhang"
   },
   {
@@ -1494,6 +1608,7 @@
     "detail": "tushargupta2.png",
     "description": "Tushar Gupta is a seasoned venture capital investor at Qualcomm Ventures, specializing in AI, deep tech, frontier tech, and IoT startups. His portfolio includes leading firms like Hugging Face and Weights & Biases. Prior to this role, he held strategic positions at Qualcomm, focusing on smart cameras, machine learning partnerships, and software development.",
     "new": false,
+    "hide": false,
     "id": "tushargupta"
   },
   {
@@ -1507,6 +1622,7 @@
     "detail": "minfawang2.png",
     "description": "Minfa Wang is a Senior Machine Learning Engineer at Waymo, where he leverages advanced ML techniques to enhance autonomous driving technologies. With a deep focus on innovation and safety, Minfa plays a crucial role in developing systems that improve the reliability and efficiency of Waymo's self-driving vehicles.",
     "new": false,
+    "hide": false,
     "id": "minfawang"
   },
   {
@@ -1520,6 +1636,7 @@
     "detail": "ankitjain2.png",
     "description": "Ankit Jain is a seasoned entrepreneur and technology leader. He is the co-founder and CEO of Infinitus Systems, an AI-powered healthcare automation company. Prior to Infinitus, Ankit was a founding partner at Gradient Ventures, Google's AI-focused venture fund, and a director of engineering at Google. He has also co-founded and led other successful startups like Quettra, which was acquired by SimilarWeb, and Cuil, which was acquired by Google. Ankit has extensive experience in areas such as search, mobile analytics, and artificial intelligence.",
     "new": false,
+    "hide": false,
     "id": "ankitjain"
   },
   {
@@ -1533,6 +1650,7 @@
     "detail": "nathanlile2.png",
     "description": "Nathan Lile is the Co-Founder and CEO of SynthLabs.AI, a startup focused on developing transparent and auditable AI alignment platforms. Prior to SynthLabs, Nathan served as the Chief of Staff at Stability AI, where he led enterprise projects and partnerships. He was also a top-ranked professional swimmer, competing twice in the Olympic Trials, and was the valedictorian of his university.",
     "new": false,
+    "hide": false,
     "id": "nathanlile"
   },
   {
@@ -1546,6 +1664,7 @@
     "detail": "siqilin2.png",
     "description": "Siqi Lin is the Head of Campaign at Cresta, a Stanford-based AI company. She is a Stanford Fellowship recipient and has expertise in strategic marketing campaigns. Lin's professional experience spans across various roles, showcasing her versatility and leadership skills in driving impactful initiatives.",
     "new": false,
+    "hide": false,
     "id": "siqilin"
   },
   {
@@ -1559,6 +1678,7 @@
     "detail": "josesotelo2.png",
     "description": "Jose Sotelo is a Senior AI Researcher at Descript, a company that specializes in AI-powered audio and video editing tools. He has extensive experience in natural language processing, machine learning, and AI research. At Descript, Sotelo leads the development of cutting-edge AI technologies to enhance audio and video editing capabilities, making the process more efficient and user-friendly.",
     "new": false,
+    "hide": false,
     "id": "josesotelo"
   },
   {
@@ -1572,6 +1692,7 @@
     "detail": "denisskrinnikoff2.png",
     "description": "Denis Skrinnikoff is a seasoned technologist with over 15 years of experience in the cloud and data center service provider industry. He has an extensive background in networking, enterprise architecture, and operating fiber networks. Skrinnikoff has been involved in designing, constructing, and managing Tier 3 data centers, as well as overseeing acquisitions, mergers, and business units. He previously held senior leadership roles at TeraGo and RackForce Networks.",
     "new": false,
+    "hide": false,
     "id": "denisskrinnikoff"
   },
   {
@@ -1585,6 +1706,7 @@
     "detail": "yaodu2.png",
     "description": "Dr. Yao Du is a Clinical Assistant Professor at the Keck School of Medicine, University of Southern California, combining expertise in speech-language pathology and user experience research to design and evaluate assistive technology for people with disabilities. With over 10 years of experience in teaching, supervising, and mentoring, she provides consultation to digital health startups and offers online accent coaching and autism parent training services.",
     "new": false,
+    "hide": false,
     "id": "yaodu"
   }
 ]

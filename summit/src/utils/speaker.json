@@ -221,11 +221,7 @@
     "id": "bhavinshah"
   },
   {
-<<<<<<< HEAD
-    "name": "Jia Li",
-=======
     "name": "Dr. Jia Li",
->>>>>>> a3721bdcb369524f7fa7489709d8462a6267cf5d
     "job": "Co-Founder, CAIO & President",
     "tip": "LiveX AI",
     "image": "jiali.jpg",
@@ -329,19 +325,6 @@
     "id": "swapniljain"
   },
   {
-<<<<<<< HEAD
-    "name": "Philip Rathle",
-    "job": "CTO",
-    "tip": "Neo4j",
-    "image": "philiprathle.jpg",
-    "linkedin": "https://www.linkedin.com/in/prathle/",
-    "twitter": "https://twitter.com/prathle",
-    "website": "https://board.fastcompany.com/profile/Philip-Rathle-CTO-Neo4j/833d03ca-d8dd-42a2-a4c0-6cc3baef452d",
-    "detail": "philiprathle2.png",
-    "description": "Philip Rathle is CTO of Neo4j, the graph database and analytics leader that enabled the ICIJ to crack the Panama Papers, and NASA to get to Mars two years faster. Neo4j enables thousands of organizations worldwide-- including most of the Fortune 500-- to solve their most pressing & valuable problems through the power of the connections in data. Neo4j has raised a total funding of $581M over 9 rounds from 21 investors, leading the Company's valuation to over $2 billion.",
-    "new": true,
-    "id": "philiprathle"
-=======
     "name": "Unitree G1 Humanoid agent AI avatar",
     "job": "",
     "tip": "Unitree",
@@ -353,7 +336,6 @@
     "description": "Unitree G1 is a humanoid agent AI avatar developed by Unitree Robotics, a renowned robotics company. With 23-43 joint motors, it offers flexibility beyond ordinary people. It utilizes imitation and reinforcement learning, has a force-control dexterous hand for precise manipulation, and aims to create a new era of intelligence through its UnifoLM model.",
     "new": false,
     "id": "unitreeg1"
->>>>>>> a3721bdcb369524f7fa7489709d8462a6267cf5d
   },
   {
     "name": "Rochelle Mattern",
@@ -434,8 +416,6 @@
     "id": "zacharylipton"
   },
   {
-<<<<<<< HEAD
-=======
     "name": "Philip Rathle",
     "job": "CTO",
     "tip": "Neo4j",
@@ -449,7 +429,6 @@
     "id": "philiprathle"
   },
   {
->>>>>>> a3721bdcb369524f7fa7489709d8462a6267cf5d
     "name": "Dr. Alexander Ratner",
     "job": "CEO & Co-Founder",
     "tip": "Snorkel AI",
@@ -591,11 +570,7 @@
     "detail": "yoheinakajima2.png",
     "description": "Yohei Nakajima is a venture capitalist, coder, and relentless experimenter. BabyAGI represents a significant stride in the domain of AI-powered task management. By automating and streamlining tasks, BabyAGI not only enhances operational efficiency but also provides insights into the capabilities and future potential of autonomous AI agents. This pioneering project has 18K stars in Github.",
     "new": true,
-<<<<<<< HEAD
-    "id": "yohei2"
-=======
     "id": "yoheinakajima"
->>>>>>> a3721bdcb369524f7fa7489709d8462a6267cf5d
   },
   {
     "name": "Jason Lopatecki",
@@ -1064,11 +1039,7 @@
     "detail": "murraynewlands2.png",
     "description": "Murray, a celebrated entrepreneur and VC, is a Founding Partner at Open Future Technology, previously influencing Turing.com's growth and advising Draper Nexus. Known from The Huffington Post's Top 10 list, he formerly partnered at OnePiece Labs within Uphonest Capital. Currently, he spearheads a web3 and AI incubator, connecting with Silicon Valley's tech community.",
     "new": false,
-<<<<<<< HEAD
-    "id": "murrraynewlands"
-=======
     "id": "murraynewlands"
->>>>>>> a3721bdcb369524f7fa7489709d8462a6267cf5d
   },
   {
     "name": "Benjamin Levy",
@@ -1383,32 +1354,6 @@
     "id": "arturkiulian"
   },
   {
-    "name": "Dr. Marily Nika",
-    "job": "Gen AI Product Lead",
-    "tip": "Google",
-    "image": "marilynika.jpg",
-    "website": "https://www.marilynika.me/",
-    "twitter": "https://twitter.com/marilynika?lang=en",
-    "linkedin": "https://www.linkedin.com/in/marilynika/",
-    "detail": "marilynika2.png",
-    "description": "Dr. Marily Nika is an award-winning AI Product Management leader with over 10 years of experience at Google and Meta. She holds a Ph.D. in Computer Science and is recognized as one of the world's top AI educators. Nika created the #1 AI Product Management Bootcamp, writes educational content on AI and product management, and is an Executive Fellow at Harvard Business School teaching AI PM.",
-    "new": false,
-    "id": "marilynika"
-  },
-  {
-    "name": "Anya Cheng",
-    "job": "Founder & CEO",
-    "tip": "Taelor",
-    "image": "anyacheng.jpg",
-    "website": "",
-    "twitter": "https://twitter.com/anyacheng?lang=en",
-    "linkedin": "https://www.linkedin.com/in/anyacheng/",
-    "detail": "anyacheng2.png",
-    "description": "Anya Cheng is an accomplished and award-winning Product Head with extensive experience overseeing product initiatives for leading technology, eCommerce, food-delivery, and retail organizations. She is the founder and CEO of Taelor.style. Cheng has expertise in creating product vision, strategy, and roadmaps, building high-performing teams, and managing stakeholders. She is a TEDx speaker and has won over 20 awards, including Girls in Tech \"40 Under 40\" and Webby Award Best App of the Year.",
-    "new": false,
-    "id": "anyacheng"
-  },
-  {
     "name": "Matthew Stepka",
     "job": "Managing Partner",
     "tip": "Machina Ventures",
@@ -1448,22 +1393,6 @@
     "id": "andyhock"
   },
   {
-<<<<<<< HEAD
-    "name": "Shawn Flynn",
-    "job": "Principal",
-    "tip": "Global Capital Markets",
-    "image": "shawnflynn.jpg",
-    "website": "",
-    "twitter": "https://twitter.com/ShawnFlynnSV",
-    "linkedin": "https://www.linkedin.com/in/shawnpflynn/",
-    "detail": "shawnflynn2.png",
-    "description": "Shawn Flynn is a Principal at Global Capital Markets, a premier middle-market investment bank, bringing international experience working with companies across stages and sectors. He previously founded and exited a company in Beijing. Flynn holds a B.S. in Mechanical Engineering from UCSD, speaks multiple languages, and is a frequent speaker on entrepreneurship and innovation. He has been interviewed for the book \"Working with Americans: How to Build Profitable Business Relationships\".",
-    "new": false,
-    "id": "shawnflynn"
-  },
-  {
-=======
->>>>>>> a3721bdcb369524f7fa7489709d8462a6267cf5d
     "name": "Dr. Jiarui Liu",
     "job": "Fellow",
     "tip": "Stanford Center for Internet and Society",
@@ -1475,19 +1404,6 @@
     "description": "Dr. Jiarui Liu, is a fellow at Stanford Law School's Center for Internet and Society and a former director of IP programs at the University of San Francisco School of Law. He has published over 40 articles in prestigious law reviews and is regularly invited by the U.S. Copyright Office, USPTO, and foreign governments as a speaker. Liu has worked for top law firms like Baker McKenzie and Jones Day, representing major companies in high-profile IP cases and negotiations.",
     "new": false,
     "id": "jiaruiliu"
-  },
-  {
-    "name": "Prof. Hamza Farooq",
-    "job": "Founder",
-    "tip": "traversaal.ai",
-    "image": "hamzafarooq.jpg",
-    "website": "",
-    "twitter": "",
-    "linkedin": "https://www.linkedin.com/in/hamzafarooq/",
-    "detail": "hamzafarooq2.png",
-    "description": "Hamza Farooq is a founder and professor working in the realm of NLP and multi-modal systems. He co-created Traversaal.ai, a company providing scalable LLM products for enterprises. Farooq has over 15 years of experience leading data science and machine learning teams across various industries and regions. He is an adjunct professor at Stanford and UCLA, teaching courses on large language models and their applications. Farooq is also a frequent speaker at AI conferences and holds a patent related to retail product management.",
-    "new": false,
-    "id": "hamzafarooq"
   },
   {
     "name": "Yangxin Chen",
@@ -1555,8 +1471,6 @@
     "id": "jeffhennig"
   },
   {
-<<<<<<< HEAD
-=======
     "name": "Dr. Jasper Zhang",
     "job": "Co-Founder & CEO",
     "tip": "Hyperbolic Labs",
@@ -1570,7 +1484,6 @@
     "id": "jasperzhang"
   },
   {
->>>>>>> a3721bdcb369524f7fa7489709d8462a6267cf5d
     "name": "Tushar Gupta",
     "job": "Sr. Director",
     "tip": "AMD",
@@ -1673,34 +1586,5 @@
     "description": "Dr. Yao Du is a Clinical Assistant Professor at the Keck School of Medicine, University of Southern California, combining expertise in speech-language pathology and user experience research to design and evaluate assistive technology for people with disabilities. With over 10 years of experience in teaching, supervising, and mentoring, she provides consultation to digital health startups and offers online accent coaching and autism parent training services.",
     "new": false,
     "id": "yaodu"
-  },
-  {
-<<<<<<< HEAD
-    "name": "Prof. Jennifer Listgarten",
-    "job": "Professor",
-    "tip": "UC Berkeley",
-    "image": "jenniferlistgarten.jpg",
-    "website": "https://vcresearch.berkeley.edu/faculty/jennifer-listgarten",
-    "twitter": "https://x.com/jlistgarten?lang=en",
-    "linkedin": "https://www.linkedin.com/in/jenniferlistgarten/",
-    "detail": "jenniferlistgarten2.png",
-    "description": "Jennifer Listgarten is a Professor in UC Berkeley's EECS department and Center for Computational Biology. She has expertise in machine learning, applied statistics, and computational biology, working on methods development and applications to enable insights into biology and medicine. Her research interests include protein design, molecule design, drug discovery, genetic association studies, and machine learning methods at the intersection of graphical models, neural networks, and variational inference.",
-    "new": false,
-    "id": "jenniferlistgarten"
-  },
-  {
-=======
->>>>>>> a3721bdcb369524f7fa7489709d8462a6267cf5d
-    "name": "Andy Chen",
-    "job": "Expert",
-    "tip": "Primary Venture Partners",
-    "image": "andychen.jpg",
-    "website": "",
-    "twitter": "",
-    "linkedin": "https://www.linkedin.com/in/andy-chen-md/",
-    "detail": "andychen2.png",
-    "description": "Andy Chen is a physician-turned-investment professional at Primary Venture Partners, a healthcare-focused venture capital firm. With a background in medicine and a passion for improving healthcare, Chen leverages his expertise to identify and invest in promising healthcare startups and technologies.",
-    "new": false,
-    "id": "andychen"
   }
 ]

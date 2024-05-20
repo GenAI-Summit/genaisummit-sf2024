@@ -559,7 +559,7 @@
       </section>
       <!-- section2 end -->
 
-            <!-- section5 start -->
+      <!-- section5 start -->
       <section id="section5" class="cointainer">
         <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
           <div
@@ -567,7 +567,7 @@
             :class="screenWidth > 600 ? '' : 'mb'"
             data-aos="flip-up"
           >
-            WorkShops
+            Workshops
           </div>
           <div class="open-btn">
             <button @click="openUrl('https://forms.gle/9pTcvfZcVEVRzmQZ8')">
@@ -890,6 +890,23 @@
       -->
       <!-- section5 end -->
 
+      <!--
+      <section id="seminar_section" class="cointainer">
+        <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
+          <div
+            class="left-title before"
+            :class="screenWidth > 600 ? '' : 'mb'"
+            data-aos="flip-up"
+          >
+            Seminars
+          </div>
+        </div>
+        <div class="ss-title" data-aos="flip-up">
+          LEARN FROM THE BEST IN THE INDUSTRY
+        </div>
+        <Seminar />
+      </section>
+      -->
 
       <section id="section6" class="cointainer">
         <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
@@ -1477,8 +1494,9 @@ import PersionItem from "../components/PersionItem.vue";
 import Swiper from "../components/Swiper.vue";
 import Exhibition from "../components/Exhibition.vue";
 import StarBackground from "../components/StarBackground.vue";
-import Agenda from "../components/Agenda.vue";
+// import Agenda from "../components/Agenda.vue";
 import AgendaCard from "../components/AgendaCard.vue";
+import Seminar from "../components/Seminar.vue";
 import Resources from "../components/Resources.vue";
 import SpeakerModal from "../components/SpeakerModal.vue";
 
@@ -2486,7 +2504,8 @@ export default {
     Swiper,
     Exhibition,
     StarBackground,
-    Agenda,
+    // Agenda,
+    Seminar,
     AgendaCard,
     SpeakerModal,
     Resources,
@@ -3741,17 +3760,18 @@ section {
       }
     }
     .list {
+      display: flex;
+      justify-content: center;
       flex: 1;
       background: #ffffff;
       text-align: center;
       cursor: pointer;
       height: 1.8rem;
       z-index: 2;
-      display: flex;
-      justify-content: center;
       border-radius: 1.5rem;
       margin-left: 0.4rem;
       transition: all linear 0.3s;
+
       &:first-child {
         margin-left: 0;
       }
@@ -4075,6 +4095,7 @@ section {
     }
   }
 }
+
 .pantners {
   width: 100%;
   .pantnersList {

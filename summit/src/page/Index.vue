@@ -1955,14 +1955,14 @@ export default {
           `../assets/images/sponsors/mountainlion.png`,
           import.meta.url
         ).href,
-        url: "https://www.puffer.fi/",
+        url: "https://www.mlion.ai/",
       },
       {
         img: new URL(
           `../assets/images/sponsors/puffer.png`,
           import.meta.url
         ).href,
-        url: "https://www.mlion.ai/",
+        url: "https://www.puffer.fi/",
       },
       {
         img: new URL(`../assets/images/sponsors/espeed.png`, import.meta.url)

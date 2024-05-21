@@ -2026,7 +2026,6 @@ export default {
           .href,
         url: "https://aiads.app/",
       },
-
       {
         img: new URL(`../assets/images/sponsors/skalable.png`, import.meta.url)
           .href,
@@ -2093,6 +2092,11 @@ export default {
         url: "https://dekube.ai/",
       },
       {
+        img: new URL(`../assets/images/sponsors/hyperboliclabs.png`, import.meta.url)
+          .href,
+        url: "https://hyperbolic.xyz/",
+      },
+      {
         img: new URL(`../assets/images/sponsors/digitate.png`, import.meta.url)
           .href,
         url: "https://digitate.com/",
@@ -2131,7 +2135,7 @@ export default {
           `../assets/images/sponsors/capsico.png`,
           import.meta.url
         ).href,
-        url: "www.capsicohealth.com",
+        url: "http://www.capsicohealth.com",
       },
       {
         img: new URL(

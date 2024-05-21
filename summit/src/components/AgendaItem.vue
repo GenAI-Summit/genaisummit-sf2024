@@ -85,12 +85,12 @@ export default {
   computed: {
     roomClass() {
       const roomMap = {
-        "GPT Stage (Palace Of Fine Arts)": "gpt-stage",
-        "AGI Stage (Palace Of Fine Arts Theatre)": "agi-stage",
+        "GPT Stage": "gpt-stage",
+        "AGI Stage": "agi-stage",
         "Align Stage": "align-stage",
         "Launchpad Stage": "launchpad-stage",
         "Workshop Room": "workshop-room",
-        "Breakout Room 7": "breakout-room-7"
+        "Prompt Room": "prompt-room"
       };
       return roomMap[this.item.room] || '';
     }
@@ -214,6 +214,6 @@ export default {
 .align-stage { background-color: #e0f7fa; }
 .launchpad-stage { background-color: #fff9c4; }
 .workshop-room { background-color: #ffe0b2; }
-.breakout-room-7 { background-color: #f1f8e9; }
+.prompt-room { background-color: #f1f8e9; }
 
 </style>

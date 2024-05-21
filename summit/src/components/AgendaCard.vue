@@ -66,9 +66,9 @@ export default {
     const pageSize = ref(3);
     const slidesToShow = ref(2.5);
     
-    const eventsList0 = ref(agendaData[0]);
-    const eventsList1 = ref(agendaData[1]);
-    const eventsList2 = ref(agendaData[2]);
+    const eventsList0 = ref(agendaData[0].filter((item) => !item.hide));
+    const eventsList1 = ref(agendaData[1].filter((item) => !item.hide));
+    const eventsList2 = ref(agendaData[2].filter((item) => !item.hide));
 
     if (screenWidth.value < 800) {
       slidesToShow.value = 1.2;

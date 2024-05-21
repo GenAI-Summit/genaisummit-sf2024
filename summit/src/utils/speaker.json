@@ -1654,6 +1654,20 @@
     "id": "tushargupta"
   },
   {
+    "name": "Jai Natarajan",
+    "job": "VP Partnerships & Strategy",
+    "tip": "iMerit",
+    "image": "jainatarajan.jpg",
+    "website": "",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/jainatarajan/",
+    "detail": "jainatarajan2.png",
+    "description": "Jai Natarajan is a seasoned business leader with expertise in driving growth and profitability. He has a strong technical background combined with business acumen, enabling him to bridge technology and client needs effectively. Natarajan is known for his collaborative leadership style, fostering cross-functional teamwork across various domains like business development, product management, and marketing. His creative flair from working in visual media complements his ability to communicate ideas clearly and craft compelling narratives.",
+    "new": false,
+    "hide": false,
+    "id": "jainatarajan"
+  },
+  {
     "name": "Minfa Wang",
     "job": "Senior Machine Learning Engineer",
     "tip": "Waymo",

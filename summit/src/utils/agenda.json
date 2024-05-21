@@ -10,7 +10,8 @@
       ],
       "abstract": "",
       "speakers": [
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 1,
@@ -22,7 +23,8 @@
       ],
       "abstract": "",
       "speakers": [
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 1,
@@ -35,7 +37,8 @@
       "abstract": "",
       "speakers": [
         ["rodrigoliang", "Rodrigo Liang"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 1,
@@ -48,7 +51,8 @@
       "abstract": "",
       "speakers": [
         ["cedricvidal", "Cedric Vidal"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 1,
@@ -65,7 +69,8 @@
         ["tuhinsrivastava", "Tuhin Srivastava"],
         ["joshtobin", "Dr. Josh Tobin"],
         ["jasperzhang", "Dr. Jasper Zhang"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 1,
@@ -78,7 +83,8 @@
       "abstract": "",
       "speakers": [
         ["charlesxie", "Charles Xie"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 1,
@@ -87,7 +93,6 @@
       "type": "Panel Discussion",
       "topic": "The Power of Data in the Era of GenAI",
       "moderators": [
-        ["yinazhang", "Yina Zhang"]
       ],
       "abstract": "",
       "speakers": [
@@ -95,7 +100,8 @@
         ["ajinkyamalasane", "Ajinkya Malasane"],
         ["jainatarajan", "Jai Natarajan"],
         ["shirchorev", "Shir Chorev"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 1,
@@ -111,7 +117,8 @@
         ["tonyzhao", "Tony Zhao"],
         ["zipengfu", "Zipeng Fu"],
         ["chengchi", "Cheng Chi"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 1,
@@ -125,7 +132,8 @@
       "speakers": [
         ["jeffhennig", "Jeff Hennig"],
         ["tushargupta", "Tushar Gupta"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 1,
@@ -138,7 +146,8 @@
       "abstract": "",
       "speakers": [
         ["jimfan", "Dr. Jim Fan"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 1,
@@ -150,7 +159,8 @@
       ],
       "abstract": "",
       "speakers": [
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 1,
@@ -163,7 +173,8 @@
       "abstract": "",
       "speakers": [
         ["arvindjain", "Arvind Jain"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 1,
@@ -180,7 +191,8 @@
         ["yanivmakover", "Yaniv Makover"],
         ["xichen", "Prof. Chen Xi"],
         ["andreasramos", "Prof. Andreas Ramos"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 1,
@@ -196,7 +208,8 @@
         ["ankitjain", "Ankit Jain"],
         ["natalievassilieva", "Natalie Vassilieva"],
         ["tombrady", "Tom Brady"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 1,
@@ -212,7 +225,8 @@
         ["devendrachaplot", "Dr. Devendra Chaplot"],
         ["sharannarang", "Sharan Narang"],
         ["tonywu", "Dr. Tony Wu"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 1,
@@ -227,7 +241,8 @@
         ["monicazou", "Monica Zou"],
         ["denisskrinnikoff", "Denis Skrinnikoff"],
         ["onesourcecloud", "OneSource Cloud"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 1,
@@ -239,7 +254,8 @@
       ],
       "abstract": "",
       "speakers": [
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 1,
@@ -252,7 +268,8 @@
       "abstract": "",
       "speakers": [
         ["nikunjbajaj", "Nikunj Bajaj"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 1,
@@ -264,7 +281,8 @@
       ],
       "abstract": "",
       "speakers": [
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 1,
@@ -277,7 +295,8 @@
       "abstract": "",
       "speakers": [
         ["idairland", "IDA Ireland"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 1,
@@ -290,7 +309,8 @@
       "abstract": "",
       "speakers": [
         ["jeremiahowyang", "Jeremiah Owyang"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 1,
@@ -303,7 +323,8 @@
       "abstract": "",
       "speakers": [
         ["vidyasagarravipati", "Vidya Sagar Ravipati"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 1,
@@ -316,7 +337,8 @@
       "abstract": "",
       "speakers": [
         ["sambanova", "SambaNova"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 1,
@@ -329,7 +351,8 @@
       "abstract": "",
       "speakers": [
         ["ibm", "IBM"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 1,
@@ -345,7 +368,8 @@
         ["jennyxiao", "Jenny Xiao"],
         ["chrismccann", "Chris McCann"],
         ["barr", "Barr Yaron"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 1,
@@ -358,7 +382,8 @@
       "abstract": "",
       "speakers": [
         ["mengfanzhang", "Mengfan Zhang"]
-      ]
+      ],
+      "hide": false
     }
   ],
   [
@@ -373,7 +398,8 @@
       "abstract": "",
       "speakers": [
         ["rashmimisra", "Dr. Rashmi Misra"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 2,
@@ -386,7 +412,8 @@
       "abstract": "",
       "speakers": [
         ["denisyarats", "Dr. Denis Yarats"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 2,
@@ -399,7 +426,8 @@
       "abstract": "",
       "speakers": [
         ["armandruiz", "Armand Ruiz"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 2,
@@ -413,7 +441,8 @@
       "abstract": "",
       "speakers": [
         ["michaelstewart", "Dr. Michael Stewart"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 2,
@@ -429,7 +458,8 @@
         ["davitbaghdasaryan", "Davit Baghdasaryan"],
         ["curtisnorthcutt", "Dr. Curtis Northcutt"],
         ["lancemartin", "Lance Martin"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 2,
@@ -445,7 +475,8 @@
         ["yoheinakajima", "Yohei Nakajima"],
         ["shishirpatil", "Shishir Patil"],
         ["soumyabatra", "Soumya Batra"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 2,
@@ -461,7 +492,8 @@
         ["obviousventure", "Obvious Venture"],
         ["edroman", "Ed Roman"],
         ["rockyyu", "Rocky Yu"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 2,
@@ -478,7 +510,8 @@
         ["bryanmccann", "Bryan McCann"],
         ["stanlee", "Stan Lee"],
         ["devendrachaplot", "Dr. Devendra Chaplot"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 2,
@@ -493,7 +526,8 @@
         ["dmytrodzhulgakov", "Dmytro Dima Dzhulgakov"],
         ["eddieaftandilian", "Dr. Eddie Aftandilian"],
         ["ramsriharsha", "Dr. Ram Sriharsha"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 2,
@@ -506,7 +540,8 @@
       "abstract": "",
       "speakers": [
         ["jasonwei", "Jason Wei"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 2,
@@ -519,7 +554,8 @@
       "abstract": "",
       "speakers": [
         ["jonathanross", "Jonathan Ross"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 2,
@@ -532,7 +568,8 @@
       "abstract": "",
       "speakers": [
         ["samliang", "Dr. Sam Liang"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 2,
@@ -545,7 +582,8 @@
       "abstract": "",
       "speakers": [
         ["fionama", "Fiona Ma, CPA"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 2,
@@ -559,7 +597,8 @@
       "speakers": [
         ["bhavinshah", "Bhavin Shah"],
         ["kevinmoody", "Kevin Moody"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 2,
@@ -575,7 +614,8 @@
         ["jiali", "Dr. Jia Li"],
         ["rochellemattern", "Rochelle Mattern"],
         ["clairexie", "Claire Xie"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 2,
@@ -591,7 +631,8 @@
         ["swapniljain", "Swapnil Jain"],
         ["timshi", "Tim Shi"],
         ["henrypeter", "Henry Peter"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 2,
@@ -604,7 +645,8 @@
       "abstract": "",
       "speakers": [
         ["yichongxu", "Dr. Yichong Xu"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 2,
@@ -617,7 +659,8 @@
       "abstract": "",
       "speakers": [
         ["murraynewlands", "Murray Newlands"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 2,
@@ -631,7 +674,8 @@
       "speakers": [
         ["benjaminlevy", "Benjamin Levy"],
         ["austinarensberg", "Austin Arensberg"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 2,
@@ -644,7 +688,8 @@
       "abstract": "",
       "speakers": [
         ["geraldparloiu", "Gerald Parloiu"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 2,
@@ -657,7 +702,8 @@
       "abstract": "",
       "speakers": [
         ["mengfanzhang", "Mengfan Zhang"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 2,
@@ -670,7 +716,8 @@
       "abstract": "",
       "speakers": [
         ["philiprathle", "Philip Rathle"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 2,
@@ -683,7 +730,8 @@
       "abstract": "",
       "speakers": [
         ["josesotelo", "Jose Sotelo"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 2,
@@ -696,7 +744,8 @@
       "abstract": "",
       "speakers": [
         ["nikspirin", "Nik Spirin"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 2,
@@ -709,7 +758,8 @@
       "abstract": "",
       "speakers": [
         ["richardtasker", "Richard Tasker"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 2,
@@ -722,7 +772,8 @@
       "abstract": "",
       "speakers": [
         ["zilliz", "Zilliz"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 2,
@@ -735,7 +786,8 @@
       "abstract": "",
       "speakers": [
         ["ushur", "Ushur"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 2,
@@ -748,7 +800,8 @@
       "abstract": "",
       "speakers": [
         ["rockyyu", "Rocky Yu"]
-      ]
+      ],
+      "hide": false
     }
   ],
   [
@@ -763,7 +816,8 @@
       "abstract": "",
       "speakers": [
         ["deonnicholas", "Deon Nicholas"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 3,
@@ -776,7 +830,8 @@
       "abstract": "",
       "speakers": [
         ["yangqingjia", "Dr. Yangqing Jia"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 3,
@@ -789,7 +844,8 @@
       "abstract": "",
       "speakers": [
         ["amazon", "Amazon"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 3,
@@ -802,7 +858,8 @@
       "abstract": "",
       "speakers": [
         ["jonshalowitz", "Jon Shalowitz"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 3,
@@ -818,7 +875,8 @@
         ["alexanderratner", "Dr. Alexander Ratner"],
         ["bobvanluijt", "Bob Van Luijt"],
         ["amrawadallah", "Amr Awadallah"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 3,
@@ -831,7 +889,8 @@
       "abstract": "",
       "speakers": [
         ["jasonlopatecki", "Jason Lopatecki"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 3,
@@ -844,7 +903,8 @@
       "abstract": "",
       "speakers": [
         ["srisatishambati", "Sri Satish Ambati"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 3,
@@ -858,7 +918,8 @@
       "speakers": [
         ["gregtanaka", "Greg Tanaka"],
         ["matthewstepka", "Matthew Stepka"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 3,
@@ -873,7 +934,8 @@
         ["sanketshah", "Sanket Shah"],
         ["jiajunlu", "Jiajun Lu"],
         ["sunnyrochiramani", "Sunny Rochiramani"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 3,
@@ -886,7 +948,8 @@
       "abstract": "",
       "speakers": [
         ["andyhock", "Dr. Andy Hock"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 3,
@@ -899,7 +962,8 @@
       "abstract": "",
       "speakers": [
         ["darkomatovski", "Dr. Darko Matovski"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 3,
@@ -912,7 +976,8 @@
       "abstract": "",
       "speakers": [
         ["muddusudhakar", "Dr. Muddu Sudhakar"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 3,
@@ -925,7 +990,8 @@
       "abstract": "",
       "speakers": [
         ["sharannarang", "Sharan Narang"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 3,
@@ -940,7 +1006,8 @@
         ["philiprathle", "Philip Rathle"],
         ["mikemurchison", "Mike Murchison"],
         ["ahmedaj", "Ahmed AJ"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 3,
@@ -955,7 +1022,8 @@
         ["kevinmcnamara", "Kevin McNamara"],
         ["emrahgultekin", "Emrah Gultekin"],
         ["irenehuang", "Irene Huang"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 3,
@@ -969,7 +1037,8 @@
       "speakers": [
         ["jakeheller", "Jake Heller"],
         ["jiaruiliu", "Jiarui Liu"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 3,
@@ -983,7 +1052,8 @@
       "speakers": [
         ["yaronsinger", "Yaron Singer"],
         ["ralucapopa", "Prof. Raluca Popa"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 3,
@@ -996,7 +1066,8 @@
       "abstract": "",
       "speakers": [
         ["bryantalebi", "Bryan Talebi"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 3,
@@ -1010,7 +1081,8 @@
       "speakers": [
         ["lindseyspellman", "Lindsey Spellman"],
         ["ibm", "IBM"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 3,
@@ -1027,7 +1099,8 @@
         ["zuora", "Zuora"],
         ["streetbeat", "Streetbeat"],
         ["mengfanzhang", "Mengfan Zhang"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 3,
@@ -1039,7 +1112,8 @@
       ],
       "abstract": "",
       "speakers": [
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 3,
@@ -1051,7 +1125,8 @@
       ],
       "abstract": "",
       "speakers": [
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 3,
@@ -1063,7 +1138,8 @@
       ],
       "abstract": "",
       "speakers": [
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 3,
@@ -1075,7 +1151,8 @@
       ],
       "abstract": "",
       "speakers": [
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 3,
@@ -1088,7 +1165,8 @@
       "abstract": "",
       "speakers": [
         ["tiffanyjoybasse", "Tiffany Joy Basse"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 3,
@@ -1101,7 +1179,8 @@
       "abstract": "",
       "speakers": [
         ["pinecone", "Pinecone"]
-      ]
+      ],
+      "hide": false
     },
     {
       "day": 3,
@@ -1114,7 +1193,8 @@
       "abstract": "",
       "speakers": [
         ["sethstephensdavidowitz", "Seth Stephens-Davidowitz"]
-      ]
+      ],
+      "hide": false
     }
   ]
 ]

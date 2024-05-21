@@ -50,6 +50,7 @@
             WORKSHOP
           </div>
         </li>
+        <!--
         <li v-if="screenWidth > 900">
           <div
             class="nav-link"
@@ -60,6 +61,7 @@
             SEMINAR
           </div>
         </li>
+        -->
         <li v-if="screenWidth > 900">
           <div
             class="nav-link"
@@ -74,8 +76,8 @@
           <div
             class="nav-link"
             :to="null"
-            @click="scrollToSection('section3')"
-            :class="{ active: activeSection === 'section3' }"
+            @click="scrollToSection('booth_section')"
+            :class="{ active: activeSection === 'booth_section' }"
           >
             EXHIBITION
           </div>
@@ -143,7 +145,7 @@ export default {
       section1: "HOME",
       section2: "SPEAKERS",
       sponsor_section: "SPONSORS",
-      section3: "EXHIBITION",
+      booth_section: "EXHIBITION",
       section4: "AGENDA",
       workshop_section: "WORKSHOPS",
       section6: "K12 INITIATIVE",
@@ -154,7 +156,7 @@ export default {
       SPEAKERS: "section2",
       SPONSORS: "sponsor_section",
       WORKSHOPS: "workshop_section",
-      EXHIBITION: "section3",
+      EXHIBITION: "booth_section",
       AGENDA: "section4",
       "K12 INITIATIVE": "section6",
       SEMINAR: "seminar_section",

@@ -413,6 +413,13 @@
             >
               <img class="d" src="../assets/images/media/ktsf26.png" alt="" />
             </div>
+            <div
+              class="list media"
+              data-aos="zoom-in"
+              @click="openUrl('https://www.ktsf.com/')"
+            >
+              <img class="d" src="../assets/images/media/jojogarden.png" alt="" />
+            </div>
           </div>
         </div>
       </div>
@@ -1028,6 +1035,7 @@
 
         
       <!-- section3 start -->
+      <!--
       <section id="section3" class="cointainer">
         <div class="pantners2">
         <div class="cointainer">
@@ -1056,36 +1064,48 @@
 
           </div>
           <div class="moreDiv" v-if="!showAllExhibition" @click="moreHanleExhibition">
-              More
-              <img
-                class="a"
-                src="../assets/images/general_return_xia.png"
-                alt=""
-              />
-              <img
-                class="d"
-                src="../assets/images/general_return_xia_d.png"
-                alt=""
-              />
-            </div>
-            <div class="moreDiv" v-if="showAllExhibition" @click="closeHanleExhibition">
-              Hide
-              <img
-                class="a"
-                src="../assets/images/general_return_up.png"
-                alt=""
-              />
-              <img
-                class="d"
-                src="../assets/images/general_return_up_d.png"
-                alt=""
-              />
-            </div>
+            More
+            <img
+              class="a"
+              src="../assets/images/general_return_xia.png"
+              alt=""
+            />
+            <img
+              class="d"
+              src="../assets/images/general_return_xia_d.png"
+              alt=""
+            />
+          </div>
+          <div class="moreDiv" v-if="showAllExhibition" @click="closeHanleExhibition">
+            Hide
+            <img
+              class="a"
+              src="../assets/images/general_return_up.png"
+              alt=""
+            />
+            <img
+              class="d"
+              src="../assets/images/general_return_up_d.png"
+              alt=""
+            />
+          </div>
         </div>
       </div>
+      -->
 
 
+      <section id="booth_section" class="cointainer">
+        <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
+          <div
+            class="left-title before"
+            :class="screenWidth > 600 ? '' : 'mb'"
+            data-aos="flip-up"
+          >
+            Exhibition
+          </div>
+        </div>
 
+        <Booth />
 
         <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
           <div
@@ -1332,6 +1352,7 @@ import StarBackground from "../components/StarBackground.vue";
 import AgendaCard from "../components/AgendaCard.vue";
 import Seminar from "../components/Seminar.vue";
 import Workshop from "../components/Workshop.vue";
+import Booth from "../components/Booth.vue";
 import Resources from "../components/Resources.vue";
 import SpeakerModal from "../components/SpeakerModal.vue";
 
@@ -2094,7 +2115,7 @@ export default {
       },
       {
         img: new URL(
-          `../assets/images/logoPantners/xiongmao.png`,
+          `../assets/images/sponsors/xiongmao.png`,
           import.meta.url
         ).href,
         url: "https://www.hungrypanda.co/",
@@ -2325,6 +2346,7 @@ export default {
     // Agenda,
     Seminar,
     Workshop,
+    Booth,
     AgendaCard,
     SpeakerModal,
     Resources,
@@ -3069,61 +3091,60 @@ section {
   }
 }
 .moreDiv {
-    border: 1px solid #008aff;
-    font-weight: bold;
-    font-family: HarmonyOS Sans SC Bold;
-    font-weight: bold;
-    font-size: 0.296rem;
-    color: #008aff;
-    padding: 0.1rem 0.8rem;
-    text-align: center;
-    display: inline-block;
-    margin: 0 auto;
-    margin-top: 0.5rem;
-    display: flex;
-    width: 2.5rem;
-    justify-content: space-around;
-    cursor: grab;
-    position: relative;
-    overflow: hidden;
-    transition: background-color 0.3s ease;
-    z-index: 2;
-    cursor: pointer;
-    &::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: -100%;
-      width: 100%;
-      height: 100%;
-      background-color: #008aff;
-      transition: left 0.15s ease;
-      z-index: -1;
+  border: 1px solid #008aff;
+  font-weight: bold;
+  font-family: HarmonyOS Sans SC Bold;
+  font-size: 0.296rem;
+  color: #008aff;
+  padding: 0.1rem 0.8rem;
+  text-align: center;
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 0.5rem;
+  display: flex;
+  width: 2.5rem;
+  justify-content: space-around;
+  cursor: grab;
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.3s ease;
+  z-index: 2;
+  cursor: pointer;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #008aff;
+    transition: left 0.15s ease;
+    z-index: -1;
+  }
+  &:hover::before {
+    left: 0;
+  }
+  img {
+    margin: 0 0.1rem;
+    &.d {
+      display: block;
     }
-    &:hover::before {
-      left: 0;
+    &.a {
+      display: none;
     }
+  }
+  &:hover {
+    color: #ffffff;
     img {
-      margin: 0 0.1rem;
-      &.d {
+      &.a {
         display: block;
       }
-      &.a {
+      &.d {
         display: none;
       }
     }
-    &:hover {
-      color: #ffffff;
-      img {
-        &.a {
-          display: block;
-        }
-        &.d {
-          display: none;
-        }
-      }
-    }
   }
+}
 
 #section2 {
   .speak-content {

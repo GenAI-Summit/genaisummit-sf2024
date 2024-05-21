@@ -1,0 +1,432 @@
+[
+  {
+    "name": "microsoft",
+    "image": "microsoft2.png",
+    "url": "https://www.microsoft.com"
+  },
+  {
+    "name": "amazon",
+    "image": "amazon.png",
+    "url": "https://www.amazon.com"
+  },
+  {
+    "name": "ibm",
+    "image": "IBM2.png",
+    "url": ""
+  },
+  {
+    "name": "iobc",
+    "image": "iobc.png",
+    "url": "https://www.iobc.capital"
+  },
+  {
+    "name": "zilliz",
+    "image": "zilliz.png",
+    "url": "https://zilliz.com"
+  },
+  {
+    "name": "otter",
+    "image": "otter.png",
+    "url": "https://otter.ai"
+  },
+  {
+    "name": "idaireland",
+    "image": "idaireland.png",
+    "url": "https://www.idaireland.com"
+  },
+  {
+    "name": "abaka",
+    "image": "abaka.png",
+    "url": "https://www.abaka.ai"
+  },
+  {
+    "name": "mountainlion",
+    "image": "mountainlion.png",
+    "url": "https://www.mlion.ai"
+  },
+  {
+    "name": "puffer",
+    "image": "puffer.png",
+    "url": "https://www.puffer.fi"
+  },
+  {
+    "name": "espeed",
+    "image": "espeed.png",
+    "url": ""
+  },
+  {
+    "name": "exabits",
+    "image": "exabits.png",
+    "url": "https://www.exabits.ai"
+  },
+  {
+    "name": "94ai",
+    "image": "94ai.png",
+    "url": "https://cn.94ai.com"
+  },
+  {
+    "name": "akool",
+    "image": "akool.png",
+    "url": "https://akool.com"
+  },
+  {
+    "name": "taskus",
+    "image": "taskus.png",
+    "url": "https://www.taskus.com"
+  },
+  {
+    "name": "1gen",
+    "image": "1gen.png",
+    "url": "https://1gen.ai"
+  },
+  {
+    "name": "agnostiq",
+    "image": "agnostiq.png",
+    "url": "https://agnostiq.ai"
+  },
+  {
+    "name": "upmarket",
+    "image": "upmarket.png",
+    "url": "https://www.upmarket.co"
+  },
+  {
+    "name": "generativex",
+    "image": "generativex.png",
+    "url": "https://gen-x.co.jp"
+  },
+  {
+    "name": "pinecone",
+    "image": "pinecone.png",
+    "url": "https://www.pinecone.io"
+  },
+  {
+    "name": "chatmaster",
+    "image": "chatmaster.png",
+    "url": "https://www.youtek.cc"
+  },
+  {
+    "name": "aiads",
+    "image": "aiads.png",
+    "url": "https://aiads.app"
+  },
+  {
+    "name": "skalable",
+    "image": "skalable.png",
+    "url": "https://skalabletech.com"
+  },
+  {
+    "name": "telus",
+    "image": "telus.png",
+    "url": "https://telusinternational.com/aidata"
+  },
+  {
+    "name": "fivetran",
+    "image": "fivetran.png",
+    "url": "https://www.fivetran.com"
+  },
+  {
+    "name": "valory",
+    "image": "valory.png",
+    "url": "https://www.valory.xyz"
+  },
+  {
+    "name": "hexus",
+    "image": "hexus.png",
+    "url": "https://www.hexus.ai"
+  },
+  {
+    "name": "vimmerse",
+    "image": "vimmerse.png",
+    "url": "https://www.vimmerse.net"
+  },
+  {
+    "name": "cloudfabrix",
+    "image": "cloudfabrix.png",
+    "url": "https://www.cloudfabrix.com"
+  },
+  {
+    "name": "conversight",
+    "image": "conversight.png",
+    "url": "https://conversight.ai"
+  },
+  {
+    "name": "wirestock",
+    "image": "wirestock.png",
+    "url": "https://wirestock.io/datasets"
+  },
+  {
+    "name": "fiddler",
+    "image": "fiddler.png",
+    "url": "https://www.fiddler.ai"
+  },
+  {
+    "name": "ayraa",
+    "image": "ayraa.png",
+    "url": "https://www.ayraa.io"
+  },
+  {
+    "name": "jiffy",
+    "image": "jiffy.png",
+    "url": "https://jiffy.ai"
+  },
+  {
+    "name": "dekube",
+    "image": "dekube.png",
+    "url": "https://dekube.ai"
+  },
+  {
+    "name": "hyperboliclabs",
+    "image": "hyperboliclabs.png",
+    "url": "https://hyperbolic.xyz"
+  },
+  {
+    "name": "digitate",
+    "image": "digitate.png",
+    "url": "https://digitate.com"
+  },
+  {
+    "name": "magstonelaw",
+    "image": "magstonelaw.png",
+    "url": "https://www.magstonelaw.com"
+  },
+  {
+    "name": "boothai",
+    "image": "boothai.png",
+    "url": "https://www.booth.ai"
+  },
+  {
+    "name": "gptworks",
+    "image": "gptworks.png",
+    "url": "https://www.gptworks.ai"
+  },
+  {
+    "name": "zuora",
+    "image": "zuora.png",
+    "url": "https://www.zuora.com/sulutions/accurately-capture-meter-usage"
+  },
+  {
+    "name": "finalize",
+    "image": "finalize.png",
+    "url": "https://finalize.ai"
+  },
+  {
+    "name": "capsico",
+    "image": "capsico.png",
+    "url": "https://www.capsicohealth.com"
+  },
+  {
+    "name": "privacera",
+    "image": "privacera.png",
+    "url": "https://privacera.com"
+  },
+  {
+    "name": "gradient",
+    "image": "gradient.png",
+    "url": "https://gradient.ai"
+  },
+  {
+    "name": "orb",
+    "image": "orb.png",
+    "url": "https://www.withorb.com/ai"
+  },
+  {
+    "name": "upbeat",
+    "image": "upbeat.png",
+    "url": "https://www.upbeat.chat"
+  },
+  {
+    "name": "swarmone",
+    "image": "swarmone.png",
+    "url": "https://swarmone.ai"
+  },
+  {
+    "name": "aizip",
+    "image": "aizip.png",
+    "url": "https://aizip.ai"
+  },
+  {
+    "name": "mothertongue",
+    "image": "mothertongue.png",
+    "url": "https://www.mothertongue.com"
+  },
+  {
+    "name": "ivymax",
+    "image": "ivymax.png",
+    "url": "https://www.ivymax.com"
+  },
+  {
+    "name": "atlas",
+    "image": "atlas.png",
+    "url": "https://joinatlas.ai"
+  },
+  {
+    "name": "moveworks",
+    "image": "moveworks.png",
+    "url": "https://www.moveworks.com"
+  },
+  {
+    "name": "swiftsecurity",
+    "image": "swiftsecurity.png",
+    "url": "https://swiftsecurity.ai"
+  },
+  {
+    "name": "modlee",
+    "image": "modlee.png",
+    "url": "https://www.modlee.ai"
+  },
+  {
+    "name": "unitree",
+    "image": "unitree.png",
+    "url": "https://www.unitree.com"
+  },
+  {
+    "name": "enviate",
+    "image": "enviate.png",
+    "url": "https://enviate.ai/home"
+  },
+  {
+    "name": "onesourcecloud",
+    "image": "onesourcecloud.png",
+    "url": "https://www.onesourcecloud.net"
+  },
+  {
+    "name": "streetbeat",
+    "image": "streetbeat.png",
+    "url": "https://streetbeat.com/en"
+  },
+  {
+    "name": "house",
+    "image": "house.png",
+    "url": "https://house.com"
+  },
+  {
+    "name": "koyeb",
+    "image": "koyeb.png",
+    "url": "https://www.koyeb.com"
+  },
+  {
+    "name": "motivitylabs",
+    "image": "motivitylabs.png",
+    "url": "https://motivitylabs.com"
+  },
+  {
+    "name": "pointable",
+    "image": "pointable.png",
+    "url": "https://www.pointable.ai"
+  },
+  {
+    "name": "rapidsoc2",
+    "image": "rapidsoc2.png",
+    "url": "https://rapidsoc2.com"
+  },
+  {
+    "name": "teqfocus",
+    "image": "teqfocus.png",
+    "url": "https://www.teqfocus.com"
+  },
+  {
+    "name": "xiongmao",
+    "image": "xiongmao.png",
+    "url": "https://www.hungrypanda.co"
+  },
+  {
+    "name": "sineaptic",
+    "image": "sineaptic.png",
+    "url": "https://sineaptic.com"
+  },
+  {
+    "name": "ushur",
+    "image": "ushur.png",
+    "url": "https://ushur.com"
+  },
+  {
+    "name": "livex",
+    "image": "livex.png",
+    "url": "https://livex.ai"
+  },
+  {
+    "name": "dmatrix",
+    "image": "dmatrix.png",
+    "url": "https://www.d-matrix.ai"
+  },
+  {
+    "name": "meii",
+    "image": "meii.png",
+    "url": "https://www.meii.ai"
+  },
+  {
+    "name": "deepchecks",
+    "image": "deepchecks.png",
+    "url": "https://www.deepchecks.com"
+  },
+  {
+    "name": "deepabacus",
+    "image": "deepabacus.png",
+    "url": "https://www.deepabacus.com"
+  },
+  {
+    "name": "squidcloud",
+    "image": "squidcloud.png",
+    "url": "https://squid.cloud"
+  },
+  {
+    "name": "evaluable",
+    "image": "evaluable.png",
+    "url": "https://www.evaluable.ai"
+  },
+  {
+    "name": "network3",
+    "image": "network3.png",
+    "url": "https://network3.io"
+  },
+  {
+    "name": "sider",
+    "image": "sider.png",
+    "url": "https://sider.ai/en"
+  },
+  {
+    "name": "realloop",
+    "image": "realloop.png",
+    "url": "https://www.realloop.com"
+  },
+  {
+    "name": "nascentcore",
+    "image": "nascentcore.png",
+    "url": "https://nascentcore.ai/en"
+  },
+  {
+    "name": "starloom",
+    "image": "starloom.png",
+    "url": "https://starloom.ai"
+  },
+  {
+    "name": "citing",
+    "image": "citing.png",
+    "url": "https://citing.ai"
+  },
+  {
+    "name": "utburst",
+    "image": "utburst.png",
+    "url": "https://utburst.ai"
+  },
+  {
+    "name": "intellimart",
+    "image": "intellimart.png",
+    "url": "https://www.intellimart.ai"
+  },
+  {
+    "name": "genmall",
+    "image": "genmall.png",
+    "url": "https://www.genmall.ai"
+  },
+  {
+    "name": "arcticeider",
+    "image": "arcticeider.png",
+    "url": "https://arcticeider.ai"
+  },
+  {
+    "name": "magikid",
+    "image": "magikid.png",
+    "url": "https://magikidlab.com"
+  }
+]

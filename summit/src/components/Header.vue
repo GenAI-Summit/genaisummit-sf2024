@@ -44,8 +44,8 @@
           <div
             class="nav-link"
             :to="null"
-            @click="scrollToSection('section5')"
-            :class="{ active: activeSection === 'section5' }"
+            @click="scrollToSection('workshop_section')"
+            :class="{ active: activeSection === 'workshop_section' }"
           >
             WORKSHOP
           </div>
@@ -145,7 +145,7 @@ export default {
       sponsor_section: "SPONSORS",
       section3: "EXHIBITION",
       section4: "AGENDA",
-      section5: "WORKSHOPS",
+      workshop_section: "WORKSHOPS",
       section6: "K12 INITIATIVE",
       seminar_section: "SEMINAR",
     };

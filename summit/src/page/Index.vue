@@ -90,364 +90,216 @@
     </section>
     <!-- section1 end -->
 
-
-    <!-- sponsor section start -->
-    <section id="sponsor_section" class="cointainer">
-      <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
-        <div
-          class="left-title before"
-          :class="screenWidth > 600 ? '' : 'mb'"
-          data-aos="flip-up"
-        >
-          Sponsors
-        </div>
-        <div class="open-btn">
-          <button @click="openUrl('https://forms.gle/9pTcvfZcVEVRzmQZ8')">
-            Become Our Sponsor
-            <img src="../assets/images/general_return.png" alt="" />
-          </button>
-        </div>
-      </div>
-      <div class="ss-title" data-aos="flip-up">
-        CHECK WHO MAKES THIS EVENT POSSIBLE!
-      </div>
-
-      <!-- diamond -->
-      <!--
-      <div class="office_content">
-        <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
-          <div class="left">
-            <div class="title_img">
-              <img src="../assets/images/diam.png" alt="" />
-            </div>
-          </div>
-          <div class="right">
-            <div
-              class="list"
-              @click="openUrl('https://www.microsoft.com/en-us/')"
-            >
-              <img class="d" src="../assets/images/sponsors/microsoft3.png" alt="" />
-              <img class="a" src="../assets/images/sponsors/microsoft3.png" alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-      -->
-
-      <!-- platinum -->
-      <div class="office_content">
-        <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
-          <div class="left">
-            <div
-              class="title_img"
-              data-aos="zoom-in"
-            >
-              <img src="../assets/images/plat.png" alt="" />
-            </div>
-          </div>
-          <div class="right">
-            <div
-              class="list"
-              @click="openUrl('https://www.amazon.com/')"
-              data-aos="zoom-in"
-            >
-              <img class="d" src="../assets/images/sponsors/amazon2.png" alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <!-- gold -->
-      <div class="office_content">
-        <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
-          <div class="left">
-            <div
-              class="title_img"
-              data-aos="zoom-in"
-            >
-              <img src="../assets/images/gold.png" alt="" />
-            </div>
-          </div>
-          <div class="right">
-            <div
-              class="list"
-              @click="openUrl('https://www.ibm.com/us-en/')"
-              data-aos="zoom-in"
-            >
-              <img class="d" data-aos="zoom-in" src="../assets/images/sponsors/IBM_temp.png" alt="" />
-            </div>
-
-            <div
-              class="list"
-              data-aos="zoom-in"
-              @click="openUrl('https://www.iobc.capital/#/')"
-            >
-              <img class="d" src="../assets/images/sponsors/iobc.png" alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <!-- silver -->
-      <div class="office_content">
-        <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
-          <div class="left">
-            <div
-              class="title_img"
-              data-aos="zoom-in"
-            >
-              <img src="../assets/images/silver.png" alt="" />
-            </div>
-          </div>
-          <div class="right">
-            <div
-              class="list"
-              data-aos="zoom-in"
-              @click="openUrl('https://sambanova.ai/')"
-            >
-              <img class="d" src="../assets/images/sponsors/samba.png" alt="" />
-            </div>
-
-            <div
-              class="list"
-              data-aos="zoom-in"
-              @click="openUrl('https://otter.ai/')"
-            >
-              <img class="d" src="../assets/images/sponsors/otter2.jpg" alt="" />
-            </div>
-
-            <div
-              class="list"
-              data-aos="zoom-in"
-              @click="openUrl('https://iren.com/')"
-            >
-              <img class="d" src="../assets/images/sponsors/iren.png" alt="" />
-            </div>
-
-            <div
-              class="list"
-              data-aos="zoom-in"
-              @click="openUrl('https://ir.yiren.com/')"
-            >
-              <img class="d" src="../assets/images/sponsors/yiren.png" alt="" />
-            </div>
-
-            <div
-              class="list"
-              data-aos="zoom-in"
-              @click="openUrl('https://zilliz.com/')"
-            >
-              <img class="d" src="../assets/images/sponsors/zilliz.png" alt="" />
-            </div>
-            <div
-              class="list"
-              data-aos="zoom-in"
-              @click="openUrl('https://espeed.capital/')"
-            >
-              <img class="d" src="../assets/images/sponsors/espeed.png" alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Special Sponsor -->
-      <div class="office_content">
-        <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
-          <div class="left">
-            <div
-              class="title_img"
-              data-aos="zoom-in"
-            >
-              <img src="../assets/images/special-sponsor.png" alt="" />
-            </div>
-          </div>
-          <div class="right">
-            <div
-              class="list"
-              data-aos="zoom-in"
-              @click="openUrl('https://you.com/')"
-            >
-              <img class="d" src="../assets/images/sponsors/youcom.png" alt="" />
-            </div>
-
-            <div
-              class="list"
-              data-aos="zoom-in"
-              @click="openUrl('https://www.taskus.com/')"
-            >
-              <img class="d" src="../assets/images/sponsors/taskus.png" alt="" />
-            </div>
-
-        
-            <div
-              class="list"
-              data-aos="zoom-in"
-              @click="openUrl('https://metasill.io/')"
-            >
-              <img class="d" src="../assets/images/sponsors/metasill.png" alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Media -->
-      <div class="office_content">
-        <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
-          <div class="left">
-            <div
-              class="title_img"
-              data-aos="zoom-in"
-            >
-              <img src="../assets/images/media.png" alt="" />
-            </div>
-          </div>
-          <div class="right">
-            <div
-              class="list media"
-              data-aos="zoom-in"
-              @click="openUrl('https://www.bloomberg.com/')"
-            >
-              <img class="d" src="../assets/images/media/bloomberg.png" alt="" />
-            </div>
-
-            <!--
-            <div
-              class="list media"
-              data-aos="zoom-in"
-              @click="openUrl('https://www.washingtonpost.com/')"
-            >
-              <img class="d" src="../assets/images/media/washingtonpost.png" alt="" />
-            </div>
-            <div
-              class="list media"
-              data-aos="zoom-in"
-              @click="openUrl('https://www.nytimes.com/')"
-            >
-              <img class="d" src="../assets/images/media/thenewyorktimes.png" alt="" />
-            </div>
-            -->
-            <div
-              class="list media"
-              data-aos="zoom-in"
-              @click="openUrl('https://www.nbcnews.com/')"
-            >
-              <img class="d" src="../assets/images/media/nbcnews.png" alt="" />
-            </div>
-            <div
-              class="list media"
-              data-aos="zoom-in"
-              @click="openUrl('https://techcrunch.com/')"
-            >
-              <img class="d" src="../assets/images/media/techcrunch.png" alt="" />
-            </div>
-
-            <div
-              class="list media"
-              data-aos="zoom-in"
-              @click="openUrl('http://www.davidpaulmorris.com/')"
-            >
-              <img class="d" src="../assets/images/media/davidpaulmirrors.png" alt="" />
-            </div>
-            <div
-              class="list media"
-              data-aos="zoom-in"
-              @click="openUrl('https://www.sfchronicle.com/')"
-            >
-              <img class="d" src="../assets/images/media/sfchronicle.png" alt="" />
-            </div>
-            <div
-              class="list media"
-              data-aos="zoom-in"
-              @click="openUrl('https://www.sfgate.com/')"
-            >
-              <img class="d" src="../assets/images/media/sfgate.png" alt="" />
-            </div>
-            <div
-              class="list media"
-              data-aos="zoom-in"
-              @click="openUrl('https://www.gettyimages.com/')"
-            >
-              <img class="d" src="../assets/images/media/gettyimages.png" alt="" />
-            </div>
-            <div
-              class="list media"
-              data-aos="zoom-in"
-              @click="openUrl('https://www.teleinfotoday.com/')"
-            >
-              <img class="d" src="../assets/images/media/teleinfotoday.png" alt="" />
-            </div>
-            <div
-              class="list media"
-              data-aos="zoom-in"
-              @click="openUrl('https://www.cyberdefensemagazine.com/')"
-            >
-              <img class="d" src="../assets/images/media/cyberdefensemagazine.png" alt="" />
-            </div>
-            <div
-              class="list media"
-              data-aos="zoom-in"
-              @click="openUrl('https://www.theregister.com/')"
-            >
-              <img class="d" src="../assets/images/media/theregister.png" alt="" />
-            </div>
-            <div
-              class="list media"
-              data-aos="zoom-in"
-              @click="openUrl('https://avazona.com/')"
-            >
-              <img class="d" src="../assets/images/media/avazona.png" alt="" />
-            </div>
-            <div
-              class="list media"
-              data-aos="zoom-in"
-              @click="openUrl('https://www.cgtn.com/')"
-            >
-              <img class="d" src="../assets/images/media/cgtn.png" alt="" />
-            </div>
-            <div
-              class="list media"
-              data-aos="zoom-in"
-              @click="openUrl('https://www.ktsf.com/')"
-            >
-              <img class="d" src="../assets/images/media/ktsf26.png" alt="" />
-            </div>
-            <div
-              class="list media"
-              data-aos="zoom-in"
-              @click="openUrl('https://jojogarden.eventbrite.com')"
-            >
-              <img class="d" src="../assets/images/media/jojogarden.png" alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- sponsor section end -->
-
-
-
     <div class="bg">
+
+      <!-- Sponsor Section Start -->
+      <div class="wrapper">
+        <section id="sponsor_section" class="cointainer">
+          <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
+            <div
+              class="left-title before"
+              :class="screenWidth > 600 ? '' : 'mb'"
+              data-aos="flip-up"
+            >
+              Sponsors
+            </div>
+            <div class="open-btn">
+              <button @click="openUrl('https://forms.gle/9pTcvfZcVEVRzmQZ8')">
+                Become Our Sponsor
+                <img src="../assets/images/general_return.png" alt="" />
+              </button>
+            </div>
+          </div>
+          <div class="ss-title" data-aos="flip-up">
+            CHECK WHO MAKES THIS EVENT POSSIBLE!
+          </div>
+
+          <!-- diamond -->
+          <!--
+          <div class="office_content">
+            <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+              <div class="left">
+                <div class="title_img">
+                  <img src="../assets/images/diam.png" alt="" />
+                </div>
+              </div>
+              <div class="right">
+                <div
+                  class="list"
+                  @click="openUrl('https://www.microsoft.com/en-us/')"
+                >
+                  <img class="d" src="../assets/images/sponsors/microsoft3.png" alt="" />
+                  <img class="a" src="../assets/images/sponsors/microsoft3.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          -->
+
+          <!-- platinum -->
+          <div class="office_content">
+            <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+              <div class="left">
+                <div
+                  class="title_img"
+                  data-aos="zoom-in"
+                >
+                  <img src="../assets/images/plat.png" alt="" />
+                </div>
+              </div>
+              <div class="right">
+                <div
+                  class="list"
+                  @click="openUrl('https://www.amazon.com/')"
+                  data-aos="zoom-in"
+                >
+                  <img class="d" src="../assets/images/sponsors/amazon2.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- gold -->
+          <div class="office_content">
+            <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+              <div class="left">
+                <div
+                  class="title_img"
+                  data-aos="zoom-in"
+                >
+                  <img src="../assets/images/gold.png" alt="" />
+                </div>
+              </div>
+              <div class="right">
+                <div
+                  class="list"
+                  @click="openUrl('https://www.ibm.com/us-en/')"
+                  data-aos="zoom-in"
+                >
+                  <img class="d" data-aos="zoom-in" src="../assets/images/sponsors/IBM_temp.png" alt="" />
+                </div>
+
+                <div
+                  class="list"
+                  data-aos="zoom-in"
+                  @click="openUrl('https://www.iobc.capital/#/')"
+                >
+                  <img class="d" src="../assets/images/sponsors/iobc.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- silver -->
+          <div class="office_content">
+            <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+              <div class="left">
+                <div
+                  class="title_img"
+                  data-aos="zoom-in"
+                >
+                  <img src="../assets/images/silver.png" alt="" />
+                </div>
+              </div>
+              <div class="right">
+                <div
+                  class="list"
+                  data-aos="zoom-in"
+                  @click="openUrl('https://sambanova.ai/')"
+                >
+                  <img class="d" src="../assets/images/sponsors/samba.png" alt="" />
+                </div>
+
+                <div
+                  class="list"
+                  data-aos="zoom-in"
+                  @click="openUrl('https://otter.ai/')"
+                >
+                  <img class="d" src="../assets/images/sponsors/otter2.jpg" alt="" />
+                </div>
+
+                <div
+                  class="list"
+                  data-aos="zoom-in"
+                  @click="openUrl('https://iren.com/')"
+                >
+                  <img class="d" src="../assets/images/sponsors/iren.png" alt="" />
+                </div>
+
+                <div
+                  class="list"
+                  data-aos="zoom-in"
+                  @click="openUrl('https://ir.yiren.com/')"
+                >
+                  <img class="d" src="../assets/images/sponsors/yiren.png" alt="" />
+                </div>
+
+                <div
+                  class="list"
+                  data-aos="zoom-in"
+                  @click="openUrl('https://zilliz.com/')"
+                >
+                  <img class="d" src="../assets/images/sponsors/zilliz.png" alt="" />
+                </div>
+                <div
+                  class="list"
+                  data-aos="zoom-in"
+                  @click="openUrl('https://espeed.capital/')"
+                >
+                  <img class="d" src="../assets/images/sponsors/espeed.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Special Sponsor -->
+          <div class="office_content">
+            <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+              <div class="left">
+                <div
+                  class="title_img"
+                  data-aos="zoom-in"
+                >
+                  <img src="../assets/images/special-sponsor.png" alt="" />
+                </div>
+              </div>
+              <div class="right">
+                <div
+                  class="list"
+                  data-aos="zoom-in"
+                  @click="openUrl('https://you.com/')"
+                >
+                  <img class="d" src="../assets/images/sponsors/youcom.png" alt="" />
+                </div>
+
+                <div
+                  class="list"
+                  data-aos="zoom-in"
+                  @click="openUrl('https://www.taskus.com/')"
+                >
+                  <img class="d" src="../assets/images/sponsors/taskus.png" alt="" />
+                </div>
+
+            
+                <div
+                  class="list"
+                  data-aos="zoom-in"
+                  @click="openUrl('https://metasill.io/')"
+                >
+                  <img class="d" src="../assets/images/sponsors/metasill.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- Sponsor Section End -->
+
+
       <div class="section-number">
         <section class="cointainer">
-          <div class="pantners">
-            <!-- <div class="cointainer">
-          <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
-            <div class="left-title before" :class="screenWidth > 600 ? '' : 'mb'" data-aos="flip-up">
-              Sponsored By
-            </div>
-
-          </div>
-          <div class="pantnersList">
-            <div class="pantnersItem" @click="openUrl(item.url)" :class="screenWidth > 600 ? '' : 'mb'" v-for="(item,index) in EventPartners2" :key="index" data-aos="zoom-in">
-              <img :src="item.img" alt="">
-            </div>
-            
-          </div>
-        </div> -->
-          </div>
-
           <div class="c" :class="screenWidth > 600 ? '' : 'mb'">
             <div
               class="item"
@@ -477,6 +329,146 @@
           </div>
         </section>
       </div>
+
+      <!-- Media Section Start -->
+      <div class="wrapper">
+        <section id="media_section" class="cointainer">
+          <div class="office_content">
+            <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
+              <div class="left">
+                <div
+                  class="title_img"
+                  data-aos="zoom-in"
+                >
+                  <img src="../assets/images/media.png" alt="" />
+                </div>
+              </div>
+              <div class="right">
+                <div
+                  class="list media"
+                  data-aos="zoom-in"
+                  @click="openUrl('https://www.bloomberg.com/')"
+                >
+                  <img class="d" src="../assets/images/media/bloomberg.png" alt="" />
+                </div>
+
+                <!--
+                <div
+                  class="list media"
+                  data-aos="zoom-in"
+                  @click="openUrl('https://www.washingtonpost.com/')"
+                >
+                  <img class="d" src="../assets/images/media/washingtonpost.png" alt="" />
+                </div>
+                <div
+                  class="list media"
+                  data-aos="zoom-in"
+                  @click="openUrl('https://www.nytimes.com/')"
+                >
+                  <img class="d" src="../assets/images/media/thenewyorktimes.png" alt="" />
+                </div>
+                -->
+                <div
+                  class="list media"
+                  data-aos="zoom-in"
+                  @click="openUrl('https://www.nbcnews.com/')"
+                >
+                  <img class="d" src="../assets/images/media/nbcnews.png" alt="" />
+                </div>
+                <div
+                  class="list media"
+                  data-aos="zoom-in"
+                  @click="openUrl('https://techcrunch.com/')"
+                >
+                  <img class="d" src="../assets/images/media/techcrunch.png" alt="" />
+                </div>
+
+                <div
+                  class="list media"
+                  data-aos="zoom-in"
+                  @click="openUrl('http://www.davidpaulmorris.com/')"
+                >
+                  <img class="d" src="../assets/images/media/davidpaulmirrors.png" alt="" />
+                </div>
+                <div
+                  class="list media"
+                  data-aos="zoom-in"
+                  @click="openUrl('https://www.sfchronicle.com/')"
+                >
+                  <img class="d" src="../assets/images/media/sfchronicle.png" alt="" />
+                </div>
+                <div
+                  class="list media"
+                  data-aos="zoom-in"
+                  @click="openUrl('https://www.sfgate.com/')"
+                >
+                  <img class="d" src="../assets/images/media/sfgate.png" alt="" />
+                </div>
+                <div
+                  class="list media"
+                  data-aos="zoom-in"
+                  @click="openUrl('https://www.gettyimages.com/')"
+                >
+                  <img class="d" src="../assets/images/media/gettyimages.png" alt="" />
+                </div>
+                <div
+                  class="list media"
+                  data-aos="zoom-in"
+                  @click="openUrl('https://www.teleinfotoday.com/')"
+                >
+                  <img class="d" src="../assets/images/media/teleinfotoday.png" alt="" />
+                </div>
+                <div
+                  class="list media"
+                  data-aos="zoom-in"
+                  @click="openUrl('https://www.cyberdefensemagazine.com/')"
+                >
+                  <img class="d" src="../assets/images/media/cyberdefensemagazine.png" alt="" />
+                </div>
+                <div
+                  class="list media"
+                  data-aos="zoom-in"
+                  @click="openUrl('https://www.theregister.com/')"
+                >
+                  <img class="d" src="../assets/images/media/theregister.png" alt="" />
+                </div>
+                <div
+                  class="list media"
+                  data-aos="zoom-in"
+                  @click="openUrl('https://avazona.com/')"
+                >
+                  <img class="d" src="../assets/images/media/avazona.png" alt="" />
+                </div>
+                <div
+                  class="list media"
+                  data-aos="zoom-in"
+                  @click="openUrl('https://www.cgtn.com/')"
+                >
+                  <img class="d" src="../assets/images/media/cgtn.png" alt="" />
+                </div>
+                <div
+                  class="list media"
+                  data-aos="zoom-in"
+                  @click="openUrl('https://www.ktsf.com/')"
+                >
+                  <img class="d" src="../assets/images/media/ktsf26.png" alt="" />
+                </div>
+                <div
+                  class="list media"
+                  data-aos="zoom-in"
+                  @click="openUrl('https://jojogarden.eventbrite.com')"
+                >
+                  <img class="d" src="../assets/images/media/jojogarden.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- Media Section End -->
+
+
+
 
       <!-- section2 start -->
       <section id="section2" class="cointainer">
@@ -3361,12 +3353,109 @@ section {
         .media {
           width: 30%;
         }
+      }
+    }
+  }
+}
 
+.wrapper {
+  background: #ffffff;
+  max-width: 100vw;
+}
+
+#media_section {
+  transition: height 0.5s ease-in-out;
+  padding-bottom: 1rem;
+  .office {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 0.1rem;
+    transition: height 0.3s ease-in-out;
+    .left {
+      width: 20%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .title_img {
+        margin-top: 0.1rem;
+        margin-right: 0.4rem;
+        img {
+          width: 100%;
+        }
       }
     }
 
+    .right {
+      margin-left: 0.5rem;
+      width: 75%;
+      display: flex;
+      flex-wrap: wrap;
+
+      .list {
+        display: flex;
+        cursor: pointer;
+        transition: all linear 0.3s;
+        border-radius: 1rem;
+        width: 30%;
+        margin-top: 0.1rem;
+        margin-left: 0rem;
+        margin-right: 1%;
+        z-index: 2;
+        overflow: hidden;
+
+        align-items: center;
+        justify-content: center;
+
+        img {
+          width: 80%;
+          height: auto;
+        }
+
+        &:hover {
+          background: #008aff;
+        }
+      }
+
+      .media {
+        width: 22%;
+      }
+    }
+
+    &.mb {
+      .left {
+        width: 30%;
+
+        .title_img {
+          width: 100%;
+          margin-bottom: 0.3rem;
+          img {
+            width: 100%;
+          }
+        }
+      }
+      .right {
+        margin-left: 0.1rem;
+        width: 65%;
+
+        .list {
+          width: 48%;
+          border-radius: 1rem;
+          img {
+            width: 80%;
+            height: auto;
+            z-index: -1;
+          }
+        }
+
+        .media {
+          width: 30%;
+        }
+      }
+    }
   }
 }
+
 #section3 {
   .office {
     display: flex;

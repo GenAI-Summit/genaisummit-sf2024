@@ -81,7 +81,7 @@
   },
   {
     "name": "agnostiq",
-    "image": "agnostiq.png",
+    "image": "covalent.png",
     "url": "https://agnostiq.ai"
   },
   {
@@ -143,6 +143,11 @@
     "name": "cloudfabrix",
     "image": "cloudfabrix.png",
     "url": "https://www.cloudfabrix.com"
+  },
+  {
+    "name": "scalegenai",
+    "image": "scalegenai.png",
+    "url": "https://www.scalegen.ai"
   },
   {
     "name": "conversight",
@@ -295,9 +300,19 @@
     "url": "https://streetbeat.com/en"
   },
   {
+    "name": "glean",
+    "image": "glean.png",
+    "url": "https://www.glean.com"
+  },
+  {
     "name": "house",
     "image": "house.png",
     "url": "https://house.com"
+  },
+  {
+    "name": "qdrant",
+    "image": "qdrant.png",
+    "url": "https://qdrant.tech/"
   },
   {
     "name": "koyeb",

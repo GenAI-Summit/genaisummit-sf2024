@@ -312,6 +312,7 @@
               <img class="d" src="../assets/images/media/bloomberg.png" alt="" />
             </div>
 
+            <!--
             <div
               class="list media"
               data-aos="zoom-in"
@@ -326,6 +327,7 @@
             >
               <img class="d" src="../assets/images/media/thenewyorktimes.png" alt="" />
             </div>
+            -->
             <div
               class="list media"
               data-aos="zoom-in"

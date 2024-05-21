@@ -322,6 +322,20 @@
             <div
               class="list media"
               data-aos="zoom-in"
+              @click="openUrl('https://www.washingtonpost.com/')"
+            >
+              <img class="d" src="../assets/images/media/washingtonpost.png" alt="" />
+            </div>
+            <div
+              class="list media"
+              data-aos="zoom-in"
+              @click="openUrl('https://www.nytimes.com/')"
+            >
+              <img class="d" src="../assets/images/media/thenewyorktimes.png" alt="" />
+            </div>
+            <div
+              class="list media"
+              data-aos="zoom-in"
               @click="openUrl('https://techcrunch.com/')"
             >
               <img class="d" src="../assets/images/media/techcrunch.png" alt="" />

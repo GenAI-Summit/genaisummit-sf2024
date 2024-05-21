@@ -2068,6 +2068,11 @@ export default {
         url: "https://conversight.ai/",
       },
       {
+        img: new URL(`../assets/images/sponsors/wirestock.png`, import.meta.url)
+          .href,
+        url: "https://wirestock.io/datasets/",
+      },
+      {
         img: new URL(`../assets/images/sponsors/fiddler.png`, import.meta.url)
           .href,
         url: "https://www.fiddler.ai/",

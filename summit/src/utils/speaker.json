@@ -126,7 +126,7 @@
     "id": "arvindjain"
   },
   {
-    "name": "Fiona Ma",
+    "name": "Fiona Ma, CPA",
     "job": "State Treasurer",
     "tip": "State Treasurer's Office",
     "image": "fionama.jpg",
@@ -278,6 +278,20 @@
     "new": true,
     "hide": false,
     "id": "srisatishambati"
+  },
+  {
+    "name": "Mengfan Zhang",
+    "job": "CMO",
+    "tip": "MountainLion",
+    "image": "mengfanzhang.jpg",
+    "website": "",
+    "twitter": "https://twitter.com/yirendigital",
+    "linkedin": "https://www.linkedin.com/company/yiren-digital-ltd/",
+    "detail": "mengfanzhang2.png",
+    "description": "Mr. Jingsheng Huang is the managing executive director at Harvard Center Shanghai. Previously, he was a partner at TPG Growth and RMB Funds, a managing director at Bain Capital LLC, and held positions at SOFTBANK Asia Infrastructure Fund, SuNeVision Ventures, Intel Capital, and GartnerGroup. He has served on boards of China Venture Capital Association and Shanghai Private Equity Association.",
+    "new": false,
+    "hide": true,
+    "id": "mengfanzhang"
   },
   {
     "name": "Jingsheng Huang",
@@ -968,6 +982,34 @@
     "id": "yasharbehzadi"
   },
   {
+    "name": "Mikayel Khachatryan",
+    "job": "CEO",
+    "tip": "Wirestock",
+    "image": "mikayelkhachatryan.jpg",
+    "website": "",
+    "twitter": "https://x.com/mikayelk",
+    "linkedin": "https://www.linkedin.com/in/michaelkh/",
+    "detail": "mikayelkhachatryan2.png",
+    "description": "As the CEO of Wirestock, Mikayel Khachatryan has played an important role in innovating content licensing and distribution, helping hundreds of thousands of artists license their work across the largest content marketplaces and earning millions in royalties. He has guided Wirestock in embracing generative AI, managing a wave of AI-generated content and supporting the industry through strategic content licensing partnerships with leading tech companies to ensure ethical AI training.",
+    "new": false,
+    "hide": false,
+    "id": "mikayelkhachatryan"
+  },
+  {
+    "name": "Sakshi Pratap",
+    "job": "Co-founder & CEO",
+    "tip": "Hexus",
+    "image": "sakshipratap.jpg",
+    "website": "",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/sakshi-p12/",
+    "detail": "sakshipratap2.png",
+    "description": "Sakshi Pratap is the Co-Founder and CEO of Hexus, a startup specializing in AI-powered personalized product demos and guides. She has extensive experience leading tech teams at companies like Google and early-stage startups. Sakshi holds a Master's degree in Computer Science from Georgia Tech and is passionate about leveraging AI to drive innovation and enhance user experiences.",
+    "new": false,
+    "hide": false,
+    "id": "sakshipratap"
+  },
+  {
     "name": "Davit Baghdasaryan",
     "job": "Co-Founder & CEO",
     "tip": "Krisp",
@@ -1600,7 +1642,7 @@
   {
     "name": "Tushar Gupta",
     "job": "Sr. Director",
-    "tip": "AMD",
+    "tip": "Qualcomm Ventures",
     "image": "tushargupta.jpg",
     "website": "https://www.qualcommventures.com/team/tushar-gupta/",
     "twitter": "",

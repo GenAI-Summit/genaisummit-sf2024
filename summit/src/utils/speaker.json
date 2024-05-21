@@ -290,7 +290,7 @@
     "detail": "mengfanzhang2.png",
     "description": "Mr. Jingsheng Huang is the managing executive director at Harvard Center Shanghai. Previously, he was a partner at TPG Growth and RMB Funds, a managing director at Bain Capital LLC, and held positions at SOFTBANK Asia Infrastructure Fund, SuNeVision Ventures, Intel Capital, and GartnerGroup. He has served on boards of China Venture Capital Association and Shanghai Private Equity Association.",
     "new": false,
-    "hide": false,
+    "hide": true,
     "id": "mengfanzhang"
   },
   {

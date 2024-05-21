@@ -919,7 +919,7 @@
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/ameer-haj-ali/",
     "detail": "ameerhajali2.png",
-    "description": "Dr. Ameer, at Anyscale, leads the development of AI cloud infrastructure, streamlining AI applications with projects like LLM Serving. Anyscale, a $1.1 billion startup, specializes in a cloud platform for efficient AI deployment, challenging industry giants like AWS and Azure. With significant contributions from Dr. Ameer, including a $99 million Series C funding, Anyscale is democratizing large-scale AI, making it more accessible and cost-effective for developers and enterprises.",
+    "description": "Dr. Ameer is working on a new AI startup. Before that he was a founding engineer at Anyscale where he helped grow the company from 0 to 150 and headed Platform, Infrastructure, and Gen AI organizations and the major releases, such as Multi-Cloud Infrastructure, General Availability, LLM Endpoints. He completed his CS PhD in 2 years (the fastest in the university) at UC Berkeley in AI and System working with Professors Ion Stoica and Krste Asanovic. He received the valedictorian honor from the Technion twice for his M.Sc. and B.Sc.",
     "new": false,
     "hide": false,
     "id": "ameerhajali"
@@ -1512,6 +1512,20 @@
     "new": false,
     "hide": false,
     "id": "matthewstepka"
+  },
+  {
+    "name": "Kevin Suer",
+    "job": "Director of Product Management",
+    "tip": "Zuora",
+    "image": "kevinsuer.jpg",
+    "website": "",
+    "twitter": "https://x.com/chosmire",
+    "linkedin": "https://www.linkedin.com/in/kevinsuer/",
+    "detail": "kevinsuer2.png",
+    "description": "Kevin Suer is a seasoned product management leader at Zuora, focused on building next-generation data platforms, analytics products, and no-code integrations for subscription businesses. He has extensive experience in pioneering products for political, non-profit, and social media sectors, driving growth through technology innovations. Suer holds degrees from the University of Virginia and is passionate about leveraging technology for business growth.",
+    "new": false,
+    "hide": false,
+    "id": "kevinsuer"
   },
   {
     "name": "Sunny Rochiramani",

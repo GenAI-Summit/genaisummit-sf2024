@@ -182,18 +182,18 @@
     "id": "jonshalowitz"
   },
   {
-    "name": "Dr. Denis Yarats",
-    "job": "CTO & Co-Founder",
-    "tip": "Perplexity",
-    "image": "denisyarats.jpg",
-    "website": "https://cs.nyu.edu/~dy1042/",
-    "twitter": "https://twitter.com/denisyarats",
-    "linkedin": "https://www.linkedin.com/in/denisyarats/",
-    "detail": "denisyarats2.png",
-    "description": "Dr. Denis Yarats, the Co-Founder and CTO of Perplexity AI. Perplexity AI is an AI-powered search engine and chatbot that utilizes advanced technologies such as natural language processing (NLP) and machine learning to provide accurate and comprehensive answers to user queries, which brings the challenges to Google Search. Perplexity AI,secured $100 million in funding, which elevated the company's valuation to a total of $520 million.",
+    "name": "Charles Xie",
+    "job": "Founder & CEO",
+    "tip": "Zilliz",
+    "image": "charlesxie.jpg",
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/chaoxie/",
+    "twitter": "https://twitter.com/starlordxie",
+    "detail": "charlesxie2.png",
+    "description": "Charles Xie is the founder and CEO of Zilliz, a company dedicated to developing a cutting-edge unstructured data platform for AI applications. He is the creator of Milvus, a leading open-source vector database that is used by over 5,000 enterprises worldwide. In addition to his role at Zilliz, Charles has been actively involved with the LF AI & Data Foundation, serving as a board member and as the chairperson from 2020 to 2021. Before founding Zilliz, he was one of the founding engineers behind Oracle's 12c cloud database project. Charles holds a Master's degree in Computer Science from the University of Wisconsin-Madison.",
     "new": true,
     "hide": false,
-    "id": "denisyarats"
+    "id": "charlesxie"
   },
   {
     "name": "Jason Wei",
@@ -252,18 +252,18 @@
     "id": "jiali"
   },
   {
-    "name": "Charles Xie",
-    "job": "Founder & CEO",
-    "tip": "Zilliz",
-    "image": "charlesxie.jpg",
-    "website": "",
-    "linkedin": "https://www.linkedin.com/in/chaoxie/",
-    "twitter": "https://twitter.com/starlordxie",
-    "detail": "charlesxie2.png",
-    "description": "Charles Xie is the founder and CEO of Zilliz, a company dedicated to developing a cutting-edge unstructured data platform for AI applications. He is the creator of Milvus, a leading open-source vector database that is used by over 5,000 enterprises worldwide. In addition to his role at Zilliz, Charles has been actively involved with the LF AI & Data Foundation, serving as a board member and as the chairperson from 2020 to 2021. Before founding Zilliz, he was one of the founding engineers behind Oracle's 12c cloud database project. Charles holds a Master's degree in Computer Science from the University of Wisconsin-Madison.",
+    "name": "Dr. Denis Yarats",
+    "job": "CTO & Co-Founder",
+    "tip": "Perplexity",
+    "image": "denisyarats.jpg",
+    "website": "https://cs.nyu.edu/~dy1042/",
+    "twitter": "https://twitter.com/denisyarats",
+    "linkedin": "https://www.linkedin.com/in/denisyarats/",
+    "detail": "denisyarats2.png",
+    "description": "Dr. Denis Yarats, the Co-Founder and CTO of Perplexity AI. Perplexity AI is an AI-powered search engine and chatbot that utilizes advanced technologies such as natural language processing (NLP) and machine learning to provide accurate and comprehensive answers to user queries, which brings the challenges to Google Search. Perplexity AI,secured $100 million in funding, which elevated the company's valuation to a total of $520 million.",
     "new": true,
     "hide": false,
-    "id": "charlesxie"
+    "id": "denisyarats"
   },
   {
     "name": "Sri Satish Ambati",
@@ -278,20 +278,6 @@
     "new": true,
     "hide": false,
     "id": "srisatishambati"
-  },
-  {
-    "name": "Mengfan Zhang",
-    "job": "CMO",
-    "tip": "MountainLion",
-    "image": "mengfanzhang.jpg",
-    "website": "",
-    "twitter": "https://twitter.com/yirendigital",
-    "linkedin": "https://www.linkedin.com/company/yiren-digital-ltd/",
-    "detail": "mengfanzhang2.png",
-    "description": "Mr. Jingsheng Huang is the managing executive director at Harvard Center Shanghai. Previously, he was a partner at TPG Growth and RMB Funds, a managing director at Bain Capital LLC, and held positions at SOFTBANK Asia Infrastructure Fund, SuNeVision Ventures, Intel Capital, and GartnerGroup. He has served on boards of China Venture Capital Association and Shanghai Private Equity Association.",
-    "new": false,
-    "hide": true,
-    "id": "mengfanzhang"
   },
   {
     "name": "Jingsheng Huang",
@@ -348,6 +334,20 @@
     "new": true,
     "hide": false,
     "id": "muddusudhakar"
+  },
+  {
+    "name": "Mengfan Zhang",
+    "job": "CMO",
+    "tip": "MountainLion",
+    "image": "mengfanzhang.jpg",
+    "website": "",
+    "twitter": "https://twitter.com/yirendigital",
+    "linkedin": "https://www.linkedin.com/company/yiren-digital-ltd/",
+    "detail": "mengfanzhang2.png",
+    "description": "Mr. Jingsheng Huang is the managing executive director at Harvard Center Shanghai. Previously, he was a partner at TPG Growth and RMB Funds, a managing director at Bain Capital LLC, and held positions at SOFTBANK Asia Infrastructure Fund, SuNeVision Ventures, Intel Capital, and GartnerGroup. He has served on boards of China Venture Capital Association and Shanghai Private Equity Association.",
+    "new": false,
+    "hide": false,
+    "id": "mengfanzhang"
   },
   {
     "name": "Swapnil Jain",

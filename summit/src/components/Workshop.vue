@@ -1,14 +1,18 @@
 <template>
   <div
-    class="seminar-items"
+    class="workshop-items"
     :class="screenWidth < 600 ? 'mb' : ''"
-    data-aos="flip-up"
+    data-aos="fade-up"
   >
-    <div class="seminar-item" v-for="item in seminar" :key="item.name">
+    <div
+      class="workshop-item"
+      v-for="item in workshop"
+      :key="item.name"
+    >
       <img
-        class="seminar-pic"
-        :src="getImage(item.image)" 
-        alt="seminar image" 
+        class="workshop-pic"
+        :src="getImage(item.image)"
+        alt="workshop image" 
         @click="openUrl(item.url)" 
         loading="lazy"
       />
@@ -20,7 +24,7 @@
 import { ref, computed } from "vue";
 import { useStore } from "vuex";
 
-import seminarData from "../utils/seminar.json";
+import workshopData from "../utils/workshop.json";
 
 export default {
   name: 'Seminar',
@@ -28,19 +32,20 @@ export default {
     const store = useStore();
     const screenWidth = computed(() => store.state.screenWidth);
 
-    const seminar = ref(seminarData);
-    console.log(seminar);
+    const workshop = ref(workshopData);
 
     const getImage = (image) => {
       return new URL(`/src/assets/images/sponsors/${image}`, import.meta.url).href;
     }
 
     const openUrl = (url) => {
-      window.open(url, "_blank");
+      if (url) {
+        window.open(url, "_blank");
+      }
     }
 
     return {
-      seminar,
+      workshop,
       getImage,
       openUrl,
       screenWidth,
@@ -50,7 +55,7 @@ export default {
 </script>
 
 <style scope lang="scss">
-.seminar-items {
+.workshop-items {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -58,18 +63,18 @@ export default {
   overflow: hidden;
 
   &.mb {
-    .seminar-item {
+    .workshop-item {
       margin-bottom: 0.3rem;
       height: 100%;
       margin-left: 0.1rem;
-      .seminar-pic {
+      .workshop-pic {
         width: 90%;
         height: auto;
       }
     }
   }
 
-  .seminar-item {
+  .workshop-item {
     display: flex;
     justify-content: center;
     width: 48%;
@@ -88,7 +93,7 @@ export default {
       background: #008aff;
       height: 100%;
     }
-    .seminar-pic {
+    .workshop-pic {
       height: 1.8rem;
       z-index: -1;
       display: block;

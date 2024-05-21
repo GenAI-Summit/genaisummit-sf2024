@@ -10,9 +10,9 @@
       </div>
     </div>
     <div class="contact" data-aos="fade-up">
-        <img v-if="item.website != ''" @click="openUrl(item.website)" src="../assets/images/ico_w.png" alt="" loading="lazy">
-        <img v-if="item.twitter != ''" @click="openUrl(item.twitter)" src="../assets/images/ico_x.png" alt="" loading="lazy">
-        <img v-if="item.linkedin != ''" @click="openUrl(item.linkedin)" src="../assets/images/ico_in.png" alt="" loading="lazy">
+      <img v-if="item.website != ''" @click="openUrl(item.website)" src="../assets/images/ico_w.png" alt="" loading="lazy">
+      <img v-if="item.twitter != ''" @click="openUrl(item.twitter)" src="../assets/images/ico_x.png" alt="" loading="lazy">
+      <img v-if="item.linkedin != ''" @click="openUrl(item.linkedin)" src="../assets/images/ico_in.png" alt="" loading="lazy">
     </div>
   </div>
 </template>

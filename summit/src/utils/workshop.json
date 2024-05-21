@@ -1,0 +1,52 @@
+[
+  {
+    "name": "nvidia",
+    "image": "nvidia.png",
+    "url": "https://www.nvidia.com/"
+  },
+  {
+    "name": "amazon",
+    "image": "amazon.png",
+    "url": "https://www.amazon.com/"
+  },
+  {
+    "name": "ibm",
+    "image": "IBM2.png",
+    "url": "https://www.ibm.com/"
+  },
+  {
+    "name": "sambanova",
+    "image": "samba.png",
+    "url": "https://www.sambanova.ai/"
+  },
+  {
+    "name": "zilliz",
+    "image": "zilliz.png",
+    "url": "https://zilliz.com/"
+  },
+  {
+    "name": "otter",
+    "image": "otter.png",
+    "url": "https://otter.ai/"
+  },
+  {
+    "name": "pinecone",
+    "image": "pinecone.png",
+    "url": "https://www.pinecone.io/"
+  },
+  {
+    "name": "ushur",
+    "image": "ushur.png",
+    "url": "https://ushur.com/"
+  },
+  {
+    "name": "mountainlion",
+    "image": "mountainlion.png",
+    "url": "https://www.mlion.ai/"
+  },
+  {
+    "name": "jobfair",
+    "image": "jobfair.png",
+    "url": ""
+  }
+]

@@ -576,6 +576,7 @@
       <!-- section2 end -->
 
       <!-- section5 start -->
+      <!--
       <section id="section5" class="cointainer">
         <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
           <div
@@ -607,7 +608,7 @@
               class="list"
               @click="openUrl('https://www.nvidia.com/en-us/')"
             >
-              <img class="d" src="../assets/images/workshop/nvidia.png" alt="" loading="lazy" />
+              <img class="d" src="../assets/images/sponsors/nvidia.png" alt="" loading="lazy" />
             </div>
             <div
               class="list"
@@ -640,10 +641,6 @@
         <div class="office_content">
           <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
 
-            <!-- <div class="list" @click="openUrl('https://cloud.google.com/')">
-              <img class="d" src="../assets/images/ico_logo_g2.png" alt="" />
-              <img class="a" src="../assets/images/ico_logo_g1.png" alt="" />
-            </div> -->
             <div
               class="list"
               @click="openUrl('https://zilliz.com/')"
@@ -665,10 +662,6 @@
         <div class="office_content">
           <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
 
-            <!-- <div class="list" @click="openUrl('https://cloud.google.com/')">
-              <img class="d" src="../assets/images/ico_logo_g2.png" alt="" />
-              <img class="a" src="../assets/images/ico_logo_g1.png" alt="" />
-            </div> -->
             <div
               class="list"
               @click="openUrl('https://www.pinecone.io/')"
@@ -706,206 +699,30 @@
           </div>
         </div>
 
-        <!--
-        <div class="office_content">
-          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
-
-            <div class="list" @click="openUrl('https://cloud.google.com/')">
-              <img class="d" src="../assets/images/ico_logo_g2.png" alt="" />
-              <img class="a" src="../assets/images/ico_logo_g1.png" alt="" />
-            </div>
-
-            <div
-              class="list"
-
-            >
-              <img class="d" src="../assets/images/sponsors/play.png" alt="" />
-              <img class="a" src="../assets/images/sponsors/play.png" alt="" />
-            </div>
-            <div
-              class="list"
-            >
-              <img class="d" src="../assets/images/sponsors/playk12.png" alt="" />
-              <img class="a" src="../assets/images/sponsors/playk12.png" alt="" />
-            </div>
-
-
-          </div>
-        </div>
-        -->
       </section>
+      -->
       <!-- section5 end -->
 
-      <!-- section5 start -->
-      <!--
-      <section id="section5" class="cointainer">
+      <!-- WorkShop Starts -->
+      <section id="workshop_section" class="cointainer">
         <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
           <div
             class="left-title before"
             :class="screenWidth > 600 ? '' : 'mb'"
             data-aos="flip-up"
           >
-            WorkShops
-          </div>
-          <div class="open-btn">
-            <button @click="openUrl('https://forms.gle/9pTcvfZcVEVRzmQZ8')">
-              WorkShop Application
-              <img src="../assets/images/general_return.png" alt="" />
-            </button>
+            Workshops
           </div>
         </div>
         <div class="ss-title" data-aos="flip-up">
-          INSIDE OF LESSONS TO LEARN NEW TECHNOLOGY!
+          LEARN FROM THE BEST IN THE INDUSTRY
         </div>
-        <div class="sss-title" data-aos="flip-up">
-          Applied Generative AI Workshops offer a comprehensive solution that equips both technical and non-technical attendees from all age groups with essential skills in just 60 minutes.
-          Here are a few highlighted sessions (Updated weekly, <i>please bring your labtop</i>):
-        </div>
-
-        <div class="office_content">
-          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
-            
-            <div
-              class="list"
-              @click="openUrl('https://www.nvidia.com/en-us/')"
-            >
-              <img class="d" src="../assets/images/workshop/nvidia.png" alt="" loading="lazy" />
-            </div>
-
-            <div class="content">
-              <p class="top">
-                <span class="tag">Topic:</span>
-                Build an advanced Retrieval Augmented Generation (RAG) assistant with Amazon Bedrock
-              </p>
-              <span>
-                This session will guide you through building an advanced generative AI assistant utilizing an advanced Retrieval Augmented Generation (RAG) technique powered by Anthropic Claude 3 on Amazon Bedrock. We will explore how to use Knowledge Bases for Amazon Bedrock for storing, and searching embeddings and how to use Agents for Amazon Bedrock to execute the tasks involved in this process. You will learn how to save time and resources by implementing an efficient and scalable system while ensuring data security throughout the process.
-              </span>
-            </div>
-          </div>
-        </div>
-
-        <div class="office_content">
-          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
-            <div
-              class="list"
-              @click="openUrl('https://www.amazon.com/')"
-            >
-              <img class="d" src="../assets/images/sponsors/amazon.png" alt="" loading="lazy" />
-            </div>
-            <div class="content">
-              <p class="top">
-                <span class="tag">Topic:</span>
-                Build an advanced Retrieval Augmented Generation (RAG) assistant with Amazon Bedrock
-              </p>
-              <span>
-                This session will guide you through building an advanced generative AI assistant utilizing an advanced Retrieval Augmented Generation (RAG) technique powered by Anthropic Claude 3 on Amazon Bedrock. We will explore how to use Knowledge Bases for Amazon Bedrock for storing, and searching embeddings and how to use Agents for Amazon Bedrock to execute the tasks involved in this process. You will learn how to save time and resources by implementing an efficient and scalable system while ensuring data security throughout the process.
-              </span>
-            </div>
-
-          </div>
-        </div>
-
-
-        <div class="office_content">
-          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
-            <div
-              class="list"
-              @click="openUrl('https://www.ibm.com/us-en')"
-            >
-              <img class="d" src="../assets/images/sponsors/IBM2.jpg" alt="" loading="lazy" />
-            </div>
-            <div class="content">
-              <p class="top">
-                <span class="tag">Topic:</span>
-                Build an advanced Retrieval Augmented Generation (RAG) assistant with Amazon Bedrock
-              </p>
-              <span>
-                This session will guide you through building an advanced generative AI assistant utilizing an advanced Retrieval Augmented Generation (RAG) technique powered by Anthropic Claude 3 on Amazon Bedrock. We will explore how to use Knowledge Bases for Amazon Bedrock for storing, and searching embeddings and how to use Agents for Amazon Bedrock to execute the tasks involved in this process. You will learn how to save time and resources by implementing an efficient and scalable system while ensuring data security throughout the process.
-              </span>
-            </div>
-          </div>
-        </div>
-
-        <div class="office_content">
-          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
-            <div
-              class="list"
-              @click="openUrl('https://zilliz.com/')"
-            >
-              <img class="d" src="../assets/images/sponsors/samba.png" alt="" loading="lazy" />
-            </div>
-          </div>
-        </div>
-
-        <div class="office_content">
-          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
-            
-            <div
-              class="list"
-              @click="openUrl('https://otter.ai/')"
-            >
-              <img class="d" src="../assets/images/sponsors/zilliz.png" alt="" loading="lazy" />
-            </div>
-          </div>
-        </div>
-
-
-        <div class="office_content">
-          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
-            <div
-              class="list"
-            >
-              <img class="d" src="../assets/images/sponsors/otter.png" alt="" loading="lazy" />
-            </div>
-
-            
-          </div>
-        </div>
-
-        <div class="office_content">
-          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
-            
-            <div
-              class="list"
-              @click="openUrl('https://otter.ai/')"
-            >
-              <img class="d" src="../assets/images/sponsors/pinecone.png" alt="" loading="lazy" />
-              
-            </div>
-          </div>
-        </div>
-
-        <div class="office_content">
-          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
-            <div
-              class="list"
-              @click="openUrl('https://ushur.com/')"
-            >
-              <img class="d" src="../assets/images/sponsors/ushur.png" alt="" loading="lazy" />
-            </div>
-
-          </div>
-        </div>
-
-        <div class="office_content">
-          <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
-            
-            <div
-              class="list"
-              @click="openUrl('https://otter.ai/')"
-            >
-              <img class="d" src="../assets/images/sponsors/jobfair.png" alt="" loading="lazy" />
-              
-            </div>
-
-            
-          </div>
-        </div>
-
+        <Workshop />
       </section>
-      -->
-      <!-- section5 end -->
+      <!-- WorkShop Ends -->
 
+
+      <!-- Seminar Starts -->
       <!--
       <section id="seminar_section" class="cointainer">
         <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
@@ -923,6 +740,7 @@
         <Seminar />
       </section>
       -->
+      <!-- Seminar Ends -->
 
       <section id="section6" class="cointainer">
         <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
@@ -1513,6 +1331,7 @@ import StarBackground from "../components/StarBackground.vue";
 // import Agenda from "../components/Agenda.vue";
 import AgendaCard from "../components/AgendaCard.vue";
 import Seminar from "../components/Seminar.vue";
+import Workshop from "../components/Workshop.vue";
 import Resources from "../components/Resources.vue";
 import SpeakerModal from "../components/SpeakerModal.vue";
 
@@ -2396,42 +2215,6 @@ export default {
 
     ]);
 
-
-    const workshop = ref([
-    {
-        img: new URL(
-          `../assets/images/workshop/nvidia.png`,
-          import.meta.url
-        ).href,
-        url: "https://www.nvidia.com/en-us/",
-      },
-      {
-        img: new URL(
-          `../assets/images/sponsors/amazon.png`,
-          import.meta.url
-        ).href,
-        url: "https://www.amazon.com/",
-      },
-      {
-        img: new URL(
-          `../assets/images/sponsors/samba.png`,
-          import.meta.url
-        ).href,
-        url: "https://sambanova.ai/",
-      },
-      {
-        img: new URL(
-          `../assets/images/sponsors/zilliz.png`,
-          import.meta.url
-        ).href,
-        url: "https://zilliz.com/",
-      },
-     
-      
-    
-    ]);
-
-
     const goPageHandle = () => {
       EventBus.$emit("goPageHandle");
     };
@@ -2525,7 +2308,6 @@ export default {
       getImg2,
       EventPartners,
       EventPartners2,
-      workshop,
       activeSection,
       scrollToSection,
       BuyTickets,
@@ -2542,6 +2324,7 @@ export default {
     StarBackground,
     // Agenda,
     Seminar,
+    Workshop,
     AgendaCard,
     SpeakerModal,
     Resources,
@@ -3777,6 +3560,7 @@ section {
 }
 */
 
+/*
 #section5 {
   .office {
     display: flex;
@@ -3825,6 +3609,7 @@ section {
     }
   }
 }
+*/
 
 #section6 {
   .speak-k12-content {

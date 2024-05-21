@@ -448,5 +448,10 @@
     "name": "magikid",
     "image": "magikid.png",
     "url": "https://magikidlab.com"
+  },
+  {
+    "name": "printsolar",
+    "image": "printsolar.png",
+    "url": ""
   }
 ]

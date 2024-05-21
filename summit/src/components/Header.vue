@@ -178,7 +178,6 @@ export default {
       return couponValue
     }
     const scrollToSection = (sectionId) => {
-      console.log(sectionId);
       const discount = route.query.discount || getLocationParame();
       const coupon = route.query.coupon || getLocationParame1();
       const section = document.getElementById(sectionId);
@@ -188,13 +187,11 @@ export default {
         newHash = `?section=` + sectionList[sectionId] + `&discount=` + discount
       }else{
         newHash =  `?section=` + sectionList[sectionId]
-        console.log(newHash);
       }
       if(coupon){
         newHash = newHash + '&coupon=' + coupon
       }
       window.location.hash = newHash;
-      console.log(section);
       if (section) {
         window.scrollTo({
           top: section.offsetTop - 80,

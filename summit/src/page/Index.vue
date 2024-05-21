@@ -416,7 +416,7 @@
             <div
               class="list media"
               data-aos="zoom-in"
-              @click="openUrl('https://www.ktsf.com/')"
+              @click="openUrl('https://jojogarden.eventbrite.com')"
             >
               <img class="d" src="../assets/images/media/jojogarden.png" alt="" />
             </div>
@@ -576,7 +576,10 @@
             </div>
           </div>
         </div>
-        <div class="swiper-content">
+        <div
+          class="swiper-content"
+          data-aos="flip-up"
+        >
           <Swiper ref="SwiperSpeaker" :newSpeakersList="newSpeakersList" />
         </div>
       </section>
@@ -3309,6 +3312,7 @@ section {
         margin-left: 0rem;
         margin-right: 1%;
         z-index: 2;
+        overflow: hidden;
 
         align-items: center;
         justify-content: center;

@@ -91,7 +91,6 @@ export default {
 
     &:hover {
       background: #008aff;
-      height: 100%;
     }
     .workshop-pic {
       height: 1.8rem;

@@ -245,7 +245,6 @@ export default {
       }
      
     }
-    //适配
     const screenWidth = computed(() => {
       return store.state.screenWidth;
     });

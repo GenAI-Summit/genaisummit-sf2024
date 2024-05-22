@@ -127,11 +127,13 @@
       "type": "Panel Discussion",
       "topic": "AI Computing / AI HW - Corporate VC investment strategy & focus",
       "moderators": [
+        ["xuhuishao", "Dr. Xuhui Shao"]
       ],
       "abstract": "",
       "speakers": [
         ["jeffhennig", "Jeff Hennig"],
-        ["tushargupta", "Tushar Gupta"]
+        ["tushargupta", "Tushar Gupta"],
+        ["dedegoldschmidt", "Dede Goldschmidt"]
       ],
       "hide": false
     },

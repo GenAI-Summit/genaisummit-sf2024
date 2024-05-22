@@ -23,6 +23,7 @@
       ],
       "abstract": "",
       "speakers": [
+        ["amazon", "Amazon"]
       ],
       "hide": false
     },
@@ -97,10 +98,9 @@
       ],
       "abstract": "",
       "speakers": [
-        ["amazon", "Amazon"],
         ["ajinkyamalasane", "Ajinkya Malasane"],
         ["jainatarajan", "Jai Natarajan"],
-        ["shirchorev", "Shir Chorev"]
+        ["armandruiz", "Armand Ruiz"]
       ],
       "hide": false
     },
@@ -192,7 +192,7 @@
       "speakers": [
         ["jimpalmer", "Jim Palmer"],
         ["yanivmakover", "Yaniv Makover"],
-        ["xichen", "Prof. Chen Xi"],
+        ["xichen", "Prof. Xi Chen"],
         ["andreasramos", "Prof. Andreas Ramos"]
       ],
       "hide": false
@@ -202,15 +202,13 @@
       "room": "AGI Stage",
       "time": "14:30-15:15",
       "type": "Panel Discussion",
-      "topic": "Conversational AI in Sales and Marketing",
+      "topic": "How AI Is Reshaping the Service in Medical and Healthcare",
       "moderators": [
       ],
       "abstract": "",
       "speakers": [
         ["zacharylipton", "Zachary Lipton"],
-        ["ankitjain", "Ankit Jain"],
-        ["natalievassilieva", "Natalie Vassilieva"],
-        ["tombrady", "Tom Brady"]
+        ["ankitjain", "Ankit Jain"]
       ],
       "hide": false
     },
@@ -258,14 +256,14 @@
       "abstract": "",
       "speakers": [
       ],
-      "hide": false
+      "hide": true
     },
     {
       "day": 1,
       "room": "Align Stage",
       "time": "11:00-12:00",
       "type": "Panel Discussion",
-      "topic": "Computing Resource for LLM",
+      "topic": "Building Scalable Infrastructure for Generative AI Services in Enterprise Environments",
       "moderators": [
       ],
       "abstract": "",
@@ -277,9 +275,9 @@
     {
       "day": 1,
       "room": "Align Stage",
-      "time": "13:00-13:45",
+      "time": "13:00-14:00",
       "type": "Panel Discussion",
-      "topic": "Revolutionizing Healthcare with Generative AI in",
+      "topic": "VC",
       "moderators": [
       ],
       "abstract": "",
@@ -290,7 +288,7 @@
     {
       "day": 1,
       "room": "Align Stage",
-      "time": "13:45-14:00",
+      "time": "14:15-14:30",
       "type": "Keynote",
       "topic": "How to help GenAI companies to expand business Internationally",
       "moderators": [
@@ -360,17 +358,14 @@
     {
       "day": 1,
       "room": "Prompt Room",
-      "time": "10:00-11:00",
-      "type": "Seminar",
-      "topic": "Pitching Your Startup: The Brutal Truth About What VCs Want in AI-First Companies",
+      "time": "13:00-14:00",
+      "type": "Workshop",
+      "topic": "Will be provided by speakers soon",
       "moderators": [
       ],
       "abstract": "",
       "speakers": [
-        ["jayzhao", "Jay Zhao"],
-        ["jennyxiao", "Jenny Xiao"],
-        ["chrismccann", "Chris McCann"],
-        ["barr", "Barr Yaron"]
+        ["magstonelaw", "Magstone Law"]
       ],
       "hide": false
     },
@@ -385,6 +380,20 @@
       "abstract": "",
       "speakers": [
         ["mengfanzhang", "Mengfan Zhang"]
+      ],
+      "hide": false
+    },
+    {
+      "day": 1,
+      "room": "Prompt Room",
+      "time": "16:00-16:30",
+      "type": "Seminar",
+      "topic": "Proof of Learning for Decentralized AI",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["xichen", "Prof. Xi Chen"]
       ],
       "hide": false
     }
@@ -540,7 +549,7 @@
       "room": "AGI Stage",
       "time": "09:00-09:45",
       "type": "Keynote",
-      "topic": "Intuitions on Large Language Models",
+      "topic": "Will be provided by speakers soon",
       "moderators": [
       ],
       "abstract": "",
@@ -602,7 +611,9 @@
       "abstract": "",
       "speakers": [
         ["bhavinshah", "Bhavin Shah"],
-        ["kevinmoody", "Kevin Moody"]
+        ["kevinmoody", "Kevin Moody"],
+        ["mengfanzhang", "Mengfan Zhang"],
+        ["muddusudhakar", "Dr. Muddu Sudhakar"]
       ],
       "hide": false
     },
@@ -678,8 +689,6 @@
       ],
       "abstract": "",
       "speakers": [
-        ["benjaminlevy", "Benjamin Levy"],
-        ["austinarensberg", "Austin Arensberg"]
       ],
       "hide": false
     },
@@ -694,6 +703,22 @@
       "abstract": "",
       "speakers": [
         ["geraldparloiu", "Gerald Parloiu"]
+      ],
+      "hide": false
+    },
+    {
+      "day": 2,
+      "room": "Align Stage",
+      "time": "13:30-14:30",
+      "type": "Panel Discussion",
+      "topic": "Pitching Your Startup: The Brutal Truth About What VCs Want in AI-First Companies",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["jayzhao", "Jay Zhao"],
+        ["chrismccann", "Chris McCann"],
+        ["barryaron", "Barr Yaron"]
       ],
       "hide": false
     },
@@ -784,6 +809,34 @@
     {
       "day": 2,
       "room": "Prompt Room",
+      "time": "09:00-11:00",
+      "type": "Seminar",
+      "topic": "Will be provided by speakers soon",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["shaileshmanjrekar", "Shailesh Manjrekar"]
+      ],
+      "hide": false
+    },
+    {
+      "day": 2,
+      "room": "Prompt Room",
+      "time": "11:00-12:00",
+      "type": "Panel Discussion",
+      "topic": "VC",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["benjaminlevy", "Benjamin Levy"]
+      ],
+      "hide": false
+    },
+    {
+      "day": 2,
+      "room": "Prompt Room",
       "time": "13:00-15:00",
       "type": "Workshop",
       "topic": "Will be provided by speakers soon",
@@ -798,7 +851,7 @@
     {
       "day": 2,
       "room": "Prompt Room",
-      "time": "13:00-15:00",
+      "time": "15:00-17:00",
       "type": "Seminar",
       "topic": "Will be provided by speakers soon",
       "moderators": [
@@ -922,8 +975,7 @@
       ],
       "abstract": "",
       "speakers": [
-        ["gregtanaka", "Greg Tanaka"],
-        ["matthewstepka", "Matthew Stepka"]
+        ["gregtanaka", "Greg Tanaka"]
       ],
       "hide": false
     },
@@ -947,8 +999,8 @@
       "day": 3,
       "room": "GPT Stage",
       "time": "16:15-17:00",
-      "type": "Fireside Chat",
-      "topic": "Will be provided by speakers soon",
+      "type": "Keynote",
+      "topic": "The Power of Scale: Unleashing Generative AI with Wafer-Scale Engine",
       "moderators": [
       ],
       "abstract": "",
@@ -1083,13 +1135,12 @@
       "room": "Align Stage",
       "time": "09:00-10:00",
       "type": "Panel Discussion",
-      "topic": "AI and Healthcare",
+      "topic": "Enhancing Healthcare Efficiency and Service Quality with Generative AI",
       "moderators": [
       ],
       "abstract": "",
       "speakers": [
-        ["lindseyspellman", "Lindsey Spellman"],
-        ["ibm", "IBM"]
+        ["lindseyspellman", "Lindsey Spellman"]
       ],
       "hide": false
     },
@@ -1105,9 +1156,8 @@
       "speakers": [
         ["kathrynwu", "Kathryn Wu"],
         ["telusinternational", "Telus International"],
-        ["zuora", "Zuora"],
-        ["streetbeat", "Streetbeat"],
-        ["mengfanzhang", "Mengfan Zhang"]
+        ["kevinsuer", "Kevin Suer"],
+        ["streetbeat", "Streetbeat"]
       ],
       "hide": false
     },
@@ -1121,19 +1171,21 @@
       ],
       "abstract": "",
       "speakers": [
+        ["magstonelaw", "Magstone Law"]
       ],
       "hide": false
     },
     {
       "day": 3,
       "room": "Align Stage",
-      "time": "11:00-12:00",
+      "time": "13:00-13:45",
       "type": "Panel Discussion",
-      "topic": "Domain specific LLM",
+      "topic": "Minority Culture Preservation and GenAI",
       "moderators": [
       ],
       "abstract": "",
       "speakers": [
+        ["tiffanyjoybasse", "Tiffany Joy Basse"]
       ],
       "hide": false
     },
@@ -1168,12 +1220,11 @@
       "room": "Align Stage",
       "time": "15:15-15:45",
       "type": "Keynote",
-      "topic": "Minority Culture Preservation and GenAI",
+      "topic": "K12",
       "moderators": [
       ],
       "abstract": "",
       "speakers": [
-        ["tiffanyjoybasse", "Tiffany Joy Basse"]
       ],
       "hide": false
     },
@@ -1188,6 +1239,21 @@
       "abstract": "",
       "speakers": [
         ["pinecone", "Pinecone"]
+      ],
+      "hide": false
+    },
+    {
+      "day": 3,
+      "room": "Workshop Room",
+      "time": "13:00-15:00",
+      "type": "Workshop",
+      "topic": "How to Monetize GenAI with Zuora",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["katherineshealy", "Katherine Shealy"],
+        ["kentatomura", "Kenta Tomura"]
       ],
       "hide": false
     },

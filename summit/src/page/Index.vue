@@ -24,11 +24,19 @@
             </div>
             <div class="s-title">
               <div class="mt4">
-                <img src="../assets/images/location.png" alt="" />
+                <img
+                  src="../assets/images/location.png"
+                  alt="Location" 
+                  loading="lazy"
+                />
                 Palace of Fine Arts, San Francisco, California
               </div>
               <div class="mt4">
-                <img src="../assets/images/time.png" alt="" />
+                <img
+                  src="../assets/images/time.png"
+                  alt="Time"
+                  loading="lazy"
+                />
                 May 29 - May 31, 2024
               </div>
             </div>
@@ -40,14 +48,25 @@
                 </button>
                 <div class="buy-listBox">
                   <div class="list" @click="BuyTicketsLuma">
-                    <img class="luma" src="../assets/images/luma.png" alt="" />
-                    <img class="discount" src="../assets/images/luma_discount.png" alt="" />
+                    <img
+                      class="luma"
+                      src="../assets/images/luma.png"
+                      alt="luma"
+                      loading="lazy"
+                    />
+                    <img
+                      class="discount"
+                      src="../assets/images/luma_discount.png"
+                      alt="luma"
+                      loading="lazy"
+                    />
                   </div>
                   <div class="list" @click="BuyTickets">
                     <img
                       class="event"
                       src="../assets/images/event.png"
-                      alt=""
+                      alt="eventribe"
+                      loading="lazy"
                     />
                   </div>
                 </div>
@@ -77,7 +96,12 @@
           <div class="show_title">Sponsored by</div>
 
           <div class="item_bg_box">
-            <img class="item-img" src="../assets/images/MicrosoftLab.png" alt="" />
+            <img
+              class="item-img"
+              src="../assets/images/MicrosoftLab.png"
+              alt="microsoft"
+              loading="lazy"
+            />
             <!--
             <div class="more" @click="goPageHandle">
               more
@@ -144,7 +168,11 @@
                   class="title_img"
                   data-aos="zoom-in"
                 >
-                  <img src="../assets/images/plat.png" alt="" />
+                  <img
+                    src="../assets/images/plat.png"
+                    alt="platinum"
+                    loading="lazy"
+                  />
                 </div>
               </div>
               <div class="right">
@@ -153,7 +181,12 @@
                   @click="openUrl('https://www.amazon.com/')"
                   data-aos="zoom-in"
                 >
-                  <img class="d" src="../assets/images/sponsors/amazon2.png" alt="" />
+                  <img
+                    class="d"
+                    src="../assets/images/sponsors/amazon2.png"
+                    alt="amazon"
+                    loading="lazy"
+                  />
                 </div>
               </div>
             </div>
@@ -168,7 +201,11 @@
                   class="title_img"
                   data-aos="zoom-in"
                 >
-                  <img src="../assets/images/gold.png" alt="" />
+                  <img
+                    src="../assets/images/gold.png"
+                    alt="gold"
+                    loading="lazy"
+                  />
                 </div>
               </div>
               <div class="right">
@@ -177,7 +214,13 @@
                   @click="openUrl('https://www.ibm.com/us-en/')"
                   data-aos="zoom-in"
                 >
-                  <img class="d" data-aos="zoom-in" src="../assets/images/sponsors/IBM_temp.png" alt="" />
+                  <img
+                    class="d"
+                    data-aos="zoom-in"
+                    src="../assets/images/sponsors/IBM_temp.png"
+                    alt="IBM"
+                    loading="lazy"
+                  />
                 </div>
 
                 <div
@@ -185,7 +228,12 @@
                   data-aos="zoom-in"
                   @click="openUrl('https://www.iobc.capital/#/')"
                 >
-                  <img class="d" src="../assets/images/sponsors/iobc.png" alt="" />
+                  <img
+                    class="d"
+                    src="../assets/images/sponsors/iobc.png"
+                    alt="iobc"
+                    loading="lazy"
+                  />
                 </div>
               </div>
             </div>
@@ -200,7 +248,11 @@
                   class="title_img"
                   data-aos="zoom-in"
                 >
-                  <img src="../assets/images/silver.png" alt="" />
+                  <img
+                    src="../assets/images/silver.png"
+                    alt="silver"
+                    loading="lazy"
+                  />
                 </div>
               </div>
               <div class="right">
@@ -209,7 +261,12 @@
                   data-aos="zoom-in"
                   @click="openUrl('https://sambanova.ai/')"
                 >
-                  <img class="d" src="../assets/images/sponsors/samba.png" alt="" />
+                  <img
+                    class="d"
+                    src="../assets/images/sponsors/samba.png"
+                    alt="sambanova"
+                    loading="lazy"
+                  />
                 </div>
 
                 <div
@@ -217,7 +274,12 @@
                   data-aos="zoom-in"
                   @click="openUrl('https://otter.ai/')"
                 >
-                  <img class="d" src="../assets/images/sponsors/otter2.jpg" alt="" />
+                  <img
+                    class="d" 
+                    src="../assets/images/sponsors/otter2.jpg" 
+                    alt="otter"
+                    loading="lazy"
+                  />
                 </div>
 
                 <div
@@ -225,7 +287,12 @@
                   data-aos="zoom-in"
                   @click="openUrl('https://iren.com/')"
                 >
-                  <img class="d" src="../assets/images/sponsors/iren.png" alt="" />
+                  <img
+                    class="d"
+                    src="../assets/images/sponsors/iren.png"
+                    alt="iren"
+                    loading="lazy"
+                  />
                 </div>
 
                 <div
@@ -233,7 +300,12 @@
                   data-aos="zoom-in"
                   @click="openUrl('https://ir.yiren.com/')"
                 >
-                  <img class="d" src="../assets/images/sponsors/yiren.png" alt="" />
+                  <img
+                    class="d"
+                    src="../assets/images/sponsors/yiren.png"
+                    alt="yiren"
+                    loading="lazy"
+                  />
                 </div>
 
                 <div
@@ -241,14 +313,24 @@
                   data-aos="zoom-in"
                   @click="openUrl('https://zilliz.com/')"
                 >
-                  <img class="d" src="../assets/images/sponsors/zilliz.png" alt="" />
+                  <img
+                    class="d"
+                    src="../assets/images/sponsors/zilliz.png"
+                    alt=""
+                    loading="lazy"
+                  />
                 </div>
                 <div
                   class="list"
                   data-aos="zoom-in"
                   @click="openUrl('https://espeed.capital/')"
                 >
-                  <img class="d" src="../assets/images/sponsors/espeed.png" alt="" />
+                  <img
+                    class="d"
+                    src="../assets/images/sponsors/espeed.png"
+                    alt="espeed"
+                    loading="lazy"
+                  />
                 </div>
               </div>
             </div>
@@ -262,7 +344,11 @@
                   class="title_img"
                   data-aos="zoom-in"
                 >
-                  <img src="../assets/images/special-sponsor.png" alt="" />
+                  <img
+                    src="../assets/images/special-sponsor.png"
+                    alt="special-sponsor"
+                    loading="lazy"
+                  />
                 </div>
               </div>
               <div class="right">
@@ -271,7 +357,12 @@
                   data-aos="zoom-in"
                   @click="openUrl('https://you.com/')"
                 >
-                  <img class="d" src="../assets/images/sponsors/youcom.png" alt="" />
+                  <img
+                    class="d"
+                    src="../assets/images/sponsors/youcom.png"
+                    alt="you.com"
+                    loading="lazy"
+                  />
                 </div>
 
                 <div
@@ -279,7 +370,12 @@
                   data-aos="zoom-in"
                   @click="openUrl('https://www.taskus.com/')"
                 >
-                  <img class="d" src="../assets/images/sponsors/taskus.png" alt="" />
+                  <img
+                    class="d"
+                    src="../assets/images/sponsors/taskus.png"
+                    alt="taskus"
+                    loading="lazy"
+                  />
                 </div>
 
             
@@ -288,7 +384,12 @@
                   data-aos="zoom-in"
                   @click="openUrl('https://metasill.io/')"
                 >
-                  <img class="d" src="../assets/images/sponsors/metasill.png" alt="" />
+                  <img
+                    class="d"
+                    src="../assets/images/sponsors/metasill.png"
+                    alt="metasill"
+                    loading="lazy"
+                  />
                 </div>
               </div>
             </div>
@@ -307,13 +408,13 @@
               :key="index"
               data-aos="flip-up"
             >
-              <img :src="icon1" alt="" v-if="index == 0" />
-              <img :src="icon2" alt="" v-if="index == 1" />
-              <img :src="icon3" alt="" v-if="index == 2" />
-              <img :src="icon4" alt="" v-if="index == 3" />
-              <img :src="icon5" alt="" v-if="index == 4" />
-              <img :src="icon6" alt="" v-if="index == 5" />
-              <img :src="icon7" alt="" v-if="index == 6" />
+              <img :src="icon1" alt="" v-if="index == 0" loading="lazy" />
+              <img :src="icon2" alt="" v-if="index == 1" loading="lazy" />
+              <img :src="icon3" alt="" v-if="index == 2" loading="lazy" />
+              <img :src="icon4" alt="" v-if="index == 3" loading="lazy" />
+              <img :src="icon5" alt="" v-if="index == 4" loading="lazy" />
+              <img :src="icon6" alt="" v-if="index == 5" loading="lazy" />
+              <img :src="icon7" alt="" v-if="index == 6" loading="lazy" />
               <div class="number">
                 <NumberCount
                   :startNumber="item.number - 200 > 0 ? item.number - 200 : 1"
@@ -340,7 +441,11 @@
                   class="title_img"
                   data-aos="zoom-in"
                 >
-                  <img src="../assets/images/media.png" alt="" />
+                  <img
+                    src="../assets/images/media.png"
+                    alt="media"
+                    loading="lazy"
+                  />
                 </div>
               </div>
               <div class="right">
@@ -349,7 +454,12 @@
                   data-aos="zoom-in"
                   @click="openUrl('https://www.bloomberg.com/')"
                 >
-                  <img class="d" src="../assets/images/media/bloomberg.png" alt="" />
+                  <img
+                    class="d"
+                    src="../assets/images/media/bloomberg.png"
+                    alt="bloomberg"
+                    loading="lazy"
+                  />
                 </div>
 
                 <!--
@@ -358,14 +468,24 @@
                   data-aos="zoom-in"
                   @click="openUrl('https://www.washingtonpost.com/')"
                 >
-                  <img class="d" src="../assets/images/media/washingtonpost.png" alt="" />
+                  <img
+                    class="d"
+                    src="../assets/images/media/washingtonpost.png"
+                    alt="washingtonpost"
+                    loading="lazy"
+                  />
                 </div>
                 <div
                   class="list media"
                   data-aos="zoom-in"
                   @click="openUrl('https://www.nytimes.com/')"
                 >
-                  <img class="d" src="../assets/images/media/thenewyorktimes.png" alt="" />
+                  <img
+                    class="d"
+                    src="../assets/images/media/thenewyorktimes.png"
+                    alt="thenewyorktimes"
+                    loading="lazy"
+                  />
                 </div>
                 -->
                 <div
@@ -373,14 +493,24 @@
                   data-aos="zoom-in"
                   @click="openUrl('https://www.nbcnews.com/')"
                 >
-                  <img class="d" src="../assets/images/media/nbcnews.png" alt="" />
+                  <img
+                    class="d"
+                    src="../assets/images/media/nbcnews.png"
+                    alt="nbcnews"
+                    loading="lazy"
+                  />
                 </div>
                 <div
                   class="list media"
                   data-aos="zoom-in"
                   @click="openUrl('https://techcrunch.com/')"
                 >
-                  <img class="d" src="../assets/images/media/techcrunch.png" alt="" />
+                  <img
+                    class="d"
+                    src="../assets/images/media/techcrunch.png"
+                    alt="techcrunch"
+                    loading="lazy"
+                  />
                 </div>
 
                 <div
@@ -388,56 +518,96 @@
                   data-aos="zoom-in"
                   @click="openUrl('http://www.davidpaulmorris.com/')"
                 >
-                  <img class="d" src="../assets/images/media/davidpaulmirrors.png" alt="" />
+                  <img
+                    class="d"
+                    src="../assets/images/media/davidpaulmirrors.png"
+                    alt="davidpaulmirrors"
+                    loading="lazy"
+                  />
                 </div>
                 <div
                   class="list media"
                   data-aos="zoom-in"
                   @click="openUrl('https://www.sfchronicle.com/')"
                 >
-                  <img class="d" src="../assets/images/media/sfchronicle.png" alt="" />
+                  <img
+                    class="d"
+                    src="../assets/images/media/sfchronicle.png"
+                    alt="sfchronicle"
+                    loading="lazy"
+                  />
                 </div>
                 <div
                   class="list media"
                   data-aos="zoom-in"
                   @click="openUrl('https://www.sfgate.com/')"
                 >
-                  <img class="d" src="../assets/images/media/sfgate.png" alt="" />
+                  <img
+                    class="d"
+                    src="../assets/images/media/sfgate.png"
+                    alt="sfgate"
+                    loading="lazy"
+                  />
                 </div>
                 <div
                   class="list media"
                   data-aos="zoom-in"
                   @click="openUrl('https://www.gettyimages.com/')"
                 >
-                  <img class="d" src="../assets/images/media/gettyimages.png" alt="" />
+                  <img
+                    class="d"
+                    src="../assets/images/media/gettyimages.png"
+                    alt="gettyimages"
+                    loading="lazy"
+                  />
                 </div>
                 <div
                   class="list media"
                   data-aos="zoom-in"
                   @click="openUrl('https://www.teleinfotoday.com/')"
                 >
-                  <img class="d" src="../assets/images/media/teleinfotoday.png" alt="" />
+                  <img
+                    class="d"
+                    src="../assets/images/media/teleinfotoday.png"
+                    alt="teleinfotoday"
+                    loading="lazy"
+                  />
                 </div>
                 <div
                   class="list media"
                   data-aos="zoom-in"
                   @click="openUrl('https://www.cyberdefensemagazine.com/')"
                 >
-                  <img class="d" src="../assets/images/media/cyberdefensemagazine.png" alt="" />
+                  <img
+                    class="d"
+                    src="../assets/images/media/cyberdefensemagazine.png"
+                    alt="cyberdefensemagazine"
+                    loading="lazy"
+                  />
                 </div>
                 <div
                   class="list media"
                   data-aos="zoom-in"
                   @click="openUrl('https://www.theregister.com/')"
                 >
-                  <img class="d" src="../assets/images/media/theregister.png" alt="" />
+                  <img
+                    class="d"
+                    src="../assets/images/media/theregister.png"
+                    alt="theregister"
+                    loading="lazy"
+                  />
                 </div>
                 <div
                   class="list media"
                   data-aos="zoom-in"
                   @click="openUrl('https://avazona.com/')"
                 >
-                  <img class="d" src="../assets/images/media/avazona.png" alt="" />
+                  <img
+                    class="d"
+                    src="../assets/images/media/avazona.png"
+                    alt="avazona"
+                    loading="lazy"
+                  />
                 </div>
                 <div
                   class="list media"
@@ -451,14 +621,24 @@
                   data-aos="zoom-in"
                   @click="openUrl('https://www.ktsf.com/')"
                 >
-                  <img class="d" src="../assets/images/media/ktsf26.png" alt="" />
+                  <img
+                    class="d"
+                    src="../assets/images/media/ktsf26.png"
+                    alt="ktsf26"
+                    loading="lazy"
+                  />
                 </div>
                 <div
                   class="list media"
                   data-aos="zoom-in"
                   @click="openUrl('https://jojogarden.eventbrite.com')"
                 >
-                  <img class="d" src="../assets/images/media/jojogarden.png" alt="" />
+                  <img
+                    class="d"
+                    src="../assets/images/media/jojogarden.png"
+                    alt="jojogarden"
+                    loading="lazy"
+                  />
                 </div>
               </div>
             </div>
@@ -1310,7 +1490,7 @@
             <div class="ticketsPrice">$179 – $9,999</div>
             <div class="ticketsBtnText">
               <img src="../assets/images/hot.gif" alt="" />
-              Get tickets
+              Get Tickets
               <div class="buy-listBox">
                 <div class="list" @click="BuyTicketsLuma">
                   <img class="luma" src="../assets/images/luma.png" alt="" />

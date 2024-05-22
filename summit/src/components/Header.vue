@@ -283,7 +283,7 @@ export default {
 .header {
   display: flex;
   justify-content: space-between;
-  height: 80px;
+  height: 1.4rem;
   align-items: center;
   width: 100%;
   margin: 0 auto;
@@ -392,8 +392,9 @@ export default {
           cursor: pointer;
         }
         button {
-          width: 2.8rem;
           height: 0.9rem;
+          width: auto;
+          padding: 0 0.2rem;
           background: #008aff;
           color: #ffffff;
           cursor: pointer;

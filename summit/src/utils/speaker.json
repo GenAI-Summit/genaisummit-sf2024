@@ -1778,5 +1778,19 @@
     "new": false,
     "hide": false,
     "id": "yaodu"
+  },
+  {
+    "name": "Dede Goldschmidt",
+    "job": "Vice President & Managing Director, Head",
+    "tip": "Samsung Catalyst Fund",
+    "image": "dedegoldschmidt.jpg",
+    "website": "https://samsungcatalyst.com/team/david-dede-goldschmidt/",
+    "twitter": "https://x.com/dedego?lang=en",
+    "linkedin": "https://www.linkedin.com/in/david-dede-goldschmidt-21244/",
+    "detail": "dedegoldschmidt2.png",
+    "description": "Dede Goldschmidt is the Vice President, Managing Director, and Head of Samsung Catalyst Fund, Samsung Electronics' multi-stage venture capital fund. He has over two decades of experience in venture capital, previously founding Valley Venture Capital and serving as CEO of Mofet Technology Fund. Goldschmidt invests in deep tech like AI, cloud computing, networking, and quantum computing.",
+    "new": false,
+    "hide": false,
+    "id": "dedegoldschmidt"
   }
 ]

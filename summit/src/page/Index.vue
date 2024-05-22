@@ -391,6 +391,19 @@
                     loading="lazy"
                   />
                 </div>
+
+                <div
+                  class="list"
+                  data-aos="zoom-in"
+                  @click="openUrl('https://hyperbolic.xyz/')"
+                >
+                  <img
+                    class="d"
+                    src="../assets/images/sponsors/hyperboliclabs2.png"
+                    alt="hyperboliclabs"
+                    loading="lazy"
+                  />
+                </div>
               </div>
             </div>
           </div>

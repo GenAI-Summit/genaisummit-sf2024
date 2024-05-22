@@ -1,6 +1,9 @@
 <template>
   <div class="main-app">
-    <div class="f-header">
+    <div
+      class="f-header"
+      :class="screenWidth < 600 ? 'mb' : ''"
+    >
       <Header/>
     </div>
     <div class="main-router">
@@ -14,13 +17,15 @@ import { ref,computed, onMounted } from 'vue'
 import { watch } from 'vue';
 import { useRoute } from 'vue-router';
 import { useRouter } from 'vue-router';
-import { useStore} from 'vuex'
+import { useStore } from 'vuex'
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
 export default {
   name: 'App',
   setup() {
     const store = useStore();
+    const screenWidth = computed(() => store.state.screenWidth);
+
     onMounted(() => {
       window.onresize = () => {
         return (() => {
@@ -29,7 +34,7 @@ export default {
       };
     })
     return {
-      
+      screenWidth,
     }
   },
   components:{
@@ -49,13 +54,17 @@ export default {
 .f-header{
   position: fixed;
   display: flex;
-  justify-content: center; /* 水平居中 */
+  justify-content: center;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 1000;
   background: rgba(255,255,255,.6);
   backdrop-filter: blur(10px);
+
+  &.mb {
+    position: relative;
+  }
 }
 .main-router{
   width: 100%;

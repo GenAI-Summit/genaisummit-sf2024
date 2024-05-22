@@ -28,19 +28,25 @@
 <script>
 import { ref, computed } from "vue";
 import { useStore } from "vuex";
-import resources from "../utils/resources.js";
+import resourceData from "../utils/resource.json";
 
 export default {
   name: "Resources",
   setup() {
     const store = useStore();
     const screenWidth = computed(() => store.state.screenWidth);
+    const resources = ref(resourceData);
+
+    const openModal = () => {
+      console.log("Modal opened");
+    };
     const openUrl = (url) => {
       window.open(url, "_blank");
     };
     return {
       screenWidth,
       openUrl,
+      openModal,
       resources,
     };
   },
@@ -73,6 +79,7 @@ export default {
     cursor: pointer;
     height: 0.8rem;
     margin-top: 0.15rem;
+    margin-left: 0.15rem;
     text-align: center;
     border-radius: 1rem;
     color: #008aff;
@@ -85,7 +92,7 @@ export default {
     }
   
     &:hover {
-      border: 2px solid #ffffff;
+      border: 2px solid #008aff;
       background: #008aff;
       color: #ffffff;
       transform: translateY(-5px);

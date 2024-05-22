@@ -50,7 +50,7 @@ export default {
     const screenWidth = computed(() => store.state.screenWidth);
     const style = ref({ width: screenWidth.value < 700 ? "100%" : "50%" });
     const getDetail = (detail) => {
-       return new URL(`/src/assets/images/speakers/${detail}`, import.meta.url).href;
+       return new URL(`/src/assets/images/speakers/detail/${detail}`, import.meta.url).href;
     };
     return {
       style,

@@ -95,12 +95,14 @@
       "type": "Panel Discussion",
       "topic": "The Power of Data in the Era of GenAI",
       "moderators": [
+        ["yinazhang", "Yina Zhang"]
       ],
       "abstract": "",
       "speakers": [
+        ["armandruiz", "Armand Ruiz"],
         ["ajinkyamalasane", "Ajinkya Malasane"],
         ["jainatarajan", "Jai Natarajan"],
-        ["armandruiz", "Armand Ruiz"]
+        ["alexanderratner", "Dr. Alexander Ratner"]
       ],
       "hide": false
     },
@@ -344,7 +346,7 @@
     {
       "day": 1,
       "room": "Workshop Room",
-      "time": "15:00-17:00",
+      "time": "15:30-17:30",
       "type": "Workshop",
       "topic": "Will be provided by speakers soon",
       "moderators": [

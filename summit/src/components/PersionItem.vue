@@ -41,7 +41,7 @@ export default {
       EventBus.$emit("handleModal", item);
     }
     const getImage = (image) => {
-      return new URL(`/src/assets/images/speakers/${image}`, import.meta.url).href
+      return new URL(`/src/assets/images/speakers/avatar/${image}`, import.meta.url).href
     }
     return {
       item,

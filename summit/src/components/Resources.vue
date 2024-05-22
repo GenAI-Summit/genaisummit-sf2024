@@ -11,6 +11,17 @@
       <div
         class="resource-card"
         :class="screenWidth < 600 ? 'mb' : ''"
+      >
+        <div
+          class="resource-name"
+          @click="openModal()"
+        >
+          Modal
+        </div>
+      </div>
+      <div
+        class="resource-card"
+        :class="screenWidth < 600 ? 'mb' : ''"
         v-for="resource in resources"
         :key="resource.id"
       >

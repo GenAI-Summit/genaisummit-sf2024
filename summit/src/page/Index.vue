@@ -275,7 +275,7 @@
                 >
                   <img
                     class="d" 
-                    src="../assets/images/sponsors/otter2.jpg" 
+                    src="../assets/images/sponsors/otter2.png"
                     alt="otter"
                     loading="lazy"
                   />

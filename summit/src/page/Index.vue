@@ -1310,7 +1310,7 @@
             <div class="ticketsPrice">$179 – $9,999</div>
             <div class="ticketsBtnText">
               <img src="../assets/images/hot.gif" alt="" />
-              Get tickets
+              Get Tickets
               <div class="buy-listBox">
                 <div class="list" @click="BuyTicketsLuma">
                   <img class="luma" src="../assets/images/luma.png" alt="" />

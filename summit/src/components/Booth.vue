@@ -152,6 +152,7 @@ export default {
       }
       .booth-pic {
         width: 80%;
+        height: auto;
         z-index: -1;
         display: block;
       }

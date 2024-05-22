@@ -216,7 +216,6 @@
                 >
                   <img
                     class="d"
-                    data-aos="zoom-in"
                     src="../assets/images/sponsors/IBM_temp.png"
                     alt="IBM"
                     loading="lazy"

@@ -61,6 +61,7 @@
       "type": "Panel Discussion",
       "topic": "Key Challenges for Providing GenAI Services On Scalable Cloud Infrastructure",
       "moderators": [
+        ["yasharbehzadi", "Yashar Behzadi"]
       ],
       "abstract": "",
       "speakers": [
@@ -453,6 +454,7 @@
       "type": "Panel Discussion",
       "topic": "Harnessing the Power of LLM for Super Agents: Capabilities, Challenges, and Future Prospects",
       "moderators": [
+        ["yoheinakajima", "Yohei Nakajima"]
       ],
       "abstract": "",
       "speakers": [
@@ -487,6 +489,7 @@
       "type": "Panel Discussion",
       "topic": "Identifying Unicorns: How can VCs spot the next big thing in GenAI?",
       "moderators": [
+        ["matthewstepka", "Matthew Stepka"]
       ],
       "abstract": "",
       "speakers": [
@@ -522,6 +525,7 @@
       "type": "Panel Discussion",
       "topic": "Building a Brain for the Copilot: How Infrastructure Enables Powerful GenAI Assistants",
       "moderators": [
+        ["bhavinshah", "Bhavin Shah"]
       ],
       "abstract": "",
       "speakers": [
@@ -1002,6 +1006,7 @@
       "type": "Panel Discussion",
       "topic": "AI and the Future of Human Work",
       "moderators": [
+        ["kaiwu", "Kai Wu"]
       ],
       "abstract": "",
       "speakers": [
@@ -1034,6 +1039,7 @@
       "type": "Panel Discussion",
       "topic": "AI and Intellectual Property: Navigating the New Landscape",
       "moderators": [
+        ["shawnflynn", "Shawn Flynn"]
       ],
       "abstract": "",
       "speakers": [
@@ -1064,6 +1070,7 @@
       "type": "Panel Discussion",
       "topic": "Building the Future Classroom",
       "moderators": [
+        ["hamzafarooq", "Prof. Hamza Farooq"]
       ],
       "abstract": "",
       "speakers": [

@@ -1792,5 +1792,47 @@
     "new": false,
     "hide": false,
     "id": "dedegoldschmidt"
+  },
+  {
+    "name": "Kshitij Grover",
+    "job": "Co-Founder & CTO",
+    "tip": "Orb",
+    "image": "kshitijgrover.jpg",
+    "website": "https://kshitijgrover.com/",
+    "twitter": "https://x.com/kshithappens",
+    "linkedin": "https://www.linkedin.com/in/kshithappens/",
+    "detail": "kshitijgrover2.png",
+    "description": "Kshitij Grover is the co-founder and CTO of Orb, a company that provides billing infrastructure for software businesses to automate billing, experiment with pricing models, and optimize revenue capture. Orb's mission is to enable every business to unlock their revenue potential by aligning monetization with product usage, supporting various pricing models like seats, consumption, feature limits, or usage-based tiers. The company takes a developer-first, data infrastructure approach to this problem.",
+    "new": false,
+    "hide": false,
+    "id": "kshitijgrover"
+  },
+  {
+    "name": "Prof. Hamza Farooq",
+    "job": "Founder",
+    "tip": "traversaal.ai",
+    "image": "hamzafarooq.jpg",
+    "website": "",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/hamzafarooq/",
+    "detail": "hamzafarooq2.png",
+    "description": "Hamza Farooq is a founder and professor working in the realm of NLP and multi-modal systems. He co-created Traversaal.ai, a company providing scalable LLM products for enterprises. Farooq has over 15 years of experience leading data science and machine learning teams across various industries and regions. He is an adjunct professor at Stanford and UCLA, teaching courses on large language models and their applications. Farooq is also a frequent speaker at AI conferences and holds a patent related to retail product management.",
+    "new": false,
+    "hide": false,
+    "id": "hamzafarooq"
+  },
+  {
+    "name": "Shawn Flynn",
+    "job": "Principal",
+    "tip": "Global Capital Markets",
+    "image": "shawnflynn.jpg",
+    "website": "https://www.globalcapitalmarkets.com/shawn-flynn",
+    "twitter": "https://x.com/ShawnFlynnSV",
+    "linkedin": "https://www.linkedin.com/in/shawnpflynn/",
+    "detail": "shawnflynn2.png",
+    "description": "Shawn Flynn is a Principal at Global Capital Markets, a premier middle-market investment bank, bringing international experience working with companies across stages and sectors. He previously founded and exited a company in Beijing. Flynn holds a B.S. in Mechanical Engineering from UCSD, speaks multiple languages, and is a frequent speaker on entrepreneurship and innovation. He has been interviewed for the book \"Working with Americans: How to Build Profitable Business Relationships.\"",
+    "new": false,
+    "hide": false,
+    "id": "shawnflynn"
   }
 ]

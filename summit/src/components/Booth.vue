@@ -149,6 +149,7 @@ export default {
   
       &:hover {
         background: #008aff;
+        height: 100%;
       }
       .booth-pic {
         width: 80%;

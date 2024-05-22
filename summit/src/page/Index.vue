@@ -411,6 +411,26 @@
       </div>
       <!-- Sponsor Section End -->
 
+      <!-- Media Section Start -->
+      <div class="wrapper">
+        <section id="media_section" class="cointainer">
+          <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
+            <div
+              class="left-title before"
+              :class="screenWidth > 600 ? '' : 'mb'"
+              data-aos="flip-up"
+            >
+              Media
+            </div>
+          </div>
+          <div class="ss-title" data-aos="flip-up">
+            MEDIA COVERAGE OF GENAI SUMMIT
+          </div>
+          <Media />
+        </section>
+      </div>
+      <!-- Media Section End -->
+
 
       <div class="section-number">
         <section class="cointainer">
@@ -444,221 +464,6 @@
         </section>
       </div>
 
-      <!-- Media Section Start -->
-      <div class="wrapper">
-        <section id="media_section" class="cointainer">
-          <div class="office_content">
-            <div class="office" :class="screenWidth > 600 ? '' : 'mb'">
-              <div class="left">
-                <div
-                  class="title_img"
-                  data-aos="zoom-in"
-                >
-                  <img
-                    src="../assets/images/media.png"
-                    alt="media"
-                    loading="lazy"
-                  />
-                </div>
-              </div>
-              <div class="right">
-                <div
-                  class="list media"
-                  data-aos="zoom-in"
-                  @click="openUrl('https://www.bloomberg.com/')"
-                >
-                  <img
-                    class="d"
-                    src="../assets/images/media/bloomberg.png"
-                    alt="bloomberg"
-                    loading="lazy"
-                  />
-                </div>
-
-                <!--
-                <div
-                  class="list media"
-                  data-aos="zoom-in"
-                  @click="openUrl('https://www.washingtonpost.com/')"
-                >
-                  <img
-                    class="d"
-                    src="../assets/images/media/washingtonpost.png"
-                    alt="washingtonpost"
-                    loading="lazy"
-                  />
-                </div>
-                <div
-                  class="list media"
-                  data-aos="zoom-in"
-                  @click="openUrl('https://www.nytimes.com/')"
-                >
-                  <img
-                    class="d"
-                    src="../assets/images/media/thenewyorktimes.png"
-                    alt="thenewyorktimes"
-                    loading="lazy"
-                  />
-                </div>
-                -->
-                <div
-                  class="list media"
-                  data-aos="zoom-in"
-                  @click="openUrl('https://www.nbcnews.com/')"
-                >
-                  <img
-                    class="d"
-                    src="../assets/images/media/nbcnews.png"
-                    alt="nbcnews"
-                    loading="lazy"
-                  />
-                </div>
-                <div
-                  class="list media"
-                  data-aos="zoom-in"
-                  @click="openUrl('https://techcrunch.com/')"
-                >
-                  <img
-                    class="d"
-                    src="../assets/images/media/techcrunch.png"
-                    alt="techcrunch"
-                    loading="lazy"
-                  />
-                </div>
-
-                <div
-                  class="list media"
-                  data-aos="zoom-in"
-                  @click="openUrl('http://www.davidpaulmorris.com/')"
-                >
-                  <img
-                    class="d"
-                    src="../assets/images/media/davidpaulmirrors.png"
-                    alt="davidpaulmirrors"
-                    loading="lazy"
-                  />
-                </div>
-                <div
-                  class="list media"
-                  data-aos="zoom-in"
-                  @click="openUrl('https://www.sfchronicle.com/')"
-                >
-                  <img
-                    class="d"
-                    src="../assets/images/media/sfchronicle.png"
-                    alt="sfchronicle"
-                    loading="lazy"
-                  />
-                </div>
-                <div
-                  class="list media"
-                  data-aos="zoom-in"
-                  @click="openUrl('https://www.sfgate.com/')"
-                >
-                  <img
-                    class="d"
-                    src="../assets/images/media/sfgate.png"
-                    alt="sfgate"
-                    loading="lazy"
-                  />
-                </div>
-                <div
-                  class="list media"
-                  data-aos="zoom-in"
-                  @click="openUrl('https://www.gettyimages.com/')"
-                >
-                  <img
-                    class="d"
-                    src="../assets/images/media/gettyimages.png"
-                    alt="gettyimages"
-                    loading="lazy"
-                  />
-                </div>
-                <div
-                  class="list media"
-                  data-aos="zoom-in"
-                  @click="openUrl('https://www.teleinfotoday.com/')"
-                >
-                  <img
-                    class="d"
-                    src="../assets/images/media/teleinfotoday.png"
-                    alt="teleinfotoday"
-                    loading="lazy"
-                  />
-                </div>
-                <div
-                  class="list media"
-                  data-aos="zoom-in"
-                  @click="openUrl('https://www.cyberdefensemagazine.com/')"
-                >
-                  <img
-                    class="d"
-                    src="../assets/images/media/cyberdefensemagazine.png"
-                    alt="cyberdefensemagazine"
-                    loading="lazy"
-                  />
-                </div>
-                <div
-                  class="list media"
-                  data-aos="zoom-in"
-                  @click="openUrl('https://www.theregister.com/')"
-                >
-                  <img
-                    class="d"
-                    src="../assets/images/media/theregister.png"
-                    alt="theregister"
-                    loading="lazy"
-                  />
-                </div>
-                <div
-                  class="list media"
-                  data-aos="zoom-in"
-                  @click="openUrl('https://avazona.com/')"
-                >
-                  <img
-                    class="d"
-                    src="../assets/images/media/avazona.png"
-                    alt="avazona"
-                    loading="lazy"
-                  />
-                </div>
-                <div
-                  class="list media"
-                  data-aos="zoom-in"
-                  @click="openUrl('https://www.cgtn.com/')"
-                >
-                  <img class="d" src="../assets/images/media/cgtn.png" alt="" />
-                </div>
-                <div
-                  class="list media"
-                  data-aos="zoom-in"
-                  @click="openUrl('https://www.ktsf.com/')"
-                >
-                  <img
-                    class="d"
-                    src="../assets/images/media/ktsf26.png"
-                    alt="ktsf26"
-                    loading="lazy"
-                  />
-                </div>
-                <div
-                  class="list media"
-                  data-aos="zoom-in"
-                  @click="openUrl('https://jojogarden.eventbrite.com')"
-                >
-                  <img
-                    class="d"
-                    src="../assets/images/media/jojogarden.png"
-                    alt="jojogarden"
-                    loading="lazy"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
-      <!-- Media Section End -->
 
 
 
@@ -1540,6 +1345,7 @@ import StarBackground from "../components/StarBackground.vue";
 import AgendaCard from "../components/AgendaCard.vue";
 import Seminar from "../components/Seminar.vue";
 import Workshop from "../components/Workshop.vue";
+import Media from "../components/Media.vue";
 import Booth from "../components/Booth.vue";
 import Resources from "../components/Resources.vue";
 import SpeakerModal from "../components/SpeakerModal.vue";
@@ -2534,6 +2340,7 @@ export default {
     // Agenda,
     Seminar,
     Workshop,
+    Media,
     Booth,
     AgendaCard,
     SpeakerModal,
@@ -3558,7 +3365,7 @@ section {
 
 #media_section {
   transition: height 0.5s ease-in-out;
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
   .office {
     display: flex;
     align-items: flex-start;

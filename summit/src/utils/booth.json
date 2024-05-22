@@ -105,6 +105,11 @@
     "url": "https://www.youtek.cc"
   },
   {
+    "name": "finalize",
+    "image": "finalize.png",
+    "url": "https://finalize.ai"
+  },
+  {
     "name": "aiads",
     "image": "aiads.png",
     "url": "https://aiads.app"
@@ -138,6 +143,11 @@
     "name": "vimmerse",
     "image": "vimmerse.png",
     "url": "https://www.vimmerse.net"
+  },
+  {
+    "name": "revia",
+    "image": "revia.png",
+    "url": "https://revia.tech"
   },
   {
     "name": "titi",
@@ -213,11 +223,6 @@
     "name": "zuora",
     "image": "zuora.png",
     "url": "https://www.zuora.com/sulutions/accurately-capture-meter-usage"
-  },
-  {
-    "name": "finalize",
-    "image": "finalize.png",
-    "url": "https://finalize.ai"
   },
   {
     "name": "capsico",

@@ -1,0 +1,98 @@
+[
+  {
+    "name": "bloomberg",
+    "image": "bloomberg.png",
+    "url": "https://www.bloomberg.com/",
+    "hide": false
+  },
+  {
+    "name": "washingtonpost",
+    "image": "washingtonpost.png",
+    "url": "https://www.washingtonpost.com/",
+    "hide": true
+  },
+  {
+    "name": "thenewyorktimes",
+    "image": "thenewyorktimes.png",
+    "url": "https://www.nytimes.com/",
+    "hide": true
+  },
+  {
+    "name": "nbcnews",
+    "image": "nbcnews.png",
+    "url": "https://www.nbcnews.com/",
+    "hide": false
+  },
+  {
+    "name": "techcrunch",
+    "image": "techcrunch.png",
+    "url": "https://techcrunch.com/",
+    "hide": false
+  },
+  {
+    "name": "davidpaulmirrors",
+    "image": "davidpaulmirrors.png",
+    "url": "http://www.davidpaulmorris.com/",
+    "hide": false
+  },
+  {
+    "name": "sfchronicle",
+    "image": "sfchronicle.png",
+    "url": "https://www.sfchronicle.com/",
+    "hide": false
+  },
+  {
+    "name": "sfgate",
+    "image": "sfgate.png",
+    "url": "https://www.sfgate.com/",
+    "hide": false
+  },
+  {
+    "name": "gettyimages",
+    "image": "gettyimages.png",
+    "url": "https://www.gettyimages.com/",
+    "hide": false
+  },
+  {
+    "name": "teleinfotoday",
+    "image": "teleinfotoday.png",
+    "url": "https://www.teleinfotoday.com/",
+    "hide": false
+  },
+  {
+    "name": "cyberdefensemagazine",
+    "image": "cyberdefensemagazine.png",
+    "url": "https://www.cyberdefensemagazine.com/",
+    "hide": false
+  },
+  {
+    "name": "theregister",
+    "image": "theregister.png",
+    "url": "https://www.theregister.com/",
+    "hide": false
+  },
+  {
+    "name": "avazona",
+    "image": "avazona.png",
+    "url": "https://www.avazona.com/",
+    "hide": false
+  },
+  {
+    "name": "cgtn",
+    "image": "cgtn.png",
+    "url": "https://www.cgtn.com/",
+    "hide": false
+  },
+  {
+    "name": "ktsf26",
+    "image": "ktsf26.png",
+    "url": "https://www.ktsf.com/",
+    "hide": false
+  },
+  {
+    "name": "jojogarden",
+    "image": "jojogarden.png",
+    "url": "https://jojogarden.eventbrite.com/",
+    "hide": false
+  }
+]

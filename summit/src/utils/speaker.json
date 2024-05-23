@@ -1988,5 +1988,19 @@
     "new": false,
     "hide": false,
     "id": "taraghazi"
+  },
+  {
+    "name": "Monica Bajaj",
+    "job": "VP of Engineering",
+    "tip": "Okta",
+    "image": "monicabajaj.jpg",
+    "website": "",
+    "twitter": "https://x.com/mbajaj9?lang=en",
+    "linkedin": "https://www.linkedin.com/in/mobajaj/",
+    "detail": "monicabajaj2.png",
+    "description": "Monica Bajaj is a seasoned technology executive with over 20 years of experience in building and scaling products and global engineering teams. She currently serves as the Vice President of Engineering at Okta, focusing on developing a developer-centric, scalable, and secure identity platform. Additionally, Monica contributes to various organizations, including SheTO's Board of Directors, Berkeley SkyDeck's advisory board, and UCSD's Jacob School of Engineering's industry advisory.",
+    "new": false,
+    "hide": false,
+    "id": "monicabajaj"
   }
 ]

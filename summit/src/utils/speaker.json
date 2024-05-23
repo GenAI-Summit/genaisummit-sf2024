@@ -1683,8 +1683,8 @@
   },
   {
     "name": "Minfa Wang",
-    "job": "Senior Machine Learning Engineer",
-    "tip": "Waymo",
+    "job": "Independent Researcher",
+    "tip": "",
     "image": "minfawang.webp",
     "website": "",
     "twitter": "",
@@ -1768,7 +1768,7 @@
   {
     "name": "Dr. Yao Du",
     "job": "Clinical Assistant Professor",
-    "tip": "Keck School of Medicine",
+    "tip": "University of Southern California",
     "image": "yaodu.webp",
     "website": "https://keck.usc.edu/faculty-search/yao-du/",
     "twitter": "",
@@ -1872,7 +1872,7 @@
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/tombrady/",
     "detail": "tombrady2.png",
-    "description": "Tom Brady is the Vice President of Business Development at Flow Pharma, a biotech company leveraging AI and computational modeling to develop novel therapeutics. With over eight years of experience in the life science industry, he has successfully executed strategies for capital raising, due diligence, and strategic partnerships. Brady has been instrumental in sourcing government collaboration agreements for Flow Pharma in Saudi Arabia, launching their business in Riyadh in 2022 and signing an MOU covering 46 OIC countries. He was awarded the Stanford GSB LEAD Intellectual Contribution Award in Fall 2022.",
+    "description": "Mr Brady is a Stanford GSB Leader and focused on biomedical and Biopharma verticals. He launched the Saudi operation in May 2022 for Flow Pharma. He is a swimmer, life science investor and principal in management consulting at Sojo Consulting in the USA and the Middle East.",
     "new": false,
     "hide": true,
     "id": "tombrady"

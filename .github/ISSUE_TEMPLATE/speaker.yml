@@ -1,0 +1,44 @@
+name: Add Speaker
+description: Add Speaker to the website
+title: "[Speaker]: Add Speaker"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > **Use this form to add speaker to website**
+
+  - type: textarea
+    id: companyname
+    attributes:
+      label: Company Name
+      description: |
+        Write name of the company here
+      placeholder: IBM
+    validations:
+      required: true
+
+  - type: textarea
+    id: speakername
+    attributes:
+      label: Speaker Name
+      description: Write name of speaker here
+    validations:
+      required: true
+
+  - type: textarea
+    id: linkedin
+    attributes:
+      label: LinkedIn Address
+      description: |
+        Leave link of speaker's LinkedIn address
+    validations:
+      required: false
+
+
+  - type: textarea
+    id: bio
+    attributes:
+      label: Bio
+      description: 80-word bio of the speaker; you can also paste the photo of speaker here
+    validations:
+      required: false

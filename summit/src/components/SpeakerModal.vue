@@ -9,10 +9,10 @@
           <div class="name">
             <span class="name-text">{{ speaker.name }}</span>
           </div>
-          <div class="job">
+          <div v-if="speaker.job.length > 0" class="job">
             <span class="job-text">{{ speaker.job }}</span>
           </div>
-          <div class="tip">
+          <div v-if="speaker.tip.length > 0" class="tip">
             <span class="tip-text">@{{ speaker.tip }}</span>
           </div>
           <div class="description">

@@ -5,8 +5,23 @@
     "url": "https://www.mlion.ai/"
   },
   {
+    "name": "generativex",
+    "image": "generativex.png",
+    "url": "https://gen-x.co.jp/"
+  },
+  {
+    "name": "vimmerse",
+    "image": "vimmerse.png",
+    "url": "https://www.vimmerse.net/"
+  },
+  {
     "name": "cloudfabrix",
     "image": "cloudfabrix.png",
     "url": "https://www.cloudfabrix.com/"
+  },
+  {
+    "name": "rapidsoc2",
+    "image": "rapidsoc2.png",
+    "url": "https://rapidsoc2.com/"
   }
 ]

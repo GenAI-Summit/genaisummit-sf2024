@@ -45,6 +45,11 @@
     "url": "https://www.mlion.ai/"
   },
   {
+    "name": "zuora",
+    "image": "zuora.png",
+    "url": "https://www.zuora.com/sulutions/accurately-capture-meter-usage"
+  },
+  {
     "name": "jobfair",
     "image": "jobfair.png",
     "url": ""

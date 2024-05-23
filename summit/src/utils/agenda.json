@@ -1234,20 +1234,6 @@
     {
       "day": 3,
       "room": "Workshop Room",
-      "time": "09:00-11:00",
-      "type": "Workshop",
-      "topic": "Will be provided by speakers soon",
-      "moderators": [
-      ],
-      "abstract": "",
-      "speakers": [
-        ["pinecone", "Pinecone"]
-      ],
-      "hide": false
-    },
-    {
-      "day": 3,
-      "room": "Workshop Room",
       "time": "13:00-15:00",
       "type": "Workshop",
       "topic": "How to Monetize GenAI with Zuora",

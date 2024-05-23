@@ -126,7 +126,21 @@
     {
       "day": 1,
       "room": "GPT Stage",
-      "time": "16:00-16:45",
+      "time": "16:00-16:30",
+      "type": "Keynote",
+      "topic": "Will be provided by the speaker soon",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["brookejenkins", "Brooke Jenkins J.D."]
+      ],
+      "hide": false
+    },
+    {
+      "day": 1,
+      "room": "GPT Stage",
+      "time": "16:30-17:15",
       "type": "Panel Discussion",
       "topic": "AI Computing - Corporate VC's AI investment strategies",
       "moderators": [
@@ -279,11 +293,15 @@
       "room": "Align Stage",
       "time": "13:00-14:00",
       "type": "Panel Discussion",
-      "topic": "VC",
+      "topic": "The Next Frontier in AI Reasoning, Retrieval, and Simulation",
       "moderators": [
+        ["brianzhan", "Brian Zhan"]
       ],
       "abstract": "",
       "speakers": [
+        ["weiliendang", "Wei Lien Dang"],
+        ["alessiofanelli", "Alessio Fanelli"],
+        ["jamesalcorn", "James Alcorn"]
       ],
       "hide": false
     },
@@ -827,12 +845,15 @@
       "room": "Prompt Room",
       "time": "11:00-12:00",
       "type": "Panel Discussion",
-      "topic": "VC",
+      "topic": "AI Agent Deep-dive and Next-generation of AI Application",
       "moderators": [
+        ["kelvinmu", "Kelvin Mu"]
       ],
       "abstract": "",
       "speakers": [
-        ["benjaminlevy", "Benjamin Levy"]
+        ["raywu", "Ray Wu"],
+        ["vivianchen", "Vivian Chen"],
+        ["joannechen", "Joanne Chen"]
       ],
       "hide": false
     },

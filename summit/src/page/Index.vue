@@ -722,7 +722,6 @@
 
 
       <!-- Seminar Starts -->
-      <!--
       <section id="seminar_section" class="cointainer">
         <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
           <div
@@ -738,7 +737,6 @@
         </div>
         <Seminar />
       </section>
-      -->
       <!-- Seminar Ends -->
 
       <section id="section6" class="cointainer">

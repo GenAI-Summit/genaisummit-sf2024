@@ -1676,7 +1676,7 @@
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/jainatarajan/",
     "detail": "jainatarajan2.webp",
-    "description": "Jai Natarajan is a seasoned business leader with expertise in driving growth and profitability. He has a strong technical background combined with business acumen, enabling him to bridge technology and client needs effectively. Natarajan is known for his collaborative leadership style, fostering cross-functional teamwork across various domains like business development, product management, and marketing. His creative flair from working in visual media complements his ability to communicate ideas clearly and craft compelling narratives.",
+    "description": "Natalia is VP and Field CTO, ML at Cerebras Systems. She has decades of R&D experience in NLP, CV, ML and IR. Prior to Cerebras, Natalia was a Sr. Research Manager at Hewlett Packard Labs, where she led the Software and AI group in 2015-2019 and served as the head of HP Labs Russia in 2011-2015. She led research teams developing algorithms and applications for text, image and time series analysis and modelling. In 2012-2015 Natalia also was a part-time Associate Professor at St. Petersburg State University and a part-time lecturer at Computer Science Center, St. Petersburg, Russia. She holds a PhD in CS from St. Petersburg State University.",
     "new": false,
     "hide": false,
     "id": "jainatarajan"
@@ -1904,6 +1904,20 @@
     "new": false,
     "hide": true,
     "id": "gajananbhat"
+  },
+  {
+    "name": "Dr. Johannes Eichstaedt",
+    "job": "Assistant Professor",
+    "tip": "Stanford University",
+    "image": "johanneseichstaedt.jpg",
+    "website": "https://jeichstaedt.com/",
+    "twitter": "https://x.com/jeichstaedt?lang=en",
+    "linkedin": "https://www.linkedin.com/in/eichstaedt/",
+    "detail": "johanneseichstaedt2.png",
+    "description": "Johannes Eichstaedt is an Assistant Professor of Psychology and the Shriram Faculty Fellow at Stanford's Institute for Human-Centered Artificial Intelligence. He directs the Computational Psychology and Well-Being Lab, which he co-founded in 2011 as the World Well-Being Project at the University of Pennsylvania. His research focuses on using natural language processing and large language models to measure psychological states from social media data, with applications in mental health screening, psychotherapy delivery, and promoting well-being. A key emphasis is leveraging AI responsibly for social good.",
+    "new": false,
+    "hide": false,
+    "id": "johanneseichstaedt"
   },
   {
     "name": "Dr. Angela Aristidou",

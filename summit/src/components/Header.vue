@@ -50,7 +50,6 @@
             WORKSHOP
           </div>
         </li>
-        <!--
         <li v-if="screenWidth > 900">
           <div
             class="nav-link"
@@ -61,7 +60,6 @@
             SEMINAR
           </div>
         </li>
-        -->
         <li v-if="screenWidth > 900">
           <div
             class="nav-link"
@@ -69,7 +67,7 @@
             @click="scrollToSection('section6')"
             :class="{ active: activeSection === 'section6' }"
           >
-            K12 AI INITIATIVE
+            K12
           </div>
         </li>
         <li v-if="screenWidth > 900">
@@ -148,7 +146,7 @@ export default {
       booth_section: "EXHIBITION",
       section4: "AGENDA",
       workshop_section: "WORKSHOPS",
-      section6: "K12 INITIATIVE",
+      section6: "K12",
       seminar_section: "SEMINAR",
     };
     const linkList = {
@@ -158,7 +156,7 @@ export default {
       WORKSHOPS: "workshop_section",
       EXHIBITION: "booth_section",
       AGENDA: "section4",
-      "K12 INITIATIVE": "section6",
+      K12: "section6",
       SEMINAR: "seminar_section",
     };
     const store = useStore();

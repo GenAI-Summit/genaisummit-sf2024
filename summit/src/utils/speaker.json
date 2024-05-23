@@ -1428,18 +1428,18 @@
     "id": "andreasramos"
   },
   {
-    "name": "Jiang Chen",
-    "job": "Head of Ecosystem & AI Platform",
-    "tip": "Zilliz",
-    "image": "jiangchen.webp",
+    "name": "Howard Hechler",
+    "job": "President & COO",
+    "tip": "Lumicell",
+    "image": "howardhechler.jpg",
     "website": "",
-    "linkedin": "https://www.linkedin.com/in/jiang-0616/",
-    "twitter": "https://twitter.com/jiangc1010",
-    "detail": "jiangchen2.webp",
-    "description": "With extensive experience in data infrastructure and information retrieval, Jiang leads the development, research, and advocacy of AI-powered search at Zilliz. He oversees collaborations with partners and open-source communities to build the seamless integration of the Milvus vector database with LLM application frameworks. Previously, Jiang served as a tech lead and product manager for Search Indexing at Google.",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/howard-hechler/",
+    "detail": "howardhechler2.png",
+    "description": "Howard Hechler is the President and Chief Operating Officer at Lumicell, a medical device company pioneering fluorescence-guided imaging technology to help surgeons achieve more complete surgical resection of cancerous tissue. With over 20 years of experience in the life sciences industry, Hechler brings expertise in corporate strategy, business development, and commercial planning to drive Lumicell's mission of improving cancer surgery outcomes.",
     "new": false,
     "hide": false,
-    "id": "jiangchen"
+    "id": "howardhechler"
   },
   {
     "name": "Benjamin Levy",
@@ -1454,6 +1454,20 @@
     "new": false,
     "hide": false,
     "id": "benjaminlevy"
+  },
+  {
+    "name": "Jiang Chen",
+    "job": "Head of Ecosystem & AI Platform",
+    "tip": "Zilliz",
+    "image": "jiangchen.webp",
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/jiang-0616/",
+    "twitter": "https://twitter.com/jiangc1010",
+    "detail": "jiangchen2.webp",
+    "description": "With extensive experience in data infrastructure and information retrieval, Jiang leads the development, research, and advocacy of AI-powered search at Zilliz. He oversees collaborations with partners and open-source communities to build the seamless integration of the Milvus vector database with LLM application frameworks. Previously, Jiang served as a tech lead and product manager for Search Indexing at Google.",
+    "new": false,
+    "hide": false,
+    "id": "jiangchen"
   },
   {
     "name": "Dr. Irene Huang",

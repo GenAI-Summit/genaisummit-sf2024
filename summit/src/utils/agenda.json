@@ -791,12 +791,12 @@
       "room": "Workshop Room",
       "time": "09:00-11:00",
       "type": "Workshop",
-      "topic": "Will be provided by speakers soon",
+      "topic": "Hands-on with NVIDIA NIM inference microservices",
       "moderators": [
       ],
       "abstract": "",
       "speakers": [
-        ["nikspirin", "Nik Spirin"]
+        ["arunraman", "Arun Raman"]
       ],
       "hide": false
     },

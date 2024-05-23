@@ -224,18 +224,18 @@
     "id": "brookejenkins"
   },
   {
-    "name": "Bhavin Shah",
-    "job": "CEO & Founder",
-    "tip": "Moveworks",
-    "image": "bhavinshah.webp",
-    "website": "",
-    "twitter": "https://twitter.com/bhavinator?lang=en",
-    "linkedin": "https://www.linkedin.com/in/bhavinnicholasshah/",
-    "detail": "bhavinshah2.webp",
-    "description": "Bhavin Shah is the CEO and co-founder of Moveworks, a leading AI copilot for enterprises. Moveworks serves over 300 customers, has raised over $300M, and employs over 450 people. Shah has 25+ years of entrepreneurial experience, including founding Refresh.io, acquired by LinkedIn in 2015.",
+    "name": "Sharan Narang",
+    "job": "Co-Author",
+    "tip": "Llama 3 & Llama 2",
+    "image": "sharannarang.webp",
+    "website": "https://scholar.google.com/citations?user=CWOixywAAAAJ&hl=en",
+    "twitter": "https://twitter.com/sharan0909",
+    "linkedin": "https://www.linkedin.com/in/sharan-narang/",
+    "detail": "sharannarang2.webp",
+    "description": "Sharan is a senior research manager on the Llama team. He is responsible for leading the pretraining effort of the Llama models. Most recently, his team was responsible for pretraining the Llama 3 family of models, which achieved state-of-the-art results across all model sizes. Sharan has 9 years of experience in AI and Deep Learning research. Prior to joining Meta, Sharan was at Google Brain where he led the effort to train multiple LLMs, most notably the Pathways Language Model (PaLM). Sharan also led systems research efforts at Baidu Research for speech recognition models. Prior to that, Sharan was building next generation hardware at Nvidia for 6 years.",
     "new": true,
     "hide": false,
-    "id": "bhavinshah"
+    "id": "sharannarang"
   },
   {
     "name": "Dr. Jia Li",
@@ -498,7 +498,7 @@
     "twitter": "",
     "website": "",
     "detail": "darkomatovski2.webp",
-    "description": "Dr. Darko Matovski is a pioneering researcher in Causal AI and co-founder/CEO of causaLens, a $50M venture-backed AI scaleup. He has over a decade of experience at institutions like the UK's National Physical Laboratory and hedge funds. Matovski contributes to ethical AI development as a World Economic Forum Global Innovator and Milken Institute Young Leader, collaborating on global challenges.",
+    "description": "Dr. Darko Matovski is a pioneering researcher in Causal AI and co-founder/CEO of causaLens, a $50M venture-backed AI startup. He has over a decade of experience at institutions like the UK's National Physical Laboratory and hedge funds. Matovski contributes to ethical AI development as a World Economic Forum Global Innovator and Milken Institute Young Leader, collaborating on global challenges.",
     "new": false,
     "hide": false,
     "id": "darkomatovski"
@@ -687,18 +687,18 @@
     "id": "yangqingjia"
   },
   {
-    "name": "Sharan Narang",
-    "job": "Co-Author",
-    "tip": "Llama 3 & Llama 2",
-    "image": "sharannarang.webp",
-    "website": "https://scholar.google.com/citations?user=CWOixywAAAAJ&hl=en",
-    "twitter": "https://twitter.com/sharan0909",
-    "linkedin": "https://www.linkedin.com/in/sharan-narang/",
-    "detail": "sharannarang2.webp",
-    "description": "Sharan is a senior research manager on the Llama team. He is responsible for leading the pretraining effort of the Llama models. Most recently, his team was responsible for pretraining the Llama 3 family of models, which achieved state-of-the-art results across all model sizes. Sharan has 9 years of experience in AI and Deep Learning research. Prior to joining Meta, Sharan was at Google Brain where he led the effort to train multiple LLMs, most notably the Pathways Language Model (PaLM). Sharan also led systems research efforts at Baidu Research for speech recognition models. Prior to that, Sharan was building next generation hardware at Nvidia for 6 years.",
+    "name": "Bhavin Shah",
+    "job": "CEO & Founder",
+    "tip": "Moveworks",
+    "image": "bhavinshah.webp",
+    "website": "",
+    "twitter": "https://twitter.com/bhavinator?lang=en",
+    "linkedin": "https://www.linkedin.com/in/bhavinnicholasshah/",
+    "detail": "bhavinshah2.webp",
+    "description": "Bhavin Shah is the CEO and co-founder of Moveworks, a leading AI copilot for enterprises. Moveworks serves over 300 customers, has raised over $300M, and employs over 450 people. Shah has 25+ years of entrepreneurial experience, including founding Refresh.io, acquired by LinkedIn in 2015.",
     "new": true,
     "hide": false,
-    "id": "sharannarang"
+    "id": "bhavinshah"
   },
 
   {
@@ -1834,5 +1834,89 @@
     "new": false,
     "hide": false,
     "id": "shawnflynn"
+  },
+  {
+    "name": "Dr. Natalia Vassilieva",
+    "job": "VP & Field CTO, ML",
+    "tip": "Cerebras Systems",
+    "image": "nataliavassilieva.jpg",
+    "website": "https://aimi.stanford.edu/people/natalia-vassilieva",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/nataliavassilieva/",
+    "detail": "nataliavassilieva2.png",
+    "description": "Natalia Vassilieva is the VP and Field CTO, ML at Cerebras Systems, a company pioneering a revolutionary approach to accelerating artificial intelligence work. With decades of research experience in natural language processing, computer vision, machine learning, and information retrieval, Vassilieva plays a pivotal role in driving Cerebras' cutting-edge AI solutions. Her expertise and leadership contribute significantly to the company's mission of pushing the boundaries of what's possible in AI computation and enabling groundbreaking advancements in the field.",
+    "new": false,
+    "hide": true,
+    "id": "nataliavassilieva"
+  },
+  {
+    "name": "Marina Vieva",
+    "job": "Founder",
+    "tip": "FemiSpace",
+    "image": "marinavieva.jpg",
+    "website": "",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/marina-vieva/",
+    "detail": "marinavieva2.png",
+    "description": "Marina Vieva is the founder of FemiSpace, a visionary platform dedicated to transforming women's healthcare. FemiSpace integrates research and personalized AI-based services for women's general and reproductive health, offering tailored insights and interventions in areas like fertility, ovarian health, menstrual health, and perimenopause. Driven by a belief in providing individualized, evidence-based solutions, Vieva collaborates with experts and women from diverse backgrounds to prioritize and revolutionize women's healthcare through cutting-edge technology and a community-driven approach.",
+    "new": false,
+    "hide": true,
+    "id": "marinavieva"
+  },
+  {
+    "name": "Tom Brady",
+    "job": "Principal",
+    "tip": "Sojo Consulting, North America and the Middle East",
+    "image": "tombrady.jpg",
+    "website": "",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/tombrady/",
+    "detail": "tombrady2.png",
+    "description": "Tom Brady is the Vice President of Business Development at Flow Pharma, a biotech company leveraging AI and computational modeling to develop novel therapeutics. With over eight years of experience in the life science industry, he has successfully executed strategies for capital raising, due diligence, and strategic partnerships. Brady has been instrumental in sourcing government collaboration agreements for Flow Pharma in Saudi Arabia, launching their business in Riyadh in 2022 and signing an MOU covering 46 OIC countries. He was awarded the Stanford GSB LEAD Intellectual Contribution Award in Fall 2022.",
+    "new": false,
+    "hide": true,
+    "id": "tombrady"
+  },
+  {
+    "name": "Akshay Chaudhari",
+    "job": "Assistant Professor",
+    "tip": "Stanford University",
+    "image": "akshaychaudhari.jpg",
+    "website": "https://profiles.stanford.edu/akshay-chaudhari",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/akshaychaudhari/",
+    "detail": "akshaychaudhari2.png",
+    "description": "Akshay Chaudhari is an Assistant Professor in the Department of Radiology at Stanford University. He leads the Machine Intelligence in Medical Imaging research group, focusing on developing AI techniques for accelerated MRI acquisition, image analysis, and predicting patient outcomes. His work combines deep learning, computer vision, and advanced MRI methods to create rapid, quantitative, and efficacious radiological exams. Chaudhari has received several awards, including the W.S. Moore Young Investigator Award and the Junior Fellow Award from the International Society for Magnetic Resonance in Medicine.",
+    "new": false,
+    "hide": true,
+    "id": "akshaychaudhari"
+  },
+  {
+    "name": "Gajanan Bhat",
+    "job": "Founder & CEO",
+    "tip": "iZen ai",
+    "image": "gajananbhat.jpg",
+    "website": "",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/gajananbhat/",
+    "detail": "gajananbhat2.png",
+    "description": "Gajanan Bhat is the Founder and CEO of iZen ai, Inc., a technology startup he established in 2018. With over 30 years of experience in innovation at leading US corporations and Silicon Valley companies, Bhat is a serial entrepreneur and strategic advisor. He holds a Master's degree in Physics and has authored several books. Additionally, Bhat serves on the local California State Board of the US Selective Service System and produced the award-winning cognitive thriller movie \"MOJO.\"",
+    "new": false,
+    "hide": true,
+    "id": "gajananbhat"
+  },
+  {
+    "name": "Dr. Angela Aristidou",
+    "job": "Faculty Fellow",
+    "tip": "Stanford University",
+    "image": "angelaaristidou.jpg",
+    "website": "",
+    "twitter": "https://x.com/AristidouAngela",
+    "linkedin": "https://www.linkedin.com/in/angela-aristidou-22a3318a/",
+    "detail": "angelaaristidou2.png",
+    "description": "Angela Aristidou is an Assistant Professor in Strategy and Entrepreneurship at UCL's School of Management and a Digital Fellow at Stanford University's Digital Economy Lab. She leads a £1.7 million UKRI-funded research program examining digital innovations in healthcare across the UK, USA, China, and Canada. Aristidou engages with policymakers on AI regulation and frequently speaks at academic and industry events. She consults on digital transformation and AI strategy for startups and biotech companies. Aristidou is an alumna of Harvard University, the University of Cambridge, and a Fellow of the UK's Royal Society of Arts.",
+    "new": false,
+    "hide": true,
+    "id": "angelaaristidou"
   }
 ]

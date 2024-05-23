@@ -796,7 +796,9 @@
       ],
       "abstract": "",
       "speakers": [
-        ["arunraman", "Arun Raman"]
+        ["arunraman", "Arun Raman"],
+        ["nikspirin", "Nik Spirin"],
+        ["nealvaidya", "Neal Vaidya"]
       ],
       "hide": false
     },

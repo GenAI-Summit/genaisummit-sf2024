@@ -284,7 +284,8 @@
       ],
       "abstract": "",
       "speakers": [
-        ["nikunjbajaj", "Nikunj Bajaj"]
+        ["nikunjbajaj", "Nikunj Bajaj"],
+        ["kshitijgrover", "Kshitij Grover"]
       ],
       "hide": false
     },
@@ -366,12 +367,13 @@
       "room": "Workshop Room",
       "time": "15:30-17:30",
       "type": "Workshop",
-      "topic": "Will be provided by speakers soon",
+      "topic": "Scale AI for your Business: Overview of watsonx and common AI use cases",
       "moderators": [
       ],
       "abstract": "",
       "speakers": [
-        ["ibm", "IBM"]
+        ["allydawson", "Ally Dawson"],
+        ["kavithadurgi", "Kavitha Durgi"]
       ],
       "hide": false
     },

@@ -61,7 +61,7 @@
   },
   {
     "name": "94ai",
-    "image": "94ai.png",
+    "image": "teleai.png",
     "url": "https://cn.94ai.com"
   },
   {
@@ -165,6 +165,11 @@
     "url": "https://www.scalegen.ai"
   },
   {
+    "name": "marqo",
+    "image": "marqo.png",
+    "url": "https://www.marqo.ai/"
+  },
+  {
     "name": "conversight",
     "image": "conversight.png",
     "url": "https://conversight.ai"
@@ -248,6 +253,11 @@
     "name": "upbeat",
     "image": "upbeat.png",
     "url": "https://www.upbeat.chat"
+  },
+  {
+    "name": "fairip",
+    "image": "fairip.png",
+    "url": ""
   },
   {
     "name": "swarmone",

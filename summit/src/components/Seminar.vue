@@ -2,17 +2,30 @@
   <div
     class="seminar-items"
     :class="screenWidth < 600 ? 'mb' : ''"
-    data-aos="flip-up"
+    data-aos="fade-up"
   >
-    <div class="seminar-item" v-for="item in seminar" :key="item.name">
+  <div
+    class="seminar-item"
+    v-for="item in seminar"
+    :key="item.name"
+  >
+    <div class="seminar-pic">
       <img
-        class="seminar-pic"
-        :src="getImage(item.image)" 
-        alt="seminar image" 
-        @click="openUrl(item.url)" 
+        :src="getImage(item.image)"
+        alt="seminar image"
+        @click="openUrl(item.url)"
         loading="lazy"
       />
     </div>
+    <div class="seminar-info">
+      <div class="seminar-title">
+        Topic: {{ item.topic ? item.topic : `Will be provided by speakers soon`}}
+      </div>
+      <div class="seminar-description">
+        Description: {{ item.description ? item.description : `Will be provided by speakers soon` }}
+      </div>
+    </div>
+  </div>
   </div>
 </template>
 
@@ -35,7 +48,9 @@ export default {
     }
 
     const openUrl = (url) => {
-      window.open(url, "_blank");
+      if (url) {
+        window.open(url, "_blank");
+      }
     }
 
     return {
@@ -58,39 +73,80 @@ export default {
 
   &.mb {
     .seminar-item {
-      margin-bottom: 0.3rem;
-      height: 100%;
-      margin-left: 0.1rem;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      margin-top: 0.2rem;
+      margin-bottom: 0.2rem;
       .seminar-pic {
-        width: 90%;
-        height: auto;
+        margin-top: 0.02rem;
+        width: 35%;
+      }
+      .seminar-info {
+        width: 100%;
+        border-radius: 0rem;
       }
     }
   }
 
   .seminar-item {
     display: flex;
-    justify-content: center;
-    width: 48%;
-    background-color: #ffffff;
+    align-items: flex-start;
+    width: 100%;
     text-align: center;
-    cursor: pointer;
-    height: 1.8rem;
+    height: 100%;
     z-index: 2;
-    border-radius: 1.5rem;
-    margin-left: 1%;
     margin-top: 0.2rem;
     margin-bottom: 0.2rem;
-    transition: all linear 0.3s;
+    background-color: #ffffff;
+    border-radius: 0.2rem;
 
-    &:hover {
-      background: #008aff;
-      height: 100%;
-    }
+
     .seminar-pic {
-      height: 1.8rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #ffffff;
+      border-radius: 1.5rem;
+      width: 20%;
       z-index: -1;
-      display: block;
+      transition: all linear 0.3s;
+      cursor: pointer;
+
+      img {
+        width: 80%;
+        height: auto;
+      }
+
+      &:hover {
+        background: #008aff;
+      }
+    }
+    
+    .seminar-info {
+      width: 75%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      text-align: left;
+      font-size: 2rem;
+      color: #000000;
+      margin-left: 0.2rem;
+      margin-top: 0.1rem;
+      background-color: #ffffff;
+      padding: 0.2rem;
+      border-radius: 0.2rem;
+
+      .seminar-title {
+        font-family: HarmonyOS Sans SC Bold;
+      }
+
+      .seminar-description {
+        margin-top: 0.2rem;
+        font-family: HarmonyOS Sans SC Regular;
+      }
     }
   }
 }

@@ -218,13 +218,14 @@
       "room": "AGI Stage",
       "time": "14:30-15:15",
       "type": "Panel Discussion",
-      "topic": "How AI Is Reshaping the Service in Medical and Healthcare",
+      "topic": "How AI Is Reshaping  Services in Medical and Healthcare",
       "moderators": [
       ],
       "abstract": "",
       "speakers": [
         ["zacharylipton", "Zachary Lipton"],
-        ["ankitjain", "Ankit Jain"]
+        ["ankitjain", "Ankit Jain"],
+        ["nataliavassilieva", "Dr. Natalia Vassilieva"]
       ],
       "hide": false
     },

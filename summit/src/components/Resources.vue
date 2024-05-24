@@ -255,8 +255,8 @@ export default {
 
     const getArrow = (subSection) => {
       return subSections.value[subSection] ? 
-        new URL(downArrow, import.meta.url).href : 
-        new URL(upArrow, import.meta.url).href;
+        new URL(upArrow, import.meta.url).href : 
+        new URL(downArrow, import.meta.url).href;
     };
 
     const getUberQRCode = () => {

@@ -2,56 +2,78 @@
   {
     "name": "nvidia",
     "image": "nvidia.png",
-    "url": "https://www.nvidia.com/"
+    "url": "https://www.nvidia.com/",
+    "title": "",
+    "description": ""
   },
   {
     "name": "amazon",
     "image": "amazon.png",
-    "url": "https://www.amazon.com/"
+    "url": "https://www.amazon.com/",
+    "title": "",
+    "description": ""
   },
   {
     "name": "ibm",
     "image": "IBM2.png",
-    "url": "https://www.ibm.com/"
+    "url": "https://www.ibm.com/",
+    "title": "",
+    "description": ""
   },
   {
     "name": "sambanova",
     "image": "samba.png",
-    "url": "https://www.sambanova.ai/"
+    "url": "https://www.sambanova.ai/",
+    "title": "",
+    "description": ""
   },
   {
     "name": "zilliz",
     "image": "zilliz.png",
-    "url": "https://zilliz.com/"
+    "url": "https://zilliz.com/",
+    "title": "",
+    "description": ""
   },
   {
     "name": "otter",
     "image": "otter.png",
-    "url": "https://otter.ai/"
+    "url": "https://otter.ai/",
+    "title": "",
+    "description": ""
   },
   {
     "name": "pinecone",
     "image": "pinecone.png",
-    "url": "https://www.pinecone.io/"
+    "url": "https://www.pinecone.io/",
+    "title": "",
+    "description": ""
   },
   {
     "name": "ushur",
     "image": "ushur.png",
-    "url": "https://ushur.com/"
+    "url": "https://ushur.com/",
+    "title": "",
+    "description": ""
   },
   {
     "name": "mountainlion",
     "image": "mountainlion.png",
-    "url": "https://www.mlion.ai/"
+    "url": "https://www.mlion.ai/",
+    "title": "",
+    "description": ""
   },
   {
     "name": "zuora",
     "image": "zuora.png",
-    "url": "https://www.zuora.com/sulutions/accurately-capture-meter-usage"
+    "url": "https://www.zuora.com/sulutions/accurately-capture-meter-usage",
+    "title": "",
+    "description": ""
   },
   {
     "name": "jobfair",
     "image": "jobfair.png",
-    "url": ""
+    "url": "",
+    "title": "",
+    "description": ""
   }
 ]

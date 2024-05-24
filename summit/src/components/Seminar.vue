@@ -71,6 +71,7 @@ export default {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-items: center;
   width: 100%;
   overflow: hidden;
 
@@ -94,7 +95,7 @@ export default {
 
   .seminar-item {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     width: 100%;
     text-align: center;
     height: 100%;

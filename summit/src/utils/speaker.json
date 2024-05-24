@@ -1190,20 +1190,6 @@
     "id": "marinavieva"
   },
   {
-    "name": "Akshay Chaudhari",
-    "job": "Assistant Professor",
-    "tip": "Stanford University",
-    "image": "akshaychaudhari.jpg",
-    "website": "https://profiles.stanford.edu/akshay-chaudhari",
-    "twitter": "",
-    "linkedin": "https://www.linkedin.com/in/akshaychaudhari/",
-    "detail": "akshaychaudhari2.png",
-    "description": "Akshay Chaudhari is an Assistant Professor in the Department of Radiology at Stanford University. He leads the Machine Intelligence in Medical Imaging research group, focusing on developing AI techniques for accelerated MRI acquisition, image analysis, and predicting patient outcomes. His work combines deep learning, computer vision, and advanced MRI methods to create rapid, quantitative, and efficacious radiological exams. Chaudhari has received several awards, including the W.S. Moore Young Investigator Award and the Junior Fellow Award from the International Society for Magnetic Resonance in Medicine.",
-    "new": false,
-    "hide": false,
-    "id": "akshaychaudhari"
-  },
-  {
     "name": "Gajanan Bhat",
     "job": "Founder & CEO",
     "tip": "iZen ai",
@@ -1734,6 +1720,20 @@
     "new": false,
     "hide": false,
     "id": "sunnyrochiramani"
+  },
+  {
+    "name": "Yochai Konig",
+    "job": "VP of Machine Learning",
+    "tip": "Ada",
+    "image": "yochaikonig.jpg",
+    "website": "",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/yochai-konig-abb5a/",
+    "detail": "yoachaikonig2.png",
+    "description": "Yochai Konig is Ada's VP of Machine Learning with over 30 years of experience. He co-founded Utopy, creating the first Speech Analytics product \"SpeechMiner\". Previously, he led Genesys Innovation and Advanced Research groups. Konig started at SRI International, leading DoD projects in Speech Recognition, Speaker Verification, and NLP. He holds over 100 patents and a Ph.D. from Berkeley.",
+    "new": false,
+    "hide": false,
+    "id": "yochaikonig"
   },
   {
     "name": "Dr. Jiarui Liu",

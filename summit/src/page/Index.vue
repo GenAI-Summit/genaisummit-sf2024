@@ -525,6 +525,7 @@
         </div>
         -->
 
+        <!--
         <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
           <div
             class="left-title before"
@@ -571,6 +572,7 @@
         >
           <Swiper ref="SwiperSpeaker" :newSpeakersList="newSpeakersList" />
         </div>
+      -->
       </section>
       <!-- section2 end -->
 
@@ -842,6 +844,7 @@
       </div>
       -->
 
+      <!--
       <div class="GenAISummit" :class="screenWidth > 600 ? '' : 'mb'">
         <div class="cointainer">
           <div class="title" :class="screenWidth > 600 ? '' : 'mb'">
@@ -1021,6 +1024,7 @@
           </div>
         </div>
       </div>
+      -->
 
 
         
@@ -1097,6 +1101,7 @@
 
         <Booth />
 
+        <!--
         <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
           <div
             class="left-title before"
@@ -1135,6 +1140,7 @@
         <div class="Exhibition">
           <Exhibition />
         </div>
+        -->
       </section>
       <!-- section3 end -->
 
@@ -1208,6 +1214,7 @@
         <div class="ss-title" data-aos="flip-up">
           MAXIMIZE YOUR JOURNEY AT THE AI SUMMIT - Live Captioning by Otter.ai: the Exclusive GenAI Meeting Assistant Sponsor
         </div>
+        <!--
         <div class="ss-title2" data-aos="flip-up">
           (Note: Tentative Agenda, update daily)
         </div>
@@ -1216,6 +1223,7 @@
             {{ list }}
           </div>
         </div>
+        -->
         <!--<Agenda />-->
         <AgendaCard />
       </section>
@@ -2253,14 +2261,16 @@ export default {
         );
       }
     };
+    /*
     const tipList = ref([
       'History & Future of LLM','LLM Framework / State-of-the-art of LLM','Chips for LLM','Robotic and GenAI','The Art of FineTuning & RAG','Enterprise and GenAI',
       'Women in GenAI','Sustainability of GenAI','Safety and Ethnicity of LLM','Policy and Public Good with LLM','Data Privacy','Text to Video','VectorDB','AI Agents',
       'AI companions','Law and LLM','Healthcare and AI','Education and GenAI','Marketing and GenAI'
     ])
+    */
 
     return {
-      tipList,
+      // tipList,
       showAllExhibition,
       moreHanleExhibition,
       closeHanleExhibition,

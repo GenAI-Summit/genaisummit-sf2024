@@ -683,7 +683,6 @@
       ],
       "abstract": "",
       "speakers": [
-        ["yichongxu", "Dr. Yichong Xu"]
       ],
       "hide": false
     },
@@ -1090,8 +1089,9 @@
       "abstract": "",
       "speakers": [
         ["philiprathle", "Philip Rathle"],
-        ["mikemurchison", "Mike Murchison"],
-        ["ahmedaj", "Ahmed AJ"]
+        ["yochaikonig", "Yochai Konig"],
+        ["ahmedaj", "Ahmed AJ"],
+        ["yichongxu", "Dr. Yichong Xu"]
       ],
       "hide": false
     },

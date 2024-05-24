@@ -1222,7 +1222,6 @@
       <!-- section4 end -->
 
       <!-- resource section start -->
-      <!--
       <section id="resource_section" class="cointainer">
         <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
           <div
@@ -1236,9 +1235,8 @@
         <div class="ss-title" data-aos="flip-up">
           YOU CAN FINE THE RESOURCES OF THE EVENT HERE
         </div>
-        <Resources :screenWidth="screenWidth" />
+        <Resources />
       </section>
-      -->
       <!-- resource section end -->
 
       <!-- Event Partners -->

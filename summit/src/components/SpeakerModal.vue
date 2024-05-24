@@ -87,6 +87,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
 img {
   user-drag: none;
   user-select: none;
@@ -103,7 +104,7 @@ img {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   .img-content {

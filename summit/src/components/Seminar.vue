@@ -29,7 +29,6 @@ export default {
     const screenWidth = computed(() => store.state.screenWidth);
 
     const seminar = ref(seminarData);
-    console.log(seminar);
 
     const getImage = (image) => {
       return new URL(`/src/assets/images/sponsors/${image}`, import.meta.url).href;

@@ -3,8 +3,8 @@
     "name": "nvidia",
     "image": "nvidia.png",
     "url": "https://www.nvidia.com/",
-    "title": "",
-    "description": ""
+    "title": "test",
+    "description": "test_description"
   },
   {
     "name": "amazon",

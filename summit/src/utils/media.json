@@ -94,5 +94,11 @@
     "image": "jojogarden.png",
     "url": "https://jojogarden.eventbrite.com/",
     "hide": false
+  },
+  {
+    "name": "guigu101",
+    "image": "guigu101.png",
+    "url": "https://sv101.fireside.fm/",
+    "hide": false
   }
 ]

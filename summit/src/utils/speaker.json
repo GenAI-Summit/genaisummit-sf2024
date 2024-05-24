@@ -140,6 +140,20 @@
     "id": "fionama"
   },
   {
+    "name": "Adam Seligman",
+    "job": "VP Generative Builders",
+    "tip": "Amazon Web Services",
+    "image": "adamseligman.jpg",
+    "linkedin": "https://www.linkedin.com/in/adamseligman/",
+    "twitter": "https://x.com/adamse",
+    "website": "",
+    "detail": "adamseligman2.png",
+    "description": "Adam Seligman is the Vice President of Generative Builders at Amazon Web Services (AWS). He leads the organization focused on developing next-generation developer tools and services, including capabilities powered by generative AI, low-code abstractions, and cloud development and operations. Seligman is passionate about empowering builders of all skill levels to create and innovate on the AWS cloud platform.",
+    "new": false,
+    "hide": false,
+    "id": "adamseligman"
+  },
+  {
     "name": "Deon Nicholas",
     "job": "Co-Founder & CEO",
     "tip": "Forethought",

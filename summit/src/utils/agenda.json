@@ -23,7 +23,6 @@
       ],
       "abstract": "",
       "speakers": [
-        ["amazon", "Amazon"]
       ],
       "hide": false
     },
@@ -178,6 +177,20 @@
       ],
       "abstract": "",
       "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 1,
+      "room": "AGI Stage",
+      "time": "10:30-11:00",
+      "type": "Keynote",
+      "topic": "Opening Ceremony Speaking for GenAI Summit",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["londonbreed", "London Breed"]
       ],
       "hide": false
     },
@@ -929,7 +942,7 @@
       ],
       "abstract": "",
       "speakers": [
-        ["amazon", "Amazon"]
+        ["adamseligman", "Adam Seligman"]
       ],
       "hide": false
     },

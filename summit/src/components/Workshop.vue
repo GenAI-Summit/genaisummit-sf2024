@@ -18,11 +18,14 @@
       />
     </div>
     <div class="workshop-info">
-      <div class="workshop-title">
+      <div class="workshop-title bold">
         Topic: {{ item.topic ? item.topic : `Will be provided by speakers soon`}}
       </div>
       <div class="workshop-description">
-        Description: {{ item.description ? item.description : `Will be provided by speakers soon` }}
+        <span class="bold">
+          Description:
+        </span>
+        {{ item.description ? item.description : `Will be provided by speakers soon` }}
       </div>
     </div>
   </div>
@@ -68,6 +71,7 @@ export default {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-items: center;
   width: 100%;
   overflow: hidden;
 
@@ -91,7 +95,7 @@ export default {
 
   .workshop-item {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     width: 100%;
     text-align: center;
     height: 100%;
@@ -138,14 +142,15 @@ export default {
       background-color: #ffffff;
       padding: 0.2rem;
       border-radius: 0.2rem;
-
-      .workshop-title {
-        font-family: HarmonyOS Sans SC Bold;
-      }
+      font-family: HarmonyOS Sans SC Regular;
+      line-height: 1.25;
 
       .workshop-description {
         margin-top: 0.2rem;
-        font-family: HarmonyOS Sans SC Regular;
+      }
+
+      .bold {
+        font-family: HarmonyOS Sans SC Bold;
       }
     }
   }

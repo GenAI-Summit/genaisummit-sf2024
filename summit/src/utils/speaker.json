@@ -850,7 +850,7 @@
     "detail": "mikemurchison2.webp",
     "description": "Mike Murchison is CEO of Ada, the world's leading customer service AI platform. A serial entrepreneur focused on using AI to transform the conversation between businesses and their customers, he champions the Canadian innovation ecosystem at home and abroad. Before starting Ada, Mike founded several other tech companies, including a social search community and a consulting firm for Fortune 500 clients. Ada raised $30M in its latest funding round, which was Series B round held on Feb 10, 2022.",
     "new": true,
-    "hide": false,
+    "hide": true,
     "id": "mikemurchison"
   },
   {
@@ -1715,7 +1715,7 @@
     "website": "",
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/yochai-konig-abb5a/",
-    "detail": "yoachaikonig2.png",
+    "detail": "yochaikonig2.png",
     "description": "Yochai Konig is Ada's VP of Machine Learning with over 30 years of experience. He co-founded Utopy, creating the first Speech Analytics product \"SpeechMiner\". Previously, he led Genesys Innovation and Advanced Research groups. Konig started at SRI International, leading DoD projects in Speech Recognition, Speaker Verification, and NLP. He holds over 100 patents and a Ph.D. from Berkeley.",
     "new": false,
     "hide": false,

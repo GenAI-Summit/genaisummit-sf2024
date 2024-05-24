@@ -213,7 +213,6 @@ export default {
     }
   }
   .inner_ss-content {
-    height: 13rem;
     width: 100%;
     color: #000000;
     overflow: hidden;
@@ -247,12 +246,15 @@ export default {
   }
 }
 .swoperCont_days {
- .tab{
-    width: 100%;
+  .tab {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
     display: flex;
-    max-width: 16rem;
-    height: 1.1rem;
-    margin-top: 20px;
+    width: 100%;
+    height: 1rem;
+    margin-top: 0.3rem;
     .tab-item{
       font-family: Microsoft YaHei, Microsoft YaHei;
       font-weight: bold;

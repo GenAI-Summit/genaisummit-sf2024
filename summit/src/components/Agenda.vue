@@ -96,7 +96,6 @@ export default {
   name: "",
   setup() {
     const store = useStore();
-    //适配
     const screenWidth = computed(() => {
       return store.state.screenWidth;
     });

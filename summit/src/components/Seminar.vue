@@ -142,6 +142,7 @@ export default {
       padding: 0.2rem;
       border-radius: 0.2rem;
       font-family: HarmonyOS Sans SC Regular;
+      line-height: 1.25;
 
       .seminar-description {
         margin-top: 0.2rem;

@@ -63,8 +63,8 @@
         <div class="modal-body-right">
           <div class="text-container">
             <p><strong>GenAI Summit SF 2024</strong> will be held at the Palace of Fine Arts (3601 Lyon St, San Francisco, CA 94123).</p>
-            <p>Due to limited parking space, we strongly recommend visiting the Palace of Fine Arts by carpooling or using public transportation.</p>
-            <p>The entrance to the venue is the north entrance.</p>
+            <p>Due to limited parking space, we strongly recommend carpooling or using public transportation to visit the Palace of Fine Arts.</p>
+            <p>Please use the north entrance to access the venue.</p>
             <button
               class="content-btn"
               @click="openUrl('https://maps.app.goo.gl/CzsxYg3JLBUAgKv98')"
@@ -111,7 +111,7 @@
                 class="sub-section-content"
               >
                 <p>
-                  If you would like to take an Uber to the Palace of Fine Arts, please click the button or scan the QR code below.
+                  If you would like to take an Uber to the Palace of Fine Arts, please click the button on your phone or scan the QR code below. These options will help you locate the best drop-off point for your ride.
                 </p>
                 <div>
                   <button

@@ -79,6 +79,7 @@ export default {
       margin-top: 0.2rem;
       margin-bottom: 0.2rem;
       .workshop-pic {
+        margin-top: 0.02rem;
         width: 35%;
       }
       .workshop-info {
@@ -102,20 +103,19 @@ export default {
 
 
     .workshop-pic {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       background-color: #ffffff;
       border-radius: 1.5rem;
       width: 20%;
       z-index: -1;
-      display: block;
       transition: all linear 0.3s;
       cursor: pointer;
-      margin-left: 0.1rem;
-      margin-top: 0.1rem;
 
       img {
         width: 80%;
         height: auto;
-        margin-left: 0.2rem;
       }
 
       &:hover {

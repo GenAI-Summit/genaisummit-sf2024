@@ -10,7 +10,7 @@
                     <div class="title">Booth Type A</div>
                     <div class="s_title">10 x 10 ft (3m x 3m) Space Turnkey Solution </div>
                     <div class="price">
-                        <span class="big">USD 10,999</span><span class="bold"></span>
+                      <span class="big"><del>USD 10,999</del> (Sold Out)</span><span class="bold"></span>
                     </div>
                     <div class="list">
                       
@@ -49,7 +49,7 @@
                     <div class="title">Booth Type B</div>
                     <div class="s_title">6.5 x 6.5 ft (2m x 2m) Space Turnkey Solution </div>
                     <div class="price">
-                        <span class="big">USD 7,999</span><span class="bold"> </span>
+                      <span class="big"><del>USD 7,999</del>(Sold Out)</span><span class="bold"> </span>
                     </div>
                     <div class="list">
                         
@@ -96,7 +96,7 @@
                     <!-- (Special Offer for Startups) -->
                     <div class="s_title">6 ft x 2.5 ft  (1.8m x 0.8m)</div>
                     <div class="price">
-                        <span class="big">USD 4,999</span><span class="bold"> </span>
+                      <span class="big"><del>USD 4,999</del>(Sold Out)</span><span class="bold"> </span>
                     </div>
                     <div class="list">
                         1x Table (Size: 6 ft x 2.5 ft x 2.5 ft)  <br>
@@ -229,7 +229,6 @@
     name: '',
     setup() {
       const store = useStore();
-      //适配
       const screenWidth = computed(() => {
         return store.state.screenWidth;
       });

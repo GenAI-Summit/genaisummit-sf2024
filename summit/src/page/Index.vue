@@ -1101,7 +1101,6 @@
 
         <Booth />
 
-        <!--
         <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
           <div
             class="left-title before"
@@ -1140,7 +1139,6 @@
         <div class="Exhibition">
           <Exhibition />
         </div>
-        -->
       </section>
       <!-- section3 end -->
 

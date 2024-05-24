@@ -18,11 +18,14 @@
       />
     </div>
     <div class="seminar-info">
-      <div class="seminar-title">
+      <div class="seminar-title bold">
         Topic: {{ item.topic ? item.topic : `Will be provided by speakers soon`}}
       </div>
       <div class="seminar-description">
-        Description: {{ item.description ? item.description : `Will be provided by speakers soon` }}
+        <span class="bold">
+          Description: 
+        </span>
+        {{ item.description ? item.description : `Will be provided by speakers soon` }}
       </div>
     </div>
   </div>
@@ -138,14 +141,13 @@ export default {
       background-color: #ffffff;
       padding: 0.2rem;
       border-radius: 0.2rem;
-
-      .seminar-title {
-        font-family: HarmonyOS Sans SC Bold;
-      }
+      font-family: HarmonyOS Sans SC Regular;
 
       .seminar-description {
         margin-top: 0.2rem;
-        font-family: HarmonyOS Sans SC Regular;
+      }
+      .bold {
+        font-family: HarmonyOS Sans SC Bold;
       }
     }
   }

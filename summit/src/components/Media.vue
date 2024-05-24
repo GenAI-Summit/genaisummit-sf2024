@@ -33,7 +33,6 @@ export default {
     const screenWidth = computed(() => store.state.screenWidth);
 
     const media = ref(mediaData.filter((item) => !item.hide));
-    console.log(media);
 
     const getImage = (image) => {
       return new URL(`/src/assets/images/media/${image}`, import.meta.url).href;

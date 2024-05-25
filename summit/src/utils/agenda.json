@@ -446,6 +446,175 @@
         ["xichen", "Prof. Xi Chen"]
       ],
       "hide": false
+    },
+    {
+      "day": 1,
+      "room": "Launchpad Stage",
+      "time": "13:00 - 13:18",
+      "type": "Startup Demo",
+      "topic": "Scalegen",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 1,
+      "room": "Launchpad Stage",
+      "time": "13:18 - 13:36",
+      "type": "Startup Demo",
+      "topic": "Jeffrey Vanchat",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 1,
+      "room": "Launchpad Stage",
+      "time": "13:36 - 13:54",
+      "type": "Startup Demo",
+      "topic": "Upbeat",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 1,
+      "room": "Launchpad Stage",
+      "time": "13:54 - 14:12",
+      "type": "Startup Demo",
+      "topic": "TaskUs",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 1,
+      "room": "Launchpad Stage",
+      "time": "14:12 - 14:30",
+      "type": "Startup Demo",
+      "topic": "DeepChecks",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 1,
+      "room": "Launchpad Stage",
+      "time": "14:30 - 14:48",
+      "type": "Startup Demo",
+      "topic": "Jiffy AI",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 1,
+      "room": "Launchpad Stage",
+      "time": "14:48 - 15:06",
+      "type": "Startup Demo",
+      "topic": "ABAKA AI",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 1,
+      "room": "Launchpad Stage",
+      "time": "15:06 - 15:24",
+      "type": "Startup Demo",
+      "topic": "SwarmOne",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 1,
+      "room": "Launchpad Stage",
+      "time": "15:24 - 15:42",
+      "type": "Startup Demo",
+      "topic": "Booth AI",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 1,
+      "room": "Launchpad Stage",
+      "time": "15:42 - 16:00",
+      "type": "Startup Demo",
+      "topic": "Exabits",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 1,
+      "room": "Launchpad Stage",
+      "time": "16:00 - 16:18",
+      "type": "Startup Demo",
+      "topic": "AIZip",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 1,
+      "room": "Launchpad Stage",
+      "time": "16:18 - 16:36",
+      "type": "Startup Demo",
+      "topic": "GPTWork AI",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 1,
+      "room": "Launchpad Stage",
+      "time": "16:36 - 16:54",
+      "type": "Startup Demo",
+      "topic": "Mother Tongue",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
     }
   ],
   [
@@ -915,6 +1084,305 @@
         ["rockyyu", "Rocky Yu"]
       ],
       "hide": false
+    },
+    {
+      "day": 2,
+      "room": "Launchpad Stage",
+      "time": "09:00 - 09:18",
+      "type": "Startup Demo",
+      "topic": "",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": true
+    },
+    {
+      "day": 2,
+      "room": "Launchpad Stage",
+      "time": "09:18 - 09:36",
+      "type": "Startup Demo",
+      "topic": "94AI",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 2,
+      "room": "Launchpad Stage",
+      "time": "09:36 - 09:54",
+      "type": "Startup Demo",
+      "topic": "Ivymax",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 2,
+      "room": "Launchpad Stage",
+      "time": "09:54 - 10:12",
+      "type": "Startup Demo",
+      "topic": "Usage Based Billing for AI",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 2,
+      "room": "Launchpad Stage",
+      "time": "10:12 - 10:30",
+      "type": "Startup Demo",
+      "topic": "Akool",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 2,
+      "room": "Launchpad Stage",
+      "time": "10:30 - 10:48",
+      "type": "Startup Demo",
+      "topic": "Swift Security",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 2,
+      "room": "Launchpad Stage",
+      "time": "10:48 - 11:06",
+      "type": "Startup Demo",
+      "topic": "Vimmerse",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 2,
+      "room": "Launchpad Stage",
+      "time": "11:06 - 11:24",
+      "type": "Startup Demo",
+      "topic": "Skalable",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 2,
+      "room": "Launchpad Stage",
+      "time": "11:24 - 11:42",
+      "type": "Startup Demo",
+      "topic": "Modlee",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 2,
+      "room": "Launchpad Stage",
+      "time": "11:42 - 12:00",
+      "type": "Startup Demo",
+      "topic": "Fivetran",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 2,
+      "room": "Launchpad Stage",
+      "time": "13:00 - 13:18",
+      "type": "Startup Demo",
+      "topic": "IDA Ireland",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 2,
+      "room": "Launchpad Stage",
+      "time": "13:18 - 13:36",
+      "type": "Startup Demo",
+      "topic": "pointable.ai",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 2,
+      "room": "Launchpad Stage",
+      "time": "13:36 - 13:54",
+      "type": "Startup Demo",
+      "topic": "Ayraa",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 2,
+      "room": "Launchpad Stage",
+      "time": "13:54 - 14:12",
+      "type": "Startup Demo",
+      "topic": "GenerativeX",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 2,
+      "room": "Launchpad Stage",
+      "time": "14:12 - 14:30",
+      "type": "Startup Demo",
+      "topic": "Teqfocus",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 2,
+      "room": "Launchpad Stage",
+      "time": "14:30 - 14:48",
+      "type": "Startup Demo",
+      "topic": "DeepAbacus",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 2,
+      "room": "Launchpad Stage",
+      "time": "14:48 - 15:06",
+      "type": "Startup Demo",
+      "topic": "PineCone",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 2,
+      "room": "Launchpad Stage",
+      "time": "15:06 - 15:24",
+      "type": "Startup Demo",
+      "topic": "ConverSight",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 2,
+      "room": "Launchpad Stage",
+      "time": "15:24 - 15:42",
+      "type": "Startup Demo",
+      "topic": "CloudFabrix",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 2,
+      "room": "Launchpad Stage",
+      "time": "15:42 - 16:00",
+      "type": "Startup Demo",
+      "topic": "ChatMaster",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 2,
+      "room": "Launchpad Stage",
+      "time": "16:00 - 16:18",
+      "type": "Startup Demo",
+      "topic": "Enviate AI",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 2,
+      "room": "Launchpad Stage",
+      "time": "16:18 - 16:36",
+      "type": "Startup Demo",
+      "topic": "Sparkware",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 2,
+      "room": "Launchpad Stage",
+      "time": "16:36 - 16:54",
+      "type": "Startup Demo",
+      "topic": "Telus International",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
     }
   ],
   [
@@ -1310,6 +1778,188 @@
       "abstract": "",
       "speakers": [
         ["sethstephensdavidowitz", "Seth Stephens-Davidowitz"]
+      ],
+      "hide": false
+    },
+    {
+      "day": 3,
+      "room": "Launchpad Stage",
+      "time": "09:00 - 09:18",
+      "type": "Startup Demo",
+      "topic": "OneSource Cloud",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 3,
+      "room": "Launchpad Stage",
+      "time": "09:18 - 09:36",
+      "type": "Startup Demo",
+      "topic": "RealChar",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 3,
+      "room": "Launchpad Stage",
+      "time": "09:36 - 09:54",
+      "type": "Startup Demo",
+      "topic": "Streetbeat",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 3,
+      "room": "Launchpad Stage",
+      "time": "09:54 - 10:12",
+      "type": "Startup Demo",
+      "topic": "Tursio",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 3,
+      "room": "Launchpad Stage",
+      "time": "10:12 - 10:30",
+      "type": "Startup Demo",
+      "topic": "House.com",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 3,
+      "room": "Launchpad Stage",
+      "time": "10:30 - 10:48",
+      "type": "Startup Demo",
+      "topic": "MagStone Law",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 3,
+      "room": "Launchpad Stage",
+      "time": "10:48 - 11:06",
+      "type": "Startup Demo",
+      "topic": "Koyeb",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 3,
+      "room": "Launchpad Stage",
+      "time": "11:06 - 11:24",
+      "type": "Startup Demo",
+      "topic": "Fiddler AI",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 3,
+      "room": "Launchpad Stage",
+      "time": "",
+      "type": "Startup Demo",
+      "topic": "",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 3,
+      "room": "Launchpad Stage",
+      "time": "11:24 - 11:42",
+      "type": "Startup Demo",
+      "topic": "Squid Cloud",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 3,
+      "room": "Launchpad Stage",
+      "time": "11:42 - 12:00",
+      "type": "Startup Demo",
+      "topic": "Evaluable AI",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 3,
+      "room": "Launchpad Stage",
+      "time": "13:00 - 13:18",
+      "type": "Startup Demo",
+      "topic": "Sider",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 3,
+      "room": "Launchpad Stage",
+      "time": "13:18 - 13:36",
+      "type": "Startup Demo",
+      "topic": "Hexus",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 3,
+      "room": "Launchpad Stage",
+      "time": "13:36 - 13:54",
+      "type": "Startup Demo",
+      "topic": "CoursePal",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
       ],
       "hide": false
     }

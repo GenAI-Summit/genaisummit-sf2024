@@ -1806,6 +1806,20 @@
     "id": "shirchorev"
   },
   {
+    "name": "Kasey Kyungsil Roh",
+    "job": "Head of Business US",
+    "tip": "Upstage",
+    "image": "kaseykyungsilroh.jpg",
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/kaseyroh/",
+    "twitter": "",
+    "detail": "kaseykyungsilroh2.png",
+    "description": "Kasey Kyungsil Roh is the Head of Business for the US at Upstage, where she plays a pivotal role in driving business strategy and operations within the region. Upstage is recognized for leveraging AI technologies to enhance various industry processes, setting benchmarks in innovation and efficiency. Under her leadership, the company continues to expand its influence and redefine industry standards across the US market.",
+    "new": false,
+    "hide": false,
+    "id": "kaseykyungsilroh"
+  },
+  {
     "name": "Frank Liu",
     "job": "Head of AI & ML",
     "tip": "Zilliz",
@@ -1818,6 +1832,20 @@
     "new": false,
     "hide": false,
     "id": "frankliu"
+  },
+  {
+    "name": "Anya Cheng",
+    "job": "Founder & CEO",
+    "tip": "Taelor",
+    "image": "anyacheng.jpg",
+    "website": "",
+    "twitter": "https://x.com/anyacheng?lang=en",
+    "linkedin": "https://www.linkedin.com/in/anyacheng/",
+    "detail": "anyacheng2.png",
+    "description": "Anya Cheng is an accomplished and award-winning Product Head with extensive experience overseeing product initiatives for leading technology, eCommerce, food-delivery, and retail organizations. She is the founder and CEO of Taelor.style. Cheng has expertise in creating product vision, strategy, and roadmaps, building high-performing teams, and managing stakeholders. She is a TEDx speaker and has won over 20 awards, including Girls in Tech \"40 Under 40\" and Webby Award Best App of the Year.",
+    "new": false,
+    "hide": false,
+    "id": "anyacheng"
   },
   {
     "name": "Artur Kiulian",

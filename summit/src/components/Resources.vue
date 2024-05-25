@@ -427,7 +427,6 @@ export default {
 
         .sub-section-title {
           font-size: 0.4rem;
-          font-weight: bold;
           margin: 0.25rem;
 
           display: flex;

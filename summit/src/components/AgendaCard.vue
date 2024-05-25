@@ -169,6 +169,7 @@ export default {
       display: flex;
       align-items: center;
       padding-left: 0.4rem;
+
       .title {
         font-family: Microsoft YaHei, Microsoft YaHei;
         font-weight: bold;

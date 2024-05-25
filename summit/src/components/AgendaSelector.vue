@@ -137,7 +137,10 @@ export default {
     }
 
     .arrow {
+      background-color: #f1f3f4;
+      border-radius: 50%;
       width: 0.4rem;
+      padding: 0.1rem;
     }
   }
 }

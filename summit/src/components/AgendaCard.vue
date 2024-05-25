@@ -17,9 +17,7 @@
         May 29, 2024
       </div>
       <div class="inner_ss-content">
-        <div v-for="item in eventsList0" :key="item">
-          <AgendaItem :item="item" />
-        </div>
+        <AgendaSelector :items="eventsList0" />
       </div>
     </div>
     <div v-if="dayActive == 'day2'" class="ss-content">
@@ -28,9 +26,7 @@
         May 30, 2024
       </div>
       <div class="inner_ss-content">
-        <div v-for="item in eventsList1" :key="item">
-          <AgendaItem :item="item" />
-        </div>
+        <AgendaSelector :items="eventsList0" />
       </div>
     </div>
     <div v-if="dayActive == 'day3'" class="ss-content">
@@ -39,9 +35,7 @@
           May 31, 2024
         </div>
       <div class="inner_ss-content">
-        <div v-for="item in eventsList2" :key="item">
-          <AgendaItem :item="item" />
-        </div>
+        <AgendaSelector :items="eventsList0" />
       </div>
     </div>
   </div>
@@ -55,6 +49,7 @@ import { useStore } from "vuex";
 import agendaData from "../utils/agenda.json";
 
 import AgendaItem from "./AgendaItem.vue";
+import AgendaSelector from "./AgendaSelector.vue";
 
 export default {
   name: "",

@@ -1344,6 +1344,34 @@
     "id": "murraynewlands"
   },
   {
+    "name": "Wang Dou",
+    "job": "Founder",
+    "tip": "JIC Capital",
+    "image": "wangdou.jpg",
+    "website": "",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/wangdou/",
+    "detail": "wangdou2.png",
+    "description": "Wang Dou is a forward-thinking investor with a knack for identifying transformative trends, like his early investments in blockchain projects. Currently, he's focused on decentralized AI, recognizing its potential to revolutionize sectors through enhanced decentralized storage, large-scale dApp applications, and more efficient public blockchains. His strategic insights and dedication to innovation position him as a key figure in the tech investment landscape, consistently supporting groundbreaking ventures.",
+    "new": false,
+    "hide": false,
+    "id": "wangdou"
+  },
+  {
+    "name": "Glad man",
+    "job": "Co-Founder",
+    "tip": "TiTi",
+    "image": "gladman.jpg",
+    "website": "",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/glad-man-391304a0/",
+    "detail": "gladman2.png",
+    "description": "Glad Man is an angel investor and early Bitcoin adopter who entered the blockchain industry in 2013. With a decade of experience, he co-founded TiTi in 2021, a company focused on restoring degraded Colombian forests to protect the endangered cotton-topped tamarin (titi) monkey. TiTi aims to connect philanthropists with data-driven conservationists and leverage crowdsourcing to fund reforestation efforts.",
+    "new": false,
+    "hide": false,
+    "id": "gladman"
+  },
+  {
     "name": "Dr. Chunting Zhou",
     "job": "Senior Research Scientist",
     "tip": "Meta AI",

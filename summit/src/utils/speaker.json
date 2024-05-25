@@ -645,20 +645,6 @@
     "id": "geraldparloiu"
   },
   {
-    "name": "Alex Witt",
-    "job": "General Partner",
-    "tip": "Verda Ventures",
-    "image": "alexwitt.jpg",
-    "website": "",
-    "linkedin": "https://www.linkedin.com/in/alexwitt/",
-    "twitter": "",
-    "detail": "alexwitt2.png",
-    "description": "Alex Witt, CFA, is general partner at Verda Ventures, a venture accelerator, and director at APF. Previously, he was CFO at the Celo Foundation, a carbon-negative, Proof-of-Stake blockchain ecosystem. He began his career in investment research at Goldman Sachs and JP Morgan. He holds a master's degree from the London School of Economics (LSE) and Tsinghua University and is a CFA Charterholder.",
-    "new": true,
-    "hide": false,
-    "id": "alexwitt"
-  },
-  {
     "name": "Tuhin Srivastava",
     "job": "Co-Founder",
     "tip": "Baseten",
@@ -768,6 +754,20 @@
     "new": false,
     "hide": false,
     "id": "arunraman"
+  },
+  {
+    "name": "Alex Witt",
+    "job": "General Partner",
+    "tip": "Verda Ventures",
+    "image": "alexwitt.jpg",
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/alexwitt/",
+    "twitter": "",
+    "detail": "alexwitt2.png",
+    "description": "Alex Witt, CFA, is general partner at Verda Ventures, a venture accelerator, and director at APF. Previously, he was CFO at the Celo Foundation, a carbon-negative, Proof-of-Stake blockchain ecosystem. He began his career in investment research at Goldman Sachs and JP Morgan. He holds a master's degree from the London School of Economics (LSE) and Tsinghua University and is a CFA Charterholder.",
+    "new": true,
+    "hide": false,
+    "id": "alexwitt"
   },
   {
     "name": "Lance Martin",

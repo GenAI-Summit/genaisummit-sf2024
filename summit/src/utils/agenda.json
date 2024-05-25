@@ -350,6 +350,20 @@
     },
     {
       "day": 1,
+      "room": "Align Stage",
+      "time": "15:15-16:15",
+      "type": "Panel Discussion",
+      "topic": "Transform Work Velocity with AI Tools",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["babusivadasan", "Babu Sivadasan"]
+      ],
+      "hide": false
+    },
+    {
+      "day": 1,
       "room": "Workshop Room",
       "time": "09:00-11:00",
       "type": "Workshop",
@@ -440,7 +454,7 @@
       "room": "GPT Stage",
       "time": "09:00-09:45",
       "type": "Keynote",
-      "topic": "The Role of Generative AI in Advancing Industrial Automation and Smart Manufacturing",
+      "topic": "The Age of Generative AI: Data at the Intelligent Edge",
       "moderators": [
       ],
       "abstract": "",

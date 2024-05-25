@@ -9,13 +9,13 @@
     "name": "washingtonpost",
     "image": "washingtonpost.png",
     "url": "https://www.washingtonpost.com/",
-    "hide": true
+    "hide": false
   },
   {
     "name": "thenewyorktimes",
     "image": "thenewyorktimes.png",
     "url": "https://www.nytimes.com/",
-    "hide": true
+    "hide": false
   },
   {
     "name": "nbcnews",
@@ -27,6 +27,12 @@
     "name": "techcrunch",
     "image": "techcrunch.png",
     "url": "https://techcrunch.com/",
+    "hide": false
+  },
+  {
+    "name": "venturebeat",
+    "image": "venturebeat.png",
+    "url": "https://venturebeat.com/",
     "hide": false
   },
   {

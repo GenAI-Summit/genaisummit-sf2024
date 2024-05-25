@@ -812,6 +812,20 @@
     "id": "kevinmoody"
   },
   {
+    "name": "Ally Dawson",
+    "job": "Embedded Solution Sales",
+    "tip": "IBM",
+    "image": "allydawson.jpg",
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/allandria-dawson/",
+    "twitter": "https://x.com/allydawsonibm",
+    "detail": "allydawson2.png",
+    "description": "Ally Dawson is an Embedded Solution Sales professional at IBM, specializing in strategic partnerships and leveraging IBM's Watson AI technology. She has been instrumental in fostering collaborations between IBM and various organizations, as evidenced by her LinkedIn posts highlighting successful engagements in Atlanta and Tampa. Ally's expertise lies in facilitating productive discussions and establishing mutually beneficial alliances, which she believes are key to driving innovation and co-creating impactful solutions.",
+    "new": false,
+    "hide": false,
+    "id": "allydawson"
+  },
+  {
     "name": "Babu Sivadasan",
     "job": "Co-Founder & CEO",
     "tip": "JIFFY.ai",
@@ -1370,6 +1384,20 @@
     "new": true,
     "hide": false,
     "id": "davitbaghdasaryan"
+  },
+  {
+    "name": "Kavitha Durgi",
+    "job": "Senior Cross Software Partner Technical Specialist",
+    "tip": "IBM",
+    "image": "kavithadurgi.jpg",
+    "website": "",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/kavitha-durgi/",
+    "detail": "kavithadurgi2.png",
+    "description": "Kavitha Durgi is a Senior Cross Software Partner Technical Specialist at IBM, focused on assisting IBM partners in modernizing their data collection, organization, and analysis processes, as well as integrating AI throughout their organizations. With her expertise in data and AI, she helps unlock the value of companies' data to generate insights and lay the foundation for AI-driven business strategies. As a technical sales specialist, she plays a crucial role in enabling IBM's ecosystem partners to leverage cutting-edge data and AI technologies.",
+    "new": true,
+    "hide": false,
+    "id": "kavithadurgi"
   },
   {
     "name": "Tony Beltramelli",

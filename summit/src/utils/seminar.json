@@ -1,5 +1,19 @@
 [
   {
+    "name": "hyperboliclabs",
+    "image": "hyperboliclabs.png",
+    "url": "https://hyperbolic.xyz/",
+    "topic": "",
+    "description": ""
+  },
+  {
+    "name": "Magstone Law",
+    "image": "magstonelaw.png",
+    "url": "https://www.cloudfabrix.com/",
+    "topic": "",
+    "description": ""
+  },
+  {
     "name": "mountainlion",
     "image": "mountainlion.png",
     "url": "https://www.mlion.ai/",
@@ -14,6 +28,13 @@
     "description": ""
   },
   {
+    "name": "rapidsoc2",
+    "image": "rapidsoc2.png",
+    "url": "https://rapidsoc2.com/",
+    "topic": "Information Security and Compliance for GenAI",
+    "description": ""
+  },
+  {
     "name": "vimmerse",
     "image": "vimmerse.png",
     "url": "https://www.vimmerse.net/",
@@ -21,24 +42,24 @@
     "description": ""
   },
   {
-    "name": "cloudfabrix",
-    "image": "cloudfabrix.png",
-    "url": "https://www.cloudfabrix.com/",
+    "name": "Ayraa",
+    "image": "ayraa.png",
+    "url": "https://www.ayraa.io/",
     "topic": "",
     "description": ""
   },
   {
-    "name": "Magstone Law",
-    "image": "magstonelaw.png",
-    "url": "https://www.cloudfabrix.com/",
+    "name": "digitate",
+    "image": "digitate.png",
+    "url": "https://digitate.com/",
     "topic": "",
     "description": ""
   },
   {
-    "name": "rapidsoc2",
-    "image": "rapidsoc2.png",
-    "url": "https://rapidsoc2.com/",
-    "topic": "Information Security and Compliance for GenAI",
+    "name": "privacera",
+    "image": "privacera.png",
+    "url": "https://privacera.com/",
+    "topic": "",
     "description": ""
   }
 ]

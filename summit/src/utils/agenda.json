@@ -325,7 +325,7 @@
       "room": "Align Stage",
       "time": "14:15-14:30",
       "type": "Keynote",
-      "topic": "How to help GenAI companies to expand business Internationally",
+      "topic": "How to help GenAI Companies to Expand Business Internationally",
       "moderators": [
       ],
       "abstract": "",
@@ -345,6 +345,20 @@
       "abstract": "",
       "speakers": [
         ["jeremiahowyang", "Jeremiah Owyang"]
+      ],
+      "hide": false
+    },
+    {
+      "day": 1,
+      "room": "Align Stage",
+      "time": "15:15-16:15",
+      "type": "Panel Discussion",
+      "topic": "Transform Work Velocity with AI Tools",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["babusivadasan", "Babu Sivadasan"]
       ],
       "hide": false
     },
@@ -410,7 +424,7 @@
       "room": "Prompt Room",
       "time": "14:00-15:00",
       "type": "Seminar",
-      "topic": "Harnessing LLM for Predictive Analysis in Cryptocurrency Investments",
+      "topic": "Unleashing the Power of Web3 Domain Experts: Leveraging Specialized LLMs and AI Agents ",
       "moderators": [
       ],
       "abstract": "",
@@ -440,7 +454,7 @@
       "room": "GPT Stage",
       "time": "09:00-09:45",
       "type": "Keynote",
-      "topic": "The Role of Generative AI in Advancing Industrial Automation and Smart Manufacturing",
+      "topic": "The Age of Generative AI: Data at the Intelligent Edge",
       "moderators": [
       ],
       "abstract": "",

@@ -381,12 +381,13 @@
       "room": "Workshop Room",
       "time": "13:00-15:00",
       "type": "Workshop",
-      "topic": "Will be provided by speakers soon",
+      "topic": "Llama3 at its FASTEST!",
       "moderators": [
       ],
       "abstract": "",
       "speakers": [
-        ["sambanova", "SambaNova"]
+        ["jamesvalentine", "James Valentine"],
+        ["codymacdonald", "Cody Macdonald"]
       ],
       "hide": false
     },
@@ -931,6 +932,7 @@
       "type": "Panel Discussion",
       "topic": "Pitching Your Startup: The Brutal Truth About What VCs Want in AI-First Companies",
       "moderators": [
+        ["jennyxiao", "Jenny Xiao"]
       ],
       "abstract": "",
       "speakers": [

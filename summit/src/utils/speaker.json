@@ -645,6 +645,20 @@
     "id": "geraldparloiu"
   },
   {
+    "name": "Alex Witt",
+    "job": "General Partner",
+    "tip": "Verda Ventures",
+    "image": "alexwitt.jpg",
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/alexwitt/",
+    "twitter": "",
+    "detail": "alexwitt2.png",
+    "description": "Alex Witt, CFA, is general partner at Verda Ventures, a venture accelerator, and director at APF. Previously, he was CFO at the Celo Foundation, a carbon-negative, Proof-of-Stake blockchain ecosystem. He began his career in investment research at Goldman Sachs and JP Morgan. He holds a master's degree from the London School of Economics (LSE) and Tsinghua University and is a CFA Charterholder.",
+    "new": true,
+    "hide": false,
+    "id": "alexwitt"
+  },
+  {
     "name": "Tuhin Srivastava",
     "job": "Co-Founder",
     "tip": "Baseten",
@@ -798,6 +812,48 @@
     "id": "kevinmoody"
   },
   {
+    "name": "Babu Sivadasan",
+    "job": "Co-Founder & CEO",
+    "tip": "JIFFY.ai",
+    "image": "babusivadasan.jpg",
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/babu-sivadasan-91755/",
+    "twitter": "",
+    "detail": "babusivadasan2.png",
+    "description": "Babu, Founder and CEO of Jiffy.ai, is a serial entrepreneur with experience as co-founder and Group President of Envestnet, co-founding CTO of Stamps.com, and Chairman of Carestack. He's an active angel investor, mentor, and venture mentor to IvyCap Venture Capital Partners. Additionally, he serves on the Digital IT Committee for the state of Kerala, India.",
+    "new": false,
+    "hide": false,
+    "id": "babusivadasan"
+  },
+  {
+    "name": "Barr Yaron",
+    "job": "Principal",
+    "tip": "Amplify Partners",
+    "image": "barryaron.jpg",
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/barryaron/",
+    "twitter": "Barr Yaron",
+    "detail": "barryaron2.png",
+    "description": "Barr Yaron, a Harvard-educated mathematician, has traversed finance to tech, leaving her mark from Wall Street to Silicon Valley. Now at dbt Labs, she's pioneering data team empowerment through cutting-edge software engineering methodologies. Passionate about nurturing founders and fostering communities, Yaron established Women of Startup Nation and co-founded the 20|20 Fund at Stanford GSB.",
+    "new": false,
+    "hide": false,
+    "id": "barryaron"
+  },
+  {
+    "name": "Chris McCann",
+    "job": "Partner",
+    "tip": "Race Capital",
+    "image": "chrismccann.jpg",
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/mccannatron/",
+    "twitter": "https://x.com/mccannatron",
+    "detail": "chrismccann2.png",
+    "description": "Chris McCann is a general partner at Race Capital, an entrepreneur, and community builder. Previously, he founded and led Greylock Partners' community program, co-founded StartupDigest (acquired by Techstars), advised the Thiel Fellowship and StartX, and writes a newsletter covering VC and tech for 25,000 readers.",
+    "new": false,
+    "hide": false,
+    "id": "chrismccann"
+  },
+  {
     "name": "Dmytro Dzhulgakov",
     "job": "CTO & Co-Founder",
     "tip": "Fireworks.ai",
@@ -824,6 +880,20 @@
     "new": true,
     "hide": false,
     "id": "kevinmcnamara"
+  },
+  {
+    "name": "Cody MacDonald",
+    "job": "Sr. Principal AI Engineer",
+    "tip": "SambaNova",
+    "image": "codymacdonald.jpg",
+    "website": "",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/cody-macdonald-aiml/",
+    "detail": "codymacdonald2.png",
+    "description": "Cody MacDonald is a Senior Principal AI Engineer at SambaNova Systems, a company specializing in generative AI and large language models. He has extensive experience in integrating AI into business applications, working with LLMs, multimodal models, and end-to-end AI development. At SambaNova, MacDonald plays a crucial role in customer-facing engineering, helping clients leverage cutting-edge AI technologies for their specific needs.",
+    "new": true,
+    "hide": false,
+    "id": "codymacdonald"
   },
   {
     "name": "Yaniv Makover",
@@ -1160,6 +1230,20 @@
     "new": false,
     "hide": false,
     "id": "shawnflynn"
+  },
+  {
+    "name": "James Valentine",
+    "job": "Sr. Principal Product Manager, Applied Generative AI",
+    "tip": "SambaNova",
+    "image": "jamesvalentine.jpg",
+    "website": "",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/sotamlproduct/",
+    "detail": "jamesvalentine2.png",
+    "description": "James Valentine is the Sr. Principal Product Manager, Applied Generative AI at SambaNova Systems, a leading AI computing company. With over 6 years of experience in ML and 21 years in tech, he has a proven track record of building commercially successful AI products for enterprises. At SambaNova, he leverages his expertise in audio, conversational, and predictive ML to drive innovation and deliver cutting-edge generative AI solutions.",
+    "new": false,
+    "hide": false,
+    "id": "jamesvalentine"
   },
   {
     "name": "Dr. Natalia Vassilieva",

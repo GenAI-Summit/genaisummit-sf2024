@@ -798,6 +798,48 @@
     "id": "kevinmoody"
   },
   {
+    "name": "Babu Sivadasan",
+    "job": "Co-Founder & CEO",
+    "tip": "JIFFY.ai",
+    "image": "babusivadasan.jpg",
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/babu-sivadasan-91755/",
+    "twitter": "",
+    "detail": "babusivadasan2.png",
+    "description": "Babu, Founder and CEO of Jiffy.ai, is a serial entrepreneur with experience as co-founder and Group President of Envestnet, co-founding CTO of Stamps.com, and Chairman of Carestack. He's an active angel investor, mentor, and venture mentor to IvyCap Venture Capital Partners. Additionally, he serves on the Digital IT Committee for the state of Kerala, India.",
+    "new": false,
+    "hide": false,
+    "id": "babusivadasan"
+  },
+  {
+    "name": "Barr Yaron",
+    "job": "Principal",
+    "tip": "Amplify Partners",
+    "image": "barryaron.jpg",
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/barryaron/",
+    "twitter": "Barr Yaron",
+    "detail": "barryaron2.png",
+    "description": "Barr Yaron, a Harvard-educated mathematician, has traversed finance to tech, leaving her mark from Wall Street to Silicon Valley. Now at dbt Labs, she's pioneering data team empowerment through cutting-edge software engineering methodologies. Passionate about nurturing founders and fostering communities, Yaron established Women of Startup Nation and co-founded the 20|20 Fund at Stanford GSB.",
+    "new": false,
+    "hide": false,
+    "id": "barryaron"
+  },
+  {
+    "name": "Chris McCann",
+    "job": "Partner",
+    "tip": "Race Capital",
+    "image": "chrismccann.jpg",
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/mccannatron/",
+    "twitter": "https://x.com/mccannatron",
+    "detail": "chrismccann2.png",
+    "description": "Chris McCann is a general partner at Race Capital, an entrepreneur, and community builder. Previously, he founded and led Greylock Partners' community program, co-founded StartupDigest (acquired by Techstars), advised the Thiel Fellowship and StartX, and writes a newsletter covering VC and tech for 25,000 readers.",
+    "new": false,
+    "hide": false,
+    "id": "chrismccann"
+  },
+  {
     "name": "Dmytro Dzhulgakov",
     "job": "CTO & Co-Founder",
     "tip": "Fireworks.ai",

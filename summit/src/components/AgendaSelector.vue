@@ -126,7 +126,7 @@ export default {
     align-items: center;
     cursor: pointer;
     padding: 0.2rem 0;
-    font-family: HarmonyOS Sans SC Bold;
+    font-weight: bold;
 
     .name {
       font-size: 0.4rem;

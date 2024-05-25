@@ -90,7 +90,8 @@ export default {
         "Align Stage": "align-stage",
         "Launchpad Stage": "launchpad-stage",
         "Workshop Room": "workshop-room",
-        "Prompt Room": "prompt-room"
+        "Prompt Space": "prompt-space",
+        "Transformer Room": "transformer-room",
       };
       return roomMap[this.item.room] || '';
     }
@@ -214,6 +215,7 @@ export default {
 .align-stage { background-color: #e0f7fa; }
 .launchpad-stage { background-color: #fff9c4; }
 .workshop-room { background-color: #ffe0b2; }
-.prompt-room { background-color: #f1f8e9; }
+.prompt-space { background-color: #f1f8e9; }
+.transformer-room { background-color: #f3e5f5; }
 
 </style>

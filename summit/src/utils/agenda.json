@@ -266,6 +266,7 @@
       "type": "Panel Discussion",
       "topic": "Innovating Infrastructure for LLM",
       "moderators": [
+        ["alexwitt", "Alex Witt"]
       ],
       "abstract": "",
       "speakers": [
@@ -278,13 +279,18 @@
     {
       "day": 1,
       "room": "Align Stage",
-      "time": "09:00-10:00",
+      "time": "10:00-11:00",
       "type": "Panel Discussion",
-      "topic": "VC",
+      "topic": "Rag & Finetuning for Domain Specific LLM",
       "moderators": [
+        ["ykhuang", "YK Huang"]
       ],
       "abstract": "",
       "speakers": [
+        ["shishirpatil", "Shishir Patil"],
+        ["minfawang", "Minfa Wang"],
+        ["leopekelis", "Leo Pekelis"],
+        ["rapidsoc2", "RapidSOC2"]
       ],
       "hide": true
     },
@@ -408,9 +414,23 @@
     },
     {
       "day": 1,
-      "room": "Prompt Room",
+      "room": "Prompt Space",
+      "time": "10:00-11:00",
+      "type": "Seminar",
+      "topic": "Will be provided by speakers soon",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["jasperzhang", "Dr. Jasper Zhang"]
+      ],
+      "hide": false
+    },
+    {
+      "day": 1,
+      "room": "Prompt Space",
       "time": "13:00-14:00",
-      "type": "Workshop",
+      "type": "Seminar",
       "topic": "Will be provided by speakers soon",
       "moderators": [
       ],
@@ -422,7 +442,7 @@
     },
     {
       "day": 1,
-      "room": "Prompt Room",
+      "room": "Prompt Space",
       "time": "14:00-15:00",
       "type": "Seminar",
       "topic": "Unleashing the Power of Web3 Domain Experts: Leveraging Specialized LLMs and AI Agents ",
@@ -436,7 +456,24 @@
     },
     {
       "day": 1,
-      "room": "Prompt Room",
+      "room": "Prompt Space",
+      "time": "15:00-16:00",
+      "type": "Seminar",
+      "topic": "Data to Deployment: Secrets behind Scaled AI Production with AI Startups and Investors",
+      "moderators": [
+        ["ryanwexler", "Ryan Wexler"]
+      ],
+      "abstract": "",
+      "speakers": [
+        ["surajpatel", "Suraj Patel"],
+        ["sharonzhou", "Dr. Sharon Zhou"],
+        ["changshe", "Chang She"]
+      ],
+      "hide": true
+    },
+    {
+      "day": 1,
+      "room": "Prompt Space",
       "time": "16:00-16:30",
       "type": "Seminar",
       "topic": "Proof of Learning for Decentralized AI",
@@ -445,6 +482,48 @@
       "abstract": "",
       "speakers": [
         ["xichen", "Prof. Xi Chen"]
+      ],
+      "hide": false
+    },
+    {
+      "day": 1,
+      "room": "Transformer Room",
+      "time": "10:00-11:00",
+      "type": "Seminar",
+      "topic": "Will be provided by speakers soon",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["generativex", "GenerativeX"]
+      ],
+      "hide": false
+    },
+    {
+      "day": 1,
+      "room": "Transformer Room",
+      "time": "13:00-14:00",
+      "type": "Seminar",
+      "topic": "Information Security and Compliance for Generative AI",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["leopekelis", "Leo Pekelis"]
+      ],
+      "hide": false
+    },
+    {
+      "day": 1,
+      "room": "Transformer Room",
+      "time": "16:00-16:30",
+      "type": "Seminar",
+      "topic": "Will be provided by speakers soon",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["vimmerse", "Vimmerse"]
       ],
       "hide": false
     },
@@ -701,6 +780,7 @@
       "type": "Panel Discussion",
       "topic": "LLM Alignment: Ensuring Ethical and Safe of LLM",
       "moderators": [
+        ["yaronsinger", "Yaron Singer"]
       ],
       "abstract": "",
       "speakers": [
@@ -827,6 +907,7 @@
       "type": "Panel Discussion",
       "topic": "The Future and Challenges of AI-Powered Enterprise Copilot",
       "moderators": [
+        ["stephenchin", "Stephen Chin"]
       ],
       "abstract": "",
       "speakers": [
@@ -844,6 +925,7 @@
       "type": "Panel Discussion",
       "topic": "Leadership in Generative AI: Pioneering Women Shaping the Future",
       "moderators": [
+        ["anyacheng", "Anya Cheng"]
       ],
       "abstract": "",
       "speakers": [
@@ -1030,8 +1112,8 @@
     },
     {
       "day": 2,
-      "room": "Prompt Room",
-      "time": "09:00-11:00",
+      "room": "Prompt Space",
+      "time": "09:00-10:00",
       "type": "Seminar",
       "topic": "Will be provided by speakers soon",
       "moderators": [
@@ -1044,7 +1126,21 @@
     },
     {
       "day": 2,
-      "room": "Prompt Room",
+      "room": "Prompt Space",
+      "time": "10:00-11:00",
+      "type": "Seminar",
+      "topic": "Will be provided by speakers soon",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["peterlin", "Peter Lin"]
+      ],
+      "hide": false
+    },
+    {
+      "day": 2,
+      "room": "Prompt Space",
       "time": "11:00-12:00",
       "type": "Panel Discussion",
       "topic": "VC's Perspectives - AI Agent Deep-dive and Next-generation of AI Application",
@@ -1055,15 +1151,16 @@
       "speakers": [
         ["raywu", "Ray Wu"],
         ["vivianchen", "Vivian Chen"],
-        ["joannechen", "Joanne Chen"]
+        ["joannechen", "Joanne Chen"],
+        ["jessleao", "Jess Leao"]
       ],
       "hide": false
     },
     {
       "day": 2,
-      "room": "Prompt Room",
-      "time": "13:00-15:00",
-      "type": "Workshop",
+      "room": "Prompt Space",
+      "time": "13:00-14:00",
+      "type": "Seminar",
       "topic": "Will be provided by speakers soon",
       "moderators": [
       ],
@@ -1071,19 +1168,61 @@
       "speakers": [
         ["ushur", "Ushur"]
       ],
-      "hide": false
+      "hide": true
     },
     {
       "day": 2,
-      "room": "Prompt Room",
-      "time": "15:00-17:00",
+      "room": "Prompt Space",
+      "time": "14:00-15:00",
       "type": "Seminar",
       "topic": "Will be provided by speakers soon",
       "moderators": [
       ],
       "abstract": "",
       "speakers": [
-        ["rockyyu", "Rocky Yu"]
+        ["johanneseichstaedt", "Dr. Johannes Eichstaedt"]
+      ],
+      "hide": false
+    },
+    {
+      "day": 2,
+      "room": "Prompt Space",
+      "time": "15:00-16:00",
+      "type": "Seminar",
+      "topic": "Will be provided by speakers soon",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["multiOn", "MultiOn"]
+      ],
+      "hide": false
+    },
+    {
+      "day": 2,
+      "room": "Transformer Room",
+      "time": "10:00-11:00",
+      "type": "Seminar",
+      "topic": "How to build your own Enterprise AI Assistant",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["ayraa", "Ayraa"]
+      ],
+      "hide": false
+    },
+    {
+      "day": 2,
+      "room": "Transformer Room",
+      "time": "15:00-16:00",
+      "type": "Seminar",
+      "topic": "The future of IT and business operations with AI-powered insights and GenAI",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["digitate", "Digitate"]
       ],
       "hide": false
     },
@@ -1494,12 +1633,14 @@
       "room": "GPT Stage",
       "time": "14:45-15:30",
       "type": "Panel Discussion",
-      "topic": "Harnessing AI for Societal Good",
+      "topic": "Harnessing AI for Social Good",
       "moderators": [
+        ["vivilin", "Vivi Lin"]
       ],
       "abstract": "",
       "speakers": [
-        ["gregtanaka", "Greg Tanaka"]
+        ["gregtanaka", "Greg Tanaka"],
+        ["johanneseichstaedt", "Dr. Johannes Eichstaedt"]
       ],
       "hide": false
     },
@@ -1600,6 +1741,7 @@
       "type": "Panel Discussion",
       "topic": "Synthesizing Data Generation",
       "moderators": [
+        ["philiprathle", "Philip Rathle"]
       ],
       "abstract": "",
       "speakers": [
@@ -1632,6 +1774,7 @@
       "type": "Panel Discussion",
       "topic": "LLM Safety and Security",
       "moderators": [
+        ["puneetthapliyal", "Puneet Thapliyal"]
       ],
       "abstract": "",
       "speakers": [
@@ -1757,7 +1900,7 @@
     {
       "day": 3,
       "room": "Workshop Room",
-      "time": "13:00-15:00",
+      "time": "09:00-10:00",
       "type": "Workshop",
       "topic": "How to Monetize GenAI with Zuora",
       "moderators": [
@@ -1771,7 +1914,63 @@
     },
     {
       "day": 3,
-      "room": "Prompt Room",
+      "room": "Workshop Room",
+      "time": "10:00-11:00",
+      "type": "Workshop",
+      "topic": "Will be provided by speakers soon",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["deepchecks", "Deepchecks"]
+      ],
+      "hide": true
+    },
+    {
+      "day": 3,
+      "room": "Workshop Room",
+      "time": "13:00-14:00",
+      "type": "Workshop",
+      "topic": "Will be provided by speakers soon",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["jiajianmin", "Jiajian Min"]
+      ],
+      "hide": false
+    },
+    {
+      "day": 3,
+      "room": "Workshop Room",
+      "time": "14:00-15:00",
+      "type": "Workshop",
+      "topic": "Will be provided by speakers soon",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["appinclub", "App-in Club"]
+      ],
+      "hide": false
+    },
+    {
+      "day": 3,
+      "room": "Prompt Space",
+      "time": "10:00-11:00",
+      "type": "Seminar",
+      "topic": "Will be provided by speakers soon",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["wangdou", "Wang Dou"]
+      ],
+      "hide": false
+    },
+    {
+      "day": 3,
+      "room": "Prompt Space",
       "time": "13:00-15:00",
       "type": "Seminar",
       "topic": "Will be provided by speakers soon",
@@ -1780,6 +1979,48 @@
       "abstract": "",
       "speakers": [
         ["sethstephensdavidowitz", "Seth Stephens-Davidowitz"]
+      ],
+      "hide": false
+    },
+    {
+      "day": 3,
+      "room": "Prompt Space",
+      "time": "16:00-17:00",
+      "type": "Seminar",
+      "topic": "Will be provided by speakers soon",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["gracechen", "Grace Chen"]
+      ],
+      "hide": false
+    },
+    {
+      "day": 3,
+      "room": "Transformer Room",
+      "time": "09:00-10:00",
+      "type": "Seminar",
+      "topic": "Will be provided by speakers soon",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["boscodurai", "Bosco Durai"]
+      ],
+      "hide": false
+    },
+    {
+      "day": 3,
+      "room": "Transformer Room",
+      "time": "10:00-11:00",
+      "type": "Seminar",
+      "topic": "Investment in GenAI",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["gracechen", "Grace Chen"]
       ],
       "hide": false
     },

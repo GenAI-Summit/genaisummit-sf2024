@@ -26,7 +26,7 @@
         May 30, 2024
       </div>
       <div class="inner_ss-content">
-        <AgendaSelector :items="eventsList0" />
+        <AgendaSelector :items="eventsList1" />
       </div>
     </div>
     <div v-if="dayActive == 'day3'" class="ss-content">
@@ -35,7 +35,7 @@
           May 31, 2024
         </div>
       <div class="inner_ss-content">
-        <AgendaSelector :items="eventsList0" />
+        <AgendaSelector :items="eventsList2" />
       </div>
     </div>
   </div>

@@ -24,9 +24,9 @@
     "hide": false
   },
   {
-    "name": "techcrunch",
-    "image": "techcrunch.png",
-    "url": "https://techcrunch.com/",
+    "name": "abc7",
+    "image": "abc7.png",
+    "url": "https://abc7news.com/",
     "hide": false
   },
   {
@@ -36,9 +36,15 @@
     "hide": false
   },
   {
-    "name": "davidpaulmirrors",
-    "image": "davidpaulmirrors.png",
-    "url": "http://www.davidpaulmorris.com/",
+    "name": "businessinsider",
+    "image": "businessinsider.png",
+    "url": "https://www.businessinsider.com/",
+    "hide": false
+  },
+  {
+    "name": "techcrunch",
+    "image": "techcrunch.png",
+    "url": "https://techcrunch.com/",
     "hide": false
   },
   {
@@ -84,6 +90,12 @@
     "hide": false
   },
   {
+    "name": "davidpaulmirrors",
+    "image": "davidpaulmirrors.png",
+    "url": "http://www.davidpaulmorris.com/",
+    "hide": false
+  },
+  {
     "name": "cgtn",
     "image": "cgtn.png",
     "url": "https://www.cgtn.com/",
@@ -105,6 +117,12 @@
     "name": "guigu101",
     "image": "guigu101.png",
     "url": "https://sv101.fireside.fm/",
+    "hide": false
+  },
+  {
+    "name": "siplanet",
+    "image": "siplanet.png",
+    "url": "",
     "hide": false
   }
 ]

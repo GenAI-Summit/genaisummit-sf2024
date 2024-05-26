@@ -42,34 +42,44 @@
             </div>
             <div class="btn-group">
               <div class="left">
-                <button>
-                  <div class="spinner0"></div>
-                  Buy Tickets
-                </button>
-                <div class="buy-listBox">
-                  <div class="list" @click="BuyTicketsLuma">
-                    <img
-                      class="luma"
-                      src="../assets/images/luma.png"
-                      alt="luma"
-                      loading="lazy"
-                    />
-                    <img
-                      class="discount"
-                      src="../assets/images/luma_discount.png"
-                      alt="luma"
-                      loading="lazy"
-                    />
-                  </div>
-                  <div class="list" @click="BuyTickets">
-                    <img
-                      class="event"
-                      src="../assets/images/event.png"
-                      alt="eventribe"
-                      loading="lazy"
-                    />
+                <div class="buy-box">
+                  <button class="buy-btn">
+                    <div class="spinner0"></div>
+                    Buy Tickets
+                  </button>
+                  <div class="buy-listBox">
+                    <div class="list" @click="BuyTicketsLuma">
+                      <img
+                        class="luma"
+                        src="../assets/images/luma.png"
+                        alt="luma"
+                        loading="lazy"
+                      />
+                      <img
+                        class="discount"
+                        src="../assets/images/luma_discount.png"
+                        alt="luma"
+                        loading="lazy"
+                      />
+                    </div>
+                    <div class="list" @click="BuyTickets">
+                      <img
+                        class="event"
+                        src="../assets/images/event.png"
+                        alt="eventribe"
+                        loading="lazy"
+                      />
+                    </div>
                   </div>
                 </div>
+                <button @click="scrollToSection('section4')">
+                  <div class="spinner0"></div>
+                  Agenda
+                </button>
+                <button @click="scrollToSection('resource_section')">
+                  <div class="spinner0"></div>
+                  Resources
+                </button>
               </div>
               <div class="right">
                 <div class="time-box">
@@ -1428,19 +1438,8 @@ export default {
     }
     const activeSection = ref("");
     const scrollToSection = (sectionId) => {
-      const discount = route.query.discount || getLocationParame();
-      const coupon = route.query.coupon || getLocationParame1();
       const section = document.getElementById(sectionId);
-      let newHash = ''
-      if(discount){
-        newHash = `?section=` + sectionList[sectionId] + `&discount=` + discount
-      }else{
-        newHash =  `?section=` + sectionList[sectionId]
-      }
-      if(coupon){
-        newHash = newHash + '&coupon=' + coupon
-      }
-      window.location.hash = newHash;
+      window.location.hash = sectionId === "section4" ? "?section=AGENDA" : "?section=RESOURCE";
       if (section) {
         window.scrollTo({
           top: section.offsetTop - 80,
@@ -2551,15 +2550,20 @@ section {
       align-items: center;
       justify-content: space-between;
       .left {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
         margin-top: 0.5rem;
         position: relative;
-        &:hover {
-          .buy-listBox {
-            display: block;
-          }
-          button {
-            &::before {
-              left: 0;
+        .buy-box {
+          &:hover {
+            .buy-listBox {
+              display: block;
+            }
+            button {
+              &::before {
+                left: 0;
+              }
             }
           }
         }
@@ -2567,7 +2571,7 @@ section {
           padding: 10px;
           cursor: pointer;
           position: absolute;
-          width: 100%;
+          width: 2.5rem;
           background: rgba(255, 255, 255, 1);
           border: 1px solid rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 20px -6px rgba(0, 0, 0, 0.15) !important;
@@ -2603,8 +2607,9 @@ section {
           }
         }
         button {
+          margin-right: 0.12rem;
           background: #000000;
-          width: 3.111rem;
+          width: 2.5rem;
           height: 0.889rem;
           border: none;
           font-family: HarmonyOS Sans SC Bold;

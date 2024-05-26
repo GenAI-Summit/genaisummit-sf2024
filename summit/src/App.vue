@@ -9,6 +9,16 @@
     <div class="main-router">
       <router-view></router-view>
     </div>
+    <button
+      class="go-to-top"
+      :class="screenWidth < 600 ? 'mb' : ''"
+      @click="scrollToTop"
+    >
+      <img
+        :src="goToTopIcon"
+        alt="go to top"
+      />
+    </button>
     <Footer/>
   </div>
 </template>
@@ -20,12 +30,22 @@ import { useRouter } from 'vue-router';
 import { useStore } from 'vuex'
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
+import goToTop from "./assets/images/gototop.png";
+
+
 export default {
   name: 'App',
   setup() {
     const store = useStore();
     const screenWidth = computed(() => store.state.screenWidth);
 
+    const goToTopIcon = new URL(goToTop, import.meta.url).href;
+    const scrollToTop = () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    };
     onMounted(() => {
       window.onresize = () => {
         return (() => {
@@ -33,8 +53,13 @@ export default {
         })();
       };
     })
+
+
+
     return {
       screenWidth,
+      goToTopIcon,
+      scrollToTop,
     }
   },
   components:{
@@ -71,4 +96,30 @@ export default {
   margin: 0 auto;
 
 }
+
+.go-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+  &.mb {
+    bottom: 2rem;
+    right: 0.05rem;
+  }
+
+  border: none;
+  background: none;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.4s ease;
+  img {
+    width: 50px;
+    height: 50px;
+  }
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
 </style>

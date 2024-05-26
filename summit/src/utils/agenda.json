@@ -1734,6 +1734,19 @@
     },
     {
       "day": 3,
+      "room": "GPT Stage",
+      "time": "17:00-18:00",
+      "type": "",
+      "topic": "Award & Closing Ceremony",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 3,
       "room": "AGI Stage",
       "time": "09:00-09:45",
       "type": "Keynote",
@@ -1878,7 +1891,7 @@
       "room": "Align Stage",
       "time": "10:00-11:00",
       "type": "Panel Discussion",
-      "topic": "How to use data to enpower your business",
+      "topic": "How to Use Data to Enpower Your Business",
       "moderators": [
       ],
       "abstract": "",

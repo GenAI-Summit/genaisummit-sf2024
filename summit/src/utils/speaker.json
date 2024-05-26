@@ -322,6 +322,20 @@
     "id": "devendrachaplot"
   },
   {
+    "name": "Cedric Vidal",
+    "job": "Principal AI Advocate for Startups",
+    "tip": "Microsoft",
+    "image": "cedricvidal.jpg",
+    "website": "",
+    "twitter": "https://x.com/cedricvidal",
+    "linkedin": "https://www.linkedin.com/in/cedricvidal/",
+    "detail": "cedricvidal2.png",
+    "description": "Cedric Vidal is the Principal AI Advocate for Startups at Microsoft, where he helps startups leverage AI technologies. He is an innovative technology builder with experience as a senior software engineer, team leader, and former CTO at companies like Argo AI and Quicksign. As an AI advocate at Microsoft, he plays a crucial role in enabling startups to harness the power of AI for their businesses.",
+    "new": false,
+    "hide": false,
+    "id": "cedricvidal"
+  },
+  {
     "name": "Bob van Luijt",
     "job": "CEO & Co-Founder",
     "tip": "Weaviate",
@@ -896,6 +910,20 @@
     "id": "kevinmcnamara"
   },
   {
+    "name": "Robert Mao",
+    "job": "Founder & CEO",
+    "tip": "ArcBlock",
+    "image": "robertmao.jpg",
+    "website": "",
+    "twitter": "https://x.com/mave99a",
+    "linkedin": "https://www.linkedin.com/in/robertmao/",
+    "detail": "robertmao2.png",
+    "description": "Robert Mao is the founder and CEO of ArcBlock, a leading platform to empower developers building dApps, DID(Decentralized Identity), blockchain and LLM (Large Language Models) applications. He is a serial entrepreneur and a public speaker about Decentralized Identity and blockchain technology. Prior to ArcBlock, Robert worked for Microsoft Research focusing on social computing. Robert Mao has authored more than 30 papers, journal articles, and patents, he is also the author of two books in blockchain technology.",
+    "new": true,
+    "hide": false,
+    "id": "robertmao"
+  },
+  {
     "name": "Cody MacDonald",
     "job": "Sr. Principal AI Engineer",
     "tip": "SambaNova",
@@ -992,6 +1020,20 @@
     "new": false,
     "hide": false,
     "id": "taraghazi"
+  },
+  {
+    "name": "Vidya Sagar Ravipati",
+    "job": "Applied Science Manager",
+    "tip": "Amazon Web Services",
+    "image": "vidyasagarravipati.jpg",
+    "website": "",
+    "twitter": "",
+    "linkedin": "",
+    "detail": "vidyasagarravipati2.png",
+    "description": "Vidya Sagar Ravipati is a seasoned expert in large-scale distributed systems and machine learning at AWS. As the Applied Science Manager at the Generative AI Innovation Center, he leads a team working on cutting-edge generative AI applications like personalized chatbots, knowledge graph-augmented language models, and personalized advertising. Vidya leverages his extensive experience to help AWS customers across various industries accelerate their AI and cloud adoption journey. Previously, he was a Manager at the Amazon ML Solutions Lab, where he assisted customers in different verticals with AI solutions.",
+    "new": false,
+    "hide": false,
+    "id": "vidyasagarravipati"
   },
   {
     "name": "Tom Brady",
@@ -1366,7 +1408,7 @@
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/mark-de-souza-196941a/",
     "detail": "markdesouza2.png",
-    "description": "Mark de Souza is the President and CEO of SonALAsense, a biotechnology company focused on rare diseases. With over 20 years of executive experience in the rare disease space, he leads SonALAsense's efforts to develop innovative therapies for underserved patient populations. Under his leadership, the company has made significant strides in advancing its pipeline and bringing hope to those affected by rare and devastating conditions.",
+    "description": "Mark de Souza is the President and CEO of SonALAsense, a clinical stage company developing sonodynamic therapy(SDT), a first-in-class noninvasive drug-device combination to treat cancer. With over 20 years of executive experience developing drugs for rare diseases and oncology, he leads SonALAsense's efforts to develop SDT for underserved cancers. Under his leadership, SDT has been shown to extend survival in two ongoing clinical trials for rare brain cancers without any significant side effects. SDT is a new modality with the potential to treat the majority of cancers.",
     "new": false,
     "hide": false,
     "id": "markdesouza"

@@ -158,7 +158,7 @@ export default {
       workshop_section: "WORKSHOPS",
       section6: "K12",
       seminar_section: "SEMINAR",
-      resource_section: "SEMINAR",
+      resource_section: "RESOURCE",
     };
     const linkList = {
       HOME: "section1",

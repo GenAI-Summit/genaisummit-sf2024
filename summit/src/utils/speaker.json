@@ -1708,6 +1708,20 @@
     "id": "timshi"
   },
   {
+    "name": "Chuci Qin",
+    "job": "Founder",
+    "tip": "Agent2.AI",
+    "image": "chuciqin.jpg",
+    "website": "",
+    "twitter": "https://x.com/ChuciQin",
+    "linkedin": "https://www.linkedin.com/in/chuci-qin-7b4818184",
+    "detail": "chuciqin2.png",
+    "description": "Chuci Qin ,a barve dropout from the University of Pennsylvania and a serial entrepreneur, is the founder of Agent2.AI. Agent2.AI is not just an agent that can list detailed plans in text to guide you on how to complete tasks; it can also operate the user's computer or cloud-based virtual machines to help them accomplish a series of tasks over time. It can directly handle daily work and even generate income automatically.",
+    "new": false,
+    "hide": false,
+    "id": "chuciqin"
+  },
+  {
     "name": "Monica Zou",
     "job": "CMO",
     "tip": "DEKUBE",
@@ -2182,6 +2196,20 @@
     "new": false,
     "hide": false,
     "id": "siqilin"
+  },
+  {
+    "name": "Vivi Lin",
+    "job": "Columnist",
+    "tip": "FTChinese",
+    "image": "vivilin.jpg",
+    "website": "",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/vivi-lin-1862276/",
+    "detail": "vivilin2.png",
+    "description": "Vivi Lin is a Columnist for FT China, focusing on innovation, in particular AI and Web3. As a passionate advocate for AI for good and responsible AI, Vivi has a rich background as a bilingual presenter and producer for Reuters TV and CCTV. Currently, she serves as a partner and consultant for various Web3 and AI startups, leveraging her expertise to drive forward the future of technology and humanity.",
+    "new": false,
+    "hide": false,
+    "id": "vivilin"
   },
   {
     "name": "Jiajun Lu",

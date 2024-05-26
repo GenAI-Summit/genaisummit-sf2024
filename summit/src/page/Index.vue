@@ -1239,7 +1239,7 @@
           </div>
         </div>
         <div class="ss-title" data-aos="flip-up">
-          YOU CAN FINE THE RESOURCES OF THE EVENT HERE
+          YOU CAN FIND THE RESOURCES OF THE EVENT HERE
         </div>
         <Resources />
       </section>

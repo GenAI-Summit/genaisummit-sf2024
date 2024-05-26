@@ -23,13 +23,14 @@
       ],
       "abstract": "",
       "speakers": [
+        ["adamseligman", "Adam Seligman"]
       ],
       "hide": false
     },
     {
       "day": 1,
       "room": "GPT Stage",
-      "time": "10:45-11:45",
+      "time": "10:45-11:25",
       "type": "Keynote",
       "topic": "Not So Fast: The Slow Death of the All-Powerful GPU",
       "moderators": [
@@ -94,7 +95,7 @@
       "type": "Panel Discussion",
       "topic": "The Power of Data in the Era of GenAI",
       "moderators": [
-        ["yinazhang", "Yina Zhang"]
+        ["bobvanluijt", "Bob Van Luijt"]
       ],
       "abstract": "",
       "speakers": [
@@ -125,31 +126,18 @@
     {
       "day": 1,
       "room": "GPT Stage",
-      "time": "16:00-16:30",
-      "type": "Keynote",
-      "topic": "Will be provided by the speaker soon",
-      "moderators": [
-      ],
-      "abstract": "",
-      "speakers": [
-        ["brookejenkins", "Brooke Jenkins J.D."]
-      ],
-      "hide": false
-    },
-    {
-      "day": 1,
-      "room": "GPT Stage",
-      "time": "16:30-17:15",
+      "time": "16:00-16:45",
       "type": "Panel Discussion",
-      "topic": "AI Computing - Corporate VC's AI investment strategies",
+      "topic": "Innovating Infrastructure for LLM",
       "moderators": [
-        ["xuhuishao", "Dr. Xuhui Shao"]
+        ["alexwitt", "Alex Witt"]
       ],
       "abstract": "",
       "speakers": [
-        ["jeffhennig", "Jeff Hennig"],
-        ["tushargupta", "Tushar Gupta"],
-        ["dedegoldschmidt", "Dede Goldschmidt"]
+        ["monicazou", "Monica Zou"],
+        ["denisskrinnikoff", "Denis Skrinnikoff"],
+        ["adamzhou", "Adam Zhou"],
+        ["onesourcecloud", "OneSource Cloud"]
       ],
       "hide": false
     },
@@ -177,6 +165,7 @@
       ],
       "abstract": "",
       "speakers": [
+        ["jakeheller", "Jake Heller, JD"]
       ],
       "hide": false
     },
@@ -191,6 +180,20 @@
       "abstract": "",
       "speakers": [
         ["londonbreed", "London Breed"]
+      ],
+      "hide": false
+    },
+    {
+      "day": 1,
+      "room": "AGI Stage",
+      "time": "11:00-11:45",
+      "type": "Keynote",
+      "topic": "Will be provided by speakers soon",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["soumyabatra", "Soumya Batra"]
       ],
       "hide": false
     },
@@ -238,14 +241,15 @@
       "speakers": [
         ["zacharylipton", "Zachary Lipton"],
         ["ankitjain", "Ankit Jain"],
-        ["nataliavassilieva", "Dr. Natalia Vassilieva"]
+        ["nataliavassilieva", "Dr. Natalia Vassilieva"],
+        ["rameshsairamesh", "Ramesh Sairamesh"]
       ],
       "hide": false
     },
     {
       "day": 1,
       "room": "AGI Stage",
-      "time": "15:15-16:15",
+      "time": "15:15-16:00",
       "type": "Panel Discussion",
       "topic": "A Deep Dive into the State-of-the-Art LLMs",
       "moderators": [
@@ -262,17 +266,30 @@
     {
       "day": 1,
       "room": "AGI Stage",
-      "time": "16:15-17:00",
-      "type": "Panel Discussion",
-      "topic": "Innovating Infrastructure for LLM",
+      "time": "16:00-16:30",
+      "type": "Keynote",
+      "topic": "Will be provided soon",
       "moderators": [
-        ["alexwitt", "Alex Witt"]
       ],
       "abstract": "",
       "speakers": [
-        ["monicazou", "Monica Zou"],
-        ["denisskrinnikoff", "Denis Skrinnikoff"],
-        ["onesourcecloud", "OneSource Cloud"]
+        ["brookejenkins", "Brooke Jenkins, J.D."]
+      ],
+      "hide": false
+    },
+    {
+      "day": 1,
+      "room": "AGI Stage",
+      "time": "16:30-17:15",
+      "type": "Keynote",
+      "topic": "AI Computing - Corporate VC's AI investment strategies",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["jeffhennig", "Jeff Hennig"],
+        ["tushargupta", "Tushar Gupta"],
+        ["dedegoldschmidt", "Dede Goldschmidt"]
       ],
       "hide": false
     },
@@ -290,7 +307,7 @@
         ["shishirpatil", "Shishir Patil"],
         ["minfawang", "Minfa Wang"],
         ["leopekelis", "Leo Pekelis"],
-        ["rapidsoc2", "RapidSOC2"]
+        ["vicbhatia", "Vic Bhatia"]
       ],
       "hide": true
     },
@@ -301,10 +318,12 @@
       "type": "Panel Discussion",
       "topic": "Building Scalable Infrastructure for Generative AI Services in Enterprise Environments",
       "moderators": [
+        ["jasonge", "Jason Ge"]
       ],
       "abstract": "",
       "speakers": [
         ["nikunjbajaj", "Nikunj Bajaj"],
+        ["krishnagade", "Krishna Gade"],
         ["kshitijgrover", "Kshitij Grover"]
       ],
       "hide": false
@@ -323,20 +342,6 @@
         ["weiliendang", "Wei Lien Dang"],
         ["alessiofanelli", "Alessio Fanelli"],
         ["jamesalcorn", "James Alcorn"]
-      ],
-      "hide": false
-    },
-    {
-      "day": 1,
-      "room": "Align Stage",
-      "time": "14:15-14:30",
-      "type": "Keynote",
-      "topic": "How to help GenAI Companies to Expand Business Internationally",
-      "moderators": [
-      ],
-      "abstract": "",
-      "speakers": [
-        ["idairland", "IDA Ireland"]
       ],
       "hide": false
     },
@@ -364,7 +369,29 @@
       ],
       "abstract": "",
       "speakers": [
-        ["babusivadasan", "Babu Sivadasan"]
+        ["vsjoshi", "VS Joshi"],
+        ["sakshipratap", "Sakshi Pratap"],
+        ["babusivadasan", "Babu Sivadasan"],
+        ["shaunw", "Shaun W"],
+        ["conversight", "Conversight"]
+      ],
+      "hide": false
+    },
+    {
+      "day": 1,
+      "room": "Align Stage",
+      "time": "16:15-17:00",
+      "type": "Panel Discussion",
+      "topic": "AI-Powered Design: Transforming Art and User Experiences",
+      "moderators": [
+        ["cindywu", "Cindy Wu"]
+      ],
+      "abstract": "",
+      "speakers": [
+        ["mikayelkhachatryan", "Mikayel Khachatryan"],
+        ["joonarahko", "Joona Rahko"],
+        ["okingjo", "Okingjo"],
+        ["gladman", "Glad man"]
       ],
       "hide": false
     },
@@ -784,9 +811,7 @@
       ],
       "abstract": "",
       "speakers": [
-        ["chuntingzhou", "Dr. Chunting Zhou"],
         ["yoheinakajima", "Yohei Nakajima"],
-        ["shishirpatil", "Shishir Patil"],
         ["soumyabatra", "Soumya Batra"]
       ],
       "hide": false
@@ -903,6 +928,20 @@
     {
       "day": 2,
       "room": "AGI Stage",
+      "time": "11:45-12:15",
+      "type": "Keynote",
+      "topic": "Will be provided by the speaker soon",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["antjebarth", "Antje Barth"]
+      ],
+      "hide": false
+    },
+    {
+      "day": 2,
+      "room": "AGI Stage",
       "time": "13:00-13:45",
       "type": "Panel Discussion",
       "topic": "The Future and Challenges of AI-Powered Enterprise Copilot",
@@ -932,7 +971,8 @@
         ["rashmimisra", "Dr. Rashmi Misra"],
         ["jiali", "Dr. Jia Li"],
         ["rochellemattern", "Rochelle Mattern"],
-        ["clairexie", "Claire Xie"]
+        ["clairexie", "Claire Xie"],
+        ["marinavieva", "Marina Vieva"]
       ],
       "hide": false
     },
@@ -969,14 +1009,31 @@
     {
       "day": 2,
       "room": "Align Stage",
-      "time": "10:00-11:00",
+      "time": "09:00-10:00",
       "type": "Panel Discussion",
-      "topic": "VC",
+      "topic": "Revolutionizing Healthcare with Generative AI in",
       "moderators": [
       ],
       "abstract": "",
       "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 2,
+      "room": "Align Stage",
+      "time": "10:00-11:00",
+      "type": "Panel Discussion",
+      "topic": "VC",
+      "moderators": [
         ["murraynewlands", "Murray Newlands"]
+      ],
+      "abstract": "",
+      "speakers": [
+        ["irissun", "Iris Sun"],
+        ["chrismccann", "Chris McCann"],
+        ["jakeepstein", "Jake Epstein"],
+        ["benjaminlevy", "Benjamin Levy"]
       ],
       "hide": false
     },
@@ -985,7 +1042,7 @@
       "room": "Align Stage",
       "time": "11:00-12:00",
       "type": "Panel Discussion",
-      "topic": "VC",
+      "topic": "Healthcare Innovation Starts with Breakthrough Science",
       "moderators": [
       ],
       "abstract": "",
@@ -1595,6 +1652,7 @@
       "abstract": "",
       "speakers": [
         ["alexanderratner", "Dr. Alexander Ratner"],
+        ["shirchorev", "Shir Chorev"],
         ["bobvanluijt", "Bob Van Luijt"],
         ["amrawadallah", "Amr Awadallah"]
       ],
@@ -1707,7 +1765,7 @@
       "room": "AGI Stage",
       "time": "10:30-11:15",
       "type": "Keynote",
-      "topic": "Will be provided by speakers soon",
+      "topic": "Will be provided by the speaker soon",
       "moderators": [
       ],
       "abstract": "",
@@ -1756,7 +1814,7 @@
       "room": "AGI Stage",
       "time": "14:30-15:15",
       "type": "Panel Discussion",
-      "topic": "AI and Law: Navigating the New Landscape",
+      "topic": "AI and Intellectual Property: Navigating the New Landscape",
       "moderators": [
         ["shawnflynn", "Shawn Flynn"]
       ],
@@ -1779,7 +1837,9 @@
       "abstract": "",
       "speakers": [
         ["yaronsinger", "Yaron Singer"],
-        ["ralucapopa", "Prof. Raluca Popa"]
+        ["ralucapopa", "Prof. Raluca Popa"],
+        ["balajiganesa", "Balaji Ganesa"],
+        ["monicabajaj", "Monica Bajaj"]
       ],
       "hide": false
     },
@@ -1824,7 +1884,7 @@
       "abstract": "",
       "speakers": [
         ["kathrynwu", "Kathryn Wu"],
-        ["telusinternational", "Telus International"],
+        ["bretkinsella", "Bret Kinsella"],
         ["kevinsuer", "Kevin Suer"],
         ["streetbeat", "Streetbeat"]
       ],
@@ -1833,21 +1893,21 @@
     {
       "day": 3,
       "room": "Align Stage",
-      "time": "11:00-12:00",
-      "type": "Panel Discussion",
-      "topic": "Domain specific LLM",
+      "time": "11:00-11:45",
+      "type": "Keynote",
+      "topic": "Leveraging AI Agents to Revolutionize Sales Strategies and Customer Engagement",
       "moderators": [
       ],
       "abstract": "",
       "speakers": [
-        ["magstonelaw", "Magstone Law"]
+        ["muhammadarslan", "Muhammad Arslan"]
       ],
       "hide": false
     },
     {
       "day": 3,
       "room": "Align Stage",
-      "time": "13:00-13:45",
+      "time": "13:00-13:30",
       "type": "Panel Discussion",
       "topic": "Minority Culture Preservation and GenAI",
       "moderators": [
@@ -1869,7 +1929,7 @@
       "abstract": "",
       "speakers": [
       ],
-      "hide": false
+      "hide": true
     },
     {
       "day": 3,
@@ -1882,12 +1942,12 @@
       "abstract": "",
       "speakers": [
       ],
-      "hide": false
+      "hide": true
     },
     {
       "day": 3,
       "room": "Align Stage",
-      "time": "15:15-15:45",
+      "time": "15:15-17:00",
       "type": "Keynote",
       "topic": "K12",
       "moderators": [

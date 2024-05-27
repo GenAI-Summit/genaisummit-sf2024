@@ -21,7 +21,6 @@
           class="arrow"
           :src="getArrow(room.show)"
           alt="arrow"
-          @click="handleRoomClick(room)"
         />
       </div>
       <div

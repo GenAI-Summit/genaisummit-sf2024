@@ -1008,8 +1008,8 @@
     "id": "robmeadows"
   },
   {
-    "name": "Dr. Tara Ghazi",
-    "job": "Scientist, Leader, Co-Founder",
+    "name": "Tara Ghazi, Ph.D.",
+    "job": "Co-Founder & CBO",
     "tip": "MALCOVA",
     "image": "taraghazi.jpg",
     "website": "",
@@ -1694,6 +1694,20 @@
     "id": "brianzhan"
   },
   {
+    "name": "Iris Sun",
+    "job": "Principal",
+    "tip": "TSVC Capital",
+    "image": "irissun.jpg",
+    "website": "",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/iris-sun-029482a8/",
+    "detail": "irissun2.png",
+    "description": "Iris Sun is an AI Investor & Serial Entrepreneur at TSVC Capital, a venture capital firm based in the San Francisco Bay Area. She is an active voice in the AI and generative AI space, hosting events and sharing insights on LinkedIn. With a background in product design from Columbia University, Sun brings a unique perspective to investing in cutting-edge AI technologies. Her role at TSVC Capital allows her to support and guide innovative startups in the rapidly evolving AI landscape.",
+    "new": false,
+    "hide": false,
+    "id": "irissun"
+  },
+  {
     "name": "Kelvin Mu",
     "job": "Principal",
     "tip": "Translink Capital",
@@ -2044,6 +2058,20 @@
     "id": "sunnyrochiramani"
   },
   {
+    "name": "Vic Bhatia",
+    "job": "Founder",
+    "tip": "RapidSOC2",
+    "image": "vicbhatia.jpg",
+    "website": "",
+    "twitter": "https://x.com/vicbhatia",
+    "linkedin": "https://www.linkedin.com/in/vicbhatia/",
+    "detail": "vicbhatia2.png",
+    "description": "Vic Bhatia is the Founder of RapidSOC2, a Silicon Valley startup leveraging AI and engineering techniques to automate cloud compliance at scale. RapidSOC2 offers rapidSOC2.com, enabling organizations to achieve SOC 2 readiness within 28 days, and fixpliance.AI, an API-based private SaaS platform that integrates with any tech stack to enforce compliance policies across data clouds. Founded by ex-FAANG engineers, RapidSOC2 aims to eliminate manual processes and streamline compliance through automation.",
+    "new": false,
+    "hide": false,
+    "id": "vicbhatia"
+  },
+  {
     "name": "Yochai Konig",
     "job": "VP of Machine Learning",
     "tip": "Ada",
@@ -2084,6 +2112,20 @@
     "new": false,
     "hide": false,
     "id": "yangxinchen"
+  },
+  {
+    "name": "Shaun W.",
+    "job": "Co-Founder & CEO",
+    "tip": "RealChar",
+    "image": "shaunw.jpg",
+    "website": "",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/shaunwei/",
+    "detail": "shaunw2.png",
+    "description": "Shaun W. is the CEO and Co-Founder of RealChar, a company that provides an immersive web-based simulator for digital assistant applications. With a background in computer science and artificial intelligence, he has developed innovative solutions to enhance user experiences with conversational AI. RealChar's platform allows developers to create and test virtual assistants in realistic scenarios, enabling them to refine and optimize their AI models before deployment.",
+    "new": false,
+    "hide": false,
+    "id": "shaunw"
   },
   {
     "name": "Bryan Talebi",
@@ -2252,6 +2294,20 @@
     "new": false,
     "hide": false,
     "id": "jasonge"
+  },
+  {
+    "name": "VS Joshi",
+    "job": "Global Head Of Product and Solutions Marketing",
+    "tip": "Digitate",
+    "image": "vsjoshi.jpg",
+    "website": "",
+    "twitter": "https://x.com/vsjoshi?lang=en",
+    "linkedin": "https://www.linkedin.com/in/joshivs/",
+    "detail": "vsjoshi2.png",
+    "description": "VS Joshi is the Global Head of Product and Solutions Marketing at Digitate, a leading AI and machine learning company. With extensive experience in product marketing at Fortune 500 companies and startups, he excels in crafting compelling product positioning, messaging, and go-to-market strategies. Joshi is skilled in leading cross-functional teams, creating sales enablement programs, and executing creative demand generation campaigns. He is a sought-after speaker on AI and machine learning topics, known for his ability to evangelize new solutions and thrive in undefined spaces.",
+    "new": false,
+    "hide": false,
+    "id": "vsjoshi"
   },
   {
     "name": "Nathan Lile",

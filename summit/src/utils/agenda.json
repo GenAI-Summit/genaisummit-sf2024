@@ -280,9 +280,10 @@
       "day": 1,
       "room": "AGI Stage",
       "time": "16:30-17:15",
-      "type": "Keynote",
+      "type": "Panel Discussion",
       "topic": "AI Computing - Corporate VC's AI investment strategies",
       "moderators": [
+        ["xuhuishao", "Dr. Xuhui Shao"]
       ],
       "abstract": "",
       "speakers": [
@@ -371,7 +372,7 @@
         ["vsjoshi", "VS Joshi"],
         ["sakshipratap", "Sakshi Pratap"],
         ["babusivadasan", "Babu Sivadasan"],
-        ["shaunw", "Shaun W"],
+        ["shaunw", "Shaun W."],
         ["conversight", "Conversight"]
       ],
       "hide": false

@@ -81,6 +81,7 @@
                   Resources
                 </button>
               </div>
+              <!--
               <div class="right">
                 <div class="time-box">
                   <div class="item">{{ timeObj.d }}</div>
@@ -93,6 +94,7 @@
                   <div class="timetip">S</div>
                 </div>
               </div>
+              -->
             </div>
           </div>
         </div>
@@ -472,7 +474,7 @@
           </div>
         </section>
       </div>
-      -->
+      
 
 
 
@@ -787,8 +789,7 @@
               </div>
             </div>
           </div>
-          <div class="right">
-            <div class="ss-title" data-aos="fade-up">
+          <div class="right"> <div class="ss-title" data-aos="fade-up">
               ACTIVITIES FROM THE PAST YEAR
             </div>
             <div class="activity-k12-content">

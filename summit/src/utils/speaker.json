@@ -2002,6 +2002,20 @@
     "id": "kevinsuer"
   },
   {
+    "name": "Dr. Ramesh Sairamesh",
+    "job": "CEO & President",
+    "tip": "CapsicoHealth",
+    "image": "rameshsairamesh.jpg",
+    "website": "",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/j-ramesh-sairamesh-562603/",
+    "detail": "rameshsairamesh2.png",
+    "description": "Ramesh Sairamesh is the CEO, President, and Founder of CapsicoHealth, a Predictive and Generative-AI company based in Silicon Valley. He drives the company's strategy on Real-World Intelligence Products and Generative-AI for the pharmaceutical, medical device, and hospital industries. With over 20 US patents and 60 research publications, Sairamesh has extensive experience in healthcare, pharmaceuticals, and supply chain services. Previously, he was a Manager and Worldwide Program Leader at IBM Research, where he won multiple innovation awards.",
+    "new": false,
+    "hide": false,
+    "id": "rameshsairamesh"
+  },
+  {
     "name": "Sunny Rochiramani",
     "job": "VP of Engineering",
     "tip": "Descript",

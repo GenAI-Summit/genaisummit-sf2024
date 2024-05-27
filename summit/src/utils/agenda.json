@@ -234,7 +234,7 @@
       "room": "AGI Stage",
       "time": "14:30-15:15",
       "type": "Panel Discussion",
-      "topic": "How AI Is Reshaping  Services in Medical and Healthcare",
+      "topic": "How AI Is Reshaping Services in Medical and Healthcare",
       "moderators": [
       ],
       "abstract": "",
@@ -242,7 +242,7 @@
         ["zacharylipton", "Zachary Lipton"],
         ["ankitjain", "Ankit Jain"],
         ["nataliavassilieva", "Dr. Natalia Vassilieva"],
-        ["rameshsairamesh", "Ramesh Sairamesh"]
+        ["rameshsairamesh", "Dr. Ramesh Sairamesh"]
       ],
       "hide": false
     },
@@ -390,7 +390,7 @@
       "speakers": [
         ["mikayelkhachatryan", "Mikayel Khachatryan"],
         ["joonarahko", "Joona Rahko"],
-        ["okingjo", "Okingjo"],
+        ["yangxinchen", "Yangxin Chen"],
         ["gladman", "Glad man"]
       ],
       "hide": false
@@ -485,7 +485,7 @@
       "day": 1,
       "room": "Prompt Space",
       "time": "15:00-16:00",
-      "type": "Seminar",
+      "type": "Panel Discussion",
       "topic": "Data to Deployment: Secrets behind Scaled AI Production with AI Startups and Investors",
       "moderators": [
         ["ryanwexler", "Ryan Wexler"]

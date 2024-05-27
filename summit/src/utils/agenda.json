@@ -135,7 +135,7 @@
       "speakers": [
         ["monicazou", "Monica Zou"],
         ["denisskrinnikoff", "Denis Skrinnikoff"],
-        ["adamzhou", "Adam Zhou"],
+        ["xinyao", "Xin Yao"],
         ["onesourcecloud", "OneSource Cloud"]
       ],
       "hide": false
@@ -560,7 +560,7 @@
       "room": "Transformer Room",
       "time": "16:00-16:30",
       "type": "Seminar",
-      "topic": "Will be provided by speakers soon",
+      "topic": "Animate your Visuals with Vimmerse",
       "moderators": [
       ],
       "abstract": "",
@@ -1733,16 +1733,16 @@
       "room": "GPT Stage",
       "time": "13:00-13:45",
       "type": "Panel Discussion",
-      "topic": "VectorDB 2.0 with Longer Context Window",
+      "topic": "VectorDB 2.0 with Longer Context Window and Related Evaluation",
       "moderators": [
         ["jasonlopatecki", "Jason Lopatecki"]
       ],
       "abstract": "",
       "speakers": [
-        ["alexanderratner", "Dr. Alexander Ratner"],
-        ["shirchorev", "Shir Chorev"],
         ["bobvanluijt", "Bob Van Luijt"],
-        ["amrawadallah", "Amr Awadallah"]
+        ["amrawadallah", "Amr Awadallah"],
+        ["alexanderratner", "Dr. Alexander Ratner"],
+        ["shirchorev", "Shir Chorev"]
       ],
       "hide": false
     },
@@ -1824,7 +1824,7 @@
       "day": 3,
       "room": "GPT Stage",
       "time": "17:00-18:00",
-      "type": "",
+      "type": "Ceremony",
       "topic": "Award & Closing Ceremony",
       "moderators": [
       ],
@@ -1866,7 +1866,7 @@
       "room": "AGI Stage",
       "time": "10:30-11:15",
       "type": "Keynote",
-      "topic": "Will be provided by the speaker soon",
+      "topic": "An Overview of Llama Models",
       "moderators": [
       ],
       "abstract": "",
@@ -1887,7 +1887,7 @@
       "abstract": "",
       "speakers": [
         ["philiprathle", "Philip Rathle"],
-        ["yochaikonig", "Yochai Konig"],
+        ["mikemurchison", "Mike Murchison"],
         ["ahmedaj", "Ahmed AJ"],
         ["yichongxu", "Dr. Yichong Xu"]
       ],
@@ -1898,15 +1898,14 @@
       "room": "AGI Stage",
       "time": "13:45-14:30",
       "type": "Panel Discussion",
-      "topic": "Synthesizing Data Generation",
+      "topic": "Synthetic Data Generation in the Era of GenAI",
       "moderators": [
         ["philiprathle", "Philip Rathle"]
       ],
       "abstract": "",
       "speakers": [
         ["kevinmcnamara", "Kevin McNamara"],
-        ["emrahgultekin", "Emrah Gultekin"],
-        ["irenehuang", "Irene Huang"]
+        ["emrahgultekin", "Emrah Gultekin"]
       ],
       "hide": false
     },
@@ -1941,6 +1940,20 @@
         ["ralucapopa", "Prof. Raluca Popa"],
         ["balajiganesa", "Balaji Ganesa"],
         ["monicabajaj", "Monica Bajaj"]
+      ],
+      "hide": false
+    },
+    {
+      "day": 3,
+      "room": "AGI Stage",
+      "time": "16:00-16:30",
+      "type": "Panel Discussion",
+      "topic": "Leveraging AI Agents to Revolutionize Sales Strategies and Customer Engagement",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["adlerlietz", "Adler Lietz"]
       ],
       "hide": false
     },
@@ -2009,7 +2022,7 @@
       "day": 3,
       "room": "Align Stage",
       "time": "13:00-13:30",
-      "type": "Panel Discussion",
+      "type": "Keynote",
       "topic": "Minority Culture Preservation and GenAI",
       "moderators": [
       ],
@@ -2022,28 +2035,30 @@
     {
       "day": 3,
       "room": "Align Stage",
-      "time": "13:45-14:30",
+      "time": "13:30-14:15",
       "type": "Keynote",
-      "topic": "AI in Education: Enhancing Learning Experiences",
+      "topic": "Edge on LLM",
       "moderators": [
       ],
       "abstract": "",
       "speakers": [
+        ["yubeichen", "Yubei Chen"]
       ],
-      "hide": true
+      "hide": false
     },
     {
       "day": 3,
       "room": "Align Stage",
-      "time": "14:30-15:15",
+      "time": "14:15-15:15",
       "type": "Panel Discussion",
-      "topic": "Enterprise",
+      "topic": "Will be provided by speakers soon",
       "moderators": [
       ],
       "abstract": "",
       "speakers": [
+        ["coursepal", "CoursePal"]
       ],
-      "hide": true
+      "hide": false
     },
     {
       "day": 3,
@@ -2083,9 +2098,12 @@
       ],
       "abstract": "",
       "speakers": [
-        ["deepchecks", "Deepchecks"]
+        ["barrytallis", "Barry Tallis"],
+        ["badrinath", "Badri Nath"],
+        ["kellyamsbry", "Kelly Amsbry"],
+        ["mannybernabe", "Manny Bernabe"]
       ],
-      "hide": true
+      "hide": false
     },
     {
       "day": 3,
@@ -2112,6 +2130,20 @@
       "abstract": "",
       "speakers": [
         ["appinclub", "App-in Club"]
+      ],
+      "hide": false
+    },
+    {
+      "day": 3,
+      "room": "Workshop Room",
+      "time": "15:00-16:00",
+      "type": "Workshop",
+      "topic": "Will be provided by speakers soon",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["privacera", "Privacera"]
       ],
       "hide": false
     },
@@ -2145,24 +2177,10 @@
     },
     {
       "day": 3,
-      "room": "Prompt Space",
-      "time": "16:00-17:00",
-      "type": "Seminar",
-      "topic": "Will be provided by speakers soon",
-      "moderators": [
-      ],
-      "abstract": "",
-      "speakers": [
-        ["gracechen", "Grace Chen"]
-      ],
-      "hide": false
-    },
-    {
-      "day": 3,
       "room": "Transformer Room",
       "time": "09:00-10:00",
       "type": "Seminar",
-      "topic": "Will be provided by speakers soon",
+      "topic": "Will be provided by the speaker soon",
       "moderators": [
       ],
       "abstract": "",
@@ -2261,7 +2279,7 @@
       "abstract": "",
       "speakers": [
       ],
-      "hide": false
+      "hide": true
     },
     {
       "day": 3,
@@ -2300,20 +2318,20 @@
       "abstract": "",
       "speakers": [
       ],
-      "hide": false
+      "hide": true
     },
     {
       "day": 3,
       "room": "Launchpad Stage",
       "time": "11:24 - 11:42",
       "type": "Startup Demo",
-      "topic": "Squid Cloud",
+      "topic": "",
       "moderators": [
       ],
       "abstract": "",
       "speakers": [
       ],
-      "hide": false
+      "hide": true
     },
     {
       "day": 3,
@@ -2333,7 +2351,7 @@
       "room": "Launchpad Stage",
       "time": "13:00 - 13:18",
       "type": "Startup Demo",
-      "topic": "Sider",
+      "topic": "Sider AI",
       "moderators": [
       ],
       "abstract": "",
@@ -2352,7 +2370,7 @@
       "abstract": "",
       "speakers": [
       ],
-      "hide": false
+      "hide": true
     },
     {
       "day": 3,
@@ -2365,7 +2383,7 @@
       "abstract": "",
       "speakers": [
       ],
-      "hide": false
+      "hide": true
     }
   ]
 ]

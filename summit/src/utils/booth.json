@@ -320,6 +320,11 @@
     "url": "https://www.onesourcecloud.net"
   },
   {
+    "name": "serviceful",
+    "image": "serviceful.png",
+    "url": "https://www.serviceful.com/"
+  },
+  {
     "name": "streetbeat",
     "image": "streetbeat.png",
     "url": "https://streetbeat.com/en"

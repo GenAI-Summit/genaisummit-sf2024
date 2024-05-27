@@ -135,7 +135,7 @@
       "speakers": [
         ["monicazou", "Monica Zou"],
         ["denisskrinnikoff", "Denis Skrinnikoff"],
-        ["adamzhou", "Adam Zhou"],
+        ["xinyao", "Xin Yao"],
         ["onesourcecloud", "OneSource Cloud"]
       ],
       "hide": false
@@ -560,7 +560,7 @@
       "room": "Transformer Room",
       "time": "16:00-16:30",
       "type": "Seminar",
-      "topic": "Will be provided by speakers soon",
+      "topic": "Animate your Visuals with Vimmerse",
       "moderators": [
       ],
       "abstract": "",
@@ -2130,6 +2130,20 @@
       "abstract": "",
       "speakers": [
         ["appinclub", "App-in Club"]
+      ],
+      "hide": false
+    },
+    {
+      "day": 3,
+      "room": "Workshop Room",
+      "time": "15:00-16:00",
+      "type": "Workshop",
+      "topic": "Will be provided by speakers soon",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["privacera", "Privacera"]
       ],
       "hide": false
     },

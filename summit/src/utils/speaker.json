@@ -1190,6 +1190,34 @@
     "id": "ameerhajali"
   },
   {
+    "name": "Yubei Chen",
+    "job": "Co-Founder",
+    "tip": "AIZIP",
+    "image": "yubeichen.jpg",
+    "website": "https://yubeichen.com/",
+    "twitter": "https://x.com/yubei_chen?lang=en",
+    "linkedin": "https://www.linkedin.com/in/yubei-chen-05998a39/",
+    "detail": "yubeichen2.png",
+    "description": "Yubei Chen is an assistant professor from the ECE department at UC Davis and cofounder at Aizip.ai. He has worked with Professor Yann LeCun at Meta AI and NYU as a postdoctoral researcher. Yubei received his MS/PhD in EECS and MA in Mathematics at UC Berkeley. His research focuses on understanding the computational principles governing unsupervised learning and generative modeling, with the goal of making AI explainable and ultra-efficient.",
+    "new": false,
+    "hide": false,
+    "id": "yubeichen"
+  },
+  {
+    "name": "Bill Yao",
+    "job": "Co-founder",
+    "tip": "Novita.ai",
+    "image": "billyao.jpg",
+    "website": "",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/billyao/",
+    "detail": "billyao2.png",
+    "description": "Bill is a seasoned serial entrepreneur and investor. In the classical internet era, he founded a video network serving hundreds of millions of users worldwide. He then became active in venture capital, investing in and establishing numerous mobile internet and AI companies. Recently, Bill has focused on promoting the global adoption of artificial intelligence, striving to ensure more people benefit from AI's advancements and conveniences.",
+    "new": false,
+    "hide": false,
+    "id": "billyao"
+  },
+  {
     "name": "Dr. Yichong Xu",
     "job": "AI Researcher",
     "tip": "Character.AI",

@@ -1778,6 +1778,20 @@
     "id": "jakeepstein"
   },
   {
+    "name": "Bhanu Agarwal",
+    "job": "Founder",
+    "tip": "Serviceful",
+    "image": "bhanuagarwal.jpg",
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/bhanuagarwal/",
+    "twitter": "",
+    "detail": "bhanuagarwal2.png",
+    "description": "Founded by Bhanu Agarwal, Serviceful is reimagining sales training and enablement using its AI-powered platform for high-growth B2B sales organizations. Leading Go-to-market teams use Serviceful to improve sales preparation by 1.5x and save 100s of hours on repetitive sales support. Previously, Bhanu held roles in product and engineering across Microsoft, OpenTable and VMware. He is a Wharton MBA and a Computer Engineering graduate from the University of Illinois. ",
+    "new": false,
+    "hide": false,
+    "id": "bhanuagarwal"
+  },
+  {
     "name": "Jiang Chen",
     "job": "Head of Ecosystem & AI Platform",
     "tip": "Zilliz",

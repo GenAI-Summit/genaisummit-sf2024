@@ -1488,7 +1488,7 @@ export default {
     };
 
     const handleModalById = (id) => {
-      const item = speakersList.value.find((item) => item.id === id);
+      const item = allSpeakersList.value.find((item) => item.id === id);
       if (item) {
         speakerModal.value.openModal(item);
       }
@@ -1506,6 +1506,8 @@ export default {
 
     const speakersList = ref(speakers.filter((item) => !item.hide));
     const speakersK12List = ref(speakersK12);
+    const allSpeakersList = ref([...speakersList.value, ...speakersK12List.value]);
+
     const newSpeakersList = computed(() => {
       return speakersList.value.filter((item) => item.new);
     });

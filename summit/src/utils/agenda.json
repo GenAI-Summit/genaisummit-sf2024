@@ -1308,22 +1308,9 @@
     {
       "day": 2,
       "room": "Transformer Room",
-      "time": "13:00-14:00",
+      "time": "13:00-15:00",
       "type": "Seminar",
-      "topic": "K12",
-      "moderators": [
-      ],
-      "abstract": "",
-      "speakers": [
-      ],
-      "hide": false
-    },
-    {
-      "day": 2,
-      "room": "Transformer Room",
-      "time": "14:00-15:00",
-      "type": "Seminar",
-      "topic": "K12",
+      "topic": "Navigating the Path: Insights from the professionals and Elite College Studens ",
       "moderators": [
       ],
       "abstract": "",
@@ -1661,12 +1648,13 @@
       "day": 2,
       "room": "Launchpad Stage",
       "time": "17:00-18:00",
-      "type": "Panel Discussion",
-      "topic": "K12",
+      "type": "Keynote",
+      "topic": "Large Language Models and Artificial Intelligence Generated Content",
       "moderators": [
       ],
       "abstract": "",
       "speakers": [
+        ["xichen", "Prof. Xi Chen"]
       ],
       "hide": false
     }
@@ -2063,13 +2051,14 @@
     {
       "day": 3,
       "room": "Align Stage",
-      "time": "15:15-17:00",
+      "time": "15:30-17:00",
       "type": "Keynote",
-      "topic": "K12",
+      "topic": "AI in Action: Bridging Theory and Practice",
       "moderators": [
       ],
       "abstract": "",
       "speakers": [
+        ["weiqinggu", "Prof. Weiqing Gu"]
       ],
       "hide": false
     },

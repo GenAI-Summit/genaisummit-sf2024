@@ -1092,6 +1092,20 @@
     "id": "matthewstepka"
   },
   {
+    "name": "Balaji Ganesan",
+    "job": "Co-Founder & CEO",
+    "tip": "Privacera",
+    "image": "balajiganesan.jpg",
+    "website": "https://privacera.com/leadership/",
+    "twitter": "https://x.com/balaji_blog?lang=en",
+    "linkedin": "https://www.linkedin.com/in/balajiganesan03/",
+    "detail": "balajiganesan2.png",
+    "description": "Balaji Ganesan is the co-founder and CEO of Privacera, a leading cloud data governance platform. With over 15 years of experience in building startups and transformational teams, he previously led the security and governance team at Hortonworks, instrumental in its growth from under 100 to over 800 customers. Privacera, born out of his earlier startup XA Secure, focuses on enabling enterprises to discover sensitive data and prevent its misuse, aligning with data privacy regulations like GDPR and HIPAA.",
+    "new": false,
+    "hide": false,
+    "id": "balajiganesan"
+  },
+  {
     "name": "Dr. Jasper Zhang",
     "job": "Co-Founder & CEO",
     "tip": "Hyperbolic Labs",
@@ -2198,18 +2212,46 @@
     "id": "minfawang"
   },
   {
-    "name": "Ankit Jain",
-    "job": "Founder & Company Lead",
-    "tip": "Infinitus",
+    "name": "ankit jain",
+    "job": "founder & company lead",
+    "tip": "infinitus",
     "image": "ankitjain.webp",
     "website": "",
     "twitter": "",
     "linkedin": "https://www.linkedin.com/in/jainankit/",
     "detail": "ankitjain2.webp",
-    "description": "Ankit Jain is a seasoned entrepreneur and technology leader. He is the co-founder and CEO of Infinitus Systems, an AI-powered healthcare automation company. Prior to Infinitus, Ankit was a founding partner at Gradient Ventures, Google's AI-focused venture fund, and a director of engineering at Google. He has also co-founded and led other successful startups like Quettra, which was acquired by SimilarWeb, and Cuil, which was acquired by Google. Ankit has extensive experience in areas such as search, mobile analytics, and artificial intelligence.",
+    "description": "ankit jain is a seasoned entrepreneur and technology leader. he is the co-founder and ceo of infinitus systems, an ai-powered healthcare automation company. prior to infinitus, ankit was a founding partner at gradient ventures, google's ai-focused venture fund, and a director of engineering at google. he has also co-founded and led other successful startups like quettra, which was acquired by similarweb, and cuil, which was acquired by google. ankit has extensive experience in areas such as search, mobile analytics, and artificial intelligence.",
+    "new": false,
+    "hide": true,
+    "id": "ankitjain"
+  },
+  {
+    "name": "Shyam Rajagopalan",
+    "job": "Co-Founder & CTO",
+    "tip": "Infinitus Systems",
+    "image": "shyamrajagopalan.jpg",
+    "website": "",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/shyamsundarr/",
+    "detail": "shyamrajagopalan2.png",
+    "description": "Shyam Rajagopalan is the Co-Founder and CTO of Infinitus Systems, Inc., a technology company based in the United States. He holds a degree from the prestigious UC Berkeley College of Engineering. As the CTO, Shyam is responsible for driving the technical vision and strategy for Infinitus. With over 500 connections on LinkedIn, he is well-connected in the industry and leverages his expertise to lead the company's technological innovations.",
     "new": false,
     "hide": false,
-    "id": "ankitjain"
+    "id": "shyamrajagopalan"
+  },
+  {
+    "name": "Jason Ge",
+    "job": "Media ML Infra Engineer",
+    "tip": "Netflix",
+    "image": "jasonge.jpg",
+    "website": "",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/jasonge27/",
+    "detail": "jasonge2.png",
+    "description": "Jason Ge is a Media ML Infra Engineer at Netflix, where he plays a pivotal role in building and scaling the company's media machine learning infrastructure. With expertise in machine learning and a deep understanding of Netflix's content ecosystem, he contributes to innovative solutions that enhance the media experience for millions of subscribers worldwide. Ge's work focuses on developing scalable platforms, leveraging cutting-edge technologies, and enabling seamless integration of machine learning algorithms into Netflix's applications and services.",
+    "new": false,
+    "hide": false,
+    "id": "jasonge"
   },
   {
     "name": "Nathan Lile",

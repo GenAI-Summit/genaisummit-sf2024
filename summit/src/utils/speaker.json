@@ -826,6 +826,20 @@
     "id": "ajinkyamalasane"
   },
   {
+    "name": "Antje Barth",
+    "job": "Principal Developer Advocate, Generative AI",
+    "tip": "Amazon Web Services",
+    "image": "antjebarth.jpg",
+    "website": "https://aws.amazon.com/blogs/aws/author/antjebar/#:~:text=Antje%20Barth%20is%20a%20Principal,and%20meetups%20around%20the%20world.",
+    "linkedin": "https://www.linkedin.com/in/antje-barth/",
+    "twitter": "https://x.com/anbarth",
+    "detail": "antjebarth2.png",
+    "description": "Antje Barth is a Principal Developer Advocate for Generative AI at Amazon Web Services (AWS). She is an accomplished author, having co-written the O'Reilly books \"Generative AI on AWS\" and \"Data Science on AWS.\" Antje is also an instructor, teaching courses on generative AI and data science. As a co-founder of the Women in Big Data Düsseldorf chapter, she actively promotes diversity in the tech industry. With over 17 years of experience, Antje is passionate about empowering developers to leverage generative AI and sharing her expertise through public speaking and community engagement.",
+    "new": false,
+    "hide": false,
+    "id": "antjebarth"
+  },
+  {
     "name": "Kevin Moody",
     "job": "Co-Founder & CEO",
     "tip": "Mem Labs",
@@ -976,7 +990,7 @@
     "detail": "mikemurchison2.webp",
     "description": "Mike Murchison is CEO of Ada, the world's leading customer service AI platform. A serial entrepreneur focused on using AI to transform the conversation between businesses and their customers, he champions the Canadian innovation ecosystem at home and abroad. Before starting Ada, Mike founded several other tech companies, including a social search community and a consulting firm for Fortune 500 clients. Ada raised $30M in its latest funding round, which was Series B round held on Feb 10, 2022.",
     "new": true,
-    "hide": true,
+    "hide": false,
     "id": "mikemurchison"
   },
   {

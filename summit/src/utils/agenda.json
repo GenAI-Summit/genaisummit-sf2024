@@ -2058,7 +2058,7 @@
       "speakers": [
         ["coursepal", "CoursePal"]
       ],
-      "hide": true
+      "hide": false
     },
     {
       "day": 3,

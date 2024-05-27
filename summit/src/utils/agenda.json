@@ -3,7 +3,7 @@
     {
       "day": 1,
       "room": "GPT Stage",
-      "time": "09:00-10:00",
+      "time": "09:30-10:15",
       "type": "Keynote",
       "topic": "The Future of Foundation Models",
       "moderators": [
@@ -16,9 +16,9 @@
     {
       "day": 1,
       "room": "GPT Stage",
-      "time": "10:00-10:45",
+      "time": "10:15-10:45",
       "type": "Keynote",
-      "topic": "Enterprise AI Search & Knowledge Discovery",
+      "topic": "The Evolution of AI Assistants: Shaping the Future of Human-Computer Interaction",
       "moderators": [
       ],
       "abstract": "",
@@ -194,7 +194,7 @@
       "speakers": [
         ["soumyabatra", "Soumya Batra"]
       ],
-      "hide": false
+      "hide": true
     },
     {
       "day": 1,
@@ -224,7 +224,8 @@
         ["jimpalmer", "Jim Palmer"],
         ["yanivmakover", "Yaniv Makover"],
         ["xichen", "Prof. Xi Chen"],
-        ["andreasramos", "Prof. Andreas Ramos"]
+        ["andreasramos", "Prof. Andreas Ramos"],
+        ["amazon", "Amazon"]
       ],
       "hide": false
     },
@@ -239,7 +240,7 @@
       "abstract": "",
       "speakers": [
         ["zacharylipton", "Zachary Lipton"],
-        ["ankitjain", "Ankit Jain"],
+        ["shyamrajagopalan", "Shyam Rajagopalan"],
         ["nataliavassilieva", "Dr. Natalia Vassilieva"],
         ["rameshsairamesh", "Dr. Ramesh Sairamesh"]
       ],
@@ -309,7 +310,7 @@
         ["leopekelis", "Leo Pekelis"],
         ["vicbhatia", "Vic Bhatia"]
       ],
-      "hide": true
+      "hide": false
     },
     {
       "day": 1,
@@ -324,7 +325,8 @@
       "speakers": [
         ["nikunjbajaj", "Nikunj Bajaj"],
         ["krishnagade", "Krishna Gade"],
-        ["kshitijgrover", "Kshitij Grover"]
+        ["kshitijgrover", "Kshitij Grover"],
+        ["mattdupree", "Matt Dupree"]
       ],
       "hide": false
     },
@@ -342,6 +344,20 @@
         ["weiliendang", "Wei Lien Dang"],
         ["alessiofanelli", "Alessio Fanelli"],
         ["jamesalcorn", "James Alcorn"]
+      ],
+      "hide": false
+    },
+    {
+      "day": 1,
+      "room": "Align Stage",
+      "time": "14:00-14:30",
+      "type": "Keynote",
+      "topic": "",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["nexa4ai", "Nexa4ai"]
       ],
       "hide": false
     },
@@ -373,7 +389,7 @@
         ["sakshipratap", "Sakshi Pratap"],
         ["babusivadasan", "Babu Sivadasan"],
         ["shaunw", "Shaun W."],
-        ["conversight", "Conversight"]
+        ["ganeshgandhieswaran", "Ganesh Gandhieswaran"]
       ],
       "hide": false
     },
@@ -488,7 +504,6 @@
       "type": "Panel Discussion",
       "topic": "Data to Deployment: Secrets behind Scaled AI Production with AI Startups and Investors",
       "moderators": [
-        ["ryanwexler", "Ryan Wexler"]
       ],
       "abstract": "",
       "speakers": [
@@ -496,7 +511,7 @@
         ["sharonzhou", "Dr. Sharon Zhou"],
         ["changshe", "Chang She"]
       ],
-      "hide": true
+      "hide": false
     },
     {
       "day": 1,
@@ -689,7 +704,7 @@
       "room": "Launchpad Stage",
       "time": "16:00 - 16:18",
       "type": "Startup Demo",
-      "topic": "AIZip",
+      "topic": "Yuecheng",
       "moderators": [
       ],
       "abstract": "",
@@ -708,7 +723,7 @@
       "abstract": "",
       "speakers": [
       ],
-      "hide": false
+      "hide": true
     },
     {
       "day": 1,
@@ -812,7 +827,8 @@
       "abstract": "",
       "speakers": [
         ["yoheinakajima", "Yohei Nakajima"],
-        ["soumyabatra", "Soumya Batra"]
+        ["soumyabatra", "Soumya Batra"],
+        ["irenehuang", "Irene Huang"]
       ],
       "hide": false
     },
@@ -874,7 +890,7 @@
       "room": "AGI Stage",
       "time": "09:00-09:45",
       "type": "Keynote",
-      "topic": "Will be provided by speakers soon",
+      "topic": "Will be provided by the speaker soon",
       "moderators": [
       ],
       "abstract": "",
@@ -983,6 +999,7 @@
       "type": "Panel Discussion",
       "topic": "The World of Customer Support with AI Agents",
       "moderators": [
+        ["oanaolteanu", "Oana Olteanu"]
       ],
       "abstract": "",
       "speakers": [
@@ -997,7 +1014,7 @@
       "day": 2,
       "room": "AGI Stage",
       "time": "16:00-16:45",
-      "type": "Fireside Chat",
+      "type": "Panel Discussion",
       "topic": "AI-Powered Personalization",
       "moderators": [
       ],
@@ -1009,13 +1026,29 @@
     {
       "day": 2,
       "room": "Align Stage",
-      "time": "09:00-10:00",
+      "time": "09:00-09:40",
       "type": "Panel Discussion",
-      "topic": "Revolutionizing Healthcare with Generative AI in",
+      "topic": "Will be provided by speakers soon",
       "moderators": [
       ],
       "abstract": "",
       "speakers": [
+        ["davidminarsch", "David Minarsch"],
+        ["rebazhas", "Rebaz Has"]
+      ],
+      "hide": false
+    },
+    {
+      "day": 2,
+      "room": "Align Stage",
+      "time": "09:40-10:00",
+      "type": "Keynote",
+      "topic": "Base Layer Protocal for Decentralized Compute",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["hoansoolee", "Hoansoo Lee"]
       ],
       "hide": false
     },
@@ -1041,12 +1074,15 @@
       "day": 2,
       "room": "Align Stage",
       "time": "11:00-12:00",
-      "type": "Panel Discussion",
+      "type": "Seminar",
       "topic": "Healthcare Innovation Starts with Breakthrough Science",
       "moderators": [
       ],
       "abstract": "",
       "speakers": [
+        ["garyolson", "Gary Olson"],
+        ["markdesouza", "Mark De Souza"],
+        ["taraghazi", "Dr. Tara Ghazi"]
       ],
       "hide": false
     },
@@ -1193,7 +1229,7 @@
       "speakers": [
         ["peterlin", "Peter Lin"]
       ],
-      "hide": false
+      "hide": true
     },
     {
       "day": 2,
@@ -1216,7 +1252,7 @@
     {
       "day": 2,
       "room": "Prompt Space",
-      "time": "13:00-14:00",
+      "time": "13:00-15:00",
       "type": "Seminar",
       "topic": "Will be provided by speakers soon",
       "moderators": [
@@ -1225,7 +1261,7 @@
       "speakers": [
         ["ushur", "Ushur"]
       ],
-      "hide": true
+      "hide": false
     },
     {
       "day": 2,
@@ -1239,7 +1275,7 @@
       "speakers": [
         ["johanneseichstaedt", "Dr. Johannes Eichstaedt"]
       ],
-      "hide": false
+      "hide": true
     },
     {
       "day": 2,
@@ -1260,12 +1296,38 @@
       "room": "Transformer Room",
       "time": "10:00-11:00",
       "type": "Seminar",
-      "topic": "How to build your own Enterprise AI Assistant",
+      "topic": "RAGs Exposed: How to build your own Enterprise AI Assistant",
       "moderators": [
       ],
       "abstract": "",
       "speakers": [
         ["ayraa", "Ayraa"]
+      ],
+      "hide": false
+    },
+    {
+      "day": 2,
+      "room": "Transformer Room",
+      "time": "13:00-14:00",
+      "type": "Seminar",
+      "topic": "K12",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 2,
+      "room": "Transformer Room",
+      "time": "14:00-15:00",
+      "type": "Seminar",
+      "topic": "K12",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
       ],
       "hide": false
     },
@@ -1279,7 +1341,20 @@
       ],
       "abstract": "",
       "speakers": [
-        ["digitate", "Digitate"]
+        ["vsjoshi", "VS Joshi"]
+      ],
+      "hide": false
+    },
+    {
+      "day": 2,
+      "room": "Transformer Room",
+      "time": "16:00-17:00",
+      "type": "Seminar",
+      "topic": "K12",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
       ],
       "hide": false
     },
@@ -1301,7 +1376,7 @@
       "room": "Launchpad Stage",
       "time": "09:18 - 09:36",
       "type": "Startup Demo",
-      "topic": "94AI",
+      "topic": "TeleAI",
       "moderators": [
       ],
       "abstract": "",
@@ -1359,7 +1434,7 @@
       "abstract": "",
       "speakers": [
       ],
-      "hide": false
+      "hide": true
     },
     {
       "day": 2,
@@ -1418,7 +1493,7 @@
       "room": "Launchpad Stage",
       "time": "13:00 - 13:18",
       "type": "Startup Demo",
-      "topic": "IDA Ireland",
+      "topic": "Serviceful",
       "moderators": [
       ],
       "abstract": "",
@@ -1496,7 +1571,7 @@
       "room": "Launchpad Stage",
       "time": "14:48 - 15:06",
       "type": "Startup Demo",
-      "topic": "PineCone",
+      "topic": "AiZip",
       "moderators": [
       ],
       "abstract": "",
@@ -1575,6 +1650,19 @@
       "time": "16:36 - 16:54",
       "type": "Startup Demo",
       "topic": "Telus International",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 2,
+      "room": "Launchpad Stage",
+      "time": "17:00-18:00",
+      "type": "Panel Discussion",
+      "topic": "K12",
       "moderators": [
       ],
       "abstract": "",

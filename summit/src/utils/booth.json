@@ -425,6 +425,11 @@
     "url": "https://www.evaluable.ai"
   },
   {
+    "name": "agent2ai",
+    "image": "agent2ai.png",
+    "url": "https://agent2.ai/"
+  },
+  {
     "name": "network3",
     "image": "network3.png",
     "url": "https://network3.io"

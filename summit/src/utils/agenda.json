@@ -46,7 +46,7 @@
       "room": "GPT Stage",
       "time": "11:45-12:15",
       "type": "Keynote",
-      "topic": "Improving RAG with Retrieval Augmented Fine-Tuning (RAFT) with AI Studio: Practical insights",
+      "topic": "Improving RAG with Retrieval Augmented Fine-Tuning (RAFT) with AI Studio: Practical Insights",
       "moderators": [
       ],
       "abstract": "",
@@ -135,7 +135,7 @@
       "speakers": [
         ["monicazou", "Monica Zou"],
         ["denisskrinnikoff", "Denis Skrinnikoff"],
-        ["xinyao", "Xin Yao"],
+        ["billyao", "Bill Yao"],
         ["onesourcecloud", "OneSource Cloud"]
       ],
       "hide": false
@@ -445,7 +445,7 @@
       "room": "Workshop Room",
       "time": "15:30-17:30",
       "type": "Workshop",
-      "topic": "Scale AI for your Business: Overview of watsonx and common AI use cases",
+      "topic": "Scale AI for Your Business: Overview of Watsonx and Common AI Use Cases",
       "moderators": [
       ],
       "abstract": "",
@@ -1082,7 +1082,7 @@
       "speakers": [
         ["garyolson", "Gary Olson"],
         ["markdesouza", "Mark De Souza"],
-        ["taraghazi", "Dr. Tara Ghazi"]
+        ["taraghazi", "Tara Ghazi, Ph.D."]
       ],
       "hide": false
     },

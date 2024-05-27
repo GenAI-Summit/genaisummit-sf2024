@@ -826,6 +826,20 @@
     "id": "ajinkyamalasane"
   },
   {
+    "name": "Antje Barth",
+    "job": "Principal Developer Advocate, Generative AI",
+    "tip": "Amazon Web Services",
+    "image": "antjebarth.jpg",
+    "website": "https://aws.amazon.com/blogs/aws/author/antjebar/#:~:text=Antje%20Barth%20is%20a%20Principal,and%20meetups%20around%20the%20world.",
+    "linkedin": "https://www.linkedin.com/in/antje-barth/",
+    "twitter": "https://x.com/anbarth",
+    "detail": "antjebarth2.png",
+    "description": "Antje Barth is a Principal Developer Advocate for Generative AI at Amazon Web Services (AWS). She is an accomplished author, having co-written the O'Reilly books \"Generative AI on AWS\" and \"Data Science on AWS.\" Antje is also an instructor, teaching courses on generative AI and data science. As a co-founder of the Women in Big Data Düsseldorf chapter, she actively promotes diversity in the tech industry. With over 17 years of experience, Antje is passionate about empowering developers to leverage generative AI and sharing her expertise through public speaking and community engagement.",
+    "new": false,
+    "hide": false,
+    "id": "antjebarth"
+  },
+  {
     "name": "Kevin Moody",
     "job": "Co-Founder & CEO",
     "tip": "Mem Labs",
@@ -976,7 +990,7 @@
     "detail": "mikemurchison2.webp",
     "description": "Mike Murchison is CEO of Ada, the world's leading customer service AI platform. A serial entrepreneur focused on using AI to transform the conversation between businesses and their customers, he champions the Canadian innovation ecosystem at home and abroad. Before starting Ada, Mike founded several other tech companies, including a social search community and a consulting firm for Fortune 500 clients. Ada raised $30M in its latest funding round, which was Series B round held on Feb 10, 2022.",
     "new": true,
-    "hide": true,
+    "hide": false,
     "id": "mikemurchison"
   },
   {
@@ -1188,6 +1202,34 @@
     "new": false,
     "hide": false,
     "id": "ameerhajali"
+  },
+  {
+    "name": "Yubei Chen",
+    "job": "Co-Founder",
+    "tip": "AIZIP",
+    "image": "yubeichen.jpg",
+    "website": "https://yubeichen.com/",
+    "twitter": "https://x.com/yubei_chen?lang=en",
+    "linkedin": "https://www.linkedin.com/in/yubei-chen-05998a39/",
+    "detail": "yubeichen2.png",
+    "description": "Yubei Chen is an assistant professor from the ECE department at UC Davis and cofounder at Aizip.ai. He has worked with Professor Yann LeCun at Meta AI and NYU as a postdoctoral researcher. Yubei received his MS/PhD in EECS and MA in Mathematics at UC Berkeley. His research focuses on understanding the computational principles governing unsupervised learning and generative modeling, with the goal of making AI explainable and ultra-efficient.",
+    "new": false,
+    "hide": false,
+    "id": "yubeichen"
+  },
+  {
+    "name": "Bill Yao",
+    "job": "Co-founder",
+    "tip": "Novita.ai",
+    "image": "billyao.jpg",
+    "website": "",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/billyao/",
+    "detail": "billyao2.png",
+    "description": "Bill is a seasoned serial entrepreneur and investor. In the classical internet era, he founded a video network serving hundreds of millions of users worldwide. He then became active in venture capital, investing in and establishing numerous mobile internet and AI companies. Recently, Bill has focused on promoting the global adoption of artificial intelligence, striving to ensure more people benefit from AI's advancements and conveniences.",
+    "new": false,
+    "hide": false,
+    "id": "billyao"
   },
   {
     "name": "Dr. Yichong Xu",

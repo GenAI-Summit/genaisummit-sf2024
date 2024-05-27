@@ -1,24 +1,10 @@
 [
   {
-    "name": "nvidia",
-    "image": "nvidia.png",
-    "url": "https://www.nvidia.com/",
-    "topic": "Hands-on With NVIDIA NIM Inference Microservices",
-    "description": "In this hands-on workshop you'll build your own RAG enabled AI chatbot using NVIDIA NIM, a collection of accelerated inference microservices for the latest AI foundation models. You’ll be guided in completing the end-to-end development lifecycle beginning with application prototyping using the NVIDIA API catalog and ending with production deployment using self-hosted NIM inference microservices running on NVIDIA DGX. We will cover essential RAG enabled chatbot architecture, tools, and workflow as well as production deployment best practices including inference optimization technology and techniques. You’ll leave with first-hand experience and understanding of the end-to-end development lifecycle for enterprise generative AI applications including how to deploy models at scale for secure, performance optimized inference anywhere."
-  },
-  {
     "name": "amazon",
     "image": "amazon.png",
     "url": "https://www.amazon.com/",
     "topic": "Build an advanced Retrieval Augmented Generation (RAG) assistant with Amazon Bedrock",
     "description": "This session will guide you through building an advanced generative AI assistant utilizing an advanced Retrieval Augmented Generation (RAG) technique powered by Anthropic Claude 3 on Amazon Bedrock. We will explore how to use Knowledge Bases for Amazon Bedrock for storing, and searching embeddings and how to use Agents for Amazon Bedrock to execute the tasks involved in this process. You will learn how to save time and resources by implementing an efficient and scalable system while ensuring data security throughout the process."
-  },
-  {
-    "name": "ibm",
-    "image": "IBM2.png",
-    "url": "https://www.ibm.com/",
-    "topic": "",
-    "description": ""
   },
   {
     "name": "sambanova",
@@ -28,11 +14,18 @@
     "description": "Join us for a workshop to try out LLama3 at its FASTEST. Explore the capabilities of SambaNova's latest offering, Samba-1 Turbo."
   },
   {
-    "name": "zilliz",
-    "image": "zilliz.png",
-    "url": "https://zilliz.com/",
-    "topic": "",
+    "name": "ibm",
+    "image": "IBM2.png",
+    "url": "https://www.ibm.com/",
+    "topic": "Scale AI for Your Business: Overview of Watsonx and Common AI Use Cases",
     "description": ""
+  },
+  {
+    "name": "nvidia",
+    "image": "nvidia.png",
+    "url": "https://www.nvidia.com/",
+    "topic": "Hands-on With NVIDIA NIM Inference Microservices",
+    "description": "In this hands-on workshop you'll build your own RAG enabled AI chatbot using NVIDIA NIM, a collection of accelerated inference microservices for the latest AI foundation models. You’ll be guided in completing the end-to-end development lifecycle beginning with application prototyping using the NVIDIA API catalog and ending with production deployment using self-hosted NIM inference microservices running on NVIDIA DGX. We will cover essential RAG enabled chatbot architecture, tools, and workflow as well as production deployment best practices including inference optimization technology and techniques. You’ll leave with first-hand experience and understanding of the end-to-end development lifecycle for enterprise generative AI applications including how to deploy models at scale for secure, performance optimized inference anywhere."
   },
   {
     "name": "otter",
@@ -42,23 +35,9 @@
     "description": ""
   },
   {
-    "name": "pinecone",
-    "image": "pinecone.png",
-    "url": "https://www.pinecone.io/",
-    "topic": "",
-    "description": ""
-  },
-  {
-    "name": "ushur",
-    "image": "ushur.png",
-    "url": "https://ushur.com/",
-    "topic": "",
-    "description": ""
-  },
-  {
-    "name": "mountainlion",
-    "image": "mountainlion.png",
-    "url": "https://www.mlion.ai/",
+    "name": "zilliz",
+    "image": "zilliz.png",
+    "url": "https://zilliz.com/",
     "topic": "",
     "description": ""
   },
@@ -67,6 +46,20 @@
     "image": "zuora.png",
     "url": "https://www.zuora.com/sulutions/accurately-capture-meter-usage",
     "topic": "How to Monetize GenAI with Zuora",
+    "description": ""
+  },
+  {
+    "name": "deepchecks",
+    "image": "deepchecks.png",
+    "url": "https://deepchecks.com/",
+    "topic": "",
+    "description": ""
+  },
+  {
+    "name": "privacera",
+    "image": "privacera.png",
+    "url": "https://privacera.com/",
+    "topic": "",
     "description": ""
   }
 ]

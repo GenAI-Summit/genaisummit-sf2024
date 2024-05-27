@@ -56,31 +56,31 @@ export default {
     const rooms = ref([
       {
         name: "GPT Stage",
-        show: false,
+        show: true,
       },
       {
         name: "AGI Stage",
-        show: false,
+        show: true,
       },
       {
         name: "Align Stage",
-        show: false,
+        show: true,
       },
       {
         name: "Prompt Space",
-        show: false,
+        show: true,
       },
       {
         name: "Transformer Room",
-        show: false,
+        show: true,
       },
       {
         name: "Launchpad Stage",
-        show: false,
+        show: true,
       },
       {
         name: "Workshop Room",
-        show: false,
+        show: true,
       },
     ]);
 

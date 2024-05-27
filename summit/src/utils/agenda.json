@@ -135,7 +135,7 @@
       "speakers": [
         ["monicazou", "Monica Zou"],
         ["denisskrinnikoff", "Denis Skrinnikoff"],
-        ["xinyao", "Xin Yao"],
+        ["billyao", "Bill Yao"],
         ["onesourcecloud", "OneSource Cloud"]
       ],
       "hide": false
@@ -445,7 +445,7 @@
       "room": "Workshop Room",
       "time": "15:30-17:30",
       "type": "Workshop",
-      "topic": "Scale AI for your Business: Overview of watsonx and common AI use cases",
+      "topic": "Scale AI for Your Business: Overview of Watsonx and Common AI Use Cases",
       "moderators": [
       ],
       "abstract": "",

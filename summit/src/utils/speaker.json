@@ -910,20 +910,6 @@
     "id": "kevinmcnamara"
   },
   {
-    "name": "Robert Mao",
-    "job": "Founder & CEO",
-    "tip": "ArcBlock",
-    "image": "robertmao.jpg",
-    "website": "",
-    "twitter": "https://x.com/mave99a",
-    "linkedin": "https://www.linkedin.com/in/robertmao/",
-    "detail": "robertmao2.png",
-    "description": "Robert Mao is the founder and CEO of ArcBlock, a leading platform to empower developers building dApps, DID(Decentralized Identity), blockchain and LLM (Large Language Models) applications. He is a serial entrepreneur and a public speaker about Decentralized Identity and blockchain technology. Prior to ArcBlock, Robert worked for Microsoft Research focusing on social computing. Robert Mao has authored more than 30 papers, journal articles, and patents, he is also the author of two books in blockchain technology.",
-    "new": true,
-    "hide": false,
-    "id": "robertmao"
-  },
-  {
     "name": "Cody MacDonald",
     "job": "Sr. Principal AI Engineer",
     "tip": "SambaNova",
@@ -1722,6 +1708,20 @@
     "id": "kelvinmu"
   },
   {
+    "name": "Jake Epstein",
+    "job": "Investor",
+    "tip": "Canaan",
+    "image": "jakeepstein.jpg",
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/jake-epstein-12915b11a/",
+    "twitter": "",
+    "detail": "jakeepstein2.png",
+    "description": "Jake Epstein is an Analyst at Canaan, an early-stage venture capital firm investing in transformative ideas. He focuses on enterprise and deep tech investments. Prior to joining Canaan in 2023, Jake was a product manager at Uber, leading a team that modified Uber's experiences and marketplace tech for emerging markets. He holds a B.A. in Computer Science and Engineering Sciences modified by Economics from Dartmouth.",
+    "new": false,
+    "hide": false,
+    "id": "jakeepstein"
+  },
+  {
     "name": "Jiang Chen",
     "job": "Head of Ecosystem & AI Platform",
     "tip": "Zilliz",
@@ -2098,6 +2098,20 @@
     "new": false,
     "hide": false,
     "id": "jiaruiliu"
+  },
+  {
+    "name": "Robert Mao",
+    "job": "Founder & CEO",
+    "tip": "ArcBlock",
+    "image": "robertmao.jpg",
+    "website": "",
+    "twitter": "https://x.com/mave99a",
+    "linkedin": "https://www.linkedin.com/in/robertmao/",
+    "detail": "robertmao2.png",
+    "description": "Robert Mao is the founder and CEO of ArcBlock, a leading platform to empower developers building dApps, DID(Decentralized Identity), blockchain and LLM (Large Language Models) applications. He is a serial entrepreneur and a public speaker about Decentralized Identity and blockchain technology. Prior to ArcBlock, Robert worked for Microsoft Research focusing on social computing. Robert Mao has authored more than 30 papers, journal articles, and patents, he is also the author of two books in blockchain technology.",
+    "new": true,
+    "hide": false,
+    "id": "robertmao"
   },
   {
     "name": "Yangxin Chen",

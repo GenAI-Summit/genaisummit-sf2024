@@ -441,6 +441,7 @@
       <!-- Media Section End -->
 
 
+      <!--
       <div class="section-number">
         <section class="cointainer">
           <div class="c" :class="screenWidth > 600 ? '' : 'mb'">
@@ -468,10 +469,10 @@
               </div>
             </div>
             <StarBackground />
-            <!-- <img class="wavs" src="../assets/images/wavs.gif" alt=""> -->
           </div>
         </section>
       </div>
+      -->
 
 
 

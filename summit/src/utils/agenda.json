@@ -25,7 +25,7 @@
       "speakers": [
         ["adamseligman", "Adam Seligman"]
       ],
-      "hide": false
+      "hide": true
     },
     {
       "day": 1,
@@ -1736,7 +1736,7 @@
       "speakers": [
         ["adamseligman", "Adam Seligman"]
       ],
-      "hide": false
+      "hide": true
     },
     {
       "day": 3,

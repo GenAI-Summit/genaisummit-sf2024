@@ -79,7 +79,7 @@
       "room": "GPT Stage",
       "time": "13:45-14:30",
       "type": "Keynote",
-      "topic": "Vector Database built for enterprise-grade AI applications",
+      "topic": "Vector Database Built for Enterprise-Grade AI Applications",
       "moderators": [
       ],
       "abstract": "",
@@ -95,6 +95,7 @@
       "type": "Panel Discussion",
       "topic": "The Power of Data in the Era of GenAI",
       "moderators": [
+        ["xiaoyinqu", "Xiaoyin Qu"]
       ],
       "abstract": "",
       "speakers": [
@@ -135,8 +136,7 @@
       "speakers": [
         ["monicazou", "Monica Zou"],
         ["denisskrinnikoff", "Denis Skrinnikoff"],
-        ["billyao", "Bill Yao"],
-        ["onesourcecloud", "OneSource Cloud"]
+        ["billyao", "Bill Yao"]
       ],
       "hide": false
     },
@@ -236,10 +236,10 @@
       "type": "Panel Discussion",
       "topic": "How AI Is Reshaping Services in Medical and Healthcare",
       "moderators": [
+        ["zacharylipton", "Zachary Lipton"]
       ],
       "abstract": "",
       "speakers": [
-        ["zacharylipton", "Zachary Lipton"],
         ["shyamrajagopalan", "Shyam Rajagopalan"],
         ["nataliavassilieva", "Dr. Natalia Vassilieva"],
         ["rameshsairamesh", "Dr. Ramesh Sairamesh"]
@@ -406,10 +406,10 @@
       ],
       "abstract": "",
       "speakers": [
-        ["mikayelkhachatryan", "Mikayel Khachatryan"],
         ["joonarahko", "Joona Rahko"],
         ["yangxinchen", "Yangxin Chen"],
-        ["gladman", "Glad man"]
+        ["gladman", "Glad man"],
+        ["shambhavimahajan", "Shambhavi Mahajan"]
       ],
       "hide": false
     },
@@ -1821,6 +1821,7 @@
       "type": "Panel Discussion",
       "topic": "Video Generation Models: from Research to Production",
       "moderators": [
+        ["kevinmcnamara", "Kevin McNamara"]
       ],
       "abstract": "",
       "speakers": [
@@ -1945,7 +1946,8 @@
       "abstract": "",
       "speakers": [
         ["jakeheller", "Jake Heller"],
-        ["jiaruiliu", "Dr. Jiarui Liu"]
+        ["jiaruiliu", "Dr. Jiarui Liu"],
+        ["mikayelkhachatryan", "Mikayel Khachatryan"]
       ],
       "hide": false
     },

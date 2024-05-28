@@ -131,23 +131,6 @@
 
       <!-- Sponsor Section Start -->
         <div class="wrapper">
-        <!--
-        <section id="maps_section" class="cointainer">
-          <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
-            <div
-              class="left-title before"
-              :class="screenWidth > 600 ? '' : 'mb'"
-              data-aos="flip-up"
-            >
-              Maps
-            </div>
-          </div>
-          <div class="ss-title" data-aos="flip-up">
-            FIND YOUR WAY TO THE PALACE OF FINE ARTS
-          </div>
-          <MapSwiper />
-        </section>
-        -->
         <section id="sponsor_section" class="cointainer">
           <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
             <div
@@ -461,6 +444,21 @@
       <!-- Media Section End -->
 
 
+      <section id="maps_section" class="cointainer">
+        <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
+          <div
+            class="left-title before"
+            :class="screenWidth > 600 ? '' : 'mb'"
+            data-aos="flip-up"
+          >
+            Maps
+          </div>
+        </div>
+        <div class="ss-title" data-aos="flip-up">
+          FIND YOUR WAY TO THE PALACE OF FINE ARTS
+        </div>
+        <MapSwiper />
+      </section>
       <!--
       <div class="section-number">
         <section class="cointainer">

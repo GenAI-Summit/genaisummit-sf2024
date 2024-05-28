@@ -757,6 +757,20 @@
     "id": "henrypeter"
   },
   {
+    "name": "Mike Miller",
+    "job": "Director of Product",
+    "tip": "Amazon Web Services",
+    "image": "mikemiller.jpg",
+    "website": "",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/camikemiller/",
+    "detail": "mikemiller2.png",
+    "description": "Mike Miller serves as the Director of Product, leveraging a robust background in product development and strategic planning. His LinkedIn profile showcases a career dedicated to innovating and improving product offerings across various industries. Mike's expertise includes market analysis, user experience design, and cross-functional team leadership. His approach to product management emphasizes data-driven decision-making and customer-centric design principles, aiming to deliver solutions that not only meet but exceed market expectations. Mike's leadership is marked by a commitment to excellence and continuous improvement.",
+    "new": false,
+    "hide": false,
+    "id": "mikemiller"
+  },
+  {
     "name": "Worldcoin",
     "job": "",
     "tip": "",

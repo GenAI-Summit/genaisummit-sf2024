@@ -128,8 +128,26 @@
 
     <div class="bg">
 
+
       <!-- Sponsor Section Start -->
-      <div class="wrapper">
+        <div class="wrapper">
+        <!--
+        <section id="maps_section" class="cointainer">
+          <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
+            <div
+              class="left-title before"
+              :class="screenWidth > 600 ? '' : 'mb'"
+              data-aos="flip-up"
+            >
+              Maps
+            </div>
+          </div>
+          <div class="ss-title" data-aos="flip-up">
+            FIND YOUR WAY TO THE PALACE OF FINE ARTS
+          </div>
+          <MapSwiper />
+        </section>
+        -->
         <section id="sponsor_section" class="cointainer">
           <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
             <div
@@ -1362,6 +1380,7 @@ import Media from "../components/Media.vue";
 import Booth from "../components/Booth.vue";
 import Resources from "../components/Resources.vue";
 import SpeakerModal from "../components/SpeakerModal.vue";
+import MapSwiper from "../components/MapSwiper.vue";
 
 // import speakers from "../utils/speaker.js";
 import speakers from "../utils/speaker.json";
@@ -2351,6 +2370,7 @@ export default {
     AgendaCard,
     SpeakerModal,
     Resources,
+    MapSwiper,
   },
   methods: {},
   mounted() {},

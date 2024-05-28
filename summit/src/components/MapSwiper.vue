@@ -1,80 +1,95 @@
 <template>
-  <div ref="slick" class="slick-carousel">
+  <div class="maps">
+    <img
+      v-for="(item, index) in maps"
+      :key="index"
+      class="img"
+      :src="item"
+      alt=""
+      @click="showImage(item)"
+    />
+
+    <div
+      v-if="showModal"
+      class="modal"
+      @click.self="closeModal"
+    >
+      <div class="modal-content">
+        <img :src="currentImage" alt="Enlarged image" class="enlarged-image">
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-import { ref, computed, watch,onMounted } from 'vue';
-import { useStore } from 'vuex'
-import $ from 'jquery';
-import PersionItem2 from './PersionItem2.vue'
-import EventBus from "../utils/EventBus.js";
+import { ref } from 'vue';
 
 export default {
-  name: '',
-  props: {
-  },
-  setup(props) {
-    const store = useStore();
-    const newSpeakersList = props.newSpeakersList
-    const screenWidth = computed(() => {
-      return store.state.screenWidth;
-    });
-    const pageSize = ref(Math.floor(screenWidth.value / 400) == 0 ? 1 : Math.floor(screenWidth.value / 400) + 1)
-    const nowPage = ref(1)
-    const total = newSpeakersList.length
-    const pages = ref(Math.ceil(total/pageSize.value))
-    const options = {
-      autoplaySpeed: 5000,
-      autoplay: true,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      dots: false,
-      arrows: false,
-      infinite: true,
-      slidesToShow: pageSize.value,
-      slidesToScroll: pageSize.value,
-    }
-    onMounted(() => {
-      $(".slick-carousel").slick(options);
-      $('.slick-carousel').on('afterChange', function(slick, currentSlide,index){
-          nowPage.value = index/pageSize.value + 1
-          sutmitPageInfo()
-      });
-      sutmitPageInfo()
-    })
-    const sutmitPageInfo = () => {
-      EventBus.$emit("pageInfo", {
-        nowPage: nowPage.value,
-        pages: pages.value
-      });
-    }
-    const slickNext = () => {
-      $('.slick-carousel').slick('slickNext');
-    }
-    const slickPrev = () => {
-      $('.slick-carousel').slick('slickPrev');
-    }
+  name: 'MapSwiper',
+  setup() {
+    const showModal = ref(false);
+    const currentImage = ref(null);
+    const maps = ref([
+      new URL('../assets/images/Floormap1.jpg', import.meta.url).href,
+      new URL('../assets/images/Floormap2.jpg', import.meta.url).href,
+    ]);
+
+
+    const showImage = (image) => {
+      currentImage.value = image;
+      showModal.value = true;
+    };
+
+    const closeModal = () => {
+      showModal.value = false;
+    };
+
     return {
-      slickNext,
-      slickPrev,
-      screenWidth
-    } 
+      maps,
+      showModal,
+      closeModal,
+      currentImage,
+      showImage,
+    };
   },
-  components: {
-  },
-  methods: {
-    
-  },
-  mounted() {
-  },
-  unmounted() {
-  },
-}
+};
 </script>
 
-<style scoped lang='scss'>
-.slick-carousel{
+<style scoped lang="scss">
+.maps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .img {
+    width: 50%;
+    height: auto;
+    cursor: pointer;
+  }
+
+  .modal {
+    position: fixed;
+    left: 0;
+    top: 0;
     width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+
+  .modal-content {
+    position: relative;
+    background: white;
+    padding: 5px;
+  }
+
+  .enlarged-image {
+    max-width: 90vw;
+    max-height: 90vh;
+  }
 }
 </style>
+

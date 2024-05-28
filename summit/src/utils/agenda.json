@@ -605,7 +605,7 @@
       "room": "Launchpad Stage",
       "time": "13:18 - 13:36",
       "type": "Startup Demo",
-      "topic": "Jeffrey Vanchat",
+      "topic": "Volary",
       "moderators": [
       ],
       "abstract": "",
@@ -618,7 +618,7 @@
       "room": "Launchpad Stage",
       "time": "13:36 - 13:54",
       "type": "Startup Demo",
-      "topic": "Upbeat",
+      "topic": "Marqo",
       "moderators": [
       ],
       "abstract": "",
@@ -631,7 +631,7 @@
       "room": "Launchpad Stage",
       "time": "13:54 - 14:12",
       "type": "Startup Demo",
-      "topic": "TaskUs",
+      "topic": "MountainLion",
       "moderators": [
       ],
       "abstract": "",
@@ -644,7 +644,7 @@
       "room": "Launchpad Stage",
       "time": "14:12 - 14:30",
       "type": "Startup Demo",
-      "topic": "DeepChecks",
+      "topic": "Fiddler AI",
       "moderators": [
       ],
       "abstract": "",
@@ -670,7 +670,7 @@
       "room": "Launchpad Stage",
       "time": "14:48 - 15:06",
       "type": "Startup Demo",
-      "topic": "ABAKA AI",
+      "topic": "CoursePals",
       "moderators": [
       ],
       "abstract": "",
@@ -735,12 +735,11 @@
       "room": "Launchpad Stage",
       "time": "16:18 - 16:36",
       "type": "Startup Demo",
-      "topic": "Orb",
+      "topic": "Upbeat",
       "moderators": [
       ],
       "abstract": "",
       "speakers": [
-        ["kshitijgrover", "Kshitij Grover"]
       ],
       "hide": false
     },
@@ -1387,7 +1386,7 @@
       "room": "Launchpad Stage",
       "time": "09:00 - 09:18",
       "type": "Startup Demo",
-      "topic": "",
+      "topic": "Sider",
       "moderators": [
       ],
       "abstract": "",
@@ -1400,7 +1399,7 @@
       "room": "Launchpad Stage",
       "time": "09:18 - 09:36",
       "type": "Startup Demo",
-      "topic": "TeleAI",
+      "topic": "AIGNE",
       "moderators": [
       ],
       "abstract": "",
@@ -1413,7 +1412,7 @@
       "room": "Launchpad Stage",
       "time": "09:36 - 09:54",
       "type": "Startup Demo",
-      "topic": "Ivymax",
+      "topic": "Socreate",
       "moderators": [
       ],
       "abstract": "",
@@ -1426,7 +1425,7 @@
       "room": "Launchpad Stage",
       "time": "09:54 - 10:12",
       "type": "Startup Demo",
-      "topic": "Usage Based Billing for AI",
+      "topic": "ATLAS",
       "moderators": [
       ],
       "abstract": "",
@@ -1439,7 +1438,7 @@
       "room": "Launchpad Stage",
       "time": "10:12 - 10:30",
       "type": "Startup Demo",
-      "topic": "Akool",
+      "topic": "Fivetran",
       "moderators": [
       ],
       "abstract": "",
@@ -1452,7 +1451,7 @@
       "room": "Launchpad Stage",
       "time": "10:30 - 10:48",
       "type": "Startup Demo",
-      "topic": "Swift Security",
+      "topic": "TeleAI",
       "moderators": [
       ],
       "abstract": "",
@@ -1504,7 +1503,7 @@
       "room": "Launchpad Stage",
       "time": "11:42 - 12:00",
       "type": "Startup Demo",
-      "topic": "Fivetran",
+      "topic": "FairIP",
       "moderators": [
       ],
       "abstract": "",
@@ -1531,7 +1530,7 @@
       "room": "Launchpad Stage",
       "time": "13:18 - 13:36",
       "type": "Startup Demo",
-      "topic": "pointable.ai",
+      "topic": "oneGen",
       "moderators": [
       ],
       "abstract": "",
@@ -1557,7 +1556,7 @@
       "room": "Launchpad Stage",
       "time": "13:54 - 14:12",
       "type": "Startup Demo",
-      "topic": "GenerativeX",
+      "topic": "Gradient",
       "moderators": [
       ],
       "abstract": "",
@@ -1570,7 +1569,7 @@
       "room": "Launchpad Stage",
       "time": "14:12 - 14:30",
       "type": "Startup Demo",
-      "topic": "Teqfocus",
+      "topic": "GenerativeX",
       "moderators": [
       ],
       "abstract": "",
@@ -1648,7 +1647,7 @@
       "room": "Launchpad Stage",
       "time": "16:00 - 16:18",
       "type": "Startup Demo",
-      "topic": "Enviate AI",
+      "topic": "Telus International",
       "moderators": [
       ],
       "abstract": "",
@@ -1661,7 +1660,7 @@
       "room": "Launchpad Stage",
       "time": "16:18 - 16:36",
       "type": "Startup Demo",
-      "topic": "Sparkware",
+      "topic": "RealChar",
       "moderators": [
       ],
       "abstract": "",
@@ -1674,7 +1673,7 @@
       "room": "Launchpad Stage",
       "time": "16:36 - 16:54",
       "type": "Startup Demo",
-      "topic": "Telus International",
+      "topic": "Streetbeat",
       "moderators": [
       ],
       "abstract": "",
@@ -2207,7 +2206,7 @@
       "room": "Launchpad Stage",
       "time": "09:18 - 09:36",
       "type": "Startup Demo",
-      "topic": "RealChar",
+      "topic": "TaskUs",
       "moderators": [
       ],
       "abstract": "",
@@ -2220,7 +2219,7 @@
       "room": "Launchpad Stage",
       "time": "09:36 - 09:54",
       "type": "Startup Demo",
-      "topic": "Streetbeat",
+      "topic": "Deepchecks",
       "moderators": [
       ],
       "abstract": "",
@@ -2233,7 +2232,7 @@
       "room": "Launchpad Stage",
       "time": "09:54 - 10:12",
       "type": "Startup Demo",
-      "topic": "Tursio",
+      "topic": "Pointable",
       "moderators": [
       ],
       "abstract": "",
@@ -2246,7 +2245,7 @@
       "room": "Launchpad Stage",
       "time": "10:12 - 10:30",
       "type": "Startup Demo",
-      "topic": "House.com",
+      "topic": "Teqfocus",
       "moderators": [
       ],
       "abstract": "",
@@ -2259,13 +2258,13 @@
       "room": "Launchpad Stage",
       "time": "10:30 - 10:48",
       "type": "Startup Demo",
-      "topic": "MagStone Law",
+      "topic": "Enviate",
       "moderators": [
       ],
       "abstract": "",
       "speakers": [
       ],
-      "hide": true
+      "hide": false
     },
     {
       "day": 3,
@@ -2285,7 +2284,7 @@
       "room": "Launchpad Stage",
       "time": "11:06 - 11:24",
       "type": "Startup Demo",
-      "topic": "Fiddler AI",
+      "topic": "Akool",
       "moderators": [
       ],
       "abstract": "",
@@ -2296,28 +2295,15 @@
     {
       "day": 3,
       "room": "Launchpad Stage",
-      "time": "",
-      "type": "Startup Demo",
-      "topic": "",
-      "moderators": [
-      ],
-      "abstract": "",
-      "speakers": [
-      ],
-      "hide": true
-    },
-    {
-      "day": 3,
-      "room": "Launchpad Stage",
       "time": "11:24 - 11:42",
       "type": "Startup Demo",
-      "topic": "",
+      "topic": "Ivymax",
       "moderators": [
       ],
       "abstract": "",
       "speakers": [
       ],
-      "hide": true
+      "hide": false
     },
     {
       "day": 3,
@@ -2343,7 +2329,7 @@
       "abstract": "",
       "speakers": [
       ],
-      "hide": false
+      "hide": true
     },
     {
       "day": 3,

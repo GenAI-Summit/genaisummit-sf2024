@@ -2352,6 +2352,20 @@
     "id": "paromavarma"
   },
   {
+    "name": "Zack Li",
+    "job": "Co-Founder & CTO",
+    "tip": "NexaAI",
+    "image": "zackli.jpg",
+    "website": "",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/zack-z-li/",
+    "detail": "zackli2.png",
+    "description": "Zack Li is the Co-Founder and CTO of NexaAI, a pioneering AI company focused on developing advanced AI agents. He has a strong background in areas like numerical analysis, statistical learning, convex optimization, data mining, and probability analysis.  NexaAI is at the forefront of AI innovation, introducing groundbreaking models like Octoverse, an AI agent foundation model, and Octopus, a multi-modal AI system for applications like autonomous driving and robotics.  Under Zack's technical leadership, NexaAI aims to push the boundaries of AI capabilities.",
+    "new": false,
+    "hide": false,
+    "id": "zackli"
+  },
+  {
     "name": "Bryan Talebi",
     "job": "CEO and Co-Founder",
     "tip": "Ahura AI",
@@ -2616,6 +2630,20 @@
     "new": false,
     "hide": false,
     "id": "sakshipratap"
+  },
+  {
+    "name": "Shambhavi Mahajan",
+    "job": "Co-founder & COO",
+    "tip": "Hexus",
+    "image": "shambhavimahajan.jpg",
+    "website": "",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/shambhavi-mahajan/",
+    "detail": "shambhavimahajan2.png",
+    "description": "Shambhavi Mahajan is the Co-Founder and COO of Hexus, an AI company she co-founded with her team. Prior to Hexus, she worked as an Automotive Designer for Formula Student Germany, an international student design competition. Mahajan is passionate about the intersection of AI, design, and prototyping, and has shared her insights on these topics. Hexus, founded in 2024, aims to leverage AI for various applications, with Mahajan leading the company's operations and strategy.",
+    "new": false,
+    "hide": false,
+    "id": "shambhavimahajan"
   },
   {
     "name": "Xiaoyin Qu",

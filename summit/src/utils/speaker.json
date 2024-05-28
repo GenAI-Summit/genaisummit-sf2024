@@ -2492,8 +2492,22 @@
     "id": "minfawang"
   },
   {
-    "name": "ankit jain",
-    "job": "founder & company lead",
+    "name": "Derrick Gong",
+    "job": "Founder",
+    "tip": "CoursePals",
+    "image": "derrickgong.jpg",
+    "website": "",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/zeengong/",
+    "detail": "derrickgong2.png",
+    "description": "Derrick Gong is the Founder of CoursePals, a startup focused on education technology. He is currently a student at Stanford University's Center for East Asian Studies (CEAS), where he is pursuing a Master's degree with a perfect 4.0 GPA. Prior to founding CoursePals, Gong was a Yenching Scholar at Peking University. His LinkedIn profile highlights his entrepreneurial spirit and academic achievements at prestigious institutions.",
+    "new": false,
+    "hide": false,
+    "id": "derrickgong"
+  },
+  {
+    "name": "Ankit Jain",
+    "job": "founder & Company Lead",
     "tip": "infinitus",
     "image": "ankitjain.webp",
     "website": "",

@@ -307,7 +307,7 @@
       "speakers": [
         ["shishirpatil", "Shishir Patil"],
         ["minfawang", "Minfa Wang"],
-        ["leopekelis", "Leo Pekelis"],
+        ["leonidpekelis", "Leonid Pekelis"],
         ["vicbhatia", "Vic Bhatia"]
       ],
       "hide": false
@@ -326,7 +326,7 @@
         ["nikunjbajaj", "Nikunj Bajaj"],
         ["krishnagade", "Krishna Gade"],
         ["kshitijgrover", "Kshitij Grover"],
-        ["mattdupree", "Matt Dupree"]
+        ["kmatthewdupree", "K. Matthew Dupree"]
       ],
       "hide": false
     },
@@ -343,7 +343,8 @@
       "speakers": [
         ["weiliendang", "Wei Lien Dang"],
         ["alessiofanelli", "Alessio Fanelli"],
-        ["jamesalcorn", "James Alcorn"]
+        ["jamesalcorn", "James Alcorn"],
+        ["oanaolteanu", "Oana Olteanu"]
       ],
       "hide": false
     },
@@ -352,7 +353,7 @@
       "room": "Align Stage",
       "time": "14:00-14:30",
       "type": "Keynote",
-      "topic": "",
+      "topic": "Will be provided by the speaker soon",
       "moderators": [
       ],
       "abstract": "",
@@ -554,7 +555,7 @@
       ],
       "abstract": "",
       "speakers": [
-        ["leopekelis", "Leo Pekelis"]
+        ["leonidpekelis", "Leonid Pekelis"]
       ],
       "hide": false
     },

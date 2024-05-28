@@ -37,7 +37,7 @@
                   alt="Time"
                   loading="lazy"
                 />
-                May 29 - May 31, 2024
+                May 29 - May 31, 2024 &nbsp; <strong>(Check-in time: 8:00 AM - 4:30 PM)</strong>
               </div>
             </div>
             <div class="btn-group">

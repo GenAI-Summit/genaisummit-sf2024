@@ -868,6 +868,34 @@
     "id": "allydawson"
   },
   {
+    "name": "Richard Ward",
+    "job": "Chief Design Officer",
+    "tip": "Otter.ai",
+    "image": "richardward.jpg",
+    "website": "https://otter.ai/author/richard",
+    "linkedin": "https://www.linkedin.com/in/richard-ward-5410164/",
+    "twitter": "",
+    "detail": "richardward2.png",
+    "description": "Richard is the Director of Product Management at Otter.ai where they have been spearheading the development of Generative AI products for the past two years. With a robust 14-year career in Product Management and 8 years dedicated to SaaS collaboration products, Richard brings a wealth of experience and a deep understanding of innovative Enterprise AI product development.",
+    "new": false,
+    "hide": true,
+    "id": "richardward"
+  },
+  {
+    "name": "Richard Tasker",
+    "job": "Director of Product Management",
+    "tip": "Otter.ai",
+    "image": "richardtasker.jpg",
+    "website": "https://otter.ai/author/richard-tasker",
+    "linkedin": "https://www.linkedin.com/in/richardtasker/",
+    "twitter": "https://x.com/rtasker?lang=en",
+    "detail": "richardtasker2.png",
+    "description": "Richard is the Director of Product Management at Otter.ai where they have been spearheading the development of Generative AI products for the past two years. With a robust 14-year career in Product Management and 8 years dedicated to SaaS collaboration products, Richard brings a wealth of experience and a deep understanding of innovative Enterprise AI product development.",
+    "new": false,
+    "hide": false,
+    "id": "richardtasker"
+  },
+  {
     "name": "Babu Sivadasan",
     "job": "Co-Founder & CEO",
     "tip": "JIFFY.ai",
@@ -2126,20 +2154,6 @@
     "new": false,
     "hide": false,
     "id": "kaseykyungsilroh"
-  },
-  {
-    "name": "Richard Tasker",
-    "job": "Director of Product Management",
-    "tip": "Otter.ai",
-    "image": "richardtasker.webp",
-    "website": "https://otter.ai/author/richard-tasker",
-    "linkedin": "https://www.linkedin.com/in/richardtasker/",
-    "twitter": "https://x.com/rtasker?lang=en",
-    "detail": "richardtasker2.png",
-    "description": "Richard Tasker is the Director of Product Management at Otter.ai. With a background in electrical engineering and information technology, he brings extensive experience in product management, market research, and team leadership across various domains like AI/ML, collaboration, and telecommunications. At Otter.ai, Tasker leverages his expertise to drive innovative product strategies, ensuring the delivery of cutting-edge meeting technology solutions that harness natural language processing and artificial intelligence capabilities.",
-    "new": false,
-    "hide": false,
-    "id": "richardtasker"
   },
   {
     "name": "Frank Liu",

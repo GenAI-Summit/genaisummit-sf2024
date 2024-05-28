@@ -2324,6 +2324,34 @@
     "id": "shaunw"
   },
   {
+    "name": "Grace Chen",
+    "job": "Founder & CEO",
+    "tip": "UpMarket",
+    "image": "gracechen.jpg",
+    "website": "",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/gracechen3103/",
+    "detail": "gracechen2.png",
+    "description": "Grace Chen is the Founder and CEO of UpMarket, a platform that democratizes access to alternative investments for accredited individual investors. UpMarket offers a diverse range of products, including real estate funds, private equity funds, hedge funds, private debt, and pre-IPO shares in companies like SpaceX and OpenAI. With offices in New York City, the Bay Area, and Bellevue, Seattle, UpMarket aims to provide accredited investors with quality alternative investment opportunities to achieve a truly diversified and risk-adjusted portfolio.",
+    "new": false,
+    "hide": false,
+    "id": "gracechen"
+  },
+  {
+    "name": "Dr. Paroma Varma",
+    "job": "Co-Founder",
+    "tip": "Snorkel AI",
+    "image": "paromavarma.jpg",
+    "website": "https://www.paroma.xyz/",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/paromavarma/",
+    "detail": "paromavarma2.png",
+    "description": "Paroma Varma is the Co-Founder of Snorkel AI, a pioneering data-centric artificial intelligence platform that leverages programmatic data labeling and weak supervision techniques.  She earned her Ph.D. in Electrical Engineering from Stanford University, where Snorkel AI originated as a research project in 2015.  Prior to co-founding Snorkel AI in 2019, Varma interned at Meta (formerly Facebook) for six months.  Snorkel AI's platform, Snorkel Flow, enables efficient building, managing, and monitoring of end-to-end AI applications. ",
+    "new": false,
+    "hide": false,
+    "id": "paromavarma"
+  },
+  {
     "name": "Bryan Talebi",
     "job": "CEO and Co-Founder",
     "tip": "Ahura AI",
@@ -2588,6 +2616,20 @@
     "new": false,
     "hide": false,
     "id": "sakshipratap"
+  },
+  {
+    "name": "Xiaoyin Qu",
+    "job": "Founder",
+    "tip": "Stealth Startup",
+    "image": "xiaoyinqu.jpg",
+    "website": "",
+    "twitter": "https://x.com/quxiaoyin?lang=en",
+    "linkedin": "https://www.linkedin.com/in/xiaoyinqu/",
+    "detail": "xiaoyinqu2.png",
+    "description": "Xiaoyin Qu is the founder of a stealth AI startup after previously founding and selling Run The World, a leading virtual events platform, to EventMobi in 2023. She is a Forbes 30 Under 30 honoree, LinkedIn Top Voice, and Inc. Female Founder 100 recipient. Qu is an active angel investor across enterprise, consumer, AI, and deep tech startups. She is also a prolific tech writer and influencer, with her own product column in China and a bestselling product management book.",
+    "new": false,
+    "hide": false,
+    "id": "xiaoyinqu"
   },
   {
     "name": "Aria Li",

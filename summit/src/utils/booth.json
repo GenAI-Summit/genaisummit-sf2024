@@ -260,6 +260,11 @@
     "url": "https://www.withorb.com/ai"
   },
   {
+    "name": "sparkware",
+    "image": "sparkware.png",
+    "url": ""
+  },
+  {
     "name": "upbeat",
     "image": "upbeat.png",
     "url": "https://www.upbeat.chat"

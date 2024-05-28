@@ -357,7 +357,7 @@
       ],
       "abstract": "",
       "speakers": [
-        ["nexa4ai", "Nexa4ai"]
+        ["zackli", "Zack Li"]
       ],
       "hide": false
     },
@@ -382,6 +382,7 @@
       "type": "Panel Discussion",
       "topic": "Transform Work Velocity with AI Tools",
       "moderators": [
+        ["charanyakannan", "Charanya Kannan"]
       ],
       "abstract": "",
       "speakers": [
@@ -416,7 +417,7 @@
       "room": "Workshop Room",
       "time": "09:00-11:00",
       "type": "Workshop",
-      "topic": "Build an advanced Retrieval Augmented Generation (RAG) assistant with Amazon Bedrock",
+      "topic": "AWS | Build an advanced Retrieval Augmented Generation (RAG) assistant with Amazon Bedrock",
       "moderators": [
       ],
       "abstract": "",
@@ -430,7 +431,7 @@
       "room": "Workshop Room",
       "time": "13:00-15:00",
       "type": "Workshop",
-      "topic": "Llama3 at its FASTEST!",
+      "topic": "SambaNova | Llama3 at its FASTEST!",
       "moderators": [
       ],
       "abstract": "",
@@ -445,7 +446,7 @@
       "room": "Workshop Room",
       "time": "15:30-17:30",
       "type": "Workshop",
-      "topic": "Scale AI for Your Business: Overview of Watsonx and Common AI Use Cases",
+      "topic": "IBM | Scale AI for Your Business: Overview of Watsonx and Common AI Use Cases",
       "moderators": [
       ],
       "abstract": "",
@@ -504,12 +505,14 @@
       "type": "Panel Discussion",
       "topic": "Data to Deployment: Secrets behind Scaled AI Production with AI Startups and Investors",
       "moderators": [
+        ["dmytrospodarets", "Dmytro Spodarets"]
       ],
       "abstract": "",
       "speakers": [
         ["surajpatel", "Suraj Patel"],
         ["sharonzhou", "Dr. Sharon Zhou"],
-        ["changshe", "Chang She"]
+        ["changshe", "Chang She"],
+        ["arimorcos", "Ari Morcos"]
       ],
       "hide": false
     },
@@ -717,11 +720,12 @@
       "room": "Launchpad Stage",
       "time": "16:18 - 16:36",
       "type": "Startup Demo",
-      "topic": "GPTWork AI",
+      "topic": "Orb",
       "moderators": [
       ],
       "abstract": "",
       "speakers": [
+        ["kshitijgrover", "Kshitij Grover"]
       ],
       "hide": true
     },
@@ -1013,6 +1017,20 @@
     {
       "day": 2,
       "room": "AGI Stage",
+      "time": "15:15-16:00",
+      "type": "Fireside Chat",
+      "topic": "Will be provided by speakers soon",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["johanneseichstaedt", "Dr. Johannes Eichstaedt"]
+      ],
+      "hide": false
+    },
+    {
+      "day": 2,
+      "room": "AGI Stage",
       "time": "16:00-16:45",
       "type": "Panel Discussion",
       "topic": "AI-Powered Personalization",
@@ -1028,7 +1046,7 @@
       "room": "Align Stage",
       "time": "09:00-09:40",
       "type": "Panel Discussion",
-      "topic": "Will be provided by speakers soon",
+      "topic": "How does AI Agent Reshape Our Workplace",
       "moderators": [
       ],
       "abstract": "",
@@ -1164,7 +1182,7 @@
       "room": "Workshop Room",
       "time": "09:00-11:00",
       "type": "Workshop",
-      "topic": "Hands-on with NVIDIA NIM inference microservices",
+      "topic": "NVIDIA | Hands-on with NVIDIA NIM inference microservices",
       "moderators": [
       ],
       "abstract": "",
@@ -1178,9 +1196,22 @@
     {
       "day": 2,
       "room": "Workshop Room",
+      "time": "11:00- 12:00",
+      "type": "Workshop",
+      "topic": "Deepchecks | Hands on LLM Evaluation Workshop",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 2,
+      "room": "Workshop Room",
       "time": "13:00-15:00",
       "type": "Workshop",
-      "topic": "How to Use Otter.AI to Enpower GenAI Productivity at Work",
+      "topic": "Otter.AI | How to Use Otter.AI to Enpower GenAI Productivity at Work",
       "moderators": [
       ],
       "abstract": "",
@@ -1194,12 +1225,12 @@
       "room": "Workshop Room",
       "time": "15:00-17:00",
       "type": "Workshop",
-      "topic": "Will be provided by speakers soon",
+      "topic": "Zilliz | Upgrade Your GenAI Applications with Multimodal RAG",
       "moderators": [
       ],
       "abstract": "",
       "speakers": [
-        ["zilliz", "Zilliz"]
+        ["frankliu", "Frank Liu"]
       ],
       "hide": false
     },
@@ -1254,28 +1285,17 @@
       "room": "Prompt Space",
       "time": "13:00-15:00",
       "type": "Seminar",
-      "topic": "Will be provided by speakers soon",
+      "topic": "Harnessing GenAI: Ushur's Approach to (e2e) Document Automation & Conversational AI",
       "moderators": [
       ],
       "abstract": "",
       "speakers": [
-        ["ushur", "Ushur"]
+        ["barrytallis", "Barry Tallis"],
+        ["badrinath", "Badri Nath"],
+        ["kellyamsbry", "Kelly Amsbry"],
+        ["mannybernabe", "Manny Bernabe"]
       ],
       "hide": false
-    },
-    {
-      "day": 2,
-      "room": "Prompt Space",
-      "time": "14:00-15:00",
-      "type": "Seminar",
-      "topic": "Will be provided by speakers soon",
-      "moderators": [
-      ],
-      "abstract": "",
-      "speakers": [
-        ["johanneseichstaedt", "Dr. Johannes Eichstaedt"]
-      ],
-      "hide": true
     },
     {
       "day": 2,
@@ -2040,7 +2060,7 @@
       "room": "Align Stage",
       "time": "14:15-15:15",
       "type": "Panel Discussion",
-      "topic": "Will be provided by speakers soon",
+      "topic": "Transformative Impact of Generative AI on Future Interactive Education",
       "moderators": [
       ],
       "abstract": "",
@@ -2068,7 +2088,7 @@
       "room": "Workshop Room",
       "time": "09:00-10:00",
       "type": "Workshop",
-      "topic": "How to Monetize GenAI with Zuora",
+      "topic": "Zuora | How to Monetize GenAI with Zuora",
       "moderators": [
       ],
       "abstract": "",
@@ -2081,26 +2101,9 @@
     {
       "day": 3,
       "room": "Workshop Room",
-      "time": "10:00-11:00",
-      "type": "Workshop",
-      "topic": "Will be provided by speakers soon",
-      "moderators": [
-      ],
-      "abstract": "",
-      "speakers": [
-        ["barrytallis", "Barry Tallis"],
-        ["badrinath", "Badri Nath"],
-        ["kellyamsbry", "Kelly Amsbry"],
-        ["mannybernabe", "Manny Bernabe"]
-      ],
-      "hide": false
-    },
-    {
-      "day": 3,
-      "room": "Workshop Room",
       "time": "13:00-14:00",
       "type": "Workshop",
-      "topic": "Will be provided by speakers soon",
+      "topic": "K12 | MIT AI For Filmmaking Workshop",
       "moderators": [
       ],
       "abstract": "",
@@ -2114,7 +2117,7 @@
       "room": "Workshop Room",
       "time": "14:00-15:00",
       "type": "Workshop",
-      "topic": "Will be provided by speakers soon",
+      "topic": "K12 | MIT App Inventor Workshop",
       "moderators": [
       ],
       "abstract": "",
@@ -2128,7 +2131,7 @@
       "room": "Workshop Room",
       "time": "15:00-16:00",
       "type": "Workshop",
-      "topic": "Will be provided by speakers soon",
+      "topic": "Privacera | Will be provided by speakers soon",
       "moderators": [
       ],
       "abstract": "",

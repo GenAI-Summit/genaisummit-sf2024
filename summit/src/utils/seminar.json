@@ -9,7 +9,7 @@
   {
     "name": "Magstone Law",
     "image": "magstonelaw.png",
-    "url": "https://www.cloudfabrix.com/",
+    "url": "https://www.magstonelaw.com/",
     "topic": "",
     "description": ""
   },
@@ -28,6 +28,20 @@
     "description": ""
   },
   {
+    "name": "cloudfabrix",
+    "image": "cloudfabrix.png",
+    "url": "https://www.cloudfabrix.com/",
+    "topic": "Accelerate your Autonomous Enterprise Journey with GenAl, AlOps and Observability",
+    "description": ""
+  },
+  {
+    "name": "ushur",
+    "image": "ushur.png",
+    "url": "https://ushur.com/",
+    "topic": "Harnessing GenAI: Ushur's Approach to (e2e) Document Automation & Conversational AI",
+    "description": ""
+  },
+  {
     "name": "rapidsoc2",
     "image": "rapidsoc2.png",
     "url": "https://rapidsoc2.com/",
@@ -38,21 +52,21 @@
     "name": "vimmerse",
     "image": "vimmerse.png",
     "url": "https://www.vimmerse.net/",
-    "topic": "",
+    "topic": "Animate Your Visuals with Vimmerse",
     "description": ""
   },
   {
     "name": "Ayraa",
     "image": "ayraa.png",
     "url": "https://www.ayraa.io/",
-    "topic": "",
+    "topic": "RAGs Exposed: How to Build Your Own Enterprise AI Assistant",
     "description": ""
   },
   {
     "name": "digitate",
     "image": "digitate.png",
     "url": "https://digitate.com/",
-    "topic": "",
+    "topic": "The Future of IT and Business Operations with AI-powered Insights and GenAI",
     "description": ""
   },
   {

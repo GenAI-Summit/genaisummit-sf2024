@@ -2590,6 +2590,20 @@
     "id": "sakshipratap"
   },
   {
+    "name": "Aria Li",
+    "job": "Senior Machine Learning Engineer",
+    "tip": "Sony Interactive Entertainment",
+    "image": "ariali.jpg",
+    "website": "",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/aria-li-605209169/",
+    "detail": "ariali2.png",
+    "description": "Aria is a Senior Machine Learning Engineer at Sony Interactive Entertainment. With two patents in Recommender Systems and LLMs, she has developed AI agents for PayPal. She is also the founder of a non-profit that mentors young professionals entering the MLE field. Passionate about AI innovation, she thrives on creating impactful solutions and nurturing the next generation of engineers.",
+    "new": false,
+    "hide": false,
+    "id": "ariali"
+  },
+  {
     "name": "Claire Xie",
     "job": "Founder & CEO",
     "tip": "Clink AI",

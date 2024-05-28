@@ -909,7 +909,7 @@
       "room": "AGI Stage",
       "time": "09:45-10:15",
       "type": "Keynote",
-      "topic": "Lightning Speed AI Inference to Understand Profoundly and Intuitively",
+      "topic": "Either AI Is Happening to You, or You Are Making AI Happen",
       "moderators": [
       ],
       "abstract": "",
@@ -2129,20 +2129,6 @@
     },
     {
       "day": 3,
-      "room": "Workshop Room",
-      "time": "15:00-16:00",
-      "type": "Workshop",
-      "topic": "Privacera | Will be provided by speakers soon",
-      "moderators": [
-      ],
-      "abstract": "",
-      "speakers": [
-        ["privacera", "Privacera"]
-      ],
-      "hide": false
-    },
-    {
-      "day": 3,
       "room": "Prompt Space",
       "time": "10:00-11:00",
       "type": "Seminar",
@@ -2174,7 +2160,7 @@
       "room": "Transformer Room",
       "time": "09:00-10:00",
       "type": "Seminar",
-      "topic": "Will be provided by the speaker soon",
+      "topic": "Build a GenAI App with Safety Guardrails with Privacera",
       "moderators": [
       ],
       "abstract": "",

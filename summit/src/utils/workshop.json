@@ -28,6 +28,13 @@
     "description": "In this hands-on workshop you'll build your own RAG enabled AI chatbot using NVIDIA NIM, a collection of accelerated inference microservices for the latest AI foundation models. You’ll be guided in completing the end-to-end development lifecycle beginning with application prototyping using the NVIDIA API catalog and ending with production deployment using self-hosted NIM inference microservices running on NVIDIA DGX. We will cover essential RAG enabled chatbot architecture, tools, and workflow as well as production deployment best practices including inference optimization technology and techniques. You’ll leave with first-hand experience and understanding of the end-to-end development lifecycle for enterprise generative AI applications including how to deploy models at scale for secure, performance optimized inference anywhere."
   },
   {
+    "name": "deepchecks",
+    "image": "deepchecks.png",
+    "url": "https://deepchecks.com/",
+    "topic": "Hands on LLM Evaluation Workshop",
+    "description": ""
+  },
+  {
     "name": "otter",
     "image": "otter.png",
     "url": "https://otter.ai/",
@@ -38,7 +45,7 @@
     "name": "zilliz",
     "image": "zilliz.png",
     "url": "https://zilliz.com/",
-    "topic": "",
+    "topic": "Upgrade Your GenAI Applications with Multimodal RAG",
     "description": ""
   },
   {
@@ -46,13 +53,6 @@
     "image": "zuora.png",
     "url": "https://www.zuora.com/sulutions/accurately-capture-meter-usage",
     "topic": "How to Monetize GenAI with Zuora",
-    "description": ""
-  },
-  {
-    "name": "deepchecks",
-    "image": "deepchecks.png",
-    "url": "https://deepchecks.com/",
-    "topic": "",
     "description": ""
   },
   {

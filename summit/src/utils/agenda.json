@@ -727,7 +727,7 @@
       "speakers": [
         ["kshitijgrover", "Kshitij Grover"]
       ],
-      "hide": true
+      "hide": false
     },
     {
       "day": 1,

@@ -37,7 +37,10 @@
                   alt="Time"
                   loading="lazy"
                 />
-                May 29 - May 31, 2024 &nbsp; <strong>(Check-in time: 8:00 AM - 4:30 PM)</strong>
+                May 29 - May 31, 2024
+              </div>
+              <div class="mt4">
+                <strong>(Check-in time: 8:00 AM - 4:30 PM. Please have your Luma or Eventbrite tickets ready.)</strong>
               </div>
             </div>
             <div class="btn-group">

@@ -462,7 +462,7 @@
       "room": "Prompt Space",
       "time": "10:00-11:00",
       "type": "Seminar",
-      "topic": "Will be provided by speakers soon",
+      "topic": "Hyperbolic Labs | Will be provided by speakers soon",
       "moderators": [
       ],
       "abstract": "",
@@ -476,7 +476,7 @@
       "room": "Prompt Space",
       "time": "13:00-14:00",
       "type": "Seminar",
-      "topic": "Will be provided by speakers soon",
+      "topic": "Magstone Law | Will be provided by speakers soon",
       "moderators": [
       ],
       "abstract": "",
@@ -490,7 +490,7 @@
       "room": "Prompt Space",
       "time": "14:00-15:00",
       "type": "Seminar",
-      "topic": "Unleashing the Power of Web3 Domain Experts: Leveraging Specialized LLMs and AI Agents ",
+      "topic": "MountainLion | Unleashing the Power of Web3 Domain Experts: Leveraging Specialized LLMs and AI Agents ",
       "moderators": [
       ],
       "abstract": "",
@@ -536,7 +536,7 @@
       "room": "Transformer Room",
       "time": "10:00-11:00",
       "type": "Seminar",
-      "topic": "Will be provided by speakers soon",
+      "topic": "GenerativeX | Will be provided by speakers soon",
       "moderators": [
       ],
       "abstract": "",
@@ -550,12 +550,26 @@
       "room": "Transformer Room",
       "time": "13:00-14:00",
       "type": "Seminar",
-      "topic": "Information Security and Compliance for Generative AI",
+      "topic": "RapidSOC2 | Information Security and Compliance for Generative AI",
       "moderators": [
       ],
       "abstract": "",
       "speakers": [
-        ["leonidpekelis", "Leonid Pekelis"]
+        ["rapidsoc2", "RapidSOC2"]
+      ],
+      "hide": false
+    },
+    {
+      "day": 1,
+      "room": "Transformer Room",
+      "time": "15:00-16:00",
+      "type": "Seminar",
+      "topic": "UpMarket | Investment in GenAI",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["gracechen", "Grace Chen"]
       ],
       "hide": false
     },
@@ -564,7 +578,7 @@
       "room": "Transformer Room",
       "time": "16:00-16:30",
       "type": "Seminar",
-      "topic": "Animate your Visuals with Vimmerse",
+      "topic": "Vimmerse | Animate Your Visuals with Vimmerse",
       "moderators": [
       ],
       "abstract": "",
@@ -909,7 +923,7 @@
       "room": "AGI Stage",
       "time": "09:45-10:15",
       "type": "Keynote",
-      "topic": "Lightning Speed AI Inference to Understand Profoundly and Intuitively",
+      "topic": "Either AI Is Happening to You, or You Are Making AI Happen",
       "moderators": [
       ],
       "abstract": "",
@@ -1240,7 +1254,7 @@
       "room": "Prompt Space",
       "time": "09:00-10:00",
       "type": "Seminar",
-      "topic": "Will be provided by speakers soon",
+      "topic": "CloudFabrix | Accelerate your Autonomous Enterprise Journey with GenAl, AlOps and Observability",
       "moderators": [
       ],
       "abstract": "",
@@ -1286,7 +1300,7 @@
       "room": "Prompt Space",
       "time": "13:00-15:00",
       "type": "Seminar",
-      "topic": "Harnessing GenAI: Ushur's Approach to (e2e) Document Automation & Conversational AI",
+      "topic": "Ushur | Harnessing GenAI: Ushur's Approach to (e2e) Document Automation & Conversational AI",
       "moderators": [
       ],
       "abstract": "",
@@ -1303,7 +1317,7 @@
       "room": "Prompt Space",
       "time": "15:00-16:00",
       "type": "Seminar",
-      "topic": "Will be provided by speakers soon",
+      "topic": "MultiOn | Will be provided by speakers soon",
       "moderators": [
       ],
       "abstract": "",
@@ -1317,7 +1331,7 @@
       "room": "Transformer Room",
       "time": "10:00-11:00",
       "type": "Seminar",
-      "topic": "RAGs Exposed: How to build your own Enterprise AI Assistant",
+      "topic": "Ayraa | RAGs Exposed: How to Build Your own Enterprise AI Assistant",
       "moderators": [
       ],
       "abstract": "",
@@ -1331,7 +1345,7 @@
       "room": "Transformer Room",
       "time": "13:00-15:00",
       "type": "Seminar",
-      "topic": "Navigating the Path: Insights from the professionals and Elite College Studens ",
+      "topic": "K12 | Navigating the Path: Insights from the professionals and Elite College Studens ",
       "moderators": [
       ],
       "abstract": "",
@@ -1344,7 +1358,7 @@
       "room": "Transformer Room",
       "time": "15:00-16:00",
       "type": "Seminar",
-      "topic": "The future of IT and business operations with AI-powered insights and GenAI",
+      "topic": "Digitate | The Future of IT and Business Operations with AI-powered Insights and GenAI",
       "moderators": [
       ],
       "abstract": "",
@@ -2129,24 +2143,10 @@
     },
     {
       "day": 3,
-      "room": "Workshop Room",
-      "time": "15:00-16:00",
-      "type": "Workshop",
-      "topic": "Privacera | Will be provided by speakers soon",
-      "moderators": [
-      ],
-      "abstract": "",
-      "speakers": [
-        ["privacera", "Privacera"]
-      ],
-      "hide": false
-    },
-    {
-      "day": 3,
       "room": "Prompt Space",
       "time": "10:00-11:00",
       "type": "Seminar",
-      "topic": "Will be provided by speakers soon",
+      "topic": "JIC Capital | Will be provided by speakers soon",
       "moderators": [
       ],
       "abstract": "",
@@ -2174,26 +2174,12 @@
       "room": "Transformer Room",
       "time": "09:00-10:00",
       "type": "Seminar",
-      "topic": "Will be provided by the speaker soon",
+      "topic": "Privacera | Build a GenAI App with Safety Guardrails with Privacera",
       "moderators": [
       ],
       "abstract": "",
       "speakers": [
         ["boscodurai", "Bosco Durai"]
-      ],
-      "hide": false
-    },
-    {
-      "day": 3,
-      "room": "Transformer Room",
-      "time": "10:00-11:00",
-      "type": "Seminar",
-      "topic": "Investment in GenAI",
-      "moderators": [
-      ],
-      "abstract": "",
-      "speakers": [
-        ["gracechen", "Grace Chen"]
       ],
       "hide": false
     },

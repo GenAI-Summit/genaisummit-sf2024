@@ -30,7 +30,7 @@ export default {
     const showModal = ref(false);
     const currentImage = ref(null);
     const maps = ref([
-      new URL('../assets/images/map.jpg', import.meta.url).href,
+      new URL('../assets/images/map.webp', import.meta.url).href,
     ]);
     /*
     const maps = ref([

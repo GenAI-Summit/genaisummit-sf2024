@@ -1115,6 +1115,7 @@
       "type": "Seminar",
       "topic": "Healthcare Innovation Starts with Breakthrough Science",
       "moderators": [
+        ["tombrady", "Tom Brady"]
       ],
       "abstract": "",
       "speakers": [
@@ -1749,12 +1750,12 @@
       "room": "GPT Stage",
       "time": "10:30-11:15",
       "type": "Keynote",
-      "topic": "The Evolution of AI Assistants: Shaping the Future of Human-Computer Interaction",
+      "topic": "An Overview of Llama Models",
       "moderators": [
       ],
       "abstract": "",
       "speakers": [
-        ["adamseligman", "Adam Seligman"]
+        ["sharannarang", "Sharan Narang"]
       ],
       "hide": true
     },
@@ -1911,12 +1912,12 @@
       "room": "AGI Stage",
       "time": "10:30-11:15",
       "type": "Keynote",
-      "topic": "An Overview of Llama Models",
+      "topic": "The Evolution of AI Assistants: Shaping the Future of Human-Computer Interaction",
       "moderators": [
       ],
       "abstract": "",
       "speakers": [
-        ["sharannarang", "Sharan Narang"]
+        ["adamseligman", "Adam Seligman"]
       ],
       "hide": false
     },
@@ -1991,21 +1992,7 @@
     {
       "day": 3,
       "room": "AGI Stage",
-      "time": "16:00-16:30",
-      "type": "Panel Discussion",
-      "topic": "Leveraging AI Agents to Revolutionize Sales Strategies and Customer Engagement",
-      "moderators": [
-      ],
-      "abstract": "",
-      "speakers": [
-        ["adlerlietz", "Adler Lietz"]
-      ],
-      "hide": true
-    },
-    {
-      "day": 3,
-      "room": "AGI Stage",
-      "time": "16:30-17:00",
+      "time": "16:00-16:45",
       "type": "Panel Discussion",
       "topic": "Building the Future Classroom",
       "moderators": [

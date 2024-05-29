@@ -1274,6 +1274,34 @@
     "id": "ameerhajali"
   },
   {
+    "name": "Charanya Kannan",
+    "job": "CEO & Co-Founder",
+    "tip": "Stealth",
+    "image": "charanyakannan.jpg",
+    "website": "",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/charanyakannan/",
+    "detail": "charanyakannan2.png",
+    "description": "Charanya Kannan is the CEO and Co-Founder of Stealth, a startup operating in stealth mode. She has extensive experience in building and scaling SaaS businesses, transforming single-product companies into multi-product enterprises renowned for innovation. Kannan has successfully managed cross-functional areas like product, engineering, customer service, and marketing, leading teams across the US, Europe, and Asia. With her passion for building awesome companies and products, she is excited about the potential of generative AI to revolutionize engineering.",
+    "new": false,
+    "hide": false,
+    "id": "charanyakannan"
+  },
+  {
+    "name": "Ganesh Gandhieswaran",
+    "job": "Co-Founder & CEO",
+    "tip": "ConverSight",
+    "image": "ganeshgandhieswaran.jpg",
+    "website": "",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/ganeshgandhieswaran/",
+    "detail": "ganeshgandhieswaran2.png",
+    "description": "Ganesh Gandhieswaran is the Co-founder and CEO of ConverSight, a conversational AI platform that provides insights and analytics through natural language interactions. With over two decades of experience in supply chain and technology, he recognized the need for businesses to effectively utilize their data. ConverSight's AI assistant Athena connects to databases, generating reports and recommendations to drive informed decision-making. Gandhieswaran's vision is to bridge the gap between people and technology, enabling conversational solutions that offer insights at the speed of thought.",
+    "new": false,
+    "hide": false,
+    "id": "ganeshgandhieswaran"
+  },
+  {
     "name": "Yubei Chen",
     "job": "Co-Founder",
     "tip": "AIZIP",
@@ -1286,6 +1314,20 @@
     "new": false,
     "hide": false,
     "id": "yubeichen"
+  },
+  {
+    "name": "Rajiv Nayan",
+    "job": "Vice President",
+    "tip": "Digitate",
+    "image": "rajivnayan.jpg",
+    "website": "",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/rajivnayan/",
+    "detail": "rajivnayan2.png",
+    "description": "Rajiv Nayan is the Vice President and General Manager at Digitate, a leading provider of AIOps (Artificial Intelligence for IT Operations) solutions. With over two decades of experience in the IT industry, he spearheads Digitate's efforts in helping customers adopt AIOps to optimize their IT operations and business processes through AI and automation. Nayan's expertise lies in P&L management, strategy execution, business development, and global team management, making him well-equipped to drive Digitate's mission of enabling the autonomous enterprise.",
+    "new": false,
+    "hide": false,
+    "id": "rajivnayan"
   },
   {
     "name": "Bill Yao",

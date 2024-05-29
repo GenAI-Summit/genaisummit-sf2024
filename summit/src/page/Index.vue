@@ -1525,8 +1525,8 @@ export default {
     };
 
     const speakersList = ref(speakers.filter((item) => !item.hide));
-    const speakersK12List = ref(speakersK12);
-    const allSpeakersList = ref([...speakersList.value, ...speakersK12List.value]);
+    const speakersK12List = ref(speakers.filter((item) => item.k12));
+    const allSpeakersList = ref(speakersList.value);
 
     const newSpeakersList = computed(() => {
       return speakersList.value.filter((item) => item.new);

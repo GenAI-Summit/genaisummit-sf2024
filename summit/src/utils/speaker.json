@@ -1246,6 +1246,20 @@
     "id": "jeremiahowyang"
   },
   {
+    "name": "James Alcorn",
+    "job": "Partner",
+    "tip": "Zetta Venture Partners",
+    "image": "jamesalcorn.jpg",
+    "website": "https://www.zettavp.com/team/james-alcorn",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/james-alcorn-b04880ba/",
+    "detail": "jamesalcorn2.png",
+    "description": "James Alcorn is a Partner at Zetta Venture Partners, a venture capital firm focused on AI-native startups. He has experience in private equity, investment banking, and equity research. Alcorn attended the University of California, Berkeley, and was part of the men's rowing team. At Zetta, he has invested in MLOps companies like Semi Technologies (Weaviate) and Featureform, recognizing the growing demand for tools to deploy and monitor machine learning models in production environments as the field matures.",
+    "new": false,
+    "hide": false,
+    "id": "jamesalcorn"
+  },
+  {
     "name": "Dr. Ameer Haj-Ali",
     "job": "Founding Eng",
     "tip": "Anyscale",

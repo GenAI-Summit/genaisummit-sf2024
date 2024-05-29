@@ -476,12 +476,15 @@
       "room": "Prompt Space",
       "time": "13:00-14:00",
       "type": "Seminar",
-      "topic": "Magstone Law | Will be provided by speakers soon",
+      "topic": "Magstone Law | Building a Legally Robust AI Startup: Key Considerations and Best Practices",
       "moderators": [
       ],
       "abstract": "",
       "speakers": [
-        ["magstonelaw", "Magstone Law"]
+        ["rumingliu", "Ruming Liu"],
+        ["menglai", "Meng Lai"],
+        ["xingliu", "Xing Liu"],
+        ["peiminzhang", "Peimin Zhang"]
       ],
       "hide": false
     },
@@ -1269,14 +1272,14 @@
       "room": "Prompt Space",
       "time": "10:00-11:00",
       "type": "Seminar",
-      "topic": "Will be provided by speakers soon",
+      "topic": "Orb | Strategies for Pricing Generative AI",
       "moderators": [
       ],
       "abstract": "",
       "speakers": [
-        ["peterlin", "Peter Lin"]
+        ["kshitijgrover", "Kshitij Grover"]
       ],
-      "hide": true
+      "hide": false
     },
     {
       "day": 2,

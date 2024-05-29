@@ -143,7 +143,7 @@
     {
       "day": 1,
       "room": "AGI Stage",
-      "time": "09:00-9:45",
+      "time": "09:15-10:00",
       "type": "Keynote",
       "topic": "Advancements in Embodied AI: Key Technologies, Applications, and Future Trends",
       "moderators": [
@@ -157,21 +157,7 @@
     {
       "day": 1,
       "room": "AGI Stage",
-      "time": "9:45-10:30",
-      "type": "Keynote",
-      "topic": "Transforming Business Processes with LLM: Opportunities and Challenges",
-      "moderators": [
-      ],
-      "abstract": "",
-      "speakers": [
-        ["jakeheller", "Jake Heller, JD"]
-      ],
-      "hide": false
-    },
-    {
-      "day": 1,
-      "room": "AGI Stage",
-      "time": "10:30-11:00",
+      "time": "10:00-10:30",
       "type": "Keynote",
       "topic": "Opening Ceremony Speaking for GenAI Summit",
       "moderators": [
@@ -185,6 +171,20 @@
     {
       "day": 1,
       "room": "AGI Stage",
+      "time": "10:30-11:00",
+      "type": "Keynote",
+      "topic": "AI Coworkers: The Present and Future of The Largest Tech Opportunity of Our Lifetime",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["jakeheller", "Jake Heller, JD"]
+      ],
+      "hide": false
+    },
+    {
+      "day": 1,
+      "room": "AGI Stage",
       "time": "11:00-11:45",
       "type": "Keynote",
       "topic": "Will be provided by speakers soon",
@@ -192,16 +192,16 @@
       ],
       "abstract": "",
       "speakers": [
-        ["soumyabatra", "Soumya Batra"]
+        ["divgarg", "Div Garg"]
       ],
-      "hide": true
+      "hide": false
     },
     {
       "day": 1,
       "room": "AGI Stage",
       "time": "13:00-13:45",
       "type": "Keynote",
-      "topic": "Optimizing Enterprise Systems through Integration of LLM",
+      "topic": "Bringing GenAI Securely to The Enterprise",
       "moderators": [
       ],
       "abstract": "",
@@ -387,7 +387,7 @@
       ],
       "abstract": "",
       "speakers": [
-        ["vsjoshi", "VS Joshi"],
+        ["rajivnayan", "Rajiv Nayan"],
         ["sakshipratap", "Sakshi Pratap"],
         ["babusivadasan", "Babu Sivadasan"],
         ["shaunw", "Shaun W."],
@@ -460,7 +460,7 @@
     {
       "day": 1,
       "room": "Prompt Space",
-      "time": "10:00-11:00",
+      "time": "11:00-12:00",
       "type": "Seminar",
       "topic": "Hyperbolic Labs | Will be provided by speakers soon",
       "moderators": [
@@ -544,7 +544,7 @@
       ],
       "abstract": "",
       "speakers": [
-        ["generativex", "GenerativeX"]
+        ["yoshinorikosaka", "Yoshinori Kosaka"]
       ],
       "hide": false
     },
@@ -1347,13 +1347,28 @@
     {
       "day": 2,
       "room": "Transformer Room",
-      "time": "13:00-15:00",
+      "time": "13:00-14:00",
+      "type": "Seminar",
+      "topic": "K12 | Education under AI",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["junliu", "Jun Liu"]
+      ],
+      "hide": false
+    },
+    {
+      "day": 2,
+      "room": "Transformer Room",
+      "time": "14:00-15:00",
       "type": "Seminar",
       "topic": "K12 | Navigating the Path: Insights from the professionals and Elite College Studens ",
       "moderators": [
       ],
       "abstract": "",
       "speakers": [
+        ["leadstudents", "Lead Students"]
       ],
       "hide": false
     },
@@ -2188,6 +2203,20 @@
       "abstract": "",
       "speakers": [
         ["sethstephensdavidowitz", "Seth Stephens-Davidowitz"]
+      ],
+      "hide": false
+    },
+    {
+      "day": 3,
+      "room": "Prompt Space",
+      "time": "15:00-15600",
+      "type": "Seminar",
+      "topic": "Will be provided by speakers soon",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["robertsontaylor", "Robertson Taylor"]
       ],
       "hide": false
     },

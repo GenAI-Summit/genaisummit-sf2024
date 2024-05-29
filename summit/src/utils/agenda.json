@@ -79,7 +79,7 @@
       "room": "GPT Stage",
       "time": "13:45-14:30",
       "type": "Keynote",
-      "topic": "Vector Database Built for Enterprise-Grade AI Applications",
+      "topic": "From Dev to Prod, Vector Database Made Easy",
       "moderators": [
       ],
       "abstract": "",
@@ -2152,6 +2152,20 @@
     {
       "day": 3,
       "room": "Prompt Space",
+      "time": "09:00-10:00",
+      "type": "Seminar",
+      "topic": "Privacera | Build a GenAI App with Safety Guardrails with Privacera",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["boscodurai", "Bosco Durai"]
+      ],
+      "hide": false
+    },
+    {
+      "day": 3,
+      "room": "Prompt Space",
       "time": "10:00-11:00",
       "type": "Seminar",
       "topic": "JIC Capital | Will be provided by speakers soon",
@@ -2174,20 +2188,6 @@
       "abstract": "",
       "speakers": [
         ["sethstephensdavidowitz", "Seth Stephens-Davidowitz"]
-      ],
-      "hide": false
-    },
-    {
-      "day": 3,
-      "room": "Transformer Room",
-      "time": "09:00-10:00",
-      "type": "Seminar",
-      "topic": "Privacera | Build a GenAI App with Safety Guardrails with Privacera",
-      "moderators": [
-      ],
-      "abstract": "",
-      "speakers": [
-        ["boscodurai", "Bosco Durai"]
       ],
       "hide": false
     },

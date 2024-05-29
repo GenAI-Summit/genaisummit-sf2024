@@ -566,6 +566,20 @@
     {
       "day": 1,
       "room": "Transformer Room",
+      "time": "13:00-14:00",
+      "type": "Seminar",
+      "topic": " Novita.ai | 10x More Efficient AI Inference: How OneSourceCloud Supports Novita.ai in Creating an Affordable and Sophisticated Model API Platform",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["billyao", "Bill Yao"]
+      ],
+      "hide": false
+    },
+    {
+      "day": 1,
+      "room": "Transformer Room",
       "time": "15:00-16:00",
       "type": "Seminar",
       "topic": "UpMarket | Investment in GenAI",

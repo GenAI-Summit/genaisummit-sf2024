@@ -1582,18 +1582,18 @@
     "id": "dmytrospodarets"
   },
   {
-    "name": "",
-    "job": "",
-    "tip": "",
-    "image": "",
+    "name": "Suraj Patel",
+    "job": "Head",
+    "tip": "MongoDB Ventures",
+    "image": "surajpatel.jpg",
     "website": "",
     "twitter": "",
-    "linkedin": "",
-    "detail": "",
-    "description": "",
+    "linkedin": "https://www.linkedin.com/in/surajsf/",
+    "detail": "surajpatel2.png",
+    "description": "Suraj Patel is the Head of MongoDB Ventures, the strategic investment arm of MongoDB, a leading data software provider. After six years at venture capital firm Bow Capital, Patel joined MongoDB Ventures in 2022 to lead its investments in startups developing complementary technologies around MongoDB's core database product. MongoDB Ventures follows the \"product ecosystem\" model, investing in and supporting companies that can broaden MongoDB's reach and enhance its offerings for developers and customers.",
     "new": false,
-    "hide": true,
-    "id": ""
+    "hide": false,
+    "id": "surajpatel"
   },
   {
     "name": "Dr. Basel Salahieh",

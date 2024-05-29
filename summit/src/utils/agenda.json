@@ -5,11 +5,12 @@
       "room": "GPT Stage",
       "time": "09:30-10:15",
       "type": "Keynote",
-      "topic": "The Future of Foundation Models",
+      "topic": "Demystifying LLMs with Mistral AI",
       "moderators": [
       ],
       "abstract": "",
       "speakers": [
+        ["devendrachaplot", "Dr. Devendra Chaplot"]
       ],
       "hide": false
     },
@@ -18,14 +19,14 @@
       "room": "GPT Stage",
       "time": "10:15-10:45",
       "type": "Keynote",
-      "topic": "The Evolution of AI Assistants: Shaping the Future of Human-Computer Interaction",
+      "topic": "AGl Belongs to The Community in Open Source: Democratizing LLMs in The Service of Life and The Planet",
       "moderators": [
       ],
       "abstract": "",
       "speakers": [
-        ["adamseligman", "Adam Seligman"]
+        ["srisatishambati", "Sri Satish Ambati"]
       ],
-      "hide": true
+      "hide": false
     },
     {
       "day": 1,
@@ -388,10 +389,10 @@
       "abstract": "",
       "speakers": [
         ["rajivnayan", "Rajiv Nayan"],
+        ["ganeshgandhieswaran", "Ganesh Gandhieswaran"],
         ["sakshipratap", "Sakshi Pratap"],
         ["babusivadasan", "Babu Sivadasan"],
-        ["shaunw", "Shaun W."],
-        ["ganeshgandhieswaran", "Ganesh Gandhieswaran"]
+        ["shaunw", "Shaun W."]
       ],
       "hide": false
     },

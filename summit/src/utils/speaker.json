@@ -1134,6 +1134,20 @@
     "id": "andyhock"
   },
   {
+    "name": "Div Garg",
+    "job": "Co-Founder & CEO",
+    "tip": "MultiOn",
+    "image": "divgarg.jpg",
+    "website": "",
+    "twitter": "https://x.com/divgarg9?lang=en",
+    "linkedin": "https://www.linkedin.com/in/div99/",
+    "detail": "divgarg2.png",
+    "description": "Div Garg is the Co-Founder and CEO of MultiOn, a startup building AI agents that can interact with the digital world and complete everyday tasks on your behalf. With a background in deep learning and robotics from Stanford, Div is passionate about bringing AI and intelligent systems into people's lives. MultiOn's mission is to unlock human agency by creating the world's first personal AI agent capable of web browsing, online shopping, email exchanges, and more.",
+    "new": false,
+    "hide": false,
+    "id": "divgarg"
+  },
+  {
     "name": "Matthew Stepka",
     "job": "Managing Partner",
     "tip": "Machina Ventures",

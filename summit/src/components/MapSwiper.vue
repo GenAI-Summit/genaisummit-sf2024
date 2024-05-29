@@ -30,9 +30,14 @@ export default {
     const showModal = ref(false);
     const currentImage = ref(null);
     const maps = ref([
+      new URL('../assets/images/map.jpg', import.meta.url).href,
+    ]);
+    /*
+    const maps = ref([
       new URL('../assets/images/Floormap1.jpg', import.meta.url).href,
       new URL('../assets/images/Floormap2.jpg', import.meta.url).href,
     ]);
+    */
 
 
     const showImage = (image) => {
@@ -62,7 +67,7 @@ export default {
   align-items: center;
 
   .img {
-    width: 50%;
+    width: 100%;
     height: auto;
     cursor: pointer;
   }

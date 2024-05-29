@@ -83,6 +83,10 @@
                   <div class="spinner0"></div>
                   Resources
                 </button>
+                <button @click="scrollToSection('maps_section')">
+                  <div class="spinner0"></div>
+                  Maps
+                </button>
               </div>
               <!--
               <div class="right">

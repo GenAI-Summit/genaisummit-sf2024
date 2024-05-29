@@ -44,6 +44,16 @@
           <div
             class="nav-link"
             :to="null"
+            @click="scrollToSection('maps_section')"
+            :class="{ active: activeSection === 'maps_section' }"
+          >
+            MAPS
+          </div>
+        </li>
+        <li v-if="screenWidth > 900">
+          <div
+            class="nav-link"
+            :to="null"
             @click="scrollToSection('workshop_section')"
             :class="{ active: activeSection === 'workshop_section' }"
           >
@@ -159,6 +169,7 @@ export default {
       section6: "K12",
       seminar_section: "SEMINAR",
       resource_section: "RESOURCE",
+      maps_section: "MAPS",
     };
     const linkList = {
       HOME: "section1",
@@ -170,6 +181,7 @@ export default {
       K12: "section6",
       SEMINAR: "seminar_section",
       RESOURCE: "resource_section",
+      MAPS: "maps_section",
     };
     const store = useStore();
 

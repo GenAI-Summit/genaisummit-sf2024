@@ -1032,7 +1032,7 @@
     "detail": "mikemurchison2.webp",
     "description": "Mike Murchison is CEO of Ada, the world's leading customer service AI platform. A serial entrepreneur focused on using AI to transform the conversation between businesses and their customers, he champions the Canadian innovation ecosystem at home and abroad. Before starting Ada, Mike founded several other tech companies, including a social search community and a consulting firm for Fortune 500 clients. Ada raised $30M in its latest funding round, which was Series B round held on Feb 10, 2022.",
     "new": true,
-    "hide": false,
+    "hide": true,
     "id": "mikemurchison"
   },
   {

@@ -1638,6 +1638,34 @@
     "id": "tonybeltramelli"
   },
   {
+    "name": "Mark Friedman",
+    "job": "Research Affiliate",
+    "tip": "Massachusetts Institute of Technology",
+    "image": "markfriedman.jpg",
+    "website": "",
+    "twitter": "https://twitter.com/mark_s_friedman",
+    "linkedin": "https://www.linkedin.com/in/marksfriedman/",
+    "detail": "markfriedman2.webp",
+    "description": "Mark Friedman is a Co-Founder of the App Inventor project and currently serves as an MIT Research Affiliate at the Computer Science and Artificial Intelligence Laboratory (CSAIL). He has extensive experience in technical leadership roles at major tech companies like Google and Microsoft, as well as startups. Friedman is particularly passionate about educational technology, low-code development platforms, and programming tools that promote social good.",
+    "new": false,
+    "id": "markfriedman",
+    "k12": true
+  },
+  {
+    "name": "Prof. Weiqing Gu",
+    "job": "Professor",
+    "tip": "Harvey Mudd College",
+    "image": "weiqinggu.jpg",
+    "website": "https://math.hmc.edu/gu/",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/weiqing-gu-56b9bab/",
+    "detail": "weiqinggu2.webp",
+    "description": "Prof. Weiqing Gu is a Professor at Harvey Mudd College and Claremont Graduate University, deeply involved in research on explainable predictive models and anomaly detection using EEG machine learning and big data analytics for neurological disorders and brain injuries. Her expertise spans geometry, dynamics, control theory, and machine learning, leading to the development of Geometric Unified Learning funded by NSF SBIR. Gu has published extensively and created courses bridging industry and academia.",
+    "new": false,
+    "id": "weiqinggu",
+    "k12": true
+  },
+  {
     "name": "Prof. Xi Chen",
     "job": "Professor & Andre Meyer Faculty",
     "tip": "NYU Stern School of Business",
@@ -1649,7 +1677,8 @@
     "description": "Dr. Xi Chen is a Professor and Andre Meyer Faculty Fellow at NYU Stern, specializing in machine learning applications in various quantitative fields. With a Ph.D. from CMU, he's contributed to operations management and quantitative finance, working with firms like Google and JP Morgan. He's served as an editor for journals such as Management Science. Honors include Forbes 30 Under 30 and Poets & Quants' Best 40 Under 40 MBA Professors.",
     "new": false,
     "hide": false,
-    "id": "xichen"
+    "id": "xichen",
+    "k12": true
   },
   {
     "name": "Rajat Suri",

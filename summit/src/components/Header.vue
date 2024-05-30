@@ -34,20 +34,20 @@
           <div
             class="nav-link"
             :to="null"
-            @click="scrollToSection('section2')"
-            :class="{ active: activeSection === 'section2' }"
+            @click="scrollToSection('maps_section')"
+            :class="{ active: activeSection === 'maps_section' }"
           >
-            SPEAKERS
+            MAPS
           </div>
         </li>
         <li v-if="screenWidth > 900">
           <div
             class="nav-link"
             :to="null"
-            @click="scrollToSection('maps_section')"
-            :class="{ active: activeSection === 'maps_section' }"
+            @click="scrollToSection('section2')"
+            :class="{ active: activeSection === 'section2' }"
           >
-            MAPS
+            SPEAKERS
           </div>
         </li>
         <li v-if="screenWidth > 900">

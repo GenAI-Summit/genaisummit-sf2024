@@ -10,7 +10,7 @@ import store from './store'
 import i18n from './locales'
 import router from './route'
 import AOS from 'aos';
-import 'aos/dist/aos.css'; // 引入 AOS CSS 样式
+// import 'aos/dist/aos.css'; // 引入 AOS CSS 样式
 AOS.init({
     // Global settings:
     offset: -100, // 偏移量，以像素为单位，相对于元素底部的位置开始触发动画

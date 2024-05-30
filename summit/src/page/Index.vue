@@ -3,7 +3,7 @@
 
     <!-- section1 start -->
     <section id="section1" :class="screenWidth > 600 ? '' : 'mb'">
-      <video autoplay muted loop class="background-video">
+      <video autoplay muted loop class="background-video" style="pointer-events: none;" >
         <source src="../assets/images/video.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>

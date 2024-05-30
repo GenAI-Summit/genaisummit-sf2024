@@ -3067,6 +3067,20 @@
     "id": "tiffanyjoybasse"
   },
   {
+    "name": "Elaine Qian",
+    "job": "Partner",
+    "tip": "Jurastone Capital",
+    "image": "elaineqian.jpg",
+    "website": "",
+    "twitter": "",
+    "linkedin": "",
+    "detail": "elaineqian2.png",
+    "description": "Elaine Qian is a key MC for the GenAI Summit SF 2024. She began her career at Bain & Company and later consulted on private equity and family office matters in China and Canada. Elaine served as Head of BD and Chief Consultant for United Capital. In 2020, she co-founded Polyphony Capital in Shanghai, where she is a founding partner and Chief Creative Advisor, focusing on high-end cultural brands and blockchain art ventures. As an independent art curator and CMO at BCA, she has showcased her artwork at major events like NFT NYC, GenAI Summit 2024. Elaine is also a core member of GPTDAO.",
+    "new": false,
+    "hide": false,
+    "id": "elaineqian"
+  },
+  {
     "name": "Siqi Lin",
     "job": "Head of Campaign",
     "tip": "Cresta",
@@ -3163,20 +3177,6 @@
     "new": false,
     "hide": false,
     "id": "ariali"
-  },
-  {
-    "name": "Elaine Qian",
-    "job": "Partner",
-    "tip": "Jurastone Capital",
-    "image": "elaineqian.jpg",
-    "website": "",
-    "twitter": "",
-    "linkedin": "",
-    "detail": "elaineqian2.png",
-    "description": "Elaine Qian is a graduate of the University of Toronto and Oxford's Saïd Business School. She worked at Bain & Company and consulted on private equity in China. In 2020, she co-founded Polyphony Capital in Shanghai. Elaine collaborated with art galleries and magazines, showcasing millennial artists' works at events like Art Basel. As an independent curator and CMO at BCA, she exhibited her artwork at \"NFT NYC\" in 2022. Elaine aims to host art exhibitions featuring Chinese culture and innovation.",
-    "new": false,
-    "hide": false,
-    "id": "elaineqian"
   },
   {
     "name": "Claire Xie",

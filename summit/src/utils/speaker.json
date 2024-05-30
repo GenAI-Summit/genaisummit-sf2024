@@ -1044,7 +1044,7 @@
     "twitter": "https://twitter.com/Jacob_Heller",
     "linkedin": "https://www.linkedin.com/in/jakeheller/",
     "detail": "jakeheller2.webp",
-    "description": "Jake Heller, J.D., CEO of Casetext, a legal tech company, is a Stanford Law School graduate and former president of the Stanford Law Review. Casetext, known for leveraging AI and natural language processing to assist lawyers in research, attracted partners like Salesforce and Google Cloud, plus Fortune 500 clients. Recently acquired by Thomson Reuters for $650 million, Casetext had previously raised a $100 million Series B round led by Thomson Reuters, valuing the company at $1 billion, bringing total funding to $165 million.",
+    "description": "Jake Heller has been at the forefront of applying AI to build sophisticated technology for lawyers since co-founding the legal AI startup Casetext in 2013. Since then, Jake has led the development and launch of several innovative solutions, including CoCounsel, the world's first AI legal assistant, released in March 2023. Casetext's success caught the attention of Thomson Reuters, which acquired the company in August 2023 for $650 million dollars, the largest legal tech acquisition in history. Jake now serves as the Head of Product for CoCounsel at Thomson Reuters, developing leading AI solutions for professionals. Jake has been named to Forbes 30 Under 30 and won Fast Company’s Most Innovative Companies in 2024.",
     "new": true,
     "hide": false,
     "id": "jakeheller"
@@ -3149,6 +3149,20 @@
     "new": false,
     "hide": false,
     "id": "ariali"
+  },
+  {
+    "name": "Elaine Qian",
+    "job": "Partner",
+    "tip": "Jurastone Capital",
+    "image": "elaineqian.jpg",
+    "website": "",
+    "twitter": "",
+    "linkedin": "",
+    "detail": "elaineqian2.png",
+    "description": "Elaine Qian is a graduate of the University of Toronto and Oxford's Saïd Business School. She worked at Bain & Company and consulted on private equity in China. In 2020, she co-founded Polyphony Capital in Shanghai. Elaine collaborated with art galleries and magazines, showcasing millennial artists' works at events like Art Basel. As an independent curator and CMO at BCA, she exhibited her artwork at \"NFT NYC\" in 2022. Elaine aims to host art exhibitions featuring Chinese culture and innovation.",
+    "new": false,
+    "hide": false,
+    "id": "elaineqian"
   },
   {
     "name": "Claire Xie",

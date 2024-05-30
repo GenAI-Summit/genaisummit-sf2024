@@ -2367,6 +2367,20 @@
     "id": "bhanuagarwal"
   },
   {
+    "name": "Sandeep Subramanian",
+    "job": "Research Scientist",
+    "tip": "Mistral AI",
+    "image": "sandeepsubramanian.jpg",
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/sandeep-subramanian-16262549/",
+    "twitter": "",
+    "detail": "sandeepsubramanian2.png",
+    "description": "Sandeep Subramanian is a Research Scientist at Mistral AI, a leading artificial intelligence company. He holds a PhD in Deep Learning and Natural Language Processing and was a former graduate student at Carnegie Mellon University. At Mistral AI, he leverages his expertise in deep learning and NLP to develop cutting-edge AI solutions.",
+    "new": false,
+    "hide": false,
+    "id": "sandeepsubramanian"
+  },
+  {
     "name": "Jiang Chen",
     "job": "Head of Ecosystem & AI Platform",
     "tip": "Zilliz",

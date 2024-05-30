@@ -32,7 +32,7 @@
     "image": "deepchecks.png",
     "url": "https://deepchecks.com/",
     "topic": "Hands on LLM Evaluation Workshop",
-    "description": ""
+    "description": "In this workshop, meant for LLM practitioners, participants will have a hands-on experience setting up an LLM Evaluation mechanism. The session will be based on Deepchecks' LLM Evaluation framework, and will include configuring LLM properties, comparing the performance of multiple versions of the same app, and configuring the system's decision making process by aggregating properties, similarity assessments and LLM-judge outputs."
   },
   {
     "name": "otter",

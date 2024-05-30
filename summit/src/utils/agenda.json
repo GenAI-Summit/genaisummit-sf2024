@@ -1027,7 +1027,8 @@
         ["jiali", "Dr. Jia Li"],
         ["rochellemattern", "Rochelle Mattern"],
         ["clairexie", "Claire Xie"],
-        ["marinavieva", "Marina Vieva"]
+        ["marinavieva", "Marina Vieva"],
+        ["andreasramos", "Prof. Andreas Ramos"]
       ],
       "hide": false
     },
@@ -1239,7 +1240,7 @@
       ],
       "abstract": "",
       "speakers": [
-        ["philip", "Philip Tannor"],
+        ["philiptannor", "Philip Tannor"],
         ["shirchorev", "Shir Chorev"]
       ],
       "hide": false
@@ -1312,7 +1313,7 @@
       "abstract": "",
       "speakers": [
         ["raywu", "Ray Wu"],
-        ["vivianchen", "Vivian Chen"],
+        ["viviancheng", "Vivian Cheng"],
         ["joannechen", "Joanne Chen"],
         ["jessleao", "Jess Leao"]
       ],

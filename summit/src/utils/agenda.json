@@ -797,6 +797,7 @@
       "type": "Fireside Chat",
       "topic": "Unlocks the Power of Knowledge with Information Discovery and Sharing",
       "moderators": [
+        ["minfawang", "Minfa Wang"]
       ],
       "abstract": "",
       "speakers": [
@@ -928,7 +929,7 @@
       "room": "AGI Stage",
       "time": "09:00-09:45",
       "type": "Keynote",
-      "topic": "Will be provided by the speaker soon",
+      "topic": "Some Intuitions about Large Language Models",
       "moderators": [
       ],
       "abstract": "",
@@ -984,7 +985,7 @@
       "room": "AGI Stage",
       "time": "11:45-12:15",
       "type": "Keynote",
-      "topic": "Will be provided by the speaker soon",
+      "topic": "Build without Limits: Empowering Developers to Innovate with Generative AI",
       "moderators": [
       ],
       "abstract": "",
@@ -1052,8 +1053,8 @@
       "day": 2,
       "room": "AGI Stage",
       "time": "15:15-16:00",
-      "type": "Fireside Chat",
-      "topic": "Will be provided by speakers soon",
+      "type": "Keynote",
+      "topic": "Navigating and Predicting the Impact of AI on Society",
       "moderators": [
       ],
       "abstract": "",
@@ -1144,7 +1145,7 @@
       "room": "Align Stage",
       "time": "13:00-13:30",
       "type": "Keynote",
-      "topic": "Will be provided by speakers soon",
+      "topic": "The Future of Agents and GenAI in Enterprises",
       "moderators": [
       ],
       "abstract": "",
@@ -1348,6 +1349,20 @@
     },
     {
       "day": 2,
+      "room": "Prompt Space",
+      "time": "16:00-17:00",
+      "type": "Seminar",
+      "topic": "SwarmOne | Will be provided by speakers soon",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["swarmone", "SwarmOne"]
+      ],
+      "hide": false
+    },
+    {
+      "day": 2,
       "room": "Transformer Room",
       "time": "10:00-11:00",
       "type": "Seminar",
@@ -1379,7 +1394,7 @@
       "room": "Transformer Room",
       "time": "14:00-15:00",
       "type": "Seminar",
-      "topic": "K12 | Navigating the Path: Insights from the professionals and Elite College Studens ",
+      "topic": "K12 | Navigating the Path: Insights from the Professionals and Elite College Students",
       "moderators": [
       ],
       "abstract": "",
@@ -1404,19 +1419,6 @@
     },
     {
       "day": 2,
-      "room": "Transformer Room",
-      "time": "16:00-17:00",
-      "type": "Seminar",
-      "topic": "K12",
-      "moderators": [
-      ],
-      "abstract": "",
-      "speakers": [
-      ],
-      "hide": false
-    },
-    {
-      "day": 2,
       "room": "Launchpad Stage",
       "time": "09:00 - 09:18",
       "type": "Startup Demo",
@@ -1426,7 +1428,7 @@
       "abstract": "",
       "speakers": [
       ],
-      "hide": true
+      "hide": false
     },
     {
       "day": 2,
@@ -1491,7 +1493,7 @@
       "abstract": "",
       "speakers": [
       ],
-      "hide": true
+      "hide": false
     },
     {
       "day": 2,

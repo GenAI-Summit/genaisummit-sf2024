@@ -35,6 +35,11 @@
     "url": "https://www.idaireland.com"
   },
   {
+    "name": "iren",
+    "image": "iren.png",
+    "url": "https://iren.com/"
+  },
+  {
     "name": "abaka",
     "image": "abaka.png",
     "url": "https://www.abaka.ai"
@@ -45,14 +50,14 @@
     "url": "https://www.mlion.ai"
   },
   {
-    "name": "puffer",
-    "image": "puffer.png",
-    "url": "https://www.puffer.fi"
-  },
-  {
     "name": "espeed",
     "image": "espeed.png",
     "url": ""
+  },
+  {
+    "name": "puffer",
+    "image": "puffer.png",
+    "url": "https://www.puffer.fi"
   },
   {
     "name": "exabits",

@@ -902,7 +902,7 @@
       "speakers": [
         ["bryanmccann", "Bryan McCann"],
         ["kaseykyungsilroh", "Kasey Kyungsil Roh"],
-        ["devendrachaplot", "Dr. Devendra Chaplot"]
+        ["sandeepsubramanian", "Sandeep Subramanian"]
       ],
       "hide": false
     },
@@ -1000,7 +1000,7 @@
       "type": "Panel Discussion",
       "topic": "The Future and Challenges of AI-Powered Enterprise Copilot",
       "moderators": [
-        ["stephenchin", "Stephen Chin"]
+        ["michaelhunger", "Michael Hunger"]
       ],
       "abstract": "",
       "speakers": [

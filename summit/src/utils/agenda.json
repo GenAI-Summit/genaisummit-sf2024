@@ -1722,6 +1722,19 @@
     {
       "day": 2,
       "room": "Launchpad Stage",
+      "time": "16:54 - 17:12",
+      "type": "Startup Demo",
+      "topic": "Skalable",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+      ],
+      "hide": false
+    },
+    {
+      "day": 2,
+      "room": "Launchpad Stage",
       "time": "17:00-18:00",
       "type": "Keynote",
       "topic": "Large Language Models and Artificial Intelligence Generated Content",

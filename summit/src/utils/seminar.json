@@ -63,6 +63,13 @@
     "description": ""
   },
   {
+    "name": "SwarmOne",
+    "image": "swarmone.png",
+    "url": "https://swarmone.ai/",
+    "topic": "",
+    "description": ""
+  },
+  {
     "name": "digitate",
     "image": "digitate.png",
     "url": "https://digitate.com/",

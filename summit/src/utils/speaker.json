@@ -1410,7 +1410,7 @@
     "detail": "dineshmaheshwari2.webp",
     "description": "Dinesh Maheshwari is an accomplished C-level executive with over 30 years of experience in semiconductors, systems, and software industries. He currently serves as the CTO at Groq, a machine learning startup, and is a partner at SiliconCatalyst, focusing on due diligence and mentoring startups. Maheshwari has played various roles as a strategist, technologist, and entrepreneur, contributing to revolutions in multi-processor systems, EDA, optical communications, and networking. He holds 58 US patents and a Bachelor's degree from IIT Delhi.",
     "new": false,
-    "hide": false,
+    "hide": true,
     "id": "dineshmaheshwari"
   },
   {

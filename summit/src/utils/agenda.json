@@ -375,7 +375,7 @@
       "speakers": [
         ["jeremiahowyang", "Jeremiah Owyang"]
       ],
-      "hide": false
+      "hide": true
     },
     {
       "day": 1,
@@ -1068,11 +1068,12 @@
       "room": "AGI Stage",
       "time": "16:00-16:45",
       "type": "Panel Discussion",
-      "topic": "AI-Powered Personalization",
+      "topic": "Navigating the AI Changing Landscape",
       "moderators": [
       ],
       "abstract": "",
       "speakers": [
+        ["jeremiahowyang", "Jeremiah Owyang"]
       ],
       "hide": false
     },
@@ -1513,19 +1514,6 @@
     {
       "day": 2,
       "room": "Launchpad Stage",
-      "time": "11:06 - 11:24",
-      "type": "Startup Demo",
-      "topic": "Skalable",
-      "moderators": [
-      ],
-      "abstract": "",
-      "speakers": [
-      ],
-      "hide": false
-    },
-    {
-      "day": 2,
-      "room": "Launchpad Stage",
       "time": "11:24 - 11:42",
       "type": "Startup Demo",
       "topic": "Modlee",
@@ -1685,7 +1673,7 @@
       "room": "Launchpad Stage",
       "time": "16:00 - 16:18",
       "type": "Startup Demo",
-      "topic": "Telus International",
+      "topic": "Skalable",
       "moderators": [
       ],
       "abstract": "",
@@ -1712,19 +1700,6 @@
       "time": "16:36 - 16:54",
       "type": "Startup Demo",
       "topic": "Streetbeat",
-      "moderators": [
-      ],
-      "abstract": "",
-      "speakers": [
-      ],
-      "hide": false
-    },
-    {
-      "day": 2,
-      "room": "Launchpad Stage",
-      "time": "16:54 - 17:12",
-      "type": "Startup Demo",
-      "topic": "Skalable",
       "moderators": [
       ],
       "abstract": "",

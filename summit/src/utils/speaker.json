@@ -1764,6 +1764,20 @@
     "id": "hoansoolee"
   },
   {
+    "name": "Matt Lee",
+    "job": "Founder",
+    "tip": "Talc AI",
+    "image": "mattlee.jpg",
+    "website": "",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/mattllee/",
+    "detail": "mattlee2.png",
+    "description": "Matt Lee is the co-founder of Talc AI, a startup that provides a staging environment for streamlining AI debugging and testing. With experience at tech giants like Facebook and Airbnb, Lee brings expertise in launching robust AI systems to Talc AI. The company aims to bridge the gap between creating AI models and deploying reliable AI products that businesses can trust, leveraging Lee's background in areas like election integrity and graph algorithms.",
+    "new": false,
+    "hide": false,
+    "id": "mattlee"
+  },
+  {
     "name": "Bret Kinsella",
     "job": "Founder & CEO",
     "tip": "Voicebot.ai",

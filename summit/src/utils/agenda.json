@@ -1972,7 +1972,7 @@
       "speakers": [
         ["kevinmcnamara", "Kevin McNamara"],
         ["emrahgultekin", "Emrah Gultekin"],
-        ["", "Matt Lee"]
+        ["mattlee", "Matt Lee"]
       ],
       "hide": false
     },
@@ -2125,7 +2125,8 @@
       ],
       "abstract": "",
       "speakers": [
-        ["weiqinggu", "Prof. Weiqing Gu"]
+        ["weiqinggu", "Prof. Weiqing Gu"],
+        ["tianweiyue", "Tianwei Yue"]
       ],
       "hide": false
     },

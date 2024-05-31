@@ -3221,6 +3221,20 @@
     "id": "sakshipratap"
   },
   {
+    "name": "Tianwei Yue",
+    "job": "Founder",
+    "tip": "MathGPT",
+    "image": "tianweiyue.jpg",
+    "website": "https://mathgptpro.com",
+    "twitter": "https://x.com/VyvyenYue",
+    "linkedin": "https://www.linkedin.com/in/tianwei-yue/",
+    "detail": "tianweiyue2.png",
+    "description": "Tianwei Yue is the Founder and CEO of MathGPT, which offers a leading AI Math Tutors that can solve math problems with 20% higher accuracy than GPT4 and has been used by over a million of students. MathGPT aims to revolutionize personalized education with AI, enhancing both student learning and teacher productivity. Tianwei previously graduated from Carnegie Mellon University and has top publications on LLM agents. MathGPT is backed by Y Combinator.",
+    "new": false,
+    "hide": false,
+    "id": "tianweiyue"
+  },
+  {
     "name": "Shambhavi Mahajan",
     "job": "Co-founder & COO",
     "tip": "Hexus",

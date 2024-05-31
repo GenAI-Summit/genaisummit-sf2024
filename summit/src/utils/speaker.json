@@ -1862,6 +1862,20 @@
     "id": "boscodurai"
   },
   {
+    "name": "Damian Scavo",
+    "job": "CEO & CIO",
+    "tip": "Streetbeat",
+    "image": "damianscavo.jpg",
+    "website": "",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/dscavo/",
+    "detail": "damianscavo2.png",
+    "description": "Damián Scavo is a serial entrepreneur with over 20 years of experience in technology and finance across the U.S. and Europe. He has founded and sold multiple companies, including Axwave, and holds over 30 patents. Currently, he is the CEO and CIO of Streetbeat, a company that aims to provide retail investors with the same advanced investment tools and quantitative strategies used by wealthy individuals and hedge funds. Streetbeat raised a $12M seed round in 2021 and was invited to join the Stanford Entrepreneur accelerator, StartX.",
+    "new": false,
+    "hide": false,
+    "id": "damianscavo"
+  },
+  {
     "name": "Robertson Taylor",
     "job": "Solutions Engineer",
     "tip": "Marqo",

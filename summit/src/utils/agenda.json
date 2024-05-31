@@ -1823,7 +1823,7 @@
       "speakers": [
         ["srisatishambati", "Sri Satish Ambati"]
       ],
-      "hide": false
+      "hide": true
     },
     {
       "day": 3,
@@ -1919,12 +1919,40 @@
       "room": "AGI Stage",
       "time": "10:30-11:15",
       "type": "Keynote",
-      "topic": "The Evolution of AI Assistants: Shaping the Future of Human-Computer Interaction",
+      "topic": "Scaling Generative AI Innovation: From Proof-of-Concept to Production",
       "moderators": [
       ],
       "abstract": "",
       "speakers": [
         ["adamseligman", "Adam Seligman"]
+      ],
+      "hide": false
+    },
+    {
+      "day": 3,
+      "room": "AGI Stage",
+      "time": "11:15-12:00",
+      "type": "Keynote",
+      "topic": "An overview of Llama models",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["sharannarang", "Sharan Narang"]
+      ],
+      "hide": false
+    },
+    {
+      "day": 3,
+      "room": "AGI Stage",
+      "time": "12:15-13:00",
+      "type": "Keynote",
+      "topic": "LLMs: Present, Past and Future",
+      "moderators": [
+      ],
+      "abstract": "",
+      "speakers": [
+        ["soumyabatra", "Soumya Batra"]
       ],
       "hide": false
     },
@@ -2025,7 +2053,7 @@
       "speakers": [
         ["lindseyspellman", "Lindsey Spellman"]
       ],
-      "hide": false
+      "hide": true
     },
     {
       "day": 3,
@@ -2041,7 +2069,7 @@
         ["kathrynwu", "Kathryn Wu"],
         ["bretkinsella", "Bret Kinsella"],
         ["kevinsuer", "Kevin Suer"],
-        ["streetbeat", "Streetbeat"]
+        ["damianscavo", "Damian Scavo"]
       ],
       "hide": false
     },
@@ -2078,7 +2106,7 @@
       "room": "Align Stage",
       "time": "13:30-14:15",
       "type": "Keynote",
-      "topic": "Edge on LLM",
+      "topic": "Explainable AI and Data-Centric Efficient AI",
       "moderators": [
       ],
       "abstract": "",
@@ -2090,21 +2118,21 @@
     {
       "day": 3,
       "room": "Align Stage",
-      "time": "14:15-15:15",
-      "type": "Panel Discussion",
-      "topic": "Transformative Impact of Generative AI on Future Interactive Education",
+      "time": "14:15-15:00",
+      "type": "Keynote",
+      "topic": "Will be provided by the speaker soon",
       "moderators": [
       ],
       "abstract": "",
       "speakers": [
-        ["coursepal", "CoursePal"]
+        ["summer", "Summer Yue"]
       ],
       "hide": false
     },
     {
       "day": 3,
       "room": "Align Stage",
-      "time": "15:30-17:00",
+      "time": "15:30-16:15",
       "type": "Keynote",
       "topic": "AI in Action: Bridging Theory and Practice",
       "moderators": [

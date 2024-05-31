@@ -3317,5 +3317,33 @@
     "new": false,
     "hide": false,
     "id": "kathrynwu"
+  },
+  {
+    "name": "Tianyi Huang",
+    "job": "Founder and President",
+    "tip": "App-In Club",
+    "image": "tianyihuang.jpg",
+    "website": "",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/tianyi-huang-36ba49280/",
+    "detail": "tianyihuang2.png",
+    "description": "Tianyi Huang is the founder and president of App-In Club. As a student with a deep passion for AI research and mobile application development, he wants to leverage these emerging technologies to truly make a meaningful impact on the world, and he aspires to be a leader in this field. With a foundation in theoretical and practical aspects of artificial intelligence, he is constantly looking for ways to integrate AI into everyday solutions to improve lives.",
+    "new": false,
+    "hide": false,
+    "id": "tianyihuang"
+  },
+  {
+    "name": "Gordon Chen",
+    "job": "Vice President",
+    "tip": "Youth Euclid Association",
+    "image": "gordonchen.jpg",
+    "website": "",
+    "twitter": "",
+    "linkedin": "",
+    "detail": "gordonchen2.png",
+    "description": "Gordon Chen, currently serving as the Youth Euclid Association (YEA) vice president, focuses on promoting STEAM to the local community. Gordon is a 2024 Army Educational Outreach Program AEOP Membership Council member. Gordon is deeply passionate about astronomy and environmental science. Gordon aims to use user-friendly AI education tools to support underrepresented communities.",
+    "new": false,
+    "hide": false,
+    "id": "gordonchen"
   }
 ]

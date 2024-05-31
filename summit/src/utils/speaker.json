@@ -1848,6 +1848,48 @@
     "id": "marinavieva"
   },
   {
+    "name": "Bosco Durai",
+    "job": "CTO & Co-Founder",
+    "tip": "Privacera",
+    "image": "boscodurai.jpg",
+    "website": "",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/donboscodurai/",
+    "detail": "boscodurai2.png",
+    "description": "Don Bosco Durai (Bosco) is a serial entrepreneur and thought leader in enterprise security. He is the co-creater of Apache Ranger, which is the de facto centralized authorization tool for most open source big data tools. Prior to founding Privacera, Bosco was also the co-founder of XASecure, which redefined access security at scale. XASecure was acquired by Hortonworks (now Cloudera) and the product became Apache Ranger.  Before that Bosco was the co-founder of Bharosa, which did fraud detection in real-time. Bharosa was acquired by Oracle and at Oracle, Bosco lead the modernization of access management for their Fortune 500 customers.",
+    "new": false,
+    "hide": false,
+    "id": "boscodurai"
+  },
+  {
+    "name": "Robertson Taylor",
+    "job": "Solutions Engineer",
+    "tip": "Marqo",
+    "image": "robertsontaylor.jpg",
+    "website": "",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/robertsonotaylor/",
+    "detail": "robertsontaylor2.png",
+    "description": "Robertson Taylor is a Solutions Engineer at Marqo, a company that helps customers surface relevant results from their data across multiple modalities. With a background in computer science from Georgia Tech, Taylor leverages his expertise in vector search and multimodal models to enable customers to implement cutting-edge search capabilities.",
+    "new": false,
+    "hide": false,
+    "id": "robertsontaylor"
+  },
+  {
+    "name": "Katherine Shealy",
+    "job": "Product Marketing Manager",
+    "tip": "Zuora",
+    "image": "katherineshealy.jpg",
+    "website": "",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/katherineshealy/",
+    "detail": "katherineshealy2.png",
+    "description": "Katherine Shealy is a Regional Sales Manager at Zuora, a leading provider of subscription management software. As a Regional Sales Manager, she plays a crucial role in driving Zuora's sales efforts and helping businesses transition to the subscription economy model. Zuora's platform enables companies to launch, manage, and monetize subscription-based products and services, allowing them to build recurring revenue streams and foster long-term customer relationships. With her problem-solving mindset and expertise, Katherine contributes to Zuora's mission of empowering businesses to succeed in the rapidly growing subscription economy.",
+    "new": false,
+    "hide": false,
+    "id": "katherineshealy"
+  },
+  {
     "name": "Gajanan Bhat",
     "job": "Founder & CEO",
     "tip": "iZen ai",
@@ -1860,6 +1902,20 @@
     "new": false,
     "hide": false,
     "id": "gajananbhat"
+  },
+  {
+    "name": "Kenta Tomura",
+    "job": "Head of SaaS Solutions",
+    "tip": "Zuora",
+    "image": "kentatomura.jpg",
+    "website": "",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/kentatomura/",
+    "detail": "kentatomura2.png",
+    "description": "Kenta Tomura is the Head of SaaS Solutions at Zuora, a leading subscription management platform. With a diverse background spanning technical consulting, solution architecture, and customer strategy roles, Tomura brings a wealth of experience to his current position. He is known for his empathy, knowledge, and unwavering commitment to delivering exceptional customer experiences, going above and beyond to support customers, teams, and the organization. Tomura's unique blend of business acumen, technical expertise, and strategic thinking enables him to drive impactful results at Zuora.",
+    "new": false,
+    "hide": false,
+    "id": "kentatomura"
   },
   {
     "name": "Dr. Johannes Eichstaedt",

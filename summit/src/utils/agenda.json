@@ -1726,20 +1726,6 @@
     {
       "day": 3,
       "room": "GPT Stage",
-      "time": "09:00-09:45",
-      "type": "Keynote",
-      "topic": "Top 3 Applications of Generative AI in Customer Experience",
-      "moderators": [
-      ],
-      "abstract": "",
-      "speakers": [
-        ["deonnicholas", "Deon Nicholas"]
-      ],
-      "hide": false
-    },
-    {
-      "day": 3,
-      "room": "GPT Stage",
       "time": "09:45-10:30",
       "type": "Keynote",
       "topic": "What Does AI Mean for Cloud Infrastructure",
@@ -1756,12 +1742,12 @@
       "room": "GPT Stage",
       "time": "10:30-11:15",
       "type": "Keynote",
-      "topic": "An Overview of Llama Models",
+      "topic": "Top 3 Applications of Generative AI in Customer Experience",
       "moderators": [
       ],
       "abstract": "",
       "speakers": [
-        ["sharannarang", "Sharan Narang"]
+        ["deonnicholas", "Deon Nicholas"]
       ],
       "hide": false
     },
@@ -1792,8 +1778,7 @@
       "speakers": [
         ["bobvanluijt", "Bob Van Luijt"],
         ["amrawadallah", "Amr Awadallah"],
-        ["alexanderratner", "Dr. Alexander Ratner"],
-        ["shirchorev", "Shir Chorev"]
+        ["alexanderratner", "Dr. Alexander Ratner"]
       ],
       "hide": false
     },
@@ -1945,7 +1930,7 @@
     {
       "day": 3,
       "room": "AGI Stage",
-      "time": "12:15-13:00",
+      "time": "12:00-12:45",
       "type": "Keynote",
       "topic": "LLMs: Present, Past and Future",
       "moderators": [

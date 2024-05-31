@@ -12,5 +12,12 @@
     "type": "url",
     "url": "https://drive.google.com/file/d/1Q__EqKwtHOXr54rbXe6eE1je-NEIAq2n/view",
     "hide": false
+  },
+  {
+    "id": 3,
+    "name": "GenAI Summit SF 2024 Feedback",
+    "type": "url",
+    "url": "https://forms.gle/WHUNRCzHNekNV9PS6",
+    "hide": false
   }
 ]

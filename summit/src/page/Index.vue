@@ -75,17 +75,9 @@
                     </div>
                   </div>
                 </div>
-                <button @click="scrollToSection('section4')">
+                <button @click="openUrl('https://forms.gle/pstnzZyne64qPyUj6')">
                   <div class="spinner0"></div>
-                  Agenda
-                </button>
-                <button @click="scrollToSection('resource_section')">
-                  <div class="spinner0"></div>
-                  Resources
-                </button>
-                <button @click="scrollToSection('maps_section')">
-                  <div class="spinner0"></div>
-                  Maps
+                  Give Us Feedback
                 </button>
               </div>
               <!--

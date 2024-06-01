@@ -443,6 +443,7 @@
       <!-- Media Section End -->
 
 
+      <!--
       <section id="maps_section" class="cointainer">
         <div class="bg-title" :class="screenWidth > 600 ? '' : 'mb'">
           <div
@@ -458,6 +459,7 @@
         </div>
         <MapSwiper />
       </section>
+      -->
       <!--
       <div class="section-number">
         <section class="cointainer">
@@ -1377,7 +1379,7 @@ import Media from "../components/Media.vue";
 import Booth from "../components/Booth.vue";
 import Resources from "../components/Resources.vue";
 import SpeakerModal from "../components/SpeakerModal.vue";
-import MapSwiper from "../components/MapSwiper.vue";
+// import MapSwiper from "../components/MapSwiper.vue";
 
 // import speakers from "../utils/speaker.js";
 import speakers from "../utils/speaker.json";
@@ -1889,7 +1891,7 @@ export default {
     AgendaCard,
     SpeakerModal,
     Resources,
-    MapSwiper,
+    // MapSwiper,
   },
   methods: {},
   mounted() {},

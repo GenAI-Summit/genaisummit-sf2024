@@ -1,84 +1,84 @@
 [
   {
     "name": "hyperboliclabs",
-    "image": "hyperboliclabs.png",
+    "image": "hyperboliclabs.webp",
     "url": "https://hyperbolic.xyz/",
     "topic": "",
     "description": ""
   },
   {
     "name": "Magstone Law",
-    "image": "magstonelaw.png",
+    "image": "magstonelaw.webp",
     "url": "https://www.magstonelaw.com/",
     "topic": "",
     "description": ""
   },
   {
     "name": "mountainlion",
-    "image": "mountainlion.png",
+    "image": "mountainlion.webp",
     "url": "https://www.mlion.ai/",
     "topic": "Unleashing the Power of Web3 Domain Experts: Leveraging Specialized LLMs and AI Agents",
     "description": ""
   },
   {
     "name": "generativex",
-    "image": "generativex.png",
+    "image": "generativex.webp",
     "url": "https://gen-x.co.jp/",
     "topic": "",
     "description": ""
   },
   {
     "name": "cloudfabrix",
-    "image": "cloudfabrix.png",
+    "image": "cloudfabrix.webp",
     "url": "https://www.cloudfabrix.com/",
     "topic": "Accelerate your Autonomous Enterprise Journey with GenAl, AlOps and Observability",
     "description": ""
   },
   {
     "name": "ushur",
-    "image": "ushur.png",
+    "image": "ushur.webp",
     "url": "https://ushur.com/",
     "topic": "Harnessing GenAI: Ushur's Approach to (e2e) Document Automation & Conversational AI",
     "description": ""
   },
   {
     "name": "rapidsoc2",
-    "image": "rapidsoc2.png",
+    "image": "rapidsoc2.webp",
     "url": "https://rapidsoc2.com/",
     "topic": "Information Security and Compliance for GenAI",
     "description": ""
   },
   {
     "name": "vimmerse",
-    "image": "vimmerse.png",
+    "image": "vimmerse.webp",
     "url": "https://www.vimmerse.net/",
     "topic": "Animate Your Visuals with Vimmerse",
     "description": "Come and learn how to transform your still images into dynamic videos that can engage with audiences like never before! Creators, designers, marketing agencies, and e-commerce businesses can animate all their assets in few clicks using the batch processing mode. The Vimmerse’s creators platform serves the state-of-art GenAI and parallax motions with control over motion shape, range, duration, and more! We will also demo our Canva and Shopify apps so that customers who are running businesses using those platforms can take advantage of Vimmerse capabilities seamlessly integrated there."
   },
   {
     "name": "Ayraa",
-    "image": "ayraa.png",
+    "image": "ayraa.webp",
     "url": "https://www.ayraa.io/",
     "topic": "RAGs Exposed: How to Build Your Own Enterprise AI Assistant",
     "description": ""
   },
   {
     "name": "SwarmOne",
-    "image": "swarmone.png",
+    "image": "swarmone.webp",
     "url": "https://swarmone.ai/",
     "topic": "",
     "description": ""
   },
   {
     "name": "digitate",
-    "image": "digitate.png",
+    "image": "digitate.webp",
     "url": "https://digitate.com/",
     "topic": "The Future of IT and Business Operations with AI-powered Insights and GenAI",
     "description": ""
   },
   {
     "name": "privacera",
-    "image": "privacera.png",
+    "image": "privacera.webp",
     "url": "https://privacera.com/",
     "topic": "Build a GenAI App with Safety Guardrails with Privacera",
     "description": "Discover how to securely build GenAI applications using Privacera AI Governance (PAIG), the industry's first comprehensive AI governance solution. Learn to merge data from multiple sources, implement classification-based filtering, and enforce fine-grained authorization protocols. Gain insights from Privacera experts to ensure your AI applications have robust data protection and compliance measures."

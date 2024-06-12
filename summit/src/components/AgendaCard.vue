@@ -71,7 +71,7 @@ export default {
     onMounted(() => {
       
     });
-    const dayActive = ref('day3')
+    const dayActive = ref('day1')
     return {
       screenWidth,
       dayActive,

@@ -1138,6 +1138,7 @@
           >
             Exhibition Opportunities
           </div>
+          <!--
           <div class="open-btn">
             <button>
               Take Your Place to Exhibit
@@ -1153,6 +1154,7 @@
               </div>
             </div>
           </div>
+          -->
         </div>
 
         

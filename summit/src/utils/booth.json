@@ -1,512 +1,512 @@
 [
   {
     "name": "microsoft",
-    "image": "microsoft2.png",
+    "image": "microsoft2.webp",
     "url": "https://www.microsoft.com"
   },
   {
     "name": "amazon",
-    "image": "amazon.png",
+    "image": "amazon.webp",
     "url": "https://www.amazon.com"
   },
   {
     "name": "ibm",
-    "image": "IBM2.png",
+    "image": "IBM2.webp",
     "url": ""
   },
   {
     "name": "iobc",
-    "image": "iobc.png",
+    "image": "iobc.webp",
     "url": "https://www.iobc.capital"
   },
   {
     "name": "zilliz",
-    "image": "zilliz.png",
+    "image": "zilliz.webp",
     "url": "https://zilliz.com"
   },
   {
     "name": "otter",
-    "image": "otter.png",
+    "image": "otter.webp",
     "url": "https://otter.ai"
   },
   {
     "name": "idaireland",
-    "image": "idaireland.png",
+    "image": "idaireland.webp",
     "url": "https://www.idaireland.com"
   },
   {
     "name": "iren",
-    "image": "iren.png",
+    "image": "iren.webp",
     "url": "https://iren.com/"
   },
   {
     "name": "abaka",
-    "image": "abaka.png",
+    "image": "abaka.webp",
     "url": "https://www.abaka.ai"
   },
   {
     "name": "mountainlion",
-    "image": "mountainlion.png",
+    "image": "mountainlion.webp",
     "url": "https://www.mlion.ai"
   },
   {
     "name": "espeed",
-    "image": "espeed.png",
+    "image": "espeed.webp",
     "url": ""
   },
   {
     "name": "puffer",
-    "image": "puffer.png",
+    "image": "puffer.webp",
     "url": "https://www.puffer.fi"
   },
   {
     "name": "exabits",
-    "image": "exabits.png",
+    "image": "exabits.webp",
     "url": "https://www.exabits.ai"
   },
   {
     "name": "94ai",
-    "image": "teleai.png",
+    "image": "teleai.webp",
     "url": "https://cn.94ai.com"
   },
   {
     "name": "akool",
-    "image": "akool.png",
+    "image": "akool.webp",
     "url": "https://akool.com"
   },
   {
     "name": "artxgallery",
-    "image": "artxgallery.png",
+    "image": "artxgallery.webp",
     "url": ""
   },
   {
     "name": "taskus",
-    "image": "taskus.png",
+    "image": "taskus.webp",
     "url": "https://www.taskus.com"
   },
   {
     "name": "1gen",
-    "image": "1gen.png",
+    "image": "1gen.webp",
     "url": "https://1gen.ai"
   },
   {
     "name": "covalent",
-    "image": "covalent.png",
+    "image": "covalent.webp",
     "url": "https://www.covalent.xyz"
   },
   {
     "name": "upmarket",
-    "image": "upmarket.png",
+    "image": "upmarket.webp",
     "url": "https://www.upmarket.co"
   },
   {
     "name": "generativex",
-    "image": "generativex.png",
+    "image": "generativex.webp",
     "url": "https://gen-x.co.jp"
   },
   {
     "name": "pinecone",
-    "image": "pinecone.png",
+    "image": "pinecone.webp",
     "url": "https://www.pinecone.io"
   },
   {
     "name": "chatmaster",
-    "image": "chatmaster.png",
+    "image": "chatmaster.webp",
     "url": "https://www.youtek.cc"
   },
   {
     "name": "finalize",
-    "image": "finalize.png",
+    "image": "finalize.webp",
     "url": "https://finalize.ai"
   },
   {
     "name": "aiads",
-    "image": "aiads.png",
+    "image": "aiads.webp",
     "url": "https://aiads.app"
   },
   {
     "name": "skalable",
-    "image": "skalable.png",
+    "image": "skalable.webp",
     "url": "https://skalabletech.com"
   },
   {
     "name": "telus",
-    "image": "telus.png",
+    "image": "telus.webp",
     "url": "https://telusinternational.com/aidata"
   },
   {
     "name": "fivetran",
-    "image": "fivetran.png",
+    "image": "fivetran.webp",
     "url": "https://www.fivetran.com"
   },
   {
     "name": "valory",
-    "image": "valory.png",
+    "image": "valory.webp",
     "url": "https://www.valory.xyz"
   },
   {
     "name": "hexus",
-    "image": "hexus.png",
+    "image": "hexus.webp",
     "url": "https://www.hexus.ai"
   },
   {
     "name": "aisera",
-    "image": "aisera.png",
+    "image": "aisera.webp",
     "url": "https://aisera.com/"
   },
   {
     "name": "vimmerse",
-    "image": "vimmerse.png",
+    "image": "vimmerse.webp",
     "url": "https://www.vimmerse.net"
   },
   {
     "name": "dekube",
-    "image": "dekube.png",
+    "image": "dekube.webp",
     "url": "https://dekube.ai/"
   },
   {
     "name": "faceai",
-    "image": "faceai.png",
+    "image": "faceai.webp",
     "url": "https://www.face.ai/"
   },
   {
     "name": "revia",
-    "image": "revia.png",
+    "image": "revia.webp",
     "url": "https://revia.tech"
   },
   {
     "name": "titi",
-    "image": "titi.png",
+    "image": "titi.webp",
     "url": "https://www.titiapp.ai"
   },
   {
     "name": "cloudfabrix",
-    "image": "cloudfabrix.png",
+    "image": "cloudfabrix.webp",
     "url": "https://www.cloudfabrix.com"
   },
   {
     "name": "scalegenai",
-    "image": "scalegenai.png",
+    "image": "scalegenai.webp",
     "url": "https://www.scalegen.ai"
   },
   {
     "name": "marqo",
-    "image": "marqo.png",
+    "image": "marqo.webp",
     "url": "https://www.marqo.ai/"
   },
   {
     "name": "conversight",
-    "image": "conversight.png",
+    "image": "conversight.webp",
     "url": "https://conversight.ai"
   },
   {
     "name": "wirestock",
-    "image": "wirestock.png",
+    "image": "wirestock.webp",
     "url": "https://wirestock.io/datasets"
   },
   {
     "name": "fiddler",
-    "image": "fiddler.png",
+    "image": "fiddler.webp",
     "url": "https://www.fiddler.ai"
   },
   {
     "name": "ayraa",
-    "image": "ayraa.png",
+    "image": "ayraa.webp",
     "url": "https://www.ayraa.io"
   },
   {
     "name": "jiffy",
-    "image": "jiffy.png",
+    "image": "jiffy.webp",
     "url": "https://jiffy.ai"
   },
   {
     "name": "hyperboliclabs",
-    "image": "hyperboliclabs.png",
+    "image": "hyperboliclabs.webp",
     "url": "https://hyperbolic.xyz"
   },
   {
     "name": "digitate",
-    "image": "digitate.png",
+    "image": "digitate.webp",
     "url": "https://digitate.com"
   },
   {
     "name": "magstonelaw",
-    "image": "magstonelaw.png",
+    "image": "magstonelaw.webp",
     "url": "https://www.magstonelaw.com"
   },
   {
     "name": "boothai",
-    "image": "boothai.png",
+    "image": "boothai.webp",
     "url": "https://www.booth.ai"
   },
   {
     "name": "gptworks",
-    "image": "gptworks.png",
+    "image": "gptworks.webp",
     "url": "https://www.gptworks.ai"
   },
   {
     "name": "zuora",
-    "image": "zuora.png",
+    "image": "zuora.webp",
     "url": "https://www.zuora.com/sulutions/accurately-capture-meter-usage"
   },
   {
     "name": "capsico",
-    "image": "capsico.png",
+    "image": "capsico.webp",
     "url": "https://www.capsicohealth.com"
   },
   {
     "name": "privacera",
-    "image": "privacera.png",
+    "image": "privacera.webp",
     "url": "https://privacera.com"
   },
   {
     "name": "gradient",
-    "image": "gradient.png",
+    "image": "gradient.webp",
     "url": "https://gradient.ai"
   },
   {
     "name": "orb",
-    "image": "orb.png",
+    "image": "orb.webp",
     "url": "https://www.withorb.com/ai"
   },
   {
     "name": "sparkware",
-    "image": "sparkware.png",
+    "image": "sparkware.webp",
     "url": ""
   },
   {
     "name": "upbeat",
-    "image": "upbeat.png",
+    "image": "upbeat.webp",
     "url": "https://www.upbeat.chat"
   },
   {
     "name": "fairip",
-    "image": "fairip.png",
+    "image": "fairip.webp",
     "url": ""
   },
   {
     "name": "swarmone",
-    "image": "swarmone.png",
+    "image": "swarmone.webp",
     "url": "https://swarmone.ai"
   },
   {
     "name": "aizip",
-    "image": "aizip.png",
+    "image": "aizip.webp",
     "url": "https://aizip.ai"
   },
   {
     "name": "mothertongue",
-    "image": "mothertongue.png",
+    "image": "mothertongue.webp",
     "url": "https://www.mothertongue.com"
   },
   {
     "name": "ivymax",
-    "image": "ivymax.png",
+    "image": "ivymax.webp",
     "url": "https://www.ivymax.com"
   },
   {
     "name": "atlas",
-    "image": "atlas.png",
+    "image": "atlas.webp",
     "url": "https://joinatlas.ai"
   },
   {
     "name": "moveworks",
-    "image": "moveworks.png",
+    "image": "moveworks.webp",
     "url": "https://www.moveworks.com"
   },
   {
     "name": "swiftsecurity",
-    "image": "swiftsecurity.png",
+    "image": "swiftsecurity.webp",
     "url": "https://swiftsecurity.ai"
   },
   {
     "name": "modlee",
-    "image": "modlee.png",
+    "image": "modlee.webp",
     "url": "https://www.modlee.ai"
   },
   {
     "name": "unitree",
-    "image": "unitree.png",
+    "image": "unitree.webp",
     "url": "https://www.unitree.com"
   },
   {
     "name": "enviate",
-    "image": "enviate.png",
+    "image": "enviate.webp",
     "url": "https://enviate.ai/home"
   },
   {
     "name": "onesourcecloud",
-    "image": "onesourcecloud.png",
+    "image": "onesourcecloud.webp",
     "url": "https://www.onesourcecloud.net"
   },
   {
     "name": "serviceful",
-    "image": "serviceful.png",
+    "image": "serviceful.webp",
     "url": "https://www.serviceful.com/"
   },
   {
     "name": "streetbeat",
-    "image": "streetbeat.png",
+    "image": "streetbeat.webp",
     "url": "https://streetbeat.com/en"
   },
   {
     "name": "glean",
-    "image": "glean.png",
+    "image": "glean.webp",
     "url": "https://www.glean.com"
   },
   {
     "name": "",
-    "image": "loldao.png",
+    "image": "loldao.webp",
     "url": "https://loldao.ai/"
   },
   {
     "name": "house",
-    "image": "house.png",
+    "image": "house.webp",
     "url": "https://house.com"
   },
   {
     "name": "qdrant",
-    "image": "qdrant.png",
+    "image": "qdrant.webp",
     "url": "https://qdrant.tech/"
   },
   {
     "name": "koyeb",
-    "image": "koyeb.png",
+    "image": "koyeb.webp",
     "url": "https://www.koyeb.com"
   },
   {
     "name": "motivitylabs",
-    "image": "motivitylabs.png",
+    "image": "motivitylabs.webp",
     "url": "https://motivitylabs.com"
   },
   {
     "name": "pointable",
-    "image": "pointable.png",
+    "image": "pointable.webp",
     "url": "https://www.pointable.ai"
   },
   {
     "name": "rapidsoc2",
-    "image": "rapidsoc2.png",
+    "image": "rapidsoc2.webp",
     "url": "https://rapidsoc2.com"
   },
   {
     "name": "teqfocus",
-    "image": "teqfocus.png",
+    "image": "teqfocus.webp",
     "url": "https://www.teqfocus.com"
   },
   {
     "name": "xiongmao",
-    "image": "xiongmao.png",
+    "image": "xiongmao.webp",
     "url": "https://www.hungrypanda.co"
   },
   {
     "name": "sineaptic",
-    "image": "sineaptic.png",
+    "image": "sineaptic.webp",
     "url": "https://sineaptic.com"
   },
   {
     "name": "ushur",
-    "image": "ushur.png",
+    "image": "ushur.webp",
     "url": "https://ushur.com"
   },
   {
     "name": "livex",
-    "image": "livex.png",
+    "image": "livex.webp",
     "url": "https://livex.ai"
   },
   {
     "name": "dmatrix",
-    "image": "dmatrix.png",
+    "image": "dmatrix.webp",
     "url": "https://www.d-matrix.ai"
   },
   {
     "name": "meii",
-    "image": "meii.png",
+    "image": "meii.webp",
     "url": "https://www.meii.ai"
   },
   {
     "name": "deepchecks",
-    "image": "deepchecks.png",
+    "image": "deepchecks.webp",
     "url": "https://www.deepchecks.com"
   },
   {
     "name": "deepabacus",
-    "image": "deepabacus.png",
+    "image": "deepabacus.webp",
     "url": "https://www.deepabacus.com"
   },
   {
     "name": "squidcloud",
-    "image": "squidcloud.png",
+    "image": "squidcloud.webp",
     "url": "https://squid.cloud"
   },
   {
     "name": "evaluable",
-    "image": "evaluable.png",
+    "image": "evaluable.webp",
     "url": "https://www.evaluable.ai"
   },
   {
     "name": "agent2ai",
-    "image": "agent2ai.png",
+    "image": "agent2ai.webp",
     "url": "https://agent2.ai/"
   },
   {
     "name": "network3",
-    "image": "network3.png",
+    "image": "network3.webp",
     "url": "https://network3.io"
   },
   {
     "name": "sider",
-    "image": "sider.png",
+    "image": "sider.webp",
     "url": "https://sider.ai/en"
   },
   {
     "name": "realloop",
-    "image": "realloop.png",
+    "image": "realloop.webp",
     "url": "https://www.realloop.com"
   },
   {
     "name": "nascentcore",
-    "image": "nascentcore.png",
+    "image": "nascentcore.webp",
     "url": "https://nascentcore.ai/en"
   },
   {
     "name": "starloom",
-    "image": "starloom.png",
+    "image": "starloom.webp",
     "url": "https://starloom.ai"
   },
   {
     "name": "citing",
-    "image": "citing.png",
+    "image": "citing.webp",
     "url": "https://citing.ai"
   },
   {
     "name": "utburst",
-    "image": "utburst.png",
+    "image": "utburst.webp",
     "url": "https://utburst.ai"
   },
   {
     "name": "intellimart",
-    "image": "intellimart.png",
+    "image": "intellimart.webp",
     "url": "https://www.intellimart.ai"
   },
   {
     "name": "genmall",
-    "image": "genmall.png",
+    "image": "genmall.webp",
     "url": "https://www.genmall.ai"
   },
   {
     "name": "arcticeider",
-    "image": "arcticeider.png",
+    "image": "arcticeider.webp",
     "url": "https://arcticeider.ai"
   },
   {
     "name": "magikid",
-    "image": "magikid.png",
+    "image": "magikid.webp",
     "url": "https://magikidlab.com"
   },
   {
     "name": "printsolar",
-    "image": "printsolar.png",
+    "image": "printsolar.webp",
     "url": "https://print.solar"
   }
 ]

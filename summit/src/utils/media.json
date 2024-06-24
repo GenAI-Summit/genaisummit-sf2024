@@ -1,127 +1,127 @@
 [
   {
     "name": "bloomberg",
-    "image": "bloomberg.png",
+    "image": "bloomberg.webp",
     "url": "https://www.bloomberg.com/",
     "hide": false
   },
   {
     "name": "washingtonpost",
-    "image": "washingtonpost.png",
+    "image": "washingtonpost.webp",
     "url": "https://www.washingtonpost.com/",
     "hide": false
   },
   {
     "name": "thenewyorktimes",
-    "image": "thenewyorktimes.png",
+    "image": "thenewyorktimes.webp",
     "url": "https://www.nytimes.com/",
     "hide": false
   },
   {
     "name": "nbcnews",
-    "image": "nbcnews.png",
+    "image": "nbcnews.webp",
     "url": "https://www.nbcnews.com/",
     "hide": false
   },
   {
     "name": "abc7",
-    "image": "abc7.png",
+    "image": "abc7.webp",
     "url": "https://abc7news.com/",
     "hide": false
   },
   {
     "name": "venturebeat",
-    "image": "venturebeat.png",
+    "image": "venturebeat.webp",
     "url": "https://venturebeat.com/",
     "hide": false
   },
   {
     "name": "businessinsider",
-    "image": "businessinsider.png",
+    "image": "businessinsider.webp",
     "url": "https://www.businessinsider.com/",
     "hide": false
   },
   {
     "name": "techcrunch",
-    "image": "techcrunch.png",
+    "image": "techcrunch.webp",
     "url": "https://techcrunch.com/",
     "hide": false
   },
   {
     "name": "sfchronicle",
-    "image": "sfchronicle.png",
+    "image": "sfchronicle.webp",
     "url": "https://www.sfchronicle.com/",
     "hide": false
   },
   {
     "name": "sfgate",
-    "image": "sfgate.png",
+    "image": "sfgate.webp",
     "url": "https://www.sfgate.com/",
     "hide": false
   },
   {
     "name": "gettyimages",
-    "image": "gettyimages.png",
+    "image": "gettyimages.webp",
     "url": "https://www.gettyimages.com/",
     "hide": false
   },
   {
     "name": "teleinfotoday",
-    "image": "teleinfotoday.png",
+    "image": "teleinfotoday.webp",
     "url": "https://www.teleinfotoday.com/",
     "hide": false
   },
   {
     "name": "cyberdefensemagazine",
-    "image": "cyberdefensemagazine.png",
+    "image": "cyberdefensemagazine.webp",
     "url": "https://www.cyberdefensemagazine.com/",
     "hide": false
   },
   {
     "name": "theregister",
-    "image": "theregister.png",
+    "image": "theregister.webp",
     "url": "https://www.theregister.com/",
     "hide": false
   },
   {
     "name": "avazona",
-    "image": "avazona.png",
+    "image": "avazona.webp",
     "url": "https://www.avazona.com/",
     "hide": false
   },
   {
     "name": "davidpaulmirrors",
-    "image": "davidpaulmirrors.png",
+    "image": "davidpaulmirrors.webp",
     "url": "http://www.davidpaulmorris.com/",
     "hide": false
   },
   {
     "name": "cgtn",
-    "image": "cgtn.png",
+    "image": "cgtn.webp",
     "url": "https://www.cgtn.com/",
     "hide": false
   },
   {
     "name": "ktsf26",
-    "image": "ktsf26.png",
+    "image": "ktsf26.webp",
     "url": "https://www.ktsf.com/",
     "hide": false
   },
   {
     "name": "jojogarden",
-    "image": "jojogarden.png",
+    "image": "jojogarden.webp",
     "url": "https://jojogarden.eventbrite.com/",
     "hide": false
   },
   {
     "name": "guigu101",
-    "image": "guigu101.png",
+    "image": "guigu101.webp",
     "url": "https://sv101.fireside.fm/",
     "hide": false
   },
   {
     "name": "siplanet",
-    "image": "siplanet.png",
+    "image": "siplanet.webp",
     "url": "",
     "hide": false
   }

@@ -1,2 +1,2 @@
 # genaisummit
-GenAI Summit
+GenAI Summit SF 2024

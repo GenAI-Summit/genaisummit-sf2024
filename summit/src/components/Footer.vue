@@ -7,7 +7,7 @@
         <div class="list">May 29 - May 31, 2024</div>
         <div class="list">Palace of Fine Arts, San Francisco, CA, 94123</div>
         <div class="list">genaix@gptdao.ai</div>
-        <div class="list h" @click="openUrl('https://linktr.ee/gptdao')">Contact us</div>
+        <div class="list h" @click="openUrl('https://form.gptdao.ai/contact')">Contact us</div>
        </div>
       </div>
       <div class="item">
